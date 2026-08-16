@@ -104,6 +104,8 @@ Continuing to use Ranked after that means you accept them.
 
 ---
 
-> **⚠️ Not legal advice.** Drafted by an engineer from the app's actual behaviour, not by a lawyer,
-> and not reviewed for any jurisdiction. The bracketed fields are unfilled. Have a lawyer read it
-> before publication.
+> **⚠️ Not legal advice.** Drafted by an engineer from the app's actual behaviour, not by a
+> lawyer, and not reviewed for any jurisdiction. Every operator and jurisdiction field is filled
+> as of 16.08.2026. Publishing this satisfies Apple; it does not make you compliant. Have a
+> lawyer read it once the app earns money.
+
