@@ -3,7 +3,7 @@ title: Terms of Use
 permalink: /terms/
 ---
 
-# Terms of Use — Ranked: Calisthenics Training
+# Terms of Use · Calisthenics Skills – Ranked
 
 **Last updated: 6 August 2026**
 

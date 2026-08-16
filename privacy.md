@@ -3,7 +3,7 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-# Privacy Policy — Ranked: Calisthenics Training
+# Privacy Policy · Calisthenics Skills – Ranked
 
 **Last updated: 6 August 2026**
 

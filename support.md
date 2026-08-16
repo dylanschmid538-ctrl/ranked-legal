@@ -3,7 +3,7 @@ title: Support
 permalink: /support/
 ---
 
-# Ranked — Support
+# Support · Calisthenics Skills – Ranked
 
 ## Get in touch
 
