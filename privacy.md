@@ -5,14 +5,13 @@ permalink: /privacy/
 
 # Privacy Policy · Calisthenics Skills – Ranked
 
-**Last updated: 6 August 2026**
+**Last updated: 17 August 2026**
 
 This policy describes what Ranked collects, where it goes, and what you can do about it. It was
 written against the app's actual code and database schema, not from a template — if something here
 is wrong, the code is the thing to check.
 
 Ranked is operated by **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Switzerland**, contact **dylan.schmid538@gmail.com**.
-*(These three fields must be filled in before publication. Apple requires a reachable controller.)*
 
 ---
 
@@ -52,8 +51,9 @@ When you sign in with Apple or Google, we receive and store a user identifier an
 what you allow at sign-in, an email address. This is handled by **Supabase**, which hosts our
 database and authentication.
 
-We store an Apple refresh token so that deleting your account can also revoke Ranked's access to
-your Apple ID, as Apple requires. It is used for nothing else.
+An Apple refresh token has one purpose only: so that deleting your account can also revoke
+Ranked's access to your Apple ID, as Apple requires. This link to Apple is not active yet — until
+it is, no refresh token is stored at all, and there is nothing to revoke.
 
 ### 3.2 Your leaderboard profile
 To place you on a leaderboard and to compare you against people of a similar build, the following
@@ -65,7 +65,9 @@ is stored on our server:
 
 **Note on visibility:** any signed-in Ranked user can look up a profile by its friend code. That is
 the purpose of a friend code — it exists to be handed to someone. Do not share yours with anyone
-you would not want seeing your entry.
+you would not want seeing your entry. What other users can see is your friend code and your
+position on a leaderboard — nothing else. Your age, sex and bodyweight are used for the
+comparison on the server and are never shown to, or downloadable by, other users.
 
 Your **height** is not sent. Your workout history is not sent.
 
@@ -160,8 +162,9 @@ app and we will locate and delete it by hand.
 You can, at any time:
 
 - **Delete your account** from Settings in the app. This deletes your server-side profile, your
-  friend connections and your verified attempt records, and revokes Ranked's access to your Apple
-  ID. Data stored only on your device is removed by deleting the app.
+  friend connections and your verified attempt records. Where an Apple refresh token is stored
+  for your account (see §3.1), it also revokes Ranked's access to your Apple ID. Data stored
+  only on your device is removed by deleting the app.
 - **Request a copy** of the data we hold about you, or ask us to correct it.
 - **Object to analytics.**
 - **Complain to a supervisory authority** in your country.
