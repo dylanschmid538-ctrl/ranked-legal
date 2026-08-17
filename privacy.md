@@ -141,7 +141,17 @@ under Article 25 ff. revDSG.
 ## 8. How long we keep it
 
 Account, profile, friends and verified attempt records are kept until you delete your account.
-Analytics events are retained by PostHog for **12 months**.
+Deleting the account removes them.
+
+Analytics events are kept for as long as PostHog's own retention applies to our plan. **Deleting
+your account does not delete them**, and we are being explicit about that rather than implying
+otherwise: the analytics profile is not connected to your account — it uses a separate,
+app-generated identifier — so there is no link by which we could find and remove it. What it
+contains is listed in §3.5: usage events, your rank, and the age, sex and bodyweight you entered.
+It carries no name, no email and no account id.
+
+If you want that profile removed as well, write to us with the approximate date you first used the
+app and we will locate and delete it by hand.
 
 ---
 
