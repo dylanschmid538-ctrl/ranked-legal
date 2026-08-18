@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Privacy Policy · Calisthenics Skills – Ranked
 
-**Last updated: 17 August 2026**
+**Last updated: 18 August 2026**
 
 This policy describes what Ranked collects, where it goes, and what you can do about it. It was
 written against the app's actual code and database schema, not from a template — if something here
@@ -51,9 +51,10 @@ When you sign in with Apple or Google, we receive and store a user identifier an
 what you allow at sign-in, an email address. This is handled by **Supabase**, which hosts our
 database and authentication.
 
-An Apple refresh token has one purpose only: so that deleting your account can also revoke
-Ranked's access to your Apple ID, as Apple requires. This link to Apple is not active yet — until
-it is, no refresh token is stored at all, and there is nothing to revoke.
+When you sign in with Apple, we also store the refresh token Apple hands us at that moment.
+It has one purpose only: deleting your account then also revokes Ranked's access to your Apple ID,
+as Apple requires. For accounts whose last sign-in happened before this capture existed, no token
+is stored — deletion then simply skips the revocation step.
 
 ### 3.2 Your leaderboard profile
 To place you on a leaderboard and to compare you against people of a similar build, the following
