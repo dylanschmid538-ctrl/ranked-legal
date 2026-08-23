@@ -7,7 +7,7 @@ permalink: /terms/pl/
 
 # Warunki korzystania · Calisthenics Skills – Ranked
 
-**Ostatnia aktualizacja: 6 sierpnia 2026 r.**
+**Ostatnia aktualizacja: 23 sierpnia 2026 r.**
 
 Aplikację Ranked prowadzi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Szwajcaria**, kontakt **dylan.schmid538@gmail.com**.
 *(Dane te należy uzupełnić przed publikacją.)*
@@ -101,8 +101,11 @@ pozostają nienaruszone.
 
 ## 10. Prawo właściwe
 
-Niniejsze warunki podlegają prawu **Lucerny w Szwajcarii**. Konsument zachowuje ochronę wynikającą z
-prawa miejsca swojego zamieszkania.
+Niniejsze warunki podlegają **prawu szwajcarskiemu**, z wyłączeniem jego norm kolizyjnych oraz
+Konwencji Narodów Zjednoczonych o umowach międzynarodowej sprzedaży towarów. Sądem właściwym jest
+sąd w **Lucernie w Szwajcarii**. Jeżeli użytkownik jest konsumentem, nie pozbawia go to ochrony
+wynikającej z bezwzględnie obowiązujących przepisów prawa państwa jego zamieszkania i może on
+również wytoczyć powództwo w tym państwie.
 
 ## 11. Zmiany
 

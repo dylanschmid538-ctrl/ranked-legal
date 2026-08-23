@@ -8,7 +8,7 @@ permalink: /privacy/de/
 
 # Datenschutzerklärung · Calisthenics Skills – Ranked
 
-**Zuletzt aktualisiert: 18. August 2026**
+**Zuletzt aktualisiert: 23. August 2026**
 
 Diese Erklärung beschreibt, was Ranked erhebt, wohin diese Daten gelangen und was Sie dagegen tun
 können. Sie wurde anhand des tatsächlichen Codes und des Datenbankschemas der App verfasst, nicht
@@ -139,10 +139,11 @@ nur das Minimum an den Server, das der Vergleich auf der Bestenliste benötigt.
 | Was | Grundlage |
 |---|---|
 | Konto und Anmeldung | Vertragserfüllung — die App setzt ein Konto voraus |
-| Bestenlisten-Profil | Einwilligung, erteilt durch die Nutzung der Bestenlisten-Funktion |
-| Aufzeichnungen verifizierter Versuche | Einwilligung, erteilt durch die Aufzeichnung eines Versuchs |
+| Alter, Geschlecht und Körpergewicht | Vertragserfüllung — der Rang wird anhand dieser Angaben normalisiert und kann ohne sie nicht berechnet werden |
+| Freundescode, Freundesgruppen | Vertragserfüllung — die Funktion ist der Grund, weshalb die Daten überhaupt bestehen |
+| Aufzeichnungen verifizierter Versuche und der Bestenlisten-Eintrag, den jede von ihnen erzeugt | Einwilligung, erteilt durch die bewusste Handlung der Aufzeichnung eines Versuchs. Sie widerrufen sie, indem Sie den Versuch auf der Seite der Stufe entfernen, wodurch der Eintrag gelöscht wird — siehe §9 |
 | Käufe | Vertragserfüllung |
-| Analyse | Berechtigtes Interesse an der Verbesserung der App; Sie können Widerspruch einlegen, siehe §9 |
+| Analyse | Berechtigtes Interesse an der Verbesserung der App; Sie können jederzeit in den Einstellungen Widerspruch einlegen, siehe §9 |
 
 **Hier gelten zwei Gesetze, nicht eines.** Ranked wird aus der Schweiz betrieben, daher gilt für
 diese Verarbeitung das revidierte Schweizer Bundesgesetz über den Datenschutz (**revDSG**, in Kraft
@@ -181,9 +182,14 @@ Sie können jederzeit:
   Konto ein Apple-Refresh-Token gespeichert ist (siehe §3.1), wird dadurch auch der Zugriff von
   Ranked auf Ihre Apple-ID widerrufen. Daten, die nur auf Ihrem Gerät gespeichert sind, werden
   durch das Löschen der App entfernt.
+- **Einen verifizierten Versuch zurückziehen**, auf der Seite der Stufe in der App. Das Entfernen
+  des Versuchs löscht die Aufzeichnung und den dadurch erzeugten Bestenlisten-Eintrag und nimmt
+  die durch die Aufzeichnung erteilte Einwilligung zurück. Durch den Widerruf wird die
+  Rechtmässigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht
+  berührt.
 - **Eine Kopie anfordern** der Daten, die wir über Sie gespeichert haben (Recht auf Auskunft), oder
   uns bitten, diese zu berichtigen.
-- **Der Analyse widersprechen.**
+- **Der Analyse widersprechen**, mit dem Schalter in den Einstellungen oder schriftlich an uns.
 - **Bei einer Aufsichtsbehörde** in Ihrem Land **Beschwerde einreichen**.
 
 Schreiben Sie für all dies an **dylan.schmid538@gmail.com**.

@@ -7,7 +7,7 @@ permalink: /privacy/pl/
 
 # Polityka prywatności · Calisthenics Skills – Ranked
 
-**Ostatnia aktualizacja: 18 sierpnia 2026 r.**
+**Ostatnia aktualizacja: 23 sierpnia 2026 r.**
 
 Niniejsza polityka opisuje, jakie dane zbiera Ranked, dokąd one trafiają i co użytkownik może w tej
 sprawie zrobić. Została sporządzona na podstawie rzeczywistego kodu aplikacji i schematu bazy
@@ -136,10 +136,11 @@ niezbędny do porównania w tabeli wyników.
 | Czego dotyczy | Podstawa |
 |---|---|
 | Konto i logowanie | Wykonanie umowy — aplikacja wymaga konta |
-| Profil w tabeli wyników | Zgoda, wyrażona przez skorzystanie z funkcji tabeli wyników |
-| Zapisy zweryfikowanych prób | Zgoda, wyrażona przez nagranie próby |
+| Wiek, płeć i masa ciała | Wykonanie umowy — ranga jest według nich normalizowana i bez nich nie da się jej obliczyć |
+| Kod znajomego, grupy znajomych | Wykonanie umowy — funkcja ta jest powodem, dla którego dane te w ogóle istnieją |
+| Zapisy zweryfikowanych prób oraz wpis w tabeli wyników tworzony przez każdy z nich | Zgoda, wyrażona przez świadome nagranie próby. Zgodę wycofuje się, usuwając próbę na stronie danego etapu, co usuwa wpis — zob. §9 |
 | Zakupy | Wykonanie umowy |
-| Dane analityczne | Prawnie uzasadniony interes polegający na ulepszaniu aplikacji; można wnieść sprzeciw, zob. §9 |
+| Dane analityczne | Prawnie uzasadniony interes polegający na ulepszaniu aplikacji; sprzeciw można wnieść w każdej chwili w Ustawieniach, zob. §9 |
 
 **Zastosowanie mają dwie ustawy, nie jedna.** Ranked jest prowadzony ze Szwajcarii, dlatego
 przetwarzanie to podlega zrewidowanej szwajcarskiej ustawie federalnej o ochronie danych
@@ -177,8 +178,13 @@ W każdej chwili można:
   powiązań ze znajomymi oraz zapisów zweryfikowanych prób. Jeżeli dla danego konta przechowywany
   jest token odświeżający Apple (zob. §3.1), cofa to również dostęp aplikacji Ranked do Apple ID
   użytkownika. Dane przechowywane wyłącznie na urządzeniu usuwa się przez usunięcie aplikacji.
+- **Wycofać zweryfikowaną próbę** na stronie danego etapu w aplikacji. Usunięcie próby powoduje
+  usunięcie zapisu oraz utworzonego przez niego wpisu w tabeli wyników i wycofuje zgodę wyrażoną
+  przez nagranie próby. Wycofanie zgody nie wpływa na zgodność z prawem przetwarzania, którego
+  dokonano na podstawie zgody przed jej wycofaniem.
 - **Zażądać kopii** danych, które o użytkowniku przechowujemy, lub poprosić o ich sprostowanie.
-- **Wnieść sprzeciw wobec danych analitycznych.**
+- **Wnieść sprzeciw wobec danych analitycznych** za pomocą przełącznika w Ustawieniach lub pisząc
+  do nas.
 - **Wnieść skargę do organu nadzorczego** w swoim kraju.
 
 W każdej z tych spraw prosimy pisać na adres **dylan.schmid538@gmail.com**.

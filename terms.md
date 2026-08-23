@@ -2,10 +2,9 @@
 title: Terms of Use
 permalink: /terms/
 ---
-
 # Terms of Use · Calisthenics Skills – Ranked
 
-**Last updated: 6 August 2026**
+**Last updated: 23 August 2026**
 
 Ranked is operated by **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Switzerland**, contact **dylan.schmid538@gmail.com**.
 *(Fill these in before publication.)*
@@ -94,8 +93,10 @@ are unaffected.
 
 ## 10. Governing law
 
-These terms are governed by the law of **Lucerne, Switzerland**. If you are a consumer, you keep the
-protections of the law where you live.
+These terms are governed by **Swiss law**, excluding its conflict-of-law rules and the UN
+Convention on Contracts for the International Sale of Goods. The place of jurisdiction is
+**Lucerne, Switzerland**. If you are a consumer, this does not take away the protections of the
+mandatory law of the country you live in, and you may also bring proceedings there.
 
 ## 11. Changes
 

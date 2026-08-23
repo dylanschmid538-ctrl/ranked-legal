@@ -7,7 +7,7 @@ permalink: /terms/fr/
 
 # Conditions d'utilisation · Calisthenics Skills – Ranked
 
-**Dernière mise à jour : 6 août 2026**
+**Dernière mise à jour : 23 août 2026**
 
 Ranked est exploitée par **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Suisse**, contact **dylan.schmid538@gmail.com**.
 *(À compléter avant publication.)*
@@ -105,8 +105,11 @@ droits légaux demeurent inchangés.
 
 ## 10. Droit applicable
 
-Les présentes conditions sont régies par le droit de **Lucerne, Suisse**. Si vous êtes un
-consommateur, vous conservez les protections du droit du lieu où vous résidez.
+Les présentes conditions sont régies par le **droit suisse**, à l'exclusion de ses règles de
+conflit de lois et de la Convention des Nations Unies sur les contrats de vente internationale de
+marchandises. Le for est à **Lucerne, Suisse**. Si vous êtes un consommateur, cela ne vous prive
+pas de la protection que vous assurent les dispositions impératives du droit du pays où vous
+résidez, et vous pouvez également agir en justice dans ce pays.
 
 ## 11. Modifications
 

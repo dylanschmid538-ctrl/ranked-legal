@@ -2,10 +2,9 @@
 title: Privacy Policy
 permalink: /privacy/
 ---
-
 # Privacy Policy · Calisthenics Skills – Ranked
 
-**Last updated: 18 August 2026**
+**Last updated: 23 August 2026**
 
 This policy describes what Ranked collects, where it goes, and what you can do about it. It was
 written against the app's actual code and database schema, not from a template — if something here
@@ -127,10 +126,11 @@ needs.
 | What | Basis |
 |---|---|
 | Account and sign-in | Performance of a contract — the app requires an account |
-| Leaderboard profile | Consent, given by using the leaderboard feature |
-| Verified attempt records | Consent, given by recording an attempt |
+| Age, sex and bodyweight | Performance of a contract — the rank is normalised by them and cannot be calculated without them |
+| Friend code, friend groups | Performance of a contract — the feature is the reason the data exists |
+| Verified Attempt records, and the leaderboard entry each one creates | Consent, given by the deliberate act of recording an attempt. Withdraw it by removing the attempt on the stage's page, which deletes the entry — see §9 |
 | Purchases | Performance of a contract |
-| Analytics | Legitimate interest in improving the app; you may object, see §9 |
+| Analytics | Legitimate interest in improving the app; you may object at any time in Settings, see §9 |
 
 **Two laws apply here, not one.** Ranked is operated from Switzerland, so the revised Swiss
 Federal Act on Data Protection (**revDSG**, in force since September 2023) governs this
@@ -166,8 +166,11 @@ You can, at any time:
   friend connections and your verified attempt records. Where an Apple refresh token is stored
   for your account (see §3.1), it also revokes Ranked's access to your Apple ID. Data stored
   only on your device is removed by deleting the app.
+- **Withdraw a Verified Attempt** from the stage's page in the app. Removing the attempt deletes
+  the record and the leaderboard entry it created, and takes back the consent given by recording
+  it. Withdrawing does not affect what was lawful before you withdrew.
 - **Request a copy** of the data we hold about you, or ask us to correct it.
-- **Object to analytics.**
+- **Object to analytics** with the switch in Settings, or by writing to us.
 - **Complain to a supervisory authority** in your country.
 
 Write to **dylan.schmid538@gmail.com** for any of these.

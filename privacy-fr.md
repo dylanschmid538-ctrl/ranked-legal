@@ -7,7 +7,7 @@ permalink: /privacy/fr/
 
 # Politique de confidentialité · Calisthenics Skills – Ranked
 
-**Dernière mise à jour : 18 août 2026**
+**Dernière mise à jour : 23 août 2026**
 
 La présente politique décrit ce que Ranked collecte, où ces données sont transmises et ce que vous
 pouvez faire à ce sujet. Elle a été rédigée à partir du code source et du schéma de base de données
@@ -142,10 +142,11 @@ classements.
 | Quoi | Base |
 |---|---|
 | Compte et connexion | Exécution d'un contrat — l'application requiert un compte |
-| Profil de classement | Consentement, donné par l'utilisation de la fonction de classement |
-| Enregistrements des tentatives vérifiées | Consentement, donné par l'enregistrement d'une tentative |
+| Âge, sexe et poids corporel | Exécution d'un contrat — le rang est normalisé en fonction de ces données et ne peut pas être calculé sans elles |
+| Code ami, groupes d'amis | Exécution d'un contrat — la fonctionnalité est la raison pour laquelle ces données existent |
+| Enregistrements des tentatives vérifiées, et l'entrée de classement que chacun d'eux crée | Consentement, donné par l'acte délibéré d'enregistrer une tentative. Vous le retirez en supprimant la tentative sur la page du palier, ce qui supprime l'entrée — voir §9 |
 | Achats | Exécution d'un contrat |
-| Statistiques d'utilisation | Intérêt légitime à améliorer l'application ; vous pouvez vous y opposer, voir §9 |
+| Statistiques d'utilisation | Intérêt légitime à améliorer l'application ; vous pouvez vous y opposer à tout moment dans les Réglages, voir §9 |
 
 **Deux lois s'appliquent ici, et non une seule.** Ranked est exploitée depuis la Suisse ; la loi
 fédérale suisse révisée sur la protection des données (**revDSG**, en vigueur depuis septembre
@@ -185,9 +186,14 @@ Vous pouvez, à tout moment :
   jeton d'actualisation Apple est conservé pour votre compte (voir §3.1), cela révoque également
   l'accès de Ranked à votre identifiant Apple. Les données stockées uniquement sur votre appareil
   sont supprimées en désinstallant l'application.
+- **Retirer une tentative vérifiée** depuis la page du palier dans l'application. La suppression
+  de la tentative supprime l'enregistrement ainsi que l'entrée de classement qu'elle a créée, et
+  retire le consentement donné par l'enregistrement. Le retrait du consentement ne compromet pas
+  la licéité du traitement fondé sur le consentement effectué avant ce retrait.
 - **Demander une copie** des données que nous détenons à votre sujet, ou nous demander de les
   rectifier.
-- **Vous opposer aux statistiques d'utilisation.**
+- **Vous opposer aux statistiques d'utilisation** au moyen du commutateur dans les Réglages, ou en
+  nous écrivant.
 - **Introduire une réclamation auprès d'une autorité de contrôle** de votre pays.
 
 Écrivez à **dylan.schmid538@gmail.com** pour l'un quelconque de ces droits.
