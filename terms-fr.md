@@ -107,7 +107,7 @@ droits légaux demeurent inchangés.
 
 Les présentes conditions sont régies par le **droit suisse**, à l'exclusion de ses règles de
 conflit de lois et de la Convention des Nations Unies sur les contrats de vente internationale de
-marchandises. Le for est à **Lucerne, Suisse**. Si vous êtes un consommateur, cela ne vous prive
+marchandises. Les tribunaux de **Lucerne, Suisse** sont compétents. Si vous êtes un consommateur, cela ne vous prive
 pas de la protection que vous assurent les dispositions impératives du droit du pays où vous
 résidez, et vous pouvez également agir en justice dans ce pays.
 

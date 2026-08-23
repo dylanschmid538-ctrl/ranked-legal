@@ -102,7 +102,7 @@ pozostają nienaruszone.
 ## 10. Prawo właściwe
 
 Niniejsze warunki podlegają **prawu szwajcarskiemu**, z wyłączeniem jego norm kolizyjnych oraz
-Konwencji Narodów Zjednoczonych o umowach międzynarodowej sprzedaży towarów. Sądem właściwym jest
+Konwencji Narodów Zjednoczonych o umowach międzynarodowej sprzedaży towarów (CISG). Sądem właściwym jest
 sąd w **Lucernie w Szwajcarii**. Jeżeli użytkownik jest konsumentem, nie pozbawia go to ochrony
 wynikającej z bezwzględnie obowiązujących przepisów prawa państwa jego zamieszkania i może on
 również wytoczyć powództwo w tym państwie.

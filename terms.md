@@ -94,7 +94,7 @@ are unaffected.
 ## 10. Governing law
 
 These terms are governed by **Swiss law**, excluding its conflict-of-law rules and the UN
-Convention on Contracts for the International Sale of Goods. The place of jurisdiction is
+Convention on Contracts for the International Sale of Goods (CISG). The place of jurisdiction is
 **Lucerne, Switzerland**. If you are a consumer, this does not take away the protections of the
 mandatory law of the country you live in, and you may also bring proceedings there.
 

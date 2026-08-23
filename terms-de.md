@@ -107,7 +107,7 @@ Rechte unberührt.
 ## 10. Anwendbares Recht
 
 Diese Bedingungen unterliegen **Schweizer Recht** unter Ausschluss seiner Kollisionsnormen und
-des Übereinkommens der Vereinten Nationen über Verträge über den internationalen Warenkauf.
+des Übereinkommens der Vereinten Nationen über Verträge über den internationalen Warenkauf (CISG).
 Gerichtsstand ist **Luzern, Schweiz**. Wenn Sie Verbraucherin oder Verbraucher sind, entzieht
 Ihnen dies nicht den Schutz der zwingenden Vorschriften des Rechts des Staates, in dem Sie Ihren
 Wohnsitz haben, und Sie können auch dort Klage erheben.
