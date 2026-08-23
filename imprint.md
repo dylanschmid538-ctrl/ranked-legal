@@ -20,7 +20,7 @@ Verantwortlich für den Inhalt / Responsible for content: Monica Dede Schmid, An
 
 ## Angebot / Service
 
-„Ranked" — eine iOS-App für Calisthenics-Training, vertrieben über den Apple App Store.
+„Ranked“ — eine iOS-App für Calisthenics-Training, vertrieben über den Apple App Store.
 
 - [Datenschutzerklärung / Privacy Policy](../privacy/)
 - [Nutzungsbedingungen / Terms of Use](../terms/)
