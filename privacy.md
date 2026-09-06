@@ -2,6 +2,9 @@
 title: Privacy Policy
 permalink: /privacy/
 ---
+
+> **Other languages:** [Deutsch](de/) · [Français](fr/) · [Polski](pl/) · [Slovenčina](sk/) · [Slovenščina](sl/) · [Lietuvių](lt/) · [Latviešu](lv/) · [العربية](ar/) · [עברית](he/)
+
 # Privacy Policy · Calisthenics Skills – Ranked
 
 **Last updated: 4 September 2026**

@@ -2,6 +2,9 @@
 title: Terms of Use
 permalink: /terms/
 ---
+
+> **Other languages:** [Deutsch](de/) · [Français](fr/) · [Polski](pl/) · [Slovenčina](sk/) · [Slovenščina](sl/) · [Lietuvių](lt/) · [Latviešu](lv/) · [العربية](ar/) · [עברית](he/)
+
 # Terms of Use · Calisthenics Skills – Ranked
 
 **Last updated: 4 September 2026**
