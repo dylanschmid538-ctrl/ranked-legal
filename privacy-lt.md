@@ -1,209 +1,226 @@
 ---
-title: Privatumo politika
+title: Privatumo politika · Calisthenics Skills – Ranked
 permalink: /privacy/lt/
 ---
 
-*Tai yra vertimas. Esant neatitikimų, pirmenybė teikiama angliškajai versijai, pateikiamai adresu https://dylanschmid538-ctrl.github.io/ranked-legal/privacy/.*
+> *Tai vertimas. Esant neatitikimams, galioja angliška versija adresu
+> https://dylanschmid538-ctrl.github.io/ranked-legal/privacy/.*
 
 # Privatumo politika · Calisthenics Skills – Ranked
 
-**Paskutinį kartą atnaujinta: 2026 m. rugpjūčio 23 d.**
+**Paskutinį kartą atnaujinta: 2026 m. rugsėjo 4 d.**
 
-Šioje politikoje aprašoma, kokius duomenis renka „Ranked“, kur jie patenka ir ką Jūs galite dėl to
-padaryti. Ji parengta pagal faktinį programėlės kodą ir duomenų bazės struktūrą, o ne pagal šabloną
-— jeigu kas nors čia neteisinga, tikrinti reikia kodą.
+Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti. Ji
+parengta pagal tikrąjį programėlės kodą, o ne pagal šabloną — jeigu kas nors čia neteisinga,
+sprendžia kodas.
 
-„Ranked“ valdo **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Šveicarija**, kontaktai **dylan.schmid538@gmail.com**.
+„Ranked“ valdo **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Šveicarija**, kontaktas
+**dylan.schmid538@gmail.com**. Ji yra čia aprašyto tvarkymo valdytoja.
 
 ---
 
-## 1. Trumpoji versija
+## 1. Trumpai
 
-Beveik viskas, ką „Ranked“ žino apie Jūsų treniruotes, lieka Jūsų telefone. Jūsų treniruočių
-istorija, Jūsų pažanga kiekviename įgūdyje, Jūsų reitingas ir Jūsų kūno žemėlapis saugomi vietoje ir
-niekada nėra įkeliami.
+„Ranked“ neturi **naudotojų paskyrų ir neturi savo serverio.** Viskas, kas susiję su Jūsų
+treniruotėmis — kiekvienas užregistruotas priėjimas, Jūsų pažanga kiekviename įgūdyje, Jūsų
+reitingas, Jūsų Power Level, Jūsų kūno žemėlapis — saugoma Jūsų telefone ir niekada niekur
+neįkeliama.
 
-Iš Jūsų įrenginio išsiunčiami keturi dalykai: Jūsų prisijungimo tapatybė, nedidelis profilis,
-naudojamas lyderių lentelėms, įrašai apie tai, kad atlikote patvirtintą bandymą, ir anoniminė
-naudojimo analitika. Kiekvienas iš jų paaiškinamas toliau.
+**Jūsų amžius, lytis, ūgis ir kūno svoris niekada nepalieka Jūsų įrenginio.** Reitingo formulė juos
+naudoja Jūsų telefone. Jie nesiunčiami nei mums, nei analitikos paslaugai.
 
-**Jūsų patvirtintų bandymų (Verified Attempt) vaizdo įrašai niekada nepalieka Jūsų įrenginio.**
-Siunčiamas tik failo skaitmeninis atspaudas.
+Jūsų įrenginį palieka du dalykai, ir tik šie du:
+
+1. **Anoniminė naudojimo statistika**, kad matytume, kaip programėlė naudojama. Ją galite bet kada
+   išjungti programėlėje.
+2. **Pirkimo duomenys**, kad būtų galima patikrinti „App Store“ prenumeratą. Mokėjimą tvarko
+   „Apple“; Jūsų mokėjimo duomenų mes niekada nematome.
+
+„Ranked“ neseka Jūsų kitose programėlėse ar svetainėse, nerodo reklamos ir nieko neskaito iš
+„Apple“ programėlės „Sveikata“.
 
 ---
 
 ## 2. Kas lieka Jūsų įrenginyje
 
-Vietoje, pačios programėlės duomenų bazėje, saugoma ir niekada neperduodama:
+Saugoma pačios programėlės duomenų bazėje Jūsų telefone ir niekada neperduodama:
 
-- Kiekviena Jūsų užregistruota treniruotė, serija, pakartojimas, išlaikymas ir papildomas svoris
-- Jūsų pažanga kiekviename įgūdyje ir pakopoje bei Jūsų reitingo istorija
-- Jūsų treniruočių planas, tvarkaraštis ir nuostatos
-- Jūsų kūno matmenys tokie, kokius juos įvedėte (amžius, lytis, ūgis, kūno svoris) — dalies šių
-  duomenų kopija taip pat siunčiama lyderių lentelės paslaugai, žr. 3.2 skirsnį
-- **Patvirtintų bandymų vaizdo įrašų failai.** Jie įrašomi į privačią programėlės saugyklą. Jie nėra
-  įkeliami, nėra atsarginėmis kopijomis kopijuojami į mūsų serverius ir mums neprieinami.
+- Kiekviena treniruotė, priėjimas, pakartojimas, išlaikymas ir papildomas svoris, kurį
+  užregistruojate
+- Jūsų pažanga kiekviename įgūdyje ir pakopoje, Jūsų reitingo istorija ir Jūsų Power Level
+- Jūsų treniruočių planas, tvarkaraštis, priminimai ir nuostatos
+- Jūsų kūno matmenys tokie, kokius įvedėte (amžius, lytis, ūgis, kūno svoris)
+- Jūsų treniruočių užrašai
 
-Ištrynus programėlę, visa tai ištrinama. Mes to atkurti negalime.
+Programėlė neišskiria šios duomenų bazės iš Jūsų įrenginio atsarginės kopijos. Jei naudojate
+„iCloud“ atsarginę kopiją arba kopiją kompiuteryje, Jūsų treniruočių duomenys yra jos dalis ir
+grįžta atkuriant — „Apple“ sąlygomis, ne mūsų.
+
+Programėlės ištrynimas ištrina visa tai iš įrenginio. Mes to atkurti negalime, nes niekada to
+neturėjome.
 
 ---
 
 ## 3. Kas palieka Jūsų įrenginį
 
-### 3.1 Jūsų paskyra
-Kai prisijungiate su Apple arba Google, mes gauname ir saugome naudotojo identifikatorių ir,
-priklausomai nuo to, ką leidžiate prisijungdami, el. pašto adresą. Tai tvarko **Supabase**, kuri
-priglobia mūsų duomenų bazę ir autentifikavimą.
+### 3.1 Naudojimo statistika (PostHog)
 
-Kai prisijungiate su Apple, mes taip pat išsaugome atnaujinimo prieigos raktą (refresh token), kurį
-tuo metu mums perduoda Apple. Jis turi tik vieną paskirtį: ištrynus Jūsų paskyrą, taip pat
-panaikinama „Ranked“ prieiga prie Jūsų Apple ID, kaip to reikalauja Apple. Paskyroms, kurių
-paskutinis prisijungimas įvyko dar prieš atsirandant šiam fiksavimui, joks prieigos raktas nėra
-saugomas — tuomet ištrinant panaikinimo veiksmas tiesiog praleidžiamas.
+Naudojame **PostHog**, talpinamą **Europos Sąjungoje**, kad suprastume, kaip programėlė naudojama.
+Programėlė jam siunčia nustatytą įvykių sąrašą:
 
-### 3.2 Jūsų lyderių lentelės profilis
-Kad galėtume Jus įtraukti į lyderių lentelę ir palyginti su panašaus kūno sudėjimo žmonėmis, mūsų
-serveryje saugoma:
+- kurį nustatymo žingsnį pasiekėte, užbaigėte ar iš kurio grįžote ir kiek laiko truko kiekvienas;
+- ką parodė pradinis įvertinimas: kiek įgūdžių linijų ir pakopų nurodėte, kurį įgūdį pasirinkote
+  tikslu, koks buvo Jūsų pradinis reitingas ir kiekvienos iš šešių Jūsų kūno sričių reitingas;
+- kada buvo parodytas ar uždarytas pirkimo ekranas ir kada pirkimas buvo pradėtas, užbaigtas ar
+  atkurtas — su atitinkamu produktu ir pasiūlymu;
+- kada pasikeitė Jūsų reitingas ir kuris įgūdis tai sukėlė;
+- kada įveikėte pakopą — kuris įgūdis, kuri pakopa ir ar tai atsirado iš užregistruoto priėjimo,
+  vėliau įrašytos treniruotės ar rankinio nurodymo;
+- kuriuos ekranus atidarote ir kada baigiasi sesija. Sesijos pabaigos įvykis neturi jokių detalių:
+  nei pratimų, nei priėjimų, nei skaičių.
 
-- atsitiktinai sugeneruotas **draugo kodas**
-- Jūsų **amžius**, **lytis** ir **kūno svoris**
-- Jūsų profilio sukūrimo data
+„PostHog“ programinė įranga programėlėje prie kiekvieno įvykio dar prideda įprastą techninę
+informaciją — įrenginio modelį, „iOS“ versiją, programėlės versiją, kalbą ir laiko juostą — ir
+fiksuoja, kada programėlė atidaroma ir perkeliama į foną. Kaip ir bet kuri interneto paslauga,
+„PostHog“ gauna užklausos IP adresą; iš jo gali nustatyti apytikslę vietą (šalį arba miestą).
 
-**Pastaba dėl matomumo:** bet kuris prisijungęs „Ranked“ naudotojas gali rasti profilį pagal jo
-draugo kodą. Tokia ir yra draugo kodo paskirtis — jis skirtas kam nors perduoti. Nesidalykite savuoju
-su tais, kuriems nenorėtumėte parodyti savo įrašo. Kiti naudotojai mato Jūsų draugo kodą ir Jūsų
-vietą lyderių lentelėje — daugiau nieko. Jūsų amžius, lytis ir kūno svoris naudojami palyginimui
-serveryje ir niekada nėra rodomi kitiems naudotojams ar jų atsisiunčiami.
+**Ko ten nėra:** jokio vardo, jokio el. pašto adreso (programėlė jo niekada neprašo), jokio paskyros
+identifikatoriaus (paskyrų nėra), nei amžiaus, lyties, ūgio ar kūno svorio, ir jokio Jūsų
+treniruočių turinio.
 
-Jūsų **ūgis** nesiunčiamas. Jūsų treniruočių istorija nesiunčiama.
+**Kaip Jūs atpažįstamas:** pirmą kartą paleidus programėlę, „PostHog“ sukuria atsitiktinį
+identifikatorių ir įrašo jį Jūsų įrenginyje. Visi įvykiai grupuojami pagal šį identifikatorių.
+Programėlė niekada nesako „PostHog“, kas Jūs esate, ir nėra ko sakyti — nėra nei paskyros, nei el.
+pašto.
 
-### 3.3 Patvirtinti bandymai
-Kai įrašote patvirtintą bandymą, mes išsaugome: Jūsų naudotojo id, kurio įgūdžio ir pakopos buvo
-bandymas, **kriptografinę vaizdo įrašo failo maišos reikšmę (hash)** ir įrašymo laiką.
+**Išjungimas:** Nustatymai ▸ Privatumas ▸ *Dalytis anoniminiais naudojimo duomenimis*. Tai išjungus,
+programėlė nuo tos akimirkos nebesiunčia įvykių. Nuostata saugoma Jūsų įrenginyje ir išlieka po
+programėlės atnaujinimų.
 
-Maišos reikšmė yra skaitmeninis atspaudas. Jos negalima paversti atgal į vaizdo įrašą. Ji egzistuoja
-tam, kad bandymą būtų galima susieti su konkrečiu įrašu taip, kad tas įrašas niekada nepaliktų Jūsų
-telefono.
+### 3.2 „Apple Search Ads“ priskyrimas
 
-### 3.4 Draugai
-Jeigu ką nors pridedate pagal jo draugo kodą, mes išsaugome ryšį tarp Jūsų ir jo paskyros bei Jūsų
-narystę bet kurioje draugų grupėje.
+Jei „Ranked“ įdiegėte bakstelėję „Apple Search Ads“ skelbimą, programėlė pirmą kartą paleista vieną
+kartą paklausia „Apple“, iš kur atsirado diegimas. „Apple“ atsako nurodydama to skelbimo kampaniją,
+skelbimų grupę, raktažodį ir kūrybinį rinkinį, paspaudimo šalį ar regioną, paspaudimo datą ir tai,
+ar tai buvo naujas, ar pakartotinis atsisiuntimas. Programėlė šias reikšmes prijungia prie anoniminio
+„PostHog“ identifikatoriaus, aprašyto §3.1, kad kiekvieną vėlesnį įvykį būtų galima priskirti Jus
+atvedusiam skelbimui.
 
-### 3.5 Naudojimo analitika
-Mes naudojame **PostHog**, priglobtą **Europos Sąjungoje**, kad suprastume, kaip programėlė
-naudojama. Mes registruojame tokius įvykius kaip tai, kurį įvadinio nustatymo žingsnį pasiekėte,
-kada buvo užbaigta treniruotė, kada pasikeitė reitingas ir ar buvo parodytas arba uždarytas pirkimo
-ekranas.
+Tam naudojama „Apple“ **AdServices** sąranga, kuri neapima reklamos identifikatoriaus (IDFA) ir
+kurios „Apple“ nelaiko sekimu — todėl jokio sekimo leidimo lango nerodoma. Jei atėjote ne per
+skelbimą, „Apple“ tai pasako ir niekas neprijungiama. Išjungus naudojimo statistiką (§3.1),
+sustabdomas ir šis veiksmas.
 
-Šie įvykiai apima Jūsų reitingą ir Jūsų pažangą programėlėje. Jie **neapima** Jūsų vardo, el. pašto,
-ūgio ar Jūsų treniruočių turinio.
+### 3.3 Pirkiniai („Apple“ ir „RevenueCat“)
 
----
+Prenumeratas parduoda ir apmoka **„Apple“** per „App Store“. Jūsų mokėjimo duomenų, Jūsų „Apple“
+paskyros ir Jūsų vardo mes niekada nematome.
 
-## 4. Pirkiniai
+Kad patikrintų, ar Jūsų prenumerata galioja, programėlė naudoja **„RevenueCat“**. „RevenueCat“ gauna
+Jūsų prenumeratos „App Store“ pirkimo įrašą — koks produktas nupirktas, kada jis prasidėjo ir kada
+baigiasi — kartu su įprasta technine informacija, pavyzdžiui, Jūsų „iOS“ versija ir programėlės
+versija. Jūsų diegimą jis atpažįsta pagal atsitiktinį identifikatorių, kurį pats sukuria ir įrašo
+Jūsų įrenginyje. „RevenueCat“ neduodame nei Jūsų vardo, nei el. pašto adreso, nei jokios kitos
+tapatybės, o kadangi „Ranked“ neturi paskyrų, jos ir nėra ką duoti.
 
-Prenumeratas tvarko **Apple**. Mes niekada nematome Jūsų mokėjimo duomenų. **RevenueCat** mūsų vardu
-tvarko Jūsų prenumeratos būseną ir gauna pseudonimizuotą identifikatorių bei Jūsų prenumeratos
-būseną. Pats pirkimo ekranas yra programėlės dalis; joks trečiasis asmuo nesprendžia, kuris ekranas
-Jums bus parodytas.
-
----
-
-## 5. Kamera ir mikrofonas
-
-„Ranked“ prašo prieigos prie kameros ir mikrofono dėl vienos funkcijos: patvirtinto bandymo įrašymo.
-Įrašas išsaugomas Jūsų įrenginyje. Jis niekada nėra įkeliamas. Jeigu atsisakysite, visos kitos
-programėlės dalys veiks toliau.
+Kai bakstelite **Atkurti pirkinius**, programėlė paklausia „Apple“ apie pirkinius, atliktus
+įrenginyje prisijungusia „Apple“ paskyra, ir rezultatą tuo pačiu būdu perduoda „RevenueCat“.
 
 ---
 
-## 6. Sveikatos duomenys
+## 4. Ko „Ranked“ nedaro
 
-„Ranked“ **neskaito** duomenų iš Apple Health ir į ją nerašo.
-
-Jūsų amžius, lytis ir kūno svoris yra su sveikata susiję duomenys ir pagal BDAR jie gali būti
-laikomi duomenimis apie sveikatą. Mes juos renkame vienu tikslu — reitingo formulė normalizuoja
-rezultatus pagal kūno sudėjimą, kad 95 kg sveriančio ir 60 kg sveriančio sportininko, išlaikančių tą
-pačią svarstyklę, rezultatai nebūtų vertinami taip, tarsi jie padarė tą patį — ir į serverį
-siunčiame tik tiek jų, kiek būtina lyderių lentelės palyginimui.
+- **Jokių paskyrų.** Jūs niekada neprisijungiate. Jokiame serveryje nėra Jūsų profilio.
+- **Jokio „Apple Sveikata“.** „Ranked“ nei skaito iš programėlės „Sveikata“, nei į ją rašo.
+- **Jokios kameros, nuotraukų, mikrofono, vietos ar kontaktų.** Programėlė neprašo nė vieno iš šių
+  leidimų.
+- **Jokio sekimo tarp programėlių ar svetainių**, jokio reklamos identifikatoriaus, jokios reklamos
+  programėlėje, jokių duomenų, parduodamų ar perduodamų duomenų tarpininkams.
+- **Jokio pranešimų serverio.** Priminimai, kuriuos „Ranked“ gali siųsti, planuojami vietoje, Jūsų
+  telefone; niekas apie juos įrenginio nepalieka. Prieš pirmąjį Jūsų paklausiama, o išjungti juos
+  galite bet kada „iOS“ nustatymuose.
 
 ---
 
-## 7. Teisinis pagrindas (BDAR ir Šveicarijos revDSG)
+## 5. Teisinis pagrindas (BDAR ir Šveicarijos revDSG)
 
 | Kas | Pagrindas |
 |---|---|
-| Paskyra ir prisijungimas | Sutarties vykdymas — programėlei reikalinga paskyra |
-| Amžius, lytis ir kūno svoris | Sutarties vykdymas — pagal juos normalizuojamas reitingas, be jų jo apskaičiuoti neįmanoma |
-| Draugo kodas, draugų grupės | Sutarties vykdymas — funkcija yra pati priežastis, dėl kurios šie duomenys egzistuoja |
-| Patvirtintų bandymų įrašai ir kiekvieno jų sukuriamas lyderių lentelės įrašas | Sutikimas, duotas sąmoningu bandymo įrašymo veiksmu. Jį atšaukiate pašalindami bandymą atitinkamos pakopos puslapyje, taip ištrindami įrašą — žr. 9 skirsnį |
-| Pirkiniai | Sutarties vykdymas |
-| Analitika | Teisėtas interesas tobulinti programėlę; bet kada galite nesutikti nustatymuose (Settings), žr. 9 skirsnį |
+| Pirkiniai ir prenumeratos patikrinimas (§3.3) | Sutarties vykdymas |
+| Naudojimo statistika (§3.1) | Teisėtas interesas suprasti ir tobulinti programėlę; galite bet kada nesutikti ją išjungdami, žr. §8 |
+| „Search Ads“ priskyrimas (§3.2) | Teisėtas interesas žinoti, kuri reklama veikia; nesutikimas kaip aukščiau |
 
-**Čia taikomi du teisės aktai, ne vienas.** „Ranked“ valdoma iš Šveicarijos, todėl šiam duomenų
-tvarkymui taikomas peržiūrėtas Šveicarijos federalinis duomenų apsaugos įstatymas (**revDSG**,
-galiojantis nuo 2023 m. rugsėjo mėn.). **BDAR** taikomas papildomai visais atvejais, kai programėle
-naudojamasi iš Europos Sąjungos arba Jungtinės Karalystės. Kai šie du teisės aktai skiriasi, mes
-laikomės griežtesniojo. Šveicarijos gyventojai turi tas pačias pagrindines teises, išvardytas 9
-skirsnyje — teisę susipažinti su duomenimis, teisę reikalauti ištaisyti duomenis, teisę reikalauti
-ištrinti duomenis, teisę į duomenų perkeliamumą ir teisę nesutikti — pagal revDSG 25 ir paskesnius
-straipsnius.
+**Čia taikomos dvi teisės sistemos, ne viena.** „Ranked“ valdoma iš Šveicarijos, todėl šį tvarkymą
+reglamentuoja peržiūrėtas Šveicarijos federalinis duomenų apsaugos įstatymas (**revDSG**, galiojantis
+nuo 2023 m. rugsėjo). **BDAR** taikomas papildomai visur, kur programėlė naudojama iš Europos
+Sąjungos ar Jungtinės Karalystės. Kur abu skiriasi, laikomės griežtesnio. Šveicarijoje gyvenantys
+asmenys turi tas pačias pagrindines teises, išvardytas §8, pagal revDSG 25 ir tolesnius straipsnius.
 
 ---
 
-## 8. Kiek laiko saugome duomenis
+## 6. Kur duomenys tvarkomi
 
-Paskyros, profilio, draugų ir patvirtintų bandymų įrašai saugomi tol, kol ištrinsite savo paskyrą.
-Ištrynus paskyrą, jie pašalinami.
-
-Analitikos įvykiai saugomi tiek laiko, kiek pagal mūsų planą taikoma paties PostHog saugojimo
-trukmė. **Jūsų paskyros ištrynimas jų neištrina**, ir mes tai pasakome tiesiai, o ne užsimename apie
-priešingai: analitikos profilis nėra susietas su Jūsų paskyra — jame naudojamas atskiras,
-programėlės sugeneruotas identifikatorius — todėl nėra jokios sąsajos, pagal kurią galėtume jį rasti
-ir pašalinti. Kas jame yra, išvardyta 3.5 skirsnyje: naudojimo įvykiai, Jūsų reitingas ir Jūsų
-įvestas amžius, lytis bei kūno svoris. Jame nėra nei vardo, nei el. pašto, nei paskyros id.
-
-Jeigu norite, kad būtų pašalintas ir tas profilis, parašykite mums nurodydami apytikslę datą, kada
-pirmą kartą pasinaudojote programėle, ir mes jį surasime bei ištrinsime rankiniu būdu.
+- **„PostHog“** tvarko naudojimo statistiką Europos Sąjungoje.
+- **„RevenueCat, Inc.“** įsikūrusi Jungtinėse Valstijose ir ten tvarko §3.3 aprašytus pirkimo
+  duomenis.
+- **„Apple“** tvarko patį pirkimą ir „Search Ads“ priskyrimo užklausą pagal savo privatumo politiką,
+  kuri Jūsų „Apple“ paskyrai taikoma nepriklausomai nuo šios programėlės.
 
 ---
 
-## 9. Jūsų teisės
+## 7. Kiek laiko saugome duomenis
 
-Jūs bet kada galite:
+Naudojimo statistika saugoma tiek, kiek galioja „PostHog“ saugojimo terminas mūsų planui. Nežadame
+konkretaus mėnesių skaičiaus, nes „PostHog“ neleidžia mums jo nustatyti — o skaičius, kurio niekas
+negali laikytis, privatumo politikoje yra blogiau nei jokio.
 
-- **Ištrinti savo paskyrą** programėlės nustatymuose (Settings). Taip ištrinamas Jūsų serveryje
-  esantis profilis, Jūsų draugų ryšiai ir Jūsų patvirtintų bandymų įrašai. Jeigu Jūsų paskyrai yra
-  išsaugotas Apple atnaujinimo prieigos raktas (žr. 3.1 skirsnį), taip pat panaikinama „Ranked“
-  prieiga prie Jūsų Apple ID. Tik Jūsų įrenginyje saugomi duomenys pašalinami ištrynus programėlę.
-- **Atšaukti patvirtintą bandymą** atitinkamos pakopos puslapyje programėlėje. Pašalinus bandymą,
-  ištrinamas įrašas ir jo sukurtas lyderių lentelės įrašas, o įrašant duotas sutikimas atšaukiamas.
-  Sutikimo atšaukimas neturi įtakos duomenų tvarkymo teisėtumui iki atšaukimo.
-- **Prašyti duomenų, kuriuos apie Jus turime, kopijos** arba prašyti mūsų juos ištaisyti.
-- **Nesutikti su analitika** naudodami jungiklį nustatymuose (Settings) arba parašydami mums.
-- **Pateikti skundą priežiūros institucijai** savo šalyje.
+Pirkimo įrašus „RevenueCat“ saugo tiek, kiek egzistuoja prenumerata ir jos istorija; kaip tik to ir
+reikalauja prenumeratos patikrinimas.
 
-Dėl bet kurio iš šių dalykų rašykite **dylan.schmid538@gmail.com**.
+Viskas, kas yra Jūsų įrenginyje, ten lieka tol, kol ištrinsite programėlę.
 
 ---
 
-## 10. Vaikai
+## 8. Jūsų teisės
 
-„Ranked“ nėra skirta jaunesniems nei 13 metų vaikams, ir mes sąmoningai nerenkame jų duomenų.
+Bet kada galite:
+
+- **Išjungti naudojimo statistiką** Nustatymuose ▸ Privatumas. Tai Jūsų teisė nesutikti, o ten, kur
+  tvarkymas grindžiamas sutikimu — teisė jį atšaukti; tai įsigalioja iškart ir nereikalauja
+  pagrindimo.
+- **Ištrinti savo duomenis.** Kadangi „Ranked“ nieko apie Jus nesaugo serveryje, programėlės
+  ištrynimas pašalina viską, ką saugo pati programėlė.
+- **Paprašyti mūsų ištrinti Jūsų anoniminį analitikos profilį.** Pagal vardą jo rasti negalime — jo
+  neturi —, bet jei parašysite mums nurodydami apytikslę pirmojo naudojimosi datą ir naudotą
+  įrenginį, surasime jį rankiniu būdu ir ištrinsime.
+- **Prašyti kopijos** duomenų, kuriuos paslauga saugo pagal Jūsų identifikatorių, prašyti juos
+  **ištaisyti** arba **apriboti** jų tvarkymą, kol prašymas nagrinėjamas.
+- **Pateikti skundą priežiūros institucijai** savo šalyje — Šveicarijoje Federaliniam duomenų
+  apsaugos ir informacijos įgaliotiniui (EDÖB).
+
+Visais šiais klausimais rašykite **dylan.schmid538@gmail.com**.
 
 ---
 
-## 11. Pakeitimai
+## 9. Vaikai
 
-Jeigu ši politika bus iš esmės pakeista, programėlė Jums apie tai praneš prieš pakeitimui
-įsigaliojant.
+„Ranked“ skirta **16 metų ir vyresniems** asmenims. Programėlė nustatymo metu klausia Jūsų amžiaus,
+nes nuo jo priklauso reitingo formulė, ir ji nėra skirta niekam jaunesniam. Sąmoningai nerenkame
+jaunesnių nei 16 metų asmenų duomenų.
 
 ---
 
-> **⚠️ Tai nėra teisinė konsultacija.** Šį dokumentą pagal programėlės pirminį kodą ir duomenų bazės
-> struktūrą parengė inžinierius, o ne teisininkas. Jame sistema aprašyta tiksliai pagal aukščiau
-> nurodytą datą — kiekvienas jame pateiktas teiginys buvo patikrintas pagal tai, ką programėlė iš
-> tikrųjų siunčia. Jis **nebuvo** patikrintas dėl atitikties BDAR, Šveicarijos revDSG, CCPA ar bet
-> kuriam kitam teisiniam režimui. Tai paskelbus, Apple reikalavimai tenkinami; tai nereiškia, kad
-> laikotės teisės aktų reikalavimų. Kai programėlė pradės nešti pajamų, duokite ją perskaityti
-> teisininkui.
+## 10. Pakeitimai
+
+Galioja ta redakcija, kuri paskelbta šiuo adresu, o data viršuje nurodo, kada ji paskutinį kartą
+pakeista. Ankstesnės redakcijos lieka matomos viešoje saugyklos, iš kurios šie puslapiai skelbiami,
+istorijoje, todėl galite matyti, kas ir kada pasikeitė.
+
+---
+
+> **⚠️ Tai nėra teisinė konsultacija.** Šį dokumentą pagal programėlės pirminį kodą parengė
+> inžinierius, o ne teisininkas. Sistemą jis aprašo tiksliai pagal aukščiau nurodytą datą — kiekvienas
+> teiginys buvo patikrintas pagal tai, ką programėlė iš tikrųjų siunčia. Jis **nebuvo** įvertintas
+> dėl atitikties BDAR, Šveicarijos revDSG, CCPA ar kuriam nors kitam režimui. Jį paskelbus, „Apple“
+> reikalavimai tenkinami; tai nereiškia, kad laikotės teisės aktų. Kai programėlė pradės nešti
+> pajamų, duokite ją perskaityti teisininkui.

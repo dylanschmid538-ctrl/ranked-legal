@@ -1,203 +1,220 @@
 ---
-title: Privātuma politika
+title: Privātuma politika · Calisthenics Skills – Ranked
 permalink: /privacy/lv/
 ---
 
-*Šis ir tulkojums. Neatbilstības gadījumā noteicošā ir angļu valodas versija, kas pieejama vietnē https://dylanschmid538-ctrl.github.io/ranked-legal/privacy/.*
+> *Šis ir tulkojums. Neatbilstību gadījumā noteicošā ir angļu valodas versija adresē
+> https://dylanschmid538-ctrl.github.io/ranked-legal/privacy/.*
 
 # Privātuma politika · Calisthenics Skills – Ranked
 
-**Pēdējoreiz atjaunināts: 2026. gada 23. augusts**
+**Pēdējoreiz atjaunināts: 2026. gada 4. septembris**
 
-Šī politika apraksta, ko Ranked vāc, kurp šie dati nonāk un ko Jūs varat par to darīt. Tā ir
-sagatavota, balstoties uz lietotnes faktisko kodu un datubāzes shēmu, nevis pēc veidnes — ja kaut kas
-šeit ir nepareizi, jāpārbauda ir kods.
+Šī politika apraksta, ko Ranked vāc, kurp tas nonāk un ko Jūs varat ar to darīt. Tā ir sagatavota
+pēc lietotnes faktiskā koda, nevis pēc veidnes — ja kaut kas šeit ir nepareizi, noteicošais ir kods.
 
-Lietotni Ranked nodrošina **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Šveice**, kontaktinformācija **dylan.schmid538@gmail.com**.
+Ranked pārvalda **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Šveice**, kontakts
+**dylan.schmid538@gmail.com**. Viņa ir šeit aprakstītās apstrādes pārzine.
 
 ---
 
-## 1. Īsā versija
+## 1. Īsumā
 
-Gandrīz viss, ko Ranked zina par Jūsu treniņiem, paliek Jūsu tālrunī. Jūsu treniņu vēsture, Jūsu
-progress katrā prasmē, Jūsu rangs un Jūsu ķermeņa karte tiek glabāti lokāli un nekad netiek augšupielādēti.
+Ranked nav **lietotāju kontu un nav sava servera.** Viss, kas attiecas uz Jūsu treniņiem — katrs
+reģistrētais piegājiens, Jūsu progress katrā prasmē, Jūsu rangs, Jūsu Power Level, Jūsu ķermeņa
+karte — glabājas Jūsu tālrunī un nekad nekur netiek augšupielādēts.
 
-Četras lietas Jūsu ierīci pamet: Jūsu pieteikšanās identitāte, neliels profils, ko izmanto līderu
-saraksti, ieraksti par to, ka esat izpildījis apstiprinātu mēģinājumu, un anonīma lietojuma
-analītika. Katra no tām ir izskaidrota turpmāk.
+**Jūsu vecums, dzimums, augums un ķermeņa svars nekad neatstāj Jūsu ierīci.** Ranga formula tos
+izmanto Jūsu tālrunī. Tie netiek sūtīti ne mums, ne analītikas pakalpojumam.
 
-**Jūsu apstiprināto mēģinājumu video nekad nepamet Jūsu ierīci.** Tiek nosūtīts tikai faila nospiedums.
+Jūsu ierīci atstāj divas lietas, un tikai šīs divas:
+
+1. **Anonīma lietojuma statistika**, lai mēs redzētu, kā lietotne tiek lietota. To lietotnē varat
+   jebkurā brīdī izslēgt.
+2. **Pirkuma dati**, lai varētu pārbaudīt App Store abonementu. Maksājumu apstrādā Apple; Jūsu
+   maksājumu datus mēs nekad neredzam.
+
+Ranked neseko Jums citās lietotnēs vai tīmekļa vietnēs, nerāda reklāmas un neko nelasa no Apple
+lietotnes Veselība.
 
 ---
 
 ## 2. Kas paliek Jūsu ierīcē
 
-Lokāli glabājas lietotnes pašas datubāzē un nekad netiek pārraidīts:
+Glabājas lietotnes pašas datubāzē Jūsu tālrunī un nekad netiek pārsūtīts:
 
-- Katrs treniņš, piegājiens, atkārtojums, izturēšana un pievienotais svars, ko Jūs reģistrējat
-- Jūsu progress katrā prasmē un posmā, kā arī Jūsu rangu vēsture
-- Jūsu treniņu plāns, grafiks un iestatījumi
-- Jūsu ķermeņa mērījumi tādā veidā, kā Jūs tos ievadījāt (vecums, dzimums, augums, ķermeņa svars) — daļas
-  no tiem kopija tiek nosūtīta arī līderu sarakstu pakalpojumam, skatīt 3.2. punktu
-- **Apstiprināto mēģinājumu video faili.** Tie tiek ierakstīti lietotnes privātajā krātuvē. Tie
-  netiek augšupielādēti, netiek dublēti mūsu serveros un nav mums pieejami.
+- Katrs treniņš, piegājiens, atkārtojums, noturējums un papildu svars, ko reģistrējat
+- Jūsu progress katrā prasmē un pakāpē, Jūsu ranga vēsture un Jūsu Power Level
+- Jūsu treniņu plāns, grafiks, atgādinājumi un iestatījumi
+- Jūsu ķermeņa mēri tādi, kādus tos ievadījāt (vecums, dzimums, augums, ķermeņa svars)
+- Jūsu treniņu piezīmes
 
-Lietotnes dzēšana izdzēš visu šo. Mēs to nevaram atjaunot.
+Lietotne šo datubāzi neizslēdz no Jūsu ierīces rezerves kopijas. Ja izmantojat iCloud rezerves kopiju
+vai kopiju datorā, Jūsu treniņu dati ir tās daļa un atgriežas, veicot atjaunošanu — saskaņā ar Apple
+noteikumiem, nevis mūsu.
+
+Lietotnes dzēšana izdzēš to visu no ierīces. Mēs to atjaunot nevaram, jo mums tā nekad nav bijusi.
 
 ---
 
-## 3. Kas pamet Jūsu ierīci
+## 3. Kas atstāj Jūsu ierīci
 
-### 3.1. Jūsu konts
-Kad Jūs piesakāties ar Apple vai Google, mēs saņemam un glabājam lietotāja identifikatoru un —
-atkarībā no tā, ko Jūs pieteikšanās brīdī atļaujat — e-pasta adresi. To apstrādā **Supabase**, kas
-mitina mūsu datubāzi un autentifikāciju.
+### 3.1 Lietojuma statistika (PostHog)
 
-Kad Jūs piesakāties ar Apple, mēs glabājam arī atsvaidzināšanas pilnvaru (refresh token), ko Apple
-mums tajā brīdī izsniedz. Tai ir tikai viens mērķis: Jūsu konta dzēšana pēc tam atsauc arī Ranked
-piekļuvi Jūsu Apple ID, kā to prasa Apple. Kontiem, kuru pēdējā pieteikšanās notikusi pirms šīs
-pilnvaras saglabāšanas ieviešanas, pilnvara netiek glabāta — dzēšana tad vienkārši izlaiž atsaukšanas
-soli.
-
-### 3.2. Jūsu līderu saraksta profils
-Lai ierindotu Jūs līderu sarakstā un salīdzinātu Jūs ar līdzīgas uzbūves cilvēkiem, mūsu serverī
-tiek glabāts:
-
-- nejauši ģenerēts **drauga kods**
-- Jūsu **vecums**, **dzimums** un **ķermeņa svars**
-- Jūsu profila izveides datums
-
-**Piezīme par redzamību:** jebkurš Ranked lietotājs, kurš ir pieteicies, var atrast profilu pēc tā
-drauga koda. Tāds ir drauga koda mērķis — tas pastāv, lai to kādam nodotu. Nedaliet savu kodu ne ar
-vienu, kam Jūs nevēlaties ļaut redzēt savu ierakstu. Tas, ko citi lietotāji var redzēt, ir Jūsu
-drauga kods un Jūsu pozīcija līderu sarakstā — nekas cits. Jūsu vecums, dzimums un ķermeņa svars
-tiek izmantoti salīdzinājumam serverī, un tie nekad netiek rādīti citiem lietotājiem un nav viņiem
-lejupielādējami.
-
-Jūsu **augums** netiek nosūtīts. Jūsu treniņu vēsture netiek nosūtīta.
-
-### 3.3. Apstiprinātie mēģinājumi
-Kad Jūs ierakstāt apstiprinātu mēģinājumu, mēs glabājam: Jūsu lietotāja id, to, kurai prasmei un
-posmam mēģinājums bija paredzēts, **video faila kriptogrāfisko jaucējvērtību (hash)** un ieraksta
-veikšanas laiku.
-
-Jaucējvērtība ir nospiedums. To nav iespējams pārvērst atpakaļ par video. Tā pastāv, lai mēģinājumu
-varētu sasaistīt ar konkrētu ierakstu, šim ierakstam nekad nepametot Jūsu tālruni.
-
-### 3.4. Draugi
-Ja Jūs pievienojat kādu pēc viņa drauga koda, mēs glabājam saikni starp Jūsu un viņa kontu, kā arī
-Jūsu dalību jebkurā draugu grupā.
-
-### 3.5. Lietojuma analītika
 Mēs izmantojam **PostHog**, kas mitināts **Eiropas Savienībā**, lai saprastu, kā lietotne tiek
-lietota. Mēs reģistrējam tādus notikumus kā to, līdz kuram ievadīšanas solim Jūs nonācāt, kad
-treniņš tika pabeigts, kad mainījās rangs un vai pirkuma ekrāns tika parādīts vai aizvērts.
+lietota. Lietotne tam nosūta noteiktu notikumu sarakstu:
 
-Šie notikumi ietver Jūsu rangu un Jūsu progresu lietotnē. Tie **neietver** Jūsu vārdu, e-pasta
-adresi, augumu vai Jūsu treniņu saturu.
+- līdz kuram iestatīšanas solim nonācāt, kuru pabeidzāt vai no kura atgriezāties un cik ilgi katrs
+  norisinājās;
+- ko parādīja sākotnējais novērtējums: cik prasmju līnijas un pakāpes norādījāt, kuru prasmi
+  izvēlējāties par mērķi, kāds bija Jūsu sākuma rangs un katras no sešām Jūsu ķermeņa daļām rangs;
+- kad tika parādīts vai aizvērts pirkuma ekrāns un kad pirkums tika sākts, pabeigts vai atjaunots —
+  ar attiecīgo produktu un piedāvājumu;
+- kad mainījās Jūsu rangs un kura prasme to izraisīja;
+- kad pabeidzāt pakāpi — kura prasme, kura pakāpe un vai tas nāca no reģistrēta piegājiena, vēlāk
+  pievienota treniņa vai manuālas norādes;
+- kurus ekrānus atverat un kad beidzas sesija. Sesijas beigu notikumā nav nekādu detaļu: ne
+  vingrinājumu, ne piegājienu, ne skaitļu.
+
+PostHog programmatūra lietotnē katram notikumam turklāt pievieno standarta tehnisko informāciju —
+ierīces modeli, iOS versiju, lietotnes versiju, valodu un laika joslu — un fiksē, kad lietotne tiek
+atvērta un pārvietota fonā. Tāpat kā jebkurš interneta pakalpojums, PostHog saņem pieprasījuma IP
+adresi; no tās var izsecināt aptuvenu atrašanās vietu (valsti vai pilsētu).
+
+**Kā tur nav:** neviena vārda, nevienas e-pasta adreses (lietotne to nekad neprasa), neviena konta
+identifikatora (kontu nav), ne vecuma, dzimuma, auguma vai ķermeņa svara, un neviena Jūsu treniņu
+satura.
+
+**Kā Jūs tiekat identificēts:** pirmajā lietotnes palaišanas reizē PostHog izveido nejaušu
+identifikatoru un saglabā to Jūsu ierīcē. Visi notikumi tiek grupēti zem šī identifikatora. Lietotne
+nekad nepasaka PostHog, kas Jūs esat, un nav arī, ko pateikt — nav ne konta, ne e-pasta.
+
+**Izslēgšana:** Iestatījumi ▸ Privātums ▸ *Kopīgot anonīmus lietojuma datus*. To izslēdzot, lietotne
+no šī brīža vairs nesūta notikumus. Iestatījums glabājas Jūsu ierīcē un saglabājas pēc lietotnes
+atjauninājumiem.
+
+### 3.2 Apple Search Ads attiecinājums
+
+Ja instalējāt Ranked pēc pieskāriena Apple Search Ads reklāmai, lietotne pirmajā palaišanas reizē
+vienreiz pajautā Apple, no kurienes instalācija nāca. Apple atbild ar šīs reklāmas kampaņu, reklāmu
+grupu, atslēgvārdu un radošo komplektu, klikšķa valsti vai reģionu, klikšķa datumu un to, vai tā bija
+jauna lejupielāde vai atkārtota. Lietotne šīs vērtības pievieno §3.1 aprakstītajam anonīmajam PostHog
+identifikatoram, lai katru vēlāko notikumu varētu attiecināt uz reklāmu, kas Jūs atveda.
+
+Tam tiek izmantots Apple **AdServices** ietvars, kas neizmanto reklāmas identifikatoru (IDFA) un ko
+Apple neuzskata par izsekošanu — tāpēc netiek rādīts izsekošanas atļaujas logs. Ja neatnācāt caur
+reklāmu, Apple to pasaka un nekas netiek pievienots. Lietojuma statistikas izslēgšana (§3.1) aptur
+arī to.
+
+### 3.3 Pirkumi (Apple un RevenueCat)
+
+Abonementus pārdod un norēķinus veic **Apple** caur App Store. Jūsu maksājumu datus, Jūsu Apple
+kontu un Jūsu vārdu mēs nekad neredzam.
+
+Lai pārbaudītu, vai Jūsu abonements ir aktīvs, lietotne izmanto **RevenueCat**. RevenueCat saņem Jūsu
+abonementa App Store pirkuma ierakstu — kāds produkts nopirkts, kad tas sākās un kad beidzas — kopā
+ar standarta tehnisko informāciju, piemēram, Jūsu iOS versiju un lietotnes versiju. Jūsu instalāciju
+tas atpazīst pēc nejauša identifikatora, ko pats izveido un saglabā Jūsu ierīcē. RevenueCat mēs
+nedodam ne Jūsu vārdu, ne e-pasta adresi, ne kādu citu identitāti, un, tā kā Ranked nav kontu, nav
+arī, ko dot.
+
+Kad pieskaraties **Atjaunot pirkumus**, lietotne pajautā Apple par pirkumiem, kas veikti ar ierīcē
+pieteikto Apple kontu, un rezultātu tādā pašā veidā nodod RevenueCat.
 
 ---
 
-## 4. Pirkumi
+## 4. Ko Ranked nedara
 
-Abonementus apstrādā **Apple**. Mēs nekad neredzam Jūsu maksājumu datus. **RevenueCat** mūsu vārdā
-pārvalda Jūsu abonementa statusu un saņem pseidonimizētu identifikatoru un Jūsu abonementa stāvokli.
-Pats pirkuma ekrāns ir lietotnes daļa; neviena trešā persona neizlemj, kurš no tiem Jums tiek
-parādīts.
-
----
-
-## 5. Kamera un mikrofons
-
-Ranked pieprasa piekļuvi kamerai un mikrofonam vienai funkcijai: apstiprināta mēģinājuma ierakstīšanai.
-Ieraksts tiek saglabāts Jūsu ierīcē. Tas nekad netiek augšupielādēts. Ja Jūs piekļuvi atsakāt, visas
-pārējās lietotnes daļas turpina darboties.
+- **Nekādu kontu.** Jūs nekad nepiesakāties. Nevienā serverī nav Jūsu profila.
+- **Nekāda Apple Veselība.** Ranked no lietotnes Veselība ne lasa, ne tajā raksta.
+- **Nekādas kameras, fotoattēlu, mikrofona, atrašanās vietas vai kontaktu.** Lietotne nevienu no
+  šīm atļaujām neprasa.
+- **Nekādas izsekošanas starp lietotnēm vai vietnēm**, nekāda reklāmas identifikatora, nekādas
+  reklāmas lietotnē, nekādu datu, kas pārdoti vai nodoti datu tirgotājiem.
+- **Nekāda paziņojumu servera.** Atgādinājumi, ko Ranked var nosūtīt, tiek plānoti lokāli Jūsu
+  tālrunī; nekas par tiem ierīci neatstāj. Pirms pirmā Jums tiek jautāts, un izslēgt tos varat
+  jebkurā brīdī iOS iestatījumos.
 
 ---
 
-## 6. Veselības dati
-
-Ranked **nelasa** datus no Apple Health un tos tur **neieraksta**.
-
-Jūsu vecums, dzimums un ķermeņa svars ir ar veselību saistīti dati, un saskaņā ar VDAR tie var
-kvalificēties kā veselības dati. Mēs tos vācam vienam mērķim — ranga formula normalizē sniegumu pēc
-ķermeņa uzbūves, tāpēc 95 kg smags sportists un 60 kg smags sportists, kas notur vienu un to pašu
-sviru, netiek vērtēti tā, it kā viņi būtu paveikuši vienu un to pašu — un mēs uz serveri nosūtām
-mazāko no tiem apjomu, kāds līderu saraksta salīdzinājumam ir nepieciešams.
-
----
-
-## 7. Tiesiskais pamats (VDAR un Šveices revDSG)
+## 5. Juridiskais pamats (VDAR un Šveices revDSG)
 
 | Kas | Pamats |
 |---|---|
-| Konts un pieteikšanās | Līguma izpilde — lietotnei ir nepieciešams konts |
-| Vecums, dzimums un ķermeņa svars | Līguma izpilde — rangs tiek pēc tiem normalizēts, un bez tiem to nav iespējams aprēķināt |
-| Drauga kods, draugu grupas | Līguma izpilde — funkcija ir iemesls, kāpēc šie dati pastāv |
-| Apstiprinātu mēģinājumu ieraksti un līderu saraksta ieraksts, ko katrs no tiem rada | Piekrišana, kas dota ar apzinātu darbību — mēģinājuma ierakstīšanu. Atsauciet to, dzēšot mēģinājumu attiecīgā posma lapā, kas izdzēš ierakstu — skatīt 9. punktu |
-| Pirkumi | Līguma izpilde |
-| Analītika | Leģitīmās intereses uzlabot lietotni; Jūs jebkurā laikā varat iebilst iestatījumos, skatīt 9. punktu |
+| Pirkumi un abonementa pārbaude (§3.3) | Līguma izpilde |
+| Lietojuma statistika (§3.1) | Leģitīma interese saprast un uzlabot lietotni; jebkurā brīdī varat iebilst, to izslēdzot, skat. §8 |
+| Search Ads attiecinājums (§3.2) | Leģitīma interese zināt, kura reklāma darbojas; iebildums kā iepriekš |
 
-**Šeit piemēro divus tiesību aktus, ne vienu.** Ranked tiek nodrošināta no Šveices, tāpēc uz šo
-apstrādi attiecas pārskatītais Šveices Federālais datu aizsardzības likums (**revDSG**, spēkā kopš
-2023. gada septembra). **VDAR** piemēro papildus visur, kur lietotne tiek lietota no Eiropas
-Savienības vai Apvienotās Karalistes. Ja abi atšķiras, mēs ievērojam stingrāko. Šveices iedzīvotājiem
-ir tās pašas pamattiesības, kas uzskaitītas 9. punktā — piekļuve, labošana, dzēšana, pārnesamība un
-iebilšana —, saskaņā ar revDSG 25. un turpmākajiem pantiem.
+**Šeit piemēro divas tiesību sistēmas, ne vienu.** Ranked tiek pārvaldīta no Šveices, tāpēc šo
+apstrādi regulē pārskatītais Šveices federālais datu aizsardzības likums (**revDSG**, spēkā kopš
+2023. gada septembra). **VDAR** papildus piemēro visur, kur lietotne tiek lietota no Eiropas
+Savienības vai Apvienotās Karalistes. Kur abas atšķiras, mēs sekojam stingrākajai. Personām, kas
+dzīvo Šveicē, ir tās pašas §8 uzskaitītās pamattiesības saskaņā ar revDSG 25. un turpmākajiem
+pantiem.
 
 ---
 
-## 8. Cik ilgi mēs to glabājam
+## 6. Kur dati tiek apstrādāti
 
-Konta, profila, draugu un apstiprināto mēģinājumu ieraksti tiek glabāti, līdz Jūs dzēšat savu kontu.
-Konta dzēšana tos noņem.
-
-Analītikas notikumi tiek glabāti tik ilgi, cik uz mūsu plānu attiecas paša PostHog glabāšanas
-termiņš. **Jūsu konta dzēšana tos neizdzēš**, un mēs to sakām skaidri, nevis liekam saprast pretējo:
-analītikas profils nav saistīts ar Jūsu kontu — tas izmanto atsevišķu, lietotnes ģenerētu
-identifikatoru —, tāpēc nav saiknes, pēc kuras mēs to varētu atrast un noņemt. Kas tajā ir ietverts,
-ir uzskaitīts 3.5. punktā: lietojuma notikumi, Jūsu rangs un Jūsu ievadītais vecums, dzimums un
-ķermeņa svars. Tajā nav ne vārda, ne e-pasta adreses, ne konta id.
-
-Ja Jūs vēlaties, lai arī šis profils tiktu noņemts, rakstiet mums, norādot aptuveno datumu, kad
-pirmoreiz lietojāt lietotni, un mēs to atradīsim un izdzēsīsim manuāli.
+- **PostHog** apstrādā lietojuma statistiku Eiropas Savienībā.
+- **RevenueCat, Inc.** atrodas Amerikas Savienotajās Valstīs un tur apstrādā §3.3 aprakstītos
+  pirkuma datus.
+- **Apple** apstrādā pašu pirkumu un Search Ads attiecinājuma pieprasījumu saskaņā ar savu privātuma
+  politiku, kas Jūsu Apple kontam piemērojama neatkarīgi no šīs lietotnes.
 
 ---
 
-## 9. Jūsu tiesības
+## 7. Cik ilgi mēs datus glabājam
 
-Jūs jebkurā laikā varat:
+Lietojuma statistika tiek glabāta tik ilgi, cik ilgi mūsu plānam piemēro PostHog glabāšanas termiņu.
+Mēs nesolām konkrētu mēnešu skaitu, jo PostHog neļauj mums to iestatīt — un skaitlis, ko neviens
+nevar ievērot, privātuma politikā ir sliktāks nekā nekāds.
 
-- **Dzēst savu kontu** lietotnes iestatījumos. Tas izdzēš Jūsu servera puses profilu, Jūsu draugu
-  saiknes un Jūsu apstiprināto mēģinājumu ierakstus. Ja Jūsu kontam ir saglabāta Apple
-  atsvaidzināšanas pilnvara (skatīt 3.1. punktu), tas atsauc arī Ranked piekļuvi Jūsu Apple ID. Dati,
-  kas glabājas tikai Jūsu ierīcē, tiek noņemti, dzēšot lietotni.
-- **Atsaukt apstiprinātu mēģinājumu** lietotnē attiecīgā posma lapā. Mēģinājuma dzēšana izdzēš
-  ierakstu un līderu saraksta ierakstu, ko tas radīja, un atsauc piekrišanu, kas dota ar tā
-  ierakstīšanu. Atsaukšana neietekmē to, kas bija tiesisks pirms atsaukuma.
-- **Pieprasīt kopiju** no datiem, kas mums par Jums ir, vai lūgt mums tos labot.
-- **Iebilst pret analītiku** ar slēdzi iestatījumos vai rakstot mums.
-- **Iesniegt sūdzību uzraudzības iestādē** savā valstī.
+Pirkuma ierakstus RevenueCat glabā tik ilgi, cik pastāv abonements un tā vēsture; tieši to prasa
+abonementa pārbaude.
 
-Jebkurā no šiem gadījumiem rakstiet uz **dylan.schmid538@gmail.com**.
+Viss, kas ir Jūsu ierīcē, tur paliek, līdz izdzēšat lietotni.
 
 ---
 
-## 10. Bērni
+## 8. Jūsu tiesības
 
-Ranked nav paredzēta bērniem, kas jaunāki par 13 gadiem, un mēs apzināti nevācam viņu datus.
+Jebkurā brīdī Jūs varat:
+
+- **Izslēgt lietojuma statistiku** sadaļā Iestatījumi ▸ Privātums. Tās ir Jūsu tiesības iebilst un,
+  ja apstrāde balstās uz piekrišanu, to atsaukt — tas stājas spēkā nekavējoties un nav jāpamato.
+- **Izdzēst savus datus.** Tā kā Ranked par Jums neko neglabā serverī, lietotnes dzēšana noņem visu,
+  ko glabā pati lietotne.
+- **Lūgt mums izdzēst Jūsu anonīmo analītikas profilu.** Pēc vārda to atrast nevaram — tāda nav —,
+  bet, ja atrakstīsiet, norādot aptuveno pirmās lietošanas datumu un izmantoto ierīci, mēs to
+  atradīsim manuāli un izdzēsīsim.
+- **Pieprasīt kopiju** datiem, ko pakalpojums glabā zem Jūsu identifikatora, lūgt tos **labot** vai
+  **ierobežot** to apstrādi, kamēr pieprasījums tiek izskatīts.
+- **Iesniegt sūdzību uzraudzības iestādei** savā valstī — Šveicē Federālajam datu aizsardzības un
+  informācijas pilnvarotajam (EDÖB).
+
+Visos šajos jautājumos rakstiet uz **dylan.schmid538@gmail.com**.
 
 ---
 
-## 11. Izmaiņas
+## 9. Bērni
 
-Ja šī politika būtiski mainīsies, lietotne Jums par to paziņos pirms izmaiņu stāšanās spēkā.
+Ranked ir paredzēta personām no **16 gadu vecuma**. Lietotne iestatīšanas laikā jautā Jūsu vecumu,
+jo no tā ir atkarīga ranga formula, un tā nav paredzēta nevienam jaunākam. Mēs apzināti nevācam datus
+par personām, kas jaunākas par 16 gadiem.
 
 ---
 
-> **⚠️ Nav juridiska konsultācija.** Šo dokumentu, balstoties uz lietotnes pirmkodu un datubāzes
-> shēmu, sagatavojis inženieris, nevis jurists. Tas precīzi apraksta sistēmu uz iepriekš norādīto
-> datumu — katrs tajā ietvertais apgalvojums tika pārbaudīts pret to, ko lietotne faktiski nosūta.
-> Tas **nav** pārbaudīts attiecībā uz atbilstību VDAR, Šveices revDSG, CCPA vai jebkuram citam
-> regulējumam. Tā publicēšana apmierina Apple prasības; tā nepadara Jūs atbilstīgu tiesību aktiem.
-> Ļaujiet juristam to izlasīt, tiklīdz lietotne sāk pelnīt naudu.
+## 10. Izmaiņas
+
+Spēkā ir tā redakcija, kas publicēta šajā adresē, un datums augšā norāda, kad tā pēdējoreiz mainīta.
+Iepriekšējās redakcijas paliek redzamas tās krātuves publiskajā vēsturē, no kuras šīs lapas tiek
+publicētas, tāpēc varat redzēt, kas un kad mainījās.
+
+---
+
+> **⚠️ Nav juridiska konsultācija.** Šo dokumentu pēc lietotnes pirmkoda sagatavoja inženieris, nevis
+> jurists. Sistēmu tas apraksta precīzi uz iepriekš norādīto datumu — katrs apgalvojums tajā tika
+> pārbaudīts pret to, ko lietotne patiešām sūta. Tas **nav** izvērtēts atbilstībai VDAR, Šveices
+> revDSG, CCPA vai kādam citam režīmam. Tā publicēšana apmierina Apple prasības; tā nepadara Jūs
+> atbilstīgu tiesību aktiem. Ļaujiet juristam to izlasīt, tiklīdz lietotne sāk pelnīt naudu.

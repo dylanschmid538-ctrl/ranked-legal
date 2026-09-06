@@ -1,205 +1,221 @@
 ---
-title: Politika zasebnosti
+title: Politika zasebnosti · Calisthenics Skills – Ranked
 permalink: /privacy/sl/
 ---
 
-*To je prevod. V primeru odstopanj velja angleška različica, dostopna na naslovu https://dylanschmid538-ctrl.github.io/ranked-legal/privacy/.*
+> *To je prevod. V primeru odstopanj velja angleška različica na naslovu
+> https://dylanschmid538-ctrl.github.io/ranked-legal/privacy/.*
 
 # Politika zasebnosti · Calisthenics Skills – Ranked
 
-**Zadnja posodobitev: 23. avgust 2026**
+**Zadnja posodobitev: 4. september 2026**
 
-Ta politika opisuje, kaj aplikacija Ranked zbira, kam ti podatki gredo in kaj lahko glede tega
-storite. Sestavljena je bila ob dejanski programski kodi in podatkovni shemi aplikacije, ne po
-predlogi — če je karkoli v njej napačno, je treba preveriti kodo.
+Ta politika opisuje, kaj Ranked zbira, kam to gre in kaj lahko glede tega storite. Nastala je na
+podlagi dejanske kode aplikacije, ne po predlogi — če je tukaj kaj napačno, odloča koda.
 
-Aplikacijo Ranked upravlja **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švica**, kontakt **dylan.schmid538@gmail.com**.
+Ranked upravlja **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švica**, stik
+**dylan.schmid538@gmail.com**. Je upravljavka tukaj opisane obdelave.
 
 ---
 
 ## 1. Na kratko
 
-Skoraj vse, kar Ranked ve o vaši vadbi, ostane v vašem telefonu. Zgodovina vadbe, vaš napredek pri
-vsaki veščini, vaš rang in vaš telesni zemljevid so shranjeni lokalno in se nikoli ne prenesejo v
-oblak.
+Ranked nima **uporabniških računov in nima lastnega strežnika.** Vse, kar zadeva vašo vadbo — vsak
+zabeležen niz, vaš napredek pri vsaki veščini, vaš rang, vaš Power Level, vaš zemljevid telesa —
+je shranjeno v vašem telefonu in se nikoli nikamor ne naloži.
 
-Štiri stvari zapustijo vašo napravo: vaša prijavna identiteta, majhen profil za lestvice, zapisi o
-tem, da ste opravili preverjeni poskus, in anonimna analitika uporabe. Vsaka je pojasnjena spodaj.
+**Vaša starost, spol, višina in telesna teža nikoli ne zapustijo vaše naprave.** Formula ranga jih
+uporablja v vašem telefonu. Ne pošiljajo se ne nam ne analitični storitvi.
 
-**Videoposnetki vaših preverjenih poskusov nikoli ne zapustijo vaše naprave.** Poslan je le
-prstni odtis datoteke.
+Vašo napravo zapustita dve stvari, in samo ti dve:
+
+1. **Anonimna statistika uporabe**, da vidimo, kako se aplikacija uporablja. V aplikaciji jo lahko
+   kadar koli izklopite.
+2. **Podatki o nakupu**, da je mogoče preveriti naročnino iz trgovine App Store. Plačilo izvede
+   Apple; vaših plačilnih podatkov nikoli ne vidimo.
+
+Ranked vas ne sledi po drugih aplikacijah ali spletnih straneh, ne prikazuje oglasov in ne bere
+ničesar iz aplikacije Apple Zdravje.
 
 ---
 
 ## 2. Kaj ostane v vaši napravi
 
-Shranjeno lokalno v lastni podatkovni bazi aplikacije in nikoli poslano:
+Shranjeno v lastni podatkovni zbirki aplikacije v vašem telefonu in nikoli preneseno:
 
-- Vsaka vadba, serija, ponovitev, izdržaj in dodana teža, ki jo zabeležite
-- Vaš napredek pri vsaki veščini in stopnji ter zgodovina vašega ranga
-- Vaš načrt vadbe, urnik in nastavitve
-- Vaše telesne mere, kot ste jih vnesli (starost, spol, višina, telesna teža) — kopija nekaterih
-  od teh se pošlje tudi storitvi za lestvice, glejte §3.2
-- **Videodatoteke preverjenih poskusov.** Te se zapišejo v zasebno shrambo aplikacije. Ne
-  prenesejo se v oblak, ne varnostno kopirajo se na naše strežnike in za nas niso dostopne.
+- Vsaka vadba, niz, ponovitev, izdrž in dodatna obremenitev, ki jo zabeležite
+- Vaš napredek pri vsaki veščini in stopnji, zgodovina vašega ranga in vaš Power Level
+- Vaš načrt vadbe, urnik, opomniki in nastavitve
+- Vaše telesne mere, kot ste jih vnesli (starost, spol, višina, telesna teža)
+- Vaše zapiske o vadbi
 
-Z izbrisom aplikacije se izbriše vse to. Tega ne moremo obnoviti.
+Aplikacija te podatkovne zbirke ne izloči iz varnostne kopije vaše naprave. Če uporabljate varnostno
+kopiranje v iCloud ali varnostno kopijo prek računalnika, so vaši podatki o vadbi njen del in se ob
+obnovitvi vrnejo — pod Applovimi pogoji, ne našimi.
+
+Izbris aplikacije izbriše vse to iz naprave. Obnoviti tega ne moremo, ker tega nikoli nismo imeli.
 
 ---
 
 ## 3. Kaj zapusti vašo napravo
 
-### 3.1 Vaš račun
-Ko se prijavite z računom Apple ali Google, prejmemo in shranimo identifikator uporabnika in,
-odvisno od tega, kaj ob prijavi dovolite, e-poštni naslov. To izvaja **Supabase**, ki gosti našo
-podatkovno bazo in avtentikacijo.
+### 3.1 Statistika uporabe (PostHog)
 
-Ko se prijavite z računom Apple, shranimo tudi žeton za osvežitev, ki nam ga Apple izroči v tistem
-trenutku. Njegov edini namen je: z izbrisom vašega računa se prekliče tudi dostop aplikacije
-Ranked do vašega računa Apple ID, kot to zahteva Apple. Pri računih, pri katerih se je zadnja
-prijava zgodila, preden je bilo to zajemanje uvedeno, žeton ni shranjen — izbris takrat korak
-preklica preprosto preskoči.
-
-### 3.2 Vaš profil za lestvice
-Da vas lahko uvrstimo na lestvico in primerjamo z ljudmi podobne postave, se na našem strežniku
-shrani naslednje:
-
-- naključno ustvarjena **koda prijatelja**
-- vaša **starost**, **spol** in **telesna teža**
-- datum, ko je bil vaš profil ustvarjen
-
-**Opomba o vidnosti:** vsak prijavljen uporabnik aplikacije Ranked lahko poišče profil po njegovi
-kodi prijatelja. V tem je namen kode prijatelja — obstaja zato, da jo nekomu izročite. Svoje ne
-delite z nikomer, za katerega ne želite, da vidi vaš vnos. Drugi uporabniki vidijo vašo kodo
-prijatelja in vaše mesto na lestvici — nič drugega. Vaša starost, spol in telesna teža se na
-strežniku uporabljajo za primerjavo in se drugim uporabnikom nikoli ne prikažejo niti jih ti ne
-morejo prenesti.
-
-Vaša **višina** se ne pošlje. Vaša zgodovina vadbe se ne pošlje.
-
-### 3.3 Preverjeni poskusi
-Ko posnamete preverjeni poskus, shranimo: vaš uporabniški id, za katero veščino in stopnjo je šlo
-pri poskusu, **kriptografsko zgoščeno vrednost videodatoteke** in čas snemanja.
-
-Zgoščena vrednost je prstni odtis. Ni je mogoče pretvoriti nazaj v videoposnetek. Obstaja zato, da
-je poskus mogoče povezati z določenim posnetkom, ne da bi ta posnetek kdaj zapustil vaš telefon.
-
-### 3.4 Prijatelji
-Če nekoga dodate prek njegove kode prijatelja, shranimo povezavo med vašim in njegovim računom ter
-vaše članstvo v morebitnih skupinah prijateljev.
-
-### 3.5 Analitika uporabe
 Uporabljamo **PostHog**, gostovan v **Evropski uniji**, da razumemo, kako se aplikacija uporablja.
-Beležimo dogodke, kot so, do katerega koraka uvajanja ste prišli, kdaj je bila vadba zaključena,
-kdaj se je rang spremenil in ali je bil zaslon za nakup prikazan ali zavrnjen.
+Aplikacija mu pošilja določen seznam dogodkov:
 
-Ti dogodki vsebujejo vaš rang in vaš napredek v aplikaciji. **Ne** vsebujejo vašega imena,
-e-poštnega naslova, višine ali vsebine vaših vadb.
+- do katerega koraka nastavitve ste prišli, katerega ste dokončali ali se z njega vrnili in koliko
+  časa je vsak trajal;
+- kaj je pokazala začetna ocena: koliko linij veščin in stopenj ste navedli, katero veščino ste
+  izbrali za cilj, kakšen je bil vaš začetni rang in rang vsakega od vaših šestih telesnih področij;
+- kdaj je bil prikazan ali zaprt nakupni zaslon in kdaj se je nakup začel, zaključil ali obnovil —
+  z izdelkom in ponudbo, na katera se je nanašal;
+- kdaj se je vaš rang spremenil in katera veščina je to sprožila;
+- kdaj ste opravili stopnjo — katera veščina, katera stopnja in ali je to izhajalo iz zabeleženega
+  niza, naknadno vnesene vadbe ali ročne navedbe;
+- katere zaslone odpirate in kdaj se konča seja. Dogodek o koncu seje ne vsebuje nobenih
+  podrobnosti: ne vaj, ne nizov, ne številk.
+
+Programska oprema PostHog v aplikaciji vsakemu dogodku poleg tega pripne običajne tehnične podatke —
+model naprave, različico sistema iOS, različico aplikacije, jezik in časovni pas — in beleži, kdaj
+se aplikacija odpre in premakne v ozadje. Kot vsaka spletna storitev tudi PostHog prejme naslov IP
+zahteve; iz njega lahko izpelje približno lokacijo (državo ali mesto).
+
+**Česa v tem ni:** nobenega imena, nobenega e-poštnega naslova (aplikacija zanj nikoli ne vpraša),
+nobenega identifikatorja računa (računov ni), ne starosti, spola, višine ali telesne teže, in
+nobene vsebine vaših vadb.
+
+**Kako ste identificirani:** PostHog ob prvem zagonu aplikacije ustvari naključni identifikator in
+ga shrani v vašo napravo. Vsi dogodki so združeni pod tem identifikatorjem. Aplikacija PostHogu
+nikoli ne pove, kdo ste, in tudi povedati ni česa — ni računa, ni e-pošte.
+
+**Izklop:** Nastavitve ▸ Zasebnost ▸ *Deli anonimne podatke o uporabi*. Če to izklopite, aplikacija
+od tistega trenutka naprej ne pošilja več dogodkov. Nastavitev je shranjena v vaši napravi in
+preživi posodobitve aplikacije.
+
+### 3.2 Pripis Apple Search Ads
+
+Če ste Ranked namestili po dotiku oglasa Apple Search Ads, aplikacija ob prvem zagonu enkrat vpraša
+Apple, od kod prihaja namestitev. Apple odgovori s kampanjo, oglasno skupino, ključno besedo in
+oglasnim gradivom tistega oglasa, državo ali regijo klika, datumom klika in podatkom, ali je šlo za
+nov prenos ali ponoven. Aplikacija te vrednosti pripne anonimnemu identifikatorju PostHog iz §3.1,
+da je mogoče vsak poznejši dogodek pripisati oglasu, ki vas je pripeljal.
+
+Za to se uporablja Applovo ogrodje **AdServices**, ki ne uporablja oglaševalskega identifikatorja
+(IDFA) in ga Apple ne šteje za sledenje — zato se ne prikaže nobeno dovoljenje za sledenje. Če niste
+prišli prek oglasa, Apple to pove in nič se ne pripne. Izklop statistike uporabe (§3.1) ustavi tudi
+to.
+
+### 3.3 Nakupi (Apple in RevenueCat)
+
+Naročnine prodaja in zaračunava **Apple** prek trgovine App Store. Vaših plačilnih podatkov, vašega
+računa Apple in vašega imena nikoli ne vidimo.
+
+Za preverjanje, ali je vaša naročnina dejavna, aplikacija uporablja **RevenueCat**. RevenueCat
+prejme zapis o nakupu iz trgovine App Store za vašo naročnino — kateri izdelek je bil kupljen, kdaj
+se je začel in kdaj poteče — skupaj z običajnimi tehničnimi podatki, kot sta različica sistema iOS
+in različica aplikacije. Vašo namestitev prepozna po naključnem identifikatorju, ki ga ustvari sam
+in shrani v vašo napravo. RevenueCatu ne dajemo vašega imena, e-poštnega naslova ali katere koli
+druge identitete, in ker Ranked nima računov, tudi ni česa dati.
+
+Ko se dotaknete **Obnovi nakupe**, aplikacija Apple vpraša po nakupih, opravljenih z računom Apple,
+prijavljenim v napravi, in izid na enak način posreduje RevenueCatu.
 
 ---
 
-## 4. Nakupi
+## 4. Česa Ranked ne počne
 
-Naročnine obdeluje **Apple**. Vaših plačilnih podatkov nikoli ne vidimo. **RevenueCat** v našem
-imenu upravlja stanje vaše naročnine ter prejme psevdonimni identifikator in stanje vaše
-naročnine. Zaslon za nakup je sam del aplikacije; noben tretji ponudnik ne odloča o tem, kateri
-vam bo prikazan.
-
----
-
-## 5. Kamera in mikrofon
-
-Ranked prosi za dostop do kamere in mikrofona zaradi ene same funkcije: snemanja preverjenega
-poskusa. Posnetek se shrani v vašo napravo. Nikoli se ne prenese v oblak. Če dostop zavrnete,
-vsi drugi deli aplikacije še naprej delujejo.
+- **Nobenih računov.** Nikoli se ne prijavljate. Na nobenem strežniku ni vašega profila.
+- **Nobenega Apple Zdravja.** Ranked iz aplikacije Zdravje ne bere in vanjo ne piše.
+- **Nobene kamere, fotografij, mikrofona, lokacije ali stikov.** Aplikacija za nobeno od teh
+  dovoljenj ne prosi.
+- **Nobenega sledenja po aplikacijah ali spletnih straneh**, nobenega oglaševalskega
+  identifikatorja, nobenega oglaševanja v aplikaciji, nobenih podatkov, prodanih ali izročenih
+  posrednikom s podatki.
+- **Nobenega strežnika za potisna obvestila.** Opomniki, ki jih Ranked lahko pošlje, se načrtujejo
+  lokalno v vašem telefonu; nič o njih ne zapusti naprave. Pred prvim vas aplikacija vpraša, izklopite
+  pa jih lahko kadar koli v nastavitvah sistema iOS.
 
 ---
 
-## 6. Zdravstveni podatki
-
-Ranked **ne** bere iz aplikacije Apple Health in vanjo **ne** zapisuje.
-
-Vaša starost, spol in telesna teža so zdravju sorodni podatki in se po GDPR lahko štejejo za
-podatke o zdravstvenem stanju. Zbiramo jih za en sam namen — formula za rang normalizira zmogljivost
-glede na postavo, tako da 95-kilogramski in 60-kilogramski športnik, ki držita isti lever, nista
-ocenjena, kot da bi naredila isto — na strežnik pa pošljemo najmanjši del teh podatkov, ki ga
-primerjava na lestvici potrebuje.
-
----
-
-## 7. Zakonita podlaga (GDPR in švicarski revDSG)
+## 5. Pravna podlaga (GDPR in švicarski revDSG)
 
 | Kaj | Podlaga |
 |---|---|
-| Račun in prijava | Izvajanje pogodbe — aplikacija zahteva račun |
-| Starost, spol in telesna teža | Izvajanje pogodbe — rang je normaliziran glede nanje in ga brez njih ni mogoče izračunati |
-| Koda prijatelja, skupine prijateljev | Izvajanje pogodbe — funkcija je razlog, zaradi katerega ti podatki obstajajo |
-| Zapisi o preverjenih poskusih in vnos na lestvico, ki ga vsak od njih ustvari | Privolitev, dana z zavestnim dejanjem snemanja poskusa. Prekličete jo tako, da poskus odstranite na strani stopnje, s čimer se vnos izbriše — glejte §9 |
-| Nakupi | Izvajanje pogodbe |
-| Analitika | Zakoniti interes za izboljševanje aplikacije; kadar koli lahko ugovarjate v nastavitvah, glejte §9 |
+| Nakupi in preverjanje naročnine (§3.3) | Izvajanje pogodbe |
+| Statistika uporabe (§3.1) | Zakoniti interes za razumevanje in izboljševanje aplikacije; kadar koli lahko ugovarjate tako, da jo izklopite, glejte §8 |
+| Pripis Search Ads (§3.2) | Zakoniti interes vedeti, katero oglaševanje deluje; ugovor kot zgoraj |
 
-**Tu se uporabljata dva zakona, ne eden.** Ranked se upravlja iz Švice, zato to obdelavo ureja
-revidirani švicarski zvezni zakon o varstvu podatkov (**revDSG**, v veljavi od septembra 2023).
-**GDPR** se uporablja poleg tega povsod, kjer se aplikacija uporablja iz Evropske unije ali
-Združenega kraljestva. Kjer se oba razlikujeta, upoštevamo strožjega. Prebivalci Švice imajo iste
-temeljne pravice, naštete v §9 — dostop, popravek, izbris, prenosljivost podatkov in ugovor —,
-in sicer po členu 25 in naslednjih revDSG.
+**Tu veljata dva pravna reda, ne eden.** Ranked se upravlja iz Švice, zato to obdelavo ureja
+prenovljeni švicarski zvezni zakon o varstvu podatkov (**revDSG**, v veljavi od septembra 2023).
+**GDPR** velja dodatno povsod, kjer se aplikacija uporablja iz Evropske unije ali Združenega
+kraljestva. Kjer se oba razlikujeta, sledimo strožjemu. Osebe s prebivališčem v Švici imajo iste
+temeljne pravice, naštete v §8, na podlagi 25. in naslednjih členov revDSG.
 
 ---
 
-## 8. Kako dolgo jih hranimo
+## 6. Kje se podatki obdelujejo
 
-Račun, profil, prijatelje in zapise o preverjenih poskusih hranimo, dokler ne izbrišete svojega
-računa. Z izbrisom računa se odstranijo.
-
-Analitične dogodke hranimo toliko časa, kolikor za naš paket velja PostHogovo lastno obdobje
-hrambe. **Z izbrisom vašega računa se ti ne izbrišejo**, in to izrecno povemo, namesto da bi
-nakazovali nasprotno: analitični profil ni povezan z vašim računom — uporablja ločen
-identifikator, ki ga ustvari aplikacija —, zato ne obstaja povezava, po kateri bi ga lahko našli
-in odstranili. Kaj vsebuje, je našteto v §3.5: dogodke uporabe, vaš rang ter starost, spol in
-telesno težo, ki ste jih vnesli. Ne vsebuje imena, e-poštnega naslova in id-ja računa.
-
-Če želite, da se odstrani tudi ta profil, nam pišite in navedite približen datum, ko ste
-aplikacijo prvič uporabili, mi pa ga bomo poiskali in ročno izbrisali.
+- **PostHog** obdeluje statistiko uporabe v Evropski uniji.
+- **RevenueCat, Inc.** ima sedež v Združenih državah in tam obdeluje podatke o nakupu, opisane v
+  §3.3.
+- **Apple** obdeluje sam nakup in zahtevo za pripis Search Ads po lastni politiki zasebnosti, ki za
+  vaš račun Apple velja neodvisno od te aplikacije.
 
 ---
 
-## 9. Vaše pravice
+## 7. Kako dolgo podatke hranimo
+
+Statistika uporabe se hrani toliko časa, kolikor velja PostHogovo obdobje hrambe za naš paket. Ne
+obljubljamo določenega števila mesecev, ker nam ga PostHog ne pusti nastaviti — in številka, ki je
+nihče ne more držati, je v politiki zasebnosti slabša od nobene.
+
+Zapise o nakupih RevenueCat hrani toliko časa, kolikor obstajata naročnina in njena zgodovina;
+prav to zahteva preverjanje naročnine.
+
+Vse, kar je v vaši napravi, tam ostane, dokler aplikacije ne izbrišete.
+
+---
+
+## 8. Vaše pravice
 
 Kadar koli lahko:
 
-- **Izbrišete svoj račun** v nastavitvah v aplikaciji. S tem se izbrišejo vaš profil na strežniku,
-  vaše povezave s prijatelji in vaši zapisi o preverjenih poskusih. Kadar je za vaš račun shranjen
-  Applov žeton za osvežitev (glejte §3.1), se s tem prekliče tudi dostop aplikacije Ranked do
-  vašega računa Apple ID. Podatki, shranjeni samo v vaši napravi, se odstranijo z izbrisom
-  aplikacije.
-- **Umaknete preverjeni poskus** na strani stopnje v aplikaciji. Z odstranitvijo poskusa se
-  izbrišeta zapis in vnos na lestvici, ki ga je ustvaril, ter se prekliče privolitev, dana s
-  snemanjem poskusa. Preklic ne vpliva na zakonitost obdelave pred preklicem.
-- **Zahtevate kopijo** podatkov, ki jih hranimo o vas, ali zahtevate njihov popravek.
-- **Ugovarjate analitiki** s stikalom v nastavitvah ali tako, da nam pišete.
-- **Vložite pritožbo pri nadzornem organu** v svoji državi.
+- **Izklopite statistiko uporabe** v Nastavitvah ▸ Zasebnost. To je vaša pravica do ugovora in,
+  kjer obdelava temelji na privolitvi, do njenega preklica — učinkuje takoj in ne potrebuje
+  razloga.
+- **Izbrišete svoje podatke.** Ker Ranked o vas na strežniku ne hrani ničesar, izbris aplikacije
+  odstrani vse, kar aplikacija sama shranjuje.
+- **Nas prosite, da izbrišemo vaš anonimni analitični profil.** Po imenu ga ne moremo najti — nima
+  ga —, če pa nam pišete s približnim datumom prve uporabe aplikacije in uporabljeno napravo, ga
+  poiščemo ročno in izbrišemo.
+- **Zahtevate kopijo** podatkov, ki jih storitev hrani pod vašim identifikatorjem, nas prosite za
+  njihov **popravek** ali za **omejitev** obdelave, dokler se zahteva obravnava.
+- **Vložite pritožbo pri nadzornem organu** v svoji državi — v Švici pri Zveznem pooblaščencu za
+  varstvo podatkov in informacij (EDÖB).
 
-Za katero koli od tega pišite na **dylan.schmid538@gmail.com**.
-
----
-
-## 10. Otroci
-
-Ranked ni namenjen otrokom, mlajšim od 13 let, in njihovih podatkov ne zbiramo zavestno.
+Za vse to pišite na **dylan.schmid538@gmail.com**.
 
 ---
 
-## 11. Spremembe
+## 9. Otroci
 
-Če se ta politika bistveno spremeni, vas bo aplikacija o tem obvestila, preden sprememba začne
-veljati.
+Ranked je namenjen osebam, starim **16 let in več**. Aplikacija ob nastavitvi vpraša za vašo
+starost, ker je od nje odvisna formula ranga, in ni namenjena nikomur mlajšemu. Zavestno ne zbiramo
+podatkov oseb, mlajših od 16 let.
 
 ---
 
-> **⚠️ Ni pravni nasvet.** Ta dokument je na podlagi izvorne kode in podatkovne sheme aplikacije
-> sestavil inženir, ne odvetnik. Sistem opisuje točno na dan, naveden zgoraj — vsaka trditev v njem
-> je bila preverjena glede na to, kar aplikacija dejansko pošilja. **Ni** bil pregledan glede
-> skladnosti z GDPR, švicarskim revDSG, CCPA ali katero koli drugo ureditvijo. Objava tega besedila
-> zadosti Applu; skladnosti vam ne zagotovi. Ko bo aplikacija začela prinašati prihodek, naj jo
-> prebere odvetnik.
+## 10. Spremembe
+
+Velja različica, objavljena na tem naslovu, datum na vrhu pa vam pove, kdaj se je nazadnje
+spremenila. Prejšnje različice ostajajo vidne v javni zgodovini repozitorija, iz katerega se te
+strani objavljajo, tako da lahko vidite, kaj se je spremenilo in kdaj.
+
+---
+
+> **⚠️ Ni pravni nasvet.** To besedilo je iz izvorne kode aplikacije sestavil inženir, ne odvetnik.
+> Sistem opisuje na zgoraj navedeni datum točno — vsaka trditev v njem je bila preverjena glede na
+> to, kaj aplikacija dejansko pošilja. **Ni** bilo pregledano glede skladnosti z GDPR, švicarskim
+> revDSG, CCPA ali katerim koli drugim režimom. Objava zadosti Applu; skladnosti vam ne zagotovi.
+> Ko bo aplikacija začela prinašati prihodek, naj jo prebere odvetnik.
