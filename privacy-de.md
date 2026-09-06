@@ -8,211 +8,228 @@ permalink: /privacy/de/
 
 # Datenschutzerklärung · Calisthenics Skills – Ranked
 
-**Zuletzt aktualisiert: 23. August 2026**
+**Zuletzt aktualisiert: 4. September 2026**
 
-Diese Erklärung beschreibt, was Ranked erhebt, wohin diese Daten gelangen und was Sie dagegen tun
-können. Sie wurde anhand des tatsächlichen Codes und des Datenbankschemas der App verfasst, nicht
-anhand einer Vorlage — wenn hier etwas falsch ist, ist der Code massgebend.
+Diese Erklärung beschreibt, was Ranked erhebt, wohin es geht und was Sie dagegen tun können. Sie
+wurde anhand des tatsächlichen Codes der App verfasst, nicht nach einer Vorlage — wenn etwas
+hierin falsch ist, ist der Code das Massgebliche.
 
-Ranked wird betrieben von **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Schweiz**, Kontakt **dylan.schmid538@gmail.com**.
+Ranked wird betrieben von **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Schweiz**,
+Kontakt **dylan.schmid538@gmail.com**. Sie ist die Verantwortliche für die hier beschriebene
+Bearbeitung.
 
 ---
 
 ## 1. Die Kurzfassung
 
-Fast alles, was Ranked über Ihr Training weiss, bleibt auf Ihrem Telefon. Ihr Trainingsverlauf, Ihr
-Fortschritt in jedem Skill, Ihr Rang und Ihre Körperkarte werden lokal gespeichert und niemals
-hochgeladen.
+Ranked hat **keine Benutzerkonten und keinen eigenen Server.** Alles, was Ihr Training betrifft —
+jeder geloggte Satz, Ihr Fortschritt durch jeden Skill, Ihr Rang, Ihr Power Level, Ihre Körperkarte
+— liegt auf Ihrem Telefon und wird nirgendwohin hochgeladen.
 
-Vier Dinge verlassen Ihr Gerät: Ihre Anmelde-Identität, ein kleines Profil für die Bestenlisten,
-Aufzeichnungen darüber, dass Sie einen verifizierten Versuch absolviert haben, und anonyme
-Nutzungsanalysen. Jedes davon wird unten erläutert.
+**Ihr Alter, Ihr Geschlecht, Ihre Grösse und Ihr Körpergewicht verlassen Ihr Gerät nie.** Die
+Rangformel verwendet sie auf Ihrem Telefon. Sie werden weder an uns noch an den Analysedienst
+gesendet.
 
-**Ihre Videos von verifizierten Versuchen verlassen Ihr Gerät nie.** Es wird nur ein Fingerabdruck
-der Datei übermittelt.
+Zwei Dinge verlassen Ihr Gerät, und nur diese zwei:
+
+1. **Anonyme Nutzungsstatistiken**, damit wir sehen, wie die App benutzt wird. Sie können das in
+   der App jederzeit abschalten.
+2. **Kaufdaten**, damit das App-Store-Abonnement überprüft werden kann. Apple wickelt die Zahlung
+   ab; wir sehen Ihre Zahlungsdaten nie.
+
+Ranked verfolgt Sie nicht über andere Apps oder Websites hinweg, zeigt keine Werbung und liest
+nichts aus Apple Health.
 
 ---
 
 ## 2. Was auf Ihrem Gerät bleibt
 
-Lokal in der app-eigenen Datenbank gespeichert und niemals übertragen:
+In der eigenen Datenbank der App auf Ihrem Telefon gespeichert und niemals übertragen:
 
-- Jedes Workout, jeder Satz, jede Wiederholung, jeder Halt und jedes Zusatzgewicht, das Sie erfassen
-- Ihr Fortschritt in jedem Skill und jeder Stufe sowie Ihr Rangverlauf
-- Ihr Trainingsplan, Ihr Zeitplan und Ihre Einstellungen
-- Ihre Körpermasse, wie Sie sie eingegeben haben (Alter, Geschlecht, Grösse, Körpergewicht) — eine
-  Kopie einiger dieser Angaben wird zusätzlich an den Bestenlisten-Dienst gesendet, siehe §3.2
-- **Die Videodateien aus verifizierten Versuchen.** Diese werden in den privaten Speicher der App
-  geschrieben. Sie werden nicht hochgeladen, nicht auf unseren Servern gesichert und sind für uns
-  nicht zugänglich.
+- Jedes Training, jeder Satz, jede Wiederholung, jedes Halten und jedes Zusatzgewicht, das Sie
+  loggen
+- Ihr Fortschritt durch jeden Skill und jede Stufe, Ihr Rangverlauf und Ihr Power Level
+- Ihr Trainingsplan, Ihr Zeitplan, Ihre Erinnerungen und Ihre Einstellungen
+- Ihre Körpermasse, so wie Sie sie eingegeben haben (Alter, Geschlecht, Grösse, Körpergewicht)
+- Ihre Trainingsnotizen
 
-Wenn Sie die App löschen, wird all dies gelöscht. Wir können es nicht wiederherstellen.
+Die App schliesst diese Datenbank nicht von der Sicherung Ihres Geräts aus. Wenn Sie iCloud-Backup
+oder eine Sicherung über einen Computer nutzen, sind Ihre Trainingsdaten Teil dieser Sicherung und
+kommen beim Wiederherstellen zurück — zu Apples Bedingungen, nicht zu unseren.
+
+Das Löschen der App löscht all das vom Gerät. Wir können es nicht wiederherstellen, weil wir es nie
+hatten.
 
 ---
 
 ## 3. Was Ihr Gerät verlässt
 
-### 3.1 Ihr Konto
-Wenn Sie sich mit Apple oder Google anmelden, erhalten und speichern wir eine Nutzerkennung und, je
-nachdem, was Sie bei der Anmeldung erlauben, eine E-Mail-Adresse. Dies wird von **Supabase**
-abgewickelt, wo unsere Datenbank und die Authentifizierung gehostet werden.
+### 3.1 Nutzungsstatistiken (PostHog)
 
-Wenn Sie sich mit Apple anmelden, speichern wir zusätzlich das Refresh-Token, das Apple uns in
-diesem Moment übergibt. Es hat nur einen einzigen Zweck: Beim Löschen Ihres Kontos wird dadurch
-auch der Zugriff von Ranked auf Ihre Apple-ID widerrufen, wie Apple es verlangt. Für Konten, deren
-letzte Anmeldung vor Einführung dieser Erfassung stattfand, ist kein Token gespeichert — die
-Löschung überspringt den Widerruf dann einfach.
-
-### 3.2 Ihr Bestenlisten-Profil
-Um Sie auf einer Bestenliste zu platzieren und Sie mit Personen ähnlichen Körperbaus zu
-vergleichen, wird Folgendes auf unserem Server gespeichert:
-
-- ein zufällig erzeugter **Freundescode**
-- Ihr **Alter**, Ihr **Geschlecht** und Ihr **Körpergewicht**
-- das Datum, an dem Ihr Profil erstellt wurde
-
-**Hinweis zur Sichtbarkeit:** Jede angemeldete Ranked-Nutzerin und jeder angemeldete Ranked-Nutzer
-kann ein Profil über dessen Freundescode aufrufen. Genau das ist der Zweck eines Freundescodes — er
-ist dazu da, weitergegeben zu werden. Geben Sie Ihren nicht an Personen weiter, die Ihren Eintrag
-nicht sehen sollen. Was andere Nutzerinnen und Nutzer sehen können, ist Ihr Freundescode und Ihre
-Position auf einer Bestenliste — sonst nichts. Ihr Alter, Ihr Geschlecht und Ihr Körpergewicht
-werden für den Vergleich auf dem Server verwendet und anderen Nutzerinnen und Nutzern niemals
-angezeigt oder zum Download bereitgestellt.
-
-Ihre **Grösse** wird nicht übermittelt. Ihr Trainingsverlauf wird nicht übermittelt.
-
-### 3.3 Verifizierte Versuche
-Wenn Sie einen verifizierten Versuch aufzeichnen, speichern wir: Ihre Nutzer-ID, für welchen Skill
-und welche Stufe der Versuch war, einen **kryptografischen Hash der Videodatei** und den Zeitpunkt
-der Aufnahme.
-
-Der Hash ist ein Fingerabdruck. Er lässt sich nicht in das Video zurückverwandeln. Er existiert,
-damit ein Versuch einer bestimmten Aufnahme zugeordnet werden kann, ohne dass diese Aufnahme jemals
-Ihr Telefon verlässt.
-
-### 3.4 Freunde
-Wenn Sie jemanden über dessen Freundescode hinzufügen, speichern wir die Verbindung zwischen Ihrem
-Konto und dem anderen Konto sowie Ihre Mitgliedschaft in allfälligen Freundesgruppen.
-
-### 3.5 Nutzungsanalyse
 Wir verwenden **PostHog**, gehostet in der **Europäischen Union**, um zu verstehen, wie die App
-genutzt wird. Wir erfassen Ereignisse wie zum Beispiel, welchen Onboarding-Schritt Sie erreicht
-haben, wann ein Workout abgeschlossen wurde, wann sich ein Rang geändert hat und ob ein
-Kaufbildschirm angezeigt oder weggeklickt wurde.
+benutzt wird. Die App sendet dorthin eine feste Liste von Ereignissen:
 
-Diese Ereignisse enthalten Ihren Rang und Ihren Fortschritt in der App. Sie enthalten **nicht**
-Ihren Namen, Ihre E-Mail-Adresse, Ihre Grösse oder die Inhalte Ihrer Workouts.
+- welchen Einrichtungsschritt Sie erreicht, abgeschlossen oder zurückgenommen haben, und wie lange
+  jeder gedauert hat;
+- was die Ersteinstufung ergeben hat: wie viele Skill-Linien und Stufen Sie angegeben haben,
+  welchen Skill Sie sich als Ziel gesetzt haben, Ihren Startrang und den Rang jeder Ihrer sechs
+  Körperregionen;
+- wann der Kaufbildschirm gezeigt oder geschlossen wurde und wann ein Kauf begonnen, abgeschlossen
+  oder wiederhergestellt wurde — mit dem betroffenen Produkt und Angebot;
+- wann sich Ihr Rang geändert hat und welcher Skill das ausgelöst hat;
+- wann Sie eine Stufe geschafft haben — welcher Skill, welche Stufe, und ob es aus einem geloggten
+  Satz, einem nachgetragenen Training oder einer manuellen Angabe kam;
+- welche Bildschirme Sie öffnen und wann eine Session endet. Das Ereignis zum Session-Ende trägt
+  keinerlei Einzelheiten: nicht die Übungen, nicht die Sätze, nicht die Zahlen.
+
+Die PostHog-Software in der App hängt an jedes Ereignis ausserdem technische Standardangaben an —
+etwa Ihr Gerätemodell, Ihre iOS-Version, die App-Version, die Sprache und die Zeitzone — und hält
+fest, wann die App geöffnet und in den Hintergrund geschickt wird. Wie jeder Internetdienst erhält
+PostHog die IP-Adresse der Anfrage; daraus kann ein ungefährer Ort (Land oder Stadt) abgeleitet
+werden.
+
+**Was nicht darin steht:** kein Name, keine E-Mail-Adresse (die App fragt nie danach), keine
+Kontokennung (es gibt keine), weder Alter noch Geschlecht, Grösse oder Körpergewicht, und keine
+Inhalte Ihrer Trainings.
+
+**Wie Sie identifiziert werden:** PostHog erzeugt beim ersten Start der App eine zufällige Kennung
+und speichert sie auf Ihrem Gerät. Alle Ereignisse werden unter dieser Kennung gruppiert. Die App
+sagt PostHog nie, wer Sie sind, und es gibt auch nichts — kein Konto, keine E-Mail —, was sie sagen
+könnte.
+
+**Abschalten:** Einstellungen ▸ Datenschutz ▸ *Anonyme Nutzungsdaten teilen*. Wenn Sie das
+ausschalten, sendet die App von diesem Moment an keine Ereignisse mehr. Die Einstellung liegt auf
+Ihrem Gerät und übersteht App-Aktualisierungen.
+
+### 3.2 Zuordnung von Apple Search Ads
+
+Wenn Sie Ranked nach dem Tippen auf eine Apple-Search-Ads-Anzeige installiert haben, fragt die App
+Apple einmalig beim ersten Start, woher die Installation kam. Apple antwortet mit Kampagne,
+Anzeigengruppe, Suchbegriff und Motiv jener Anzeige, dem Land oder der Region des Klicks, dem Datum
+des Klicks und der Angabe, ob es ein neuer Download oder ein erneuter war. Die App hängt diese
+Werte an die anonyme PostHog-Kennung aus §3.1, damit sich jedes spätere Ereignis der Anzeige
+zuordnen lässt, die Sie gebracht hat.
+
+Dafür wird Apples **AdServices**-Framework verwendet, das ohne den Werbe-Identifier (IDFA)
+auskommt und das Apple nicht als Tracking wertet — es wird daher kein Tracking-Dialog angezeigt.
+Sind Sie nicht über eine Anzeige gekommen, sagt Apple das, und es wird nichts angehängt. Das
+Abschalten der Nutzungsstatistiken (§3.1) stoppt auch dies.
+
+### 3.3 Käufe (Apple und RevenueCat)
+
+Abonnements werden von **Apple** über den App Store verkauft und abgerechnet. Wir sehen Ihre
+Zahlungsdaten, Ihren Apple-Account und Ihren Namen nie.
+
+Um zu prüfen, ob Ihr Abonnement aktiv ist, verwendet die App **RevenueCat**. RevenueCat erhält den
+App-Store-Kaufdatensatz zu Ihrem Abonnement — welches Produkt gekauft wurde, wann es begonnen hat
+und wann es abläuft — zusammen mit technischen Standardangaben wie Ihrer iOS-Version und der
+App-Version. Ihre Installation wird über eine zufällige Kennung erkannt, die RevenueCat selbst
+erzeugt und auf Ihrem Gerät speichert. Wir geben RevenueCat weder Ihren Namen noch Ihre
+E-Mail-Adresse noch eine andere Identität, und da Ranked keine Konten hat, gibt es auch keine.
+
+Wenn Sie **Käufe wiederherstellen** antippen, fragt die App bei Apple die Käufe ab, die mit dem auf
+dem Gerät angemeldeten Apple-Account getätigt wurden, und gibt das Ergebnis auf demselben Weg an
+RevenueCat weiter.
 
 ---
 
-## 4. Käufe
+## 4. Was Ranked nicht tut
 
-Abonnements werden von **Apple** abgewickelt. Wir sehen Ihre Zahlungsdaten nie. **RevenueCat**
-verwaltet Ihren Abonnementstatus in unserem Auftrag und erhält eine pseudonyme Kennung sowie Ihren
-Abonnementstatus. Der Kaufbildschirm selbst ist Teil der App; kein Dritter entscheidet, welcher
-Ihnen angezeigt wird.
-
----
-
-## 5. Kamera und Mikrofon
-
-Ranked fragt für eine einzige Funktion nach Zugriff auf Kamera und Mikrofon: die Aufzeichnung eines
-verifizierten Versuchs. Die Aufnahme wird auf Ihrem Gerät gespeichert. Sie wird niemals hochgeladen.
-Wenn Sie den Zugriff ablehnen, funktioniert jeder andere Teil der App weiterhin.
+- **Keine Konten.** Sie melden sich nie an. Es gibt kein Profil von Ihnen auf irgendeinem Server.
+- **Kein Apple Health.** Ranked liest weder aus der Health-App noch schreibt es dorthin.
+- **Keine Kamera, keine Fotos, kein Mikrofon, kein Standort, keine Kontakte.** Die App fordert
+  keine dieser Berechtigungen an.
+- **Kein Tracking über Apps oder Websites hinweg**, kein Werbe-Identifier, keine Werbung in der
+  App, keine Daten, die an Datenhändler verkauft oder weitergegeben werden.
+- **Kein Push-Server.** Die Erinnerungen, die Ranked senden kann, werden lokal auf Ihrem Telefon
+  geplant; nichts davon verlässt das Gerät. Sie werden vor der ersten gefragt, und Sie können sie
+  in den iOS-Einstellungen jederzeit abschalten.
 
 ---
 
-## 6. Gesundheitsdaten
-
-Ranked liest **keine** Daten aus Apple Health und schreibt **keine** Daten dorthin.
-
-Ihr Alter, Ihr Geschlecht und Ihr Körpergewicht sind gesundheitsnahe Daten und können nach der
-DSGVO als Gesundheitsdaten gelten. Wir erheben sie zu einem einzigen Zweck — die Rangformel
-normalisiert die Leistung nach Körperbau, damit ein 95-kg-Athlet und ein 60-kg-Athlet, die denselben
-Hebel halten, nicht so bewertet werden, als hätten sie dasselbe geleistet — und wir senden davon
-nur das Minimum an den Server, das der Vergleich auf der Bestenliste benötigt.
-
----
-
-## 7. Rechtsgrundlage (DSGVO und Schweizer revDSG)
+## 5. Rechtsgrundlage (DSGVO und Schweizer revDSG)
 
 | Was | Grundlage |
 |---|---|
-| Konto und Anmeldung | Vertragserfüllung — die App setzt ein Konto voraus |
-| Alter, Geschlecht und Körpergewicht | Vertragserfüllung — der Rang wird anhand dieser Angaben normalisiert und kann ohne sie nicht berechnet werden |
-| Freundescode, Freundesgruppen | Vertragserfüllung — die Funktion ist der Grund, weshalb die Daten überhaupt bestehen |
-| Aufzeichnungen verifizierter Versuche und der Bestenlisten-Eintrag, den jede von ihnen erzeugt | Einwilligung, erteilt durch die bewusste Handlung der Aufzeichnung eines Versuchs. Sie widerrufen sie, indem Sie den Versuch auf der Seite der Stufe entfernen, wodurch der Eintrag gelöscht wird — siehe §9 |
-| Käufe | Vertragserfüllung |
-| Analyse | Berechtigtes Interesse an der Verbesserung der App; Sie können jederzeit in den Einstellungen Widerspruch einlegen, siehe §9 |
+| Käufe und Abo-Überprüfung (§3.3) | Vertragserfüllung |
+| Nutzungsstatistiken (§3.1) | Berechtigtes Interesse daran, die App zu verstehen und zu verbessern; Sie können jederzeit widersprechen, indem Sie es abschalten, siehe §8 |
+| Search-Ads-Zuordnung (§3.2) | Berechtigtes Interesse daran zu wissen, welche Werbung wirkt; Widerspruch wie oben |
 
-**Hier gelten zwei Gesetze, nicht eines.** Ranked wird aus der Schweiz betrieben, daher gilt für
-diese Verarbeitung das revidierte Schweizer Bundesgesetz über den Datenschutz (**revDSG**, in Kraft
-seit September 2023). Die **DSGVO** gilt zusätzlich überall dort, wo die App aus der Europäischen
-Union oder dem Vereinigten Königreich genutzt wird. Wo die beiden voneinander abweichen, folgen wir
-dem strengeren. Personen mit Wohnsitz in der Schweiz haben dieselben Kernrechte, die in §9
-aufgeführt sind — Auskunft, Berichtigung, Löschung, Datenübertragbarkeit und Widerspruch — nach
-Artikel 25 ff. revDSG.
+**Hier gelten zwei Rechtsordnungen, nicht eine.** Ranked wird aus der Schweiz betrieben, daher
+regelt das revidierte Schweizer Datenschutzgesetz (**revDSG**, in Kraft seit September 2023) diese
+Bearbeitung. Die **DSGVO** gilt zusätzlich überall dort, wo die App aus der Europäischen Union oder
+dem Vereinigten Königreich genutzt wird. Wo die beiden voneinander abweichen, folgen wir der
+strengeren. Personen mit Wohnsitz in der Schweiz haben dieselben Kernrechte aus §8 nach Art. 25 ff.
+revDSG.
 
 ---
 
-## 8. Wie lange wir die Daten aufbewahren
+## 6. Wo die Daten bearbeitet werden
 
-Konto, Profil, Freunde und Aufzeichnungen verifizierter Versuche werden aufbewahrt, bis Sie Ihr
-Konto löschen. Das Löschen des Kontos entfernt sie.
-
-Analyse-Ereignisse werden so lange aufbewahrt, wie die Aufbewahrungsfrist von PostHog für unseren
-Tarif gilt. **Das Löschen Ihres Kontos löscht sie nicht**, und wir sagen das ausdrücklich, statt
-etwas anderes anzudeuten: Das Analyse-Profil ist nicht mit Ihrem Konto verknüpft — es verwendet
-eine separate, von der App erzeugte Kennung — deshalb gibt es keine Verbindung, über die wir es
-finden und entfernen könnten. Was es enthält, ist in §3.5 aufgeführt: Nutzungsereignisse, Ihren
-Rang sowie das Alter, das Geschlecht und das Körpergewicht, die Sie eingegeben haben. Es enthält
-keinen Namen, keine E-Mail-Adresse und keine Konto-ID.
-
-Wenn Sie möchten, dass auch dieses Profil entfernt wird, schreiben Sie uns mit dem ungefähren Datum,
-an dem Sie die App erstmals genutzt haben, und wir werden es von Hand suchen und löschen.
+- **PostHog** bearbeitet die Nutzungsstatistiken in der Europäischen Union.
+- **RevenueCat, Inc.** hat seinen Sitz in den Vereinigten Staaten und bearbeitet die in §3.3
+  beschriebenen Kaufdaten dort.
+- **Apple** bearbeitet den Kauf selbst und die Search-Ads-Anfrage nach Apples eigener
+  Datenschutzerklärung, die unabhängig von dieser App für Ihren Apple-Account gilt.
 
 ---
 
-## 9. Ihre Rechte
+## 7. Wie lange wir die Daten aufbewahren
+
+Nutzungsstatistiken werden so lange aufbewahrt, wie die Aufbewahrungsfrist von PostHog für unseren
+Tarif gilt. Wir versprechen keine feste Anzahl Monate, weil PostHog uns keine einstellen lässt —
+und eine Zahl, die niemand einhalten kann, ist in einer Datenschutzerklärung schlimmer als keine.
+
+Kaufdatensätze bewahrt RevenueCat so lange auf, wie das Abonnement und seine Historie bestehen;
+genau das verlangt die Überprüfung eines Abonnements.
+
+Alles auf Ihrem Gerät bleibt dort, bis Sie die App löschen.
+
+---
+
+## 8. Ihre Rechte
 
 Sie können jederzeit:
 
-- **Ihr Konto löschen**, in den Einstellungen der App. Damit werden Ihr serverseitiges Profil, Ihre
-  Freundesverbindungen und Ihre Aufzeichnungen verifizierter Versuche gelöscht. Sofern für Ihr
-  Konto ein Apple-Refresh-Token gespeichert ist (siehe §3.1), wird dadurch auch der Zugriff von
-  Ranked auf Ihre Apple-ID widerrufen. Daten, die nur auf Ihrem Gerät gespeichert sind, werden
-  durch das Löschen der App entfernt.
-- **Einen verifizierten Versuch zurückziehen**, auf der Seite der Stufe in der App. Das Entfernen
-  des Versuchs löscht die Aufzeichnung und den dadurch erzeugten Bestenlisten-Eintrag und nimmt
-  die durch die Aufzeichnung erteilte Einwilligung zurück. Durch den Widerruf wird die
-  Rechtmässigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht
-  berührt.
-- **Eine Kopie anfordern** der Daten, die wir über Sie gespeichert haben (Recht auf Auskunft), oder
-  uns bitten, diese zu berichtigen.
-- **Der Analyse widersprechen**, mit dem Schalter in den Einstellungen oder schriftlich an uns.
-- **Bei einer Aufsichtsbehörde** in Ihrem Land **Beschwerde einreichen**.
+- **Nutzungsstatistiken abschalten**, unter Einstellungen ▸ Datenschutz. Das ist Ihr Recht auf
+  Widerspruch und, soweit die Bearbeitung auf Einwilligung beruht, auf deren Widerruf — es wirkt
+  sofort und braucht keine Begründung.
+- **Ihre Daten löschen.** Da Ranked nichts über Sie auf einem Server hält, entfernt das Löschen der
+  App alles, was die App selbst speichert.
+- **Uns bitten, Ihr anonymes Analyseprofil zu löschen.** Wir können es nicht über einen Namen
+  finden — es hat keinen —, aber wenn Sie uns das ungefähre Datum Ihrer ersten Nutzung und das
+  verwendete Gerät schreiben, suchen wir es von Hand heraus und löschen es.
+- **Eine Kopie** der Daten verlangen, die ein Dienst unter Ihrer Kennung hält, uns um deren
+  **Berichtigung** bitten oder um eine **Einschränkung** der Bearbeitung, solange ein Antrag
+  geprüft wird.
+- **Sich bei einer Aufsichtsbehörde beschweren** in Ihrem Land — in der Schweiz beim
+  Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB).
 
-Schreiben Sie für all dies an **dylan.schmid538@gmail.com**.
-
----
-
-## 10. Kinder
-
-Ranked richtet sich nicht an Kinder unter 13 Jahren, und wir erheben deren Daten nicht wissentlich.
+Schreiben Sie für all das an **dylan.schmid538@gmail.com**.
 
 ---
 
-## 11. Änderungen
+## 9. Kinder
 
-Wenn sich diese Erklärung wesentlich ändert, wird die App Sie informieren, bevor die Änderung wirksam
-wird.
+Ranked ist für Personen ab **16 Jahren**. Die App fragt bei der Einrichtung nach Ihrem Alter, weil
+die Rangformel davon abhängt, und sie richtet sich an niemanden, der jünger ist. Wir erheben
+wissentlich keine Daten von Personen unter 16 Jahren.
 
 ---
 
-> **⚠️ Keine Rechtsberatung.** Dieses Dokument wurde von einem Entwickler anhand des Quellcodes und
-> des Datenbankschemas der App verfasst, nicht von einer Juristin oder einem Juristen. Es
-> beschreibt das System zum oben genannten Datum zutreffend — jede Aussage darin wurde daran
-> geprüft, was die App tatsächlich sendet. Es wurde **nicht** auf die Vereinbarkeit mit der DSGVO,
-> dem Schweizer revDSG, dem CCPA oder einer anderen Regelung geprüft. Die Veröffentlichung genügt
-> Apple; sie macht Sie nicht rechtskonform. Lassen Sie es von einer Anwältin oder einem Anwalt
-> lesen, sobald die App Geld einbringt.
+## 10. Änderungen
+
+Es gilt die Fassung, die unter dieser Adresse veröffentlicht ist, und das Datum oben sagt Ihnen,
+wann sie zuletzt geändert wurde. Frühere Fassungen bleiben in der öffentlichen Historie des
+Repositorys sichtbar, aus dem diese Seiten veröffentlicht werden, sodass Sie sehen können, was sich
+wann geändert hat.
+
+---
+
+> **⚠️ Keine Rechtsberatung.** Dieses Dokument wurde von einem Entwickler anhand des Quellcodes der
+> App verfasst, nicht von einer Juristin oder einem Juristen. Es beschreibt das System zum oben
+> genannten Datum zutreffend — jede Aussage darin wurde daran geprüft, was die App tatsächlich
+> sendet. Es wurde **nicht** auf die Vereinbarkeit mit der DSGVO, dem Schweizer revDSG, dem CCPA
+> oder einer anderen Regelung geprüft. Die Veröffentlichung genügt Apple; sie macht Sie nicht
+> rechtskonform. Lassen Sie es von einer Anwältin oder einem Anwalt lesen, sobald die App Geld
+> einbringt.

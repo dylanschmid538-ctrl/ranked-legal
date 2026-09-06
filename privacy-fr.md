@@ -1,223 +1,234 @@
 ---
-title: Politique de confidentialité
+title: Politique de confidentialité · Calisthenics Skills – Ranked
 permalink: /privacy/fr/
 ---
 
-*Ceci est une traduction. En cas de divergence, la version anglaise disponible à l'adresse https://dylanschmid538-ctrl.github.io/ranked-legal/privacy/ fait foi.*
+> *Ceci est une traduction. En cas de divergence, la version anglaise disponible à l'adresse
+> https://dylanschmid538-ctrl.github.io/ranked-legal/privacy/ fait foi.*
 
 # Politique de confidentialité · Calisthenics Skills – Ranked
 
-**Dernière mise à jour : 23 août 2026**
+**Dernière mise à jour : 4 septembre 2026**
 
-La présente politique décrit ce que Ranked collecte, où ces données sont transmises et ce que vous
-pouvez faire à ce sujet. Elle a été rédigée à partir du code source et du schéma de base de données
-réels de l'application, et non à partir d'un modèle — si quelque chose y est inexact, c'est le code
-qu'il faut vérifier.
+La présente politique décrit ce que Ranked collecte, où cela va et ce que vous pouvez y faire. Elle
+a été rédigée à partir du code réel de l'application, et non d'un modèle — si quelque chose ici est
+inexact, c'est le code qui fait référence.
 
-Ranked est exploitée par **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Suisse**, contact **dylan.schmid538@gmail.com**.
+Ranked est exploitée par **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Suisse**, contact
+**dylan.schmid538@gmail.com**. Elle est la responsable du traitement décrit ici.
 
 ---
 
 ## 1. En bref
 
-Presque tout ce que Ranked sait de votre entraînement reste sur votre téléphone. Votre historique
-d'entraînement, votre progression dans chaque compétence, votre rang et votre carte corporelle sont
-enregistrés localement et ne sont jamais transmis.
+Ranked n'a **ni comptes utilisateur, ni serveur propre.** Tout ce qui concerne votre entraînement —
+chaque série enregistrée, votre progression dans chaque compétence, votre rang, votre Power Level,
+votre carte corporelle — est stocké sur votre téléphone et n'est jamais téléversé nulle part.
 
-Quatre éléments quittent votre appareil : votre identité de connexion, un profil réduit utilisé pour
-les classements, l'enregistrement du fait que vous avez réalisé une tentative vérifiée, et des
-statistiques d'utilisation anonymes. Chacun est expliqué ci-dessous.
+**Votre âge, votre sexe, votre taille et votre poids ne quittent jamais votre appareil.** La
+formule de rang les utilise sur votre téléphone. Ils ne nous sont pas envoyés, et ils ne sont pas
+envoyés au service d'analyse.
 
-**Les vidéos de vos Tentatives vérifiées ne quittent jamais votre appareil.** Seule une empreinte du
-fichier est transmise.
+Deux choses quittent votre appareil, et seulement ces deux-là :
+
+1. **Des statistiques d'utilisation anonymes**, afin que nous puissions voir comment l'application
+   est utilisée. Vous pouvez les désactiver à tout moment dans l'application.
+2. **Les données d'achat**, afin que l'abonnement App Store puisse être vérifié. Apple traite le
+   paiement ; nous ne voyons jamais vos données de paiement.
+
+Ranked ne vous suit pas à travers d'autres applications ou sites web, n'affiche aucune publicité et
+ne lit rien depuis Apple Santé.
 
 ---
 
 ## 2. Ce qui reste sur votre appareil
 
-Enregistré localement dans la base de données propre à l'application et jamais transmis :
+Stocké dans la base de données propre à l'application sur votre téléphone et jamais transmis :
 
 - Chaque séance, série, répétition, maintien et charge additionnelle que vous enregistrez
-- Votre progression dans chaque compétence et chaque palier, ainsi que l'historique de votre rang
-- Votre plan d'entraînement, votre calendrier et vos préférences
-- Vos mesures corporelles telles que vous les avez saisies (âge, sexe, taille, poids corporel) — une
-  copie de certaines d'entre elles est également transmise au service de classement, voir §3.2
-- **Les fichiers vidéo des Tentatives vérifiées.** Ils sont écrits dans l'espace de stockage privé de
-  l'application. Ils ne sont pas transmis, ne sont pas sauvegardés sur nos serveurs et ne nous sont
-  pas accessibles.
+- Votre progression dans chaque compétence et chaque palier, l'historique de votre rang et votre
+  Power Level
+- Votre plan d'entraînement, votre calendrier, vos rappels et vos préférences
+- Vos mesures corporelles telles que vous les avez saisies (âge, sexe, taille, poids)
+- Vos notes d'entraînement
 
-La suppression de l'application supprime l'ensemble de ces données. Nous ne pouvons pas les
-récupérer.
+L'application n'exclut pas cette base de données de la sauvegarde de votre appareil. Si vous
+utilisez la sauvegarde iCloud ou une sauvegarde sur ordinateur, vos données d'entraînement en font
+partie et reviennent lors d'une restauration — selon les conditions d'Apple, pas les nôtres.
+
+Supprimer l'application supprime tout cela de l'appareil. Nous ne pouvons rien récupérer, parce que
+nous ne l'avons jamais eu.
 
 ---
 
 ## 3. Ce qui quitte votre appareil
 
-### 3.1 Votre compte
-Lorsque vous vous connectez avec Apple ou Google, nous recevons et conservons un identifiant
-d'utilisateur et, selon ce que vous autorisez lors de la connexion, une adresse e-mail. Ce
-traitement est assuré par **Supabase**, qui héberge notre base de données et notre authentification.
+### 3.1 Statistiques d'utilisation (PostHog)
 
-Lorsque vous vous connectez avec Apple, nous conservons également le jeton d'actualisation (refresh
-token) qu'Apple nous remet à ce moment-là. Il n'a qu'une seule finalité : la suppression de votre
-compte révoque également l'accès de Ranked à votre identifiant Apple, comme Apple l'exige. Pour les
-comptes dont la dernière connexion est antérieure à la mise en place de cette collecte, aucun jeton
-n'est conservé — la suppression omet alors simplement l'étape de révocation.
-
-### 3.2 Votre profil de classement
-Afin de vous positionner dans un classement et de vous comparer à des personnes de gabarit
-similaire, les éléments suivants sont conservés sur notre serveur :
-
-- un **code ami** généré aléatoirement
-- votre **âge**, votre **sexe** et votre **poids corporel**
-- la date de création de votre profil
-
-**Remarque sur la visibilité :** tout utilisateur de Ranked connecté peut consulter un profil à
-partir de son code ami. C'est précisément la fonction d'un code ami : il existe pour être
-communiqué à quelqu'un. Ne partagez pas le vôtre avec une personne dont vous ne souhaiteriez pas
-qu'elle voie votre inscription. Ce que les autres utilisateurs peuvent voir, c'est votre code ami et
-votre position dans un classement — rien d'autre. Votre âge, votre sexe et votre poids corporel sont
-utilisés pour la comparaison sur le serveur et ne sont jamais montrés aux autres utilisateurs ni
-téléchargeables par eux.
-
-Votre **taille** n'est pas transmise. Votre historique d'entraînement n'est pas transmis.
-
-### 3.3 Tentatives vérifiées
-Lorsque vous enregistrez une Tentative vérifiée, nous conservons : votre identifiant d'utilisateur,
-la compétence et le palier concernés par la tentative, une **empreinte cryptographique (hash) du
-fichier vidéo** et l'heure de l'enregistrement.
-
-L'empreinte est une signature. Elle ne peut pas être reconvertie en vidéo. Elle existe pour qu'une
-tentative puisse être rattachée à un enregistrement précis sans que cet enregistrement ne quitte
-jamais votre téléphone.
-
-### 3.4 Amis
-Si vous ajoutez une personne au moyen de son code ami, nous conservons le lien entre votre compte et
-le sien, ainsi que votre appartenance à d'éventuels groupes d'amis.
-
-### 3.5 Statistiques d'utilisation
 Nous utilisons **PostHog**, hébergé dans l'**Union européenne**, pour comprendre comment
-l'application est utilisée. Nous enregistrons des événements tels que l'étape d'intégration
-atteinte, l'achèvement d'une séance, le changement d'un rang, ainsi que l'affichage ou la fermeture
-d'un écran d'achat.
+l'application est utilisée. L'application lui envoie une liste fixe d'événements :
 
-Ces événements comportent votre rang et votre progression dans l'application. Ils ne comportent
-**pas** votre nom, votre e-mail, votre taille, ni le contenu de vos séances.
+- quelle étape de configuration vous avez atteinte, terminée ou quittée, et combien de temps chacune
+  a duré ;
+- ce qu'a donné l'évaluation initiale : combien de lignes de compétences et de paliers vous avez
+  déclarés, quelle compétence vous avez choisie comme objectif, votre rang de départ et le rang de
+  chacune de vos six régions corporelles ;
+- quand l'écran d'achat a été affiché ou fermé, et quand un achat a été commencé, finalisé ou
+  restauré — avec le produit et l'offre concernés ;
+- quand votre rang a changé, et quelle compétence l'a déclenché ;
+- quand vous avez validé un palier — quelle compétence, quel palier, et si cela venait d'une série
+  enregistrée, d'une séance saisie après coup ou d'une déclaration manuelle ;
+- quels écrans vous ouvrez, et quand une séance se termine. L'événement de fin de séance ne porte
+  aucun détail : ni les exercices, ni les séries, ni les chiffres.
+
+Le logiciel PostHog intégré à l'application joint également à chaque événement des informations
+techniques standard — modèle d'appareil, version d'iOS, version de l'application, langue et fuseau
+horaire — et enregistre les moments où l'application est ouverte et mise en arrière-plan. Comme tout
+service Internet, PostHog reçoit l'adresse IP de la requête ; il peut en déduire une localisation
+approximative (pays ou ville).
+
+**Ce qui ne s'y trouve pas :** aucun nom, aucune adresse e-mail (l'application n'en demande jamais),
+aucun identifiant de compte (il n'y en a pas), ni âge, ni sexe, ni taille, ni poids, et aucun
+contenu de vos séances.
+
+**Comment vous êtes identifié :** PostHog génère un identifiant aléatoire au premier lancement de
+l'application et le stocke sur votre appareil. Tous les événements sont regroupés sous cet
+identifiant. L'application ne dit jamais à PostHog qui vous êtes, et il n'y a rien — ni compte, ni
+e-mail — qu'elle pourrait lui dire.
+
+**Pour les désactiver :** Réglages ▸ Confidentialité ▸ *Partager des données d'utilisation
+anonymes*. Désactiver cette option empêche l'application d'envoyer des événements à partir de ce
+moment. Le réglage est stocké sur votre appareil et survit aux mises à jour.
+
+### 3.2 Attribution Apple Search Ads
+
+Si vous avez installé Ranked après avoir appuyé sur une publicité Apple Search Ads, l'application
+demande une seule fois à Apple, au premier lancement, d'où vient l'installation. Apple répond avec
+la campagne, le groupe d'annonces, le mot-clé et le visuel de cette publicité, le pays ou la région
+du clic, la date du clic, et s'il s'agissait d'un nouveau téléchargement ou d'un retéléchargement.
+L'application rattache ces valeurs à l'identifiant PostHog anonyme décrit au §3.1, afin que chaque
+événement ultérieur puisse être regroupé selon la publicité qui vous a amené.
+
+Cela passe par le framework **AdServices** d'Apple, qui n'implique pas l'identifiant publicitaire
+(IDFA) et qu'Apple ne considère pas comme du suivi — aucune fenêtre d'autorisation de suivi n'est
+donc affichée. Si vous n'êtes pas arrivé par une publicité, Apple le dit et rien n'est rattaché.
+Désactiver les statistiques d'utilisation (§3.1) arrête également cela.
+
+### 3.3 Achats (Apple et RevenueCat)
+
+Les abonnements sont vendus et facturés par **Apple** via l'App Store. Nous ne voyons jamais vos
+données de paiement, votre compte Apple ni votre nom.
+
+Pour vérifier si votre abonnement est actif, l'application utilise **RevenueCat**. RevenueCat reçoit
+l'enregistrement d'achat App Store de votre abonnement — le produit acheté, sa date de début et sa
+date d'expiration — ainsi que des informations techniques standard telles que votre version d'iOS
+et la version de l'application. Il identifie votre installation par un identifiant aléatoire qu'il
+génère lui-même et stocke sur votre appareil. Nous ne donnons à RevenueCat ni votre nom, ni votre
+adresse e-mail, ni aucune autre identité, et comme Ranked n'a pas de comptes, il n'y en a aucune à
+donner.
+
+Lorsque vous appuyez sur **Restaurer les achats**, l'application demande à Apple les achats
+effectués avec le compte Apple connecté sur l'appareil et transmet le résultat à RevenueCat de la
+même manière.
 
 ---
 
-## 4. Achats
+## 4. Ce que Ranked ne fait pas
 
-Les abonnements sont traités par **Apple**. Nous ne voyons jamais vos données de paiement.
-**RevenueCat** gère l'état de votre abonnement pour notre compte et reçoit un identifiant
-pseudonyme ainsi que l'état de votre abonnement. L'écran d'achat lui-même fait partie de
-l'application ; aucun tiers ne décide de celui qui vous est présenté.
-
----
-
-## 5. Caméra et microphone
-
-Ranked demande l'accès à la caméra et au microphone pour une seule fonctionnalité :
-l'enregistrement d'une Tentative vérifiée. L'enregistrement est sauvegardé sur votre appareil. Il
-n'est jamais transmis. Si vous refusez, toutes les autres parties de l'application continuent de
-fonctionner.
+- **Aucun compte.** Vous ne vous connectez jamais. Il n'existe aucun profil de vous sur un serveur.
+- **Aucun accès à Apple Santé.** Ranked ne lit rien dans l'app Santé et n'y écrit rien.
+- **Ni appareil photo, ni photos, ni microphone, ni localisation, ni contacts.** L'application ne
+  demande aucune de ces autorisations.
+- **Aucun suivi entre applications ou sites web**, aucun identifiant publicitaire, aucune publicité
+  dans l'application, aucune donnée vendue ou transmise à des courtiers en données.
+- **Aucun serveur de notifications.** Les rappels que Ranked peut envoyer sont programmés localement
+  sur votre téléphone ; rien à leur sujet ne quitte l'appareil. On vous demande votre accord avant
+  le premier, et vous pouvez les désactiver à tout moment dans les réglages d'iOS.
 
 ---
 
-## 6. Données de santé
-
-Ranked ne lit **pas** les données d'Apple Health et n'y écrit pas.
-
-Votre âge, votre sexe et votre poids corporel sont des données proches de la santé et peuvent, au
-sens du RGPD, constituer des données concernant la santé. Nous les collectons dans une seule
-finalité — la formule de rang normalise la performance en fonction du gabarit, afin qu'un athlète de
-95 kg et un athlète de 60 kg tenant le même levier ne soient pas notés comme s'ils avaient accompli
-la même chose — et nous n'en transmettons au serveur que le minimum nécessaire à la comparaison des
-classements.
-
----
-
-## 7. Base légale (RGPD et revDSG suisse)
+## 5. Base légale (RGPD et nLPD suisse)
 
 | Quoi | Base |
 |---|---|
-| Compte et connexion | Exécution d'un contrat — l'application requiert un compte |
-| Âge, sexe et poids corporel | Exécution d'un contrat — le rang est normalisé en fonction de ces données et ne peut pas être calculé sans elles |
-| Code ami, groupes d'amis | Exécution d'un contrat — la fonctionnalité est la raison pour laquelle ces données existent |
-| Enregistrements des tentatives vérifiées, et l'entrée de classement que chacun d'eux crée | Consentement, donné par l'acte délibéré d'enregistrer une tentative. Vous le retirez en supprimant la tentative sur la page du palier, ce qui supprime l'entrée — voir §9 |
-| Achats | Exécution d'un contrat |
-| Statistiques d'utilisation | Intérêt légitime à améliorer l'application ; vous pouvez vous y opposer à tout moment dans les Réglages, voir §9 |
+| Achats et vérification de l'abonnement (§3.3) | Exécution d'un contrat |
+| Statistiques d'utilisation (§3.1) | Intérêt légitime à comprendre et améliorer l'application ; vous pouvez vous y opposer à tout moment en les désactivant, voir §8 |
+| Attribution Search Ads (§3.2) | Intérêt légitime à savoir quelle publicité fonctionne ; opposition comme ci-dessus |
 
-**Deux lois s'appliquent ici, et non une seule.** Ranked est exploitée depuis la Suisse ; la loi
-fédérale suisse révisée sur la protection des données (**revDSG**, en vigueur depuis septembre
-2023) régit donc ce traitement. Le **RGPD** s'applique en outre partout où l'application est
-utilisée depuis l'Union européenne ou le Royaume-Uni. Lorsque les deux divergent, nous appliquons la
-plus stricte. Les personnes résidant en Suisse disposent des mêmes droits fondamentaux que ceux
-énumérés au §9 — accès, rectification, effacement, portabilité et opposition — en vertu des articles
-25 ss revDSG.
+**Deux droits s'appliquent ici, pas un.** Ranked est exploitée depuis la Suisse, de sorte que la loi
+fédérale révisée sur la protection des données (**nLPD**, en vigueur depuis septembre 2023) régit ce
+traitement. Le **RGPD** s'applique en outre partout où l'application est utilisée depuis l'Union
+européenne ou le Royaume-Uni. Lorsque les deux divergent, nous suivons le plus strict. Les personnes
+résidant en Suisse disposent des mêmes droits essentiels que ceux énumérés au §8, en vertu des
+art. 25 ss nLPD.
 
 ---
 
-## 8. Durée de conservation
+## 6. Où les données sont traitées
 
-Les données de compte, de profil, d'amis et des enregistrements de tentatives vérifiées sont
-conservées jusqu'à la suppression de votre compte. La suppression du compte les supprime.
-
-Les événements analytiques sont conservés aussi longtemps que la durée de conservation propre à
-PostHog s'applique à notre offre. **La suppression de votre compte ne les supprime pas**, et nous
-le disons explicitement plutôt que de laisser entendre le contraire : le profil analytique n'est pas
-relié à votre compte — il repose sur un identifiant distinct, généré par l'application — de sorte
-qu'il n'existe aucun lien nous permettant de le retrouver et de le supprimer. Son contenu est
-énuméré au §3.5 : événements d'utilisation, votre rang, ainsi que l'âge, le sexe et le poids
-corporel que vous avez saisis. Il ne comporte ni nom, ni e-mail, ni identifiant de compte.
-
-Si vous souhaitez que ce profil soit également supprimé, écrivez-nous en indiquant la date
-approximative à laquelle vous avez utilisé l'application pour la première fois ; nous le
-localiserons et le supprimerons manuellement.
+- **PostHog** traite les statistiques d'utilisation dans l'Union européenne.
+- **RevenueCat, Inc.** est établie aux États-Unis et y traite les données d'achat décrites au §3.3.
+- **Apple** traite l'achat lui-même et la demande d'attribution Search Ads selon sa propre politique
+  de confidentialité, qui s'applique à votre compte Apple indépendamment de cette application.
 
 ---
 
-## 9. Vos droits
+## 7. Durée de conservation
+
+Les statistiques d'utilisation sont conservées aussi longtemps que s'applique la durée de rétention
+de PostHog pour notre formule. Nous ne promettons pas un nombre de mois fixe, parce que PostHog ne
+nous permet pas d'en définir un — et un chiffre que personne ne peut tenir est pire, dans une
+politique de confidentialité, que pas de chiffre du tout.
+
+Les enregistrements d'achat sont conservés par RevenueCat aussi longtemps que l'abonnement et son
+historique existent, ce qu'exige la vérification d'un abonnement.
+
+Tout ce qui se trouve sur votre appareil y reste jusqu'à ce que vous supprimiez l'application.
+
+---
+
+## 8. Vos droits
 
 Vous pouvez, à tout moment :
 
-- **Supprimer votre compte** depuis les Réglages de l'application. Cela supprime votre profil
-  côté serveur, vos liens d'amitié et les enregistrements de vos tentatives vérifiées. Lorsqu'un
-  jeton d'actualisation Apple est conservé pour votre compte (voir §3.1), cela révoque également
-  l'accès de Ranked à votre identifiant Apple. Les données stockées uniquement sur votre appareil
-  sont supprimées en désinstallant l'application.
-- **Retirer une tentative vérifiée** depuis la page du palier dans l'application. La suppression
-  de la tentative supprime l'enregistrement ainsi que l'entrée de classement qu'elle a créée, et
-  retire le consentement donné par l'enregistrement. Le retrait du consentement ne compromet pas
-  la licéité du traitement fondé sur le consentement effectué avant ce retrait.
-- **Demander une copie** des données que nous détenons à votre sujet, ou nous demander de les
-  rectifier.
-- **Vous opposer aux statistiques d'utilisation** au moyen du commutateur dans les Réglages, ou en
-  nous écrivant.
-- **Introduire une réclamation auprès d'une autorité de contrôle** de votre pays.
+- **Désactiver les statistiques d'utilisation** dans Réglages ▸ Confidentialité. C'est votre droit
+  d'opposition et, lorsque le traitement repose sur le consentement, votre droit de le retirer —
+  cela prend effet immédiatement et n'exige aucune justification.
+- **Supprimer vos données.** Comme Ranked ne détient rien vous concernant sur un serveur, supprimer
+  l'application supprime tout ce que l'application elle-même stocke.
+- **Nous demander de supprimer votre profil d'analyse anonyme.** Nous ne pouvons pas le retrouver
+  par un nom — il n'en a pas —, mais si vous nous écrivez en indiquant la date approximative de
+  votre première utilisation et l'appareil utilisé, nous le localiserons à la main et le
+  supprimerons.
+- **Demander une copie** des données qu'un service détient sous votre identifiant, nous demander de
+  les **corriger**, ou d'en **limiter** le traitement pendant l'examen d'une demande.
+- **Déposer une réclamation auprès d'une autorité de contrôle** de votre pays — en Suisse, le
+  Préposé fédéral à la protection des données et à la transparence (PFPDT).
 
-Écrivez à **dylan.schmid538@gmail.com** pour l'un quelconque de ces droits.
-
----
-
-## 10. Enfants
-
-Ranked ne s'adresse pas aux enfants de moins de 13 ans et nous ne collectons pas sciemment leurs
-données.
+Écrivez à **dylan.schmid538@gmail.com** pour toute demande de ce type.
 
 ---
 
-## 11. Modifications
+## 9. Enfants
 
-Si la présente politique fait l'objet de modifications substantielles, l'application vous en
-informera avant leur entrée en vigueur.
+Ranked s'adresse aux personnes de **16 ans et plus**. L'application demande votre âge lors de la
+configuration parce que la formule de rang en dépend, et elle ne s'adresse à personne de plus jeune.
+Nous ne collectons pas sciemment de données concernant des personnes de moins de 16 ans.
 
 ---
 
-> **⚠️ Ne constitue pas un conseil juridique.** Le présent document a été rédigé à partir du code
-> source et du schéma de base de données de l'application par un ingénieur, et non par un juriste.
-> Il décrit fidèlement le système à la date indiquée ci-dessus — chaque affirmation qu'il contient a
-> été vérifiée par rapport à ce que l'application transmet réellement. Il n'a **pas** fait l'objet
-> d'un examen de conformité au RGPD, à la revDSG suisse, au CCPA ou à tout autre régime. Sa
-> publication satisfait Apple ; elle ne vous rend pas conforme. Faites-le relire par un juriste dès
-> lors que l'application génère des revenus.
+## 10. Modifications
+
+La version publiée à cette adresse est la version en vigueur, et la date en haut vous indique quand
+elle a changé pour la dernière fois. Les versions antérieures restent visibles dans l'historique
+public du dépôt à partir duquel ces pages sont publiées, de sorte que vous pouvez voir ce qui a
+changé et quand.
+
+---
+
+> **⚠️ Ne constitue pas un conseil juridique.** Ce document a été rédigé à partir du code source de
+> l'application par un ingénieur, et non par un juriste. Il décrit fidèlement le système à la date
+> indiquée ci-dessus — chaque affirmation a été vérifiée par rapport à ce que l'application envoie
+> réellement. Il n'a **pas** été examiné au regard du RGPD, de la nLPD suisse, du CCPA ou de tout
+> autre régime. Sa publication satisfait Apple ; elle ne vous rend pas conforme. Faites-le relire
+> par un juriste dès lors que l'application génère des revenus.
