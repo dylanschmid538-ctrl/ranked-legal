@@ -7,7 +7,7 @@ permalink: /
 
 Legal and support pages for the iOS app.
 
-- [Privacy Policy](privacy/) · [Deutsch](privacy/de/) · [Français](privacy/fr/) · [Lietuvių](privacy/lt/) · [Latviešu](privacy/lv/) · [Polski](privacy/pl/) · [Slovenčina](privacy/sk/) · [Slovenščina](privacy/sl/) · [العربية](privacy/ar/) · [עברית](privacy/he/)
+- [Privacy Policy](privacy/) — available in every language offered by the app; choose your language on the policy page.
 - [Terms of Use](terms/) · [Deutsch](terms/de/) · [Français](terms/fr/) · [Lietuvių](terms/lt/) · [Latviešu](terms/lv/) · [Polski](terms/pl/) · [Slovenčina](terms/sk/) · [Slovenščina](terms/sl/) · [العربية](terms/ar/) · [עברית](terms/he/)
 - [Imprint](imprint/) · [Deutsch](imprint/de/) · [Français](imprint/fr/) · [Lietuvių](imprint/lt/) · [Latviešu](imprint/lv/) · [Polski](imprint/pl/) · [Slovenčina](imprint/sk/) · [Slovenščina](imprint/sl/) · [العربية](imprint/ar/) · [עברית](imprint/he/)
 - [Support](support/)

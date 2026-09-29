@@ -3,11 +3,11 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-> **Other languages:** [Deutsch](de/) · [Français](fr/) · [Polski](pl/) · [Slovenčina](sk/) · [Slovenščina](sl/) · [Lietuvių](lt/) · [Latviešu](lv/) · [العربية](ar/) · [עברית](he/)
+> **Other languages:** [العربية](ar/) · [Català](ca/) · [Čeština](cs/) · [Dansk](da/) · [Deutsch](de/) · [Ελληνικά](el/) · [Español](es/) · [Suomi](fi/) · [Français](fr/) · [עברית](he/) · [Hrvatski](hr/) · [Magyar](hu/) · [Bahasa Indonesia](id/) · [Italiano](it/) · [日本語](ja/) · [한국어](ko/) · [Bahasa Melayu](ms/) · [Nederlands](nl/) · [Norsk](no/) · [Polski](pl/) · [Português](pt/) · [Română](ro/) · [Русский](ru/) · [Slovenčina](sk/) · [Slovenščina](sl/) · [Svenska](sv/) · [ไทย](th/) · [Türkçe](tr/) · [Tiếng Việt](vi/) · [中文（简体）](zh-Hans/) · [中文（繁體）](zh-Hant/) · [Lietuvių](lt/) · [Latviešu](lv/)
 
 # Privacy Policy · Calisthenics Skills – Ranked
 
-**Last updated: 4 September 2026**
+**Last updated: 29 September 2026**
 
 This policy describes what Ranked collects, where it goes, and what you can do about it. It was
 written against the app's actual code, not from a template — if something here is wrong, the code
@@ -69,7 +69,9 @@ sends it a fixed list of events:
 - what the initial assessment produced: how many skill lines and stages you claimed, which skill
   you chose as your goal, your starting rank and the rank of each of your six body regions;
 - when the purchase screen was shown or dismissed, and when a purchase was started, completed or
-  restored — with the product and offer it concerned;
+  restored — with the product and offer it concerned; when the app later observes an active trial
+  or paid subscription period, with the product and whether it is a sandbox purchase (this is not
+  a record of every charge, and it is not sent while the app is closed);
 - when your rank changed, and which skill triggered it;
 - when you cleared a stage — which skill, which stage, and whether it came from a logged set, a
   back-filled workout or a manual claim;

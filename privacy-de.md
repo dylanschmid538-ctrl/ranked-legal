@@ -8,7 +8,7 @@ permalink: /privacy/de/
 
 # Datenschutzerklärung · Calisthenics Skills – Ranked
 
-**Zuletzt aktualisiert: 4. September 2026**
+**Zuletzt aktualisiert: 29. September 2026**
 
 Diese Erklärung beschreibt, was Ranked erhebt, wohin es geht und was Sie dagegen tun können. Sie
 wurde anhand des tatsächlichen Codes der App verfasst, nicht nach einer Vorlage — wenn etwas
@@ -75,7 +75,10 @@ benutzt wird. Die App sendet dorthin eine feste Liste von Ereignissen:
   welchen Skill Sie sich als Ziel gesetzt haben, Ihren Startrang und den Rang jeder Ihrer sechs
   Körperregionen;
 - wann der Kaufbildschirm gezeigt oder geschlossen wurde und wann ein Kauf begonnen, abgeschlossen
-  oder wiederhergestellt wurde — mit dem betroffenen Produkt und Angebot;
+  oder wiederhergestellt wurde — mit dem betroffenen Produkt und Angebot; sowie wenn die App später
+  einen aktiven Testzeitraum oder einen bezahlten Abonnementzeitraum feststellt — mit dem Produkt
+  und der Angabe, ob es sich um einen Sandbox-Kauf handelt. Dies ist kein Protokoll jeder einzelnen
+  Abbuchung und wird nicht gesendet, während die App geschlossen ist;
 - wann sich Ihr Rang geändert hat und welcher Skill das ausgelöst hat;
 - wann Sie eine Stufe geschafft haben — welcher Skill, welche Stufe, und ob es aus einem geloggten
   Satz, einem nachgetragenen Training oder einer manuellen Angabe kam;
