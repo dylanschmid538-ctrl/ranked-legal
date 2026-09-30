@@ -8,7 +8,7 @@ permalink: /privacy/fr/
 
 # Politique de confidentialité · Calisthenics Skills – Ranked
 
-**Dernière mise à jour : 4 septembre 2026**
+**Dernière mise à jour : 29 septembre 2026**
 
 La présente politique décrit ce que Ranked collecte, où cela va et ce que vous pouvez y faire. Elle
 a été rédigée à partir du code réel de l'application, et non d'un modèle — si quelque chose ici est
@@ -74,7 +74,10 @@ l'application est utilisée. L'application lui envoie une liste fixe d'événeme
   déclarés, quelle compétence vous avez choisie comme objectif, votre rang de départ et le rang de
   chacune de vos six régions corporelles ;
 - quand l'écran d'achat a été affiché ou fermé, et quand un achat a été commencé, finalisé ou
-  restauré — avec le produit et l'offre concernés ;
+  restauré — avec le produit et l'offre concernés ; et lorsque l'application constate plus tard
+  une période d'essai ou d'abonnement payant en cours — avec le produit et l'indication qu'il s'agit
+  ou non d'un achat en environnement de test. Il ne s'agit pas d'un relevé de chaque prélèvement,
+  et rien n'est envoyé à ce titre lorsque l'application est fermée ;
 - quand votre rang a changé, et quelle compétence l'a déclenché ;
 - quand vous avez validé un palier — quelle compétence, quel palier, et si cela venait d'une série
   enregistrée, d'une séance saisie après coup ou d'une déclaration manuelle ;

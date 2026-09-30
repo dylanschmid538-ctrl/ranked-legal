@@ -8,7 +8,7 @@ permalink: /privacy/pl/
 
 # Polityka prywatności · Calisthenics Skills – Ranked
 
-**Ostatnia aktualizacja: 4 września 2026 r.**
+**Ostatnia aktualizacja: 29 września 2026 r.**
 
 Niniejsza polityka opisuje, co Ranked zbiera, dokąd to trafia i co można z tym zrobić. Powstała na
 podstawie rzeczywistego kodu aplikacji, a nie z szablonu — jeżeli coś tutaj jest nieprawdziwe,
@@ -71,7 +71,10 @@ aplikacja. Aplikacja wysyła tam ustaloną listę zdarzeń:
 - co dała wstępna ocena: ile linii umiejętności i etapów zadeklarowałeś, którą umiejętność wybrałeś
   jako cel, jaką miałeś rangę początkową oraz rangę każdej z sześciu partii ciała;
 - kiedy ekran zakupu został pokazany lub zamknięty i kiedy zakup został rozpoczęty, sfinalizowany
-  lub przywrócony — wraz z produktem i ofertą, których dotyczył;
+  lub przywrócony — wraz z produktem i ofertą, których dotyczył; oraz gdy aplikacja później stwierdzi
+  aktywny okres próbny lub okres płatnej subskrypcji — wraz z produktem i informacją, czy jest to
+  zakup w środowisku testowym. Nie jest to zapis każdego obciążenia i dane te nie są wysyłane,
+  gdy aplikacja jest zamknięta;
 - kiedy zmieniła się ranga i która umiejętność to wywołała;
 - kiedy zaliczyłeś etap — która umiejętność, który etap i czy wynikało to z zapisanej serii,
   uzupełnionego treningu czy ręcznej deklaracji;

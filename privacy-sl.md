@@ -8,7 +8,7 @@ permalink: /privacy/sl/
 
 # Politika zasebnosti · Calisthenics Skills – Ranked
 
-**Zadnja posodobitev: 4. september 2026**
+**Zadnja posodobitev: 29. september 2026**
 
 Ta politika opisuje, kaj Ranked zbira, kam to gre in kaj lahko glede tega storite. Nastala je na
 podlagi dejanske kode aplikacije, ne po predlogi — če je tukaj kaj napačno, odloča koda.
@@ -69,7 +69,9 @@ Aplikacija mu pošilja določen seznam dogodkov:
 - kaj je pokazala začetna ocena: koliko linij veščin in stopenj ste navedli, katero veščino ste
   izbrali za cilj, kakšen je bil vaš začetni rang in rang vsakega od vaših šestih telesnih področij;
 - kdaj je bil prikazan ali zaprt nakupni zaslon in kdaj se je nakup začel, zaključil ali obnovil —
-  z izdelkom in ponudbo, na katera se je nanašal;
+  z izdelkom in ponudbo, na katera se je nanašal; ter ko aplikacija pozneje zazna aktivno poskusno
+  obdobje ali obdobje plačljive naročnine — z izdelkom in podatkom, ali gre za nakup v preizkusnem
+  okolju. To ni evidenca vsake posamezne bremenitve in se ne pošilja, ko je aplikacija zaprta;
 - kdaj se je vaš rang spremenil in katera veščina je to sprožila;
 - kdaj ste opravili stopnjo — katera veščina, katera stopnja in ali je to izhajalo iz zabeleženega
   niza, naknadno vnesene vadbe ali ročne navedbe;

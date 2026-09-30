@@ -8,7 +8,7 @@ permalink: /privacy/lv/
 
 # Privātuma politika · Calisthenics Skills – Ranked
 
-**Pēdējoreiz atjaunināts: 2026. gada 4. septembris**
+**Pēdējoreiz atjaunināts: 2026. gada 29. septembris**
 
 Šī politika apraksta, ko Ranked vāc, kurp tas nonāk un ko Jūs varat ar to darīt. Tā ir sagatavota
 pēc lietotnes faktiskā koda, nevis pēc veidnes — ja kaut kas šeit ir nepareizi, noteicošais ir kods.
@@ -69,7 +69,9 @@ lietota. Lietotne tam nosūta noteiktu notikumu sarakstu:
 - ko parādīja sākotnējais novērtējums: cik prasmju līnijas un pakāpes norādījāt, kuru prasmi
   izvēlējāties par mērķi, kāds bija Jūsu sākuma rangs un katras no sešām Jūsu ķermeņa daļām rangs;
 - kad tika parādīts vai aizvērts pirkuma ekrāns un kad pirkums tika sākts, pabeigts vai atjaunots —
-  ar attiecīgo produktu un piedāvājumu;
+  ar attiecīgo produktu un piedāvājumu; kā arī tad, kad lietotne vēlāk konstatē aktīvu izmēģinājuma
+  periodu vai maksas abonementa periodu — ar produktu un norādi, vai tas ir pirkums testēšanas vidē.
+  Tas nav katra atsevišķa maksājuma reģistrs, un šie dati netiek nosūtīti, kamēr lietotne ir aizvērta;
 - kad mainījās Jūsu rangs un kura prasme to izraisīja;
 - kad pabeidzāt pakāpi — kura prasme, kura pakāpe un vai tas nāca no reģistrēta piegājiena, vēlāk
   pievienota treniņa vai manuālas norādes;

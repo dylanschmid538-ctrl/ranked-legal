@@ -8,7 +8,7 @@ permalink: /privacy/sk/
 
 # Zásady ochrany osobných údajov · Calisthenics Skills – Ranked
 
-**Posledná aktualizácia: 4. septembra 2026**
+**Posledná aktualizácia: 29. septembra 2026**
 
 Tieto zásady opisujú, čo Ranked zbiera, kam to ide a čo s tým môžete urobiť. Vznikli podľa
 skutočného kódu aplikácie, nie podľa šablóny — ak je tu niečo nesprávne, rozhodujúci je kód.
@@ -71,7 +71,9 @@ používa. Aplikácia mu odosiela pevný zoznam udalostí:
   zvolili za cieľ, akú ste mali počiatočnú hodnosť a akú hodnosť má každá z vašich šiestich
   telesných oblastí;
 - kedy sa zobrazila alebo zavrela nákupná obrazovka a kedy sa nákup začal, dokončil alebo obnovil —
-  s produktom a ponukou, ktorých sa to týkalo;
+  s produktom a ponukou, ktorých sa to týkalo; a keď aplikácia neskôr zistí aktívne skúšobné obdobie
+  alebo obdobie plateného predplatného — s produktom a údajom, či ide o nákup v testovacom prostredí.
+  Nejde o záznam každej jednotlivej platby a tieto údaje sa neodosielajú, keď je aplikácia zatvorená;
 - kedy sa zmenila vaša hodnosť a ktorá zručnosť to spustila;
 - kedy ste zvládli stupeň — ktorá zručnosť, ktorý stupeň a či to prišlo zo zaznamenanej série,
   dodatočne zapísaného tréningu alebo z ručného uvedenia;

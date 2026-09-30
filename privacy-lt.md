@@ -8,7 +8,7 @@ permalink: /privacy/lt/
 
 # Privatumo politika · Calisthenics Skills – Ranked
 
-**Paskutinį kartą atnaujinta: 2026 m. rugsėjo 4 d.**
+**Paskutinį kartą atnaujinta: 2026 m. rugsėjo 29 d.**
 
 Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti. Ji
 parengta pagal tikrąjį programėlės kodą, o ne pagal šabloną — jeigu kas nors čia neteisinga,
@@ -72,7 +72,10 @@ Programėlė jam siunčia nustatytą įvykių sąrašą:
 - ką parodė pradinis įvertinimas: kiek įgūdžių linijų ir pakopų nurodėte, kurį įgūdį pasirinkote
   tikslu, koks buvo Jūsų pradinis reitingas ir kiekvienos iš šešių Jūsų kūno sričių reitingas;
 - kada buvo parodytas ar uždarytas pirkimo ekranas ir kada pirkimas buvo pradėtas, užbaigtas ar
-  atkurtas — su atitinkamu produktu ir pasiūlymu;
+  atkurtas — su atitinkamu produktu ir pasiūlymu; taip pat kai programėlė vėliau nustato aktyvų
+  bandomąjį laikotarpį ar mokamos prenumeratos laikotarpį — su produktu ir žyma, ar tai bandomosios
+  aplinkos pirkimas. Tai nėra kiekvieno mokėjimo įrašas, ir šie duomenys nesiunčiami, kai
+  programėlė uždaryta;
 - kada pasikeitė Jūsų reitingas ir kuris įgūdis tai sukėlė;
 - kada įveikėte pakopą — kuris įgūdis, kuri pakopa ir ar tai atsirado iš užregistruoto priėjimo,
   vėliau įrašytos treniruotės ar rankinio nurodymo;
