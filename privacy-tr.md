@@ -21,7 +21,7 @@ Ranked'in işletmecisi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, İ
 
 Cihazınızdan yalnızca şu iki tür veri çıkar:
 
-1. Uygulamanın nasıl kullanıldığını anlamamız için **anonim kullanım istatistikleri**. Bunları uygulamada istediğiniz zaman kapatabilirsiniz.
+1. Uygulamanın nasıl kullanıldığını anlamamız için **Kullanım istatistikleri**. Bunları uygulamada istediğiniz zaman kapatabilirsiniz.
 2. App Store aboneliğinin doğrulanması için **satın alma verileri**. Ödemeyi Apple işler; ödeme bilgileriniz bize hiçbir zaman görünmez.
 
 Ranked sizi başka uygulamalar veya web siteleri arasında takip etmez, reklam göstermez ve Apple Health'ten veri okumaz.

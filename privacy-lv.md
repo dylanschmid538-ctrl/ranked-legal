@@ -25,7 +25,7 @@ izmanto Jūsu tālrunī. Tie netiek sūtīti ne mums, ne analītikas pakalpojuma
 
 Jūsu ierīci atstāj divas lietas, un tikai šīs divas:
 
-1. **Anonīma lietojuma statistika**, lai mēs redzētu, kā lietotne tiek lietota. To lietotnē varat
+1. **Lietojuma statistika**, lai mēs redzētu, kā lietotne tiek lietota. To lietotnē varat
    jebkurā brīdī izslēgt.
 2. **Pirkuma dati**, lai varētu pārbaudīt App Store abonementu. Maksājumu apstrādā Apple; Jūsu
    maksājumu datus mēs nekad neredzam.

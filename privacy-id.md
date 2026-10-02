@@ -21,7 +21,7 @@ Ranked dioperasikan oleh **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, 
 
 Hanya dua jenis data yang meninggalkan perangkat:
 
-1. **Statistik penggunaan anonim**, agar kami memahami cara aplikasi digunakan. Anda dapat menonaktifkannya kapan saja di aplikasi.
+1. **Statistik penggunaan**, agar kami memahami cara aplikasi digunakan. Anda dapat menonaktifkannya kapan saja di aplikasi.
 2. **Data pembelian**, agar langganan App Store dapat diverifikasi. Apple menangani pembayaran; kami tidak pernah melihat rincian pembayaran Anda.
 
 Ranked tidak melacak Anda di aplikasi atau situs web lain, tidak menampilkan iklan, dan tidak membaca apa pun dari Apple Health.

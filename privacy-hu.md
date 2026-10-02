@@ -21,7 +21,7 @@ A Ranked üzemeltetője és az itt leírt adatkezelés adatkezelője **Monica De
 
 Csak kétféle adat hagyja el az eszközét:
 
-1. **Névtelen használati statisztikák**, amelyek alapján láthatjuk, hogyan használják az alkalmazást. Ezt az alkalmazásban bármikor kikapcsolhatja.
+1. **Használati statisztikák**, amelyek alapján láthatjuk, hogyan használják az alkalmazást. Ezt az alkalmazásban bármikor kikapcsolhatja.
 2. **Vásárlási adatok**, hogy ellenőrizni lehessen az App Store-előfizetést. A fizetést az Apple kezeli; fizetési adatait mi soha nem látjuk.
 
 A Ranked nem követi Önt más alkalmazásokban vagy webhelyeken, nem jelenít meg hirdetéseket, és nem olvas adatot az Apple Egészség alkalmazásból.

@@ -27,7 +27,7 @@ envoyés au service d'analyse.
 
 Deux choses quittent votre appareil, et seulement ces deux-là :
 
-1. **Des statistiques d'utilisation anonymes**, afin que nous puissions voir comment l'application
+1. **Statistiques d'utilisation**, afin que nous puissions voir comment l'application
    est utilisée. Vous pouvez les désactiver à tout moment dans l'application.
 2. **Les données d'achat**, afin que l'abonnement App Store puisse être vérifié. Apple traite le
    paiement ; nous ne voyons jamais vos données de paiement.

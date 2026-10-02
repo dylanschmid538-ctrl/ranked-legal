@@ -21,7 +21,7 @@ Ranked do **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Thụy Sĩ** v�
 
 Chỉ có hai loại dữ liệu rời khỏi thiết bị:
 
-1. **Thống kê sử dụng ẩn danh**, giúp chúng tôi biết ứng dụng được dùng như thế nào. Bạn có thể tắt trong ứng dụng bất kỳ lúc nào.
+1. **Thống kê sử dụng**, giúp chúng tôi biết ứng dụng được dùng như thế nào. Bạn có thể tắt trong ứng dụng bất kỳ lúc nào.
 2. **Dữ liệu mua hàng**, để xác minh gói đăng ký App Store. Apple xử lý thanh toán; chúng tôi không bao giờ thấy thông tin thanh toán của bạn.
 
 Ranked không theo dõi bạn giữa các ứng dụng hoặc trang web khác, không hiển thị quảng cáo và không đọc dữ liệu từ Apple Health.

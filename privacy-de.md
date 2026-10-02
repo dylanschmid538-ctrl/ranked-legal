@@ -28,7 +28,7 @@ gesendet.
 
 Zwei Dinge verlassen Ihr Gerät, und nur diese zwei:
 
-1. **Anonyme Nutzungsstatistiken**, damit wir sehen, wie die App benutzt wird. Sie können das in
+1. **Nutzungsstatistiken**, damit wir sehen, wie die App benutzt wird. Sie können das in
    der App jederzeit abschalten.
 2. **Kaufdaten**, damit das App-Store-Abonnement überprüft werden kann. Apple wickelt die Zahlung
    ab; wir sehen Ihre Zahlungsdaten nie.

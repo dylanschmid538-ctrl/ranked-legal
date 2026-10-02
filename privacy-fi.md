@@ -21,7 +21,7 @@ Ranked-sovellusta ylläpitää **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Lu
 
 Vain kahdenlaiset tiedot poistuvat laitteeltasi:
 
-1. **Nimettömät käyttötilastot**, joiden avulla näemme, miten sovellusta käytetään. Voit poistaa ne käytöstä sovelluksessa milloin tahansa.
+1. **Käyttötilastot**, joiden avulla näemme, miten sovellusta käytetään. Voit poistaa ne käytöstä sovelluksessa milloin tahansa.
 2. **Ostotiedot**, jotta App Store -tilaus voidaan vahvistaa. Apple käsittelee maksun; me emme koskaan näe maksutietojasi.
 
 Ranked ei seuraa sinua muissa sovelluksissa tai verkkosivustoilla, ei näytä mainoksia eikä lue tietoja Apple Healthista.

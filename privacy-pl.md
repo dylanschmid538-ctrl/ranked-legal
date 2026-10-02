@@ -26,7 +26,7 @@ telefonie. Nie są wysyłane ani do nas, ani do usługi analitycznej.
 
 Urządzenie opuszczają dwie rzeczy i tylko te dwie:
 
-1. **Anonimowe statystyki użycia**, żebyśmy widzieli, jak aplikacja jest używana. Można je w
+1. **Statystyki użycia**, żebyśmy widzieli, jak aplikacja jest używana. Można je w
    aplikacji w każdej chwili wyłączyć.
 2. **Dane zakupu**, żeby można było zweryfikować subskrypcję App Store. Płatność obsługuje Apple;
    my nigdy nie widzimy danych płatniczych.

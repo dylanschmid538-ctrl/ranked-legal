@@ -21,7 +21,7 @@ Ranked 由 **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Switzerland** 
 
 只有以下兩類資料會離開裝置：
 
-1. 用來了解應用程式使用情況的**匿名使用統計資料**。您可隨時在應用程式內關閉。
+1. 用來了解應用程式使用情況的**使用統計資料**。您可隨時在應用程式內關閉。
 2. 用來驗證 App Store 訂閱的**購買資料**。付款由 Apple 處理；我們絕不會看到您的付款詳情。
 
 Ranked 不會跨其他應用程式或網站追蹤您，不顯示廣告，也不會讀取 Apple Health 資料。

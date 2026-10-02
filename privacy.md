@@ -25,7 +25,7 @@ your phone. They are not sent to us, and they are not sent to the analytics serv
 
 Two things do leave your device, and only these two:
 
-1. **Anonymous usage statistics**, so we can see how the app is used. You can switch this off in
+1. **Usage statistics**, so we can see how the app is used. You can switch this off in
    the app at any time.
 2. **Purchase data**, so the App Store subscription can be verified. Apple handles the payment;
    we never see your payment details.

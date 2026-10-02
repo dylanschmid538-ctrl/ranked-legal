@@ -25,7 +25,7 @@ používa vo vašom telefóne. Neodosielajú sa nám ani analytickej službe.
 
 Vaše zariadenie opúšťajú dve veci, a len tieto dve:
 
-1. **Anonymné štatistiky používania**, aby sme videli, ako sa aplikácia používa. V aplikácii ich
+1. **Štatistiky používania**, aby sme videli, ako sa aplikácia používa. V aplikácii ich
    môžete kedykoľvek vypnúť.
 2. **Údaje o nákupe**, aby sa dalo overiť predplatné z App Store. Platbu spracúva Apple; vaše
    platobné údaje nikdy nevidíme.

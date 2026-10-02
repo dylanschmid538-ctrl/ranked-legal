@@ -21,7 +21,7 @@ Ranked vodi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švicarska**,
 
 Uređaj napuštaju samo dvije vrste podataka:
 
-1. **Anonimna statistika korištenja**, kako bismo razumjeli kako se aplikacija koristi. Možete je bilo kada isključiti u aplikaciji.
+1. **Statistika korištenja**, kako bismo razumjeli kako se aplikacija koristi. Možete je bilo kada isključiti u aplikaciji.
 2. **Podaci o kupnji**, radi provjere pretplate u App Storeu. Apple obrađuje plaćanje; mi nikad ne vidimo vaše podatke o plaćanju.
 
 Ranked vas ne prati kroz druge aplikacije ili web-mjesta, ne prikazuje oglase i ne čita ništa iz Apple Healtha.
