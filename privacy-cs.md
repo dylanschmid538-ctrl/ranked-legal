@@ -21,7 +21,7 @@ Ranked provozuje **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švýcar
 
 Zařízení opouštějí pouze dva druhy údajů:
 
-1. **Anonymní statistiky používání**, abychom věděli, jak se aplikace používá. V aplikaci je můžete kdykoli vypnout.
+1. **Statistiky používání**, abychom věděli, jak se aplikace používá. V aplikaci je můžete kdykoli vypnout.
 2. **Údaje o nákupech**, aby bylo možné ověřit předplatné v App Storu. Platbu zpracovává Apple; vaše platební údaje nikdy nevidíme.
 
 Ranked vás nesleduje v jiných aplikacích ani na webových stránkách, nezobrazuje reklamy a nečte nic z aplikace Apple Zdraví.

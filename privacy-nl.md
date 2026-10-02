@@ -21,7 +21,7 @@ Ranked wordt beheerd door **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern,
 
 Slechts twee soorten gegevens verlaten uw apparaat:
 
-1. **Anonieme gebruiksstatistieken**, zodat we kunnen zien hoe de app wordt gebruikt. U kunt deze op elk moment in de app uitschakelen.
+1. **Gebruiksstatistieken**, zodat we kunnen zien hoe de app wordt gebruikt. U kunt deze op elk moment in de app uitschakelen.
 2. **Aankoopgegevens**, zodat het App Store-abonnement kan worden geverifieerd. Apple verwerkt de betaling; wij zien uw betaalgegevens nooit.
 
 Ranked volgt u niet in andere apps of op websites, toont geen advertenties en leest niets uit Apple Health.

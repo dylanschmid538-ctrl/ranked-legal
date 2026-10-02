@@ -25,7 +25,7 @@ uporablja v vašem telefonu. Ne pošiljajo se ne nam ne analitični storitvi.
 
 Vašo napravo zapustita dve stvari, in samo ti dve:
 
-1. **Anonimna statistika uporabe**, da vidimo, kako se aplikacija uporablja. V aplikaciji jo lahko
+1. **Statistika uporabe**, da vidimo, kako se aplikacija uporablja. V aplikaciji jo lahko
    kadar koli izklopite.
 2. **Podatki o nakupu**, da je mogoče preveriti naročnino iz trgovine App Store. Plačilo izvede
    Apple; vaših plačilnih podatkov nikoli ne vidimo.

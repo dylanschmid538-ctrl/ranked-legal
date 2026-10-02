@@ -21,7 +21,7 @@ Ranked è gestita da **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Sviz
 
 Solo due categorie di dati lasciano il dispositivo:
 
-1. **Statistiche d'uso anonime**, per capire come viene utilizzata l'app. Puoi disattivarle nell'app in qualsiasi momento.
+1. **Statistiche d'uso**, per capire come viene utilizzata l'app. Puoi disattivarle nell'app in qualsiasi momento.
 2. **Dati relativi agli acquisti**, per verificare l'abbonamento all'App Store. Apple gestisce il pagamento; noi non vediamo mai i tuoi dati di pagamento.
 
 Ranked non ti traccia su altre app o siti web, non mostra pubblicità e non legge dati da Apple Salute.

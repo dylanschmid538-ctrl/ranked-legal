@@ -26,7 +26,7 @@ naudoja Jūsų telefone. Jie nesiunčiami nei mums, nei analitikos paslaugai.
 
 Jūsų įrenginį palieka du dalykai, ir tik šie du:
 
-1. **Anoniminė naudojimo statistika**, kad matytume, kaip programėlė naudojama. Ją galite bet kada
+1. **Naudojimo statistika**, kad matytume, kaip programėlė naudojama. Ją galite bet kada
    išjungti programėlėje.
 2. **Pirkimo duomenys**, kad būtų galima patikrinti „App Store“ prenumeratą. Mokėjimą tvarko
    „Apple“; Jūsų mokėjimo duomenų mes niekada nematome.

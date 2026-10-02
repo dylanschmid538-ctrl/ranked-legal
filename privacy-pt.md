@@ -21,7 +21,7 @@ O Ranked é operado por **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, S
 
 Apenas duas categorias de dados saem do dispositivo:
 
-1. **Estatísticas de utilização anónimas**, para percebermos como a aplicação é usada. Pode desativá-las a qualquer momento na aplicação.
+1. **Estatísticas de utilização**, para percebermos como a aplicação é usada. Pode desativá-las a qualquer momento na aplicação.
 2. **Dados de compra**, para verificar a assinatura da App Store. A Apple processa o pagamento; nunca vemos os seus dados de pagamento.
 
 O Ranked não o segue entre outras aplicações ou sites, não apresenta publicidade e não lê dados da Apple Health.

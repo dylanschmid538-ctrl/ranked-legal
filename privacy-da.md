@@ -21,7 +21,7 @@ Ranked drives af **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Schweiz*
 
 Kun to slags oplysninger forlader din enhed:
 
-1. **Anonym brugsstatistik**, så vi kan se, hvordan appen bruges. Du kan slå den fra i appen når som helst.
+1. **Brugsstatistik**, så vi kan se, hvordan appen bruges. Du kan slå den fra i appen når som helst.
 2. **Købsoplysninger**, så App Store-abonnementet kan kontrolleres. Apple håndterer betalingen; vi ser aldrig dine betalingsoplysninger.
 
 Ranked sporer dig ikke på tværs af andre apps eller websteder, viser ingen reklamer og læser intet fra Apple Health.
