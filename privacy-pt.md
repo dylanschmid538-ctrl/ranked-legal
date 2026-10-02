@@ -7,7 +7,7 @@ permalink: /privacy/pt/
 
 # Política de Privacidade · Calisthenics Skills – Ranked
 
-**Última atualização: 29 de setembro de 2026**
+**Última atualização: 2026-10-02**
 
 Esta política descreve o que o Ranked recolhe, para onde vão os dados e o que pode fazer a esse respeito. Foi redigida com base no código real da aplicação, não num modelo; se houver aqui algum erro, é o código que deve ser verificado.
 
@@ -17,13 +17,11 @@ O Ranked é operado por **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, S
 
 ## 1. Em resumo
 
-O Ranked **não tem contas de utilizador nem servidor próprio**. Tudo o que diz respeito ao seu treino — cada série registada, o progresso em cada habilidade, o seu nível, o Power Level e o mapa corporal — fica guardado no seu telemóvel e nunca é carregado para outro local.
-
 **A sua idade, sexo, altura e peso corporal nunca saem do dispositivo.** A fórmula de classificação usa-os no telemóvel. Não são enviados para nós nem para o serviço de análise.
 
 Apenas duas categorias de dados saem do dispositivo:
 
-1. **Estatísticas de utilização anónimas**, para percebermos como a aplicação é usada. Pode desativá-las a qualquer momento na aplicação.
+1. **Estatísticas de utilização**, para percebermos como a aplicação é usada. Pode desativá-las a qualquer momento na aplicação.
 2. **Dados de compra**, para verificar a assinatura da App Store. A Apple processa o pagamento; nunca vemos os seus dados de pagamento.
 
 O Ranked não o segue entre outras aplicações ou sites, não apresenta publicidade e não lê dados da Apple Health.
@@ -35,7 +33,6 @@ O Ranked não o segue entre outras aplicações ou sites, não apresenta publici
 Os seguintes dados são guardados na base de dados da aplicação no seu telemóvel e nunca são transmitidos:
 
 - Cada treino, série, repetição, tempo de sustentação e peso adicional que regista
-- O seu progresso em cada habilidade e etapa, o histórico de níveis e o Power Level
 - O seu plano de treino, calendário, lembretes e preferências
 - As medidas corporais que introduziu (idade, sexo, altura e peso corporal)
 - As suas notas de treino

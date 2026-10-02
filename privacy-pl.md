@@ -8,7 +8,7 @@ permalink: /privacy/pl/
 
 # Polityka prywatności · Calisthenics Skills – Ranked
 
-**Ostatnia aktualizacja: 29 września 2026 r.**
+**Ostatnia aktualizacja: 2026-10-02**
 
 Niniejsza polityka opisuje, co Ranked zbiera, dokąd to trafia i co można z tym zrobić. Powstała na
 podstawie rzeczywistego kodu aplikacji, a nie z szablonu — jeżeli coś tutaj jest nieprawdziwe,
@@ -21,16 +21,12 @@ Ranked prowadzi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Szwajcari
 
 ## 1. W skrócie
 
-Ranked nie ma **kont użytkowników ani własnego serwera.** Wszystko, co dotyczy treningu — każda
-zapisana seria, postęp w każdej umiejętności, ranga, Power Level, mapa ciała — jest przechowywane w
-telefonie i nigdy nigdzie nie jest przesyłane.
-
 **Wiek, płeć, wzrost i masa ciała nigdy nie opuszczają urządzenia.** Wzór rangi korzysta z nich w
 telefonie. Nie są wysyłane ani do nas, ani do usługi analitycznej.
 
 Urządzenie opuszczają dwie rzeczy i tylko te dwie:
 
-1. **Anonimowe statystyki użycia**, żebyśmy widzieli, jak aplikacja jest używana. Można je w
+1. **Statystyki użycia**, żebyśmy widzieli, jak aplikacja jest używana. Można je w
    aplikacji w każdej chwili wyłączyć.
 2. **Dane zakupu**, żeby można było zweryfikować subskrypcję App Store. Płatność obsługuje Apple;
    my nigdy nie widzimy danych płatniczych.
@@ -45,7 +41,6 @@ reklam i nie odczytuje niczego z aplikacji Zdrowie firmy Apple.
 Zapisane we własnej bazie danych aplikacji w telefonie i nigdy nieprzesyłane:
 
 - Każdy trening, seria, powtórzenie, zwis oraz obciążenie dodatkowe, które zapiszesz
-- Postęp w każdej umiejętności i na każdym etapie, historia rangi oraz Power Level
 - Plan treningowy, harmonogram, przypomnienia i preferencje
 - Wymiary ciała w postaci, w jakiej zostały wprowadzone (wiek, płeć, wzrost, masa ciała)
 - Notatki treningowe

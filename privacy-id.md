@@ -7,7 +7,7 @@ permalink: /privacy/id/
 
 # Kebijakan Privasi · Calisthenics Skills – Ranked
 
-**Terakhir diperbarui: 29 September 2026**
+**Terakhir diperbarui: 2026-10-02**
 
 Kebijakan ini menjelaskan data apa yang dikumpulkan Ranked, ke mana data tersebut dikirim, dan apa yang dapat Anda lakukan. Dokumen ini ditulis berdasarkan kode aplikasi yang sebenarnya, bukan templat; jika ada yang keliru, kodenya yang perlu diperiksa.
 
@@ -17,13 +17,11 @@ Ranked dioperasikan oleh **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, 
 
 ## 1. Ringkasan
 
-Ranked **tidak memiliki akun pengguna atau server sendiri**. Semua hal tentang latihan Anda — setiap set yang dicatat, perkembangan setiap keterampilan, peringkat, Power Level, dan peta tubuh — disimpan di ponsel Anda dan tidak pernah diunggah.
-
 **Usia, jenis kelamin, tinggi badan, dan berat badan Anda tidak pernah meninggalkan perangkat.** Rumus peringkat menggunakannya di ponsel Anda. Data itu tidak dikirim kepada kami ataupun layanan analitik.
 
 Hanya dua jenis data yang meninggalkan perangkat:
 
-1. **Statistik penggunaan anonim**, agar kami memahami cara aplikasi digunakan. Anda dapat menonaktifkannya kapan saja di aplikasi.
+1. **Statistik penggunaan**, agar kami memahami cara aplikasi digunakan. Anda dapat menonaktifkannya kapan saja di aplikasi.
 2. **Data pembelian**, agar langganan App Store dapat diverifikasi. Apple menangani pembayaran; kami tidak pernah melihat rincian pembayaran Anda.
 
 Ranked tidak melacak Anda di aplikasi atau situs web lain, tidak menampilkan iklan, dan tidak membaca apa pun dari Apple Health.
@@ -35,7 +33,6 @@ Ranked tidak melacak Anda di aplikasi atau situs web lain, tidak menampilkan ikl
 Data berikut disimpan di basis data aplikasi pada ponsel Anda dan tidak pernah dikirim:
 
 - Setiap latihan, set, repetisi, durasi tahan, dan beban tambahan yang Anda catat
-- Perkembangan di setiap keterampilan dan tahap, riwayat peringkat, dan Power Level
 - Rencana latihan, jadwal, pengingat, dan preferensi
 - Ukuran tubuh yang Anda masukkan (usia, jenis kelamin, tinggi badan, berat badan)
 - Catatan latihan

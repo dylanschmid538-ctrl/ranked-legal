@@ -7,7 +7,7 @@ permalink: /privacy/ca/
 
 # Política de privacitat · Calisthenics Skills – Ranked
 
-**Última actualització: 29 de setembre de 2026**
+**Última actualització: 2026-10-02**
 
 Aquesta política explica quines dades recull Ranked, on van i què podeu fer al respecte. S'ha redactat a partir del codi real de l'aplicació, no d'una plantilla; si alguna cosa és incorrecta, cal comprovar el codi.
 
@@ -17,13 +17,11 @@ Ranked és operada per **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Su
 
 ## 1. Resum
 
-Ranked **no té comptes d'usuari ni servidor propi**. Tot el que té a veure amb el vostre entrenament —cada sèrie registrada, el progrés en cada habilitat, el rang, el Power Level i el mapa corporal— es desa al telèfon i no es puja enlloc.
-
 **La vostra edat, sexe, alçada i pes corporal no surten mai del dispositiu.** La fórmula del rang els fa servir al telèfon. No s'envien ni a nosaltres ni al servei d'anàlisi.
 
 Només surten del dispositiu dues classes de dades:
 
-1. **Estadístiques anònimes d'ús**, per saber com s'utilitza l'aplicació. Les podeu desactivar en qualsevol moment dins l'aplicació.
+1. **Estadístiques d'ús**, per saber com s'utilitza l'aplicació. Les podeu desactivar en qualsevol moment dins l'aplicació.
 2. **Dades de compra**, per verificar la subscripció de l'App Store. Apple gestiona el pagament; nosaltres no en veiem mai els detalls.
 
 Ranked no us segueix entre altres aplicacions o llocs web, no mostra publicitat i no llegeix res d'Apple Health.
@@ -35,7 +33,6 @@ Ranked no us segueix entre altres aplicacions o llocs web, no mostra publicitat 
 Les dades següents es desen a la base de dades de l'aplicació al telèfon i no es transmeten mai:
 
 - Cada entrenament, sèrie, repetició, manteniment i pes afegit que registreu
-- El progrés en cada habilitat i etapa, l'historial de rangs i el Power Level
 - El pla i el calendari d'entrenament, els recordatoris i les preferències
 - Les mesures corporals que heu introduït (edat, sexe, alçada i pes corporal)
 - Les notes d'entrenament

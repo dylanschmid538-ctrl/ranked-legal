@@ -7,7 +7,7 @@ permalink: /privacy/nl/
 
 # Privacyverklaring · Calisthenics Skills – Ranked
 
-**Laatst bijgewerkt: 29 september 2026**
+**Laatst bijgewerkt: 2026-10-02**
 
 Deze verklaring beschrijft welke gegevens Ranked verzamelt, waar ze naartoe gaan en wat u eraan kunt doen. Zij is opgesteld aan de hand van de daadwerkelijke appcode, niet van een sjabloon; als hier iets niet klopt, moet de code worden gecontroleerd.
 
@@ -17,13 +17,11 @@ Ranked wordt beheerd door **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern,
 
 ## 1. In het kort
 
-Ranked heeft **geen gebruikersaccounts en geen eigen server**. Alles over uw training — elke geregistreerde set, uw voortgang bij elke vaardigheid, uw rang, uw Power Level en uw lichaamskaart — staat op uw telefoon en wordt nergens geüpload.
-
 **Uw leeftijd, geslacht, lengte en lichaamsgewicht verlaten uw apparaat nooit.** De rangformule gebruikt ze op uw telefoon. Ze worden niet naar ons of naar de analysedienst gestuurd.
 
 Slechts twee soorten gegevens verlaten uw apparaat:
 
-1. **Anonieme gebruiksstatistieken**, zodat we kunnen zien hoe de app wordt gebruikt. U kunt deze op elk moment in de app uitschakelen.
+1. **Gebruiksstatistieken**, zodat we kunnen zien hoe de app wordt gebruikt. U kunt deze op elk moment in de app uitschakelen.
 2. **Aankoopgegevens**, zodat het App Store-abonnement kan worden geverifieerd. Apple verwerkt de betaling; wij zien uw betaalgegevens nooit.
 
 Ranked volgt u niet in andere apps of op websites, toont geen advertenties en leest niets uit Apple Health.
@@ -35,7 +33,6 @@ Ranked volgt u niet in andere apps of op websites, toont geen advertenties en le
 De volgende gegevens staan in de eigen database van de app op uw telefoon en worden nooit verzonden:
 
 - Elke training, set, herhaling, houdduur en extra gewicht die u registreert
-- Uw voortgang per vaardigheid en fase, uw ranggeschiedenis en Power Level
 - Uw trainingsplan, schema, herinneringen en voorkeuren
 - De lichaamsmaten die u hebt ingevoerd (leeftijd, geslacht, lengte, lichaamsgewicht)
 - Uw trainingsnotities

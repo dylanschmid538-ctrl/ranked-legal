@@ -8,7 +8,7 @@ permalink: /privacy/lv/
 
 # Privātuma politika · Calisthenics Skills – Ranked
 
-**Pēdējoreiz atjaunināts: 2026. gada 29. septembris**
+**Pēdējoreiz atjaunināts: 2026-10-02**
 
 Šī politika apraksta, ko Ranked vāc, kurp tas nonāk un ko Jūs varat ar to darīt. Tā ir sagatavota
 pēc lietotnes faktiskā koda, nevis pēc veidnes — ja kaut kas šeit ir nepareizi, noteicošais ir kods.
@@ -20,16 +20,12 @@ Ranked pārvalda **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Šveice*
 
 ## 1. Īsumā
 
-Ranked nav **lietotāju kontu un nav sava servera.** Viss, kas attiecas uz Jūsu treniņiem — katrs
-reģistrētais piegājiens, Jūsu progress katrā prasmē, Jūsu rangs, Jūsu Power Level, Jūsu ķermeņa
-karte — glabājas Jūsu tālrunī un nekad nekur netiek augšupielādēts.
-
 **Jūsu vecums, dzimums, augums un ķermeņa svars nekad neatstāj Jūsu ierīci.** Ranga formula tos
 izmanto Jūsu tālrunī. Tie netiek sūtīti ne mums, ne analītikas pakalpojumam.
 
 Jūsu ierīci atstāj divas lietas, un tikai šīs divas:
 
-1. **Anonīma lietojuma statistika**, lai mēs redzētu, kā lietotne tiek lietota. To lietotnē varat
+1. **Lietojuma statistika**, lai mēs redzētu, kā lietotne tiek lietota. To lietotnē varat
    jebkurā brīdī izslēgt.
 2. **Pirkuma dati**, lai varētu pārbaudīt App Store abonementu. Maksājumu apstrādā Apple; Jūsu
    maksājumu datus mēs nekad neredzam.
@@ -44,7 +40,6 @@ lietotnes Veselība.
 Glabājas lietotnes pašas datubāzē Jūsu tālrunī un nekad netiek pārsūtīts:
 
 - Katrs treniņš, piegājiens, atkārtojums, noturējums un papildu svars, ko reģistrējat
-- Jūsu progress katrā prasmē un pakāpē, Jūsu ranga vēsture un Jūsu Power Level
 - Jūsu treniņu plāns, grafiks, atgādinājumi un iestatījumi
 - Jūsu ķermeņa mēri tādi, kādus tos ievadījāt (vecums, dzimums, augums, ķermeņa svars)
 - Jūsu treniņu piezīmes

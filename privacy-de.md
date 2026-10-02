@@ -8,7 +8,7 @@ permalink: /privacy/de/
 
 # Datenschutzerklärung · Calisthenics Skills – Ranked
 
-**Zuletzt aktualisiert: 29. September 2026**
+**Zuletzt aktualisiert: 2026-10-02**
 
 Diese Erklärung beschreibt, was Ranked erhebt, wohin es geht und was Sie dagegen tun können. Sie
 wurde anhand des tatsächlichen Codes der App verfasst, nicht nach einer Vorlage — wenn etwas
@@ -22,17 +22,13 @@ Bearbeitung.
 
 ## 1. Die Kurzfassung
 
-Ranked hat **keine Benutzerkonten und keinen eigenen Server.** Alles, was Ihr Training betrifft —
-jeder geloggte Satz, Ihr Fortschritt durch jeden Skill, Ihr Rang, Ihr Power Level, Ihre Körperkarte
-— liegt auf Ihrem Telefon und wird nirgendwohin hochgeladen.
-
 **Ihr Alter, Ihr Geschlecht, Ihre Grösse und Ihr Körpergewicht verlassen Ihr Gerät nie.** Die
 Rangformel verwendet sie auf Ihrem Telefon. Sie werden weder an uns noch an den Analysedienst
 gesendet.
 
 Zwei Dinge verlassen Ihr Gerät, und nur diese zwei:
 
-1. **Anonyme Nutzungsstatistiken**, damit wir sehen, wie die App benutzt wird. Sie können das in
+1. **Nutzungsstatistiken**, damit wir sehen, wie die App benutzt wird. Sie können das in
    der App jederzeit abschalten.
 2. **Kaufdaten**, damit das App-Store-Abonnement überprüft werden kann. Apple wickelt die Zahlung
    ab; wir sehen Ihre Zahlungsdaten nie.
@@ -48,7 +44,6 @@ In der eigenen Datenbank der App auf Ihrem Telefon gespeichert und niemals über
 
 - Jedes Training, jeder Satz, jede Wiederholung, jedes Halten und jedes Zusatzgewicht, das Sie
   loggen
-- Ihr Fortschritt durch jeden Skill und jede Stufe, Ihr Rangverlauf und Ihr Power Level
 - Ihr Trainingsplan, Ihr Zeitplan, Ihre Erinnerungen und Ihre Einstellungen
 - Ihre Körpermasse, so wie Sie sie eingegeben haben (Alter, Geschlecht, Grösse, Körpergewicht)
 - Ihre Trainingsnotizen

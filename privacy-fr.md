@@ -8,7 +8,7 @@ permalink: /privacy/fr/
 
 # Politique de confidentialité · Calisthenics Skills – Ranked
 
-**Dernière mise à jour : 29 septembre 2026**
+**Dernière mise à jour : 2026-10-02**
 
 La présente politique décrit ce que Ranked collecte, où cela va et ce que vous pouvez y faire. Elle
 a été rédigée à partir du code réel de l'application, et non d'un modèle — si quelque chose ici est
@@ -21,17 +21,13 @@ Ranked est exploitée par **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern,
 
 ## 1. En bref
 
-Ranked n'a **ni comptes utilisateur, ni serveur propre.** Tout ce qui concerne votre entraînement —
-chaque série enregistrée, votre progression dans chaque compétence, votre rang, votre Power Level,
-votre carte corporelle — est stocké sur votre téléphone et n'est jamais téléversé nulle part.
-
 **Votre âge, votre sexe, votre taille et votre poids ne quittent jamais votre appareil.** La
 formule de rang les utilise sur votre téléphone. Ils ne nous sont pas envoyés, et ils ne sont pas
 envoyés au service d'analyse.
 
 Deux choses quittent votre appareil, et seulement ces deux-là :
 
-1. **Des statistiques d'utilisation anonymes**, afin que nous puissions voir comment l'application
+1. **Statistiques d'utilisation**, afin que nous puissions voir comment l'application
    est utilisée. Vous pouvez les désactiver à tout moment dans l'application.
 2. **Les données d'achat**, afin que l'abonnement App Store puisse être vérifié. Apple traite le
    paiement ; nous ne voyons jamais vos données de paiement.
@@ -46,8 +42,6 @@ ne lit rien depuis Apple Santé.
 Stocké dans la base de données propre à l'application sur votre téléphone et jamais transmis :
 
 - Chaque séance, série, répétition, maintien et charge additionnelle que vous enregistrez
-- Votre progression dans chaque compétence et chaque palier, l'historique de votre rang et votre
-  Power Level
 - Votre plan d'entraînement, votre calendrier, vos rappels et vos préférences
 - Vos mesures corporelles telles que vous les avez saisies (âge, sexe, taille, poids)
 - Vos notes d'entraînement

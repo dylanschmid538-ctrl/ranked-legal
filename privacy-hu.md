@@ -7,7 +7,7 @@ permalink: /privacy/hu/
 
 # Adatvédelmi tájékoztató · Calisthenics Skills – Ranked
 
-**Utolsó frissítés: 2026. szeptember 29.**
+**Utolsó frissítés: 2026-10-02**
 
 Ez a tájékoztató ismerteti, milyen adatokat gyűjt a Ranked, hová kerülnek, és milyen lehetőségei vannak velük kapcsolatban. A tényleges alkalmazáskód alapján készült, nem sablonból; ha valamely állítás pontatlan, a kódot kell ellenőrizni.
 
@@ -17,13 +17,11 @@ A Ranked üzemeltetője és az itt leírt adatkezelés adatkezelője **Monica De
 
 ## 1. Röviden
 
-A Rankednek **nincsenek felhasználói fiókjai és saját szervere.** Az edzéseivel kapcsolatos minden adat — minden rögzített sorozat, az egyes készségekben elért fejlődés, a rangja, a Power Level és a testtérkép — a telefonján tárolódik, és soha nem kerül feltöltésre.
-
 **Életkora, neme, magassága és testsúlya soha nem hagyja el az eszközét.** A rangot számító képlet a telefonon használja ezeket. Sem nekünk, sem az elemzőszolgáltatásnak nem küldi el őket.
 
 Csak kétféle adat hagyja el az eszközét:
 
-1. **Névtelen használati statisztikák**, amelyek alapján láthatjuk, hogyan használják az alkalmazást. Ezt az alkalmazásban bármikor kikapcsolhatja.
+1. **Használati statisztikák**, amelyek alapján láthatjuk, hogyan használják az alkalmazást. Ezt az alkalmazásban bármikor kikapcsolhatja.
 2. **Vásárlási adatok**, hogy ellenőrizni lehessen az App Store-előfizetést. A fizetést az Apple kezeli; fizetési adatait mi soha nem látjuk.
 
 A Ranked nem követi Önt más alkalmazásokban vagy webhelyeken, nem jelenít meg hirdetéseket, és nem olvas adatot az Apple Egészség alkalmazásból.
@@ -35,7 +33,6 @@ A Ranked nem követi Önt más alkalmazásokban vagy webhelyeken, nem jelenít m
 Az alábbi adatok a telefonon, az alkalmazás saját adatbázisában tárolódnak, és soha nem kerülnek továbbításra:
 
 - Minden rögzített edzés, sorozat, ismétlés, kitartás és hozzáadott súly
-- Az egyes készségekben és szinteken elért fejlődés, a rang előzményei és a Power Level
 - Edzésterv, ütemezés, emlékeztetők és beállítások
 - A megadott testadatok (életkor, nem, magasság, testsúly)
 - Edzésjegyzetek

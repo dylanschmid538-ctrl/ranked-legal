@@ -7,7 +7,7 @@ permalink: /privacy/hr/
 
 # Pravila o privatnosti · Calisthenics Skills – Ranked
 
-**Posljednje ažuriranje: 29. rujna 2026.**
+**Posljednje ažuriranje: 2026-10-02**
 
 Ova pravila opisuju koje podatke Ranked prikuplja, kamo odlaze i što možete učiniti u vezi s njima. Sastavljena su prema stvarnom kodu aplikacije, a ne prema predlošku. Ako je nešto ovdje netočno, treba provjeriti kod.
 
@@ -17,13 +17,11 @@ Ranked vodi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švicarska**,
 
 ## 1. Ukratko
 
-Ranked **nema korisničke račune ni vlastiti poslužitelj**. Sve o vašem vježbanju — svaka zabilježena serija, napredak kroz vještine, rang, Power Level i karta tijela — pohranjuje se na telefonu i ne prenosi se drugamo.
-
 **Vaša dob, spol, visina i tjelesna težina nikad ne napuštaju uređaj.** Formula za rang koristi ih na telefonu. Ne šalju se nama ni analitičkoj usluzi.
 
 Uređaj napuštaju samo dvije vrste podataka:
 
-1. **Anonimna statistika korištenja**, kako bismo razumjeli kako se aplikacija koristi. Možete je bilo kada isključiti u aplikaciji.
+1. **Statistika korištenja**, kako bismo razumjeli kako se aplikacija koristi. Možete je bilo kada isključiti u aplikaciji.
 2. **Podaci o kupnji**, radi provjere pretplate u App Storeu. Apple obrađuje plaćanje; mi nikad ne vidimo vaše podatke o plaćanju.
 
 Ranked vas ne prati kroz druge aplikacije ili web-mjesta, ne prikazuje oglase i ne čita ništa iz Apple Healtha.
@@ -35,7 +33,6 @@ Ranked vas ne prati kroz druge aplikacije ili web-mjesta, ne prikazuje oglase i 
 U bazi podataka aplikacije na telefonu pohranjuje se i nikad se ne prenosi:
 
 - Svaki zabilježeni trening, serija, ponavljanje, izdržaj i dodatna težina
-- Napredak kroz svaku vještinu i razinu, povijest rangova i Power Level
 - Plan i raspored treninga, podsjetnici i postavke
 - Tjelesne mjere koje ste unijeli (dob, spol, visina, težina)
 - Bilješke o treninzima

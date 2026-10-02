@@ -7,7 +7,7 @@ permalink: /privacy/fi/
 
 # Tietosuojaseloste · Calisthenics Skills – Ranked
 
-**Päivitetty viimeksi: 29. syyskuuta 2026**
+**Päivitetty viimeksi: 2026-10-02**
 
 Tässä selosteessa kerrotaan, mitä tietoja Ranked kerää, minne ne siirtyvät ja mitä voit tehdä asialle. Seloste on laadittu sovelluksen todellisen koodin pohjalta, ei mallista; jos jokin tässä on väärin, koodi on tarkistettava.
 
@@ -17,13 +17,11 @@ Ranked-sovellusta ylläpitää **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Lu
 
 ## 1. Lyhyesti
 
-Rankedissa **ei ole käyttäjätilejä eikä omaa palvelinta**. Kaikki harjoitteluusi liittyvä — jokainen kirjaamasi sarja, etenemisesi taidoissa, tasosi, Power Level ja kehokarttasi — tallennetaan puhelimeesi eikä sitä koskaan ladata muualle.
-
 **Ikäsi, sukupuolesi, pituutesi ja painosi eivät koskaan poistu laitteeltasi.** Tasolaskenta käyttää niitä puhelimessasi. Niitä ei lähetetä meille eikä analytiikkapalveluun.
 
 Vain kahdenlaiset tiedot poistuvat laitteeltasi:
 
-1. **Nimettömät käyttötilastot**, joiden avulla näemme, miten sovellusta käytetään. Voit poistaa ne käytöstä sovelluksessa milloin tahansa.
+1. **Käyttötilastot**, joiden avulla näemme, miten sovellusta käytetään. Voit poistaa ne käytöstä sovelluksessa milloin tahansa.
 2. **Ostotiedot**, jotta App Store -tilaus voidaan vahvistaa. Apple käsittelee maksun; me emme koskaan näe maksutietojasi.
 
 Ranked ei seuraa sinua muissa sovelluksissa tai verkkosivustoilla, ei näytä mainoksia eikä lue tietoja Apple Healthista.
@@ -35,7 +33,6 @@ Ranked ei seuraa sinua muissa sovelluksissa tai verkkosivustoilla, ei näytä ma
 Seuraavat tiedot tallennetaan sovelluksen omaan tietokantaan puhelimessasi eikä niitä koskaan siirretä:
 
 - Jokainen kirjaamasi harjoitus, sarja, toisto, pito ja lisäpaino
-- Etenemisesi kussakin taidossa ja vaiheessa, tasohistoriasi ja Power Level
 - Harjoitussuunnitelmasi, aikataulusi, muistutuksesi ja asetuksesi
 - Ilmoittamasi kehon mitat (ikä, sukupuoli, pituus ja paino)
 - Harjoitusmuistiinpanosi
