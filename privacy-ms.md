@@ -7,7 +7,7 @@ permalink: /privacy/ms/
 
 # Dasar Privasi · Calisthenics Skills – Ranked
 
-**Kemas kini terakhir: 29 September 2026**
+**Kemas kini terakhir: 2026-10-02**
 
 Dasar ini menerangkan data yang dikumpul oleh Ranked, ke mana data itu pergi, dan tindakan yang boleh anda ambil. Ia ditulis berdasarkan kod sebenar aplikasi, bukan templat; jika ada perkara yang salah di sini, kod itulah yang perlu disemak.
 
@@ -16,8 +16,6 @@ Ranked dikendalikan oleh **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, 
 ---
 
 ## 1. Ringkasan
-
-Ranked **tidak mempunyai akaun pengguna atau pelayan sendiri**. Segala maklumat tentang latihan anda — setiap set yang direkodkan, kemajuan bagi setiap kemahiran, kedudukan anda, Power Level dan peta badan — disimpan pada telefon anda dan tidak dimuat naik ke mana-mana.
 
 **Umur, jantina, tinggi dan berat badan anda tidak pernah meninggalkan peranti anda.** Formula kedudukan menggunakan maklumat ini pada telefon anda. Maklumat ini tidak dihantar kepada kami atau perkhidmatan analitik.
 
@@ -35,7 +33,6 @@ Ranked tidak menjejaki anda merentas aplikasi atau laman web lain, tidak memapar
 Perkara berikut disimpan dalam pangkalan data aplikasi pada telefon anda dan tidak pernah dihantar:
 
 - Setiap latihan, set, ulangan, tahanan dan berat tambahan yang anda rekodkan
-- Kemajuan anda bagi setiap kemahiran dan tahap, sejarah kedudukan dan Power Level
 - Pelan dan jadual latihan, peringatan dan pilihan anda
 - Ukuran badan yang anda masukkan (umur, jantina, tinggi, berat badan)
 - Nota latihan anda

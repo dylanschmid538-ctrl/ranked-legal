@@ -7,7 +7,7 @@ permalink: /privacy/vi/
 
 # Chính sách quyền riêng tư · Calisthenics Skills – Ranked
 
-**Cập nhật lần cuối: ngày 29 tháng 9 năm 2026**
+**Cập nhật lần cuối: 2026-10-02**
 
 Chính sách này mô tả Ranked thu thập dữ liệu gì, dữ liệu được gửi đến đâu và bạn có thể làm gì. Nội dung được viết dựa trên mã thực tế của ứng dụng, không theo mẫu; nếu có điều gì không đúng, cần kiểm tra mã ứng dụng.
 
@@ -16,8 +16,6 @@ Ranked do **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Thụy Sĩ** v�
 ---
 
 ## 1. Tóm tắt
-
-Ranked **không có tài khoản người dùng hay máy chủ riêng**. Mọi thông tin về việc tập luyện của bạn — từng hiệp được ghi lại, tiến độ của từng kỹ năng, thứ hạng, Power Level và bản đồ cơ thể — đều được lưu trên điện thoại và không được tải lên nơi nào.
 
 **Tuổi, giới tính, chiều cao và cân nặng của bạn không bao giờ rời khỏi thiết bị.** Công thức xếp hạng sử dụng các thông tin này trên điện thoại. Chúng không được gửi cho chúng tôi hay dịch vụ phân tích.
 
@@ -35,7 +33,6 @@ Ranked không theo dõi bạn giữa các ứng dụng hoặc trang web khác, k
 Những thông tin sau được lưu trong cơ sở dữ liệu riêng của ứng dụng trên điện thoại và không bao giờ được truyền đi:
 
 - Mọi buổi tập, hiệp, lần lặp, thời gian giữ và mức tạ bổ sung mà bạn ghi lại
-- Tiến độ từng kỹ năng và giai đoạn, lịch sử thứ hạng và Power Level
 - Kế hoạch, lịch tập, lời nhắc và tùy chọn của bạn
 - Các số đo cơ thể bạn đã nhập (tuổi, giới tính, chiều cao, cân nặng)
 - Ghi chú tập luyện

@@ -7,7 +7,7 @@ permalink: /privacy/it/
 
 # Informativa sulla privacy · Calisthenics Skills – Ranked
 
-**Ultimo aggiornamento: 29 settembre 2026**
+**Ultimo aggiornamento: 2026-10-02**
 
 Questa informativa descrive quali dati Ranked raccoglie, dove vanno e quali scelte puoi fare. È stata redatta sulla base del codice effettivo dell'app, senza usare un modello: se qualcosa qui non è corretto, occorre verificare il codice.
 
@@ -16,8 +16,6 @@ Ranked è gestita da **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Sviz
 ---
 
 ## 1. In breve
-
-Ranked **non ha account utente né un proprio server.** Tutto ciò che riguarda il tuo allenamento — ogni serie registrata, i progressi in ogni abilità, il rango, il Power Level e la mappa del corpo — è conservato sul tuo telefono e non viene mai caricato altrove.
 
 **Età, sesso, altezza e peso corporeo non lasciano mai il dispositivo.** La formula del rango li usa sul telefono. Non sono inviati né a noi né al servizio di analisi.
 
@@ -35,7 +33,6 @@ Ranked non ti traccia su altre app o siti web, non mostra pubblicità e non legg
 I seguenti dati sono conservati nel database dell'app sul telefono e non vengono mai trasmessi:
 
 - Ogni allenamento, serie, ripetizione, tenuta e peso aggiuntivo che registri
-- I progressi in ogni abilità e fase, la cronologia del rango e il Power Level
 - Il piano di allenamento, il calendario, i promemoria e le preferenze
 - Le misure corporee inserite (età, sesso, altezza, peso corporeo)
 - Le note sugli allenamenti

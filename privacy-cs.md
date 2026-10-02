@@ -7,7 +7,7 @@ permalink: /privacy/cs/
 
 # Zásady ochrany osobních údajů · Calisthenics Skills – Ranked
 
-**Poslední aktualizace: 29. září 2026**
+**Poslední aktualizace: 2026-10-02**
 
 Tyto zásady popisují, jaké údaje Ranked shromažďuje, kam putují a jaké možnosti v souvislosti s nimi máte. Vycházejí ze skutečného kódu aplikace, nikoli ze šablony; pokud je zde něco nepřesné, je třeba ověřit kód.
 
@@ -16,8 +16,6 @@ Ranked provozuje **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švýcar
 ---
 
 ## 1. Stručně
-
-Ranked **nemá uživatelské účty ani vlastní server.** Vše o vašem tréninku — každá zaznamenaná série, postup v jednotlivých dovednostech, vaše hodnost, Power Level a mapa těla — se ukládá v telefonu a nikdy se nikam nenahrává.
 
 **Váš věk, pohlaví, výška a tělesná hmotnost nikdy neopouštějí zařízení.** Výpočet hodnosti je používá přímo v telefonu. Neodesílají se nám ani analytické službě.
 
@@ -35,7 +33,6 @@ Ranked vás nesleduje v jiných aplikacích ani na webových stránkách, nezobr
 Následující údaje jsou uloženy ve vlastní databázi aplikace v telefonu a nikdy se nepřenášejí:
 
 - Každý zaznamenaný trénink, sérii, opakování, výdrž a přidanou zátěž
-- Postup v jednotlivých dovednostech a úrovních, historii hodností a Power Level
 - Tréninkový plán, rozvrh, připomínky a nastavení
 - Vámi zadané tělesné údaje (věk, pohlaví, výška, tělesná hmotnost)
 - Tréninkové poznámky

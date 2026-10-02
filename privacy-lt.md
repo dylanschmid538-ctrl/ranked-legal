@@ -8,7 +8,7 @@ permalink: /privacy/lt/
 
 # Privatumo politika · Calisthenics Skills – Ranked
 
-**Paskutinį kartą atnaujinta: 2026 m. rugsėjo 29 d.**
+**Paskutinį kartą atnaujinta: 2026-10-02**
 
 Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti. Ji
 parengta pagal tikrąjį programėlės kodą, o ne pagal šabloną — jeigu kas nors čia neteisinga,
@@ -20,11 +20,6 @@ sprendžia kodas.
 ---
 
 ## 1. Trumpai
-
-„Ranked“ neturi **naudotojų paskyrų ir neturi savo serverio.** Viskas, kas susiję su Jūsų
-treniruotėmis — kiekvienas užregistruotas priėjimas, Jūsų pažanga kiekviename įgūdyje, Jūsų
-reitingas, Jūsų Power Level, Jūsų kūno žemėlapis — saugoma Jūsų telefone ir niekada niekur
-neįkeliama.
 
 **Jūsų amžius, lytis, ūgis ir kūno svoris niekada nepalieka Jūsų įrenginio.** Reitingo formulė juos
 naudoja Jūsų telefone. Jie nesiunčiami nei mums, nei analitikos paslaugai.
@@ -47,7 +42,6 @@ Saugoma pačios programėlės duomenų bazėje Jūsų telefone ir niekada neperd
 
 - Kiekviena treniruotė, priėjimas, pakartojimas, išlaikymas ir papildomas svoris, kurį
   užregistruojate
-- Jūsų pažanga kiekviename įgūdyje ir pakopoje, Jūsų reitingo istorija ir Jūsų Power Level
 - Jūsų treniruočių planas, tvarkaraštis, priminimai ir nuostatos
 - Jūsų kūno matmenys tokie, kokius įvedėte (amžius, lytis, ūgis, kūno svoris)
 - Jūsų treniruočių užrašai

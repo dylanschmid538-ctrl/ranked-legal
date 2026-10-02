@@ -7,7 +7,7 @@ permalink: /privacy/no/
 
 # Personvernerklæring · Calisthenics Skills – Ranked
 
-**Sist oppdatert: 29. september 2026**
+**Sist oppdatert: 2026-10-02**
 
 Denne erklæringen beskriver hvilke opplysninger Ranked samler inn, hvor de sendes, og hva du kan gjøre med dem. Den er skrevet ut fra appens faktiske kode, ikke en mal. Hvis noe her er feil, må koden kontrolleres.
 
@@ -16,8 +16,6 @@ Ranked drives av **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Sveits**
 ---
 
 ## 1. Kort fortalt
-
-Ranked har **ingen brukerkontoer og ingen egen server.** Alt som gjelder treningen din — hvert sett du logger, fremgangen i hver ferdighet, rangeringen din, Power Level og kroppskartet — lagres på telefonen din og lastes aldri opp noe sted.
 
 **Alder, kjønn, høyde og kroppsvekt forlater aldri enheten din.** Rangformelen bruker dem på telefonen. De sendes verken til oss eller analysetjenesten.
 
@@ -35,7 +33,6 @@ Ranked sporer deg ikke på tvers av andre apper eller nettsteder, viser ingen an
 Følgende lagres i appens egen database på telefonen og overføres aldri:
 
 - Alle treningsøkter, sett, repetisjoner, statiske hold og ekstra vekter du logger
-- Fremgang gjennom hver ferdighet og hvert trinn, rangeringshistorikken og Power Level
 - Treningsplan, tidsplan, påminnelser og innstillinger
 - Kroppsmålene du oppga (alder, kjønn, høyde, kroppsvekt)
 - Treningsnotatene dine
