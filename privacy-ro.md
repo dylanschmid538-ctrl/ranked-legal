@@ -7,7 +7,7 @@ permalink: /privacy/ro/
 
 # Politica de confidențialitate · Calisthenics Skills – Ranked
 
-**Ultima actualizare: 29 septembrie 2026**
+**Ultima actualizare: 2026-10-02**
 
 Această politică descrie ce date colectează Ranked, unde ajung și ce puteți face în privința lor. A fost redactată pe baza codului efectiv al aplicației, nu a unui șablon; dacă ceva de aici este greșit, codul trebuie verificat.
 
@@ -16,8 +16,6 @@ Ranked este operată de **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, E
 ---
 
 ## 1. Pe scurt
-
-Ranked **nu are conturi de utilizator și nici server propriu**. Tot ce ține de antrenamentul dvs. — fiecare serie înregistrată, progresul la fiecare abilitate, rangul, Power Level și harta corpului — este stocat pe telefon și nu este încărcat nicăieri.
 
 **Vârsta, sexul, înălțimea și greutatea dvs. nu părăsesc niciodată dispozitivul.** Formula de calcul al rangului le folosește pe telefon. Nu sunt trimise nici nouă, nici serviciului de analiză.
 
@@ -35,7 +33,6 @@ Ranked nu vă urmărește între alte aplicații sau site-uri, nu afișează rec
 Următoarele sunt stocate în baza de date a aplicației, pe telefon, și nu sunt transmise:
 
 - Fiecare antrenament, serie, repetare, menținere și greutate suplimentară înregistrată
-- Progresul la fiecare abilitate și etapă, istoricul rangurilor și Power Level
 - Planul și programul de antrenament, mementourile și preferințele
 - Măsurile corporale introduse de dvs. (vârsta, sexul, înălțimea, greutatea)
 - Notele de antrenament

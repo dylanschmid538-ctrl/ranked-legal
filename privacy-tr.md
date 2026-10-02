@@ -7,7 +7,7 @@ permalink: /privacy/tr/
 
 # Gizlilik Politikası · Calisthenics Skills – Ranked
 
-**Son güncelleme: 29 Eylül 2026**
+**Son güncelleme: 2026-10-02**
 
 Bu politika, Ranked'in hangi verileri topladığını, bunların nereye gittiğini ve bu konuda neler yapabileceğinizi açıklar. Bir şablondan değil, uygulamanın gerçek kodundan yararlanılarak yazılmıştır; burada yanlış bir şey varsa kontrol edilmesi gereken kaynak koddur.
 
@@ -16,8 +16,6 @@ Ranked'in işletmecisi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, İ
 ---
 
 ## 1. Kısa özet
-
-Ranked'in **kullanıcı hesabı veya kendine ait sunucusu yoktur.** Kaydettiğiniz her set, her becerideki ilerlemeniz, dereceniz, Power Level değeriniz ve vücut haritanız dâhil antrenmanınızla ilgili her şey telefonunuzda saklanır ve hiçbir yere yüklenmez.
 
 **Yaşınız, cinsiyetiniz, boyunuz ve vücut ağırlığınız cihazınızdan hiçbir zaman çıkmaz.** Derece formülü bunları telefonunuzda kullanır. Bize veya analiz hizmetine gönderilmezler.
 
@@ -35,7 +33,6 @@ Ranked sizi başka uygulamalar veya web siteleri arasında takip etmez, reklam g
 Aşağıdakiler telefonunuzdaki uygulama veritabanında saklanır ve hiçbir zaman iletilmez:
 
 - Kaydettiğiniz her antrenman, set, tekrar, duruş ve ek ağırlık
-- Her beceri ve aşamadaki ilerlemeniz, derece geçmişiniz ve Power Level değeriniz
 - Antrenman planınız, programınız, hatırlatıcılarınız ve tercihleriniz
 - Girdiğiniz vücut ölçüleri (yaş, cinsiyet, boy ve vücut ağırlığı)
 - Antrenman notlarınız

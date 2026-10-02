@@ -8,7 +8,7 @@ permalink: /privacy/sl/
 
 # Politika zasebnosti · Calisthenics Skills – Ranked
 
-**Zadnja posodobitev: 29. september 2026**
+**Zadnja posodobitev: 2026-10-02**
 
 Ta politika opisuje, kaj Ranked zbira, kam to gre in kaj lahko glede tega storite. Nastala je na
 podlagi dejanske kode aplikacije, ne po predlogi — če je tukaj kaj napačno, odloča koda.
@@ -19,10 +19,6 @@ Ranked upravlja **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švica**,
 ---
 
 ## 1. Na kratko
-
-Ranked nima **uporabniških računov in nima lastnega strežnika.** Vse, kar zadeva vašo vadbo — vsak
-zabeležen niz, vaš napredek pri vsaki veščini, vaš rang, vaš Power Level, vaš zemljevid telesa —
-je shranjeno v vašem telefonu in se nikoli nikamor ne naloži.
 
 **Vaša starost, spol, višina in telesna teža nikoli ne zapustijo vaše naprave.** Formula ranga jih
 uporablja v vašem telefonu. Ne pošiljajo se ne nam ne analitični storitvi.
@@ -44,7 +40,6 @@ ničesar iz aplikacije Apple Zdravje.
 Shranjeno v lastni podatkovni zbirki aplikacije v vašem telefonu in nikoli preneseno:
 
 - Vsaka vadba, niz, ponovitev, izdrž in dodatna obremenitev, ki jo zabeležite
-- Vaš napredek pri vsaki veščini in stopnji, zgodovina vašega ranga in vaš Power Level
 - Vaš načrt vadbe, urnik, opomniki in nastavitve
 - Vaše telesne mere, kot ste jih vnesli (starost, spol, višina, telesna teža)
 - Vaše zapiske o vadbi
