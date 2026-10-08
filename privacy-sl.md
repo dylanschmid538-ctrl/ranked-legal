@@ -55,7 +55,7 @@ Izbris aplikacije izbriše vse to iz naprave. Obnoviti tega ne moremo, ker tega 
 
 ### 3.1 Statistika uporabe (PostHog)
 
-Analitika je privzeto izklopljena. Le če med uvajanjem ali pozneje v nastavitvah izrecno privolite, Ranked pošilja storitvi PostHog v EU dogodke o uvajanju, začetni oceni, spremembah ranga in stopnje (s spretnostjo in stopnjo), plačilnem zaslonu, nakupih in odprtih zaslonih. Dogodki vadbe v živo vsebujejo začetek, zaključek ali prekinitev, pretečene sekunde, število zabeleženih serij, število različnih spretnosti in podatek o prvi zaključeni vadbi. Ne vsebujejo posameznih vaj, ponovitev, uteži ali zapiskov. Starost, spol, višina in telesna teža se ne pošiljajo. PostHog prejme tudi običajne tehnične podatke o napravi, iOS, aplikaciji in jeziku ter naslov IP, iz katerega je mogoče sklepati o približni lokaciji. Naključni analitični identifikator nastane po privolitvi. Privolitev lahko umaknete v Nastavitvah ▸ Zasebnost; novi dogodki prenehajo, že poslani podatki pa se ne izbrišejo samodejno.
+Analitika je privzeto izklopljena. Le če med uvajanjem ali pozneje v nastavitvah izrecno privolite, Ranked pošilja storitvi PostHog v EU dogodke o uvajanju, začetni oceni, spremembah ranga in stopnje (s spretnostjo in stopnjo), plačilnem zaslonu, nakupih in odprtih zaslonih. Dogodki vadbe v živo vsebujejo začetek, zaključek ali prekinitev, pretečene sekunde, število zabeleženih serij, število različnih spretnosti in podatek o prvi zaključeni vadbi. Ne vsebujejo posameznih vaj, ponovitev, uteži ali zapiskov. Starost, spol, višina in telesna teža se ne pošiljajo. PostHog prejme tudi običajne tehnične podatke o napravi, iOS, aplikaciji in jeziku ter naslov IP, iz katerega je mogoče sklepati o približni lokaciji. Naključni analitični identifikator nastane po privolitvi. Privolitev lahko umaknete v Nastavitvah ▸ Podatki in zasebnost; novi dogodki prenehajo, že poslani podatki pa se ne izbrišejo samodejno.
 
 ### 3.2 Pripis Apple Search Ads
 
@@ -98,8 +98,8 @@ prijavljenim v napravi, in izid na enak način posreduje RevenueCatu.
 | Kaj | Podlaga |
 |---|---|
 | Nakupi in preverjanje naročnine (§3.3) | Izvajanje pogodbe |
-| Statistika uporabe (§3.1) | Vaša privolitev; kadar koli jo lahko umaknete v Nastavitvah ▸ Zasebnost |
-| Pripis Search Ads (§3.2) | Vaša privolitev; kadar koli jo lahko umaknete v Nastavitvah ▸ Zasebnost |
+| Statistika uporabe (§3.1) | Vaša privolitev; kadar koli jo lahko umaknete v Nastavitvah ▸ Podatki in zasebnost |
+| Pripis Search Ads (§3.2) | Vaša privolitev; kadar koli jo lahko umaknete v Nastavitvah ▸ Podatki in zasebnost |
 
 **Tu veljata dva pravna reda, ne eden.** Ranked se upravlja iz Švice, zato to obdelavo ureja
 prenovljeni švicarski zvezni zakon o varstvu podatkov (**revDSG**, v veljavi od septembra 2023).
@@ -134,9 +134,9 @@ Vse, kar je v vaši napravi, tam ostane, dokler aplikacije ne izbrišete.
 
 ## 8. Vaše pravice
 
-Privolitev v analitiko lahko kadar koli brez razloga umaknete v Nastavitvah ▸ Zasebnost. Novi dogodki se takoj ustavijo, že poslani podatki se ne izbrišejo samodejno, naročnina v App Store pa ostane veljavna.
+Privolitev v analitiko lahko kadar koli brez razloga umaknete v Nastavitvah ▸ Podatki in zasebnost. Novi dogodki se takoj ustavijo, že poslani podatki se ne izbrišejo samodejno, naročnina v App Store pa ostane veljavna.
 
-Lokalne podatke o vadbi lahko izbrišete v Nastavitvah ▸ Podatki ▸ *Izbriši lokalne podatke o vadbi* ali z izbrisom aplikacije. Naročnino upravljate in prekličete posebej v računu Apple.
+Lokalne podatke o vadbi lahko izbrišete v Nastavitvah ▸ Podatki in zasebnost ▸ *Izbriši lokalne podatke o vadbi* ali z izbrisom aplikacije. Naročnino upravljate in prekličete posebej v računu Apple.
 
 Za podatke, že poslane storitvi PostHog, pišite na **dylan.schmid538@gmail.com**. Ranked naključnega analitičnega identifikatorja ne povezuje z računom. Približen datum ali model naprave morda ne zadostuje za zanesljivo iskanje profila. Pojasnili bomo, kaj lahko identificiramo, in obravnavali preverljive zahteve za dostop, popravek ali izbris. Ne pošiljajte prijavnih podatkov za račun Apple.
 

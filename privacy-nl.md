@@ -47,7 +47,7 @@ Als u de app verwijdert, worden al deze gegevens van het apparaat gewist. Wij ku
 
 ### 3.1 Gebruiksstatistieken (PostHog)
 
-Analyse staat standaard uit. Alleen als u tijdens de eerste inrichting of later in Instellingen uitdrukkelijk toestemming geeft, stuurt Ranked naar PostHog in de EU gebeurtenissen over inrichting, eerste beoordeling, rang- en fasewijzigingen (met vaardigheid en fase), betaalscherm, aankopen en geopende schermen. Gebeurtenissen van live trainingen bevatten begin, voltooiing of afbreken, verstreken seconden, aantal vastgelegde sets, aantal verschillende vaardigheden en of dit de eerste voltooide training was. Ze bevatten geen afzonderlijke oefeningen, herhalingen, gewichten of notities. Leeftijd, geslacht, lengte en lichaamsgewicht worden niet verzonden. PostHog ontvangt ook gebruikelijke technische gegevens over apparaat, iOS, app en taal en het IP-adres, waaruit een globale locatie kan worden afgeleid. Na uw toestemming wordt een willekeurige analyse-ID gemaakt. U kunt de toestemming in Instellingen ▸ Privacy intrekken; nieuwe verzending stopt, eerder verzonden gegevens worden niet automatisch gewist.
+Analyse staat standaard uit. Alleen als u tijdens de eerste inrichting of later in Instellingen uitdrukkelijk toestemming geeft, stuurt Ranked naar PostHog in de EU gebeurtenissen over inrichting, eerste beoordeling, rang- en fasewijzigingen (met vaardigheid en fase), betaalscherm, aankopen en geopende schermen. Gebeurtenissen van live trainingen bevatten begin, voltooiing of afbreken, verstreken seconden, aantal vastgelegde sets, aantal verschillende vaardigheden en of dit de eerste voltooide training was. Ze bevatten geen afzonderlijke oefeningen, herhalingen, gewichten of notities. Leeftijd, geslacht, lengte en lichaamsgewicht worden niet verzonden. PostHog ontvangt ook gebruikelijke technische gegevens over apparaat, iOS, app en taal en het IP-adres, waaruit een globale locatie kan worden afgeleid. Na uw toestemming wordt een willekeurige analyse-ID gemaakt. U kunt de toestemming in Instellingen ▸ Gegevens en privacy intrekken; nieuwe verzending stopt, eerder verzonden gegevens worden niet automatisch gewist.
 
 ### 3.2 Toeschrijving aan Apple Search Ads
 
@@ -78,8 +78,8 @@ Als u op **Aankopen herstellen** tikt, vraagt de app Apple om de aankopen die zi
 | Verwerking | Rechtsgrond |
 |---|---|
 | Aankopen en verificatie van abonnementen (§3.3) | Uitvoering van een overeenkomst |
-| Gebruiksstatistieken (§3.1) | Uw toestemming; op elk moment in Instellingen ▸ Privacy in te trekken |
-| Toeschrijving aan Search Ads (§3.2) | Uw toestemming; op elk moment in Instellingen ▸ Privacy in te trekken |
+| Gebruiksstatistieken (§3.1) | Uw toestemming; op elk moment in Instellingen ▸ Gegevens en privacy in te trekken |
+| Toeschrijving aan Search Ads (§3.2) | Uw toestemming; op elk moment in Instellingen ▸ Gegevens en privacy in te trekken |
 
 **Hier gelden twee wetten, niet één.** Ranked wordt vanuit Zwitserland beheerd; daarom valt deze verwerking onder de herziene Zwitserse federale wet inzake gegevensbescherming (**revDSG**, van kracht sinds september 2023). De **AVG (GDPR)** geldt daarnaast wanneer de app vanuit de Europese Unie of het Verenigd Koninkrijk wordt gebruikt. Als ze verschillen, volgen we de strengere regel. Inwoners van Zwitserland hebben dezelfde kernrechten die in §8 staan, op grond van artikel 25 en volgende van de revDSG.
 
@@ -105,9 +105,9 @@ Alles op uw apparaat blijft daar totdat u de app verwijdert.
 
 ## 8. Uw rechten
 
-U kunt uw toestemming voor analyse op elk moment zonder reden intrekken in Instellingen ▸ Privacy. Nieuwe gebeurtenissen stoppen direct; eerder verzonden gegevens worden niet automatisch gewist en uw App Store-abonnement wordt niet opgezegd.
+U kunt uw toestemming voor analyse op elk moment zonder reden intrekken in Instellingen ▸ Gegevens en privacy. Nieuwe gebeurtenissen stoppen direct; eerder verzonden gegevens worden niet automatisch gewist en uw App Store-abonnement wordt niet opgezegd.
 
-U kunt lokale trainingsgegevens wissen via Instellingen ▸ Gegevens ▸ *Lokale trainingsgegevens wissen* of door de app te verwijderen. Het abonnement beheert en beëindigt u apart via uw Apple Account.
+U kunt lokale trainingsgegevens wissen via Instellingen ▸ Gegevens en privacy ▸ *Lokale trainingsgegevens verwijderen* of door de app te verwijderen. Het abonnement beheert en beëindigt u apart via uw Apple Account.
 
 Schrijf voor gegevens die al naar PostHog zijn gestuurd naar **dylan.schmid538@gmail.com**. Ranked koppelt de willekeurige analyse-ID niet aan een account. Een geschatte datum of apparaatmodel is mogelijk onvoldoende om uw profiel betrouwbaar te vinden. Wij leggen uit wat identificeerbaar is en behandelen verifieerbare verzoeken om inzage, correctie of verwijdering. Stuur geen inloggegevens van uw Apple Account.
 

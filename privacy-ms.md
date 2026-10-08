@@ -47,7 +47,7 @@ Memadamkan aplikasi akan memadamkan semua data ini daripada peranti. Kami tidak 
 
 ### 3.1 Statistik penggunaan (PostHog)
 
-Analitik dimatikan secara lalai. Hanya jika anda memberi persetujuan nyata semasa persediaan atau kemudian dalam Tetapan, Ranked menghantar peristiwa kepada PostHog yang dihoskan di EU: persediaan, penilaian awal, perubahan pangkat dan peringkat (berserta kemahiran dan peringkat), skrin pembelian, pembelian dan skrin yang dibuka. Peristiwa latihan langsung merangkumi mula, selesai atau ditinggalkan, saat yang berlalu, bilangan set dicatat, bilangan kemahiran berlainan dan sama ada itu latihan pertama yang selesai. Ia tidak merangkumi senaman individu, ulangan, beban atau nota. Umur, jantina, tinggi dan berat badan tidak dihantar. PostHog juga menerima maklumat teknikal lazim tentang peranti, iOS, aplikasi dan bahasa serta alamat IP yang boleh menunjukkan lokasi anggaran. ID analitik rawak dicipta selepas persetujuan. Anda boleh menariknya balik dalam Tetapan ▸ Privasi; peristiwa baharu berhenti, tetapi data terdahulu tidak dipadam secara automatik.
+Analitik dimatikan secara lalai. Hanya jika anda memberi persetujuan nyata semasa persediaan atau kemudian dalam Tetapan, Ranked menghantar peristiwa kepada PostHog yang dihoskan di EU: persediaan, penilaian awal, perubahan pangkat dan peringkat (berserta kemahiran dan peringkat), skrin pembelian, pembelian dan skrin yang dibuka. Peristiwa latihan langsung merangkumi mula, selesai atau ditinggalkan, saat yang berlalu, bilangan set dicatat, bilangan kemahiran berlainan dan sama ada itu latihan pertama yang selesai. Ia tidak merangkumi senaman individu, ulangan, beban atau nota. Umur, jantina, tinggi dan berat badan tidak dihantar. PostHog juga menerima maklumat teknikal lazim tentang peranti, iOS, aplikasi dan bahasa serta alamat IP yang boleh menunjukkan lokasi anggaran. ID analitik rawak dicipta selepas persetujuan. Anda boleh menariknya balik dalam Tetapan ▸ Data & privasi; peristiwa baharu berhenti, tetapi data terdahulu tidak dipadam secara automatik.
 
 ### 3.2 Atribusi Apple Search Ads
 
@@ -78,8 +78,8 @@ Apabila anda mengetik **Pulihkan Pembelian**, aplikasi meminta daripada Apple pe
 | Pemprosesan | Asas |
 |---|---|
 | Pembelian dan pengesahan langganan (§3.3) | Pelaksanaan kontrak |
-| Statistik penggunaan (§3.1) | Persetujuan anda; boleh ditarik balik bila-bila masa dalam Tetapan ▸ Privasi |
-| Atribusi Search Ads (§3.2) | Persetujuan anda; boleh ditarik balik bila-bila masa dalam Tetapan ▸ Privasi |
+| Statistik penggunaan (§3.1) | Persetujuan anda; boleh ditarik balik bila-bila masa dalam Tetapan ▸ Data & privasi |
+| Atribusi Search Ads (§3.2) | Persetujuan anda; boleh ditarik balik bila-bila masa dalam Tetapan ▸ Data & privasi |
 
 **Dua undang-undang terpakai di sini, bukan satu.** Ranked dikendalikan dari Switzerland, maka Akta Perlindungan Data Persekutuan Switzerland yang disemak (**revDSG**, berkuat kuasa sejak September 2023) mengawal pemprosesan ini. **GDPR** turut terpakai apabila aplikasi digunakan dari Kesatuan Eropah atau United Kingdom. Jika kedua-duanya berbeza, kami mengikut peraturan yang lebih ketat. Penduduk Switzerland mempunyai hak asas yang sama seperti yang disenaraikan dalam §8 di bawah Artikel 25 dan seterusnya revDSG.
 
@@ -105,9 +105,9 @@ Segala data pada peranti anda kekal di situ sehingga anda memadamkan aplikasi.
 
 ## 8. Hak anda
 
-Anda boleh menarik balik persetujuan analitik pada bila-bila masa dalam Tetapan ▸ Privasi tanpa sebab. Peristiwa baharu berhenti serta-merta, tetapi data yang sudah dihantar tidak dipadam secara automatik dan langganan App Store tidak dibatalkan.
+Anda boleh menarik balik persetujuan analitik pada bila-bila masa dalam Tetapan ▸ Data & privasi tanpa sebab. Peristiwa baharu berhenti serta-merta, tetapi data yang sudah dihantar tidak dipadam secara automatik dan langganan App Store tidak dibatalkan.
 
-Anda boleh memadam data latihan setempat dalam Tetapan ▸ Data ▸ *Padam data latihan setempat* atau dengan memadam aplikasi. Langganan diurus dan dibatalkan berasingan dalam Akaun Apple anda.
+Anda boleh memadam data latihan setempat dalam Tetapan ▸ Data & privasi ▸ *Padam data latihan setempat* atau dengan memadam aplikasi. Langganan diurus dan dibatalkan berasingan dalam Akaun Apple anda.
 
 Bagi data yang sudah dihantar kepada PostHog, tulis kepada **dylan.schmid538@gmail.com**. Ranked tidak mengaitkan ID analitik rawak dengan akaun. Tarikh anggaran atau model peranti mungkin tidak mencukupi untuk mencari profil dengan pasti. Kami akan menerangkan apa yang dapat dikenal pasti dan memproses permintaan akses, pembetulan atau pemadaman yang boleh disahkan. Jangan hantar butiran log masuk Akaun Apple.
 

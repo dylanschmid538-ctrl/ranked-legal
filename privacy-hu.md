@@ -47,7 +47,7 @@ Az alkalmazás törlése ezeket az adatokat is törli az eszközről. Nem tudjuk
 
 ### 3.1 Használati statisztikák (PostHog)
 
-Az elemzés alapértelmezés szerint ki van kapcsolva. A Ranked csak akkor küld az EU-ban működő PostHognak eseményeket, ha a beállítás során vagy később a Beállításokban kifejezetten hozzájárul: a beállításról, kezdeti felmérésről, rang- és szintváltozásokról (a készséggel és szinttel), fizetési képernyőről, vásárlásokról és megnyitott képernyőkről. Az élő edzés eseményei tartalmazzák a kezdést, befejezést vagy megszakítást, az eltelt másodperceket, a rögzített sorozatok és különböző készségek számát, valamint hogy ez volt-e az első befejezett edzés. Nem tartalmaznak egyedi gyakorlatokat, ismétléseket, súlyokat vagy jegyzeteket. Az életkor, nem, magasság és testsúly nem kerül elküldésre. A PostHog szokásos technikai adatokat is kap az eszközről, iOS-ről, alkalmazásról és nyelvről, valamint az IP-címet, amelyből hozzávetőleges hely becsülhető. Véletlenszerű elemzési azonosító csak a hozzájárulás után jön létre. A hozzájárulás a Beállítások ▸ Adatvédelem alatt visszavonható; az új események leállnak, a korábban elküldött adatok nem törlődnek automatikusan.
+Az elemzés alapértelmezés szerint ki van kapcsolva. A Ranked csak akkor küld az EU-ban működő PostHognak eseményeket, ha a beállítás során vagy később a Beállításokban kifejezetten hozzájárul: a beállításról, kezdeti felmérésről, rang- és szintváltozásokról (a készséggel és szinttel), fizetési képernyőről, vásárlásokról és megnyitott képernyőkről. Az élő edzés eseményei tartalmazzák a kezdést, befejezést vagy megszakítást, az eltelt másodperceket, a rögzített sorozatok és különböző készségek számát, valamint hogy ez volt-e az első befejezett edzés. Nem tartalmaznak egyedi gyakorlatokat, ismétléseket, súlyokat vagy jegyzeteket. Az életkor, nem, magasság és testsúly nem kerül elküldésre. A PostHog szokásos technikai adatokat is kap az eszközről, iOS-ről, alkalmazásról és nyelvről, valamint az IP-címet, amelyből hozzávetőleges hely becsülhető. Véletlenszerű elemzési azonosító csak a hozzájárulás után jön létre. A hozzájárulás a Beállítások ▸ Adatok és adatvédelem alatt visszavonható; az új események leállnak, a korábban elküldött adatok nem törlődnek automatikusan.
 
 ### 3.2 Apple Search Ads-hozzárendelés
 
@@ -78,8 +78,8 @@ Ha a **Vásárlások visszaállítása** lehetőségre koppint, az alkalmazás l
 | Adatkezelés | Jogalap |
 |---|---|
 | Vásárlások és előfizetés-ellenőrzés (§3.3) | Szerződés teljesítése |
-| Használati statisztikák (§3.1) | Az Ön hozzájárulása; bármikor visszavonható a Beállítások ▸ Adatvédelem alatt |
-| Search Ads-hozzárendelés (§3.2) | Az Ön hozzájárulása; bármikor visszavonható a Beállítások ▸ Adatvédelem alatt |
+| Használati statisztikák (§3.1) | Az Ön hozzájárulása; bármikor visszavonható a Beállítások ▸ Adatok és adatvédelem alatt |
+| Search Ads-hozzárendelés (§3.2) | Az Ön hozzájárulása; bármikor visszavonható a Beállítások ▸ Adatok és adatvédelem alatt |
 
 **Itt két jogszabályrendszer alkalmazandó, nem csak egy.** A Rankedet Svájcból üzemeltetik, ezért az adatkezelést a felülvizsgált svájci szövetségi adatvédelmi törvény (**revDSG**, 2023 szeptembere óta hatályos) szabályozza. A **GDPR** emellett akkor is alkalmazandó, ha az alkalmazást az Európai Unióból vagy az Egyesült Királyságból használják. Eltérés esetén a szigorúbb szabályt követjük. A svájci lakosokat a revDSG 25. és következő cikke alapján ugyanazok a §8-ban felsorolt alapvető jogok illetik meg.
 
@@ -105,9 +105,9 @@ Az eszközén tárolt adatok az alkalmazás törléséig maradnak ott.
 
 ## 8. Az Ön jogai
 
-Az elemzéshez adott hozzájárulást bármikor, indoklás nélkül visszavonhatja a Beállítások ▸ Adatvédelem alatt. Az új események azonnal leállnak, de a már elküldött adatok nem törlődnek automatikusan, és az App Store-előfizetés nem szűnik meg.
+Az elemzéshez adott hozzájárulást bármikor, indoklás nélkül visszavonhatja a Beállítások ▸ Adatok és adatvédelem alatt. Az új események azonnal leállnak, de a már elküldött adatok nem törlődnek automatikusan, és az App Store-előfizetés nem szűnik meg.
 
-A helyi edzésadatokat a Beállítások ▸ Adatok ▸ *Helyi edzésadatok törlése* pontban vagy az alkalmazás törlésével távolíthatja el. Az előfizetést külön az Apple-fiókjában kezelheti és mondhatja le.
+A helyi edzésadatokat a Beállítások ▸ Adatok és adatvédelem ▸ *Helyi edzésadatok törlése* pontban vagy az alkalmazás törlésével távolíthatja el. Az előfizetést külön az Apple-fiókjában kezelheti és mondhatja le.
 
 A PostHognak már elküldött adatok ügyében írjon a **dylan.schmid538@gmail.com** címre. A Ranked nem kapcsolja a véletlenszerű elemzési azonosítót fiókhoz. Hozzávetőleges dátum vagy eszközmodell önmagában nem feltétlenül elegendő a profil megbízható megtalálásához. Elmagyarázzuk, mit tudunk azonosítani, és a hitelesíthető hozzáférési, helyesbítési vagy törlési kérelmeket feldolgozzuk. Ne küldje el Apple-fiókja belépési adatait.
 

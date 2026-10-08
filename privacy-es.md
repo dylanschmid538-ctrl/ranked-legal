@@ -47,7 +47,7 @@ Al borrar la aplicación, se elimina todo esto del dispositivo. No podemos recup
 
 ### 3.1 Estadísticas de uso (PostHog)
 
-El análisis está desactivado de forma predeterminada. Solo si da su consentimiento expreso durante la configuración o después en Ajustes, Ranked envía a PostHog en la UE eventos sobre la configuración, la evaluación inicial, cambios de rango y etapa (con la habilidad y etapa), la pantalla de compra, las compras y las pantallas abiertas. Los eventos de entrenamiento en directo indican el inicio, fin o abandono, los segundos transcurridos, el número de series registradas, el número de habilidades distintas y si es el primer entrenamiento completado. No incluyen ejercicios individuales, repeticiones, pesos ni notas. No se transmiten edad, sexo, altura ni peso corporal. PostHog recibe además datos técnicos habituales del dispositivo, iOS, la aplicación y el idioma, y la dirección IP, de la que puede deducirse una ubicación aproximada. Se crea un identificador aleatorio después del consentimiento. Puede retirarlo en Ajustes ▸ Privacidad: cesan los nuevos envíos, pero los datos ya enviados no se borran automáticamente.
+El análisis está desactivado de forma predeterminada. Solo si da su consentimiento expreso durante la configuración o después en Ajustes, Ranked envía a PostHog en la UE eventos sobre la configuración, la evaluación inicial, cambios de rango y etapa (con la habilidad y etapa), la pantalla de compra, las compras y las pantallas abiertas. Los eventos de entrenamiento en directo indican el inicio, fin o abandono, los segundos transcurridos, el número de series registradas, el número de habilidades distintas y si es el primer entrenamiento completado. No incluyen ejercicios individuales, repeticiones, pesos ni notas. No se transmiten edad, sexo, altura ni peso corporal. PostHog recibe además datos técnicos habituales del dispositivo, iOS, la aplicación y el idioma, y la dirección IP, de la que puede deducirse una ubicación aproximada. Se crea un identificador aleatorio después del consentimiento. Puede retirarlo en Ajustes ▸ Datos y privacidad: cesan los nuevos envíos, pero los datos ya enviados no se borran automáticamente.
 
 ### 3.2 Atribución de Apple Search Ads
 
@@ -78,8 +78,8 @@ Cuando toca **Restaurar compras**, la aplicación pide a Apple las compras reali
 | Tratamiento | Base |
 |---|---|
 | Compras y verificación de suscripciones (§3.3) | Ejecución de un contrato |
-| Estadísticas de uso (§3.1) | Su consentimiento; puede retirarlo en cualquier momento en Ajustes ▸ Privacidad |
-| Atribución de Search Ads (§3.2) | Su consentimiento; puede retirarlo en cualquier momento en Ajustes ▸ Privacidad |
+| Estadísticas de uso (§3.1) | Su consentimiento; puede retirarlo en cualquier momento en Ajustes ▸ Datos y privacidad |
+| Atribución de Search Ads (§3.2) | Su consentimiento; puede retirarlo en cualquier momento en Ajustes ▸ Datos y privacidad |
 
 **Aquí se aplican dos leyes, no una.** Ranked se opera desde Suiza, por lo que este tratamiento se rige por la Ley Federal de Protección de Datos suiza revisada (**revDSG**, vigente desde septiembre de 2023). El **RGPD** se aplica además cuando la aplicación se utiliza desde la Unión Europea o el Reino Unido. Si difieren, seguimos la norma más estricta. Los residentes en Suiza tienen los mismos derechos fundamentales enumerados en §8 conforme al artículo 25 y siguientes de la revDSG.
 
@@ -105,9 +105,9 @@ Todo lo que está en su dispositivo permanece allí hasta que borre la aplicaci�
 
 ## 8. Sus derechos
 
-Puede retirar en cualquier momento su consentimiento para el análisis en Ajustes ▸ Privacidad, sin dar explicaciones. Esto detiene inmediatamente los nuevos eventos, pero no borra automáticamente los datos ya enviados ni cancela su suscripción de App Store.
+Puede retirar en cualquier momento su consentimiento para el análisis en Ajustes ▸ Datos y privacidad, sin dar explicaciones. Esto detiene inmediatamente los nuevos eventos, pero no borra automáticamente los datos ya enviados ni cancela su suscripción de App Store.
 
-Puede borrar los datos de entrenamiento locales en Ajustes ▸ Datos ▸ *Borrar datos de entrenamiento locales*, o eliminando la aplicación. La suscripción se gestiona y cancela por separado en su Cuenta de Apple.
+Puede borrar los datos de entrenamiento locales en Ajustes ▸ Datos y privacidad ▸ *Eliminar datos locales de entrenamiento*, o eliminando la aplicación. La suscripción se gestiona y cancela por separado en su Cuenta de Apple.
 
 Para los datos ya enviados a PostHog, escriba a **dylan.schmid538@gmail.com**. Ranked no vincula el identificador analítico aleatorio con una cuenta. Una fecha aproximada o un modelo de dispositivo puede no bastar para localizar su perfil de forma fiable. Explicaremos qué podemos identificar y atenderemos solicitudes verificables de acceso, rectificación o eliminación. No envíe las credenciales de su Cuenta de Apple.
 

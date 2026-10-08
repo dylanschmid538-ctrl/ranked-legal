@@ -47,7 +47,7 @@ Sovelluksen poistaminen poistaa nämä tiedot laitteelta. Emme voi palauttaa nii
 
 ### 3.1 Käyttötilastot (PostHog)
 
-Analytiikka on oletusarvoisesti pois käytöstä. Vain jos annat siihen nimenomaisen suostumuksen käyttöönotossa tai myöhemmin asetuksissa, Ranked lähettää EU:ssa toimivalle PostHogille tapahtumia käyttöönotosta, alkuarviosta, tason ja vaiheen muutoksista (taito ja vaihe mukana), maksunäkymästä, ostoista ja avatuista näkymistä. Reaaliaikaisen harjoituksen tapahtumissa ovat aloitus, valmistuminen tai keskeytys, kuluneet sekunnit, kirjattujen sarjojen määrä, eri taitojen määrä ja tieto ensimmäisestä valmiista harjoituksesta. Niissä ei ole yksittäisiä liikkeitä, toistoja, painoja tai muistiinpanoja. Ikää, sukupuolta, pituutta ja painoa ei lähetetä. PostHog saa myös tavanomaiset laite-, iOS-, sovellus- ja kielitiedot sekä IP-osoitteen, josta voi päätellä likimääräisen sijainnin. Satunnainen analytiikkatunnus luodaan vasta suostumuksen jälkeen. Voit peruuttaa suostumuksen kohdassa Asetukset ▸ Tietosuoja; uudet tapahtumat loppuvat, mutta aiemmin lähetettyjä tietoja ei poisteta automaattisesti.
+Analytiikka on oletusarvoisesti pois käytöstä. Vain jos annat siihen nimenomaisen suostumuksen käyttöönotossa tai myöhemmin asetuksissa, Ranked lähettää EU:ssa toimivalle PostHogille tapahtumia käyttöönotosta, alkuarviosta, tason ja vaiheen muutoksista (taito ja vaihe mukana), maksunäkymästä, ostoista ja avatuista näkymistä. Reaaliaikaisen harjoituksen tapahtumissa ovat aloitus, valmistuminen tai keskeytys, kuluneet sekunnit, kirjattujen sarjojen määrä, eri taitojen määrä ja tieto ensimmäisestä valmiista harjoituksesta. Niissä ei ole yksittäisiä liikkeitä, toistoja, painoja tai muistiinpanoja. Ikää, sukupuolta, pituutta ja painoa ei lähetetä. PostHog saa myös tavanomaiset laite-, iOS-, sovellus- ja kielitiedot sekä IP-osoitteen, josta voi päätellä likimääräisen sijainnin. Satunnainen analytiikkatunnus luodaan vasta suostumuksen jälkeen. Voit peruuttaa suostumuksen kohdassa Asetukset ▸ Tiedot ja tietosuoja; uudet tapahtumat loppuvat, mutta aiemmin lähetettyjä tietoja ei poisteta automaattisesti.
 
 ### 3.2 Apple Search Ads -mainonnan kohdistaminen
 
@@ -78,8 +78,8 @@ Kun napautat **Palauta ostot**, sovellus pyytää Applelta laitteelle kirjautune
 | Käsittely | Oikeusperuste |
 |---|---|
 | Ostot ja tilauksen vahvistaminen (§3.3) | Sopimuksen täytäntöönpano |
-| Käyttötilastot (§3.1) | Suostumuksesi; peruutettavissa milloin tahansa kohdassa Asetukset ▸ Tietosuoja |
-| Search Ads -kohdistaminen (§3.2) | Suostumuksesi; peruutettavissa milloin tahansa kohdassa Asetukset ▸ Tietosuoja |
+| Käyttötilastot (§3.1) | Suostumuksesi; peruutettavissa milloin tahansa kohdassa Asetukset ▸ Tiedot ja tietosuoja |
+| Search Ads -kohdistaminen (§3.2) | Suostumuksesi; peruutettavissa milloin tahansa kohdassa Asetukset ▸ Tiedot ja tietosuoja |
 
 **Tässä sovelletaan kahta lakia, ei vain yhtä.** Rankedia ylläpidetään Sveitsistä, joten käsittelyä säätelee Sveitsin uudistettu liittovaltion tietosuojalaki (**revDSG**, voimassa syyskuusta 2023). **GDPR** soveltuu lisäksi, kun sovellusta käytetään Euroopan unionista tai Yhdistyneestä kuningaskunnasta. Jos säännöt eroavat, noudatamme tiukempaa. Sveitsissä asuvilla on samat §8:ssa luetellut keskeiset oikeudet revDSG:n 25 artiklasta eteenpäin.
 
@@ -105,9 +105,9 @@ Laitteesi tiedot pysyvät siellä, kunnes poistat sovelluksen.
 
 ## 8. Oikeutesi
 
-Voit peruuttaa analytiikkasuostumuksesi milloin tahansa kohdassa Asetukset ▸ Tietosuoja ilman perustelua. Uusien tapahtumien lähetys päättyy heti, mutta jo lähetettyjä tietoja ei poisteta automaattisesti eikä App Store -tilaustasi peruuteta.
+Voit peruuttaa analytiikkasuostumuksesi milloin tahansa kohdassa Asetukset ▸ Tiedot ja tietosuoja ilman perustelua. Uusien tapahtumien lähetys päättyy heti, mutta jo lähetettyjä tietoja ei poisteta automaattisesti eikä App Store -tilaustasi peruuteta.
 
-Voit poistaa paikalliset harjoitustiedot kohdassa Asetukset ▸ Tiedot ▸ *Poista paikalliset harjoitustiedot* tai poistamalla sovelluksen. Tilaus hallinnoidaan ja perutaan erikseen Apple-tililläsi.
+Voit poistaa paikalliset harjoitustiedot kohdassa Asetukset ▸ Tiedot ja tietosuoja ▸ *Poista paikalliset harjoitustiedot* tai poistamalla sovelluksen. Tilaus hallinnoidaan ja perutaan erikseen Apple-tililläsi.
 
 Jos asia koskee PostHogille jo lähetettyjä tietoja, kirjoita osoitteeseen **dylan.schmid538@gmail.com**. Ranked ei yhdistä satunnaista analytiikkatunnusta käyttäjätiliin. Likimääräinen päivämäärä tai laitemalli ei välttämättä riitä löytämään profiilia luotettavasti. Kerromme, mitä tietoja voimme tunnistaa, ja käsittelemme todennettavat tarkastus-, oikaisu- ja poistopyynnöt. Älä lähetä Apple-tilisi tunnuksia.
 

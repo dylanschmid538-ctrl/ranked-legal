@@ -47,7 +47,7 @@ Xóa ứng dụng sẽ xóa toàn bộ dữ liệu này khỏi thiết bị. Ch�
 
 ### 3.1 Thống kê sử dụng (PostHog)
 
-Phân tích được tắt theo mặc định. Chỉ khi bạn đồng ý rõ ràng lúc thiết lập hoặc sau đó trong Cài đặt, Ranked mới gửi đến PostHog đặt tại EU các sự kiện về thiết lập, đánh giá ban đầu, thay đổi hạng và giai đoạn (kèm kỹ năng và giai đoạn), màn hình mua, giao dịch mua và màn hình đã mở. Sự kiện buổi tập trực tiếp gồm bắt đầu, hoàn thành hoặc bỏ dở, số giây đã trôi qua, số hiệp đã ghi, số kỹ năng khác nhau và liệu đó có phải buổi tập hoàn thành đầu tiên không. Chúng không gồm từng bài tập, số lần lặp, mức tạ hoặc ghi chú. Tuổi, giới tính, chiều cao và cân nặng không được gửi. PostHog còn nhận thông tin kỹ thuật thông thường về thiết bị, iOS, ứng dụng và ngôn ngữ, cùng địa chỉ IP có thể cho biết vị trí gần đúng. Mã phân tích ngẫu nhiên chỉ được tạo sau khi bạn đồng ý. Bạn có thể rút lại sự đồng ý trong Cài đặt ▸ Quyền riêng tư; sự kiện mới sẽ dừng, nhưng dữ liệu đã gửi không tự động bị xóa.
+Phân tích được tắt theo mặc định. Chỉ khi bạn đồng ý rõ ràng lúc thiết lập hoặc sau đó trong Cài đặt, Ranked mới gửi đến PostHog đặt tại EU các sự kiện về thiết lập, đánh giá ban đầu, thay đổi hạng và giai đoạn (kèm kỹ năng và giai đoạn), màn hình mua, giao dịch mua và màn hình đã mở. Sự kiện buổi tập trực tiếp gồm bắt đầu, hoàn thành hoặc bỏ dở, số giây đã trôi qua, số hiệp đã ghi, số kỹ năng khác nhau và liệu đó có phải buổi tập hoàn thành đầu tiên không. Chúng không gồm từng bài tập, số lần lặp, mức tạ hoặc ghi chú. Tuổi, giới tính, chiều cao và cân nặng không được gửi. PostHog còn nhận thông tin kỹ thuật thông thường về thiết bị, iOS, ứng dụng và ngôn ngữ, cùng địa chỉ IP có thể cho biết vị trí gần đúng. Mã phân tích ngẫu nhiên chỉ được tạo sau khi bạn đồng ý. Bạn có thể rút lại sự đồng ý trong Cài đặt ▸ Dữ liệu và quyền riêng tư; sự kiện mới sẽ dừng, nhưng dữ liệu đã gửi không tự động bị xóa.
 
 ### 3.2 Phân bổ nguồn từ Apple Search Ads
 
@@ -78,8 +78,8 @@ Khi bạn nhấn **Khôi phục giao dịch mua**, ứng dụng hỏi Apple về
 | Hoạt động xử lý | Cơ sở |
 |---|---|
 | Mua hàng và xác minh gói đăng ký (§3.3) | Thực hiện hợp đồng |
-| Thống kê sử dụng (§3.1) | Sự đồng ý của bạn; có thể rút lại bất cứ lúc nào trong Cài đặt ▸ Quyền riêng tư |
-| Phân bổ Search Ads (§3.2) | Sự đồng ý của bạn; có thể rút lại bất cứ lúc nào trong Cài đặt ▸ Quyền riêng tư |
+| Thống kê sử dụng (§3.1) | Sự đồng ý của bạn; có thể rút lại bất cứ lúc nào trong Cài đặt ▸ Dữ liệu và quyền riêng tư |
+| Phân bổ Search Ads (§3.2) | Sự đồng ý của bạn; có thể rút lại bất cứ lúc nào trong Cài đặt ▸ Dữ liệu và quyền riêng tư |
 
 **Ở đây áp dụng hai luật, không phải một.** Ranked được vận hành từ Thụy Sĩ, vì vậy Đạo luật Liên bang Thụy Sĩ về Bảo vệ Dữ liệu đã sửa đổi (**revDSG**, có hiệu lực từ tháng 9 năm 2023) điều chỉnh việc xử lý này. **GDPR** cũng áp dụng khi ứng dụng được dùng từ Liên minh Châu Âu hoặc Vương quốc Anh. Khi hai luật khác nhau, chúng tôi tuân theo quy định nghiêm ngặt hơn. Cư dân Thụy Sĩ có các quyền cốt lõi tương tự được nêu ở §8 theo Điều 25 và các điều tiếp theo của revDSG.
 
@@ -105,9 +105,9 @@ Mọi thứ trên thiết bị vẫn ở đó cho đến khi bạn xóa ứng d�
 
 ## 8. Quyền của bạn
 
-Bạn có thể rút lại sự đồng ý phân tích bất cứ lúc nào trong Cài đặt ▸ Quyền riêng tư mà không cần nêu lý do. Sự kiện mới dừng ngay, nhưng dữ liệu đã gửi không tự động bị xóa và gói đăng ký App Store không bị hủy.
+Bạn có thể rút lại sự đồng ý phân tích bất cứ lúc nào trong Cài đặt ▸ Dữ liệu và quyền riêng tư mà không cần nêu lý do. Sự kiện mới dừng ngay, nhưng dữ liệu đã gửi không tự động bị xóa và gói đăng ký App Store không bị hủy.
 
-Bạn có thể xóa dữ liệu tập luyện trên thiết bị trong Cài đặt ▸ Dữ liệu ▸ *Xóa dữ liệu tập luyện trên thiết bị* hoặc bằng cách xóa ứng dụng. Gói đăng ký được quản lý và hủy riêng trong Tài khoản Apple.
+Bạn có thể xóa dữ liệu tập luyện trên thiết bị trong Cài đặt ▸ Dữ liệu và quyền riêng tư ▸ *Xóa dữ liệu tập luyện trên thiết bị* hoặc bằng cách xóa ứng dụng. Gói đăng ký được quản lý và hủy riêng trong Tài khoản Apple.
 
 Về dữ liệu đã gửi cho PostHog, hãy viết đến **dylan.schmid538@gmail.com**. Ranked không liên kết mã phân tích ngẫu nhiên với tài khoản. Ngày gần đúng hoặc mẫu thiết bị có thể không đủ để tìm hồ sơ một cách đáng tin cậy. Chúng tôi sẽ giải thích thông tin có thể xác định và xử lý các yêu cầu truy cập, sửa hoặc xóa có thể xác minh. Đừng gửi thông tin đăng nhập Tài khoản Apple.
 

@@ -47,7 +47,7 @@ Menghapus aplikasi akan menghapus semua data tersebut dari perangkat. Kami tidak
 
 ### 3.1 Statistik penggunaan (PostHog)
 
-Analitik dinonaktifkan secara default. Hanya jika Anda memberi persetujuan secara tegas saat penyiapan atau nanti di Pengaturan, Ranked mengirim peristiwa ke PostHog yang dihosting di UE: penyiapan, penilaian awal, perubahan peringkat dan tahap (beserta keahlian dan tahap), layar pembelian, pembelian, dan layar yang dibuka. Peristiwa latihan langsung mencakup mulai, selesai atau ditinggalkan, detik yang berlalu, jumlah set yang dicatat, jumlah keahlian berbeda, dan apakah itu latihan pertama yang selesai. Peristiwa ini tidak mencakup latihan individual, repetisi, beban, atau catatan. Usia, jenis kelamin, tinggi dan berat badan tidak dikirim. PostHog juga menerima informasi teknis umum tentang perangkat, iOS, aplikasi, bahasa dan alamat IP yang dapat menunjukkan lokasi perkiraan. ID analitik acak dibuat setelah persetujuan. Anda dapat menarik persetujuan di Pengaturan ▸ Privasi; peristiwa baru berhenti, tetapi data yang sudah dikirim tidak otomatis dihapus.
+Analitik dinonaktifkan secara default. Hanya jika Anda memberi persetujuan secara tegas saat penyiapan atau nanti di Pengaturan, Ranked mengirim peristiwa ke PostHog yang dihosting di UE: penyiapan, penilaian awal, perubahan peringkat dan tahap (beserta keahlian dan tahap), layar pembelian, pembelian, dan layar yang dibuka. Peristiwa latihan langsung mencakup mulai, selesai atau ditinggalkan, detik yang berlalu, jumlah set yang dicatat, jumlah keahlian berbeda, dan apakah itu latihan pertama yang selesai. Peristiwa ini tidak mencakup latihan individual, repetisi, beban, atau catatan. Usia, jenis kelamin, tinggi dan berat badan tidak dikirim. PostHog juga menerima informasi teknis umum tentang perangkat, iOS, aplikasi, bahasa dan alamat IP yang dapat menunjukkan lokasi perkiraan. ID analitik acak dibuat setelah persetujuan. Anda dapat menarik persetujuan di Pengaturan ▸ Data & privasi; peristiwa baru berhenti, tetapi data yang sudah dikirim tidak otomatis dihapus.
 
 ### 3.2 Atribusi Apple Search Ads
 
@@ -78,8 +78,8 @@ Saat Anda mengetuk **Pulihkan Pembelian**, aplikasi meminta Apple memberikan pem
 | Pemrosesan | Dasar hukum |
 |---|---|
 | Pembelian dan verifikasi langganan (§3.3) | Pelaksanaan kontrak |
-| Statistik penggunaan (§3.1) | Persetujuan Anda; dapat ditarik kapan saja di Pengaturan ▸ Privasi |
-| Atribusi Search Ads (§3.2) | Persetujuan Anda; dapat ditarik kapan saja di Pengaturan ▸ Privasi |
+| Statistik penggunaan (§3.1) | Persetujuan Anda; dapat ditarik kapan saja di Pengaturan ▸ Data & privasi |
+| Atribusi Search Ads (§3.2) | Persetujuan Anda; dapat ditarik kapan saja di Pengaturan ▸ Data & privasi |
 
 **Dua hukum berlaku di sini, bukan satu.** Ranked dioperasikan dari Swiss, sehingga Undang-Undang Federal Swiss tentang Perlindungan Data yang direvisi (**revDSG**, berlaku sejak September 2023) mengatur pemrosesan ini. **GDPR** juga berlaku apabila aplikasi digunakan dari Uni Eropa atau Britania Raya. Jika keduanya berbeda, kami mengikuti aturan yang lebih ketat. Penduduk Swiss memiliki hak-hak pokok yang sama sebagaimana tercantum pada §8 berdasarkan Pasal 25 dan seterusnya revDSG.
 
@@ -105,9 +105,9 @@ Semua data pada perangkat tetap tersimpan hingga Anda menghapus aplikasi.
 
 ## 8. Hak Anda
 
-Anda dapat menarik persetujuan analitik kapan saja di Pengaturan ▸ Privasi tanpa alasan. Peristiwa baru segera berhenti, tetapi data yang sudah dikirim tidak otomatis dihapus dan langganan App Store tidak dibatalkan.
+Anda dapat menarik persetujuan analitik kapan saja di Pengaturan ▸ Data & privasi tanpa alasan. Peristiwa baru segera berhenti, tetapi data yang sudah dikirim tidak otomatis dihapus dan langganan App Store tidak dibatalkan.
 
-Anda dapat menghapus data latihan lokal di Pengaturan ▸ Data ▸ *Hapus data latihan lokal* atau dengan menghapus aplikasi. Langganan dikelola dan dibatalkan secara terpisah di Akun Apple Anda.
+Anda dapat menghapus data latihan lokal di Pengaturan ▸ Data & privasi ▸ *Hapus data latihan lokal* atau dengan menghapus aplikasi. Langganan dikelola dan dibatalkan secara terpisah di Akun Apple Anda.
 
 Untuk data yang sudah dikirim ke PostHog, tulis ke **dylan.schmid538@gmail.com**. Ranked tidak menghubungkan ID analitik acak dengan akun. Tanggal perkiraan atau model perangkat mungkin tidak cukup untuk menemukan profil secara andal. Kami akan menjelaskan data yang dapat diidentifikasi dan memproses permintaan akses, koreksi atau penghapusan yang dapat diverifikasi. Jangan kirim kredensial Akun Apple.
 

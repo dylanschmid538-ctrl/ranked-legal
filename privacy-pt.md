@@ -47,7 +47,7 @@ Eliminar a aplicação apaga estes dados do dispositivo. Não os podemos recuper
 
 ### 3.1 Estatísticas de utilização (PostHog)
 
-A análise está desativada por predefinição. Só depois de dar consentimento expresso na configuração ou nas Definições, a Ranked envia ao PostHog na UE eventos de configuração, avaliação inicial, alterações de classificação e etapa (com a competência e a etapa), ecrã de compra, compras e ecrãs abertos. Os eventos de treino em direto incluem início, conclusão ou abandono, segundos decorridos, número de séries registadas, número de competências diferentes e se foi o primeiro treino concluído. Não incluem exercícios individuais, repetições, pesos ou notas. Idade, sexo, altura e peso corporal não são enviados. O PostHog recebe também dados técnicos habituais do dispositivo, iOS, aplicação e idioma, e o endereço IP, do qual pode ser inferida uma localização aproximada. Um identificador aleatório é criado após o consentimento. Pode retirá-lo em Definições ▸ Privacidade: param os novos envios, mas os dados já enviados não são apagados automaticamente.
+A análise está desativada por predefinição. Só depois de dar consentimento expresso na configuração ou nas Definições, a Ranked envia ao PostHog na UE eventos de configuração, avaliação inicial, alterações de classificação e etapa (com a competência e a etapa), ecrã de compra, compras e ecrãs abertos. Os eventos de treino em direto incluem início, conclusão ou abandono, segundos decorridos, número de séries registadas, número de competências diferentes e se foi o primeiro treino concluído. Não incluem exercícios individuais, repetições, pesos ou notas. Idade, sexo, altura e peso corporal não são enviados. O PostHog recebe também dados técnicos habituais do dispositivo, iOS, aplicação e idioma, e o endereço IP, do qual pode ser inferida uma localização aproximada. Um identificador aleatório é criado após o consentimento. Pode retirá-lo em Definições ▸ Dados e privacidade: param os novos envios, mas os dados já enviados não são apagados automaticamente.
 
 ### 3.2 Atribuição da Apple Search Ads
 
@@ -78,8 +78,8 @@ Quando toca em **Restaurar compras**, a aplicação pede à Apple as compras efe
 | Tratamento | Fundamento |
 |---|---|
 | Compras e verificação da assinatura (§3.3) | Execução de um contrato |
-| Estatísticas de utilização (§3.1) | O seu consentimento, revogável em qualquer momento em Definições ▸ Privacidade |
-| Atribuição da Search Ads (§3.2) | O seu consentimento, revogável em qualquer momento em Definições ▸ Privacidade |
+| Estatísticas de utilização (§3.1) | O seu consentimento, revogável em qualquer momento em Definições ▸ Dados e privacidade |
+| Atribuição da Search Ads (§3.2) | O seu consentimento, revogável em qualquer momento em Definições ▸ Dados e privacidade |
 
 **Aplicam-se duas leis, não apenas uma.** O Ranked é operado a partir da Suíça, pelo que este tratamento está sujeito à Lei Federal Suíça de Proteção de Dados revista (**LPD revista**, em vigor desde setembro de 2023). O **RGPD** aplica-se adicionalmente quando a aplicação é usada na União Europeia ou no Reino Unido. Se diferirem, seguimos a regra mais rigorosa. Os residentes suíços têm os mesmos direitos essenciais enumerados em §8, nos termos do artigo 25.º e seguintes da LPD revista.
 
@@ -105,9 +105,9 @@ Os dados no dispositivo permanecem até eliminar a aplicação.
 
 ## 8. Os seus direitos
 
-Pode retirar em qualquer momento o consentimento para a análise em Definições ▸ Privacidade, sem indicar motivo. Isso impede imediatamente novos eventos, mas não apaga automaticamente os dados já enviados nem cancela a assinatura da App Store.
+Pode retirar em qualquer momento o consentimento para a análise em Definições ▸ Dados e privacidade, sem indicar motivo. Isso impede imediatamente novos eventos, mas não apaga automaticamente os dados já enviados nem cancela a assinatura da App Store.
 
-Pode apagar os dados de treino locais em Definições ▸ Dados ▸ *Apagar dados de treino locais*, ou eliminando a aplicação. A assinatura é gerida e cancelada separadamente na sua Conta Apple.
+Pode apagar os dados de treino locais em Definições ▸ Dados e privacidade ▸ *Eliminar dados locais de treino*, ou eliminando a aplicação. A assinatura é gerida e cancelada separadamente na sua Conta Apple.
 
 Para dados já enviados ao PostHog, escreva para **dylan.schmid538@gmail.com**. A Ranked não liga o identificador aleatório de análise a uma conta. Uma data aproximada ou modelo de dispositivo pode não bastar para localizar o perfil de modo fiável. Explicaremos o que conseguimos identificar e trataremos pedidos verificáveis de acesso, retificação ou apagamento. Não envie as credenciais da sua Conta Apple.
 

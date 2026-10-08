@@ -45,7 +45,7 @@ fix it.
 
 ### Delete my training data
 
-Open **Settings → Data → Delete local training data** and confirm. This removes your local
+Open **Settings → Data & privacy → Delete local training data** and confirm. This removes your local
 training history, progress, plans and body profile. You can also delete the app to
 remove its local data. Your App Store subscription stays active until you cancel it in
 your Apple Account.
