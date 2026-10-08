@@ -47,7 +47,7 @@ Brisanjem aplikacije sve se to briše s uređaja. Ne možemo to vratiti jer nika
 
 ### 3.1 Statistika korištenja (PostHog)
 
-Analitika je zadano isključena. Tek kada izričito pristanete tijekom početnog postavljanja ili poslije u Postavkama, Ranked šalje PostHogu u EU događaje o postavljanju, početnoj procjeni, promjenama ranga i stupnja (s vještinom i stupnjem), zaslonu za kupnju, kupnjama i otvorenim zaslonima. Događaji treninga uživo uključuju početak, završetak ili prekid, protekle sekunde, broj zabilježenih serija, broj različitih vještina te je li to bio prvi završeni trening. Ne uključuju pojedinačne vježbe, ponavljanja, utege ni bilješke. Dob, spol, visina i tjelesna težina ne šalju se. PostHog prima i uobičajene tehničke podatke o uređaju, iOS-u, aplikaciji i jeziku te IP adresu iz koje se može izvesti približna lokacija. Nasumični analitički identifikator nastaje nakon pristanka. Pristanak možete povući u Postavkama ▸ Privatnost; novi događaji prestaju, ali prethodno poslani podaci ne brišu se automatski.
+Analitika je zadano isključena. Tek kada izričito pristanete tijekom početnog postavljanja ili poslije u Postavkama, Ranked šalje PostHogu u EU događaje o postavljanju, početnoj procjeni, promjenama ranga i stupnja (s vještinom i stupnjem), zaslonu za kupnju, kupnjama i otvorenim zaslonima. Događaji treninga uživo uključuju početak, završetak ili prekid, protekle sekunde, broj zabilježenih serija, broj različitih vještina te je li to bio prvi završeni trening. Ne uključuju pojedinačne vježbe, ponavljanja, utege ni bilješke. Dob, spol, visina i tjelesna težina ne šalju se. PostHog prima i uobičajene tehničke podatke o uređaju, iOS-u, aplikaciji i jeziku te IP adresu iz koje se može izvesti približna lokacija. Nasumični analitički identifikator nastaje nakon pristanka. Pristanak možete povući u Postavkama ▸ Podaci i privatnost; novi događaji prestaju, ali prethodno poslani podaci ne brišu se automatski.
 
 ### 3.2 Pripisivanje Apple Search Ads oglasa
 
@@ -78,8 +78,8 @@ Kad dodirnete **Vrati kupnje**, aplikacija traži od Applea kupnje povezane s Ap
 | Obrada | Osnova |
 |---|---|
 | Kupnje i provjera pretplate (§3.3) | Izvršavanje ugovora |
-| Statistika korištenja (§3.1) | Vaš pristanak; možete ga povući bilo kada u Postavkama ▸ Privatnost |
-| Pripisivanje Search Ads oglasa (§3.2) | Vaš pristanak; možete ga povući bilo kada u Postavkama ▸ Privatnost |
+| Statistika korištenja (§3.1) | Vaš pristanak; možete ga povući bilo kada u Postavkama ▸ Podaci i privatnost |
+| Pripisivanje Search Ads oglasa (§3.2) | Vaš pristanak; možete ga povući bilo kada u Postavkama ▸ Podaci i privatnost |
 
 **Ovdje se primjenjuju dva zakona, ne jedan.** Ranked se vodi iz Švicarske, pa ovu obradu uređuje revidirani švicarski Savezni zakon o zaštiti podataka (**revDSG**, na snazi od rujna 2023.). **GDPR** se dodatno primjenjuje gdje god se aplikacija koristi iz Europske unije ili Ujedinjene Kraljevine. Ako se zakoni razlikuju, slijedimo stroži. Stanovnici Švicarske imaju ista temeljna prava iz §8 prema članku 25. i sljedećima revDSG-a.
 
@@ -105,9 +105,9 @@ Sve na vašem uređaju ostaje ondje dok ne izbrišete aplikaciju.
 
 ## 8. Vaša prava
 
-Pristanak na analitiku možete u bilo kojem trenutku povući u Postavkama ▸ Privatnost bez objašnjenja. Novi događaji odmah prestaju, ali prethodno poslani podaci ne brišu se automatski i pretplata na App Store ne otkazuje se.
+Pristanak na analitiku možete u bilo kojem trenutku povući u Postavkama ▸ Podaci i privatnost bez objašnjenja. Novi događaji odmah prestaju, ali prethodno poslani podaci ne brišu se automatski i pretplata na App Store ne otkazuje se.
 
-Lokalne podatke o treningu možete izbrisati u Postavkama ▸ Podaci ▸ *Izbriši lokalne podatke o treningu* ili brisanjem aplikacije. Pretplatom zasebno upravljate i otkazujete je na svom Apple računu.
+Lokalne podatke o treningu možete izbrisati u Postavkama ▸ Podaci i privatnost ▸ *Izbriši lokalne podatke treninga* ili brisanjem aplikacije. Pretplatom zasebno upravljate i otkazujete je na svom Apple računu.
 
 Za podatke već poslane PostHogu pišite na **dylan.schmid538@gmail.com**. Ranked ne povezuje nasumični analitički identifikator s računom. Približan datum ili model uređaja možda nisu dovoljni za pouzdano pronalaženje profila. Objasnit ćemo što možemo identificirati i obraditi provjerljive zahtjeve za pristup, ispravak ili brisanje. Ne šaljite podatke za prijavu na Apple račun.
 

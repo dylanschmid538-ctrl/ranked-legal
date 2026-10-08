@@ -59,7 +59,7 @@ hatten.
 
 ### 3.1 Nutzungsstatistiken (PostHog)
 
-Die Analyse ist standardmäßig ausgeschaltet. Erst wenn Sie während der Einrichtung oder später in den Einstellungen ausdrücklich zustimmen, sendet Ranked Nutzungsereignisse an PostHog in der EU: Einrichtung und Ersteinstufung, Rang- und Stufenänderungen (mit Skill und Stufe), Kaufbildschirm und Kaufvorgang sowie geöffnete Ansichten. Ereignisse zu Live-Trainings enthalten Start, Abschluss oder Abbruch, verstrichene Sekunden, Anzahl geloggter Sätze, Anzahl unterschiedlicher Skills und ob es das erste abgeschlossene Training war. Sie enthalten keine einzelnen Übungen, Wiederholungen, Gewichte oder Notizen. Alter, Geschlecht, Größe und Körpergewicht werden nicht übermittelt. PostHog erhält übliche Geräte-, iOS-, App- und Sprachangaben sowie die IP-Adresse, aus der ein ungefährer Ort abgeleitet werden kann. Eine zufällige Analysekennung entsteht erst nach Ihrer Zustimmung. Sie können diese unter Einstellungen ▸ Datenschutz widerrufen; danach werden keine neuen Ereignisse gesendet. Bereits gesendete Daten werden dadurch nicht automatisch gelöscht.
+Die Analyse ist standardmäßig ausgeschaltet. Erst wenn Sie während der Einrichtung oder später in den Einstellungen ausdrücklich zustimmen, sendet Ranked Nutzungsereignisse an PostHog in der EU: Einrichtung und Ersteinstufung, Rang- und Stufenänderungen (mit Skill und Stufe), Kaufbildschirm und Kaufvorgang sowie geöffnete Ansichten. Ereignisse zu Live-Trainings enthalten Start, Abschluss oder Abbruch, verstrichene Sekunden, Anzahl geloggter Sätze, Anzahl unterschiedlicher Skills und ob es das erste abgeschlossene Training war. Sie enthalten keine einzelnen Übungen, Wiederholungen, Gewichte oder Notizen. Alter, Geschlecht, Größe und Körpergewicht werden nicht übermittelt. PostHog erhält übliche Geräte-, iOS-, App- und Sprachangaben sowie die IP-Adresse, aus der ein ungefährer Ort abgeleitet werden kann. Eine zufällige Analysekennung entsteht erst nach Ihrer Zustimmung. Sie können diese unter Einstellungen ▸ Daten & Datenschutz widerrufen; danach werden keine neuen Ereignisse gesendet. Bereits gesendete Daten werden dadurch nicht automatisch gelöscht.
 
 ### 3.2 Zuordnung von Apple Search Ads
 
@@ -102,8 +102,8 @@ RevenueCat weiter.
 | Was | Grundlage |
 |---|---|
 | Käufe und Abo-Überprüfung (§3.3) | Vertragserfüllung |
-| Nutzungsstatistiken (§3.1) | Ihre Einwilligung; jederzeit unter Einstellungen ▸ Datenschutz widerrufbar |
-| Search-Ads-Zuordnung (§3.2) | Ihre Einwilligung; jederzeit unter Einstellungen ▸ Datenschutz widerrufbar |
+| Nutzungsstatistiken (§3.1) | Ihre Einwilligung; jederzeit unter Einstellungen ▸ Daten & Datenschutz widerrufbar |
+| Search-Ads-Zuordnung (§3.2) | Ihre Einwilligung; jederzeit unter Einstellungen ▸ Daten & Datenschutz widerrufbar |
 
 **Hier gelten zwei Rechtsordnungen, nicht eine.** Ranked wird aus der Schweiz betrieben, daher
 regelt das revidierte Schweizer Datenschutzgesetz (**revDSG**, in Kraft seit September 2023) diese
@@ -139,9 +139,9 @@ Alles auf Ihrem Gerät bleibt dort, bis Sie die App löschen.
 
 ## 8. Ihre Rechte
 
-Sie können Ihre Einwilligung zur Analyse unter Einstellungen ▸ Datenschutz jederzeit ohne Begründung widerrufen. Das stoppt neue Ereignisse sofort, löscht aber nicht automatisch bereits gesendete Daten und beendet kein App-Store-Abonnement.
+Sie können Ihre Einwilligung zur Analyse unter Einstellungen ▸ Daten & Datenschutz jederzeit ohne Begründung widerrufen. Das stoppt neue Ereignisse sofort, löscht aber nicht automatisch bereits gesendete Daten und beendet kein App-Store-Abonnement.
 
-Ihre lokalen Trainingsdaten können Sie unter Einstellungen ▸ Daten ▸ *Lokale Trainingsdaten löschen* oder durch Löschen der App entfernen. Das Abonnement verwalten und kündigen Sie getrennt in Ihrem Apple-Account.
+Ihre lokalen Trainingsdaten können Sie unter Einstellungen ▸ Daten & Datenschutz ▸ *Lokale Trainingsdaten löschen* oder durch Löschen der App entfernen. Das Abonnement verwalten und kündigen Sie getrennt in Ihrem Apple-Account.
 
 Für Daten, die bereits an PostHog gesendet wurden, schreiben Sie an **dylan.schmid538@gmail.com**. Ranked verknüpft die zufällige Analysekennung nicht mit einem Konto. Ein ungefähres Nutzungsdatum oder Gerätemodell allein reicht möglicherweise nicht aus, um Ihr Profil zuverlässig zu finden. Wir erklären, welche Daten wir zuordnen können, und bearbeiten überprüfbare Anträge auf Auskunft, Berichtigung oder Löschung. Bitte senden Sie keine Zugangsdaten Ihres Apple-Accounts.
 

@@ -56,7 +56,7 @@ nie mieliśmy.
 
 ### 3.1 Statystyki użycia (PostHog)
 
-Analityka jest domyślnie wyłączona. Dopiero gdy wyraźnie wyrazisz zgodę podczas konfiguracji lub później w Ustawieniach, Ranked wysyła do PostHog w UE zdarzenia dotyczące konfiguracji, oceny początkowej, zmian rangi i etapu (wraz z umiejętnością i etapem), ekranu zakupu, zakupów i otwieranych ekranów. Zdarzenia treningu na żywo obejmują rozpoczęcie, ukończenie lub przerwanie, liczbę sekund, zapisanych serii, różnych umiejętności oraz informację, czy był to pierwszy ukończony trening. Nie zawierają poszczególnych ćwiczeń, powtórzeń, obciążeń ani notatek. Wiek, płeć, wzrost i masa ciała nie są przesyłane. PostHog otrzymuje też typowe dane techniczne o urządzeniu, iOS, aplikacji i języku oraz adres IP, z którego można wywnioskować przybliżoną lokalizację. Losowy identyfikator analityczny powstaje po wyrażeniu zgody. Zgodę można wycofać w Ustawieniach ▸ Prywatność; nowe zdarzenia przestają być wysyłane, ale wcześniejsze dane nie są automatycznie usuwane.
+Analityka jest domyślnie wyłączona. Dopiero gdy wyraźnie wyrazisz zgodę podczas konfiguracji lub później w Ustawieniach, Ranked wysyła do PostHog w UE zdarzenia dotyczące konfiguracji, oceny początkowej, zmian rangi i etapu (wraz z umiejętnością i etapem), ekranu zakupu, zakupów i otwieranych ekranów. Zdarzenia treningu na żywo obejmują rozpoczęcie, ukończenie lub przerwanie, liczbę sekund, zapisanych serii, różnych umiejętności oraz informację, czy był to pierwszy ukończony trening. Nie zawierają poszczególnych ćwiczeń, powtórzeń, obciążeń ani notatek. Wiek, płeć, wzrost i masa ciała nie są przesyłane. PostHog otrzymuje też typowe dane techniczne o urządzeniu, iOS, aplikacji i języku oraz adres IP, z którego można wywnioskować przybliżoną lokalizację. Losowy identyfikator analityczny powstaje po wyrażeniu zgody. Zgodę można wycofać w Ustawieniach ▸ Dane i prywatność; nowe zdarzenia przestają być wysyłane, ale wcześniejsze dane nie są automatycznie usuwane.
 
 ### 3.2 Atrybucja Apple Search Ads
 
@@ -98,8 +98,8 @@ na urządzeniu i przekazuje wynik do RevenueCat w ten sam sposób.
 | Co | Podstawa |
 |---|---|
 | Zakupy i weryfikacja subskrypcji (§3.3) | Wykonanie umowy |
-| Statystyki użycia (§3.1) | Twoja zgoda; można ją w każdej chwili wycofać w Ustawieniach ▸ Prywatność |
-| Atrybucja Search Ads (§3.2) | Twoja zgoda; można ją w każdej chwili wycofać w Ustawieniach ▸ Prywatność |
+| Statystyki użycia (§3.1) | Twoja zgoda; można ją w każdej chwili wycofać w Ustawieniach ▸ Dane i prywatność |
+| Atrybucja Search Ads (§3.2) | Twoja zgoda; można ją w każdej chwili wycofać w Ustawieniach ▸ Dane i prywatność |
 
 **Obowiązują tu dwa porządki prawne, nie jeden.** Ranked jest prowadzony ze Szwajcarii, więc to
 zrewidowana szwajcarska federalna ustawa o ochronie danych (**revDSG**, obowiązująca od września
@@ -135,9 +135,9 @@ Wszystko, co jest na urządzeniu, pozostaje tam do momentu usunięcia aplikacji.
 
 ## 8. Twoje prawa
 
-Możesz w każdej chwili wycofać zgodę na analitykę w Ustawieniach ▸ Prywatność bez podawania przyczyny. Nowe zdarzenia zostają natychmiast zatrzymane, ale już przesłane dane nie są automatycznie usuwane, a subskrypcja App Store nie zostaje anulowana.
+Możesz w każdej chwili wycofać zgodę na analitykę w Ustawieniach ▸ Dane i prywatność bez podawania przyczyny. Nowe zdarzenia zostają natychmiast zatrzymane, ale już przesłane dane nie są automatycznie usuwane, a subskrypcja App Store nie zostaje anulowana.
 
-Lokalne dane treningowe możesz usunąć w Ustawieniach ▸ Dane ▸ *Usuń lokalne dane treningowe* albo usuwając aplikację. Subskrypcją zarządzasz i anulujesz ją oddzielnie na swoim koncie Apple.
+Lokalne dane treningowe możesz usunąć w Ustawieniach ▸ Dane i prywatność ▸ *Usuń lokalne dane treningowe* albo usuwając aplikację. Subskrypcją zarządzasz i anulujesz ją oddzielnie na swoim koncie Apple.
 
 W sprawie danych przesłanych już do PostHog napisz na **dylan.schmid538@gmail.com**. Ranked nie łączy losowego identyfikatora analitycznego z kontem. Przybliżona data lub model urządzenia mogą nie wystarczyć, by wiarygodnie odnaleźć profil. Wyjaśnimy, co możemy zidentyfikować, i rozpatrzymy możliwe do zweryfikowania żądania dostępu, sprostowania lub usunięcia. Nie przesyłaj danych logowania do konta Apple.
 

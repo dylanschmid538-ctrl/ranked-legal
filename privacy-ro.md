@@ -47,7 +47,7 @@ Aplicația nu exclude această bază de date din copia de rezervă a dispozitivu
 
 ### 3.1 Statistici de utilizare (PostHog)
 
-Analiza este dezactivată implicit. Numai dacă vă dați acordul explicit la configurare sau ulterior în Setări, Ranked trimite către PostHog în UE evenimente privind configurarea, evaluarea inițială, schimbările de rang și etapă (cu abilitatea și etapa), ecranul de cumpărare, achizițiile și ecranele deschise. Evenimentele antrenamentelor în timp real includ începutul, finalizarea sau abandonarea, secundele scurse, numărul de seturi înregistrate, numărul de abilități diferite și dacă a fost primul antrenament finalizat. Nu includ exerciții individuale, repetări, greutăți sau note. Vârsta, sexul, înălțimea și greutatea corporală nu sunt transmise. PostHog primește și informații tehnice obișnuite despre dispozitiv, iOS, aplicație și limbă, precum și adresa IP, din care se poate deduce o locație aproximativă. Un identificator aleatoriu este creat după consimțământ. Îl puteți retrage în Setări ▸ Confidențialitate; noile evenimente se opresc, dar datele deja trimise nu sunt șterse automat.
+Analiza este dezactivată implicit. Numai dacă vă dați acordul explicit la configurare sau ulterior în Setări, Ranked trimite către PostHog în UE evenimente privind configurarea, evaluarea inițială, schimbările de rang și etapă (cu abilitatea și etapa), ecranul de cumpărare, achizițiile și ecranele deschise. Evenimentele antrenamentelor în timp real includ începutul, finalizarea sau abandonarea, secundele scurse, numărul de seturi înregistrate, numărul de abilități diferite și dacă a fost primul antrenament finalizat. Nu includ exerciții individuale, repetări, greutăți sau note. Vârsta, sexul, înălțimea și greutatea corporală nu sunt transmise. PostHog primește și informații tehnice obișnuite despre dispozitiv, iOS, aplicație și limbă, precum și adresa IP, din care se poate deduce o locație aproximativă. Un identificator aleatoriu este creat după consimțământ. Îl puteți retrage în Setări ▸ Date și confidențialitate; noile evenimente se opresc, dar datele deja trimise nu sunt șterse automat.
 
 ### 3.2 Atribuirea Apple Search Ads
 
@@ -78,8 +78,8 @@ Când apăsați **Restaurare cumpărături**, aplicația cere de la Apple cumpă
 | Prelucrare | Temei |
 |---|---|
 | Cumpărături și verificarea abonamentului (§3.3) | Executarea unui contract |
-| Statistici de utilizare (§3.1) | Consimțământul dvs.; poate fi retras oricând în Setări ▸ Confidențialitate |
-| Atribuirea Search Ads (§3.2) | Consimțământul dvs.; poate fi retras oricând în Setări ▸ Confidențialitate |
+| Statistici de utilizare (§3.1) | Consimțământul dvs.; poate fi retras oricând în Setări ▸ Date și confidențialitate |
+| Atribuirea Search Ads (§3.2) | Consimțământul dvs.; poate fi retras oricând în Setări ▸ Date și confidențialitate |
 
 **Se aplică două legi, nu una.** Ranked este operată din Elveția, deci prelucrarea este guvernată de Legea federală elvețiană revizuită privind protecția datelor (**revDSG**, în vigoare din septembrie 2023). **GDPR** se aplică suplimentar oriunde aplicația este utilizată din Uniunea Europeană sau Regatul Unit. Dacă diferă, urmăm regula mai strictă. Rezidenții elvețieni au aceleași drepturi de bază enumerate la §8 potrivit art. 25 și următoarele din revDSG.
 
@@ -105,9 +105,9 @@ Tot ce este pe dispozitiv rămâne acolo până ștergeți aplicația.
 
 ## 8. Drepturile dvs.
 
-Puteți retrage oricând, fără motiv, consimțământul pentru analiză în Setări ▸ Confidențialitate. Noile evenimente încetează imediat, dar datele deja trimise nu sunt șterse automat și abonamentul App Store nu este anulat.
+Puteți retrage oricând, fără motiv, consimțământul pentru analiză în Setări ▸ Date și confidențialitate. Noile evenimente încetează imediat, dar datele deja trimise nu sunt șterse automat și abonamentul App Store nu este anulat.
 
-Puteți șterge datele locale de antrenament în Setări ▸ Date ▸ *Șterge datele locale de antrenament* sau prin ștergerea aplicației. Abonamentul se gestionează și se anulează separat în Contul Apple.
+Puteți șterge datele locale de antrenament în Setări ▸ Date și confidențialitate ▸ *Șterge datele locale de antrenament* sau prin ștergerea aplicației. Abonamentul se gestionează și se anulează separat în Contul Apple.
 
 Pentru datele deja trimise către PostHog, scrieți la **dylan.schmid538@gmail.com**. Ranked nu leagă identificatorul aleatoriu de un cont. O dată aproximativă sau modelul dispozitivului pot să nu fie suficiente pentru identificarea sigură a profilului. Vom explica ce putem identifica și vom procesa cererile verificabile de acces, rectificare sau ștergere. Nu trimiteți datele de acces ale Contului Apple.
 

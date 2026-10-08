@@ -57,7 +57,7 @@ neturėjome.
 
 ### 3.1 Naudojimo statistika (PostHog)
 
-Analitika pagal numatytuosius nustatymus išjungta. Tik aiškiai sutikus sąrankos metu arba vėliau Nustatymuose, Ranked siunčia ES veikiantiems PostHog įvykius apie sąranką, pradinį įvertinimą, rango ir pakopos pokyčius (nurodant įgūdį ir pakopą), pirkimo ekraną, pirkimus ir atidarytus ekranus. Tiesioginės treniruotės įvykiai apima pradžią, pabaigą ar nutraukimą, praėjusias sekundes, užregistruotų serijų ir skirtingų įgūdžių skaičių bei ar tai buvo pirmoji baigta treniruotė. Juose nėra atskirų pratimų, pakartojimų, svorių ar pastabų. Amžius, lytis, ūgis ir kūno svoris nesiunčiami. PostHog taip pat gauna įprastus techninius įrenginio, iOS, programėlės ir kalbos duomenis bei IP adresą, iš kurio galima nustatyti apytikrę vietą. Atsitiktinis analitikos identifikatorius sukuriamas po sutikimo. Jį galite atšaukti Nustatymuose ▸ Privatumas; nauji įvykiai nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami.
+Analitika pagal numatytuosius nustatymus išjungta. Tik aiškiai sutikus sąrankos metu arba vėliau Nustatymuose, Ranked siunčia ES veikiantiems PostHog įvykius apie sąranką, pradinį įvertinimą, rango ir pakopos pokyčius (nurodant įgūdį ir pakopą), pirkimo ekraną, pirkimus ir atidarytus ekranus. Tiesioginės treniruotės įvykiai apima pradžią, pabaigą ar nutraukimą, praėjusias sekundes, užregistruotų serijų ir skirtingų įgūdžių skaičių bei ar tai buvo pirmoji baigta treniruotė. Juose nėra atskirų pratimų, pakartojimų, svorių ar pastabų. Amžius, lytis, ūgis ir kūno svoris nesiunčiami. PostHog taip pat gauna įprastus techninius įrenginio, iOS, programėlės ir kalbos duomenis bei IP adresą, iš kurio galima nustatyti apytikrę vietą. Atsitiktinis analitikos identifikatorius sukuriamas po sutikimo. Jį galite atšaukti Nustatymuose ▸ Duomenys ir privatumas; nauji įvykiai nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami.
 
 ### 3.2 „Apple Search Ads“ priskyrimas
 
@@ -99,8 +99,8 @@ Kai bakstelite **Atkurti pirkinius**, programėlė paklausia „Apple“ apie pi
 | Kas | Pagrindas |
 |---|---|
 | Pirkiniai ir prenumeratos patikrinimas (§3.3) | Sutarties vykdymas |
-| Naudojimo statistika (§3.1) | Jūsų sutikimas; bet kada atšaukiamas Nustatymuose ▸ Privatumas |
-| „Search Ads“ priskyrimas (§3.2) | Jūsų sutikimas; bet kada atšaukiamas Nustatymuose ▸ Privatumas |
+| Naudojimo statistika (§3.1) | Jūsų sutikimas; bet kada atšaukiamas Nustatymuose ▸ Duomenys ir privatumas |
+| „Search Ads“ priskyrimas (§3.2) | Jūsų sutikimas; bet kada atšaukiamas Nustatymuose ▸ Duomenys ir privatumas |
 
 **Čia taikomos dvi teisės sistemos, ne viena.** „Ranked“ valdoma iš Šveicarijos, todėl šį tvarkymą
 reglamentuoja peržiūrėtas Šveicarijos federalinis duomenų apsaugos įstatymas (**revDSG**, galiojantis
@@ -135,9 +135,9 @@ Viskas, kas yra Jūsų įrenginyje, ten lieka tol, kol ištrinsite programėlę.
 
 ## 8. Jūsų teisės
 
-Sutikimą analitikai galite bet kada be priežasties atšaukti Nustatymuose ▸ Privatumas. Nauji įvykiai iškart nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami, o App Store prenumerata neatšaukiama.
+Sutikimą analitikai galite bet kada be priežasties atšaukti Nustatymuose ▸ Duomenys ir privatumas. Nauji įvykiai iškart nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami, o App Store prenumerata neatšaukiama.
 
-Vietinius treniruočių duomenis galite ištrinti Nustatymuose ▸ Duomenys ▸ *Ištrinti vietinius treniruočių duomenis* arba pašalinę programėlę. Prenumerata atskirai valdoma ir atšaukiama Apple paskyroje.
+Vietinius treniruočių duomenis galite ištrinti Nustatymuose ▸ Duomenys ir privatumas ▸ *Ištrinti vietinius treniruočių duomenis* arba pašalinę programėlę. Prenumerata atskirai valdoma ir atšaukiama Apple paskyroje.
 
 Dėl PostHog jau išsiųstų duomenų rašykite **dylan.schmid538@gmail.com**. Ranked nesieja atsitiktinio analitikos identifikatoriaus su paskyra. Apytikrė data ar įrenginio modelis gali nepakakti patikimam profilio radimui. Paaiškinsime, ką galime nustatyti, ir nagrinėsime patikrinamus prašymus susipažinti su duomenimis, juos taisyti ar ištrinti. Nesiųskite Apple paskyros prisijungimo duomenų.
 

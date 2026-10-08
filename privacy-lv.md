@@ -55,7 +55,7 @@ Lietotnes dzēšana izdzēš to visu no ierīces. Mēs to atjaunot nevaram, jo m
 
 ### 3.1 Lietojuma statistika (PostHog)
 
-Analītika pēc noklusējuma ir izslēgta. Tikai tad, ja iestatīšanas laikā vai vēlāk Iestatījumos skaidri piekrītat, Ranked nosūta ES izvietotajam PostHog notikumus par iestatīšanu, sākotnējo novērtējumu, ranga un posma izmaiņām (ar prasmi un posmu), pirkuma ekrānu, pirkumiem un atvērtajiem ekrāniem. Tiešsaistes treniņa notikumi ietver sākumu, pabeigšanu vai pārtraukšanu, pagājušās sekundes, reģistrēto sēriju un dažādu prasmju skaitu, kā arī to, vai šis bija pirmais pabeigtais treniņš. Tie nesatur atsevišķus vingrinājumus, atkārtojumus, svarus vai piezīmes. Vecums, dzimums, augums un ķermeņa svars netiek nosūtīti. PostHog saņem arī parastos tehniskos datus par ierīci, iOS, lietotni un valodu un IP adresi, no kuras var secināt aptuvenu atrašanās vietu. Nejaušs analītikas identifikators tiek izveidots pēc piekrišanas. To varat atsaukt Iestatījumos ▸ Privātums; jauni notikumi vairs netiek sūtīti, bet iepriekš nosūtītie dati automātiski netiek dzēsti.
+Analītika pēc noklusējuma ir izslēgta. Tikai tad, ja iestatīšanas laikā vai vēlāk Iestatījumos skaidri piekrītat, Ranked nosūta ES izvietotajam PostHog notikumus par iestatīšanu, sākotnējo novērtējumu, ranga un posma izmaiņām (ar prasmi un posmu), pirkuma ekrānu, pirkumiem un atvērtajiem ekrāniem. Tiešsaistes treniņa notikumi ietver sākumu, pabeigšanu vai pārtraukšanu, pagājušās sekundes, reģistrēto sēriju un dažādu prasmju skaitu, kā arī to, vai šis bija pirmais pabeigtais treniņš. Tie nesatur atsevišķus vingrinājumus, atkārtojumus, svarus vai piezīmes. Vecums, dzimums, augums un ķermeņa svars netiek nosūtīti. PostHog saņem arī parastos tehniskos datus par ierīci, iOS, lietotni un valodu un IP adresi, no kuras var secināt aptuvenu atrašanās vietu. Nejaušs analītikas identifikators tiek izveidots pēc piekrišanas. To varat atsaukt Iestatījumos ▸ Dati un privātums; jauni notikumi vairs netiek sūtīti, bet iepriekš nosūtītie dati automātiski netiek dzēsti.
 
 ### 3.2 Apple Search Ads attiecinājums
 
@@ -97,8 +97,8 @@ pieteikto Apple kontu, un rezultātu tādā pašā veidā nodod RevenueCat.
 | Kas | Pamats |
 |---|---|
 | Pirkumi un abonementa pārbaude (§3.3) | Līguma izpilde |
-| Lietojuma statistika (§3.1) | Jūsu piekrišana; to jebkurā laikā var atsaukt Iestatījumos ▸ Privātums |
-| Search Ads attiecinājums (§3.2) | Jūsu piekrišana; to jebkurā laikā var atsaukt Iestatījumos ▸ Privātums |
+| Lietojuma statistika (§3.1) | Jūsu piekrišana; to jebkurā laikā var atsaukt Iestatījumos ▸ Dati un privātums |
+| Search Ads attiecinājums (§3.2) | Jūsu piekrišana; to jebkurā laikā var atsaukt Iestatījumos ▸ Dati un privātums |
 
 **Šeit piemēro divas tiesību sistēmas, ne vienu.** Ranked tiek pārvaldīta no Šveices, tāpēc šo
 apstrādi regulē pārskatītais Šveices federālais datu aizsardzības likums (**revDSG**, spēkā kopš
@@ -134,9 +134,9 @@ Viss, kas ir Jūsu ierīcē, tur paliek, līdz izdzēšat lietotni.
 
 ## 8. Jūsu tiesības
 
-Piekrišanu analītikai varat jebkurā laikā bez pamatojuma atsaukt Iestatījumos ▸ Privātums. Jauni notikumi uzreiz apstājas, bet iepriekš nosūtītie dati netiek automātiski dzēsti un App Store abonements netiek atcelts.
+Piekrišanu analītikai varat jebkurā laikā bez pamatojuma atsaukt Iestatījumos ▸ Dati un privātums. Jauni notikumi uzreiz apstājas, bet iepriekš nosūtītie dati netiek automātiski dzēsti un App Store abonements netiek atcelts.
 
-Vietējos treniņu datus varat dzēst Iestatījumos ▸ Dati ▸ *Dzēst vietējos treniņu datus* vai dzēšot lietotni. Abonementu pārvaldāt un atceļat atsevišķi savā Apple kontā.
+Vietējos treniņu datus varat dzēst Iestatījumos ▸ Dati un privātums ▸ *Dzēst vietējos treniņu datus* vai dzēšot lietotni. Abonementu pārvaldāt un atceļat atsevišķi savā Apple kontā.
 
 Par datiem, kas jau nosūtīti PostHog, rakstiet uz **dylan.schmid538@gmail.com**. Ranked nesaista nejaušo analītikas identifikatoru ar kontu. Aptuvens datums vai ierīces modelis var nebūt pietiekams, lai droši atrastu profilu. Paskaidrosim, ko varam identificēt, un izskatīsim pārbaudāmus piekļuves, labošanas vai dzēšanas pieprasījumus. Nesūtiet Apple konta pieslēgšanās datus.
 

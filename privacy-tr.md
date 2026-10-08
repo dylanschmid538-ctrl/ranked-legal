@@ -47,7 +47,7 @@ Uygulamayı silmek, bunların tamamını cihazdan siler. Veriler hiçbir zaman e
 
 ### 3.1 Kullanım istatistikleri (PostHog)
 
-Analiz varsayılan olarak kapalıdır. Yalnızca kurulum sırasında veya daha sonra Ayarlar'da açıkça onay verirseniz Ranked, AB'de barındırılan PostHog'a kurulum, ilk değerlendirme, rütbe ve aşama değişiklikleri (beceri ve aşama dâhil), satın alma ekranı, satın almalar ve açılan ekranlar hakkında olay gönderir. Canlı antrenman olayları başlangıcı, tamamlanmayı veya yarıda bırakmayı; geçen saniyeleri, kaydedilen set ve farklı beceri sayılarını ve bunun ilk tamamlanan antrenman olup olmadığını içerir. Tek tek egzersizleri, tekrarları, ağırlıkları veya notları içermez. Yaş, cinsiyet, boy ve vücut ağırlığı gönderilmez. PostHog ayrıca cihaz, iOS, uygulama ve dile ilişkin olağan teknik bilgileri ve yaklaşık konum çıkarılabilecek IP adresini alır. Rastgele analiz kimliği onayınızdan sonra oluşturulur. Onayı Ayarlar ▸ Gizlilik'ten geri alabilirsiniz; yeni olaylar durur, önceden gönderilen veriler otomatik olarak silinmez.
+Analiz varsayılan olarak kapalıdır. Yalnızca kurulum sırasında veya daha sonra Ayarlar'da açıkça onay verirseniz Ranked, AB'de barındırılan PostHog'a kurulum, ilk değerlendirme, rütbe ve aşama değişiklikleri (beceri ve aşama dâhil), satın alma ekranı, satın almalar ve açılan ekranlar hakkında olay gönderir. Canlı antrenman olayları başlangıcı, tamamlanmayı veya yarıda bırakmayı; geçen saniyeleri, kaydedilen set ve farklı beceri sayılarını ve bunun ilk tamamlanan antrenman olup olmadığını içerir. Tek tek egzersizleri, tekrarları, ağırlıkları veya notları içermez. Yaş, cinsiyet, boy ve vücut ağırlığı gönderilmez. PostHog ayrıca cihaz, iOS, uygulama ve dile ilişkin olağan teknik bilgileri ve yaklaşık konum çıkarılabilecek IP adresini alır. Rastgele analiz kimliği onayınızdan sonra oluşturulur. Onayı Ayarlar ▸ Veriler ve gizlilik'ten geri alabilirsiniz; yeni olaylar durur, önceden gönderilen veriler otomatik olarak silinmez.
 
 ### 3.2 Apple Search Ads ilişkilendirmesi
 
@@ -78,8 +78,8 @@ Aboneliğinizin etkin olup olmadığını kontrol etmek için uygulama **Revenue
 | İşleme | Dayanak |
 |---|---|
 | Satın almalar ve abonelik doğrulaması (§3.3) | Sözleşmenin ifası |
-| Kullanım istatistikleri (§3.1) | Onayınız; Ayarlar ▸ Gizlilik'ten her zaman geri çekilebilir |
-| Search Ads ilişkilendirmesi (§3.2) | Onayınız; Ayarlar ▸ Gizlilik'ten her zaman geri çekilebilir |
+| Kullanım istatistikleri (§3.1) | Onayınız; Ayarlar ▸ Veriler ve gizlilik'ten her zaman geri çekilebilir |
+| Search Ads ilişkilendirmesi (§3.2) | Onayınız; Ayarlar ▸ Veriler ve gizlilik'ten her zaman geri çekilebilir |
 
 **Burada tek değil, iki yasa geçerlidir.** Ranked İsviçre'den işletildiğinden, Eylül 2023'ten beri yürürlükte olan gözden geçirilmiş İsviçre Federal Veri Koruma Yasası (**revDSG**) bu işlemeyi düzenler. Uygulama Avrupa Birliği veya Birleşik Krallık'tan kullanıldığında **GDPR** ayrıca uygulanır. İkisi farklıysa daha sıkı olanı izleriz. İsviçre'de yaşayanlar revDSG Madde 25 ve devamı uyarınca §8'deki aynı temel haklara sahiptir.
 
@@ -105,9 +105,9 @@ Cihazınızdaki her şey, uygulamayı silene kadar orada kalır.
 
 ## 8. Haklarınız
 
-Analiz onayınızı Ayarlar ▸ Gizlilik'ten gerekçe göstermeden istediğiniz zaman geri çekebilirsiniz. Yeni olaylar hemen durur; ancak önceden gönderilen veriler otomatik silinmez ve App Store aboneliğiniz iptal edilmez.
+Analiz onayınızı Ayarlar ▸ Veriler ve gizlilik'ten gerekçe göstermeden istediğiniz zaman geri çekebilirsiniz. Yeni olaylar hemen durur; ancak önceden gönderilen veriler otomatik silinmez ve App Store aboneliğiniz iptal edilmez.
 
-Yerel antrenman verilerini Ayarlar ▸ Veriler ▸ *Yerel antrenman verilerini sil* bölümünden veya uygulamayı silerek kaldırabilirsiniz. Aboneliği Apple Hesabınızda ayrıca yönetip iptal edersiniz.
+Yerel antrenman verilerini Ayarlar ▸ Veriler ve gizlilik ▸ *Yerel antrenman verilerini sil* bölümünden veya uygulamayı silerek kaldırabilirsiniz. Aboneliği Apple Hesabınızda ayrıca yönetip iptal edersiniz.
 
 PostHog'a önceden gönderilmiş veriler için **dylan.schmid538@gmail.com** adresine yazın. Ranked, rastgele analiz kimliğini bir hesaba bağlamaz. Yaklaşık tarih veya cihaz modeli profili güvenilir biçimde bulmaya yetmeyebilir. Neleri belirleyebildiğimizi açıklayacak ve doğrulanabilir erişim, düzeltme veya silme taleplerini işleyeceğiz. Apple Hesabınızın giriş bilgilerini göndermeyin.
 

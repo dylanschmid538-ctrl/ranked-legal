@@ -56,7 +56,7 @@ nemali.
 
 ### 3.1 Štatistiky používania (PostHog)
 
-Analytika je predvolene vypnutá. Iba ak počas úvodného nastavenia alebo neskôr v Nastaveniach výslovne súhlasíte, Ranked odosiela službe PostHog v EÚ udalosti o nastavení, prvotnom hodnotení, zmenách hodnosti a stupňa (vrátane zručnosti a stupňa), nákupnej obrazovke, nákupoch a otvorených obrazovkách. Udalosti živého tréningu zahŕňajú začiatok, dokončenie alebo prerušenie, uplynulé sekundy, počet zaznamenaných sérií, počet rôznych zručností a údaj o prvom dokončenom tréningu. Neobsahujú jednotlivé cviky, opakovania, záťaž ani poznámky. Vek, pohlavie, výška a hmotnosť sa neodosielajú. PostHog dostáva aj bežné technické údaje o zariadení, iOS, aplikácii a jazyku a IP adresu, z ktorej možno odvodiť približnú polohu. Náhodný analytický identifikátor vzniká po súhlase. Súhlas môžete odvolať v Nastaveniach ▸ Súkromie; nové udalosti sa prestanú odosielať, skoršie údaje sa automaticky nevymažú.
+Analytika je predvolene vypnutá. Iba ak počas úvodného nastavenia alebo neskôr v Nastaveniach výslovne súhlasíte, Ranked odosiela službe PostHog v EÚ udalosti o nastavení, prvotnom hodnotení, zmenách hodnosti a stupňa (vrátane zručnosti a stupňa), nákupnej obrazovke, nákupoch a otvorených obrazovkách. Udalosti živého tréningu zahŕňajú začiatok, dokončenie alebo prerušenie, uplynulé sekundy, počet zaznamenaných sérií, počet rôznych zručností a údaj o prvom dokončenom tréningu. Neobsahujú jednotlivé cviky, opakovania, záťaž ani poznámky. Vek, pohlavie, výška a hmotnosť sa neodosielajú. PostHog dostáva aj bežné technické údaje o zariadení, iOS, aplikácii a jazyku a IP adresu, z ktorej možno odvodiť približnú polohu. Náhodný analytický identifikátor vzniká po súhlase. Súhlas môžete odvolať v Nastaveniach ▸ Údaje a súkromie; nové udalosti sa prestanú odosielať, skoršie údaje sa automaticky nevymažú.
 
 ### 3.2 Priradenie Apple Search Ads
 
@@ -98,8 +98,8 @@ prihláseným v zariadení a výsledok odovzdá RevenueCatu rovnakým spôsobom.
 | Čo | Základ |
 |---|---|
 | Nákupy a overenie predplatného (§3.3) | Plnenie zmluvy |
-| Štatistiky používania (§3.1) | Váš súhlas; možno ho kedykoľvek odvolať v Nastaveniach ▸ Súkromie |
-| Priradenie Search Ads (§3.2) | Váš súhlas; možno ho kedykoľvek odvolať v Nastaveniach ▸ Súkromie |
+| Štatistiky používania (§3.1) | Váš súhlas; možno ho kedykoľvek odvolať v Nastaveniach ▸ Údaje a súkromie |
+| Priradenie Search Ads (§3.2) | Váš súhlas; možno ho kedykoľvek odvolať v Nastaveniach ▸ Údaje a súkromie |
 
 **Platia tu dva právne poriadky, nie jeden.** Ranked sa prevádzkuje zo Švajčiarska, takže toto
 spracúvanie upravuje revidovaný švajčiarsky federálny zákon o ochrane údajov (**revDSG**, účinný od
@@ -133,9 +133,9 @@ Všetko vo vašom zariadení tam zostáva, kým aplikáciu neodstránite.
 
 ## 8. Vaše práva
 
-Súhlas s analytikou môžete kedykoľvek bez udania dôvodu odvolať v Nastaveniach ▸ Súkromie. Nové udalosti sa okamžite zastavia, ale už odoslané údaje sa automaticky nevymažú a predplatné App Store sa nezruší.
+Súhlas s analytikou môžete kedykoľvek bez udania dôvodu odvolať v Nastaveniach ▸ Údaje a súkromie. Nové udalosti sa okamžite zastavia, ale už odoslané údaje sa automaticky nevymažú a predplatné App Store sa nezruší.
 
-Miestne tréningové údaje môžete vymazať v Nastaveniach ▸ Údaje ▸ *Vymazať miestne tréningové údaje* alebo odstránením aplikácie. Predplatné spravujete a rušíte samostatne vo svojom účte Apple.
+Miestne tréningové údaje môžete vymazať v Nastaveniach ▸ Údaje a súkromie ▸ *Odstrániť miestne tréningové údaje* alebo odstránením aplikácie. Predplatné spravujete a rušíte samostatne vo svojom účte Apple.
 
 V súvislosti s údajmi už odoslanými službe PostHog napíšte na **dylan.schmid538@gmail.com**. Ranked nespája náhodný analytický identifikátor s účtom. Približný dátum alebo model zariadenia nemusí stačiť na spoľahlivé nájdenie profilu. Vysvetlíme, čo možno identifikovať, a vybavíme overiteľné žiadosti o prístup, opravu alebo vymazanie. Neposielajte prihlasovacie údaje účtu Apple.
 

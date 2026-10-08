@@ -57,7 +57,7 @@ nous ne l'avons jamais eu.
 
 ### 3.1 Statistiques d'utilisation (PostHog)
 
-L'analyse est désactivée par défaut. Seulement si vous l'acceptez expressément pendant la configuration ou ensuite dans Réglages, Ranked envoie à PostHog dans l'UE des événements concernant la configuration, l'évaluation initiale, le rang et les paliers (avec la compétence et le palier), l'écran d'achat, les achats et les écrans ouverts. Les événements de séance en direct indiquent le début, la fin ou l'abandon, le nombre de secondes écoulées, de séries enregistrées et de compétences distinctes, ainsi que s'il s'agit de la première séance terminée. Ils ne contiennent ni exercice individuel, ni répétition, ni charge, ni note. L'âge, le sexe, la taille et le poids ne sont pas transmis. PostHog reçoit aussi les informations techniques habituelles sur l'appareil, iOS, l'application et la langue, ainsi que l'adresse IP, qui peut révéler une localisation approximative. Un identifiant aléatoire est créé après votre consentement. Vous pouvez le retirer dans Réglages ▸ Confidentialité : les nouveaux envois cessent, mais les données déjà envoyées ne sont pas automatiquement effacées.
+L'analyse est désactivée par défaut. Seulement si vous l'acceptez expressément pendant la configuration ou ensuite dans Réglages, Ranked envoie à PostHog dans l'UE des événements concernant la configuration, l'évaluation initiale, le rang et les paliers (avec la compétence et le palier), l'écran d'achat, les achats et les écrans ouverts. Les événements de séance en direct indiquent le début, la fin ou l'abandon, le nombre de secondes écoulées, de séries enregistrées et de compétences distinctes, ainsi que s'il s'agit de la première séance terminée. Ils ne contiennent ni exercice individuel, ni répétition, ni charge, ni note. L'âge, le sexe, la taille et le poids ne sont pas transmis. PostHog reçoit aussi les informations techniques habituelles sur l'appareil, iOS, l'application et la langue, ainsi que l'adresse IP, qui peut révéler une localisation approximative. Un identifiant aléatoire est créé après votre consentement. Vous pouvez le retirer dans Réglages ▸ Données et confidentialité : les nouveaux envois cessent, mais les données déjà envoyées ne sont pas automatiquement effacées.
 
 ### 3.2 Attribution Apple Search Ads
 
@@ -101,8 +101,8 @@ même manière.
 | Quoi | Base |
 |---|---|
 | Achats et vérification de l'abonnement (§3.3) | Exécution d'un contrat |
-| Statistiques d'utilisation (§3.1) | Votre consentement, révocable à tout moment dans Réglages ▸ Confidentialité |
-| Attribution Search Ads (§3.2) | Votre consentement, révocable à tout moment dans Réglages ▸ Confidentialité |
+| Statistiques d'utilisation (§3.1) | Votre consentement, révocable à tout moment dans Réglages ▸ Données et confidentialité |
+| Attribution Search Ads (§3.2) | Votre consentement, révocable à tout moment dans Réglages ▸ Données et confidentialité |
 
 **Deux droits s'appliquent ici, pas un.** Ranked est exploitée depuis la Suisse, de sorte que la loi
 fédérale révisée sur la protection des données (**nLPD**, en vigueur depuis septembre 2023) régit ce
@@ -138,9 +138,9 @@ Tout ce qui se trouve sur votre appareil y reste jusqu'à ce que vous supprimiez
 
 ## 8. Vos droits
 
-Vous pouvez retirer à tout moment votre consentement à l'analyse dans Réglages ▸ Confidentialité, sans justification. Cela arrête immédiatement les nouveaux événements, sans effacer automatiquement les données déjà envoyées ni résilier votre abonnement App Store.
+Vous pouvez retirer à tout moment votre consentement à l'analyse dans Réglages ▸ Données et confidentialité, sans justification. Cela arrête immédiatement les nouveaux événements, sans effacer automatiquement les données déjà envoyées ni résilier votre abonnement App Store.
 
-Vous pouvez supprimer vos données d'entraînement locales dans Réglages ▸ Données ▸ *Supprimer les données d'entraînement locales*, ou en supprimant l'application. Votre abonnement se gère et se résilie séparément avec votre compte Apple.
+Vous pouvez supprimer vos données d'entraînement locales dans Réglages ▸ Données et confidentialité ▸ *Supprimer les données d’entraînement locales*, ou en supprimant l'application. Votre abonnement se gère et se résilie séparément avec votre compte Apple.
 
 Pour les données déjà envoyées à PostHog, écrivez à **dylan.schmid538@gmail.com**. Ranked ne relie pas l'identifiant d'analyse aléatoire à un compte. Une date approximative ou un modèle d'appareil peut ne pas suffire pour retrouver votre profil de manière fiable. Nous expliquerons ce que nous pouvons identifier et traiterons toute demande vérifiable d'accès, de rectification ou d'effacement. Ne nous envoyez pas les identifiants de votre compte Apple.
 

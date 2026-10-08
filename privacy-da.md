@@ -47,7 +47,7 @@ Når du sletter appen, slettes alt dette fra enheden. Vi kan ikke genskabe det, 
 
 ### 3.1 Brugsstatistik (PostHog)
 
-Analyse er som standard slået fra. Først når du udtrykkeligt giver samtykke under opsætningen eller senere i Indstillinger, sender Ranked til PostHog i EU hændelser om opsætning, første vurdering, ændringer i rang og trin (med færdighed og trin), købsskærm, køb og åbnede skærme. Hændelser fra live træning angiver start, afslutning eller afbrydelse, forløbne sekunder, antal registrerede sæt, antal forskellige færdigheder og om det var den første afsluttede træning. De indeholder ikke enkelte øvelser, gentagelser, vægte eller noter. Alder, køn, højde og kropsvægt sendes ikke. PostHog modtager også almindelige tekniske oplysninger om enhed, iOS, app og sprog samt IP-adressen, hvorfra en omtrentlig placering kan udledes. Et tilfældigt analyse-id oprettes efter dit samtykke. Du kan trække det tilbage under Indstillinger ▸ Privatliv; nye hændelser stopper, mens allerede sendte data ikke slettes automatisk.
+Analyse er som standard slået fra. Først når du udtrykkeligt giver samtykke under opsætningen eller senere i Indstillinger, sender Ranked til PostHog i EU hændelser om opsætning, første vurdering, ændringer i rang og trin (med færdighed og trin), købsskærm, køb og åbnede skærme. Hændelser fra live træning angiver start, afslutning eller afbrydelse, forløbne sekunder, antal registrerede sæt, antal forskellige færdigheder og om det var den første afsluttede træning. De indeholder ikke enkelte øvelser, gentagelser, vægte eller noter. Alder, køn, højde og kropsvægt sendes ikke. PostHog modtager også almindelige tekniske oplysninger om enhed, iOS, app og sprog samt IP-adressen, hvorfra en omtrentlig placering kan udledes. Et tilfældigt analyse-id oprettes efter dit samtykke. Du kan trække det tilbage under Indstillinger ▸ Data og anonymitet; nye hændelser stopper, mens allerede sendte data ikke slettes automatisk.
 
 ### 3.2 Tilskrivning af Apple Search Ads
 
@@ -78,8 +78,8 @@ Når du trykker på **Gendan køb**, beder appen Apple om de køb, der er foreta
 | Behandling | Grundlag |
 |---|---|
 | Køb og kontrol af abonnement (§3.3) | Opfyldelse af en kontrakt |
-| Brugsstatistik (§3.1) | Dit samtykke; kan til enhver tid trækkes tilbage i Indstillinger ▸ Privatliv |
-| Tilskrivning af Search Ads (§3.2) | Dit samtykke; kan til enhver tid trækkes tilbage i Indstillinger ▸ Privatliv |
+| Brugsstatistik (§3.1) | Dit samtykke; kan til enhver tid trækkes tilbage i Indstillinger ▸ Data og anonymitet |
+| Tilskrivning af Search Ads (§3.2) | Dit samtykke; kan til enhver tid trækkes tilbage i Indstillinger ▸ Data og anonymitet |
 
 **To love gælder her, ikke kun én.** Ranked drives fra Schweiz, så den reviderede schweiziske føderale databeskyttelseslov (**revDSG**, i kraft siden september 2023) regulerer behandlingen. **GDPR** gælder derudover, hvor appen bruges fra Den Europæiske Union eller Storbritannien. Hvis reglerne er forskellige, følger vi den strengere. Personer bosat i Schweiz har de samme grundlæggende rettigheder som i §8 efter artikel 25 ff. i revDSG.
 
@@ -105,9 +105,9 @@ Alt på din enhed bliver der, indtil du sletter appen.
 
 ## 8. Dine rettigheder
 
-Du kan til enhver tid trække dit samtykke til analyse tilbage i Indstillinger ▸ Privatliv uden begrundelse. Det stopper straks nye hændelser, men sletter ikke automatisk allerede sendte data og opsiger ikke dit App Store-abonnement.
+Du kan til enhver tid trække dit samtykke til analyse tilbage i Indstillinger ▸ Data og anonymitet uden begrundelse. Det stopper straks nye hændelser, men sletter ikke automatisk allerede sendte data og opsiger ikke dit App Store-abonnement.
 
-Du kan slette lokale træningsdata under Indstillinger ▸ Data ▸ *Slet lokale træningsdata* eller ved at slette appen. Abonnementet administreres og opsiges særskilt i din Apple-konto.
+Du kan slette lokale træningsdata under Indstillinger ▸ Data og anonymitet ▸ *Slet lokale træningsdata* eller ved at slette appen. Abonnementet administreres og opsiges særskilt i din Apple-konto.
 
 For data, der allerede er sendt til PostHog, kan du skrive til **dylan.schmid538@gmail.com**. Ranked knytter ikke det tilfældige analyse-id til en konto. En omtrentlig dato eller enhedsmodel er muligvis ikke nok til sikkert at finde din profil. Vi forklarer, hvad vi kan identificere, og behandler verificerbare anmodninger om indsigt, rettelse eller sletning. Send ikke oplysningerne til din Apple-konto.
 

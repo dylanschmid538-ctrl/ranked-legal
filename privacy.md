@@ -85,7 +85,7 @@ stores it on your device. All events are grouped under that identifier. The app 
 PostHog who you are, and there is nothing — no account, no email — it could tell.
 
 **Your choice:** Analytics is off by default. During setup, before the purchase screen, you can
-choose whether to share usage data. You can later change this in Settings ▸ Privacy ▸ *Share usage
+choose whether to share usage data. You can later change this in Settings ▸ Data & privacy ▸ *Share usage
 data*. Switching it off stops new events and closes the analytics connection. The choice is stored
 on your device and survives app updates; withdrawal does not automatically erase events already sent.
 
@@ -177,9 +177,9 @@ Everything on your device stays there until you delete the app.
 
 You can, at any time:
 
-- **Withdraw analytics consent** in Settings ▸ Privacy. This stops new analytics events immediately
+- **Withdraw analytics consent** in Settings ▸ Data & privacy. This stops new analytics events immediately
   without requiring a reason. It does not cancel your subscription or erase events already sent.
-- **Delete local training data** in Settings ▸ Data ▸ *Delete local training data*, or delete the
+- **Delete local training data** in Settings ▸ Data & privacy ▸ *Delete local training data*, or delete the
   app. This removes the app's local records; it does not cancel your App Store subscription.
 - **Ask us about data already sent to PostHog.** Because Ranked has no account linked to its
   random analytics identifier, an approximate date or device model alone may not let us identify
