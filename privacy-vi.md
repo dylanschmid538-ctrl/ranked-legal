@@ -7,9 +7,9 @@ permalink: /privacy/vi/
 
 # Chính sách quyền riêng tư · Calisthenics Skills – Ranked
 
-**Cập nhật lần cuối: 2026-10-02**
+**Cập nhật lần cuối: 2026-10-08**
 
-Chính sách này mô tả Ranked thu thập dữ liệu gì, dữ liệu được gửi đến đâu và bạn có thể làm gì. Nội dung được viết dựa trên mã thực tế của ứng dụng, không theo mẫu; nếu có điều gì không đúng, cần kiểm tra mã ứng dụng.
+Chính sách này mô tả Ranked thu thập dữ liệu gì, dữ liệu được gửi đến đâu và bạn có thể làm gì.
 
 Ranked do **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Thụy Sĩ** vận hành; liên hệ **dylan.schmid538@gmail.com**. Bà là bên kiểm soát việc xử lý dữ liệu được mô tả ở đây.
 
@@ -47,28 +47,11 @@ Xóa ứng dụng sẽ xóa toàn bộ dữ liệu này khỏi thiết bị. Ch�
 
 ### 3.1 Thống kê sử dụng (PostHog)
 
-Chúng tôi sử dụng **PostHog**, được lưu trữ tại **Liên minh Châu Âu**, để hiểu cách ứng dụng được sử dụng. Ứng dụng gửi một danh sách sự kiện cố định:
-
-- bạn đã đến, hoàn tất hoặc quay lại từ bước thiết lập nào, cùng thời gian thực hiện từng bước;
-- kết quả đánh giá ban đầu: số nhánh kỹ năng và giai đoạn bạn đánh dấu đã đạt, kỹ năng bạn chọn làm mục tiêu, thứ hạng ban đầu và thứ hạng của từng vùng trong sáu vùng cơ thể;
-- thời điểm màn hình mua hàng được hiển thị hoặc đóng và thời điểm giao dịch mua được bắt đầu, hoàn tất hoặc khôi phục, cùng sản phẩm và ưu đãi liên quan; thời điểm sau đó ứng dụng nhận thấy một giai đoạn dùng thử hoặc đăng ký trả phí đang hoạt động, cùng sản phẩm và thông tin đây có phải giao dịch thử nghiệm hay không (đây không phải bản ghi của mọi lần thu phí và không được gửi khi ứng dụng đóng);
-- thời điểm thứ hạng của bạn thay đổi và kỹ năng gây ra thay đổi đó;
-- thời điểm bạn hoàn thành một giai đoạn: kỹ năng và giai đoạn nào, và kết quả đó đến từ một hiệp đã ghi, một buổi tập được bổ sung sau hoặc một xác nhận thủ công;
-- những màn hình bạn mở và thời điểm kết thúc buổi tập. Sự kiện kết thúc buổi tập không có chi tiết: không có bài tập, hiệp tập hay con số.
-
-Phần mềm PostHog trong ứng dụng cũng gắn thông tin kỹ thuật tiêu chuẩn vào từng sự kiện, chẳng hạn kiểu máy, phiên bản iOS, phiên bản ứng dụng, ngôn ngữ và múi giờ, đồng thời ghi nhận khi ứng dụng mở hoặc chuyển sang nền. Như mọi dịch vụ internet, PostHog nhận địa chỉ IP của yêu cầu; từ đó có thể suy ra vị trí gần đúng (quốc gia hoặc thành phố).
-
-**Những gì không có trong đó:** tên, địa chỉ email (ứng dụng không bao giờ hỏi), mã định danh tài khoản (không có tài khoản), tuổi, giới tính, chiều cao, cân nặng hay nội dung các buổi tập của bạn.
-
-**Cách nhận diện:** PostHog tạo một mã định danh ngẫu nhiên khi ứng dụng chạy lần đầu và lưu trên thiết bị. Tất cả sự kiện được nhóm theo mã này. Ứng dụng không bao giờ cho PostHog biết bạn là ai, và cũng không có tài khoản hay email để cung cấp.
-
-**Cách tắt:** Cài đặt ▸ Quyền riêng tư ▸ *Chia sẻ dữ liệu sử dụng ẩn danh*. Khi tắt, ứng dụng ngừng gửi sự kiện kể từ thời điểm đó. Cài đặt được lưu trên thiết bị và vẫn giữ nguyên sau khi cập nhật ứng dụng.
+Phân tích được tắt theo mặc định. Chỉ khi bạn đồng ý rõ ràng lúc thiết lập hoặc sau đó trong Cài đặt, Ranked mới gửi đến PostHog đặt tại EU các sự kiện về thiết lập, đánh giá ban đầu, thay đổi hạng và giai đoạn (kèm kỹ năng và giai đoạn), màn hình mua, giao dịch mua và màn hình đã mở. Sự kiện buổi tập trực tiếp gồm bắt đầu, hoàn thành hoặc bỏ dở, số giây đã trôi qua, số hiệp đã ghi, số kỹ năng khác nhau và liệu đó có phải buổi tập hoàn thành đầu tiên không. Chúng không gồm từng bài tập, số lần lặp, mức tạ hoặc ghi chú. Tuổi, giới tính, chiều cao và cân nặng không được gửi. PostHog còn nhận thông tin kỹ thuật thông thường về thiết bị, iOS, ứng dụng và ngôn ngữ, cùng địa chỉ IP có thể cho biết vị trí gần đúng. Mã phân tích ngẫu nhiên chỉ được tạo sau khi bạn đồng ý. Bạn có thể rút lại sự đồng ý trong Cài đặt ▸ Quyền riêng tư; sự kiện mới sẽ dừng, nhưng dữ liệu đã gửi không tự động bị xóa.
 
 ### 3.2 Phân bổ nguồn từ Apple Search Ads
 
-Nếu bạn cài Ranked sau khi nhấn một quảng cáo Apple Search Ads, khi khởi chạy lần đầu ứng dụng sẽ hỏi Apple một lần về nguồn cài đặt. Apple trả về chiến dịch, nhóm quảng cáo, từ khóa và bộ nội dung sáng tạo của quảng cáo đó, quốc gia hoặc khu vực và ngày nhấn, cùng thông tin đây là lần tải mới hay tải lại. Ứng dụng gắn các giá trị này với mã PostHog ẩn danh mô tả ở §3.1 để các sự kiện sau đó có thể được nhóm theo quảng cáo đã đưa bạn đến ứng dụng.
-
-Việc này dùng bộ công cụ **AdServices** của Apple, không sử dụng mã định danh quảng cáo (IDFA) và Apple không coi đó là theo dõi; vì vậy không có hộp thoại xin phép theo dõi. Nếu bạn không đến từ quảng cáo, Apple cho biết điều đó và không có dữ liệu nào khác được gắn vào. Tắt thống kê sử dụng (§3.1) cũng dừng hoạt động này.
+Chỉ sau khi bạn đồng ý phân tích, Ranked mới hỏi Apple AdServices một lần xem lượt cài đặt có đến từ Apple Search Ads không. Nếu bạn nhấn vào quảng cáo, chiến dịch, nhóm quảng cáo, từ khóa, mẫu quảng cáo, quốc gia hoặc vùng, ngày nhấn và loại tải xuống có thể được gắn với mã PostHog ngẫu nhiên. Không dùng mã quảng cáo IDFA. Rút lại sự đồng ý sẽ dừng việc gửi trong tương lai.
 
 ### 3.3 Mua hàng (Apple và RevenueCat)
 
@@ -95,8 +78,8 @@ Khi bạn nhấn **Khôi phục giao dịch mua**, ứng dụng hỏi Apple về
 | Hoạt động xử lý | Cơ sở |
 |---|---|
 | Mua hàng và xác minh gói đăng ký (§3.3) | Thực hiện hợp đồng |
-| Thống kê sử dụng (§3.1) | Lợi ích chính đáng trong việc hiểu và cải thiện ứng dụng; bạn có thể phản đối bất kỳ lúc nào bằng cách tắt, xem §8 |
-| Phân bổ Search Ads (§3.2) | Lợi ích chính đáng trong việc biết quảng cáo nào hiệu quả; cách phản đối như trên |
+| Thống kê sử dụng (§3.1) | Sự đồng ý của bạn; có thể rút lại bất cứ lúc nào trong Cài đặt ▸ Quyền riêng tư |
+| Phân bổ Search Ads (§3.2) | Sự đồng ý của bạn; có thể rút lại bất cứ lúc nào trong Cài đặt ▸ Quyền riêng tư |
 
 **Ở đây áp dụng hai luật, không phải một.** Ranked được vận hành từ Thụy Sĩ, vì vậy Đạo luật Liên bang Thụy Sĩ về Bảo vệ Dữ liệu đã sửa đổi (**revDSG**, có hiệu lực từ tháng 9 năm 2023) điều chỉnh việc xử lý này. **GDPR** cũng áp dụng khi ứng dụng được dùng từ Liên minh Châu Âu hoặc Vương quốc Anh. Khi hai luật khác nhau, chúng tôi tuân theo quy định nghiêm ngặt hơn. Cư dân Thụy Sĩ có các quyền cốt lõi tương tự được nêu ở §8 theo Điều 25 và các điều tiếp theo của revDSG.
 
@@ -122,15 +105,13 @@ Mọi thứ trên thiết bị vẫn ở đó cho đến khi bạn xóa ứng d�
 
 ## 8. Quyền của bạn
 
-Bạn có thể, bất kỳ lúc nào:
+Bạn có thể rút lại sự đồng ý phân tích bất cứ lúc nào trong Cài đặt ▸ Quyền riêng tư mà không cần nêu lý do. Sự kiện mới dừng ngay, nhưng dữ liệu đã gửi không tự động bị xóa và gói đăng ký App Store không bị hủy.
 
-- **Tắt thống kê sử dụng** trong Cài đặt ▸ Quyền riêng tư. Đây là quyền phản đối của bạn và, khi việc xử lý dựa trên sự đồng ý, quyền rút lại sự đồng ý; thay đổi có hiệu lực ngay và không cần nêu lý do.
-- **Xóa dữ liệu của mình.** Vì Ranked không giữ thông tin về bạn trên máy chủ, việc xóa ứng dụng sẽ xóa tất cả những gì ứng dụng tự lưu.
-- **Yêu cầu chúng tôi xóa hồ sơ phân tích ẩn danh.** Chúng tôi không thể tìm theo tên vì hồ sơ không có tên; nếu bạn gửi ngày gần đúng khi lần đầu dùng ứng dụng và thiết bị đã dùng, chúng tôi sẽ tìm thủ công và xóa.
-- **Yêu cầu bản sao** dữ liệu mà dịch vụ lưu dưới mã định danh của bạn, yêu cầu **sửa** hoặc **hạn chế** xử lý trong khi yêu cầu đang được xem xét.
-- **Khiếu nại đến cơ quan giám sát** tại quốc gia của bạn; ở Thụy Sĩ là Ủy viên Liên bang về Bảo vệ Dữ liệu và Thông tin (FDPIC).
+Bạn có thể xóa dữ liệu tập luyện trên thiết bị trong Cài đặt ▸ Dữ liệu ▸ *Xóa dữ liệu tập luyện trên thiết bị* hoặc bằng cách xóa ứng dụng. Gói đăng ký được quản lý và hủy riêng trong Tài khoản Apple.
 
-Hãy viết thư tới **dylan.schmid538@gmail.com** để thực hiện các quyền này.
+Về dữ liệu đã gửi cho PostHog, hãy viết đến **dylan.schmid538@gmail.com**. Ranked không liên kết mã phân tích ngẫu nhiên với tài khoản. Ngày gần đúng hoặc mẫu thiết bị có thể không đủ để tìm hồ sơ một cách đáng tin cậy. Chúng tôi sẽ giải thích thông tin có thể xác định và xử lý các yêu cầu truy cập, sửa hoặc xóa có thể xác minh. Đừng gửi thông tin đăng nhập Tài khoản Apple.
+
+Bạn có thể yêu cầu hạn chế xử lý và khiếu nại với cơ quan giám sát tại quốc gia mình; ở Thụy Sĩ là Ủy viên Liên bang về Bảo vệ Dữ liệu và Thông tin (FDPIC).
 
 ---
 
@@ -145,5 +126,3 @@ Ranked dành cho người **từ 16 tuổi trở lên**. Ứng dụng hỏi tu�
 Phiên bản đăng tại địa chỉ này là phiên bản hiện hành; ngày ở đầu trang cho biết lần thay đổi gần nhất. Các phiên bản trước vẫn hiển thị trong lịch sử công khai của kho lưu trữ dùng để xuất bản những trang này để bạn xem điều gì đã thay đổi và khi nào.
 
 ---
-
-> **⚠️ Không phải tư vấn pháp lý.** Tài liệu này do kỹ sư soạn từ mã nguồn ứng dụng, không phải luật sư. Tài liệu mô tả chính xác hệ thống vào ngày nêu trên; mỗi khẳng định đã được đối chiếu với dữ liệu ứng dụng thực sự gửi. Tài liệu **chưa** được thẩm định về tuân thủ GDPR, revDSG của Thụy Sĩ, CCPA hay bất kỳ chế độ pháp luật nào khác. Việc xuất bản đáp ứng yêu cầu của Apple nhưng không tự làm cho bạn tuân thủ luật. Hãy nhờ luật sư xem xét khi ứng dụng bắt đầu có doanh thu.

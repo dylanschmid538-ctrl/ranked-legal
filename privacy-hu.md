@@ -7,9 +7,9 @@ permalink: /privacy/hu/
 
 # Adatvédelmi tájékoztató · Calisthenics Skills – Ranked
 
-**Utolsó frissítés: 2026-10-02**
+**Utolsó frissítés: 2026-10-08**
 
-Ez a tájékoztató ismerteti, milyen adatokat gyűjt a Ranked, hová kerülnek, és milyen lehetőségei vannak velük kapcsolatban. A tényleges alkalmazáskód alapján készült, nem sablonból; ha valamely állítás pontatlan, a kódot kell ellenőrizni.
+Ez a tájékoztató ismerteti, milyen adatokat gyűjt a Ranked, hová kerülnek, és milyen lehetőségei vannak velük kapcsolatban.
 
 A Ranked üzemeltetője és az itt leírt adatkezelés adatkezelője **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Svájc**. Kapcsolat: **dylan.schmid538@gmail.com**.
 
@@ -47,28 +47,11 @@ Az alkalmazás törlése ezeket az adatokat is törli az eszközről. Nem tudjuk
 
 ### 3.1 Használati statisztikák (PostHog)
 
-Az alkalmazás használatának megértéséhez az **Európai Unióban** üzemeltetett **PostHog** szolgáltatást használjuk. Az alkalmazás a következő rögzített eseménylistát küldi el neki:
-
-- melyik beállítási lépéshez jutott el, melyiket fejezte be, illetve melyikről lépett vissza, és mennyi ideig tartott mindegyik;
-- a kezdeti felmérés eredménye: hány készségvonalat és szintet jelölt meg, melyik készséget választotta célul, a kezdő rangja és a hat testrégiója rangja;
-- mikor jelent meg vagy zárult be a vásárlási képernyő, és mikor indult, fejeződött be vagy állt helyre egy vásárlás, az érintett termékkel és ajánlattal; amikor az alkalmazás később aktív próbaidőszakot vagy fizetős előfizetési időszakot észlel, a termékkel és annak jelzésével, hogy tesztkörnyezetbeli vásárlásról van-e szó (ez nem minden terhelés nyilvántartása, és az alkalmazás bezárt állapotában nem kerül elküldésre);
-- mikor változott a rangja, és melyik készség váltotta ezt ki;
-- mikor teljesített egy szintet: melyik készséget és szintet, valamint hogy ez rögzített sorozatból, utólag felvitt edzésből vagy kézi megjelölésből származott-e;
-- mely képernyőket nyitja meg, és mikor ér véget egy edzés. Az edzés végét jelző esemény nem tartalmaz részleteket: sem gyakorlatokat, sem sorozatokat, sem számokat.
-
-Az alkalmazásba épített PostHog szoftver minden eseményhez szokásos műszaki adatokat is csatol, például az eszköz modelljét, az iOS és az alkalmazás verzióját, a nyelvet és az időzónát. Rögzíti az alkalmazás megnyitását és háttérbe helyezését is. Mint minden internetes szolgáltatás, a PostHog megkapja a kérés IP-címét, amelyből hozzávetőleges helyet (országot vagy várost) állapíthat meg.
-
-**Amit nem tartalmaz:** nevet, e-mail-címet (az alkalmazás nem kér ilyet), fiókazonosítót (nincs fiók), életkort, nemet, magasságot, testsúlyt vagy az edzések tartalmát.
-
-**Azonosítás módja:** A PostHog az alkalmazás első indításakor véletlenszerű azonosítót hoz létre, és az eszközön tárolja. Az események ezen azonosító alatt csoportosulnak. Az alkalmazás soha nem közli a PostHoggal, hogy Ön kicsoda; nincs fiók vagy e-mail-cím, amelyet közölhetne.
-
-**Kikapcsolás:** Beállítások ▸ Adatvédelem ▸ *Névtelen használati adatok megosztása*. A kikapcsolás attól a pillanattól megakadályozza az események küldését. A beállítás az eszközön tárolódik, és az alkalmazás frissítése után is megmarad.
+Az elemzés alapértelmezés szerint ki van kapcsolva. A Ranked csak akkor küld az EU-ban működő PostHognak eseményeket, ha a beállítás során vagy később a Beállításokban kifejezetten hozzájárul: a beállításról, kezdeti felmérésről, rang- és szintváltozásokról (a készséggel és szinttel), fizetési képernyőről, vásárlásokról és megnyitott képernyőkről. Az élő edzés eseményei tartalmazzák a kezdést, befejezést vagy megszakítást, az eltelt másodperceket, a rögzített sorozatok és különböző készségek számát, valamint hogy ez volt-e az első befejezett edzés. Nem tartalmaznak egyedi gyakorlatokat, ismétléseket, súlyokat vagy jegyzeteket. Az életkor, nem, magasság és testsúly nem kerül elküldésre. A PostHog szokásos technikai adatokat is kap az eszközről, iOS-ről, alkalmazásról és nyelvről, valamint az IP-címet, amelyből hozzávetőleges hely becsülhető. Véletlenszerű elemzési azonosító csak a hozzájárulás után jön létre. A hozzájárulás a Beállítások ▸ Adatvédelem alatt visszavonható; az új események leállnak, a korábban elküldött adatok nem törlődnek automatikusan.
 
 ### 3.2 Apple Search Ads-hozzárendelés
 
-Ha a Ranked alkalmazást egy Apple Search Ads-hirdetésre koppintva telepítette, az alkalmazás az első indításkor egyszer megkérdezi az Apple-től a telepítés forrását. Az Apple megadja a hirdetés kampányát, hirdetéscsoportját, kulcsszavát és kreatív anyagát, a kattintás országát vagy régióját és dátumát, valamint azt, hogy új vagy ismételt letöltés történt-e. Az alkalmazás ezeket az értékeket a §3.1-ben leírt névtelen PostHog-azonosítóhoz kapcsolja, hogy a későbbi események a megfelelő hirdetéshez rendelhetők legyenek.
-
-Ehhez az Apple **AdServices** keretrendszerét használja, amely nem alkalmaz hirdetési azonosítót (IDFA), és amelyet az Apple nem tekint követésnek, ezért nem jelenik meg követési engedélykérés. Ha nem hirdetésen keresztül érkezett, az Apple ezt jelzi, és semmi nem kapcsolódik az azonosítóhoz. A használati statisztikák kikapcsolása (§3.1) ezt is leállítja.
+Csak az elemzéshez adott hozzájárulás után kérdezi le a Ranked egyszer az Apple AdServices rendszerétől, hogy a telepítés Apple Search Ads hirdetésből származott-e. Hirdetésre kattintás után a kampány, hirdetéscsoport, kulcsszó, kreatív anyag, ország vagy régió, kattintási dátum és letöltéstípus a véletlenszerű PostHog-azonosítóhoz kapcsolható. Az IDFA hirdetési azonosítót nem használjuk. A hozzájárulás visszavonása leállítja a jövőbeli továbbítást.
 
 ### 3.3 Vásárlások (Apple és RevenueCat)
 
@@ -95,8 +78,8 @@ Ha a **Vásárlások visszaállítása** lehetőségre koppint, az alkalmazás l
 | Adatkezelés | Jogalap |
 |---|---|
 | Vásárlások és előfizetés-ellenőrzés (§3.3) | Szerződés teljesítése |
-| Használati statisztikák (§3.1) | Az alkalmazás megértéséhez és fejlesztéséhez fűződő jogos érdek; a kikapcsolással bármikor tiltakozhat, lásd §8 |
-| Search Ads-hozzárendelés (§3.2) | Annak megismeréséhez fűződő jogos érdek, hogy mely hirdetés működik; tiltakozás a fentiek szerint |
+| Használati statisztikák (§3.1) | Az Ön hozzájárulása; bármikor visszavonható a Beállítások ▸ Adatvédelem alatt |
+| Search Ads-hozzárendelés (§3.2) | Az Ön hozzájárulása; bármikor visszavonható a Beállítások ▸ Adatvédelem alatt |
 
 **Itt két jogszabályrendszer alkalmazandó, nem csak egy.** A Rankedet Svájcból üzemeltetik, ezért az adatkezelést a felülvizsgált svájci szövetségi adatvédelmi törvény (**revDSG**, 2023 szeptembere óta hatályos) szabályozza. A **GDPR** emellett akkor is alkalmazandó, ha az alkalmazást az Európai Unióból vagy az Egyesült Királyságból használják. Eltérés esetén a szigorúbb szabályt követjük. A svájci lakosokat a revDSG 25. és következő cikke alapján ugyanazok a §8-ban felsorolt alapvető jogok illetik meg.
 
@@ -122,15 +105,13 @@ Az eszközén tárolt adatok az alkalmazás törléséig maradnak ott.
 
 ## 8. Az Ön jogai
 
-Bármikor jogosult:
+Az elemzéshez adott hozzájárulást bármikor, indoklás nélkül visszavonhatja a Beállítások ▸ Adatvédelem alatt. Az új események azonnal leállnak, de a már elküldött adatok nem törlődnek automatikusan, és az App Store-előfizetés nem szűnik meg.
 
-- **Kikapcsolni a használati statisztikákat** a Beállítások ▸ Adatvédelem menüben. Ez tiltakozási joga, és ahol az adatkezelés hozzájáruláson alapul, a hozzájárulás visszavonása; azonnal hatályos, indokolás nélkül.
-- **Törölni adatait.** Mivel a Ranked nem tárol Önről adatot szerveren, az alkalmazás törlése minden általa tárolt adatot eltávolít.
-- **Kérni névtelen elemzési profilja törlését.** Név alapján nem tudjuk megtalálni, mert nincs neve, de ha megírja az első használat hozzávetőleges dátumát és a használt eszközt, kézzel megkeressük és töröljük.
-- **Másolatot kérni** a szolgáltató által az azonosítója alatt tárolt adatokról, kérni azok **helyesbítését**, vagy kérni az adatkezelés **korlátozását** a kérelem vizsgálata alatt.
-- **Panaszt tenni az országa felügyeleti hatóságánál**; Svájcban ez a szövetségi adatvédelmi és információs biztos (FDPIC).
+A helyi edzésadatokat a Beállítások ▸ Adatok ▸ *Helyi edzésadatok törlése* pontban vagy az alkalmazás törlésével távolíthatja el. Az előfizetést külön az Apple-fiókjában kezelheti és mondhatja le.
 
-E jogokkal kapcsolatban írjon a **dylan.schmid538@gmail.com** címre.
+A PostHognak már elküldött adatok ügyében írjon a **dylan.schmid538@gmail.com** címre. A Ranked nem kapcsolja a véletlenszerű elemzési azonosítót fiókhoz. Hozzávetőleges dátum vagy eszközmodell önmagában nem feltétlenül elegendő a profil megbízható megtalálásához. Elmagyarázzuk, mit tudunk azonosítani, és a hitelesíthető hozzáférési, helyesbítési vagy törlési kérelmeket feldolgozzuk. Ne küldje el Apple-fiókja belépési adatait.
+
+Kérheti az adatkezelés korlátozását és panaszt tehet országa felügyeleti hatóságánál; Svájcban ez a szövetségi adatvédelmi és információs biztos (FDPIC).
 
 ---
 
@@ -145,5 +126,3 @@ A Ranked **16 éves vagy idősebb** személyeknek szól. A beállítás során a
 Az ezen a címen közzétett változat az aktuális; a fenti dátum mutatja az utolsó módosítást. A korábbi változatok megtekinthetők az oldalak közzétételére használt adattár nyilvános előzményeiben, így láthatja, mi és mikor változott.
 
 ---
-
-> **⚠️ Ez nem jogi tanácsadás.** Ezt a dokumentumot mérnök készítette az alkalmazás forráskódja alapján, nem ügyvéd. A fenti dátum szerinti rendszert írja le; minden állítását ellenőriztük az alkalmazás által ténylegesen küldött adatokhoz képest. A dokumentumot **nem vizsgálták felül** a GDPR, a svájci revDSG, a CCPA vagy más szabályozás szerinti megfelelés szempontjából. A közzététel teljesíti az Apple követelményeit, de önmagában nem tesz jogszabályoknak megfelelővé. Amikor az alkalmazás bevételt termel, vizsgáltassa felül ügyvéddel.

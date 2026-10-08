@@ -7,9 +7,9 @@ permalink: /privacy/fi/
 
 # Tietosuojaseloste · Calisthenics Skills – Ranked
 
-**Päivitetty viimeksi: 2026-10-02**
+**Päivitetty viimeksi: 2026-10-08**
 
-Tässä selosteessa kerrotaan, mitä tietoja Ranked kerää, minne ne siirtyvät ja mitä voit tehdä asialle. Seloste on laadittu sovelluksen todellisen koodin pohjalta, ei mallista; jos jokin tässä on väärin, koodi on tarkistettava.
+Tässä selosteessa kerrotaan, mitä tietoja Ranked kerää, minne ne siirtyvät ja mitä voit tehdä asialle.
 
 Ranked-sovellusta ylläpitää **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Sveitsi**, yhteys **dylan.schmid538@gmail.com**. Hän on tässä kuvatun käsittelyn rekisterinpitäjä.
 
@@ -47,28 +47,11 @@ Sovelluksen poistaminen poistaa nämä tiedot laitteelta. Emme voi palauttaa nii
 
 ### 3.1 Käyttötilastot (PostHog)
 
-Käytämme **PostHogia**, jota isännöidään **Euroopan unionissa**, ymmärtääksemme sovelluksen käyttöä. Sovellus lähettää sille kiinteän luettelon tapahtumia:
-
-- mihin käyttöönoton vaiheeseen pääsit, minkä suoritit tai mistä palasit takaisin sekä kunkin vaiheen kesto;
-- aloitusarvioinnin tulos: kuinka monta taitolinjaa ja vaihetta ilmoitit hallitsevasi, minkä taidon valitsit tavoitteeksi, aloitustasosi ja kunkin kuuden kehonalueesi taso;
-- milloin ostonäkymä näytettiin tai suljettiin ja milloin osto aloitettiin, saatiin päätökseen tai palautettiin, kyseisine tuotteineen ja tarjouksineen; kun sovellus myöhemmin havaitsee aktiivisen kokeilujakson tai maksetun tilausjakson, tuotteen ja tiedon siitä, onko kyse testiyhteisön ostosta (tämä ei ole luettelo jokaisesta veloituksesta eikä sitä lähetetä sovelluksen ollessa suljettuna);
-- milloin tasosi muuttui ja mikä taito muutoksen aiheutti;
-- milloin suoritit vaiheen: mikä taito ja vaihe oli kyseessä ja perustuiko se kirjattuun sarjaan, jälkikäteen lisättyyn harjoitukseen vai manuaaliseen ilmoitukseen;
-- mitkä näkymät avaat ja milloin harjoitus päättyy. Harjoituksen päättymistapahtumassa ei ole yksityiskohtia: ei liikkeitä, sarjoja eikä lukumääriä.
-
-Sovelluksen PostHog-ohjelmisto liittää tapahtumiin myös tavanomaisia teknisiä tietoja, kuten laitteen mallin, iOS-version, sovellusversion, kielen ja aikavyöhykkeen, ja kirjaa sovelluksen avaamisen ja siirtymisen taustalle. Kuten mikä tahansa verkkopalvelu, PostHog saa pyynnön IP-osoitteen ja saattaa päätellä siitä likimääräisen sijainnin (maan tai kaupungin).
-
-**Mukana ei ole:** nimeä, sähköpostiosoitetta (sovellus ei kysy sitä), tilitunnistetta (sellaista ei ole), ikää, sukupuolta, pituutta, painoa eikä harjoitustesi sisältöä.
-
-**Tunnistaminen:** PostHog luo satunnaisen tunnisteen, kun sovellus käynnistetään ensimmäisen kerran, ja tallentaa sen laitteellesi. Kaikki tapahtumat ryhmitellään tämän tunnisteen alle. Sovellus ei koskaan kerro PostHogille, kuka olet, eikä sillä ole tiliä tai sähköpostia, jonka se voisi kertoa.
-
-**Poistaminen käytöstä:** Asetukset ▸ Tietosuoja ▸ *Jaa nimettömiä käyttötietoja*. Kun poistat asetuksen käytöstä, sovellus lakkaa lähettämästä tapahtumia siitä hetkestä alkaen. Asetus tallennetaan laitteellesi ja säilyy sovelluspäivitysten jälkeen.
+Analytiikka on oletusarvoisesti pois käytöstä. Vain jos annat siihen nimenomaisen suostumuksen käyttöönotossa tai myöhemmin asetuksissa, Ranked lähettää EU:ssa toimivalle PostHogille tapahtumia käyttöönotosta, alkuarviosta, tason ja vaiheen muutoksista (taito ja vaihe mukana), maksunäkymästä, ostoista ja avatuista näkymistä. Reaaliaikaisen harjoituksen tapahtumissa ovat aloitus, valmistuminen tai keskeytys, kuluneet sekunnit, kirjattujen sarjojen määrä, eri taitojen määrä ja tieto ensimmäisestä valmiista harjoituksesta. Niissä ei ole yksittäisiä liikkeitä, toistoja, painoja tai muistiinpanoja. Ikää, sukupuolta, pituutta ja painoa ei lähetetä. PostHog saa myös tavanomaiset laite-, iOS-, sovellus- ja kielitiedot sekä IP-osoitteen, josta voi päätellä likimääräisen sijainnin. Satunnainen analytiikkatunnus luodaan vasta suostumuksen jälkeen. Voit peruuttaa suostumuksen kohdassa Asetukset ▸ Tietosuoja; uudet tapahtumat loppuvat, mutta aiemmin lähetettyjä tietoja ei poisteta automaattisesti.
 
 ### 3.2 Apple Search Ads -mainonnan kohdistaminen
 
-Jos asensit Rankedin napautettuasi Apple Search Ads -mainosta, sovellus kysyy Applelta kerran ensimmäisellä käynnistyskerralla, mistä asennus tuli. Apple vastaa mainoksen kampanjan, mainosryhmän, hakusanan ja mainosaineiston, klikkauksen maan tai alueen ja päivämäärän sekä tiedon siitä, oliko kyse uudesta latauksesta vai uudelleenlatauksesta. Sovellus liittää nämä tiedot §3.1:ssä kuvattuun nimettömään PostHog-tunnisteeseen, jotta myöhemmät tapahtumat voidaan ryhmitellä sinut tuoneen mainoksen mukaan.
-
-Tämä käyttää Applen **AdServices**-kehystä, joka ei käytä mainostunnistetta (IDFA) ja jota Apple ei pidä seurannana; siksi seurantaluvan kyselyä ei näytetä. Jos et tullut mainoksen kautta, Apple ilmoittaa sen eikä muuta liitetä. Käyttötilastojen poistaminen käytöstä (§3.1) lopettaa myös tämän.
+Vasta analytiikkasuostumuksen jälkeen Ranked kysyy kerran Applen AdServices-palvelulta, tuliko asennus Apple Search Ads -mainoksesta. Mainoksen klikkauksen yhteydessä kampanja, mainosryhmä, hakusana, mainosaineisto, maa tai alue, klikkauspäivä ja lataustyyppi voidaan liittää satunnaiseen PostHog-tunnukseen. Mainostunnistetta IDFA ei käytetä. Suostumuksen peruminen estää tulevat lähetykset.
 
 ### 3.3 Ostot (Apple ja RevenueCat)
 
@@ -95,8 +78,8 @@ Kun napautat **Palauta ostot**, sovellus pyytää Applelta laitteelle kirjautune
 | Käsittely | Oikeusperuste |
 |---|---|
 | Ostot ja tilauksen vahvistaminen (§3.3) | Sopimuksen täytäntöönpano |
-| Käyttötilastot (§3.1) | Oikeutettu etu ymmärtää ja parantaa sovellusta; voit vastustaa milloin tahansa poistamalla tilastot käytöstä, ks. §8 |
-| Search Ads -kohdistaminen (§3.2) | Oikeutettu etu selvittää, mikä mainonta toimii; vastustaminen kuten edellä |
+| Käyttötilastot (§3.1) | Suostumuksesi; peruutettavissa milloin tahansa kohdassa Asetukset ▸ Tietosuoja |
+| Search Ads -kohdistaminen (§3.2) | Suostumuksesi; peruutettavissa milloin tahansa kohdassa Asetukset ▸ Tietosuoja |
 
 **Tässä sovelletaan kahta lakia, ei vain yhtä.** Rankedia ylläpidetään Sveitsistä, joten käsittelyä säätelee Sveitsin uudistettu liittovaltion tietosuojalaki (**revDSG**, voimassa syyskuusta 2023). **GDPR** soveltuu lisäksi, kun sovellusta käytetään Euroopan unionista tai Yhdistyneestä kuningaskunnasta. Jos säännöt eroavat, noudatamme tiukempaa. Sveitsissä asuvilla on samat §8:ssa luetellut keskeiset oikeudet revDSG:n 25 artiklasta eteenpäin.
 
@@ -122,15 +105,13 @@ Laitteesi tiedot pysyvät siellä, kunnes poistat sovelluksen.
 
 ## 8. Oikeutesi
 
-Voit milloin tahansa:
+Voit peruuttaa analytiikkasuostumuksesi milloin tahansa kohdassa Asetukset ▸ Tietosuoja ilman perustelua. Uusien tapahtumien lähetys päättyy heti, mutta jo lähetettyjä tietoja ei poisteta automaattisesti eikä App Store -tilaustasi peruuteta.
 
-- **Poistaa käyttötilastot käytöstä** kohdassa Asetukset ▸ Tietosuoja. Tämä on oikeutesi vastustaa käsittelyä ja, jos käsittely perustuu suostumukseen, peruuttaa suostumus. Muutos tulee voimaan heti eikä vaadi perustelua.
-- **Poistaa tietosi.** Koska Ranked ei säilytä sinua koskevia tietoja palvelimella, sovelluksen poistaminen poistaa kaiken, mitä sovellus itse tallentaa.
-- **Pyytää nimettömän analytiikkaprofiilisi poistamista.** Emme löydä sitä nimellä, koska sillä ei ole nimeä. Jos kirjoitat meille likimääräisen ensimmäisen käyttöpäivän ja käyttämäsi laitteen, etsimme sen käsin ja poistamme sen.
-- **Pyytää kopiota** tiedoista, joita palvelu säilyttää tunnisteellasi, pyytää meitä **oikaisemaan** niitä tai **rajoittamaan** käsittelyä pyyntöä käsiteltäessä.
-- **Tehdä valituksen valvontaviranomaiselle** omassa maassasi; Sveitsissä se on liittovaltion tietosuoja- ja tietojulkisuusvaltuutettu (FDPIC).
+Voit poistaa paikalliset harjoitustiedot kohdassa Asetukset ▸ Tiedot ▸ *Poista paikalliset harjoitustiedot* tai poistamalla sovelluksen. Tilaus hallinnoidaan ja perutaan erikseen Apple-tililläsi.
 
-Kirjoita näissä asioissa osoitteeseen **dylan.schmid538@gmail.com**.
+Jos asia koskee PostHogille jo lähetettyjä tietoja, kirjoita osoitteeseen **dylan.schmid538@gmail.com**. Ranked ei yhdistä satunnaista analytiikkatunnusta käyttäjätiliin. Likimääräinen päivämäärä tai laitemalli ei välttämättä riitä löytämään profiilia luotettavasti. Kerromme, mitä tietoja voimme tunnistaa, ja käsittelemme todennettavat tarkastus-, oikaisu- ja poistopyynnöt. Älä lähetä Apple-tilisi tunnuksia.
+
+Voit pyytää käsittelyn rajoittamista ja tehdä valituksen maasi valvontaviranomaiselle; Sveitsissä se on liittovaltion tietosuoja- ja avoimuusvaltuutettu (FDPIC).
 
 ---
 
@@ -145,5 +126,3 @@ Ranked on tarkoitettu **vähintään 16-vuotiaille**. Sovellus kysyy ikää käy
 Tässä osoitteessa julkaistu versio on ajantasainen, ja yläreunan päivämäärä kertoo viimeisimmän muutoksen. Aiemmat versiot näkyvät edelleen näiden sivujen julkaisurepositorion julkisessa historiassa, joten voit nähdä, mitä muuttui ja milloin.
 
 ---
-
-> **⚠️ Ei oikeudellista neuvontaa.** Tämän asiakirjan on laatinut insinööri sovelluksen lähdekoodin perusteella, ei juristi. Se kuvaa järjestelmän täsmällisesti yllä mainittuna päivänä; jokainen väite on tarkistettu suhteessa siihen, mitä sovellus todella lähettää. Sitä **ei ole** tarkistettu GDPR:n, Sveitsin revDSG:n, CCPA:n tai muun sääntelyn noudattamisen osalta. Julkaiseminen täyttää Applen vaatimuksen; se ei yksin tarkoita lainmukaisuutta. Anna juristin lukea se, kun sovellus alkaa tuottaa rahaa.

@@ -7,9 +7,9 @@ permalink: /privacy/cs/
 
 # Zásady ochrany osobních údajů · Calisthenics Skills – Ranked
 
-**Poslední aktualizace: 2026-10-02**
+**Poslední aktualizace: 2026-10-08**
 
-Tyto zásady popisují, jaké údaje Ranked shromažďuje, kam putují a jaké možnosti v souvislosti s nimi máte. Vycházejí ze skutečného kódu aplikace, nikoli ze šablony; pokud je zde něco nepřesné, je třeba ověřit kód.
+Tyto zásady popisují, jaké údaje Ranked shromažďuje, kam putují a jaké možnosti v souvislosti s nimi máte.
 
 Ranked provozuje **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švýcarsko**, kontakt **dylan.schmid538@gmail.com**. Je správcem osobních údajů popsaných v těchto zásadách.
 
@@ -47,28 +47,11 @@ Odstranění aplikace tyto údaje ze zařízení smaže. Nemůžeme je obnovit, 
 
 ### 3.1 Statistiky používání (PostHog)
 
-Pro pochopení způsobu používání aplikace využíváme **PostHog** hostovaný v **Evropské unii**. Aplikace mu odesílá pevně stanovený seznam událostí:
-
-- ke kterému kroku nastavení jste došli, který jste dokončili nebo ze kterého jste se vrátili, a jak dlouho každý krok trval;
-- výsledek úvodního hodnocení: kolik linií dovedností a úrovní jste uvedli, kterou dovednost jste si zvolili jako cíl, vaši počáteční hodnost a hodnost každé ze šesti oblastí těla;
-- kdy se zobrazila nebo zavřela obrazovka nákupu a kdy byl nákup zahájen, dokončen nebo obnoven, včetně příslušného produktu a nabídky; když aplikace později zjistí aktivní zkušební období nebo období placeného předplatného, včetně produktu a údaje o tom, zda jde o nákup v testovacím prostředí (nejde o záznam každé jednotlivé platby a tyto údaje se neodesílají, když je aplikace zavřená);
-- kdy se změnila vaše hodnost a která dovednost změnu vyvolala;
-- kdy jste splnili úroveň: o kterou dovednost a úroveň šlo a zda to vycházelo ze zaznamenané série, dodatečně zadaného tréninku nebo ručního označení;
-- které obrazovky otevíráte a kdy končí trénink. Událost konce tréninku neobsahuje žádné podrobnosti: ani cviky, ani série, ani čísla.
-
-Software PostHog v aplikaci také ke každé události připojuje běžné technické údaje, například model zařízení, verzi iOS a aplikace, jazyk a časové pásmo, a zaznamenává otevření aplikace a její přesun na pozadí. Jako každá internetová služba dostává PostHog IP adresu požadavku a může z ní odvodit přibližnou polohu (zemi nebo město).
-
-**Co údaje neobsahují:** jméno, e-mailovou adresu (aplikace ji nikdy nevyžaduje), identifikátor účtu (žádný účet neexistuje), věk, pohlaví, výšku, tělesnou hmotnost ani obsah tréninků.
-
-**Jak jste rozpoznáni:** PostHog při prvním spuštění aplikace vytvoří náhodný identifikátor a uloží jej v zařízení. Všechny události se sdružují pod tímto identifikátorem. Aplikace PostHogu nikdy nesděluje, kdo jste, a nemá žádný účet ani e-mailovou adresu, které by mohla sdělit.
-
-**Jak statistiky vypnout:** Nastavení ▸ Soukromí ▸ *Sdílet anonymní údaje o používání*. Vypnutí od dané chvíle zastaví odesílání událostí. Nastavení zůstává uložené v zařízení i po aktualizacích aplikace.
+Analytika je ve výchozím nastavení vypnutá. Pouze pokud během úvodního nastavení nebo později v Nastavení výslovně souhlasíte, odesílá Ranked službě PostHog v EU události o nastavení, počátečním hodnocení, změnách hodnosti a úrovní (včetně dovednosti a úrovně), nákupní obrazovce, nákupech a otevřených obrazovkách. Události živého tréninku zahrnují začátek, dokončení nebo opuštění, uplynulé sekundy, počet zaznamenaných sérií, počet různých dovedností a údaj, zda šlo o první dokončený trénink. Neobsahují jednotlivá cvičení, opakování, zátěž ani poznámky. Věk, pohlaví, výška a hmotnost se neodesílají. PostHog také získává běžné technické údaje o zařízení, iOS, aplikaci a jazyce a IP adresu, z níž lze odvodit přibližnou polohu. Náhodný analytický identifikátor vzniká až po souhlasu. Souhlas můžete odvolat v Nastavení ▸ Soukromí; nové události se přestanou odesílat, ale dříve zaslané údaje se automaticky nesmažou.
 
 ### 3.2 Přiřazení Apple Search Ads
 
-Pokud jste Ranked nainstalovali po klepnutí na reklamu Apple Search Ads, aplikace se při prvním spuštění jednou zeptá Applu na zdroj instalace. Apple odpoví údajem o kampani, reklamní skupině, klíčovém slově a podobě reklamy, zemi nebo oblasti a datu kliknutí a o tom, zda šlo o nové nebo opakované stažení. Aplikace tyto údaje připojí k anonymnímu identifikátoru PostHog popsanému v §3.1, aby bylo možné další události sdružit podle reklamy, která vás přivedla.
-
-Používá se framework **AdServices** od Applu, který nevyužívá reklamní identifikátor (IDFA) a který Apple nepovažuje za sledování; proto se nezobrazuje žádost o povolení sledování. Pokud jste nepřišli přes reklamu, Apple to sdělí a nic dalšího se nepřipojí. Vypnutí statistik používání (§3.1) zastaví i toto přiřazování.
+Teprve po souhlasu s analytikou se Ranked jednou dotáže služby Apple AdServices na původ instalace z Apple Search Ads. Pokud jste klepli na reklamu, mohou se k náhodnému identifikátoru PostHog přiřadit kampaň, reklamní skupina, klíčové slovo, kreativní sada, země nebo oblast, datum klepnutí a typ stažení. Reklamní identifikátor IDFA se nepoužívá. Odvolání souhlasu zastaví další přenosy.
 
 ### 3.3 Nákupy (Apple a RevenueCat)
 
@@ -95,8 +78,8 @@ Když klepnete na **Obnovit nákupy**, aplikace požádá Apple o nákupy proved
 | Zpracování | Právní základ |
 |---|---|
 | Nákupy a ověřování předplatného (§3.3) | Plnění smlouvy |
-| Statistiky používání (§3.1) | Oprávněný zájem porozumět aplikaci a zlepšovat ji; kdykoli můžete vznést námitku jejich vypnutím, viz §8 |
-| Přiřazení Search Ads (§3.2) | Oprávněný zájem zjistit účinnost reklamy; námitka jako výše |
+| Statistiky používání (§3.1) | Váš souhlas; lze jej kdykoli odvolat v Nastavení ▸ Soukromí |
+| Přiřazení Search Ads (§3.2) | Váš souhlas; lze jej kdykoli odvolat v Nastavení ▸ Soukromí |
 
 **Uplatňují se zde dva právní předpisy, nikoli jen jeden.** Ranked se provozuje ze Švýcarska, takže se toto zpracování řídí revidovaným švýcarským federálním zákonem o ochraně osobních údajů (**revDSG**, účinným od září 2023). **GDPR** se navíc uplatní při používání aplikace z Evropské unie nebo Spojeného království. Pokud se pravidla liší, řídíme se přísnějším z nich. Obyvatelé Švýcarska mají podle článku 25 a následujících revDSG stejná základní práva uvedená v §8.
 
@@ -122,15 +105,13 @@ Záznamy o nákupech uchovává RevenueCat po dobu existence předplatného a je
 
 ## 8. Vaše práva
 
-Kdykoli můžete:
+Souhlas s analytikou můžete kdykoli bez udání důvodu odvolat v Nastavení ▸ Soukromí. Nové události se ihned přestanou odesílat, ale dříve odeslané údaje se automaticky nesmažou a předplatné App Store se nezruší.
 
-- **Vypnout statistiky používání** v Nastavení ▸ Soukromí. Jde o právo vznést námitku a tam, kde se zpracování opírá o souhlas, jej odvolat. Účinek je okamžitý a nemusíte uvádět důvod.
-- **Smazat své údaje.** Protože Ranked o vás nic neuchovává na serveru, odstranění aplikace smaže vše, co sama ukládá.
-- **Požádat o smazání svého anonymního analytického profilu.** Podle jména jej najít nemůžeme, protože žádné neobsahuje. Pokud nám napíšete přibližné datum prvního použití aplikace a používané zařízení, ručně jej vyhledáme a smažeme.
-- **Požádat o kopii** údajů, které služba uchovává pod vaším identifikátorem, požádat o jejich **opravu** nebo o **omezení** zpracování během posuzování žádosti.
-- **Podat stížnost u dozorového úřadu** ve své zemi; ve Švýcarsku jde o federálního komisaře pro ochranu údajů a informace (FDPIC).
+Místní tréninkové údaje můžete smazat v Nastavení ▸ Data ▸ *Smazat místní tréninkové údaje* nebo odstraněním aplikace. Předplatné spravujete a rušíte samostatně ve svém účtu Apple.
 
-S žádostmi o uplatnění těchto práv pište na **dylan.schmid538@gmail.com**.
+Ohledně údajů již odeslaných službě PostHog napište na **dylan.schmid538@gmail.com**. Ranked nespojuje náhodný analytický identifikátor s účtem. Přibližné datum nebo model zařízení nemusí stačit ke spolehlivému nalezení profilu. Vysvětlíme, co lze identifikovat, a vyřídíme ověřitelné žádosti o přístup, opravu či výmaz. Neposílejte přihlašovací údaje k účtu Apple.
+
+Můžete požádat o omezení zpracování a podat stížnost dozorovému úřadu ve své zemi; ve Švýcarsku je jím federální komisař pro ochranu údajů a informace (FDPIC).
 
 ---
 
@@ -145,5 +126,3 @@ Ranked je určena osobám ve věku **16 let a více**. Aplikace se během nastav
 Verze zveřejněná na této adrese je aktuální a datum nahoře ukazuje, kdy se naposledy změnila. Starší verze zůstávají dostupné ve veřejné historii repozitáře, z něhož se tyto stránky zveřejňují, abyste mohli zjistit, co a kdy se změnilo.
 
 ---
-
-> **⚠️ Nejde o právní poradenství.** Tento dokument sepsal na základě zdrojového kódu aplikace inženýr, nikoli právník. Popisuje systém ke dni uvedenému výše; každé tvrzení bylo porovnáno s tím, co aplikace skutečně odesílá. Dokument **neprošel** právním posouzením souladu s GDPR, švýcarským revDSG, CCPA ani jinými předpisy. Jeho zveřejnění splňuje požadavky Applu, samo o sobě však neznamená právní soulad. Jakmile aplikace začne vydělávat, nechte jej zkontrolovat právníkem.

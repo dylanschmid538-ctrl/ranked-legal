@@ -8,11 +8,9 @@ permalink: /privacy/lt/
 
 # Privatumo politika · Calisthenics Skills – Ranked
 
-**Paskutinį kartą atnaujinta: 2026-10-02**
+**Paskutinį kartą atnaujinta: 2026-10-08**
 
-Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti. Ji
-parengta pagal tikrąjį programėlės kodą, o ne pagal šabloną — jeigu kas nors čia neteisinga,
-sprendžia kodas.
+Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti.
 
 „Ranked“ valdo **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Šveicarija**, kontaktas
 **dylan.schmid538@gmail.com**. Ji yra čia aprašyto tvarkymo valdytoja.
@@ -59,54 +57,11 @@ neturėjome.
 
 ### 3.1 Naudojimo statistika (PostHog)
 
-Naudojame **PostHog**, talpinamą **Europos Sąjungoje**, kad suprastume, kaip programėlė naudojama.
-Programėlė jam siunčia nustatytą įvykių sąrašą:
-
-- kurį nustatymo žingsnį pasiekėte, užbaigėte ar iš kurio grįžote ir kiek laiko truko kiekvienas;
-- ką parodė pradinis įvertinimas: kiek įgūdžių linijų ir pakopų nurodėte, kurį įgūdį pasirinkote
-  tikslu, koks buvo Jūsų pradinis reitingas ir kiekvienos iš šešių Jūsų kūno sričių reitingas;
-- kada buvo parodytas ar uždarytas pirkimo ekranas ir kada pirkimas buvo pradėtas, užbaigtas ar
-  atkurtas — su atitinkamu produktu ir pasiūlymu; taip pat kai programėlė vėliau nustato aktyvų
-  bandomąjį laikotarpį ar mokamos prenumeratos laikotarpį — su produktu ir žyma, ar tai bandomosios
-  aplinkos pirkimas. Tai nėra kiekvieno mokėjimo įrašas, ir šie duomenys nesiunčiami, kai
-  programėlė uždaryta;
-- kada pasikeitė Jūsų reitingas ir kuris įgūdis tai sukėlė;
-- kada įveikėte pakopą — kuris įgūdis, kuri pakopa ir ar tai atsirado iš užregistruoto priėjimo,
-  vėliau įrašytos treniruotės ar rankinio nurodymo;
-- kuriuos ekranus atidarote ir kada baigiasi sesija. Sesijos pabaigos įvykis neturi jokių detalių:
-  nei pratimų, nei priėjimų, nei skaičių.
-
-„PostHog“ programinė įranga programėlėje prie kiekvieno įvykio dar prideda įprastą techninę
-informaciją — įrenginio modelį, „iOS“ versiją, programėlės versiją, kalbą ir laiko juostą — ir
-fiksuoja, kada programėlė atidaroma ir perkeliama į foną. Kaip ir bet kuri interneto paslauga,
-„PostHog“ gauna užklausos IP adresą; iš jo gali nustatyti apytikslę vietą (šalį arba miestą).
-
-**Ko ten nėra:** jokio vardo, jokio el. pašto adreso (programėlė jo niekada neprašo), jokio paskyros
-identifikatoriaus (paskyrų nėra), nei amžiaus, lyties, ūgio ar kūno svorio, ir jokio Jūsų
-treniruočių turinio.
-
-**Kaip Jūs atpažįstamas:** pirmą kartą paleidus programėlę, „PostHog“ sukuria atsitiktinį
-identifikatorių ir įrašo jį Jūsų įrenginyje. Visi įvykiai grupuojami pagal šį identifikatorių.
-Programėlė niekada nesako „PostHog“, kas Jūs esate, ir nėra ko sakyti — nėra nei paskyros, nei el.
-pašto.
-
-**Išjungimas:** Nustatymai ▸ Privatumas ▸ *Dalytis anoniminiais naudojimo duomenimis*. Tai išjungus,
-programėlė nuo tos akimirkos nebesiunčia įvykių. Nuostata saugoma Jūsų įrenginyje ir išlieka po
-programėlės atnaujinimų.
+Analitika pagal numatytuosius nustatymus išjungta. Tik aiškiai sutikus sąrankos metu arba vėliau Nustatymuose, Ranked siunčia ES veikiantiems PostHog įvykius apie sąranką, pradinį įvertinimą, rango ir pakopos pokyčius (nurodant įgūdį ir pakopą), pirkimo ekraną, pirkimus ir atidarytus ekranus. Tiesioginės treniruotės įvykiai apima pradžią, pabaigą ar nutraukimą, praėjusias sekundes, užregistruotų serijų ir skirtingų įgūdžių skaičių bei ar tai buvo pirmoji baigta treniruotė. Juose nėra atskirų pratimų, pakartojimų, svorių ar pastabų. Amžius, lytis, ūgis ir kūno svoris nesiunčiami. PostHog taip pat gauna įprastus techninius įrenginio, iOS, programėlės ir kalbos duomenis bei IP adresą, iš kurio galima nustatyti apytikrę vietą. Atsitiktinis analitikos identifikatorius sukuriamas po sutikimo. Jį galite atšaukti Nustatymuose ▸ Privatumas; nauji įvykiai nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami.
 
 ### 3.2 „Apple Search Ads“ priskyrimas
 
-Jei „Ranked“ įdiegėte bakstelėję „Apple Search Ads“ skelbimą, programėlė pirmą kartą paleista vieną
-kartą paklausia „Apple“, iš kur atsirado diegimas. „Apple“ atsako nurodydama to skelbimo kampaniją,
-skelbimų grupę, raktažodį ir kūrybinį rinkinį, paspaudimo šalį ar regioną, paspaudimo datą ir tai,
-ar tai buvo naujas, ar pakartotinis atsisiuntimas. Programėlė šias reikšmes prijungia prie anoniminio
-„PostHog“ identifikatoriaus, aprašyto §3.1, kad kiekvieną vėlesnį įvykį būtų galima priskirti Jus
-atvedusiam skelbimui.
-
-Tam naudojama „Apple“ **AdServices** sąranga, kuri neapima reklamos identifikatoriaus (IDFA) ir
-kurios „Apple“ nelaiko sekimu — todėl jokio sekimo leidimo lango nerodoma. Jei atėjote ne per
-skelbimą, „Apple“ tai pasako ir niekas neprijungiama. Išjungus naudojimo statistiką (§3.1),
-sustabdomas ir šis veiksmas.
+Tik gavus sutikimą analitikai, Ranked vieną kartą per Apple AdServices patikrina, ar diegimas susijęs su Apple Search Ads. Spustelėjus skelbimą, kampanija, skelbimų grupė, raktažodis, kūrybinė medžiaga, šalis ar regionas, spustelėjimo data ir atsisiuntimo tipas gali būti susieti su atsitiktiniu PostHog identifikatoriumi. Reklamos identifikatorius IDFA nenaudojamas. Atšaukus sutikimą būsimi perdavimai sustoja.
 
 ### 3.3 Pirkiniai („Apple“ ir „RevenueCat“)
 
@@ -144,8 +99,8 @@ Kai bakstelite **Atkurti pirkinius**, programėlė paklausia „Apple“ apie pi
 | Kas | Pagrindas |
 |---|---|
 | Pirkiniai ir prenumeratos patikrinimas (§3.3) | Sutarties vykdymas |
-| Naudojimo statistika (§3.1) | Teisėtas interesas suprasti ir tobulinti programėlę; galite bet kada nesutikti ją išjungdami, žr. §8 |
-| „Search Ads“ priskyrimas (§3.2) | Teisėtas interesas žinoti, kuri reklama veikia; nesutikimas kaip aukščiau |
+| Naudojimo statistika (§3.1) | Jūsų sutikimas; bet kada atšaukiamas Nustatymuose ▸ Privatumas |
+| „Search Ads“ priskyrimas (§3.2) | Jūsų sutikimas; bet kada atšaukiamas Nustatymuose ▸ Privatumas |
 
 **Čia taikomos dvi teisės sistemos, ne viena.** „Ranked“ valdoma iš Šveicarijos, todėl šį tvarkymą
 reglamentuoja peržiūrėtas Šveicarijos federalinis duomenų apsaugos įstatymas (**revDSG**, galiojantis
@@ -180,22 +135,13 @@ Viskas, kas yra Jūsų įrenginyje, ten lieka tol, kol ištrinsite programėlę.
 
 ## 8. Jūsų teisės
 
-Bet kada galite:
+Sutikimą analitikai galite bet kada be priežasties atšaukti Nustatymuose ▸ Privatumas. Nauji įvykiai iškart nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami, o App Store prenumerata neatšaukiama.
 
-- **Išjungti naudojimo statistiką** Nustatymuose ▸ Privatumas. Tai Jūsų teisė nesutikti, o ten, kur
-  tvarkymas grindžiamas sutikimu — teisė jį atšaukti; tai įsigalioja iškart ir nereikalauja
-  pagrindimo.
-- **Ištrinti savo duomenis.** Kadangi „Ranked“ nieko apie Jus nesaugo serveryje, programėlės
-  ištrynimas pašalina viską, ką saugo pati programėlė.
-- **Paprašyti mūsų ištrinti Jūsų anoniminį analitikos profilį.** Pagal vardą jo rasti negalime — jo
-  neturi —, bet jei parašysite mums nurodydami apytikslę pirmojo naudojimosi datą ir naudotą
-  įrenginį, surasime jį rankiniu būdu ir ištrinsime.
-- **Prašyti kopijos** duomenų, kuriuos paslauga saugo pagal Jūsų identifikatorių, prašyti juos
-  **ištaisyti** arba **apriboti** jų tvarkymą, kol prašymas nagrinėjamas.
-- **Pateikti skundą priežiūros institucijai** savo šalyje — Šveicarijoje Federaliniam duomenų
-  apsaugos ir informacijos įgaliotiniui (EDÖB).
+Vietinius treniruočių duomenis galite ištrinti Nustatymuose ▸ Duomenys ▸ *Ištrinti vietinius treniruočių duomenis* arba pašalinę programėlę. Prenumerata atskirai valdoma ir atšaukiama Apple paskyroje.
 
-Visais šiais klausimais rašykite **dylan.schmid538@gmail.com**.
+Dėl PostHog jau išsiųstų duomenų rašykite **dylan.schmid538@gmail.com**. Ranked nesieja atsitiktinio analitikos identifikatoriaus su paskyra. Apytikrė data ar įrenginio modelis gali nepakakti patikimam profilio radimui. Paaiškinsime, ką galime nustatyti, ir nagrinėsime patikrinamus prašymus susipažinti su duomenimis, juos taisyti ar ištrinti. Nesiųskite Apple paskyros prisijungimo duomenų.
+
+Galite prašyti apriboti tvarkymą ir skųstis savo šalies priežiūros institucijai; Šveicarijoje tai federalinis duomenų apsaugos ir informacijos komisaras (FDPIC).
 
 ---
 
@@ -214,10 +160,3 @@ pakeista. Ankstesnės redakcijos lieka matomos viešoje saugyklos, iš kurios š
 istorijoje, todėl galite matyti, kas ir kada pasikeitė.
 
 ---
-
-> **⚠️ Tai nėra teisinė konsultacija.** Šį dokumentą pagal programėlės pirminį kodą parengė
-> inžinierius, o ne teisininkas. Sistemą jis aprašo tiksliai pagal aukščiau nurodytą datą — kiekvienas
-> teiginys buvo patikrintas pagal tai, ką programėlė iš tikrųjų siunčia. Jis **nebuvo** įvertintas
-> dėl atitikties BDAR, Šveicarijos revDSG, CCPA ar kuriam nors kitam režimui. Jį paskelbus, „Apple“
-> reikalavimai tenkinami; tai nereiškia, kad laikotės teisės aktų. Kai programėlė pradės nešti
-> pajamų, duokite ją perskaityti teisininkui.

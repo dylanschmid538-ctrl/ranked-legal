@@ -7,10 +7,10 @@ permalink: /support/
 
 ## Get in touch
 
-**dylan.schmid538@gmail.com** — we answer within two working days.
+**dylan.schmid538@gmail.com**
 
-When something is wrong with a purchase, include your rank and roughly when you
-subscribed. That is usually enough to find the transaction.
+When something is wrong with a purchase, tell us what the app shows, roughly when you
+subscribed, and which steps you tried. Please do not send your Apple Account password or payment details.
 
 ## Common questions
 
@@ -27,9 +27,9 @@ locked in.
 
 ### I paid, but the app still asks me to subscribe
 
-Tap **Restore purchases** on the paywall or in Settings. If it still asks, sign in with
-the same Apple or Google account you used when you subscribed — a subscription belongs
-to the account that bought it.
+Tap **Restore purchases** on the paywall or in Settings. Check that the device uses the
+same Apple Account that made the App Store purchase. Ranked has no in-app login. If access
+is still missing, contact us with the message shown by the app.
 
 ### How do I cancel?
 
@@ -43,17 +43,19 @@ Apple handles all refunds. Go to **reportaproblem.apple.com**, sign in, and pick
 purchase. Write to us as well if something in the app is the reason — we would rather
 fix it.
 
-### Delete my account
+### Delete my training data
 
-**Settings → Delete account.** It removes your account and its data and revokes the Sign
-in with Apple connection. It cannot be undone.
+Open **Settings → Data → Delete local training data** and confirm. This removes your local
+training history, progress, plans and body profile. You can also delete the app to
+remove its local data. Your App Store subscription stays active until you cancel it in
+your Apple Account.
 
-### Sign in with Apple or Google fails
+### Can I sign in or transfer my training history?
 
-Check that you have a connection, then try the other provider. If both fail twice, the
-account screen offers to write a support message with the technical details already
-filled in — send it and we will look.
+Ranked currently has no account or in-app sign-in. Its training data stays on your device
+and may be included in your device backup. Restoring a purchase restores subscription access,
+not training history.
 
 ## Privacy
 
-The privacy policy is here: [Privacy Policy](privacy.md)
+The privacy policy is here: [Privacy Policy](https://dylanschmid538-ctrl.github.io/ranked-legal/privacy/)

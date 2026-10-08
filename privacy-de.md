@@ -8,11 +8,9 @@ permalink: /privacy/de/
 
 # Datenschutzerklärung · Calisthenics Skills – Ranked
 
-**Zuletzt aktualisiert: 2026-10-02**
+**Zuletzt aktualisiert: 2026-10-08**
 
-Diese Erklärung beschreibt, was Ranked erhebt, wohin es geht und was Sie dagegen tun können. Sie
-wurde anhand des tatsächlichen Codes der App verfasst, nicht nach einer Vorlage — wenn etwas
-hierin falsch ist, ist der Code das Massgebliche.
+Diese Erklärung beschreibt, was Ranked erhebt, wohin es geht und was Sie dagegen tun können.
 
 Ranked wird betrieben von **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Schweiz**,
 Kontakt **dylan.schmid538@gmail.com**. Sie ist die Verantwortliche für die hier beschriebene
@@ -61,57 +59,11 @@ hatten.
 
 ### 3.1 Nutzungsstatistiken (PostHog)
 
-Wir verwenden **PostHog**, gehostet in der **Europäischen Union**, um zu verstehen, wie die App
-benutzt wird. Die App sendet dorthin eine feste Liste von Ereignissen:
-
-- welchen Einrichtungsschritt Sie erreicht, abgeschlossen oder zurückgenommen haben, und wie lange
-  jeder gedauert hat;
-- was die Ersteinstufung ergeben hat: wie viele Skill-Linien und Stufen Sie angegeben haben,
-  welchen Skill Sie sich als Ziel gesetzt haben, Ihren Startrang und den Rang jeder Ihrer sechs
-  Körperregionen;
-- wann der Kaufbildschirm gezeigt oder geschlossen wurde und wann ein Kauf begonnen, abgeschlossen
-  oder wiederhergestellt wurde — mit dem betroffenen Produkt und Angebot; sowie wenn die App später
-  einen aktiven Testzeitraum oder einen bezahlten Abonnementzeitraum feststellt — mit dem Produkt
-  und der Angabe, ob es sich um einen Sandbox-Kauf handelt. Dies ist kein Protokoll jeder einzelnen
-  Abbuchung und wird nicht gesendet, während die App geschlossen ist;
-- wann sich Ihr Rang geändert hat und welcher Skill das ausgelöst hat;
-- wann Sie eine Stufe geschafft haben — welcher Skill, welche Stufe, und ob es aus einem geloggten
-  Satz, einem nachgetragenen Training oder einer manuellen Angabe kam;
-- welche Bildschirme Sie öffnen und wann eine Session endet. Das Ereignis zum Session-Ende trägt
-  keinerlei Einzelheiten: nicht die Übungen, nicht die Sätze, nicht die Zahlen.
-
-Die PostHog-Software in der App hängt an jedes Ereignis ausserdem technische Standardangaben an —
-etwa Ihr Gerätemodell, Ihre iOS-Version, die App-Version, die Sprache und die Zeitzone — und hält
-fest, wann die App geöffnet und in den Hintergrund geschickt wird. Wie jeder Internetdienst erhält
-PostHog die IP-Adresse der Anfrage; daraus kann ein ungefährer Ort (Land oder Stadt) abgeleitet
-werden.
-
-**Was nicht darin steht:** kein Name, keine E-Mail-Adresse (die App fragt nie danach), keine
-Kontokennung (es gibt keine), weder Alter noch Geschlecht, Grösse oder Körpergewicht, und keine
-Inhalte Ihrer Trainings.
-
-**Wie Sie identifiziert werden:** PostHog erzeugt beim ersten Start der App eine zufällige Kennung
-und speichert sie auf Ihrem Gerät. Alle Ereignisse werden unter dieser Kennung gruppiert. Die App
-sagt PostHog nie, wer Sie sind, und es gibt auch nichts — kein Konto, keine E-Mail —, was sie sagen
-könnte.
-
-**Abschalten:** Einstellungen ▸ Datenschutz ▸ *Anonyme Nutzungsdaten teilen*. Wenn Sie das
-ausschalten, sendet die App von diesem Moment an keine Ereignisse mehr. Die Einstellung liegt auf
-Ihrem Gerät und übersteht App-Aktualisierungen.
+Die Analyse ist standardmäßig ausgeschaltet. Erst wenn Sie während der Einrichtung oder später in den Einstellungen ausdrücklich zustimmen, sendet Ranked Nutzungsereignisse an PostHog in der EU: Einrichtung und Ersteinstufung, Rang- und Stufenänderungen (mit Skill und Stufe), Kaufbildschirm und Kaufvorgang sowie geöffnete Ansichten. Ereignisse zu Live-Trainings enthalten Start, Abschluss oder Abbruch, verstrichene Sekunden, Anzahl geloggter Sätze, Anzahl unterschiedlicher Skills und ob es das erste abgeschlossene Training war. Sie enthalten keine einzelnen Übungen, Wiederholungen, Gewichte oder Notizen. Alter, Geschlecht, Größe und Körpergewicht werden nicht übermittelt. PostHog erhält übliche Geräte-, iOS-, App- und Sprachangaben sowie die IP-Adresse, aus der ein ungefährer Ort abgeleitet werden kann. Eine zufällige Analysekennung entsteht erst nach Ihrer Zustimmung. Sie können diese unter Einstellungen ▸ Datenschutz widerrufen; danach werden keine neuen Ereignisse gesendet. Bereits gesendete Daten werden dadurch nicht automatisch gelöscht.
 
 ### 3.2 Zuordnung von Apple Search Ads
 
-Wenn Sie Ranked nach dem Tippen auf eine Apple-Search-Ads-Anzeige installiert haben, fragt die App
-Apple einmalig beim ersten Start, woher die Installation kam. Apple antwortet mit Kampagne,
-Anzeigengruppe, Suchbegriff und Motiv jener Anzeige, dem Land oder der Region des Klicks, dem Datum
-des Klicks und der Angabe, ob es ein neuer Download oder ein erneuter war. Die App hängt diese
-Werte an die anonyme PostHog-Kennung aus §3.1, damit sich jedes spätere Ereignis der Anzeige
-zuordnen lässt, die Sie gebracht hat.
-
-Dafür wird Apples **AdServices**-Framework verwendet, das ohne den Werbe-Identifier (IDFA)
-auskommt und das Apple nicht als Tracking wertet — es wird daher kein Tracking-Dialog angezeigt.
-Sind Sie nicht über eine Anzeige gekommen, sagt Apple das, und es wird nichts angehängt. Das
-Abschalten der Nutzungsstatistiken (§3.1) stoppt auch dies.
+Nur nach Ihrer Zustimmung zur Analyse fragt Ranked über Apples AdServices einmalig die Zuordnung einer Apple-Search-Ads-Installation ab. Bei einem Anzeigenklick können Kampagne, Anzeigengruppe, Suchbegriff, Werbemotiv, Land oder Region, Klickdatum sowie Neu- oder Wiederdownload mit der zufälligen PostHog-Kennung verbunden werden. Die Werbekennung IDFA wird nicht verwendet. Der Widerruf stoppt weitere Übermittlungen.
 
 ### 3.3 Käufe (Apple und RevenueCat)
 
@@ -150,8 +102,8 @@ RevenueCat weiter.
 | Was | Grundlage |
 |---|---|
 | Käufe und Abo-Überprüfung (§3.3) | Vertragserfüllung |
-| Nutzungsstatistiken (§3.1) | Berechtigtes Interesse daran, die App zu verstehen und zu verbessern; Sie können jederzeit widersprechen, indem Sie es abschalten, siehe §8 |
-| Search-Ads-Zuordnung (§3.2) | Berechtigtes Interesse daran zu wissen, welche Werbung wirkt; Widerspruch wie oben |
+| Nutzungsstatistiken (§3.1) | Ihre Einwilligung; jederzeit unter Einstellungen ▸ Datenschutz widerrufbar |
+| Search-Ads-Zuordnung (§3.2) | Ihre Einwilligung; jederzeit unter Einstellungen ▸ Datenschutz widerrufbar |
 
 **Hier gelten zwei Rechtsordnungen, nicht eine.** Ranked wird aus der Schweiz betrieben, daher
 regelt das revidierte Schweizer Datenschutzgesetz (**revDSG**, in Kraft seit September 2023) diese
@@ -187,23 +139,13 @@ Alles auf Ihrem Gerät bleibt dort, bis Sie die App löschen.
 
 ## 8. Ihre Rechte
 
-Sie können jederzeit:
+Sie können Ihre Einwilligung zur Analyse unter Einstellungen ▸ Datenschutz jederzeit ohne Begründung widerrufen. Das stoppt neue Ereignisse sofort, löscht aber nicht automatisch bereits gesendete Daten und beendet kein App-Store-Abonnement.
 
-- **Nutzungsstatistiken abschalten**, unter Einstellungen ▸ Datenschutz. Das ist Ihr Recht auf
-  Widerspruch und, soweit die Bearbeitung auf Einwilligung beruht, auf deren Widerruf — es wirkt
-  sofort und braucht keine Begründung.
-- **Ihre Daten löschen.** Da Ranked nichts über Sie auf einem Server hält, entfernt das Löschen der
-  App alles, was die App selbst speichert.
-- **Uns bitten, Ihr anonymes Analyseprofil zu löschen.** Wir können es nicht über einen Namen
-  finden — es hat keinen —, aber wenn Sie uns das ungefähre Datum Ihrer ersten Nutzung und das
-  verwendete Gerät schreiben, suchen wir es von Hand heraus und löschen es.
-- **Eine Kopie** der Daten verlangen, die ein Dienst unter Ihrer Kennung hält, uns um deren
-  **Berichtigung** bitten oder um eine **Einschränkung** der Bearbeitung, solange ein Antrag
-  geprüft wird.
-- **Sich bei einer Aufsichtsbehörde beschweren** in Ihrem Land — in der Schweiz beim
-  Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB).
+Ihre lokalen Trainingsdaten können Sie unter Einstellungen ▸ Daten ▸ *Lokale Trainingsdaten löschen* oder durch Löschen der App entfernen. Das Abonnement verwalten und kündigen Sie getrennt in Ihrem Apple-Account.
 
-Schreiben Sie für all das an **dylan.schmid538@gmail.com**.
+Für Daten, die bereits an PostHog gesendet wurden, schreiben Sie an **dylan.schmid538@gmail.com**. Ranked verknüpft die zufällige Analysekennung nicht mit einem Konto. Ein ungefähres Nutzungsdatum oder Gerätemodell allein reicht möglicherweise nicht aus, um Ihr Profil zuverlässig zu finden. Wir erklären, welche Daten wir zuordnen können, und bearbeiten überprüfbare Anträge auf Auskunft, Berichtigung oder Löschung. Bitte senden Sie keine Zugangsdaten Ihres Apple-Accounts.
+
+Sie können eine Einschränkung der Bearbeitung verlangen und sich bei einer Aufsichtsbehörde beschweren; in der Schweiz ist dies der Eidgenössische Datenschutz- und Öffentlichkeitsbeauftragte (EDÖB).
 
 ---
 
@@ -223,11 +165,3 @@ Repositorys sichtbar, aus dem diese Seiten veröffentlicht werden, sodass Sie se
 wann geändert hat.
 
 ---
-
-> **⚠️ Keine Rechtsberatung.** Dieses Dokument wurde von einem Entwickler anhand des Quellcodes der
-> App verfasst, nicht von einer Juristin oder einem Juristen. Es beschreibt das System zum oben
-> genannten Datum zutreffend — jede Aussage darin wurde daran geprüft, was die App tatsächlich
-> sendet. Es wurde **nicht** auf die Vereinbarkeit mit der DSGVO, dem Schweizer revDSG, dem CCPA
-> oder einer anderen Regelung geprüft. Die Veröffentlichung genügt Apple; sie macht Sie nicht
-> rechtskonform. Lassen Sie es von einer Anwältin oder einem Anwalt lesen, sobald die App Geld
-> einbringt.

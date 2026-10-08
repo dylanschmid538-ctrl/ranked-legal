@@ -7,9 +7,9 @@ permalink: /privacy/nl/
 
 # Privacyverklaring · Calisthenics Skills – Ranked
 
-**Laatst bijgewerkt: 2026-10-02**
+**Laatst bijgewerkt: 2026-10-08**
 
-Deze verklaring beschrijft welke gegevens Ranked verzamelt, waar ze naartoe gaan en wat u eraan kunt doen. Zij is opgesteld aan de hand van de daadwerkelijke appcode, niet van een sjabloon; als hier iets niet klopt, moet de code worden gecontroleerd.
+Deze verklaring beschrijft welke gegevens Ranked verzamelt, waar ze naartoe gaan en wat u eraan kunt doen.
 
 Ranked wordt beheerd door **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Zwitserland**, contact **dylan.schmid538@gmail.com**. Zij is verantwoordelijk voor de hier beschreven verwerking.
 
@@ -47,28 +47,11 @@ Als u de app verwijdert, worden al deze gegevens van het apparaat gewist. Wij ku
 
 ### 3.1 Gebruiksstatistieken (PostHog)
 
-We gebruiken **PostHog**, gehost in de **Europese Unie**, om te begrijpen hoe de app wordt gebruikt. De app stuurt een vaste lijst gebeurtenissen:
-
-- welke instelstap u bereikte, voltooide of terugging, en hoelang elke stap duurde;
-- de uitkomst van de eerste beoordeling: hoeveel vaardigheidslijnen en fasen u aangaf, welke vaardigheid u als doel koos, uw beginrang en de rang van elk van uw zes lichaamsgebieden;
-- wanneer het aankoopscherm werd getoond of gesloten en wanneer een aankoop werd begonnen, voltooid of hersteld, met het betreffende product en aanbod; wanneer de app later een actieve proefperiode of betaalde abonnementsperiode vaststelt, met het product en of het een testomgevingsaankoop betreft (dit is geen overzicht van elke afschrijving en wordt niet verstuurd terwijl de app gesloten is);
-- wanneer uw rang veranderde en welke vaardigheid dat veroorzaakte;
-- wanneer u een fase behaalde: welke vaardigheid en fase, en of dat kwam door een geregistreerde set, een later ingevoerde training of een handmatige opgave;
-- welke schermen u opent en wanneer een training eindigt. De gebeurtenis voor een beëindigde training bevat geen details: geen oefeningen, sets of aantallen.
-
-De PostHog-software in de app voegt aan elke gebeurtenis ook standaard technische gegevens toe, zoals uw apparaatmodel, iOS-versie, appversie, taal en tijdzone, en registreert wanneer de app wordt geopend of naar de achtergrond gaat. Zoals elke internetdienst ontvangt PostHog het IP-adres van het verzoek; daaruit kan een globale locatie (land of stad) worden afgeleid.
-
-**Wat er niet in staat:** geen naam, e-mailadres (de app vraagt er nooit om), account-ID (dat bestaat niet), leeftijd, geslacht, lengte, lichaamsgewicht of inhoud van uw trainingen.
-
-**Hoe u wordt herkend:** PostHog maakt bij het eerste gebruik van de app een willekeurige identificatiecode aan en slaat die op uw apparaat op. Alle gebeurtenissen worden onder die code gegroepeerd. De app vertelt PostHog nooit wie u bent; er is ook geen account of e-mailadres dat zij zou kunnen doorgeven.
-
-**Uitschakelen:** Instellingen ▸ Privacy ▸ *Anonieme gebruiksgegevens delen*. Uitschakelen stopt vanaf dat moment het verzenden van gebeurtenissen door de app. De instelling wordt op uw apparaat opgeslagen en blijft behouden na appupdates.
+Analyse staat standaard uit. Alleen als u tijdens de eerste inrichting of later in Instellingen uitdrukkelijk toestemming geeft, stuurt Ranked naar PostHog in de EU gebeurtenissen over inrichting, eerste beoordeling, rang- en fasewijzigingen (met vaardigheid en fase), betaalscherm, aankopen en geopende schermen. Gebeurtenissen van live trainingen bevatten begin, voltooiing of afbreken, verstreken seconden, aantal vastgelegde sets, aantal verschillende vaardigheden en of dit de eerste voltooide training was. Ze bevatten geen afzonderlijke oefeningen, herhalingen, gewichten of notities. Leeftijd, geslacht, lengte en lichaamsgewicht worden niet verzonden. PostHog ontvangt ook gebruikelijke technische gegevens over apparaat, iOS, app en taal en het IP-adres, waaruit een globale locatie kan worden afgeleid. Na uw toestemming wordt een willekeurige analyse-ID gemaakt. U kunt de toestemming in Instellingen ▸ Privacy intrekken; nieuwe verzending stopt, eerder verzonden gegevens worden niet automatisch gewist.
 
 ### 3.2 Toeschrijving aan Apple Search Ads
 
-Als u Ranked installeerde nadat u op een Apple Search Ads-advertentie had getikt, vraagt de app bij de eerste start eenmaal aan Apple waar de installatie vandaan kwam. Apple geeft de campagne, advertentiegroep, zoekterm en creatieve set van die advertentie door, het land of de regio en de datum van de klik, en of het een nieuwe download of herdownload was. De app koppelt deze gegevens aan de anonieme PostHog-code uit §3.1, zodat latere gebeurtenissen kunnen worden gegroepeerd op basis van de advertentie die u bracht.
-
-Dit gebruikt Apples **AdServices**-framework, zonder de advertentie-ID (IDFA), en Apple beschouwt het niet als tracking; daarom verschijnt er geen toestemmingsvenster voor tracking. Kwam u niet via een advertentie, dan meldt Apple dat en wordt niets anders toegevoegd. Als u gebruiksstatistieken uitschakelt (§3.1), stopt dit ook.
+Pas na toestemming voor analyse vraagt Ranked via Apple AdServices eenmaal naar de herkomst van een installatie via Apple Search Ads. Na een advertentieklik kunnen campagne, advertentiegroep, trefwoord, uiting, land of regio, klikdatum en downloadtype aan de willekeurige PostHog-ID worden gekoppeld. De advertentie-ID IDFA wordt niet gebruikt. Intrekking stopt toekomstige verzending.
 
 ### 3.3 Aankopen (Apple en RevenueCat)
 
@@ -95,8 +78,8 @@ Als u op **Aankopen herstellen** tikt, vraagt de app Apple om de aankopen die zi
 | Verwerking | Rechtsgrond |
 |---|---|
 | Aankopen en verificatie van abonnementen (§3.3) | Uitvoering van een overeenkomst |
-| Gebruiksstatistieken (§3.1) | Gerechtvaardigd belang om de app te begrijpen en te verbeteren; u kunt altijd bezwaar maken door ze uit te schakelen, zie §8 |
-| Toeschrijving aan Search Ads (§3.2) | Gerechtvaardigd belang om te weten welke reclame werkt; bezwaar zoals hierboven |
+| Gebruiksstatistieken (§3.1) | Uw toestemming; op elk moment in Instellingen ▸ Privacy in te trekken |
+| Toeschrijving aan Search Ads (§3.2) | Uw toestemming; op elk moment in Instellingen ▸ Privacy in te trekken |
 
 **Hier gelden twee wetten, niet één.** Ranked wordt vanuit Zwitserland beheerd; daarom valt deze verwerking onder de herziene Zwitserse federale wet inzake gegevensbescherming (**revDSG**, van kracht sinds september 2023). De **AVG (GDPR)** geldt daarnaast wanneer de app vanuit de Europese Unie of het Verenigd Koninkrijk wordt gebruikt. Als ze verschillen, volgen we de strengere regel. Inwoners van Zwitserland hebben dezelfde kernrechten die in §8 staan, op grond van artikel 25 en volgende van de revDSG.
 
@@ -122,15 +105,13 @@ Alles op uw apparaat blijft daar totdat u de app verwijdert.
 
 ## 8. Uw rechten
 
-U kunt op elk moment:
+U kunt uw toestemming voor analyse op elk moment zonder reden intrekken in Instellingen ▸ Privacy. Nieuwe gebeurtenissen stoppen direct; eerder verzonden gegevens worden niet automatisch gewist en uw App Store-abonnement wordt niet opgezegd.
 
-- **Gebruiksstatistieken uitschakelen** via Instellingen ▸ Privacy. Dit is uw recht van bezwaar en, waar de verwerking op toestemming berust, om die toestemming in te trekken. Het werkt onmiddellijk en u hoeft geen reden te geven.
-- **Uw gegevens verwijderen.** Omdat Ranked niets over u op een server bewaart, verwijdert het wissen van de app alles wat de app zelf opslaat.
-- **Verwijdering van uw anonieme analyseprofiel vragen.** We kunnen dit niet op naam vinden, want het heeft geen naam. Als u ons de geschatte datum van eerste gebruik en het gebruikte apparaat schrijft, zoeken we het handmatig op en verwijderen we het.
-- **Een kopie aanvragen** van gegevens die een dienst onder uw identificatiecode bewaart, ons vragen deze te **corrigeren** of de verwerking te **beperken** zolang een verzoek wordt behandeld.
-- **Een klacht indienen bij een toezichthouder** in uw land; in Zwitserland is dat de federale commissaris voor gegevensbescherming en openbaarheid (FDPIC).
+U kunt lokale trainingsgegevens wissen via Instellingen ▸ Gegevens ▸ *Lokale trainingsgegevens wissen* of door de app te verwijderen. Het abonnement beheert en beëindigt u apart via uw Apple Account.
 
-Schrijf voor deze verzoeken naar **dylan.schmid538@gmail.com**.
+Schrijf voor gegevens die al naar PostHog zijn gestuurd naar **dylan.schmid538@gmail.com**. Ranked koppelt de willekeurige analyse-ID niet aan een account. Een geschatte datum of apparaatmodel is mogelijk onvoldoende om uw profiel betrouwbaar te vinden. Wij leggen uit wat identificeerbaar is en behandelen verifieerbare verzoeken om inzage, correctie of verwijdering. Stuur geen inloggegevens van uw Apple Account.
+
+U kunt beperking van de verwerking vragen en een klacht indienen bij de toezichthouder in uw land; in Zwitserland is dat de federale commissaris voor gegevensbescherming en transparantie (FDPIC).
 
 ---
 
@@ -145,5 +126,3 @@ Ranked is bedoeld voor personen van **16 jaar en ouder**. De app vraagt tijdens 
 De op dit adres gepubliceerde versie is de actuele versie. De datum bovenaan geeft aan wanneer zij voor het laatst is gewijzigd. Eerdere versies blijven zichtbaar in de openbare geschiedenis van de repository vanwaar deze pagina's worden gepubliceerd, zodat u kunt zien wat wanneer veranderde.
 
 ---
-
-> **⚠️ Geen juridisch advies.** Dit document is door een ingenieur opgesteld aan de hand van de broncode van de app, niet door een advocaat. Het beschrijft het systeem correct op de bovengenoemde datum; elke bewering is getoetst aan wat de app daadwerkelijk verstuurt. Het is **niet** beoordeeld op naleving van de AVG, de Zwitserse revDSG, de CCPA of enig ander rechtsstelsel. Publicatie voldoet aan Apples eis; daarmee bent u nog niet automatisch wettelijk in orde. Laat een advocaat het lezen zodra de app inkomsten oplevert.
