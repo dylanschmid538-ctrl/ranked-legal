@@ -7,9 +7,9 @@ permalink: /privacy/tr/
 
 # Gizlilik Politikası · Calisthenics Skills – Ranked
 
-**Son güncelleme: 2026-10-02**
+**Son güncelleme: 2026-10-08**
 
-Bu politika, Ranked'in hangi verileri topladığını, bunların nereye gittiğini ve bu konuda neler yapabileceğinizi açıklar. Bir şablondan değil, uygulamanın gerçek kodundan yararlanılarak yazılmıştır; burada yanlış bir şey varsa kontrol edilmesi gereken kaynak koddur.
+Bu politika, Ranked'in hangi verileri topladığını, bunların nereye gittiğini ve bu konuda neler yapabileceğinizi açıklar.
 
 Ranked'in işletmecisi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, İsviçre**; iletişim adresi **dylan.schmid538@gmail.com**. Burada açıklanan işleme faaliyetlerinin veri sorumlusu kendisidir.
 
@@ -47,28 +47,11 @@ Uygulamayı silmek, bunların tamamını cihazdan siler. Veriler hiçbir zaman e
 
 ### 3.1 Kullanım istatistikleri (PostHog)
 
-Uygulamanın kullanımını anlamak için **Avrupa Birliği'nde** barındırılan **PostHog** hizmetini kullanırız. Uygulama, önceden belirlenmiş şu olay listesini gönderir:
-
-- kurulumda hangi adıma ulaştığınız, hangisini tamamladığınız veya hangisinden geri döndüğünüz ve her adımın süresi;
-- başlangıç değerlendirmesinin sonucu: tamamladığınızı belirttiğiniz beceri dizisi ve aşama sayısı, hedef olarak seçtiğiniz beceri, başlangıç dereceniz ve altı vücut bölgenizin her birinin derecesi;
-- satın alma ekranının ne zaman gösterildiği veya kapatıldığı ve bir satın almanın ne zaman başlatıldığı, tamamlandığı veya geri yüklendiği, ilgili ürün ve teklifle birlikte; uygulamanın daha sonra etkin bir deneme veya ücretli abonelik dönemini ne zaman gördüğü, ürün ve bunun test ortamı satın alması olup olmadığıyla birlikte (bu, her tahsilatın kaydı değildir ve uygulama kapalıyken gönderilmez);
-- derecenizin ne zaman değiştiği ve buna hangi becerinin neden olduğu;
-- bir aşamayı ne zaman tamamladığınız: beceri, aşama ve bunun kayıtlı bir setten, sonradan eklenen antrenmandan veya elle tamamlandı işaretlemesinden kaynaklanıp kaynaklanmadığı;
-- hangi ekranları açtığınız ve bir antrenmanın ne zaman bittiği. Antrenman bitiş olayı ayrıntı içermez: egzersizler, setler veya sayılar bulunmaz.
-
-Uygulamadaki PostHog yazılımı ayrıca her olaya cihaz modeli, iOS ve uygulama sürümü, dil ve saat dilimi gibi standart teknik bilgileri ekler; uygulamanın açılmasını ve arka plana alınmasını kaydeder. Her internet hizmeti gibi PostHog da isteğin IP adresini alır; bundan yaklaşık konum (ülke veya şehir) çıkarabilir.
-
-**Bulunmayan bilgiler:** ad, e-posta adresi (uygulama bunu sormaz), hesap kimliği (hesap yoktur), yaş, cinsiyet, boy, vücut ağırlığı veya antrenmanlarınızın içeriği.
-
-**Nasıl tanımlanırsınız:** PostHog, uygulama ilk çalıştığında rastgele bir tanımlayıcı oluşturup cihazınıza kaydeder. Bütün olaylar bu tanımlayıcı altında gruplanır. Uygulama PostHog'a kim olduğunuzu söylemez; söyleyebileceği bir hesap veya e-posta da yoktur.
-
-**Kapatma:** Ayarlar ▸ Gizlilik ▸ *Anonim kullanım verilerini paylaş*. Kapatınca uygulama o andan itibaren olay göndermeyi bırakır. Ayar cihazınızda saklanır ve uygulama güncellemelerinden sonra da korunur.
+Analiz varsayılan olarak kapalıdır. Yalnızca kurulum sırasında veya daha sonra Ayarlar'da açıkça onay verirseniz Ranked, AB'de barındırılan PostHog'a kurulum, ilk değerlendirme, rütbe ve aşama değişiklikleri (beceri ve aşama dâhil), satın alma ekranı, satın almalar ve açılan ekranlar hakkında olay gönderir. Canlı antrenman olayları başlangıcı, tamamlanmayı veya yarıda bırakmayı; geçen saniyeleri, kaydedilen set ve farklı beceri sayılarını ve bunun ilk tamamlanan antrenman olup olmadığını içerir. Tek tek egzersizleri, tekrarları, ağırlıkları veya notları içermez. Yaş, cinsiyet, boy ve vücut ağırlığı gönderilmez. PostHog ayrıca cihaz, iOS, uygulama ve dile ilişkin olağan teknik bilgileri ve yaklaşık konum çıkarılabilecek IP adresini alır. Rastgele analiz kimliği onayınızdan sonra oluşturulur. Onayı Ayarlar ▸ Gizlilik'ten geri alabilirsiniz; yeni olaylar durur, önceden gönderilen veriler otomatik olarak silinmez.
 
 ### 3.2 Apple Search Ads ilişkilendirmesi
 
-Bir Apple Search Ads reklamına dokunduktan sonra Ranked'i yüklediyseniz uygulama, ilk açılışta Apple'a yüklemenin nereden geldiğini bir kez sorar. Apple; reklamın kampanyasını, reklam grubunu, anahtar kelimesini ve kreatif setini, tıklamanın ülkesini veya bölgesini ve tarihini, bunun yeni indirme mi yeniden indirme mi olduğunu bildirir. Uygulama bu değerleri §3.1'deki anonim PostHog tanımlayıcısına ekler; böylece sonraki olaylar sizi getiren reklama göre gruplanabilir.
-
-Bunun için reklam tanımlayıcısını (IDFA) kullanmayan Apple **AdServices** altyapısı kullanılır; Apple bunu takip saymaz, dolayısıyla takip izni penceresi gösterilmez. Reklamdan gelmediyseniz Apple bunu bildirir ve başka bir şey eklenmez. Kullanım istatistiklerini (§3.1) kapatmanız bunu da durdurur.
+Ranked, yalnızca analiz onayınızdan sonra Apple AdServices'e bir kez kurulumun Apple Search Ads'den gelip gelmediğini sorar. Bir reklama dokunduysanız kampanya, reklam grubu, anahtar kelime, reklam içeriği, ülke veya bölge, dokunma tarihi ve indirme türü rastgele PostHog kimliğiyle ilişkilendirilebilir. Reklam kimliği IDFA kullanılmaz. Onayı geri çekmek gelecekteki aktarımları durdurur.
 
 ### 3.3 Satın almalar (Apple ve RevenueCat)
 
@@ -95,8 +78,8 @@ Aboneliğinizin etkin olup olmadığını kontrol etmek için uygulama **Revenue
 | İşleme | Dayanak |
 |---|---|
 | Satın almalar ve abonelik doğrulaması (§3.3) | Sözleşmenin ifası |
-| Kullanım istatistikleri (§3.1) | Uygulamayı anlama ve geliştirme yönündeki meşru menfaat; §8 uyarınca kapatarak istediğiniz zaman itiraz edebilirsiniz |
-| Search Ads ilişkilendirmesi (§3.2) | Hangi reklamların işe yaradığını anlama yönündeki meşru menfaat; itiraz yolu yukarıdaki gibidir |
+| Kullanım istatistikleri (§3.1) | Onayınız; Ayarlar ▸ Gizlilik'ten her zaman geri çekilebilir |
+| Search Ads ilişkilendirmesi (§3.2) | Onayınız; Ayarlar ▸ Gizlilik'ten her zaman geri çekilebilir |
 
 **Burada tek değil, iki yasa geçerlidir.** Ranked İsviçre'den işletildiğinden, Eylül 2023'ten beri yürürlükte olan gözden geçirilmiş İsviçre Federal Veri Koruma Yasası (**revDSG**) bu işlemeyi düzenler. Uygulama Avrupa Birliği veya Birleşik Krallık'tan kullanıldığında **GDPR** ayrıca uygulanır. İkisi farklıysa daha sıkı olanı izleriz. İsviçre'de yaşayanlar revDSG Madde 25 ve devamı uyarınca §8'deki aynı temel haklara sahiptir.
 
@@ -122,15 +105,13 @@ Cihazınızdaki her şey, uygulamayı silene kadar orada kalır.
 
 ## 8. Haklarınız
 
-İstediğiniz zaman:
+Analiz onayınızı Ayarlar ▸ Gizlilik'ten gerekçe göstermeden istediğiniz zaman geri çekebilirsiniz. Yeni olaylar hemen durur; ancak önceden gönderilen veriler otomatik silinmez ve App Store aboneliğiniz iptal edilmez.
 
-- **Kullanım istatistiklerini kapatabilirsiniz:** Ayarlar ▸ Gizlilik. Bu, itiraz hakkınız ve işleme rızaya dayanıyorsa rızayı geri çekme hakkınızdır; derhal geçerli olur ve gerekçe gerektirmez.
-- **Verilerinizi silebilirsiniz:** Ranked sunucuda sizinle ilgili hiçbir şey tutmadığından uygulamayı silmek, uygulamanın kendi sakladığı her şeyi kaldırır.
-- **Anonim analiz profilinizin silinmesini isteyebilirsiniz:** Profilin adı olmadığından adla bulamayız; uygulamayı ilk kullandığınız yaklaşık tarihi ve kullandığınız cihazı yazarsanız elle bulup sileriz.
-- Hizmetin tanımlayıcınız altında tuttuğu verilerin **bir kopyasını** isteyebilir, **düzeltilmesini** veya başvurunuz incelenirken işlemenin **kısıtlanmasını** talep edebilirsiniz.
-- Ülkenizdeki bir **denetim makamına şikâyette bulunabilirsiniz**; İsviçre'de bu makam Federal Veri Koruma ve Bilgi Komiseridir (FDPIC).
+Yerel antrenman verilerini Ayarlar ▸ Veriler ▸ *Yerel antrenman verilerini sil* bölümünden veya uygulamayı silerek kaldırabilirsiniz. Aboneliği Apple Hesabınızda ayrıca yönetip iptal edersiniz.
 
-Bunlar için **dylan.schmid538@gmail.com** adresine yazın.
+PostHog'a önceden gönderilmiş veriler için **dylan.schmid538@gmail.com** adresine yazın. Ranked, rastgele analiz kimliğini bir hesaba bağlamaz. Yaklaşık tarih veya cihaz modeli profili güvenilir biçimde bulmaya yetmeyebilir. Neleri belirleyebildiğimizi açıklayacak ve doğrulanabilir erişim, düzeltme veya silme taleplerini işleyeceğiz. Apple Hesabınızın giriş bilgilerini göndermeyin.
+
+İşlemenin kısıtlanmasını talep edebilir ve ülkenizdeki denetim makamına şikâyette bulunabilirsiniz; İsviçre'de bu makam Federal Veri Koruma ve Bilgi Komiseridir (FDPIC).
 
 ---
 
@@ -145,5 +126,3 @@ Ranked, **16 yaş ve üzerindeki** kişiler içindir. Derece formülü yaşa ba�
 Bu adreste yayımlanan sürüm güncel sürümdür; yukarıdaki tarih en son ne zaman değiştiğini gösterir. Eski sürümler, bu sayfaların yayımlandığı deponun herkese açık geçmişinde kalır; neyin ne zaman değiştiğini görebilirsiniz.
 
 ---
-
-> **⚠️ Hukuki danışmanlık değildir.** Bu belge, bir avukat tarafından değil, uygulamanın kaynak koduna dayanarak bir mühendis tarafından hazırlanmıştır. Yukarıdaki tarih itibarıyla sistemi doğru açıklar; her iddia uygulamanın gerçekten gönderdiği verilerle karşılaştırılmıştır. **GDPR, İsviçre revDSG, CCPA veya başka bir düzenlemeye uyum açısından incelenmemiştir.** Yayımlanması Apple'ın gerekliliğini karşılar, ancak sizi hukuka uygun hâle getirmez. Uygulama gelir elde etmeye başladığında bir avukata inceletin.

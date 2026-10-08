@@ -7,9 +7,9 @@ permalink: /privacy/no/
 
 # Personvernerklæring · Calisthenics Skills – Ranked
 
-**Sist oppdatert: 2026-10-02**
+**Sist oppdatert: 2026-10-08**
 
-Denne erklæringen beskriver hvilke opplysninger Ranked samler inn, hvor de sendes, og hva du kan gjøre med dem. Den er skrevet ut fra appens faktiske kode, ikke en mal. Hvis noe her er feil, må koden kontrolleres.
+Denne erklæringen beskriver hvilke opplysninger Ranked samler inn, hvor de sendes, og hva du kan gjøre med dem.
 
 Ranked drives av **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Sveits**, kontakt **dylan.schmid538@gmail.com**. Hun er behandlingsansvarlig for behandlingen som beskrives her.
 
@@ -47,28 +47,11 @@ Når du sletter appen, slettes alt dette fra enheten. Vi kan ikke gjenopprette d
 
 ### 3.1 Bruksstatistikk (PostHog)
 
-Vi bruker **PostHog**, som driftes i **Den europeiske union**, for å forstå hvordan appen brukes. Appen sender en fast liste med hendelser:
-
-- hvilket oppsettstrinn du kom til, fullførte eller gikk tilbake fra, og hvor lang tid hvert trinn tok;
-- resultatet av den innledende vurderingen: hvor mange ferdighetslinjer og trinn du oppga, hvilken ferdighet du valgte som mål, startrangeringen din og rangeringen for hver av de seks kroppsregionene;
-- når kjøpsskjermen ble vist eller lukket, og når et kjøp ble startet, fullført eller gjenopprettet, med tilhørende produkt og tilbud; når appen senere registrerer en aktiv prøveperiode eller en betalt abonnementsperiode, med produktet og om det er et kjøp i testmiljøet (dette er ikke en oversikt over hver belastning og sendes ikke mens appen er lukket);
-- når rangeringen din endres, og hvilken ferdighet som utløste endringen;
-- når du fullfører et trinn: hvilken ferdighet, hvilket trinn, og om det kom fra et loggført sett, en treningsøkt registrert i ettertid eller en manuell angivelse;
-- hvilke skjermer du åpner, og når en treningsøkt avsluttes. Hendelsen for avsluttet økt inneholder ingen detaljer: verken øvelser, sett eller tall.
-
-PostHog-programvaren i appen legger også ved vanlige tekniske opplysninger til hver hendelse, som enhetsmodell, iOS-versjon, appversjon, språk og tidssone, og registrerer når appen åpnes og legges i bakgrunnen. Som alle internetttjenester mottar PostHog forespørselens IP-adresse og kan utlede en omtrentlig plassering (land eller by).
-
-**Dette er ikke med:** navn, e-postadresse (appen ber aldri om den), kontoidentifikator (det finnes ingen), alder, kjønn, høyde, kroppsvekt eller innholdet i treningsøktene dine.
-
-**Hvordan du identifiseres:** PostHog oppretter en tilfeldig identifikator første gang appen kjører og lagrer den på enheten. Alle hendelser grupperes under denne identifikatoren. Appen forteller aldri PostHog hvem du er, og har verken konto eller e-postadresse den kunne oppgitt.
-
-**Slik slår du det av:** Innstillinger ▸ Personvern ▸ *Del anonyme bruksdata*. Når du slår dette av, slutter appen å sende hendelser fra det tidspunktet. Innstillingen lagres på enheten og beholdes gjennom appoppdateringer.
+Analyse er av som standard. Først når du uttrykkelig samtykker under oppsettet eller senere i Innstillinger, sender Ranked hendelser til PostHog i EU om oppsett, første vurdering, endringer i rang og trinn (med ferdighet og trinn), betalingsskjerm, kjøp og åpnede skjermer. Hendelser fra direkte treningsøkter omfatter start, fullføring eller avbrudd, antall sekunder, registrerte sett, ulike ferdigheter og om dette var den første fullførte økten. De omfatter ikke enkeltøvelser, repetisjoner, vekter eller notater. Alder, kjønn, høyde og kroppsvekt sendes ikke. PostHog mottar også vanlige tekniske opplysninger om enhet, iOS, app og språk samt IP-adressen, som kan gi en omtrentlig plassering. En tilfeldig analyse-ID opprettes etter samtykke. Du kan trekke det tilbake i Innstillinger ▸ Personvern; nye hendelser stopper, mens tidligere sendte data ikke slettes automatisk.
 
 ### 3.2 Tilordning fra Apple Search Ads
 
-Hvis du installerte Ranked etter å ha trykket på en Apple Search Ads-annonse, spør appen Apple én gang ved første oppstart hvor installasjonen kom fra. Apple oppgir annonsekampanje, annonsegruppe, søkeord og annonsemateriell, landet eller regionen og datoen for klikket, samt om det var en ny nedlasting eller en nedlasting på nytt. Appen knytter disse verdiene til den anonyme PostHog-identifikatoren i §3.1, slik at senere hendelser kan grupperes etter annonsen som førte deg hit.
-
-Dette bruker Apples **AdServices**-rammeverk, som ikke bruker annonseidentifikatoren (IDFA), og som Apple ikke regner som sporing. Derfor vises ingen forespørsel om sporingstillatelse. Hvis du ikke kom via en annonse, oppgir Apple dette og ingenting knyttes til. Hvis du slår av bruksstatistikk (§3.1), stopper også dette.
+Først etter samtykke til analyse spør Ranked én gang Apples AdServices om tilordning av en installasjon fra Apple Search Ads. Etter et annonseklikk kan kampanje, annonsegruppe, søkeord, annonsemateriell, land eller region, klikkdato og nedlastingstype knyttes til den tilfeldige PostHog-ID-en. Annonseidentifikatoren IDFA brukes ikke. Tilbaketrekking stopper fremtidige overføringer.
 
 ### 3.3 Kjøp (Apple og RevenueCat)
 
@@ -95,8 +78,8 @@ Når du trykker på **Gjenopprett kjøp**, ber appen Apple om kjøp gjort med Ap
 | Behandling | Grunnlag |
 |---|---|
 | Kjøp og bekreftelse av abonnement (§3.3) | Oppfyllelse av en avtale |
-| Bruksstatistikk (§3.1) | Berettiget interesse i å forstå og forbedre appen; du kan når som helst protestere ved å slå den av, se §8 |
-| Tilordning fra Search Ads (§3.2) | Berettiget interesse i å vite hvilken annonsering som virker; protest som ovenfor |
+| Bruksstatistikk (§3.1) | Ditt samtykke; kan trekkes tilbake når som helst i Innstillinger ▸ Personvern |
+| Tilordning fra Search Ads (§3.2) | Ditt samtykke; kan trekkes tilbake når som helst i Innstillinger ▸ Personvern |
 
 **To lovverk gjelder her, ikke bare ett.** Ranked drives fra Sveits, og behandlingen reguleres derfor av den reviderte sveitsiske føderale personvernloven (**revDSG**, i kraft siden september 2023). **GDPR** gjelder i tillegg når appen brukes fra Den europeiske union eller Storbritannia. Der regelverkene er forskjellige, følger vi det strengeste. Bosatte i Sveits har de samme grunnleggende rettighetene som er beskrevet i §8 etter artikkel 25 flg. i revDSG.
 
@@ -122,15 +105,13 @@ Alt på enheten blir der til du sletter appen.
 
 ## 8. Rettighetene dine
 
-Du kan når som helst:
+Du kan når som helst trekke tilbake samtykke til analyse i Innstillinger ▸ Personvern uten begrunnelse. Nye hendelser stopper straks, men allerede sendte data slettes ikke automatisk, og App Store-abonnementet sies ikke opp.
 
-- **Slå av bruksstatistikk** under Innstillinger ▸ Personvern. Dette er retten din til å protestere og, der behandlingen bygger på samtykke, til å trekke det tilbake. Det virker umiddelbart og krever ingen begrunnelse.
-- **Slette dataene dine.** Fordi Ranked ikke lagrer noe om deg på en server, fjerner sletting av appen alt den selv lagrer.
-- **Be oss slette den anonyme analyseprofilen din.** Vi kan ikke finne den via navn — den har ikke noe navn — men hvis du skriver til oss med omtrentlig dato for første gangs bruk og hvilken enhet du brukte, vil vi finne den manuelt og slette den.
-- **Be om en kopi** av data en tjeneste har under identifikatoren din, be oss **rette** dem eller **begrense** behandlingen mens forespørselen undersøkes.
-- **Klage til en tilsynsmyndighet** i landet ditt; i Sveits er dette den føderale datatilsynsmyndigheten (FDPIC).
+Du kan slette lokale treningsdata i Innstillinger ▸ Data ▸ *Slett lokale treningsdata* eller ved å slette appen. Abonnementet administreres og sies opp separat i Apple-kontoen din.
 
-Skriv til **dylan.schmid538@gmail.com** for å benytte deg av disse rettighetene.
+For data som allerede er sendt til PostHog, skriv til **dylan.schmid538@gmail.com**. Ranked knytter ikke den tilfeldige analyse-ID-en til en konto. Omtrentlig dato eller enhetsmodell er kanskje ikke nok til å finne profilen sikkert. Vi forklarer hva vi kan identifisere og behandler verifiserbare forespørsler om innsyn, retting eller sletting. Ikke send påloggingsopplysninger for Apple-kontoen din.
+
+Du kan be om begrensning av behandlingen og klage til tilsynsmyndigheten i landet ditt; i Sveits er dette den føderale databeskyttelses- og informasjonskommissæren (FDPIC).
 
 ---
 
@@ -145,5 +126,3 @@ Ranked er beregnet på personer som er **16 år eller eldre**. Appen spør om al
 Versjonen som er publisert på denne adressen, er den gjeldende. Datoen øverst viser når den sist ble endret. Tidligere versjoner finnes i den offentlige historikken til repositoriet disse sidene publiseres fra, slik at du kan se hva som endret seg og når.
 
 ---
-
-> **⚠️ Ikke juridisk rådgivning.** Dette dokumentet ble skrevet ut fra appens kildekode av en ingeniør, ikke en advokat. Det beskriver systemet slik det er på datoen ovenfor; hver påstand er kontrollert mot det appen faktisk sender. Det er **ikke** vurdert for samsvar med GDPR, sveitsisk revDSG, CCPA eller annet regelverk. Publisering oppfyller Apples krav, men betyr ikke at du er i samsvar med loven. Be en advokat gjennomgå det når appen begynner å tjene penger.

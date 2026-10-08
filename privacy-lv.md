@@ -8,10 +8,9 @@ permalink: /privacy/lv/
 
 # Privātuma politika · Calisthenics Skills – Ranked
 
-**Pēdējoreiz atjaunināts: 2026-10-02**
+**Pēdējoreiz atjaunināts: 2026-10-08**
 
-Šī politika apraksta, ko Ranked vāc, kurp tas nonāk un ko Jūs varat ar to darīt. Tā ir sagatavota
-pēc lietotnes faktiskā koda, nevis pēc veidnes — ja kaut kas šeit ir nepareizi, noteicošais ir kods.
+Šī politika apraksta, ko Ranked vāc, kurp tas nonāk un ko Jūs varat ar to darīt.
 
 Ranked pārvalda **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Šveice**, kontakts
 **dylan.schmid538@gmail.com**. Viņa ir šeit aprakstītās apstrādes pārzine.
@@ -56,52 +55,11 @@ Lietotnes dzēšana izdzēš to visu no ierīces. Mēs to atjaunot nevaram, jo m
 
 ### 3.1 Lietojuma statistika (PostHog)
 
-Mēs izmantojam **PostHog**, kas mitināts **Eiropas Savienībā**, lai saprastu, kā lietotne tiek
-lietota. Lietotne tam nosūta noteiktu notikumu sarakstu:
-
-- līdz kuram iestatīšanas solim nonācāt, kuru pabeidzāt vai no kura atgriezāties un cik ilgi katrs
-  norisinājās;
-- ko parādīja sākotnējais novērtējums: cik prasmju līnijas un pakāpes norādījāt, kuru prasmi
-  izvēlējāties par mērķi, kāds bija Jūsu sākuma rangs un katras no sešām Jūsu ķermeņa daļām rangs;
-- kad tika parādīts vai aizvērts pirkuma ekrāns un kad pirkums tika sākts, pabeigts vai atjaunots —
-  ar attiecīgo produktu un piedāvājumu; kā arī tad, kad lietotne vēlāk konstatē aktīvu izmēģinājuma
-  periodu vai maksas abonementa periodu — ar produktu un norādi, vai tas ir pirkums testēšanas vidē.
-  Tas nav katra atsevišķa maksājuma reģistrs, un šie dati netiek nosūtīti, kamēr lietotne ir aizvērta;
-- kad mainījās Jūsu rangs un kura prasme to izraisīja;
-- kad pabeidzāt pakāpi — kura prasme, kura pakāpe un vai tas nāca no reģistrēta piegājiena, vēlāk
-  pievienota treniņa vai manuālas norādes;
-- kurus ekrānus atverat un kad beidzas sesija. Sesijas beigu notikumā nav nekādu detaļu: ne
-  vingrinājumu, ne piegājienu, ne skaitļu.
-
-PostHog programmatūra lietotnē katram notikumam turklāt pievieno standarta tehnisko informāciju —
-ierīces modeli, iOS versiju, lietotnes versiju, valodu un laika joslu — un fiksē, kad lietotne tiek
-atvērta un pārvietota fonā. Tāpat kā jebkurš interneta pakalpojums, PostHog saņem pieprasījuma IP
-adresi; no tās var izsecināt aptuvenu atrašanās vietu (valsti vai pilsētu).
-
-**Kā tur nav:** neviena vārda, nevienas e-pasta adreses (lietotne to nekad neprasa), neviena konta
-identifikatora (kontu nav), ne vecuma, dzimuma, auguma vai ķermeņa svara, un neviena Jūsu treniņu
-satura.
-
-**Kā Jūs tiekat identificēts:** pirmajā lietotnes palaišanas reizē PostHog izveido nejaušu
-identifikatoru un saglabā to Jūsu ierīcē. Visi notikumi tiek grupēti zem šī identifikatora. Lietotne
-nekad nepasaka PostHog, kas Jūs esat, un nav arī, ko pateikt — nav ne konta, ne e-pasta.
-
-**Izslēgšana:** Iestatījumi ▸ Privātums ▸ *Kopīgot anonīmus lietojuma datus*. To izslēdzot, lietotne
-no šī brīža vairs nesūta notikumus. Iestatījums glabājas Jūsu ierīcē un saglabājas pēc lietotnes
-atjauninājumiem.
+Analītika pēc noklusējuma ir izslēgta. Tikai tad, ja iestatīšanas laikā vai vēlāk Iestatījumos skaidri piekrītat, Ranked nosūta ES izvietotajam PostHog notikumus par iestatīšanu, sākotnējo novērtējumu, ranga un posma izmaiņām (ar prasmi un posmu), pirkuma ekrānu, pirkumiem un atvērtajiem ekrāniem. Tiešsaistes treniņa notikumi ietver sākumu, pabeigšanu vai pārtraukšanu, pagājušās sekundes, reģistrēto sēriju un dažādu prasmju skaitu, kā arī to, vai šis bija pirmais pabeigtais treniņš. Tie nesatur atsevišķus vingrinājumus, atkārtojumus, svarus vai piezīmes. Vecums, dzimums, augums un ķermeņa svars netiek nosūtīti. PostHog saņem arī parastos tehniskos datus par ierīci, iOS, lietotni un valodu un IP adresi, no kuras var secināt aptuvenu atrašanās vietu. Nejaušs analītikas identifikators tiek izveidots pēc piekrišanas. To varat atsaukt Iestatījumos ▸ Privātums; jauni notikumi vairs netiek sūtīti, bet iepriekš nosūtītie dati automātiski netiek dzēsti.
 
 ### 3.2 Apple Search Ads attiecinājums
 
-Ja instalējāt Ranked pēc pieskāriena Apple Search Ads reklāmai, lietotne pirmajā palaišanas reizē
-vienreiz pajautā Apple, no kurienes instalācija nāca. Apple atbild ar šīs reklāmas kampaņu, reklāmu
-grupu, atslēgvārdu un radošo komplektu, klikšķa valsti vai reģionu, klikšķa datumu un to, vai tā bija
-jauna lejupielāde vai atkārtota. Lietotne šīs vērtības pievieno §3.1 aprakstītajam anonīmajam PostHog
-identifikatoram, lai katru vēlāko notikumu varētu attiecināt uz reklāmu, kas Jūs atveda.
-
-Tam tiek izmantots Apple **AdServices** ietvars, kas neizmanto reklāmas identifikatoru (IDFA) un ko
-Apple neuzskata par izsekošanu — tāpēc netiek rādīts izsekošanas atļaujas logs. Ja neatnācāt caur
-reklāmu, Apple to pasaka un nekas netiek pievienots. Lietojuma statistikas izslēgšana (§3.1) aptur
-arī to.
+Tikai pēc piekrišanas analītikai Ranked vienreiz ar Apple AdServices pārbauda, vai instalēšana nākusi no Apple Search Ads. Pēc klikšķa uz reklāmas kampaņu, reklāmu grupu, atslēgvārdu, reklāmas materiālu, valsti vai reģionu, klikšķa datumu un lejupielādes veidu var piesaistīt nejaušajam PostHog identifikatoram. Reklāmas identifikators IDFA netiek izmantots. Piekrišanas atsaukšana aptur turpmāku nosūtīšanu.
 
 ### 3.3 Pirkumi (Apple un RevenueCat)
 
@@ -139,8 +97,8 @@ pieteikto Apple kontu, un rezultātu tādā pašā veidā nodod RevenueCat.
 | Kas | Pamats |
 |---|---|
 | Pirkumi un abonementa pārbaude (§3.3) | Līguma izpilde |
-| Lietojuma statistika (§3.1) | Leģitīma interese saprast un uzlabot lietotni; jebkurā brīdī varat iebilst, to izslēdzot, skat. §8 |
-| Search Ads attiecinājums (§3.2) | Leģitīma interese zināt, kura reklāma darbojas; iebildums kā iepriekš |
+| Lietojuma statistika (§3.1) | Jūsu piekrišana; to jebkurā laikā var atsaukt Iestatījumos ▸ Privātums |
+| Search Ads attiecinājums (§3.2) | Jūsu piekrišana; to jebkurā laikā var atsaukt Iestatījumos ▸ Privātums |
 
 **Šeit piemēro divas tiesību sistēmas, ne vienu.** Ranked tiek pārvaldīta no Šveices, tāpēc šo
 apstrādi regulē pārskatītais Šveices federālais datu aizsardzības likums (**revDSG**, spēkā kopš
@@ -176,21 +134,13 @@ Viss, kas ir Jūsu ierīcē, tur paliek, līdz izdzēšat lietotni.
 
 ## 8. Jūsu tiesības
 
-Jebkurā brīdī Jūs varat:
+Piekrišanu analītikai varat jebkurā laikā bez pamatojuma atsaukt Iestatījumos ▸ Privātums. Jauni notikumi uzreiz apstājas, bet iepriekš nosūtītie dati netiek automātiski dzēsti un App Store abonements netiek atcelts.
 
-- **Izslēgt lietojuma statistiku** sadaļā Iestatījumi ▸ Privātums. Tās ir Jūsu tiesības iebilst un,
-  ja apstrāde balstās uz piekrišanu, to atsaukt — tas stājas spēkā nekavējoties un nav jāpamato.
-- **Izdzēst savus datus.** Tā kā Ranked par Jums neko neglabā serverī, lietotnes dzēšana noņem visu,
-  ko glabā pati lietotne.
-- **Lūgt mums izdzēst Jūsu anonīmo analītikas profilu.** Pēc vārda to atrast nevaram — tāda nav —,
-  bet, ja atrakstīsiet, norādot aptuveno pirmās lietošanas datumu un izmantoto ierīci, mēs to
-  atradīsim manuāli un izdzēsīsim.
-- **Pieprasīt kopiju** datiem, ko pakalpojums glabā zem Jūsu identifikatora, lūgt tos **labot** vai
-  **ierobežot** to apstrādi, kamēr pieprasījums tiek izskatīts.
-- **Iesniegt sūdzību uzraudzības iestādei** savā valstī — Šveicē Federālajam datu aizsardzības un
-  informācijas pilnvarotajam (EDÖB).
+Vietējos treniņu datus varat dzēst Iestatījumos ▸ Dati ▸ *Dzēst vietējos treniņu datus* vai dzēšot lietotni. Abonementu pārvaldāt un atceļat atsevišķi savā Apple kontā.
 
-Visos šajos jautājumos rakstiet uz **dylan.schmid538@gmail.com**.
+Par datiem, kas jau nosūtīti PostHog, rakstiet uz **dylan.schmid538@gmail.com**. Ranked nesaista nejaušo analītikas identifikatoru ar kontu. Aptuvens datums vai ierīces modelis var nebūt pietiekams, lai droši atrastu profilu. Paskaidrosim, ko varam identificēt, un izskatīsim pārbaudāmus piekļuves, labošanas vai dzēšanas pieprasījumus. Nesūtiet Apple konta pieslēgšanās datus.
+
+Varat lūgt ierobežot apstrādi un iesniegt sūdzību savas valsts uzraudzības iestādei; Šveicē tas ir federālais datu aizsardzības un informācijas komisārs (FDPIC).
 
 ---
 
@@ -209,9 +159,3 @@ Iepriekšējās redakcijas paliek redzamas tās krātuves publiskajā vēsturē,
 publicētas, tāpēc varat redzēt, kas un kad mainījās.
 
 ---
-
-> **⚠️ Nav juridiska konsultācija.** Šo dokumentu pēc lietotnes pirmkoda sagatavoja inženieris, nevis
-> jurists. Sistēmu tas apraksta precīzi uz iepriekš norādīto datumu — katrs apgalvojums tajā tika
-> pārbaudīts pret to, ko lietotne patiešām sūta. Tas **nav** izvērtēts atbilstībai VDAR, Šveices
-> revDSG, CCPA vai kādam citam režīmam. Tā publicēšana apmierina Apple prasības; tā nepadara Jūs
-> atbilstīgu tiesību aktiem. Ļaujiet juristam to izlasīt, tiklīdz lietotne sāk pelnīt naudu.

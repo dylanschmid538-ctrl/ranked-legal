@@ -7,9 +7,9 @@ permalink: /privacy/id/
 
 # Kebijakan Privasi · Calisthenics Skills – Ranked
 
-**Terakhir diperbarui: 2026-10-02**
+**Terakhir diperbarui: 2026-10-08**
 
-Kebijakan ini menjelaskan data apa yang dikumpulkan Ranked, ke mana data tersebut dikirim, dan apa yang dapat Anda lakukan. Dokumen ini ditulis berdasarkan kode aplikasi yang sebenarnya, bukan templat; jika ada yang keliru, kodenya yang perlu diperiksa.
+Kebijakan ini menjelaskan data apa yang dikumpulkan Ranked, ke mana data tersebut dikirim, dan apa yang dapat Anda lakukan.
 
 Ranked dioperasikan oleh **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Swiss**, kontak **dylan.schmid538@gmail.com**. Beliau adalah pengendali pemrosesan yang dijelaskan di sini.
 
@@ -47,28 +47,11 @@ Menghapus aplikasi akan menghapus semua data tersebut dari perangkat. Kami tidak
 
 ### 3.1 Statistik penggunaan (PostHog)
 
-Kami menggunakan **PostHog**, yang dihosting di **Uni Eropa**, untuk memahami penggunaan aplikasi. Aplikasi mengirim daftar peristiwa yang tetap:
-
-- langkah penyiapan yang Anda capai, selesaikan, atau mundur darinya, beserta durasi masing-masing;
-- hasil penilaian awal: jumlah jalur keterampilan dan tahap yang Anda klaim, keterampilan yang dipilih sebagai tujuan, peringkat awal, dan peringkat masing-masing dari enam wilayah tubuh;
-- kapan layar pembelian ditampilkan atau ditutup, dan kapan pembelian dimulai, selesai, atau dipulihkan, beserta produk dan penawaran terkait; ketika aplikasi kemudian mendapati masa percobaan aktif atau periode langganan berbayar, beserta produk dan apakah pembelian dilakukan dalam lingkungan pengujian (ini bukan catatan setiap tagihan dan tidak dikirim saat aplikasi ditutup);
-- kapan peringkat Anda berubah dan keterampilan yang memicunya;
-- kapan Anda menyelesaikan tahap: keterampilan dan tahapnya, serta apakah berasal dari set yang dicatat, latihan yang dimasukkan belakangan, atau klaim manual;
-- layar yang Anda buka dan kapan latihan selesai. Peristiwa penyelesaian latihan tidak membawa rincian: bukan gerakan, set, ataupun angkanya.
-
-Perangkat lunak PostHog di aplikasi juga menambahkan informasi teknis standar pada setiap peristiwa, seperti model perangkat, versi iOS, versi aplikasi, bahasa, dan zona waktu, serta mencatat kapan aplikasi dibuka dan dipindahkan ke latar belakang. Seperti layanan internet lainnya, PostHog menerima alamat IP permintaan dan mungkin menyimpulkan lokasi perkiraan (negara atau kota) darinya.
-
-**Yang tidak disertakan:** nama, alamat email (aplikasi tidak pernah memintanya), pengenal akun (tidak ada), usia, jenis kelamin, tinggi atau berat badan, maupun isi latihan Anda.
-
-**Cara Anda dikenali:** PostHog membuat pengenal acak saat aplikasi pertama kali berjalan dan menyimpannya di perangkat Anda. Semua peristiwa dikelompokkan berdasarkan pengenal tersebut. Aplikasi tidak pernah memberi tahu PostHog siapa Anda; tidak ada akun ataupun email yang dapat disampaikan.
-
-**Cara menonaktifkan:** Pengaturan ▸ Privasi ▸ *Bagikan data penggunaan anonim*. Menonaktifkannya menghentikan pengiriman peristiwa oleh aplikasi sejak saat itu. Pengaturan disimpan di perangkat dan bertahan setelah pembaruan aplikasi.
+Analitik dinonaktifkan secara default. Hanya jika Anda memberi persetujuan secara tegas saat penyiapan atau nanti di Pengaturan, Ranked mengirim peristiwa ke PostHog yang dihosting di UE: penyiapan, penilaian awal, perubahan peringkat dan tahap (beserta keahlian dan tahap), layar pembelian, pembelian, dan layar yang dibuka. Peristiwa latihan langsung mencakup mulai, selesai atau ditinggalkan, detik yang berlalu, jumlah set yang dicatat, jumlah keahlian berbeda, dan apakah itu latihan pertama yang selesai. Peristiwa ini tidak mencakup latihan individual, repetisi, beban, atau catatan. Usia, jenis kelamin, tinggi dan berat badan tidak dikirim. PostHog juga menerima informasi teknis umum tentang perangkat, iOS, aplikasi, bahasa dan alamat IP yang dapat menunjukkan lokasi perkiraan. ID analitik acak dibuat setelah persetujuan. Anda dapat menarik persetujuan di Pengaturan ▸ Privasi; peristiwa baru berhenti, tetapi data yang sudah dikirim tidak otomatis dihapus.
 
 ### 3.2 Atribusi Apple Search Ads
 
-Jika Anda memasang Ranked setelah mengetuk iklan Apple Search Ads, saat pertama kali dibuka aplikasi menanyakan kepada Apple satu kali sumber pemasangannya. Apple memberikan kampanye, grup iklan, kata kunci, dan kumpulan materi iklan, negara atau wilayah serta tanggal klik, dan apakah itu unduhan baru atau unduhan ulang. Aplikasi mengaitkan nilai-nilai ini dengan pengenal PostHog anonim pada §3.1, sehingga peristiwa berikutnya dapat dikelompokkan menurut iklan yang membawa Anda.
-
-Ini menggunakan kerangka kerja **AdServices** Apple, tanpa pengenal iklan (IDFA), dan Apple tidak menganggapnya sebagai pelacakan; karena itu tidak ada dialog izin pelacakan. Jika Anda tidak datang melalui iklan, Apple menyatakannya dan tidak ada informasi lain yang dikaitkan. Menonaktifkan statistik penggunaan (§3.1) juga menghentikan proses ini.
+Hanya setelah persetujuan analitik, Ranked sekali meminta Apple AdServices menentukan apakah pemasangan berasal dari Apple Search Ads. Jika Anda mengetuk iklan, kampanye, grup iklan, kata kunci, materi iklan, negara atau wilayah, tanggal ketukan dan jenis unduhan dapat dikaitkan dengan ID acak PostHog. ID iklan IDFA tidak digunakan. Penarikan persetujuan menghentikan pengiriman di masa mendatang.
 
 ### 3.3 Pembelian (Apple dan RevenueCat)
 
@@ -95,8 +78,8 @@ Saat Anda mengetuk **Pulihkan Pembelian**, aplikasi meminta Apple memberikan pem
 | Pemrosesan | Dasar hukum |
 |---|---|
 | Pembelian dan verifikasi langganan (§3.3) | Pelaksanaan kontrak |
-| Statistik penggunaan (§3.1) | Kepentingan yang sah untuk memahami dan memperbaiki aplikasi; Anda dapat menolak kapan saja dengan menonaktifkannya, lihat §8 |
-| Atribusi Search Ads (§3.2) | Kepentingan yang sah untuk mengetahui iklan yang efektif; penolakan seperti di atas |
+| Statistik penggunaan (§3.1) | Persetujuan Anda; dapat ditarik kapan saja di Pengaturan ▸ Privasi |
+| Atribusi Search Ads (§3.2) | Persetujuan Anda; dapat ditarik kapan saja di Pengaturan ▸ Privasi |
 
 **Dua hukum berlaku di sini, bukan satu.** Ranked dioperasikan dari Swiss, sehingga Undang-Undang Federal Swiss tentang Perlindungan Data yang direvisi (**revDSG**, berlaku sejak September 2023) mengatur pemrosesan ini. **GDPR** juga berlaku apabila aplikasi digunakan dari Uni Eropa atau Britania Raya. Jika keduanya berbeda, kami mengikuti aturan yang lebih ketat. Penduduk Swiss memiliki hak-hak pokok yang sama sebagaimana tercantum pada §8 berdasarkan Pasal 25 dan seterusnya revDSG.
 
@@ -122,15 +105,13 @@ Semua data pada perangkat tetap tersimpan hingga Anda menghapus aplikasi.
 
 ## 8. Hak Anda
 
-Anda dapat kapan saja:
+Anda dapat menarik persetujuan analitik kapan saja di Pengaturan ▸ Privasi tanpa alasan. Peristiwa baru segera berhenti, tetapi data yang sudah dikirim tidak otomatis dihapus dan langganan App Store tidak dibatalkan.
 
-- **Menonaktifkan statistik penggunaan** di Pengaturan ▸ Privasi. Ini adalah hak untuk menolak dan, jika pemrosesan didasarkan pada persetujuan, menarik persetujuan tersebut; berlaku segera tanpa perlu alasan.
-- **Menghapus data Anda.** Karena Ranked tidak menyimpan apa pun tentang Anda di server, menghapus aplikasi menghilangkan semua yang disimpan aplikasi itu sendiri.
-- **Meminta penghapusan profil analitik anonim.** Kami tidak dapat menemukannya berdasarkan nama karena tidak ada nama, tetapi jika Anda menulis kepada kami dengan perkiraan tanggal pertama kali memakai aplikasi dan perangkat yang digunakan, kami akan mencarinya secara manual dan menghapusnya.
-- **Meminta salinan** data yang disimpan layanan berdasarkan pengenal Anda, meminta kami **memperbaikinya**, atau **membatasi** pemrosesannya selama permintaan diperiksa.
-- **Mengajukan keluhan kepada otoritas pengawas** di negara Anda; di Swiss, Komisaris Federal Perlindungan Data dan Informasi (FDPIC).
+Anda dapat menghapus data latihan lokal di Pengaturan ▸ Data ▸ *Hapus data latihan lokal* atau dengan menghapus aplikasi. Langganan dikelola dan dibatalkan secara terpisah di Akun Apple Anda.
 
-Tulislah kepada **dylan.schmid538@gmail.com** untuk hal-hal tersebut.
+Untuk data yang sudah dikirim ke PostHog, tulis ke **dylan.schmid538@gmail.com**. Ranked tidak menghubungkan ID analitik acak dengan akun. Tanggal perkiraan atau model perangkat mungkin tidak cukup untuk menemukan profil secara andal. Kami akan menjelaskan data yang dapat diidentifikasi dan memproses permintaan akses, koreksi atau penghapusan yang dapat diverifikasi. Jangan kirim kredensial Akun Apple.
+
+Anda dapat meminta pembatasan pemrosesan dan mengajukan keluhan kepada otoritas pengawas di negara Anda; di Swiss kepada Komisaris Federal Perlindungan Data dan Informasi (FDPIC).
 
 ---
 
@@ -145,5 +126,3 @@ Ranked ditujukan bagi orang yang berusia **16 tahun ke atas**. Aplikasi menanyak
 Versi yang diterbitkan di alamat ini adalah versi yang berlaku, dan tanggal di bagian atas menunjukkan kapan terakhir diperbarui. Versi sebelumnya tetap dapat dilihat dalam riwayat publik repositori tempat halaman ini diterbitkan, sehingga Anda dapat mengetahui apa yang berubah dan kapan.
 
 ---
-
-> **⚠️ Bukan nasihat hukum.** Dokumen ini disusun dari kode sumber aplikasi oleh seorang insinyur, bukan pengacara. Dokumen ini menggambarkan sistem secara akurat pada tanggal di atas; setiap pernyataan telah diperiksa terhadap data yang benar-benar dikirim aplikasi. Dokumen ini **belum** ditinjau untuk kepatuhan terhadap GDPR, revDSG Swiss, CCPA, atau aturan lain. Penerbitannya memenuhi persyaratan Apple; penerbitan tidak menjamin kepatuhan hukum. Mintalah pengacara membacanya setelah aplikasi menghasilkan pendapatan.

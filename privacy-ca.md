@@ -7,9 +7,9 @@ permalink: /privacy/ca/
 
 # Política de privacitat · Calisthenics Skills – Ranked
 
-**Última actualització: 2026-10-02**
+**Última actualització: 2026-10-08**
 
-Aquesta política explica quines dades recull Ranked, on van i què podeu fer al respecte. S'ha redactat a partir del codi real de l'aplicació, no d'una plantilla; si alguna cosa és incorrecta, cal comprovar el codi.
+Aquesta política explica quines dades recull Ranked, on van i què podeu fer al respecte.
 
 Ranked és operada per **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Suïssa**, contacte **dylan.schmid538@gmail.com**. Ella és la responsable del tractament descrit aquí.
 
@@ -47,28 +47,11 @@ En esborrar l'aplicació, tot això s'esborra del dispositiu. No ho podem recupe
 
 ### 3.1 Estadístiques d'ús (PostHog)
 
-Fem servir **PostHog**, allotjat a la **Unió Europea**, per entendre com s'utilitza l'aplicació. L'aplicació li envia una llista fixa d'esdeveniments:
-
-- a quin pas de configuració heu arribat, quin heu completat o de quin heu tornat enrere, i quant ha durat cadascun;
-- el resultat de l'avaluació inicial: quantes línies d'habilitats i etapes heu indicat que teniu assolides, quina habilitat heu triat com a objectiu, el rang inicial i el rang de cadascuna de les sis regions corporals;
-- quan s'ha mostrat o tancat la pantalla de compra i quan s'ha iniciat, completat o restaurat una compra, amb el producte i l'oferta corresponents; quan l'aplicació detecta més endavant un període de prova o de subscripció de pagament actiu, amb el producte i si es tracta d'una compra de prova (no és un registre de tots els càrrecs i no s'envia mentre l'aplicació està tancada);
-- quan ha canviat el vostre rang i quina habilitat n'ha estat la causa;
-- quan heu superat una etapa: quina habilitat i etapa, i si prové d'una sèrie registrada, d'un entrenament afegit posteriorment o d'una indicació manual;
-- quines pantalles obriu i quan acaba un entrenament. L'esdeveniment de finalització no conté detalls: ni exercicis, ni sèries, ni xifres.
-
-El programari de PostHog dins l'aplicació també afegeix informació tècnica estàndard a cada esdeveniment, com el model del dispositiu, les versions d'iOS i de l'aplicació, l'idioma i la zona horària, i registra quan s'obre l'aplicació o passa a segon pla. Com qualsevol servei d'internet, PostHog rep l'adreça IP de la petició; en pot deduir una ubicació aproximada (país o ciutat).
-
-**Què no hi ha:** ni nom, ni adreça electrònica (l'aplicació no la demana mai), ni identificador de compte (no n'hi ha), ni edat, sexe, alçada, pes corporal o contingut dels entrenaments.
-
-**Com se us identifica:** PostHog genera un identificador aleatori quan l'aplicació s'executa per primer cop i el desa al dispositiu. Tots els esdeveniments s'agrupen sota aquest identificador. L'aplicació no diu mai a PostHog qui sou, ni té cap compte o correu electrònic que li pugui comunicar.
-
-**Com desactivar-ho:** Configuració ▸ Privacitat ▸ *Comparteix dades d'ús anònimes*. Desactivar-ho atura l'enviament d'esdeveniments des d'aquell moment. La configuració es desa al dispositiu i es manté després de les actualitzacions.
+L'anàlisi és desactivada per defecte. Només si hi consentiu expressament durant la configuració o després a Configuració, Ranked envia a PostHog a la UE esdeveniments de configuració, avaluació inicial, canvis de rang i etapa (amb habilitat i etapa), pantalla de compra, compres i pantalles obertes. Els esdeveniments d'entrenament en directe inclouen inici, finalització o abandonament, segons transcorreguts, nombre de sèries registrades, nombre d'habilitats diferents i si era el primer entrenament acabat. No inclouen exercicis individuals, repeticions, pesos ni notes. No s'envien edat, sexe, alçada ni pes corporal. PostHog també rep dades tècniques habituals del dispositiu, iOS, l'app i l'idioma, i l'adreça IP, de la qual es pot deduir una ubicació aproximada. L'identificador aleatori d'anàlisi es crea després del consentiment. Podeu retirar-lo a Configuració ▸ Privadesa; els nous enviaments s'aturen, però les dades ja enviades no s'esborren automàticament.
 
 ### 3.2 Atribució d'Apple Search Ads
 
-Si heu instal·lat Ranked després de tocar un anunci d'Apple Search Ads, la primera vegada que s'obre l'aplicació pregunta a Apple, una sola vegada, d'on ha vingut la instal·lació. Apple respon amb la campanya, el grup d'anuncis, la paraula clau i el conjunt creatiu de l'anunci, el país o regió i la data del clic, i si és una descàrrega nova o una descàrrega repetida. L'aplicació adjunta aquests valors a l'identificador anònim de PostHog descrit al §3.1, de manera que els esdeveniments posteriors es puguin agrupar segons l'anunci que us hi va portar.
-
-Això fa servir el framework **AdServices** d'Apple, que no implica l'identificador publicitari (IDFA) i que Apple no considera seguiment; per tant, no apareix cap diàleg de permís de seguiment. Si no heu arribat a través d'un anunci, Apple ho indica i no s'hi adjunta res més. Desactivar les estadístiques d'ús (§3.1) també ho atura.
+Només després del consentiment per a l'anàlisi, Ranked consulta una vegada AdServices d'Apple per atribuir una instal·lació procedent d'Apple Search Ads. Si heu premut un anunci, campanya, grup, paraula clau, creativitat, país o regió, data del clic i tipus de descàrrega es poden vincular a l'identificador aleatori de PostHog. No s'utilitza l'identificador publicitari IDFA. La retirada del consentiment atura els enviaments futurs.
 
 ### 3.3 Compres (Apple i RevenueCat)
 
@@ -95,8 +78,8 @@ Quan toqueu **Restaura les compres**, l'aplicació demana a Apple les compres fe
 | Tractament | Base |
 |---|---|
 | Compres i verificació de la subscripció (§3.3) | Execució d'un contracte |
-| Estadístiques d'ús (§3.1) | Interès legítim a entendre i millorar l'aplicació; us hi podeu oposar en qualsevol moment desactivant-les, vegeu §8 |
-| Atribució de Search Ads (§3.2) | Interès legítim a saber quina publicitat funciona; oposició com s'indica més amunt |
+| Estadístiques d'ús (§3.1) | El vostre consentiment, revocable en qualsevol moment a Configuració ▸ Privadesa |
+| Atribució de Search Ads (§3.2) | El vostre consentiment, revocable en qualsevol moment a Configuració ▸ Privadesa |
 
 **Aquí s'apliquen dues lleis, no una.** Ranked s'opera des de Suïssa; per tant, la Llei federal suïssa de protecció de dades revisada (**revDSG**, vigent des del setembre de 2023) regeix aquest tractament. L'**RGPD** també s'aplica quan l'aplicació s'utilitza des de la Unió Europea o el Regne Unit. Si divergeixen, seguim la norma més estricta. Els residents a Suïssa tenen els mateixos drets bàsics indicats al §8 en virtut de l'article 25 i següents de la revDSG.
 
@@ -122,15 +105,13 @@ Tot el que hi ha al dispositiu s'hi queda fins que esborreu l'aplicació.
 
 ## 8. Els vostres drets
 
-En qualsevol moment podeu:
+Podeu retirar en qualsevol moment el consentiment per a l'anàlisi a Configuració ▸ Privadesa, sense donar cap motiu. S'aturen immediatament els esdeveniments nous, però no s'esborren automàticament les dades ja enviades ni es cancel·la la subscripció de l'App Store.
 
-- **Desactivar les estadístiques d'ús** a Configuració ▸ Privacitat. És el vostre dret d'oposició i, quan el tractament es basa en el consentiment, de retirar-lo. Té efecte immediat i no cal donar cap motiu.
-- **Esborrar les vostres dades.** Com que Ranked no conserva res de vosaltres en un servidor, esborrar l'aplicació elimina tot el que ella mateixa desa.
-- **Demanar-nos que eliminem el vostre perfil analític anònim.** No el podem trobar pel nom, perquè no en té; si ens escriviu amb la data aproximada del primer ús i el dispositiu que vau utilitzar, el localitzarem manualment i l'eliminarem.
-- **Sol·licitar una còpia** de les dades que un servei conserva sota el vostre identificador, demanar-ne la **rectificació** o **limitar-ne** el tractament mentre s'examina una sol·licitud.
-- **Presentar una reclamació davant l'autoritat de control** del vostre país; a Suïssa, el Comissionat Federal de Protecció de Dades i Informació (FDPIC).
+Podeu eliminar les dades d'entrenament locals a Configuració ▸ Dades ▸ *Eliminar dades d'entrenament locals*, o bé eliminant l'app. La subscripció es gestiona i es cancel·la per separat al vostre compte d'Apple.
 
-Escriviu a **dylan.schmid538@gmail.com** per a qualsevol d'aquestes qüestions.
+Per a les dades ja enviades a PostHog, escriviu a **dylan.schmid538@gmail.com**. Ranked no vincula l'identificador aleatori a cap compte. Una data aproximada o un model de dispositiu pot no ser suficient per trobar el perfil de manera fiable. Explicarem què podem identificar i atendrem sol·licituds verificables d'accés, rectificació o supressió. No envieu credencials del compte d'Apple.
+
+Podeu demanar la limitació del tractament i presentar una reclamació davant l'autoritat de protecció de dades del vostre país; a Suïssa és el Comissionat Federal de Protecció de Dades i Transparència (FDPIC).
 
 ---
 
@@ -145,5 +126,3 @@ Ranked s'adreça a persones de **16 anys o més**. L'aplicació demana l'edat du
 La versió publicada en aquesta adreça és la vigent; la data de dalt indica quan es va modificar per darrera vegada. Les versions anteriors continuen visibles a l'historial públic del repositori des del qual es publiquen aquestes pàgines, perquè pugueu veure què va canviar i quan.
 
 ---
-
-> **⚠️ No és assessorament jurídic.** Aquest document l'ha redactat un enginyer a partir del codi font de l'aplicació, no un advocat. Descriu el sistema amb precisió a la data indicada; cada afirmació s'ha contrastat amb allò que l'aplicació envia realment. **No** s'ha revisat el compliment de l'RGPD, la revDSG suïssa, la CCPA ni cap altre règim. Publicar-lo satisfà Apple, però no garanteix el compliment legal. Feu-lo revisar per un advocat quan l'aplicació generi ingressos.

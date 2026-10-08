@@ -7,9 +7,9 @@ permalink: /privacy/ro/
 
 # Politica de confidențialitate · Calisthenics Skills – Ranked
 
-**Ultima actualizare: 2026-10-02**
+**Ultima actualizare: 2026-10-08**
 
-Această politică descrie ce date colectează Ranked, unde ajung și ce puteți face în privința lor. A fost redactată pe baza codului efectiv al aplicației, nu a unui șablon; dacă ceva de aici este greșit, codul trebuie verificat.
+Această politică descrie ce date colectează Ranked, unde ajung și ce puteți face în privința lor.
 
 Ranked este operată de **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Elveția**, contact **dylan.schmid538@gmail.com**. Ea este operatorul prelucrărilor descrise aici.
 
@@ -47,28 +47,11 @@ Aplicația nu exclude această bază de date din copia de rezervă a dispozitivu
 
 ### 3.1 Statistici de utilizare (PostHog)
 
-Folosim **PostHog**, găzduit în **Uniunea Europeană**, pentru a înțelege utilizarea aplicației. Aplicația trimite o listă fixă de evenimente:
-
-- ce pas de configurare ați atins, finalizat sau din care v-ați întors și durata fiecărui pas;
-- rezultatul evaluării inițiale: câte linii de abilități și etape ați revendicat, abilitatea aleasă drept obiectiv, rangul inițial și rangul fiecăreia dintre cele șase regiuni ale corpului;
-- când a fost afișat sau închis ecranul de cumpărare și când o cumpărare a fost inițiată, finalizată sau restaurată, cu produsul și oferta aferente; când aplicația observă ulterior o perioadă activă de probă sau de abonament plătit, cu produsul și informația dacă este o cumpărare în mediul de testare (aceasta nu este o evidență a fiecărei plăți și nu se transmite cât timp aplicația este închisă);
-- când vi s-a schimbat rangul și ce abilitate a declanșat schimbarea;
-- când ați finalizat o etapă: abilitatea, etapa și dacă a rezultat dintr-o serie înregistrată, un antrenament adăugat ulterior sau o revendicare manuală;
-- ce ecrane deschideți și când se încheie un antrenament. Evenimentul de încheiere nu conține detalii: nici exerciții, nici serii, nici cifre.
-
-Software-ul PostHog din aplicație adaugă fiecărui eveniment informații tehnice standard, precum modelul dispozitivului, versiunea iOS, versiunea aplicației, limba și fusul orar, și înregistrează când aplicația este deschisă sau trecută în fundal. Ca orice serviciu de internet, PostHog primește adresa IP a cererii; din aceasta poate deduce o locație aproximativă (țară sau oraș).
-
-**Ce nu este inclus:** numele, adresa de e-mail (aplicația nu o cere), un identificator de cont (nu există), vârsta, sexul, înălțimea, greutatea sau conținutul antrenamentelor.
-
-**Cum sunteți identificat:** PostHog generează la prima pornire un identificator aleatoriu, stocat pe dispozitiv. Toate evenimentele sunt grupate sub acest identificator. Aplicația nu îi spune niciodată PostHog cine sunteți și nu există niciun cont sau e-mail pe care l-ar putea comunica.
-
-**Dezactivare:** Setări ▸ Confidențialitate ▸ *Partajează date anonime de utilizare*. Dezactivarea oprește trimiterea evenimentelor din acel moment. Setarea este stocată pe dispozitiv și rămâne valabilă după actualizările aplicației.
+Analiza este dezactivată implicit. Numai dacă vă dați acordul explicit la configurare sau ulterior în Setări, Ranked trimite către PostHog în UE evenimente privind configurarea, evaluarea inițială, schimbările de rang și etapă (cu abilitatea și etapa), ecranul de cumpărare, achizițiile și ecranele deschise. Evenimentele antrenamentelor în timp real includ începutul, finalizarea sau abandonarea, secundele scurse, numărul de seturi înregistrate, numărul de abilități diferite și dacă a fost primul antrenament finalizat. Nu includ exerciții individuale, repetări, greutăți sau note. Vârsta, sexul, înălțimea și greutatea corporală nu sunt transmise. PostHog primește și informații tehnice obișnuite despre dispozitiv, iOS, aplicație și limbă, precum și adresa IP, din care se poate deduce o locație aproximativă. Un identificator aleatoriu este creat după consimțământ. Îl puteți retrage în Setări ▸ Confidențialitate; noile evenimente se opresc, dar datele deja trimise nu sunt șterse automat.
 
 ### 3.2 Atribuirea Apple Search Ads
 
-Dacă ați instalat Ranked după ce ați apăsat pe o reclamă Apple Search Ads, la prima lansare aplicația întreabă o singură dată Apple de unde a provenit instalarea. Apple răspunde cu campania, grupul de anunțuri, cuvântul-cheie și setul de materiale creative ale reclamei, țara sau regiunea clicului, data clicului și dacă a fost o descărcare nouă sau repetată. Aplicația atașează aceste valori identificatorului anonim PostHog din §3.1, pentru ca evenimentele ulterioare să poată fi grupate după reclama care v-a adus.
-
-Este folosit framework-ul **AdServices** de la Apple, fără identificatorul publicitar (IDFA); Apple nu consideră acest lucru urmărire, deci nu apare un dialog de permisiune pentru urmărire. Dacă nu ați venit printr-o reclamă, Apple indică acest lucru și nu se atașează nimic altceva. Dezactivarea statisticilor de utilizare (§3.1) oprește și această atribuire.
+Doar după consimțământul pentru analiză, Ranked întreabă o singură dată Apple AdServices dacă instalarea provine din Apple Search Ads. După un clic pe reclamă, campania, grupul, cuvântul-cheie, materialul publicitar, țara sau regiunea, data clicului și tipul descărcării pot fi asociate identificatorului aleatoriu PostHog. IDFA nu este folosit. Retragerea consimțământului oprește transmiterile viitoare.
 
 ### 3.3 Cumpărături (Apple și RevenueCat)
 
@@ -95,8 +78,8 @@ Când apăsați **Restaurare cumpărături**, aplicația cere de la Apple cumpă
 | Prelucrare | Temei |
 |---|---|
 | Cumpărături și verificarea abonamentului (§3.3) | Executarea unui contract |
-| Statistici de utilizare (§3.1) | Interesul legitim de a înțelege și îmbunătăți aplicația; vă puteți opune oricând prin dezactivare, vezi §8 |
-| Atribuirea Search Ads (§3.2) | Interesul legitim de a ști ce publicitate funcționează; opoziție ca mai sus |
+| Statistici de utilizare (§3.1) | Consimțământul dvs.; poate fi retras oricând în Setări ▸ Confidențialitate |
+| Atribuirea Search Ads (§3.2) | Consimțământul dvs.; poate fi retras oricând în Setări ▸ Confidențialitate |
 
 **Se aplică două legi, nu una.** Ranked este operată din Elveția, deci prelucrarea este guvernată de Legea federală elvețiană revizuită privind protecția datelor (**revDSG**, în vigoare din septembrie 2023). **GDPR** se aplică suplimentar oriunde aplicația este utilizată din Uniunea Europeană sau Regatul Unit. Dacă diferă, urmăm regula mai strictă. Rezidenții elvețieni au aceleași drepturi de bază enumerate la §8 potrivit art. 25 și următoarele din revDSG.
 
@@ -122,15 +105,13 @@ Tot ce este pe dispozitiv rămâne acolo până ștergeți aplicația.
 
 ## 8. Drepturile dvs.
 
-Puteți oricând:
+Puteți retrage oricând, fără motiv, consimțământul pentru analiză în Setări ▸ Confidențialitate. Noile evenimente încetează imediat, dar datele deja trimise nu sunt șterse automat și abonamentul App Store nu este anulat.
 
-- **Dezactiva statisticile de utilizare** în Setări ▸ Confidențialitate. Acesta este dreptul de opoziție și, când prelucrarea se bazează pe consimțământ, de retragere a lui; efectul este imediat și nu trebuie motivat.
-- **Șterge datele dvs.** Deoarece Ranked nu deține nimic despre dvs. pe un server, ștergerea aplicației elimină tot ce stochează aplicația însăși.
-- **Solicita ștergerea profilului anonim de analiză.** Nu îl putem găsi după nume, fiindcă nu are unul; dacă ne scrieți data aproximativă când ați folosit prima dată aplicația și dispozitivul utilizat, îl vom găsi manual și îl vom șterge.
-- **Solicita o copie** a datelor deținute de un serviciu sub identificatorul dvs., **corectarea** lor sau **restricționarea** prelucrării pe durata examinării unei cereri.
-- **Depune o plângere la autoritatea de supraveghere** din țara dvs.; în Elveția, Comisarul federal pentru protecția datelor și transparență (FDPIC).
+Puteți șterge datele locale de antrenament în Setări ▸ Date ▸ *Șterge datele locale de antrenament* sau prin ștergerea aplicației. Abonamentul se gestionează și se anulează separat în Contul Apple.
 
-Pentru oricare dintre acestea, scrieți la **dylan.schmid538@gmail.com**.
+Pentru datele deja trimise către PostHog, scrieți la **dylan.schmid538@gmail.com**. Ranked nu leagă identificatorul aleatoriu de un cont. O dată aproximativă sau modelul dispozitivului pot să nu fie suficiente pentru identificarea sigură a profilului. Vom explica ce putem identifica și vom procesa cererile verificabile de acces, rectificare sau ștergere. Nu trimiteți datele de acces ale Contului Apple.
+
+Puteți solicita restricționarea prelucrării și depune plângere la autoritatea de supraveghere din țara dvs.; în Elveția este Comisarul federal pentru protecția datelor și transparență (FDPIC).
 
 ---
 
@@ -145,5 +126,3 @@ Ranked este destinată persoanelor de **16 ani și peste**. Aplicația vă cere 
 Versiunea publicată la această adresă este cea actuală, iar data de sus arată când a fost modificată ultima dată. Versiunile anterioare rămân vizibile în istoricul public al depozitului din care sunt publicate aceste pagini, astfel încât puteți vedea ce s-a schimbat și când.
 
 ---
-
-> **⚠️ Nu reprezintă consultanță juridică.** Acest document a fost redactat de un inginer pe baza codului sursă al aplicației, nu de un avocat. Descrie sistemul corect la data de mai sus; fiecare afirmație a fost verificată în raport cu ceea ce transmite efectiv aplicația. **Nu** a fost verificat pentru conformitatea cu GDPR, revDSG elvețian, CCPA sau alte reglementări. Publicarea lui satisface cerința Apple, dar nu vă face conform cu legea. Solicitați revizuirea lui de către un avocat când aplicația începe să genereze venituri.
