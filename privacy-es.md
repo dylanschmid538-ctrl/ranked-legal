@@ -51,6 +51,8 @@ El análisis está desactivado de forma predeterminada. Solo si da su consentimi
 
 La app también puede comunicar la fase de la suscripción, el acceso actual, el estado de renovación y si se detectó una cancelación o un problema de facturación. Estas observaciones no constituyen prueba de un cargo y solo se envían mientras el análisis está activado.
 
+Con su consentimiento, los eventos de uso también registran cuándo selecciona un plan de entrenamiento y cuándo abre una sesión de entrenamiento. La selección del plan incluye únicamente el número de días de entrenamiento por semana y de ejercicios; la apertura de la sesión incluye únicamente si se reanuda, el origen de entrada y el número de ejercicios prescritos. El contenido completo de los planes, los horarios, los ejercicios individuales y las notas de entrenamiento permanecen en su dispositivo.
+
 ### 3.2 Atribución de Apple Search Ads
 
 Solo después de su consentimiento para el análisis, Ranked consulta una vez mediante AdServices de Apple la atribución de una instalación procedente de Apple Search Ads. Si tocó un anuncio, la campaña, el grupo de anuncios, la palabra clave, el elemento creativo, el país o región, la fecha del clic y el tipo de descarga pueden asociarse al identificador aleatorio de PostHog. No se usa el identificador publicitario IDFA. La retirada del consentimiento detiene futuros envíos.

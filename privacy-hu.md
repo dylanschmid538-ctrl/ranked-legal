@@ -51,6 +51,8 @@ Az elemzés alapértelmezés szerint ki van kapcsolva. A Ranked csak akkor küld
 
 Az alkalmazás az előfizetés szakaszát, az aktuális hozzáférést, a megújítás állapotát és az észlelt lemondást vagy számlázási problémát is jelentheti. Ezek a megfigyelések nem bizonyítanak terhelést, és csak bekapcsolt analitika mellett kerülnek elküldésre.
 
+Az Ön hozzájárulásával a használati események azt is rögzítik, mikor választ edzéstervet és mikor nyit meg egy edzést. A terv kiválasztása csak a heti edzésnapok és a gyakorlatok számát tartalmazza; az edzés megnyitása csak azt, hogy folytatásról van-e szó, a belépés forrását és az előírt gyakorlatok számát. A tervek teljes tartalma, az ütemezések, az egyes gyakorlatok és az edzésjegyzetek az eszközén maradnak.
+
 ### 3.2 Apple Search Ads-hozzárendelés
 
 Csak az elemzéshez adott hozzájárulás után kérdezi le a Ranked egyszer az Apple AdServices rendszerétől, hogy a telepítés Apple Search Ads hirdetésből származott-e. Hirdetésre kattintás után a kampány, hirdetéscsoport, kulcsszó, kreatív anyag, ország vagy régió, kattintási dátum és letöltéstípus a véletlenszerű PostHog-azonosítóhoz kapcsolható. Az IDFA hirdetési azonosítót nem használjuk. A hozzájárulás visszavonása leállítja a jövőbeli továbbítást.

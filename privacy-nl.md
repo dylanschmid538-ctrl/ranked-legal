@@ -51,6 +51,8 @@ Analyse staat standaard uit. Alleen als u tijdens de eerste inrichting of later 
 
 De app kan ook de abonnementsfase, huidige toegang, verlengingsstatus en de detectie van een opzegging of factureringsprobleem melden. Deze waarnemingen zijn geen bewijs van een afschrijving en worden alleen verzonden zolang analyse is ingeschakeld.
 
+Met uw toestemming registreren gebruiksgebeurtenissen ook wanneer u een trainingsplan selecteert en een trainingssessie opent. De selectie van een plan omvat alleen het aantal trainingsdagen per week en oefeningen; het openen van een sessie omvat alleen of deze wordt hervat, de bron van binnenkomst en het aantal voorgeschreven oefeningen. De volledige inhoud van plannen, schema’s, afzonderlijke oefeningen en trainingsnotities blijven op uw apparaat.
+
 ### 3.2 Toeschrijving aan Apple Search Ads
 
 Pas na toestemming voor analyse vraagt Ranked via Apple AdServices eenmaal naar de herkomst van een installatie via Apple Search Ads. Na een advertentieklik kunnen campagne, advertentiegroep, trefwoord, uiting, land of regio, klikdatum en downloadtype aan de willekeurige PostHog-ID worden gekoppeld. De advertentie-ID IDFA wordt niet gebruikt. Intrekking stopt toekomstige verzending.

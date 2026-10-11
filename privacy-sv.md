@@ -51,6 +51,8 @@ Analys är avstängd som standard. Först när du uttryckligen samtycker under i
 
 Appen kan även rapportera prenumerationsfasen, aktuell åtkomst, förnyelsestatus och om en uppsägning eller ett faktureringsproblem upptäcktes. Dessa observationer är inte bevis på en debitering och skickas endast medan analys är aktiverad.
 
+Med ditt samtycke registrerar användningshändelser även när du väljer en träningsplan och öppnar ett träningspass. Val av plan omfattar endast antalet träningsdagar per vecka och övningar; öppning av ett pass omfattar endast om det återupptas, ingångskällan och antalet föreskrivna övningar. Planernas fullständiga innehåll, scheman, enskilda övningar och träningsanteckningar stannar på din enhet.
+
 ### 3.2 Tillskrivning av Apple Search Ads
 
 Först efter samtycke till analys frågar Ranked en gång Apples AdServices om koppling av en installation från Apple Search Ads. Efter ett annonsklick kan kampanj, annonsgrupp, sökord, annonsmaterial, land eller region, klickdatum och typ av nedladdning kopplas till det slumpmässiga PostHog-id:t. Annonsidentifieraren IDFA används inte. Återkallelse stoppar framtida överföringar.

@@ -60,6 +60,8 @@ Analytika je predvolene vypnutá. Iba ak počas úvodného nastavenia alebo nesk
 
 Aplikácia môže tiež hlásiť fázu predplatného, aktuálny prístup, stav obnovenia a zistenie zrušenia alebo problému s fakturáciou. Tieto pozorovania nie sú dokladom účtovania platby a odosielajú sa len pri zapnutej analytike.
 
+S vaším súhlasom udalosti používania zaznamenávajú aj výber tréningového plánu a otvorenie tréningovej relácie. Výber plánu zahŕňa iba počet tréningových dní týždenne a cvikov; otvorenie relácie zahŕňa iba to, či sa v nej pokračuje, zdroj vstupu a počet predpísaných cvikov. Úplný obsah plánov, rozvrhy, jednotlivé cviky a tréningové poznámky zostávajú na vašom zariadení.
+
 ### 3.2 Priradenie Apple Search Ads
 
 Až po súhlase s analytikou sa Ranked raz opýta Apple AdServices na pôvod inštalácie z Apple Search Ads. Po kliknutí na reklamu možno k náhodnému identifikátoru PostHog priradiť kampaň, reklamnú skupinu, kľúčové slovo, kreatívu, krajinu alebo región, dátum kliknutia a typ stiahnutia. Reklamný identifikátor IDFA sa nepoužíva. Odvolanie súhlasu zastaví ďalšie prenosy.

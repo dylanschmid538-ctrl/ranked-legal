@@ -60,6 +60,8 @@ Analityka jest domyślnie wyłączona. Dopiero gdy wyraźnie wyrazisz zgodę pod
 
 Aplikacja może także zgłaszać fazę subskrypcji, bieżący dostęp, stan odnowienia oraz wykrycie anulowania lub problemu z rozliczeniem. Obserwacje te nie stanowią dowodu obciążenia i są wysyłane tylko wtedy, gdy analityka jest włączona.
 
+Za Państwa zgodą zdarzenia korzystania rejestrują także wybór planu treningowego i otwarcie sesji treningowej. Wybór planu obejmuje wyłącznie liczbę dni treningowych w tygodniu i ćwiczeń; otwarcie sesji obejmuje wyłącznie informację, czy jest wznawiana, źródło wejścia i liczbę zalecanych ćwiczeń. Pełna zawartość planów, harmonogramy, poszczególne ćwiczenia i notatki treningowe pozostają na Państwa urządzeniu.
+
 ### 3.2 Atrybucja Apple Search Ads
 
 Dopiero po zgodzie na analitykę Ranked jednorazowo pyta Apple AdServices o przypisanie instalacji do Apple Search Ads. Po kliknięciu reklamy kampania, grupa reklam, słowo kluczowe, materiał reklamowy, kraj lub region, data kliknięcia i typ pobrania mogą zostać powiązane z losowym identyfikatorem PostHog. Identyfikator reklamowy IDFA nie jest używany. Wycofanie zgody zatrzymuje przyszłe przesyłanie.

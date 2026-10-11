@@ -59,6 +59,8 @@ Analitika je privzeto izklopljena. Le če med uvajanjem ali pozneje v nastavitva
 
 Aplikacija lahko sporoča tudi fazo naročnine, trenutni dostop, stanje obnove in ali je bila zaznana odpoved ali težava z obračunavanjem. Ta opažanja niso dokaz bremenitve in se pošiljajo samo, ko je analitika vklopljena.
 
+Z vašim soglasjem dogodki uporabe beležijo tudi, kdaj izberete načrt vadbe in kdaj odprete vadbeno sejo. Izbira načrta vključuje le število vadbenih dni na teden in vaj; odprtje seje vključuje le, ali se nadaljuje, vir vstopa in število predpisanih vaj. Celotna vsebina načrtov, urniki, posamezne vaje in zapiski vadbe ostanejo v vaši napravi.
+
 ### 3.2 Pripis Apple Search Ads
 
 Šele po privolitvi v analitiko Ranked enkrat vpraša Apple AdServices o pripisu namestitve iz Apple Search Ads. Po kliku na oglas se lahko z naključnim identifikatorjem PostHog povežejo kampanja, oglasna skupina, ključna beseda, ustvarjalna vsebina, država ali regija, datum klika in vrsta prenosa. Oglaševalski identifikator IDFA se ne uporablja. Umik privolitve ustavi prihodnje prenose.

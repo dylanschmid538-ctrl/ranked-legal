@@ -51,6 +51,8 @@ Analytiikka on oletusarvoisesti pois käytöstä. Vain jos annat siihen nimenoma
 
 Sovellus voi myös ilmoittaa tilauksen vaiheen, nykyisen käyttöoikeuden, uusimisen tilan sekä sen, havaittiinko peruutus tai laskutusongelma. Nämä havainnot eivät ole todiste veloituksesta, ja ne lähetetään vain, kun analytiikka on käytössä.
 
+Suostumuksellasi käyttötapahtumat tallentavat myös, milloin valitset harjoitussuunnitelman ja milloin avaat harjoituskerran. Suunnitelman valinta sisältää vain harjoituspäivien määrän viikossa ja harjoitteiden määrän; harjoituskerran avaaminen sisältää vain sen, jatketaanko sitä, avaamisen lähteen ja määrättyjen harjoitteiden määrän. Suunnitelmien koko sisältö, aikataulut, yksittäiset harjoitteet ja harjoitusmuistiinpanot pysyvät laitteellasi.
+
 ### 3.2 Apple Search Ads -mainonnan kohdistaminen
 
 Vasta analytiikkasuostumuksen jälkeen Ranked kysyy kerran Applen AdServices-palvelulta, tuliko asennus Apple Search Ads -mainoksesta. Mainoksen klikkauksen yhteydessä kampanja, mainosryhmä, hakusana, mainosaineisto, maa tai alue, klikkauspäivä ja lataustyyppi voidaan liittää satunnaiseen PostHog-tunnukseen. Mainostunnistetta IDFA ei käytetä. Suostumuksen peruminen estää tulevat lähetykset.

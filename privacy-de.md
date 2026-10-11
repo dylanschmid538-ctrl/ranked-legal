@@ -63,6 +63,8 @@ Die Analyse ist standardmäßig ausgeschaltet. Erst wenn Sie während der Einric
 
 Die App kann außerdem die Abonnementphase, den aktuellen Zugriff, den Verlängerungsstatus sowie die Feststellung einer Kündigung oder eines Abrechnungsproblems melden. Diese Beobachtungen sind kein Nachweis einer Belastung und werden nur gesendet, solange die Analyse eingeschaltet ist.
 
+Mit Ihrer Einwilligung erfassen Nutzungsereignisse auch, wann Sie einen Trainingsplan auswählen und wann Sie eine Trainingseinheit öffnen. Die Planauswahl umfasst nur die Anzahl der Trainingstage pro Woche und der Übungen; das Öffnen einer Einheit umfasst nur, ob sie fortgesetzt wird, den Einstiegsweg und die Anzahl der vorgegebenen Übungen. Vollständige Planinhalte, Zeitpläne, einzelne Übungen und Trainingsnotizen bleiben auf Ihrem Gerät.
+
 ### 3.2 Zuordnung von Apple Search Ads
 
 Nur nach Ihrer Zustimmung zur Analyse fragt Ranked über Apples AdServices einmalig die Zuordnung einer Apple-Search-Ads-Installation ab. Bei einem Anzeigenklick können Kampagne, Anzeigengruppe, Suchbegriff, Werbemotiv, Land oder Region, Klickdatum sowie Neu- oder Wiederdownload mit der zufälligen PostHog-Kennung verbunden werden. Die Werbekennung IDFA wird nicht verwendet. Der Widerruf stoppt weitere Übermittlungen.

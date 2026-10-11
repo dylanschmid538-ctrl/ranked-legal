@@ -92,6 +92,8 @@ on your device and survives app updates; withdrawal does not automatically erase
 
 The app may also report the subscription phase, current access, renewal status and whether a cancellation or billing issue was detected. These observations are not proof of a charge and are only sent while analytics is enabled.
 
+With your consent, usage events also record when you select a training plan and when you open a workout session. Plan selection includes only the number of training days per week and exercises; session opening includes only whether it is resumed, the entry source and the number of prescribed exercises. Full plan contents, schedules, individual exercises and workout notes stay on your device.
+
 ### 3.2 Apple Search Ads attribution
 
 If you choose to share usage data and installed Ranked after tapping an Apple Search Ads

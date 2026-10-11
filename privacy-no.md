@@ -51,6 +51,8 @@ Analyse er av som standard. Først når du uttrykkelig samtykker under oppsettet
 
 Appen kan også rapportere abonnementsfasen, gjeldende tilgang, fornyelsesstatus og om en oppsigelse eller et faktureringsproblem ble oppdaget. Disse observasjonene er ikke bevis på en belastning og sendes bare mens analyse er aktivert.
 
+Med ditt samtykke registrerer brukshendelser også når du velger en treningsplan og åpner en treningsøkt. Planvalg omfatter bare antall treningsdager per uke og øvelser; åpning av en økt omfatter bare om den gjenopptas, inngangskilden og antall foreskrevne øvelser. Hele planinnholdet, tidsplaner, individuelle øvelser og treningsnotater blir på enheten din.
+
 ### 3.2 Tilordning fra Apple Search Ads
 
 Først etter samtykke til analyse spør Ranked én gang Apples AdServices om tilordning av en installasjon fra Apple Search Ads. Etter et annonseklikk kan kampanje, annonsegruppe, søkeord, annonsemateriell, land eller region, klikkdato og nedlastingstype knyttes til den tilfeldige PostHog-ID-en. Annonseidentifikatoren IDFA brukes ikke. Tilbaketrekking stopper fremtidige overføringer.

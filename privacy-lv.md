@@ -59,6 +59,8 @@ Analītika pēc noklusējuma ir izslēgta. Tikai tad, ja iestatīšanas laikā v
 
 Lietotne var arī ziņot abonementa posmu, pašreizējo piekļuvi, atjaunošanas statusu un to, vai konstatēta atcelšana vai norēķinu problēma. Šie novērojumi nav pierādījums naudas ieturēšanai un tiek nosūtīti tikai tad, kad analīze ir ieslēgta.
 
+Ar jūsu piekrišanu lietošanas notikumi arī reģistrē, kad izvēlaties treniņu plānu un kad atverat treniņa sesiju. Plāna izvēle ietver tikai treniņu dienu skaitu nedēļā un vingrinājumu skaitu; sesijas atvēršana ietver tikai to, vai tā tiek atsākta, ieejas avotu un paredzēto vingrinājumu skaitu. Pilns plānu saturs, grafiki, atsevišķi vingrinājumi un treniņu piezīmes paliek jūsu ierīcē.
+
 ### 3.2 Apple Search Ads attiecinājums
 
 Tikai pēc piekrišanas analītikai Ranked vienreiz ar Apple AdServices pārbauda, vai instalēšana nākusi no Apple Search Ads. Pēc klikšķa uz reklāmas kampaņu, reklāmu grupu, atslēgvārdu, reklāmas materiālu, valsti vai reģionu, klikšķa datumu un lejupielādes veidu var piesaistīt nejaušajam PostHog identifikatoram. Reklāmas identifikators IDFA netiek izmantots. Piekrišanas atsaukšana aptur turpmāku nosūtīšanu.

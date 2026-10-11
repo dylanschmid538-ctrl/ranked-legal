@@ -51,6 +51,8 @@ Analiza este dezactivată implicit. Numai dacă vă dați acordul explicit la co
 
 Aplicația poate raporta și faza abonamentului, accesul curent, starea reînnoirii și dacă a fost detectată o anulare sau o problemă de facturare. Aceste observații nu constituie dovada unei debitări și sunt trimise doar cât timp analiza este activată.
 
+Cu consimțământul dumneavoastră, evenimentele de utilizare înregistrează și când selectați un plan de antrenament și când deschideți o sesiune de antrenament. Selectarea planului include doar numărul de zile de antrenament pe săptămână și de exerciții; deschiderea sesiunii include doar dacă este reluată, sursa de acces și numărul de exerciții prescrise. Conținutul complet al planurilor, programele, exercițiile individuale și notițele de antrenament rămân pe dispozitivul dumneavoastră.
+
 ### 3.2 Atribuirea Apple Search Ads
 
 Doar după consimțământul pentru analiză, Ranked întreabă o singură dată Apple AdServices dacă instalarea provine din Apple Search Ads. După un clic pe reclamă, campania, grupul, cuvântul-cheie, materialul publicitar, țara sau regiunea, data clicului și tipul descărcării pot fi asociate identificatorului aleatoriu PostHog. IDFA nu este folosit. Retragerea consimțământului oprește transmiterile viitoare.

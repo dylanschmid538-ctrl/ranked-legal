@@ -51,6 +51,8 @@ Analitika je zadano isključena. Tek kada izričito pristanete tijekom početnog
 
 Aplikacija također može izvještavati o fazi pretplate, trenutačnom pristupu, statusu obnove te je li otkriven otkaz ili problem s naplatom. Ta opažanja nisu dokaz terećenja i šalju se samo dok je analitika uključena.
 
+Uz vašu privolu događaji upotrebe bilježe i kada odaberete plan treninga i kada otvorite trening. Odabir plana uključuje samo broj dana treninga tjedno i vježbi; otvaranje treninga uključuje samo nastavlja li se, izvor ulaska i broj propisanih vježbi. Potpuni sadržaj planova, rasporedi, pojedinačne vježbe i bilješke treninga ostaju na vašem uređaju.
+
 ### 3.2 Pripisivanje Apple Search Ads oglasa
 
 Tek nakon pristanka na analitiku Ranked jednom pita Apple AdServices o pripisivanju instalacije iz Apple Search Ads. Nakon klika na oglas kampanja, oglasna grupa, ključna riječ, oglasni sadržaj, država ili regija, datum klika i vrsta preuzimanja mogu se povezati s nasumičnim identifikatorom PostHoga. Oglašivački identifikator IDFA ne koristi se. Povlačenje pristanka zaustavlja buduće prijenose.
