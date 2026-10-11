@@ -8,7 +8,7 @@ permalink: /privacy/lv/
 
 # Privātuma politika · Calisthenics Skills – Ranked
 
-**Pēdējoreiz atjaunināts: 2026-10-08**
+**Pēdējoreiz atjaunināts: 2026-10-11**
 
 Šī politika apraksta, ko Ranked vāc, kurp tas nonāk un ko Jūs varat ar to darīt.
 
@@ -56,6 +56,8 @@ Lietotnes dzēšana izdzēš to visu no ierīces. Mēs to atjaunot nevaram, jo m
 ### 3.1 Lietojuma statistika (PostHog)
 
 Analītika pēc noklusējuma ir izslēgta. Tikai tad, ja iestatīšanas laikā vai vēlāk Iestatījumos skaidri piekrītat, Ranked nosūta ES izvietotajam PostHog notikumus par iestatīšanu, sākotnējo novērtējumu, ranga un posma izmaiņām (ar prasmi un posmu), pirkuma ekrānu, pirkumiem un atvērtajiem ekrāniem. Tiešsaistes treniņa notikumi ietver sākumu, pabeigšanu vai pārtraukšanu, pagājušās sekundes, reģistrēto sēriju un dažādu prasmju skaitu, kā arī to, vai šis bija pirmais pabeigtais treniņš. Tie nesatur atsevišķus vingrinājumus, atkārtojumus, svarus vai piezīmes. Vecums, dzimums, augums un ķermeņa svars netiek nosūtīti. PostHog saņem arī parastos tehniskos datus par ierīci, iOS, lietotni un valodu un IP adresi, no kuras var secināt aptuvenu atrašanās vietu. Nejaušs analītikas identifikators tiek izveidots pēc piekrišanas. To varat atsaukt Iestatījumos ▸ Dati un privātums; jauni notikumi vairs netiek sūtīti, bet iepriekš nosūtītie dati automātiski netiek dzēsti.
+
+Lietotne var arī ziņot abonementa posmu, pašreizējo piekļuvi, atjaunošanas statusu un to, vai konstatēta atcelšana vai norēķinu problēma. Šie novērojumi nav pierādījums naudas ieturēšanai un tiek nosūtīti tikai tad, kad analīze ir ieslēgta.
 
 ### 3.2 Apple Search Ads attiecinājums
 

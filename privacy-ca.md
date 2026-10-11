@@ -7,7 +7,7 @@ permalink: /privacy/ca/
 
 # Política de privacitat · Calisthenics Skills – Ranked
 
-**Última actualització: 2026-10-08**
+**Última actualització: 2026-10-11**
 
 Aquesta política explica quines dades recull Ranked, on van i què podeu fer al respecte.
 
@@ -48,6 +48,8 @@ En esborrar l'aplicació, tot això s'esborra del dispositiu. No ho podem recupe
 ### 3.1 Estadístiques d'ús (PostHog)
 
 L'anàlisi és desactivada per defecte. Només si hi consentiu expressament durant la configuració o després a Configuració, Ranked envia a PostHog a la UE esdeveniments de configuració, avaluació inicial, canvis de rang i etapa (amb habilitat i etapa), pantalla de compra, compres i pantalles obertes. Els esdeveniments d'entrenament en directe inclouen inici, finalització o abandonament, segons transcorreguts, nombre de sèries registrades, nombre d'habilitats diferents i si era el primer entrenament acabat. No inclouen exercicis individuals, repeticions, pesos ni notes. No s'envien edat, sexe, alçada ni pes corporal. PostHog també rep dades tècniques habituals del dispositiu, iOS, l'app i l'idioma, i l'adreça IP, de la qual es pot deduir una ubicació aproximada. L'identificador aleatori d'anàlisi es crea després del consentiment. Podeu retirar-lo a Configuració ▸ Dades i privadesa; els nous enviaments s'aturen, però les dades ja enviades no s'esborren automàticament.
+
+L’app també pot comunicar la fase de la subscripció, l’accés actual, l’estat de renovació i si s’ha detectat una cancel·lació o un problema de facturació. Aquestes observacions no constitueixen prova d’un càrrec i només s’envien mentre l’anàlisi està activada.
 
 ### 3.2 Atribució d'Apple Search Ads
 

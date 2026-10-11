@@ -7,7 +7,7 @@ permalink: /privacy/hu/
 
 # Adatvédelmi tájékoztató · Calisthenics Skills – Ranked
 
-**Utolsó frissítés: 2026-10-08**
+**Utolsó frissítés: 2026-10-11**
 
 Ez a tájékoztató ismerteti, milyen adatokat gyűjt a Ranked, hová kerülnek, és milyen lehetőségei vannak velük kapcsolatban.
 
@@ -48,6 +48,8 @@ Az alkalmazás törlése ezeket az adatokat is törli az eszközről. Nem tudjuk
 ### 3.1 Használati statisztikák (PostHog)
 
 Az elemzés alapértelmezés szerint ki van kapcsolva. A Ranked csak akkor küld az EU-ban működő PostHognak eseményeket, ha a beállítás során vagy később a Beállításokban kifejezetten hozzájárul: a beállításról, kezdeti felmérésről, rang- és szintváltozásokról (a készséggel és szinttel), fizetési képernyőről, vásárlásokról és megnyitott képernyőkről. Az élő edzés eseményei tartalmazzák a kezdést, befejezést vagy megszakítást, az eltelt másodperceket, a rögzített sorozatok és különböző készségek számát, valamint hogy ez volt-e az első befejezett edzés. Nem tartalmaznak egyedi gyakorlatokat, ismétléseket, súlyokat vagy jegyzeteket. Az életkor, nem, magasság és testsúly nem kerül elküldésre. A PostHog szokásos technikai adatokat is kap az eszközről, iOS-ről, alkalmazásról és nyelvről, valamint az IP-címet, amelyből hozzávetőleges hely becsülhető. Véletlenszerű elemzési azonosító csak a hozzájárulás után jön létre. A hozzájárulás a Beállítások ▸ Adatok és adatvédelem alatt visszavonható; az új események leállnak, a korábban elküldött adatok nem törlődnek automatikusan.
+
+Az alkalmazás az előfizetés szakaszát, az aktuális hozzáférést, a megújítás állapotát és az észlelt lemondást vagy számlázási problémát is jelentheti. Ezek a megfigyelések nem bizonyítanak terhelést, és csak bekapcsolt analitika mellett kerülnek elküldésre.
 
 ### 3.2 Apple Search Ads-hozzárendelés
 

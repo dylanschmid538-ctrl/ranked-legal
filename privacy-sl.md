@@ -8,7 +8,7 @@ permalink: /privacy/sl/
 
 # Politika zasebnosti · Calisthenics Skills – Ranked
 
-**Zadnja posodobitev: 2026-10-08**
+**Zadnja posodobitev: 2026-10-11**
 
 Ta politika opisuje, kaj Ranked zbira, kam to gre in kaj lahko glede tega storite.
 
@@ -56,6 +56,8 @@ Izbris aplikacije izbriše vse to iz naprave. Obnoviti tega ne moremo, ker tega 
 ### 3.1 Statistika uporabe (PostHog)
 
 Analitika je privzeto izklopljena. Le če med uvajanjem ali pozneje v nastavitvah izrecno privolite, Ranked pošilja storitvi PostHog v EU dogodke o uvajanju, začetni oceni, spremembah ranga in stopnje (s spretnostjo in stopnjo), plačilnem zaslonu, nakupih in odprtih zaslonih. Dogodki vadbe v živo vsebujejo začetek, zaključek ali prekinitev, pretečene sekunde, število zabeleženih serij, število različnih spretnosti in podatek o prvi zaključeni vadbi. Ne vsebujejo posameznih vaj, ponovitev, uteži ali zapiskov. Starost, spol, višina in telesna teža se ne pošiljajo. PostHog prejme tudi običajne tehnične podatke o napravi, iOS, aplikaciji in jeziku ter naslov IP, iz katerega je mogoče sklepati o približni lokaciji. Naključni analitični identifikator nastane po privolitvi. Privolitev lahko umaknete v Nastavitvah ▸ Podatki in zasebnost; novi dogodki prenehajo, že poslani podatki pa se ne izbrišejo samodejno.
+
+Aplikacija lahko sporoča tudi fazo naročnine, trenutni dostop, stanje obnove in ali je bila zaznana odpoved ali težava z obračunavanjem. Ta opažanja niso dokaz bremenitve in se pošiljajo samo, ko je analitika vklopljena.
 
 ### 3.2 Pripis Apple Search Ads
 

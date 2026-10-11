@@ -1,0 +1,828 @@
+diff --git a/privacy-ar.md b/privacy-ar.md
+index fc39c8d..3df440c 100644
+--- a/privacy-ar.md
++++ b/privacy-ar.md
+@@ -8,7 +8,7 @@ permalink: /privacy/ar/
+ 
+ # سياسة الخصوصية · Calisthenics Skills – Ranked
+ 
+-**آخر تحديث: 2026-10-08**
++**آخر تحديث: 2026-10-11**
+ 
+ تصف هذه السياسة ما يجمعه Ranked، وإلى أين يذهب، وما الذي يمكنك فعله حياله.
+ 
+@@ -50,6 +50,10 @@ permalink: /privacy/ar/
+ 
+ التحليلات متوقفة افتراضياً. لا يرسل Ranked أحداثاً إلى PostHog المستضاف في الاتحاد الأوروبي إلا بعد موافقتك الصريحة أثناء الإعداد أو لاحقاً في الإعدادات. تشمل الأحداث خطوات الإعداد والتقييم الأولي وتغيّرات الرتبة والمرحلة (مع المهارة والمرحلة) وشاشة الشراء وعمليات الشراء والشاشات المفتوحة. وتشمل أحداث التدريب المباشر بدايته وإكماله أو تركه، والثواني المنقضية، وعدد المجموعات المسجّلة والمهارات المختلفة، وما إذا كان أول تدريب مكتمل. ولا تشمل التمارين الفردية أو التكرارات أو الأوزان أو الملاحظات. لا يُرسل العمر أو الجنس أو الطول أو وزن الجسم. وتتلقى PostHog أيضاً معلومات تقنية معتادة عن الجهاز وiOS والتطبيق واللغة وعنوان IP الذي قد يدل على موقع تقريبي. لا يُنشأ معرّف تحليلي عشوائي إلا بعد موافقتك. يمكنك سحب الموافقة من الإعدادات ▸ البيانات والخصوصية؛ فتتوقف الأحداث الجديدة، لكن البيانات المرسلة سابقاً لا تُحذف تلقائياً.
+ 
++بموافقتك المنفصلة على مطابقة الاشتراك، تتضمن أحداث الاستخدام المشتركة أيضًا مرجع شراء مستعار الهوية مشتقًا من معرّف العميل العشوائي لدى RevenueCat. يتيح لنا ذلك مقارنة استخدام التطبيق أثناء فترة تجريبية أو اشتراك بنتائج الشراء التي يسجلها RevenueCat. لا يكشف هذا المرجع عن اسمك أو عنوان بريدك الإلكتروني أو تفاصيل الدفع أو حساب Apple الخاص بك. الموافقة الحالية على مشاركة الاستخدام وحدها لا تفعّل هذه المطابقة. يمكنك إيقاف المطابقة بشكل منفصل في الإعدادات؛ وإيقاف مشاركة الاستخدام يوقف كليهما. سحب الموافقة يوقف الأحداث المرتبطة الجديدة، لكنه لا يحذف تلقائيًا البيانات التي أُرسلت بالفعل. لا يرسل RevenueCat أحداث الاشتراك تلقائيًا إلى PostHog.
++
++قد يبلغ التطبيق أيضًا عن مرحلة الاشتراك وإمكانية الوصول الحالية وحالة التجديد وما إذا تم اكتشاف إلغاء أو مشكلة في الفوترة. هذه الملاحظات ليست دليلًا على خصم مبلغ، ولا تُرسل إلا أثناء تفعيل التحليلات.
++
+ ### 3.2 إسناد Apple Search Ads
+ 
+ فقط بعد الموافقة على التحليلات، يسأل Ranked خدمة AdServices من Apple مرة واحدة عما إذا كان التثبيت مرتبطاً بإعلان Apple Search Ads. وبعد النقر على إعلان، قد تُربط الحملة والمجموعة الإعلانية والكلمة المفتاحية والمادة الإعلانية والبلد أو المنطقة وتاريخ النقر ونوع التنزيل بمعرّف PostHog العشوائي. لا يُستخدم معرّف الإعلانات IDFA. سحب الموافقة يوقف الإرسال في المستقبل.
+diff --git a/privacy-ca.md b/privacy-ca.md
+index bccc4ab..9510996 100644
+--- a/privacy-ca.md
++++ b/privacy-ca.md
+@@ -7,7 +7,7 @@ permalink: /privacy/ca/
+ 
+ # Política de privacitat · Calisthenics Skills – Ranked
+ 
+-**Última actualització: 2026-10-08**
++**Última actualització: 2026-10-11**
+ 
+ Aquesta política explica quines dades recull Ranked, on van i què podeu fer al respecte.
+ 
+@@ -49,6 +49,10 @@ En esborrar l'aplicació, tot això s'esborra del dispositiu. No ho podem recupe
+ 
+ L'anàlisi és desactivada per defecte. Només si hi consentiu expressament durant la configuració o després a Configuració, Ranked envia a PostHog a la UE esdeveniments de configuració, avaluació inicial, canvis de rang i etapa (amb habilitat i etapa), pantalla de compra, compres i pantalles obertes. Els esdeveniments d'entrenament en directe inclouen inici, finalització o abandonament, segons transcorreguts, nombre de sèries registrades, nombre d'habilitats diferents i si era el primer entrenament acabat. No inclouen exercicis individuals, repeticions, pesos ni notes. No s'envien edat, sexe, alçada ni pes corporal. PostHog també rep dades tècniques habituals del dispositiu, iOS, l'app i l'idioma, i l'adreça IP, de la qual es pot deduir una ubicació aproximada. L'identificador aleatori d'anàlisi es crea després del consentiment. Podeu retirar-lo a Configuració ▸ Dades i privadesa; els nous enviaments s'aturen, però les dades ja enviades no s'esborren automàticament.
+ 
++Amb el vostre consentiment separat per a la vinculació de subscripcions, els esdeveniments d’ús compartits també inclouen una referència de compra pseudònima derivada de l’identificador de client aleatori de RevenueCat. Això ens permet comparar l’ús de l’app durant una prova o subscripció amb els resultats de compra registrats per RevenueCat. Aquesta referència no revela el vostre nom, adreça electrònica, dades de pagament ni compte d’Apple. El consentiment existent per compartir l’ús, per si sol, no habilita aquesta vinculació. Podeu desactivar la vinculació separadament a Configuració; desactivar la compartició de l’ús atura totes dues funcions. La retirada del consentiment atura els nous esdeveniments vinculats, però no elimina automàticament les dades ja enviades. RevenueCat no envia automàticament esdeveniments de subscripció a PostHog.
++
++L’app també pot comunicar la fase de la subscripció, l’accés actual, l’estat de renovació i si s’ha detectat una cancel·lació o un problema de facturació. Aquestes observacions no constitueixen prova d’un càrrec i només s’envien mentre l’anàlisi està activada.
++
+ ### 3.2 Atribució d'Apple Search Ads
+ 
+ Només després del consentiment per a l'anàlisi, Ranked consulta una vegada AdServices d'Apple per atribuir una instal·lació procedent d'Apple Search Ads. Si heu premut un anunci, campanya, grup, paraula clau, creativitat, país o regió, data del clic i tipus de descàrrega es poden vincular a l'identificador aleatori de PostHog. No s'utilitza l'identificador publicitari IDFA. La retirada del consentiment atura els enviaments futurs.
+diff --git a/privacy-cs.md b/privacy-cs.md
+index 8902b5c..771907c 100644
+--- a/privacy-cs.md
++++ b/privacy-cs.md
+@@ -7,7 +7,7 @@ permalink: /privacy/cs/
+ 
+ # Zásady ochrany osobních údajů · Calisthenics Skills – Ranked
+ 
+-**Poslední aktualizace: 2026-10-08**
++**Poslední aktualizace: 2026-10-11**
+ 
+ Tyto zásady popisují, jaké údaje Ranked shromažďuje, kam putují a jaké možnosti v souvislosti s nimi máte.
+ 
+@@ -49,6 +49,10 @@ Odstranění aplikace tyto údaje ze zařízení smaže. Nemůžeme je obnovit,
+ 
+ Analytika je ve výchozím nastavení vypnutá. Pouze pokud během úvodního nastavení nebo později v Nastavení výslovně souhlasíte, odesílá Ranked službě PostHog v EU události o nastavení, počátečním hodnocení, změnách hodnosti a úrovní (včetně dovednosti a úrovně), nákupní obrazovce, nákupech a otevřených obrazovkách. Události živého tréninku zahrnují začátek, dokončení nebo opuštění, uplynulé sekundy, počet zaznamenaných sérií, počet různých dovedností a údaj, zda šlo o první dokončený trénink. Neobsahují jednotlivá cvičení, opakování, zátěž ani poznámky. Věk, pohlaví, výška a hmotnost se neodesílají. PostHog také získává běžné technické údaje o zařízení, iOS, aplikaci a jazyce a IP adresu, z níž lze odvodit přibližnou polohu. Náhodný analytický identifikátor vzniká až po souhlasu. Souhlas můžete odvolat v Nastavení ▸ Data a soukromí; nové události se přestanou odesílat, ale dříve zaslané údaje se automaticky nesmažou.
+ 
++S vaším samostatným souhlasem s propojením předplatného obsahují sdílené události používání také pseudonymní referenci nákupu odvozenou z náhodného zákaznického identifikátoru RevenueCat. To nám umožňuje porovnávat používání aplikace během zkušebního období nebo předplatného s výsledky nákupů zaznamenanými službou RevenueCat. Tato reference neodhaluje vaše jméno, e-mailovou adresu, platební údaje ani účet Apple. Samotný stávající souhlas se sdílením používání toto propojení neumožňuje. Propojení můžete vypnout samostatně v Nastavení; vypnutí sdílení používání zastaví obojí. Odvolání souhlasu zastaví nové propojené události, ale automaticky neodstraní již odeslané údaje. RevenueCat automaticky neposílá události předplatného do PostHog.
++
++Aplikace může také hlásit fázi předplatného, aktuální přístup, stav obnovení a zjištění zrušení nebo problému s fakturací. Tato pozorování nejsou dokladem účtování platby a odesílají se pouze při zapnuté analytice.
++
+ ### 3.2 Přiřazení Apple Search Ads
+ 
+ Teprve po souhlasu s analytikou se Ranked jednou dotáže služby Apple AdServices na původ instalace z Apple Search Ads. Pokud jste klepli na reklamu, mohou se k náhodnému identifikátoru PostHog přiřadit kampaň, reklamní skupina, klíčové slovo, kreativní sada, země nebo oblast, datum klepnutí a typ stažení. Reklamní identifikátor IDFA se nepoužívá. Odvolání souhlasu zastaví další přenosy.
+diff --git a/privacy-da.md b/privacy-da.md
+index f33d629..1c8d4b9 100644
+--- a/privacy-da.md
++++ b/privacy-da.md
+@@ -7,7 +7,7 @@ permalink: /privacy/da/
+ 
+ # Privatlivspolitik · Calisthenics Skills – Ranked
+ 
+-**Senest opdateret: 2026-10-08**
++**Senest opdateret: 2026-10-11**
+ 
+ Denne politik beskriver, hvilke oplysninger Ranked indsamler, hvor de sendes hen, og hvad du kan gøre ved det.
+ 
+@@ -49,6 +49,10 @@ Når du sletter appen, slettes alt dette fra enheden. Vi kan ikke genskabe det,
+ 
+ Analyse er som standard slået fra. Først når du udtrykkeligt giver samtykke under opsætningen eller senere i Indstillinger, sender Ranked til PostHog i EU hændelser om opsætning, første vurdering, ændringer i rang og trin (med færdighed og trin), købsskærm, køb og åbnede skærme. Hændelser fra live træning angiver start, afslutning eller afbrydelse, forløbne sekunder, antal registrerede sæt, antal forskellige færdigheder og om det var den første afsluttede træning. De indeholder ikke enkelte øvelser, gentagelser, vægte eller noter. Alder, køn, højde og kropsvægt sendes ikke. PostHog modtager også almindelige tekniske oplysninger om enhed, iOS, app og sprog samt IP-adressen, hvorfra en omtrentlig placering kan udledes. Et tilfældigt analyse-id oprettes efter dit samtykke. Du kan trække det tilbage under Indstillinger ▸ Data og anonymitet; nye hændelser stopper, mens allerede sendte data ikke slettes automatisk.
+ 
++Med dit særskilte samtykke til sammenkædning af abonnementer indeholder delte brugshændelser også en pseudonym købsreference afledt af RevenueCats tilfældige kundeidentifikator. Det gør det muligt at sammenligne brugen af appen under en prøveperiode eller et abonnement med de købsresultater, som RevenueCat registrerer. Referencen afslører ikke dit navn, din e-mailadresse, dine betalingsoplysninger eller din Apple-konto. Eksisterende samtykke til deling af brug alene aktiverer ikke denne sammenkædning. Du kan slå sammenkædning fra separat i Indstillinger; hvis du slår deling af brug fra, stopper begge. Tilbagetrækning stopper nye sammenkædede hændelser, men sletter ikke automatisk allerede sendte data. RevenueCat sender ikke automatisk abonnementshændelser til PostHog.
++
++Appen kan også rapportere abonnementsfasen, den aktuelle adgang, fornyelsesstatus og om en opsigelse eller et faktureringsproblem blev registreret. Disse observationer er ikke bevis for en opkrævning og sendes kun, mens analyse er aktiveret.
++
+ ### 3.2 Tilskrivning af Apple Search Ads
+ 
+ Først efter samtykke til analyse spørger Ranked én gang Apples AdServices om tilskrivning af en installation fra Apple Search Ads. Efter et annonceklik kan kampagne, annoncegruppe, søgeord, annonceindhold, land eller region, klikdato og downloadtype knyttes til det tilfældige PostHog-id. Annonce-id'et IDFA bruges ikke. Tilbagekaldelse stopper fremtidige overførsler.
+diff --git a/privacy-de.md b/privacy-de.md
+index 59582f9..6b0d196 100644
+--- a/privacy-de.md
++++ b/privacy-de.md
+@@ -8,7 +8,7 @@ permalink: /privacy/de/
+ 
+ # Datenschutzerklärung · Calisthenics Skills – Ranked
+ 
+-**Zuletzt aktualisiert: 2026-10-08**
++**Zuletzt aktualisiert: 2026-10-11**
+ 
+ Diese Erklärung beschreibt, was Ranked erhebt, wohin es geht und was Sie dagegen tun können.
+ 
+@@ -61,6 +61,10 @@ hatten.
+ 
+ Die Analyse ist standardmäßig ausgeschaltet. Erst wenn Sie während der Einrichtung oder später in den Einstellungen ausdrücklich zustimmen, sendet Ranked Nutzungsereignisse an PostHog in der EU: Einrichtung und Ersteinstufung, Rang- und Stufenänderungen (mit Skill und Stufe), Kaufbildschirm und Kaufvorgang sowie geöffnete Ansichten. Ereignisse zu Live-Trainings enthalten Start, Abschluss oder Abbruch, verstrichene Sekunden, Anzahl geloggter Sätze, Anzahl unterschiedlicher Skills und ob es das erste abgeschlossene Training war. Sie enthalten keine einzelnen Übungen, Wiederholungen, Gewichte oder Notizen. Alter, Geschlecht, Größe und Körpergewicht werden nicht übermittelt. PostHog erhält übliche Geräte-, iOS-, App- und Sprachangaben sowie die IP-Adresse, aus der ein ungefährer Ort abgeleitet werden kann. Eine zufällige Analysekennung entsteht erst nach Ihrer Zustimmung. Sie können diese unter Einstellungen ▸ Daten & Datenschutz widerrufen; danach werden keine neuen Ereignisse gesendet. Bereits gesendete Daten werden dadurch nicht automatisch gelöscht.
+ 
++Mit Ihrer gesonderten Einwilligung in die Zuordnung zum Abonnement enthalten geteilte Nutzungsereignisse auch eine pseudonyme Kaufreferenz, die aus der zufälligen Kundenkennung von RevenueCat abgeleitet wird. Dadurch können wir die Nutzung der App während einer Testphase oder eines Abonnements mit den von RevenueCat erfassten Kaufergebnissen vergleichen. Diese Referenz gibt weder Ihren Namen noch Ihre E-Mail-Adresse, Zahlungsdaten oder Ihren Apple Account preis. Die bestehende Einwilligung in das Teilen der Nutzung allein ermöglicht diese Zuordnung nicht. Sie können die Zuordnung in den Einstellungen separat ausschalten; das Ausschalten des Teilens der Nutzung stoppt beides. Ein Widerruf stoppt neue verknüpfte Ereignisse, löscht jedoch bereits gesendete Daten nicht automatisch. RevenueCat sendet Abonnementereignisse nicht automatisch an PostHog.
++
++Die App kann außerdem die Abonnementphase, den aktuellen Zugriff, den Verlängerungsstatus sowie die Feststellung einer Kündigung oder eines Abrechnungsproblems melden. Diese Beobachtungen sind kein Nachweis einer Belastung und werden nur gesendet, solange die Analyse eingeschaltet ist.
++
+ ### 3.2 Zuordnung von Apple Search Ads
+ 
+ Nur nach Ihrer Zustimmung zur Analyse fragt Ranked über Apples AdServices einmalig die Zuordnung einer Apple-Search-Ads-Installation ab. Bei einem Anzeigenklick können Kampagne, Anzeigengruppe, Suchbegriff, Werbemotiv, Land oder Region, Klickdatum sowie Neu- oder Wiederdownload mit der zufälligen PostHog-Kennung verbunden werden. Die Werbekennung IDFA wird nicht verwendet. Der Widerruf stoppt weitere Übermittlungen.
+diff --git a/privacy-el.md b/privacy-el.md
+index 7a40ddd..2730389 100644
+--- a/privacy-el.md
++++ b/privacy-el.md
+@@ -7,7 +7,7 @@ permalink: /privacy/el/
+ 
+ # Πολιτική απορρήτου · Calisthenics Skills – Ranked
+ 
+-**Τελευταία ενημέρωση: 2026-10-08**
++**Τελευταία ενημέρωση: 2026-10-11**
+ 
+ Η πολιτική αυτή περιγράφει ποια δεδομένα συλλέγει το Ranked, πού μεταφέρονται και τι μπορείτε να κάνετε σχετικά.
+ 
+@@ -49,6 +49,10 @@ permalink: /privacy/el/
+ 
+ Η ανάλυση είναι απενεργοποιημένη από προεπιλογή. Μόνο αν συναινέσετε ρητά κατά την αρχική ρύθμιση ή αργότερα στις Ρυθμίσεις, το Ranked στέλνει στο PostHog στην ΕΕ συμβάντα ρύθμισης, αρχικής αξιολόγησης, αλλαγών κατάταξης και σταδίου (με δεξιότητα και στάδιο), οθόνης αγοράς, αγορών και οθονών που ανοίγετε. Τα συμβάντα ζωντανής προπόνησης περιλαμβάνουν έναρξη, ολοκλήρωση ή εγκατάλειψη, δευτερόλεπτα που πέρασαν, αριθμό καταγεγραμμένων σετ, αριθμό διαφορετικών δεξιοτήτων και αν ήταν η πρώτη ολοκληρωμένη προπόνηση. Δεν περιλαμβάνουν μεμονωμένες ασκήσεις, επαναλήψεις, βάρη ή σημειώσεις. Η ηλικία, το φύλο, το ύψος και το σωματικό βάρος δεν μεταδίδονται. Το PostHog λαμβάνει επίσης συνήθη τεχνικά στοιχεία συσκευής, iOS, εφαρμογής και γλώσσας και τη διεύθυνση IP, από την οποία μπορεί να συναχθεί κατά προσέγγιση τοποθεσία. Τυχαίο αναγνωριστικό ανάλυσης δημιουργείται μετά τη συναίνεσή σας. Μπορείτε να την ανακαλέσετε στις Ρυθμίσεις ▸ Δεδομένα και απόρρητο· τα νέα συμβάντα σταματούν, αλλά τα ήδη απεσταλμένα δεδομένα δεν διαγράφονται αυτόματα.
+ 
++Με τη χωριστή συγκατάθεσή σας για την αντιστοίχιση συνδρομών, τα κοινοποιούμενα συμβάντα χρήσης περιλαμβάνουν επίσης μια ψευδωνυμοποιημένη αναφορά αγοράς που προκύπτει από το τυχαίο αναγνωριστικό πελάτη του RevenueCat. Αυτό μας επιτρέπει να συγκρίνουμε τη χρήση της εφαρμογής κατά τη δοκιμή ή τη συνδρομή με τα αποτελέσματα αγορών που καταγράφει το RevenueCat. Η αναφορά αυτή δεν αποκαλύπτει το όνομα, τη διεύθυνση email, τα στοιχεία πληρωμής ή τον λογαριασμό Apple σας. Η υφιστάμενη συγκατάθεση μόνο για την κοινοποίηση χρήσης δεν ενεργοποιεί αυτή την αντιστοίχιση. Μπορείτε να απενεργοποιήσετε την αντιστοίχιση χωριστά στις Ρυθμίσεις· η απενεργοποίηση της κοινοποίησης χρήσης σταματά και τις δύο λειτουργίες. Η ανάκληση σταματά τα νέα συνδεδεμένα συμβάντα, αλλά δεν διαγράφει αυτόματα δεδομένα που έχουν ήδη αποσταλεί. Το RevenueCat δεν στέλνει αυτόματα συμβάντα συνδρομής στο PostHog.
++
++Η εφαρμογή μπορεί επίσης να αναφέρει τη φάση της συνδρομής, την τρέχουσα πρόσβαση, την κατάσταση ανανέωσης και αν εντοπίστηκε ακύρωση ή πρόβλημα χρέωσης. Αυτές οι παρατηρήσεις δεν αποτελούν απόδειξη χρέωσης και αποστέλλονται μόνο όσο η ανάλυση είναι ενεργοποιημένη.
++
+ ### 3.2 Απόδοση εγκατάστασης στο Apple Search Ads
+ 
+ Μόνο μετά τη συναίνεση για ανάλυση, το Ranked ρωτά μία φορά το Apple AdServices αν η εγκατάσταση προήλθε από Apple Search Ads. Μετά από πάτημα διαφήμισης, η καμπάνια, η ομάδα διαφημίσεων, η λέξη-κλειδί, το δημιουργικό, η χώρα ή περιοχή, η ημερομηνία πατήματος και ο τύπος λήψης μπορούν να συσχετιστούν με το τυχαίο αναγνωριστικό PostHog. Δεν χρησιμοποιείται το διαφημιστικό αναγνωριστικό IDFA. Η ανάκληση σταματά τις μελλοντικές μεταδόσεις.
+diff --git a/privacy-es.md b/privacy-es.md
+index daa462d..b0a64fe 100644
+--- a/privacy-es.md
++++ b/privacy-es.md
+@@ -7,7 +7,7 @@ permalink: /privacy/es/
+ 
+ # Política de privacidad · Calisthenics Skills – Ranked
+ 
+-**Última actualización: 2026-10-08**
++**Última actualización: 2026-10-11**
+ 
+ Esta política explica qué datos recopila Ranked, adónde van y qué puede hacer usted al respecto.
+ 
+@@ -49,6 +49,10 @@ Al borrar la aplicación, se elimina todo esto del dispositivo. No podemos recup
+ 
+ El análisis está desactivado de forma predeterminada. Solo si da su consentimiento expreso durante la configuración o después en Ajustes, Ranked envía a PostHog en la UE eventos sobre la configuración, la evaluación inicial, cambios de rango y etapa (con la habilidad y etapa), la pantalla de compra, las compras y las pantallas abiertas. Los eventos de entrenamiento en directo indican el inicio, fin o abandono, los segundos transcurridos, el número de series registradas, el número de habilidades distintas y si es el primer entrenamiento completado. No incluyen ejercicios individuales, repeticiones, pesos ni notas. No se transmiten edad, sexo, altura ni peso corporal. PostHog recibe además datos técnicos habituales del dispositivo, iOS, la aplicación y el idioma, y la dirección IP, de la que puede deducirse una ubicación aproximada. Se crea un identificador aleatorio después del consentimiento. Puede retirarlo en Ajustes ▸ Datos y privacidad: cesan los nuevos envíos, pero los datos ya enviados no se borran automáticamente.
+ 
++Con su consentimiento separado para la vinculación de suscripciones, los eventos de uso compartidos también incluyen una referencia de compra seudónima derivada del identificador de cliente aleatorio de RevenueCat. Esto nos permite comparar el uso de la app durante una prueba o suscripción con los resultados de compra registrados por RevenueCat. Esta referencia no revela su nombre, dirección de correo electrónico, datos de pago ni cuenta de Apple. El consentimiento existente para compartir el uso, por sí solo, no habilita esta vinculación. Puede desactivar la vinculación por separado en Ajustes; desactivar el uso compartido detiene ambas funciones. La retirada del consentimiento detiene los nuevos eventos vinculados, pero no elimina automáticamente los datos ya enviados. RevenueCat no envía automáticamente eventos de suscripción a PostHog.
++
++La app también puede comunicar la fase de la suscripción, el acceso actual, el estado de renovación y si se detectó una cancelación o un problema de facturación. Estas observaciones no constituyen prueba de un cargo y solo se envían mientras el análisis está activado.
++
+ ### 3.2 Atribución de Apple Search Ads
+ 
+ Solo después de su consentimiento para el análisis, Ranked consulta una vez mediante AdServices de Apple la atribución de una instalación procedente de Apple Search Ads. Si tocó un anuncio, la campaña, el grupo de anuncios, la palabra clave, el elemento creativo, el país o región, la fecha del clic y el tipo de descarga pueden asociarse al identificador aleatorio de PostHog. No se usa el identificador publicitario IDFA. La retirada del consentimiento detiene futuros envíos.
+diff --git a/privacy-fi.md b/privacy-fi.md
+index 5a6eee8..81186c6 100644
+--- a/privacy-fi.md
++++ b/privacy-fi.md
+@@ -7,7 +7,7 @@ permalink: /privacy/fi/
+ 
+ # Tietosuojaseloste · Calisthenics Skills – Ranked
+ 
+-**Päivitetty viimeksi: 2026-10-08**
++**Päivitetty viimeksi: 2026-10-11**
+ 
+ Tässä selosteessa kerrotaan, mitä tietoja Ranked kerää, minne ne siirtyvät ja mitä voit tehdä asialle.
+ 
+@@ -49,6 +49,10 @@ Sovelluksen poistaminen poistaa nämä tiedot laitteelta. Emme voi palauttaa nii
+ 
+ Analytiikka on oletusarvoisesti pois käytöstä. Vain jos annat siihen nimenomaisen suostumuksen käyttöönotossa tai myöhemmin asetuksissa, Ranked lähettää EU:ssa toimivalle PostHogille tapahtumia käyttöönotosta, alkuarviosta, tason ja vaiheen muutoksista (taito ja vaihe mukana), maksunäkymästä, ostoista ja avatuista näkymistä. Reaaliaikaisen harjoituksen tapahtumissa ovat aloitus, valmistuminen tai keskeytys, kuluneet sekunnit, kirjattujen sarjojen määrä, eri taitojen määrä ja tieto ensimmäisestä valmiista harjoituksesta. Niissä ei ole yksittäisiä liikkeitä, toistoja, painoja tai muistiinpanoja. Ikää, sukupuolta, pituutta ja painoa ei lähetetä. PostHog saa myös tavanomaiset laite-, iOS-, sovellus- ja kielitiedot sekä IP-osoitteen, josta voi päätellä likimääräisen sijainnin. Satunnainen analytiikkatunnus luodaan vasta suostumuksen jälkeen. Voit peruuttaa suostumuksen kohdassa Asetukset ▸ Tiedot ja tietosuoja; uudet tapahtumat loppuvat, mutta aiemmin lähetettyjä tietoja ei poisteta automaattisesti.
+ 
++Kun annat erillisen suostumuksesi tilausten yhdistämiseen, jaettuihin käyttötapahtumiin sisältyy myös pseudonyymi ostoviite, joka johdetaan RevenueCatin satunnaisesta asiakastunnisteesta. Näin voimme verrata sovelluksen käyttöä kokeilujakson tai tilauksen aikana RevenueCatin tallentamiin ostotuloksiin. Viite ei paljasta nimeäsi, sähköpostiosoitettasi, maksutietojasi tai Apple-tiliäsi. Pelkkä olemassa oleva suostumus käytön jakamiseen ei ota tätä yhdistämistä käyttöön. Voit poistaa yhdistämisen käytöstä erikseen Asetuksissa; käytön jakamisen poistaminen käytöstä pysäyttää molemmat. Suostumuksen peruuttaminen pysäyttää uudet yhdistetyt tapahtumat mutta ei poista jo lähetettyjä tietoja automaattisesti. RevenueCat ei lähetä tilaustapahtumia automaattisesti PostHogille.
++
++Sovellus voi myös ilmoittaa tilauksen vaiheen, nykyisen käyttöoikeuden, uusimisen tilan sekä sen, havaittiinko peruutus tai laskutusongelma. Nämä havainnot eivät ole todiste veloituksesta, ja ne lähetetään vain, kun analytiikka on käytössä.
++
+ ### 3.2 Apple Search Ads -mainonnan kohdistaminen
+ 
+ Vasta analytiikkasuostumuksen jälkeen Ranked kysyy kerran Applen AdServices-palvelulta, tuliko asennus Apple Search Ads -mainoksesta. Mainoksen klikkauksen yhteydessä kampanja, mainosryhmä, hakusana, mainosaineisto, maa tai alue, klikkauspäivä ja lataustyyppi voidaan liittää satunnaiseen PostHog-tunnukseen. Mainostunnistetta IDFA ei käytetä. Suostumuksen peruminen estää tulevat lähetykset.
+diff --git a/privacy-fr.md b/privacy-fr.md
+index 28003d4..9c4d557 100644
+--- a/privacy-fr.md
++++ b/privacy-fr.md
+@@ -8,7 +8,7 @@ permalink: /privacy/fr/
+ 
+ # Politique de confidentialité · Calisthenics Skills – Ranked
+ 
+-**Dernière mise à jour : 2026-10-08**
++**Dernière mise à jour : 2026-10-11**
+ 
+ La présente politique décrit ce que Ranked collecte, où cela va et ce que vous pouvez y faire.
+ 
+@@ -59,6 +59,10 @@ nous ne l'avons jamais eu.
+ 
+ L'analyse est désactivée par défaut. Seulement si vous l'acceptez expressément pendant la configuration ou ensuite dans Réglages, Ranked envoie à PostHog dans l'UE des événements concernant la configuration, l'évaluation initiale, le rang et les paliers (avec la compétence et le palier), l'écran d'achat, les achats et les écrans ouverts. Les événements de séance en direct indiquent le début, la fin ou l'abandon, le nombre de secondes écoulées, de séries enregistrées et de compétences distinctes, ainsi que s'il s'agit de la première séance terminée. Ils ne contiennent ni exercice individuel, ni répétition, ni charge, ni note. L'âge, le sexe, la taille et le poids ne sont pas transmis. PostHog reçoit aussi les informations techniques habituelles sur l'appareil, iOS, l'application et la langue, ainsi que l'adresse IP, qui peut révéler une localisation approximative. Un identifiant aléatoire est créé après votre consentement. Vous pouvez le retirer dans Réglages ▸ Données et confidentialité : les nouveaux envois cessent, mais les données déjà envoyées ne sont pas automatiquement effacées.
+ 
++Avec votre consentement distinct au rapprochement des abonnements, les événements d’utilisation partagés comprennent également une référence d’achat pseudonyme dérivée de l’identifiant client aléatoire de RevenueCat. Cela nous permet de comparer l’utilisation de l’app pendant un essai ou un abonnement aux résultats d’achat enregistrés par RevenueCat. Cette référence ne révèle ni votre nom, ni votre adresse e-mail, ni vos informations de paiement, ni votre compte Apple. Le consentement existant au seul partage de l’utilisation ne permet pas ce rapprochement. Vous pouvez désactiver le rapprochement séparément dans Réglages ; désactiver le partage de l’utilisation arrête les deux. Le retrait du consentement arrête les nouveaux événements liés, mais ne supprime pas automatiquement les données déjà envoyées. RevenueCat n’envoie pas automatiquement les événements d’abonnement à PostHog.
++
++L’app peut également signaler la phase de l’abonnement, l’accès actuel, le statut de renouvellement et la détection d’une résiliation ou d’un problème de facturation. Ces observations ne constituent pas une preuve de débit et ne sont envoyées que lorsque l’analyse est activée.
++
+ ### 3.2 Attribution Apple Search Ads
+ 
+ Après votre accord pour l'analyse seulement, Ranked interroge une fois le service AdServices d'Apple sur l'attribution d'une installation provenant d'Apple Search Ads. Si vous avez cliqué sur une annonce, la campagne, le groupe d'annonces, le mot-clé, le visuel, le pays ou la région, la date du clic et le type de téléchargement peuvent être liés à l'identifiant PostHog aléatoire. L'identifiant publicitaire IDFA n'est pas utilisé. Le retrait du consentement arrête les futurs envois.
+diff --git a/privacy-he.md b/privacy-he.md
+index 88df120..b48c42a 100644
+--- a/privacy-he.md
++++ b/privacy-he.md
+@@ -8,7 +8,7 @@ permalink: /privacy/he/
+ 
+ # מדיניות פרטיות · Calisthenics Skills – Ranked
+ 
+-**עודכן לאחרונה: 2026-10-08**
++**עודכן לאחרונה: 2026-10-11**
+ 
+ מדיניות זו מתארת מה Ranked אוספת, לאן זה הולך ומה אפשר לעשות בנוגע לכך.
+ 
+@@ -56,6 +56,10 @@ Ranked אינה עוקבת אחריך באפליקציות או באתרים א
+ 
+ ניתוח השימוש כבוי כברירת מחדל. רק אם תיתנו הסכמה מפורשת במהלך ההגדרה או מאוחר יותר בהגדרות, Ranked ישלח ל-PostHog המתארח באיחוד האירופי אירועים על ההגדרה, ההערכה הראשונית, שינויי דרגה ושלב (כולל המיומנות והשלב), מסך הרכישה, רכישות ומסכים שנפתחו. אירועי אימון חי כוללים התחלה, סיום או נטישה, מספר שניות שחלפו, מספר סטים שתועדו, מספר מיומנויות שונות ואם זה היה האימון הראשון שהושלם. הם אינם כוללים תרגילים בודדים, חזרות, משקולות או הערות. גיל, מין, גובה ומשקל גוף אינם נשלחים. PostHog מקבל גם פרטים טכניים רגילים על המכשיר, iOS, האפליקציה והשפה ואת כתובת ה-IP, שממנה עשוי להשתמע מיקום משוער. מזהה ניתוח אקראי נוצר רק לאחר הסכמתכם. אפשר לבטל את ההסכמה בהגדרות ▸ נתונים ופרטיות; שליחת אירועים חדשים תיעצר, אך מידע שנשלח בעבר לא יימחק אוטומטית.
+ 
++בהסכמתך הנפרדת להתאמת מינויים, אירועי השימוש המשותפים כוללים גם אסמכתת רכישה פסאודונימית הנגזרת ממזהה הלקוח האקראי של RevenueCat. כך ניתן להשוות את השימוש באפליקציה במהלך תקופת ניסיון או מינוי לתוצאות הרכישה שנרשמו ב-RevenueCat. אסמכתה זו אינה חושפת את שמך, כתובת הדוא״ל שלך, פרטי התשלום או חשבון Apple שלך. ההסכמה הקיימת לשיתוף השימוש לבדה אינה מאפשרת התאמה זו. אפשר לכבות את ההתאמה בנפרד בהגדרות; כיבוי שיתוף השימוש עוצר את שניהם. ביטול ההסכמה עוצר אירועים מקושרים חדשים, אך אינו מוחק אוטומטית נתונים שכבר נשלחו. RevenueCat אינו שולח אוטומטית אירועי מינוי ל-PostHog.
++
++האפליקציה עשויה לדווח גם על שלב המינוי, הגישה הנוכחית, מצב החידוש והאם זוהה ביטול או קושי בחיוב. תצפיות אלו אינן הוכחה לחיוב, והן נשלחות רק כאשר ניתוח הנתונים מופעל.
++
+ ### 3.2 ייחוס Apple Search Ads
+ 
+ רק לאחר הסכמה לניתוח השימוש, Ranked פונה פעם אחת ל-AdServices של Apple כדי לברר אם ההתקנה הגיעה מ-Apple Search Ads. לאחר לחיצה על מודעה, הקמפיין, קבוצת המודעות, מילת המפתח, הקריאייטיב, המדינה או האזור, תאריך הלחיצה וסוג ההורדה עשויים להיות משויכים למזהה האקראי של PostHog. מזהה הפרסום IDFA אינו בשימוש. ביטול ההסכמה מפסיק העברות עתידיות.
+diff --git a/privacy-hr.md b/privacy-hr.md
+index 355cfd8..96f6c02 100644
+--- a/privacy-hr.md
++++ b/privacy-hr.md
+@@ -7,7 +7,7 @@ permalink: /privacy/hr/
+ 
+ # Pravila o privatnosti · Calisthenics Skills – Ranked
+ 
+-**Posljednje ažuriranje: 2026-10-08**
++**Posljednje ažuriranje: 2026-10-11**
+ 
+ Ova pravila opisuju koje podatke Ranked prikuplja, kamo odlaze i što možete učiniti u vezi s njima.
+ 
+@@ -49,6 +49,10 @@ Brisanjem aplikacije sve se to briše s uređaja. Ne možemo to vratiti jer nika
+ 
+ Analitika je zadano isključena. Tek kada izričito pristanete tijekom početnog postavljanja ili poslije u Postavkama, Ranked šalje PostHogu u EU događaje o postavljanju, početnoj procjeni, promjenama ranga i stupnja (s vještinom i stupnjem), zaslonu za kupnju, kupnjama i otvorenim zaslonima. Događaji treninga uživo uključuju početak, završetak ili prekid, protekle sekunde, broj zabilježenih serija, broj različitih vještina te je li to bio prvi završeni trening. Ne uključuju pojedinačne vježbe, ponavljanja, utege ni bilješke. Dob, spol, visina i tjelesna težina ne šalju se. PostHog prima i uobičajene tehničke podatke o uređaju, iOS-u, aplikaciji i jeziku te IP adresu iz koje se može izvesti približna lokacija. Nasumični analitički identifikator nastaje nakon pristanka. Pristanak možete povući u Postavkama ▸ Podaci i privatnost; novi događaji prestaju, ali prethodno poslani podaci ne brišu se automatski.
+ 
++Uz vašu zasebnu privolu za povezivanje pretplata, dijeljeni događaji upotrebe uključuju i pseudonimnu referencu kupnje izvedenu iz nasumičnog identifikatora korisnika RevenueCat. To nam omogućuje usporedbu upotrebe aplikacije tijekom probnog razdoblja ili pretplate s ishodima kupnje koje bilježi RevenueCat. Ta referenca ne otkriva vaše ime, adresu e-pošte, podatke o plaćanju ni Apple račun. Sama postojeća privola za dijeljenje upotrebe ne omogućuje to povezivanje. Povezivanje možete zasebno isključiti u Postavkama; isključivanje dijeljenja upotrebe zaustavlja oboje. Povlačenje privole zaustavlja nove povezane događaje, ali ne briše automatski već poslane podatke. RevenueCat ne šalje automatski događaje pretplate u PostHog.
++
++Aplikacija također može izvještavati o fazi pretplate, trenutačnom pristupu, statusu obnove te je li otkriven otkaz ili problem s naplatom. Ta opažanja nisu dokaz terećenja i šalju se samo dok je analitika uključena.
++
+ ### 3.2 Pripisivanje Apple Search Ads oglasa
+ 
+ Tek nakon pristanka na analitiku Ranked jednom pita Apple AdServices o pripisivanju instalacije iz Apple Search Ads. Nakon klika na oglas kampanja, oglasna grupa, ključna riječ, oglasni sadržaj, država ili regija, datum klika i vrsta preuzimanja mogu se povezati s nasumičnim identifikatorom PostHoga. Oglašivački identifikator IDFA ne koristi se. Povlačenje pristanka zaustavlja buduće prijenose.
+diff --git a/privacy-hu.md b/privacy-hu.md
+index 1e21e3e..303aedc 100644
+--- a/privacy-hu.md
++++ b/privacy-hu.md
+@@ -7,7 +7,7 @@ permalink: /privacy/hu/
+ 
+ # Adatvédelmi tájékoztató · Calisthenics Skills – Ranked
+ 
+-**Utolsó frissítés: 2026-10-08**
++**Utolsó frissítés: 2026-10-11**
+ 
+ Ez a tájékoztató ismerteti, milyen adatokat gyűjt a Ranked, hová kerülnek, és milyen lehetőségei vannak velük kapcsolatban.
+ 
+@@ -49,6 +49,10 @@ Az alkalmazás törlése ezeket az adatokat is törli az eszközről. Nem tudjuk
+ 
+ Az elemzés alapértelmezés szerint ki van kapcsolva. A Ranked csak akkor küld az EU-ban működő PostHognak eseményeket, ha a beállítás során vagy később a Beállításokban kifejezetten hozzájárul: a beállításról, kezdeti felmérésről, rang- és szintváltozásokról (a készséggel és szinttel), fizetési képernyőről, vásárlásokról és megnyitott képernyőkről. Az élő edzés eseményei tartalmazzák a kezdést, befejezést vagy megszakítást, az eltelt másodperceket, a rögzített sorozatok és különböző készségek számát, valamint hogy ez volt-e az első befejezett edzés. Nem tartalmaznak egyedi gyakorlatokat, ismétléseket, súlyokat vagy jegyzeteket. Az életkor, nem, magasság és testsúly nem kerül elküldésre. A PostHog szokásos technikai adatokat is kap az eszközről, iOS-ről, alkalmazásról és nyelvről, valamint az IP-címet, amelyből hozzávetőleges hely becsülhető. Véletlenszerű elemzési azonosító csak a hozzájárulás után jön létre. A hozzájárulás a Beállítások ▸ Adatok és adatvédelem alatt visszavonható; az új események leállnak, a korábban elküldött adatok nem törlődnek automatikusan.
+ 
++Az előfizetések összekapcsolásához adott külön hozzájárulásával a megosztott használati események egy álnevesített vásárlási hivatkozást is tartalmaznak, amely a RevenueCat véletlenszerű ügyfélazonosítójából származik. Így összehasonlíthatjuk az alkalmazás használatát a próbaidőszak vagy előfizetés alatt a RevenueCat által rögzített vásárlási eredményekkel. Ez a hivatkozás nem fedi fel az Ön nevét, e-mail-címét, fizetési adatait vagy Apple-fiókját. A használat megosztásához korábban adott hozzájárulás önmagában nem engedélyezi ezt az összekapcsolást. Az összekapcsolást külön kikapcsolhatja a Beállításokban; a használat megosztásának kikapcsolása mindkettőt leállítja. A hozzájárulás visszavonása leállítja az új összekapcsolt eseményeket, de nem törli automatikusan a már elküldött adatokat. A RevenueCat nem küld automatikusan előfizetési eseményeket a PostHognak.
++
++Az alkalmazás az előfizetés szakaszát, az aktuális hozzáférést, a megújítás állapotát és az észlelt lemondást vagy számlázási problémát is jelentheti. Ezek a megfigyelések nem bizonyítanak terhelést, és csak bekapcsolt analitika mellett kerülnek elküldésre.
++
+ ### 3.2 Apple Search Ads-hozzárendelés
+ 
+ Csak az elemzéshez adott hozzájárulás után kérdezi le a Ranked egyszer az Apple AdServices rendszerétől, hogy a telepítés Apple Search Ads hirdetésből származott-e. Hirdetésre kattintás után a kampány, hirdetéscsoport, kulcsszó, kreatív anyag, ország vagy régió, kattintási dátum és letöltéstípus a véletlenszerű PostHog-azonosítóhoz kapcsolható. Az IDFA hirdetési azonosítót nem használjuk. A hozzájárulás visszavonása leállítja a jövőbeli továbbítást.
+diff --git a/privacy-id.md b/privacy-id.md
+index 3330e20..6ef78ee 100644
+--- a/privacy-id.md
++++ b/privacy-id.md
+@@ -7,7 +7,7 @@ permalink: /privacy/id/
+ 
+ # Kebijakan Privasi · Calisthenics Skills – Ranked
+ 
+-**Terakhir diperbarui: 2026-10-08**
++**Terakhir diperbarui: 2026-10-11**
+ 
+ Kebijakan ini menjelaskan data apa yang dikumpulkan Ranked, ke mana data tersebut dikirim, dan apa yang dapat Anda lakukan.
+ 
+@@ -49,6 +49,10 @@ Menghapus aplikasi akan menghapus semua data tersebut dari perangkat. Kami tidak
+ 
+ Analitik dinonaktifkan secara default. Hanya jika Anda memberi persetujuan secara tegas saat penyiapan atau nanti di Pengaturan, Ranked mengirim peristiwa ke PostHog yang dihosting di UE: penyiapan, penilaian awal, perubahan peringkat dan tahap (beserta keahlian dan tahap), layar pembelian, pembelian, dan layar yang dibuka. Peristiwa latihan langsung mencakup mulai, selesai atau ditinggalkan, detik yang berlalu, jumlah set yang dicatat, jumlah keahlian berbeda, dan apakah itu latihan pertama yang selesai. Peristiwa ini tidak mencakup latihan individual, repetisi, beban, atau catatan. Usia, jenis kelamin, tinggi dan berat badan tidak dikirim. PostHog juga menerima informasi teknis umum tentang perangkat, iOS, aplikasi, bahasa dan alamat IP yang dapat menunjukkan lokasi perkiraan. ID analitik acak dibuat setelah persetujuan. Anda dapat menarik persetujuan di Pengaturan ▸ Data & privasi; peristiwa baru berhenti, tetapi data yang sudah dikirim tidak otomatis dihapus.
+ 
++Dengan persetujuan terpisah Anda untuk pencocokan langganan, peristiwa penggunaan yang dibagikan juga menyertakan referensi pembelian berpseudonim yang diturunkan dari pengenal pelanggan acak RevenueCat. Ini memungkinkan kami membandingkan penggunaan aplikasi selama uji coba atau langganan dengan hasil pembelian yang dicatat RevenueCat. Referensi ini tidak mengungkapkan nama, alamat email, rincian pembayaran, atau Akun Apple Anda. Persetujuan berbagi penggunaan yang sudah ada saja tidak mengaktifkan pencocokan ini. Anda dapat menonaktifkan pencocokan secara terpisah di Pengaturan; menonaktifkan berbagi penggunaan menghentikan keduanya. Penarikan persetujuan menghentikan peristiwa tertaut baru, tetapi tidak otomatis menghapus data yang sudah dikirim. RevenueCat tidak otomatis mengirim peristiwa langganan ke PostHog.
++
++Aplikasi juga dapat melaporkan tahap langganan, akses saat ini, status perpanjangan, dan apakah pembatalan atau masalah penagihan terdeteksi. Pengamatan ini bukan bukti pembebanan biaya dan hanya dikirim saat analitik aktif.
++
+ ### 3.2 Atribusi Apple Search Ads
+ 
+ Hanya setelah persetujuan analitik, Ranked sekali meminta Apple AdServices menentukan apakah pemasangan berasal dari Apple Search Ads. Jika Anda mengetuk iklan, kampanye, grup iklan, kata kunci, materi iklan, negara atau wilayah, tanggal ketukan dan jenis unduhan dapat dikaitkan dengan ID acak PostHog. ID iklan IDFA tidak digunakan. Penarikan persetujuan menghentikan pengiriman di masa mendatang.
+diff --git a/privacy-it.md b/privacy-it.md
+index 67742a6..8bd195a 100644
+--- a/privacy-it.md
++++ b/privacy-it.md
+@@ -7,7 +7,7 @@ permalink: /privacy/it/
+ 
+ # Informativa sulla privacy · Calisthenics Skills – Ranked
+ 
+-**Ultimo aggiornamento: 2026-10-08**
++**Ultimo aggiornamento: 2026-10-11**
+ 
+ Questa informativa descrive quali dati Ranked raccoglie, dove vanno e quali scelte puoi fare.
+ 
+@@ -49,6 +49,10 @@ Eliminando l'app, elimini tutti questi dati dal dispositivo. Non possiamo recupe
+ 
+ L'analisi è disattivata per impostazione predefinita. Solo se acconsenti espressamente durante la configurazione o in seguito nelle Impostazioni, Ranked invia a PostHog nell'UE eventi relativi a configurazione, valutazione iniziale, cambi di rango e livello (con abilità e livello), schermata di acquisto, acquisti e schermate aperte. Gli eventi degli allenamenti dal vivo indicano avvio, completamento o interruzione, secondi trascorsi, numero di serie registrate, numero di abilità distinte e se si tratta del primo allenamento completato. Non includono singoli esercizi, ripetizioni, pesi o note. Età, sesso, altezza e peso corporeo non vengono trasmessi. PostHog riceve anche normali dati tecnici su dispositivo, iOS, app e lingua, nonché l'indirizzo IP, dal quale può essere dedotta una posizione approssimativa. Un identificativo casuale viene creato dopo il consenso. Puoi revocarlo in Impostazioni ▸ Dati e privacy: i nuovi invii cessano, ma i dati già trasmessi non vengono cancellati automaticamente.
+ 
++Con il Suo consenso separato all’associazione degli abbonamenti, gli eventi di utilizzo condivisi includono anche un riferimento di acquisto pseudonimo derivato dall’identificativo cliente casuale di RevenueCat. Questo ci consente di confrontare l’uso dell’app durante una prova o un abbonamento con gli esiti degli acquisti registrati da RevenueCat. Questo riferimento non rivela il Suo nome, indirizzo e-mail, dati di pagamento o Apple Account. Il solo consenso già espresso alla condivisione dell’utilizzo non abilita questa associazione. Può disattivare l’associazione separatamente nelle Impostazioni; disattivare la condivisione dell’utilizzo interrompe entrambe le funzioni. La revoca interrompe i nuovi eventi collegati, ma non elimina automaticamente i dati già inviati. RevenueCat non invia automaticamente eventi di abbonamento a PostHog.
++
++L’app può inoltre comunicare la fase dell’abbonamento, l’accesso attuale, lo stato di rinnovo e se è stata rilevata una disdetta o un problema di fatturazione. Queste osservazioni non costituiscono prova di un addebito e vengono inviate solo mentre l’analisi è attivata.
++
+ ### 3.2 Attribuzione Apple Search Ads
+ 
+ Solo dopo il consenso all'analisi, Ranked interroga una volta AdServices di Apple per attribuire un'installazione proveniente da Apple Search Ads. Se hai toccato un annuncio, campagna, gruppo, parola chiave, creatività, paese o regione, data del clic e tipo di download possono essere associati all'identificativo casuale di PostHog. Non viene usato l'identificativo pubblicitario IDFA. La revoca interrompe i futuri invii.
+diff --git a/privacy-ja.md b/privacy-ja.md
+index 39099d3..7e6ca45 100644
+--- a/privacy-ja.md
++++ b/privacy-ja.md
+@@ -7,7 +7,7 @@ permalink: /privacy/ja/
+ 
+ # プライバシーポリシー · Calisthenics Skills – Ranked
+ 
+-**最終更新日： 2026-10-08**
++**最終更新日： 2026-10-11**
+ 
+ このポリシーは、Ranked が収集するデータ、その送信先、および利用者が取れる対応を説明します。
+ 
+@@ -49,6 +49,10 @@ Ranked は他のアプリやウェブサイトをまたいで利用者を追跡
+ 
+ 解析は初期設定でオフです。初期設定中または後から設定で明示的に同意した場合に限り、Ranked は EU でホスティングされる PostHog に、設定と初期評価、ランクと段階の変化（スキルと段階を含む）、購入画面と購入、開いた画面に関するイベントを送信します。ライブトレーニングのイベントには開始・完了・中断、経過秒数、記録したセット数、異なるスキル数、初めて完了したトレーニングかどうかが含まれます。個々の運動、反復回数、重量、メモは含まれません。年齢、性別、身長、体重も送信しません。PostHog は通常の端末・iOS・アプリ・言語情報と IP アドレスも受け取ります。IP からおおよその位置が推定される場合があります。ランダムな解析 ID は同意後に作成されます。設定 ▸ データとプライバシーで同意を撤回すると新たな送信は止まりますが、送信済みのデータは自動削除されません。
+ 
++サブスクリプションの照合について別途同意をいただいた場合、共有する利用イベントには、RevenueCatのランダムな顧客識別子から生成した仮名化された購入参照も含まれます。これにより、体験期間またはサブスクリプション期間中のアプリの利用状況と、RevenueCatが記録した購入結果を比較できます。この参照から、氏名、メールアドレス、支払い情報、Apple Accountが明らかになることはありません。利用状況の共有に関する既存の同意だけでは、この照合は有効になりません。設定で照合のみをオフにできます。利用状況の共有をオフにすると、両方が停止します。同意の撤回により、新たに関連付けられるイベントは停止しますが、送信済みのデータは自動的には削除されません。RevenueCatはサブスクリプションイベントをPostHogに自動送信しません。
++
++アプリは、サブスクリプションの段階、現在の利用権限、更新状況、解約または請求に関する問題が検出されたかどうかも報告する場合があります。これらの観測情報は課金の証拠ではなく、分析が有効な間にのみ送信されます。
++
+ ### 3.2 Apple Search Ads のアトリビューション
+ 
+ 解析への同意後に限り、Ranked は Apple の AdServices に一度、Apple Search Ads 経由のインストールかどうかを問い合わせます。広告をタップしていた場合、キャンペーン、広告グループ、キーワード、クリエイティブ、国・地域、タップ日、ダウンロードの種類がランダムな PostHog ID に関連付けられる場合があります。広告識別子 IDFA は使用しません。同意を撤回すると、その後の送信は止まります。
+diff --git a/privacy-ko.md b/privacy-ko.md
+index 282be21..4e4c785 100644
+--- a/privacy-ko.md
++++ b/privacy-ko.md
+@@ -7,7 +7,7 @@ permalink: /privacy/ko/
+ 
+ # 개인정보 처리방침 · Calisthenics Skills – Ranked
+ 
+-**최종 업데이트: 2026-10-08**
++**최종 업데이트: 2026-10-11**
+ 
+ 이 방침은 Ranked가 어떤 정보를 수집하고 어디로 보내며, 이에 대해 사용자가 무엇을 할 수 있는지 설명합니다.
+ 
+@@ -49,6 +49,10 @@ Ranked는 다른 앱이나 웹사이트에 걸쳐 사용자를 추적하지 않
+ 
+ 분석 기능은 기본적으로 꺼져 있습니다. 설정 중 또는 나중에 설정에서 명시적으로 동의한 경우에만 Ranked는 EU에 호스팅된 PostHog에 설정, 초기 평가, 등급 및 단계 변경(기술과 단계 포함), 구매 화면, 구매, 연 화면에 관한 이벤트를 보냅니다. 실시간 운동 이벤트에는 시작·완료·중단, 경과 시간(초), 기록한 세트 수, 서로 다른 기술 수, 첫 완료 운동인지 여부가 포함됩니다. 개별 운동, 반복 횟수, 중량, 메모는 포함되지 않습니다. 나이, 성별, 키, 체중도 전송하지 않습니다. PostHog는 일반적인 기기·iOS·앱·언어 정보와 IP 주소도 받으며, IP에서 대략적인 위치를 추정할 수 있습니다. 무작위 분석 ID는 동의한 뒤 생성됩니다. 설정 ▸ 데이터 및 개인정보 보호에서 동의를 철회하면 새 이벤트 전송이 중단되지만, 이미 보낸 데이터는 자동 삭제되지 않습니다.
+ 
++구독 연결에 별도로 동의하면 공유되는 사용 이벤트에는 RevenueCat의 무작위 고객 식별자에서 파생된 가명 처리된 구매 참조도 포함됩니다. 이를 통해 체험 또는 구독 기간의 앱 사용을 RevenueCat이 기록한 구매 결과와 비교할 수 있습니다. 이 참조는 이름, 이메일 주소, 결제 정보 또는 Apple 계정을 드러내지 않습니다. 기존의 사용 정보 공유 동의만으로는 이 연결이 활성화되지 않습니다. 설정에서 연결을 별도로 끌 수 있으며, 사용 정보 공유를 끄면 둘 다 중단됩니다. 동의 철회는 새로운 연결 이벤트를 중단하지만 이미 전송된 데이터를 자동으로 삭제하지는 않습니다. RevenueCat은 구독 이벤트를 PostHog에 자동으로 전송하지 않습니다.
++
++앱은 구독 단계, 현재 이용 권한, 갱신 상태 및 취소나 청구 문제가 감지되었는지도 보고할 수 있습니다. 이러한 관찰 정보는 결제 청구의 증거가 아니며 분석이 활성화된 동안에만 전송됩니다.
++
+ ### 3.2 Apple Search Ads 유입 정보
+ 
+ 분석에 동의한 뒤에만 Ranked는 Apple AdServices에 Apple Search Ads를 통한 설치인지 한 번 문의합니다. 광고를 탭했다면 캠페인, 광고 그룹, 키워드, 광고 소재, 국가 또는 지역, 탭 날짜, 다운로드 유형이 무작위 PostHog ID와 연결될 수 있습니다. 광고 식별자 IDFA는 사용하지 않습니다. 동의 철회는 향후 전송을 중단합니다.
+diff --git a/privacy-lt.md b/privacy-lt.md
+index cdde937..5bc5f56 100644
+--- a/privacy-lt.md
++++ b/privacy-lt.md
+@@ -8,7 +8,7 @@ permalink: /privacy/lt/
+ 
+ # Privatumo politika · Calisthenics Skills – Ranked
+ 
+-**Paskutinį kartą atnaujinta: 2026-10-08**
++**Paskutinį kartą atnaujinta: 2026-10-11**
+ 
+ Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti.
+ 
+@@ -59,6 +59,10 @@ neturėjome.
+ 
+ Analitika pagal numatytuosius nustatymus išjungta. Tik aiškiai sutikus sąrankos metu arba vėliau Nustatymuose, Ranked siunčia ES veikiantiems PostHog įvykius apie sąranką, pradinį įvertinimą, rango ir pakopos pokyčius (nurodant įgūdį ir pakopą), pirkimo ekraną, pirkimus ir atidarytus ekranus. Tiesioginės treniruotės įvykiai apima pradžią, pabaigą ar nutraukimą, praėjusias sekundes, užregistruotų serijų ir skirtingų įgūdžių skaičių bei ar tai buvo pirmoji baigta treniruotė. Juose nėra atskirų pratimų, pakartojimų, svorių ar pastabų. Amžius, lytis, ūgis ir kūno svoris nesiunčiami. PostHog taip pat gauna įprastus techninius įrenginio, iOS, programėlės ir kalbos duomenis bei IP adresą, iš kurio galima nustatyti apytikrę vietą. Atsitiktinis analitikos identifikatorius sukuriamas po sutikimo. Jį galite atšaukti Nustatymuose ▸ Duomenys ir privatumas; nauji įvykiai nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami.
+ 
++Gavus atskirą jūsų sutikimą susieti prenumeratas, bendrinami naudojimo įvykiai taip pat apima pseudoniminę pirkimo nuorodą, išvestą iš atsitiktinio RevenueCat kliento identifikatoriaus. Tai leidžia palyginti programėlės naudojimą bandomuoju ar prenumeratos laikotarpiu su RevenueCat užfiksuotais pirkimo rezultatais. Ši nuoroda neatskleidžia jūsų vardo, el. pašto adreso, mokėjimo duomenų ar Apple paskyros. Vien esamas sutikimas bendrinti naudojimą šio susiejimo neįjungia. Susiejimą galite atskirai išjungti nustatymuose; išjungus naudojimo bendrinimą sustabdomos abi funkcijos. Atšaukus sutikimą sustabdomi nauji susieti įvykiai, tačiau jau išsiųsti duomenys automatiškai neištrinami. RevenueCat automatiškai nesiunčia prenumeratos įvykių į PostHog.
++
++Programėlė taip pat gali pranešti prenumeratos etapą, dabartinę prieigą, atnaujinimo būseną ir tai, ar aptiktas atšaukimas arba atsiskaitymo problema. Šie stebėjimai nėra lėšų nurašymo įrodymas ir siunčiami tik įjungus analizę.
++
+ ### 3.2 „Apple Search Ads“ priskyrimas
+ 
+ Tik gavus sutikimą analitikai, Ranked vieną kartą per Apple AdServices patikrina, ar diegimas susijęs su Apple Search Ads. Spustelėjus skelbimą, kampanija, skelbimų grupė, raktažodis, kūrybinė medžiaga, šalis ar regionas, spustelėjimo data ir atsisiuntimo tipas gali būti susieti su atsitiktiniu PostHog identifikatoriumi. Reklamos identifikatorius IDFA nenaudojamas. Atšaukus sutikimą būsimi perdavimai sustoja.
+diff --git a/privacy-lv.md b/privacy-lv.md
+index c0552f7..d9a4d9b 100644
+--- a/privacy-lv.md
++++ b/privacy-lv.md
+@@ -8,7 +8,7 @@ permalink: /privacy/lv/
+ 
+ # Privātuma politika · Calisthenics Skills – Ranked
+ 
+-**Pēdējoreiz atjaunināts: 2026-10-08**
++**Pēdējoreiz atjaunināts: 2026-10-11**
+ 
+ Šī politika apraksta, ko Ranked vāc, kurp tas nonāk un ko Jūs varat ar to darīt.
+ 
+@@ -57,6 +57,10 @@ Lietotnes dzēšana izdzēš to visu no ierīces. Mēs to atjaunot nevaram, jo m
+ 
+ Analītika pēc noklusējuma ir izslēgta. Tikai tad, ja iestatīšanas laikā vai vēlāk Iestatījumos skaidri piekrītat, Ranked nosūta ES izvietotajam PostHog notikumus par iestatīšanu, sākotnējo novērtējumu, ranga un posma izmaiņām (ar prasmi un posmu), pirkuma ekrānu, pirkumiem un atvērtajiem ekrāniem. Tiešsaistes treniņa notikumi ietver sākumu, pabeigšanu vai pārtraukšanu, pagājušās sekundes, reģistrēto sēriju un dažādu prasmju skaitu, kā arī to, vai šis bija pirmais pabeigtais treniņš. Tie nesatur atsevišķus vingrinājumus, atkārtojumus, svarus vai piezīmes. Vecums, dzimums, augums un ķermeņa svars netiek nosūtīti. PostHog saņem arī parastos tehniskos datus par ierīci, iOS, lietotni un valodu un IP adresi, no kuras var secināt aptuvenu atrašanās vietu. Nejaušs analītikas identifikators tiek izveidots pēc piekrišanas. To varat atsaukt Iestatījumos ▸ Dati un privātums; jauni notikumi vairs netiek sūtīti, bet iepriekš nosūtītie dati automātiski netiek dzēsti.
+ 
++Ar jūsu atsevišķu piekrišanu abonementu sasaistīšanai kopīgotie lietošanas notikumi ietver arī pseidonimizētu pirkuma atsauci, kas iegūta no RevenueCat nejaušā klienta identifikatora. Tas ļauj salīdzināt lietotnes izmantošanu izmēģinājuma vai abonementa laikā ar RevenueCat reģistrētajiem pirkumu rezultātiem. Šī atsauce neatklāj jūsu vārdu, e-pasta adresi, maksājumu datus vai Apple kontu. Esošā piekrišana tikai lietošanas kopīgošanai neiespējo šo sasaisti. Sasaisti varat atsevišķi izslēgt iestatījumos; lietošanas kopīgošanas izslēgšana aptur abas funkcijas. Piekrišanas atsaukšana aptur jaunus sasaistītus notikumus, bet automātiski neizdzēš jau nosūtītos datus. RevenueCat automātiski nesūta abonementu notikumus uz PostHog.
++
++Lietotne var arī ziņot abonementa posmu, pašreizējo piekļuvi, atjaunošanas statusu un to, vai konstatēta atcelšana vai norēķinu problēma. Šie novērojumi nav pierādījums naudas ieturēšanai un tiek nosūtīti tikai tad, kad analīze ir ieslēgta.
++
+ ### 3.2 Apple Search Ads attiecinājums
+ 
+ Tikai pēc piekrišanas analītikai Ranked vienreiz ar Apple AdServices pārbauda, vai instalēšana nākusi no Apple Search Ads. Pēc klikšķa uz reklāmas kampaņu, reklāmu grupu, atslēgvārdu, reklāmas materiālu, valsti vai reģionu, klikšķa datumu un lejupielādes veidu var piesaistīt nejaušajam PostHog identifikatoram. Reklāmas identifikators IDFA netiek izmantots. Piekrišanas atsaukšana aptur turpmāku nosūtīšanu.
+diff --git a/privacy-ms.md b/privacy-ms.md
+index b2bbd96..96706b5 100644
+--- a/privacy-ms.md
++++ b/privacy-ms.md
+@@ -7,7 +7,7 @@ permalink: /privacy/ms/
+ 
+ # Dasar Privasi · Calisthenics Skills – Ranked
+ 
+-**Kemas kini terakhir: 2026-10-08**
++**Kemas kini terakhir: 2026-10-11**
+ 
+ Dasar ini menerangkan data yang dikumpul oleh Ranked, ke mana data itu pergi, dan tindakan yang boleh anda ambil.
+ 
+@@ -49,6 +49,10 @@ Memadamkan aplikasi akan memadamkan semua data ini daripada peranti. Kami tidak
+ 
+ Analitik dimatikan secara lalai. Hanya jika anda memberi persetujuan nyata semasa persediaan atau kemudian dalam Tetapan, Ranked menghantar peristiwa kepada PostHog yang dihoskan di EU: persediaan, penilaian awal, perubahan pangkat dan peringkat (berserta kemahiran dan peringkat), skrin pembelian, pembelian dan skrin yang dibuka. Peristiwa latihan langsung merangkumi mula, selesai atau ditinggalkan, saat yang berlalu, bilangan set dicatat, bilangan kemahiran berlainan dan sama ada itu latihan pertama yang selesai. Ia tidak merangkumi senaman individu, ulangan, beban atau nota. Umur, jantina, tinggi dan berat badan tidak dihantar. PostHog juga menerima maklumat teknikal lazim tentang peranti, iOS, aplikasi dan bahasa serta alamat IP yang boleh menunjukkan lokasi anggaran. ID analitik rawak dicipta selepas persetujuan. Anda boleh menariknya balik dalam Tetapan ▸ Data & privasi; peristiwa baharu berhenti, tetapi data terdahulu tidak dipadam secara automatik.
+ 
++Dengan persetujuan berasingan anda untuk pemadanan langganan, peristiwa penggunaan yang dikongsi turut menyertakan rujukan pembelian berpseudonim yang diterbitkan daripada pengecam pelanggan rawak RevenueCat. Ini membolehkan kami membandingkan penggunaan aplikasi semasa percubaan atau langganan dengan hasil pembelian yang direkodkan oleh RevenueCat. Rujukan ini tidak mendedahkan nama, alamat e-mel, butiran pembayaran atau Akaun Apple anda. Persetujuan sedia ada untuk perkongsian penggunaan sahaja tidak mengaktifkan pemadanan ini. Anda boleh mematikan pemadanan secara berasingan dalam Tetapan; mematikan perkongsian penggunaan menghentikan kedua-duanya. Penarikan persetujuan menghentikan peristiwa terpaut baharu, tetapi tidak memadamkan data yang sudah dihantar secara automatik. RevenueCat tidak menghantar peristiwa langganan ke PostHog secara automatik.
++
++Aplikasi juga boleh melaporkan fasa langganan, akses semasa, status pembaharuan dan sama ada pembatalan atau isu pengebilan dikesan. Pemerhatian ini bukan bukti caj dan hanya dihantar ketika analitik diaktifkan.
++
+ ### 3.2 Atribusi Apple Search Ads
+ 
+ Hanya selepas persetujuan analitik, Ranked sekali bertanya kepada Apple AdServices sama ada pemasangan datang daripada Apple Search Ads. Jika anda mengetik iklan, kempen, kumpulan iklan, kata kunci, bahan iklan, negara atau rantau, tarikh ketikan dan jenis muat turun boleh dikaitkan dengan ID rawak PostHog. ID pengiklanan IDFA tidak digunakan. Penarikan persetujuan menghentikan penghantaran akan datang.
+diff --git a/privacy-nl.md b/privacy-nl.md
+index 3a36c43..39cfd56 100644
+--- a/privacy-nl.md
++++ b/privacy-nl.md
+@@ -7,7 +7,7 @@ permalink: /privacy/nl/
+ 
+ # Privacyverklaring · Calisthenics Skills – Ranked
+ 
+-**Laatst bijgewerkt: 2026-10-08**
++**Laatst bijgewerkt: 2026-10-11**
+ 
+ Deze verklaring beschrijft welke gegevens Ranked verzamelt, waar ze naartoe gaan en wat u eraan kunt doen.
+ 
+@@ -49,6 +49,10 @@ Als u de app verwijdert, worden al deze gegevens van het apparaat gewist. Wij ku
+ 
+ Analyse staat standaard uit. Alleen als u tijdens de eerste inrichting of later in Instellingen uitdrukkelijk toestemming geeft, stuurt Ranked naar PostHog in de EU gebeurtenissen over inrichting, eerste beoordeling, rang- en fasewijzigingen (met vaardigheid en fase), betaalscherm, aankopen en geopende schermen. Gebeurtenissen van live trainingen bevatten begin, voltooiing of afbreken, verstreken seconden, aantal vastgelegde sets, aantal verschillende vaardigheden en of dit de eerste voltooide training was. Ze bevatten geen afzonderlijke oefeningen, herhalingen, gewichten of notities. Leeftijd, geslacht, lengte en lichaamsgewicht worden niet verzonden. PostHog ontvangt ook gebruikelijke technische gegevens over apparaat, iOS, app en taal en het IP-adres, waaruit een globale locatie kan worden afgeleid. Na uw toestemming wordt een willekeurige analyse-ID gemaakt. U kunt de toestemming in Instellingen ▸ Gegevens en privacy intrekken; nieuwe verzending stopt, eerder verzonden gegevens worden niet automatisch gewist.
+ 
++Met uw afzonderlijke toestemming voor het koppelen van abonnementen bevatten gedeelde gebruiksgebeurtenissen ook een pseudonieme aankoopreferentie die is afgeleid van de willekeurige klantidentificatie van RevenueCat. Zo kunnen we het gebruik van de app tijdens een proefperiode of abonnement vergelijken met de aankoopresultaten die RevenueCat registreert. Deze referentie onthult uw naam, e-mailadres, betalingsgegevens of Apple Account niet. Bestaande toestemming voor alleen het delen van gebruik schakelt deze koppeling niet in. U kunt de koppeling afzonderlijk uitschakelen in Instellingen; het uitschakelen van gebruik delen stopt beide. Het intrekken van toestemming stopt nieuwe gekoppelde gebeurtenissen, maar verwijdert reeds verzonden gegevens niet automatisch. RevenueCat stuurt abonnementsgebeurtenissen niet automatisch naar PostHog.
++
++De app kan ook de abonnementsfase, huidige toegang, verlengingsstatus en de detectie van een opzegging of factureringsprobleem melden. Deze waarnemingen zijn geen bewijs van een afschrijving en worden alleen verzonden zolang analyse is ingeschakeld.
++
+ ### 3.2 Toeschrijving aan Apple Search Ads
+ 
+ Pas na toestemming voor analyse vraagt Ranked via Apple AdServices eenmaal naar de herkomst van een installatie via Apple Search Ads. Na een advertentieklik kunnen campagne, advertentiegroep, trefwoord, uiting, land of regio, klikdatum en downloadtype aan de willekeurige PostHog-ID worden gekoppeld. De advertentie-ID IDFA wordt niet gebruikt. Intrekking stopt toekomstige verzending.
+diff --git a/privacy-no.md b/privacy-no.md
+index cec4368..65a8d5a 100644
+--- a/privacy-no.md
++++ b/privacy-no.md
+@@ -7,7 +7,7 @@ permalink: /privacy/no/
+ 
+ # Personvernerklæring · Calisthenics Skills – Ranked
+ 
+-**Sist oppdatert: 2026-10-08**
++**Sist oppdatert: 2026-10-11**
+ 
+ Denne erklæringen beskriver hvilke opplysninger Ranked samler inn, hvor de sendes, og hva du kan gjøre med dem.
+ 
+@@ -49,6 +49,10 @@ Når du sletter appen, slettes alt dette fra enheten. Vi kan ikke gjenopprette d
+ 
+ Analyse er av som standard. Først når du uttrykkelig samtykker under oppsettet eller senere i Innstillinger, sender Ranked hendelser til PostHog i EU om oppsett, første vurdering, endringer i rang og trinn (med ferdighet og trinn), betalingsskjerm, kjøp og åpnede skjermer. Hendelser fra direkte treningsøkter omfatter start, fullføring eller avbrudd, antall sekunder, registrerte sett, ulike ferdigheter og om dette var den første fullførte økten. De omfatter ikke enkeltøvelser, repetisjoner, vekter eller notater. Alder, kjønn, høyde og kroppsvekt sendes ikke. PostHog mottar også vanlige tekniske opplysninger om enhet, iOS, app og språk samt IP-adressen, som kan gi en omtrentlig plassering. En tilfeldig analyse-ID opprettes etter samtykke. Du kan trekke det tilbake i Innstillinger ▸ Data og personvern; nye hendelser stopper, mens tidligere sendte data ikke slettes automatisk.
+ 
++Med ditt separate samtykke til sammenkobling av abonnementer inneholder delte brukshendelser også en pseudonym kjøpsreferanse avledet fra RevenueCats tilfeldige kundeidentifikator. Dette lar oss sammenligne appbruk i en prøveperiode eller et abonnement med kjøpsresultatene RevenueCat registrerer. Referansen avslører ikke navnet ditt, e-postadressen din, betalingsopplysningene dine eller Apple-kontoen din. Eksisterende samtykke til deling av bruk alene aktiverer ikke denne sammenkoblingen. Du kan slå sammenkoblingen av separat i Innstillinger; å slå av deling av bruk stopper begge. Tilbaketrekking stopper nye sammenkoblede hendelser, men sletter ikke automatisk data som allerede er sendt. RevenueCat sender ikke automatisk abonnementshendelser til PostHog.
++
++Appen kan også rapportere abonnementsfasen, gjeldende tilgang, fornyelsesstatus og om en oppsigelse eller et faktureringsproblem ble oppdaget. Disse observasjonene er ikke bevis på en belastning og sendes bare mens analyse er aktivert.
++
+ ### 3.2 Tilordning fra Apple Search Ads
+ 
+ Først etter samtykke til analyse spør Ranked én gang Apples AdServices om tilordning av en installasjon fra Apple Search Ads. Etter et annonseklikk kan kampanje, annonsegruppe, søkeord, annonsemateriell, land eller region, klikkdato og nedlastingstype knyttes til den tilfeldige PostHog-ID-en. Annonseidentifikatoren IDFA brukes ikke. Tilbaketrekking stopper fremtidige overføringer.
+diff --git a/privacy-pl.md b/privacy-pl.md
+index e5cc2c9..c2109be 100644
+--- a/privacy-pl.md
++++ b/privacy-pl.md
+@@ -8,7 +8,7 @@ permalink: /privacy/pl/
+ 
+ # Polityka prywatności · Calisthenics Skills – Ranked
+ 
+-**Ostatnia aktualizacja: 2026-10-08**
++**Ostatnia aktualizacja: 2026-10-11**
+ 
+ Niniejsza polityka opisuje, co Ranked zbiera, dokąd to trafia i co można z tym zrobić.
+ 
+@@ -58,6 +58,10 @@ nie mieliśmy.
+ 
+ Analityka jest domyślnie wyłączona. Dopiero gdy wyraźnie wyrazisz zgodę podczas konfiguracji lub później w Ustawieniach, Ranked wysyła do PostHog w UE zdarzenia dotyczące konfiguracji, oceny początkowej, zmian rangi i etapu (wraz z umiejętnością i etapem), ekranu zakupu, zakupów i otwieranych ekranów. Zdarzenia treningu na żywo obejmują rozpoczęcie, ukończenie lub przerwanie, liczbę sekund, zapisanych serii, różnych umiejętności oraz informację, czy był to pierwszy ukończony trening. Nie zawierają poszczególnych ćwiczeń, powtórzeń, obciążeń ani notatek. Wiek, płeć, wzrost i masa ciała nie są przesyłane. PostHog otrzymuje też typowe dane techniczne o urządzeniu, iOS, aplikacji i języku oraz adres IP, z którego można wywnioskować przybliżoną lokalizację. Losowy identyfikator analityczny powstaje po wyrażeniu zgody. Zgodę można wycofać w Ustawieniach ▸ Dane i prywatność; nowe zdarzenia przestają być wysyłane, ale wcześniejsze dane nie są automatycznie usuwane.
+ 
++Za Państwa odrębną zgodą na powiązanie subskrypcji udostępniane zdarzenia korzystania zawierają również pseudonimowy identyfikator zakupu wyprowadzony z losowego identyfikatora klienta RevenueCat. Pozwala to porównać korzystanie z aplikacji podczas okresu próbnego lub subskrypcji z wynikami zakupów zapisanymi przez RevenueCat. Identyfikator ten nie ujawnia Państwa imienia i nazwiska, adresu e-mail, danych płatniczych ani konta Apple. Sama istniejąca zgoda na udostępnianie korzystania nie włącza tego powiązania. Powiązanie można wyłączyć osobno w Ustawieniach; wyłączenie udostępniania korzystania zatrzymuje obie funkcje. Wycofanie zgody zatrzymuje nowe powiązane zdarzenia, ale nie usuwa automatycznie już wysłanych danych. RevenueCat nie wysyła automatycznie zdarzeń subskrypcji do PostHog.
++
++Aplikacja może także zgłaszać fazę subskrypcji, bieżący dostęp, stan odnowienia oraz wykrycie anulowania lub problemu z rozliczeniem. Obserwacje te nie stanowią dowodu obciążenia i są wysyłane tylko wtedy, gdy analityka jest włączona.
++
+ ### 3.2 Atrybucja Apple Search Ads
+ 
+ Dopiero po zgodzie na analitykę Ranked jednorazowo pyta Apple AdServices o przypisanie instalacji do Apple Search Ads. Po kliknięciu reklamy kampania, grupa reklam, słowo kluczowe, materiał reklamowy, kraj lub region, data kliknięcia i typ pobrania mogą zostać powiązane z losowym identyfikatorem PostHog. Identyfikator reklamowy IDFA nie jest używany. Wycofanie zgody zatrzymuje przyszłe przesyłanie.
+diff --git a/privacy-pt.md b/privacy-pt.md
+index 4e0b6ae..e7dd473 100644
+--- a/privacy-pt.md
++++ b/privacy-pt.md
+@@ -7,7 +7,7 @@ permalink: /privacy/pt/
+ 
+ # Política de Privacidade · Calisthenics Skills – Ranked
+ 
+-**Última atualização: 2026-10-08**
++**Última atualização: 2026-10-11**
+ 
+ Esta política descreve o que o Ranked recolhe, para onde vão os dados e o que pode fazer a esse respeito.
+ 
+@@ -49,6 +49,10 @@ Eliminar a aplicação apaga estes dados do dispositivo. Não os podemos recuper
+ 
+ A análise está desativada por predefinição. Só depois de dar consentimento expresso na configuração ou nas Definições, a Ranked envia ao PostHog na UE eventos de configuração, avaliação inicial, alterações de classificação e etapa (com a competência e a etapa), ecrã de compra, compras e ecrãs abertos. Os eventos de treino em direto incluem início, conclusão ou abandono, segundos decorridos, número de séries registadas, número de competências diferentes e se foi o primeiro treino concluído. Não incluem exercícios individuais, repetições, pesos ou notas. Idade, sexo, altura e peso corporal não são enviados. O PostHog recebe também dados técnicos habituais do dispositivo, iOS, aplicação e idioma, e o endereço IP, do qual pode ser inferida uma localização aproximada. Um identificador aleatório é criado após o consentimento. Pode retirá-lo em Definições ▸ Dados e privacidade: param os novos envios, mas os dados já enviados não são apagados automaticamente.
+ 
++Com o seu consentimento separado para a associação de assinaturas, os eventos de utilização partilhados também incluem uma referência de compra pseudónima derivada do identificador de cliente aleatório da RevenueCat. Isto permite-nos comparar a utilização da app durante um período experimental ou uma assinatura com os resultados de compra registados pela RevenueCat. Esta referência não revela o seu nome, endereço de e-mail, dados de pagamento ou Conta Apple. O consentimento existente para a partilha de utilização, por si só, não permite esta associação. Pode desativar a associação separadamente nas Definições; desativar a partilha de utilização interrompe ambas. A retirada do consentimento interrompe novos eventos associados, mas não elimina automaticamente os dados já enviados. A RevenueCat não envia automaticamente eventos de assinatura para o PostHog.
++
++A app também pode comunicar a fase da assinatura, o acesso atual, o estado de renovação e se foi detetado um cancelamento ou um problema de faturação. Estas observações não constituem prova de uma cobrança e só são enviadas enquanto a análise está ativada.
++
+ ### 3.2 Atribuição da Apple Search Ads
+ 
+ Só após o consentimento para a análise, a Ranked consulta uma vez o AdServices da Apple para atribuir uma instalação vinda de Apple Search Ads. Se tocou num anúncio, campanha, grupo, palavra-chave, elemento criativo, país ou região, data do toque e tipo de transferência podem ser associados ao identificador aleatório do PostHog. O identificador publicitário IDFA não é utilizado. A retirada do consentimento impede envios futuros.
+diff --git a/privacy-ro.md b/privacy-ro.md
+index 3773cf9..cbbac53 100644
+--- a/privacy-ro.md
++++ b/privacy-ro.md
+@@ -7,7 +7,7 @@ permalink: /privacy/ro/
+ 
+ # Politica de confidențialitate · Calisthenics Skills – Ranked
+ 
+-**Ultima actualizare: 2026-10-08**
++**Ultima actualizare: 2026-10-11**
+ 
+ Această politică descrie ce date colectează Ranked, unde ajung și ce puteți face în privința lor.
+ 
+@@ -49,6 +49,10 @@ Aplicația nu exclude această bază de date din copia de rezervă a dispozitivu
+ 
+ Analiza este dezactivată implicit. Numai dacă vă dați acordul explicit la configurare sau ulterior în Setări, Ranked trimite către PostHog în UE evenimente privind configurarea, evaluarea inițială, schimbările de rang și etapă (cu abilitatea și etapa), ecranul de cumpărare, achizițiile și ecranele deschise. Evenimentele antrenamentelor în timp real includ începutul, finalizarea sau abandonarea, secundele scurse, numărul de seturi înregistrate, numărul de abilități diferite și dacă a fost primul antrenament finalizat. Nu includ exerciții individuale, repetări, greutăți sau note. Vârsta, sexul, înălțimea și greutatea corporală nu sunt transmise. PostHog primește și informații tehnice obișnuite despre dispozitiv, iOS, aplicație și limbă, precum și adresa IP, din care se poate deduce o locație aproximativă. Un identificator aleatoriu este creat după consimțământ. Îl puteți retrage în Setări ▸ Date și confidențialitate; noile evenimente se opresc, dar datele deja trimise nu sunt șterse automat.
+ 
++Cu consimțământul dumneavoastră separat pentru asocierea abonamentelor, evenimentele de utilizare partajate includ și o referință de achiziție pseudonimă derivată din identificatorul de client aleatoriu al RevenueCat. Aceasta ne permite să comparăm utilizarea aplicației în timpul unei perioade de probă sau al unui abonament cu rezultatele achizițiilor înregistrate de RevenueCat. Această referință nu dezvăluie numele, adresa de e-mail, datele de plată sau contul Apple. Consimțământul existent doar pentru partajarea utilizării nu activează această asociere. Puteți dezactiva asocierea separat în Configurări; dezactivarea partajării utilizării le oprește pe ambele. Retragerea consimțământului oprește noile evenimente asociate, dar nu șterge automat datele deja trimise. RevenueCat nu trimite automat evenimente de abonament către PostHog.
++
++Aplicația poate raporta și faza abonamentului, accesul curent, starea reînnoirii și dacă a fost detectată o anulare sau o problemă de facturare. Aceste observații nu constituie dovada unei debitări și sunt trimise doar cât timp analiza este activată.
++
+ ### 3.2 Atribuirea Apple Search Ads
+ 
+ Doar după consimțământul pentru analiză, Ranked întreabă o singură dată Apple AdServices dacă instalarea provine din Apple Search Ads. După un clic pe reclamă, campania, grupul, cuvântul-cheie, materialul publicitar, țara sau regiunea, data clicului și tipul descărcării pot fi asociate identificatorului aleatoriu PostHog. IDFA nu este folosit. Retragerea consimțământului oprește transmiterile viitoare.
+diff --git a/privacy-ru.md b/privacy-ru.md
+index 61b9fa4..9cdd0ff 100644
+--- a/privacy-ru.md
++++ b/privacy-ru.md
+@@ -7,7 +7,7 @@ permalink: /privacy/ru/
+ 
+ # Политика конфиденциальности · Calisthenics Skills – Ranked
+ 
+-**Последнее обновление: 2026-10-08**
++**Последнее обновление: 2026-10-11**
+ 
+ Здесь объясняется, какие данные собирает Ranked, куда они передаются и что вы можете с этим сделать.
+ 
+@@ -49,6 +49,10 @@ Ranked не отслеживает вас между другими прилож
+ 
+ Аналитика по умолчанию отключена. Только после вашего явного согласия при первоначальной настройке или позже в настройках Ranked отправляет в PostHog, размещённый в ЕС, события настройки, первоначальной оценки, изменения ранга и этапа (с указанием навыка и этапа), экрана покупки, покупок и открытых экранов. События тренировки в реальном времени включают начало, завершение или прерывание, прошедшие секунды, число записанных подходов, число различных навыков и признак первой завершённой тренировки. Они не содержат отдельных упражнений, повторений, весов или заметок. Возраст, пол, рост и масса тела не передаются. PostHog также получает обычные технические сведения об устройстве, iOS, приложении и языке и IP-адрес, по которому может быть определено приблизительное местоположение. Случайный аналитический идентификатор создаётся после согласия. Вы можете отозвать согласие в Настройках ▸ Данные и конфиденциальность; отправка новых событий прекратится, но ранее отправленные данные не удалятся автоматически.
+ 
++С вашего отдельного согласия на сопоставление подписок передаваемые события использования также включают псевдонимный идентификатор покупки, полученный из случайного идентификатора клиента RevenueCat. Это позволяет сравнивать использование приложения во время пробного периода или подписки с результатами покупок, записанными RevenueCat. Этот идентификатор не раскрывает ваше имя, адрес электронной почты, платёжные данные или Аккаунт Apple. Само по себе существующее согласие на передачу данных об использовании не включает это сопоставление. Вы можете отдельно отключить сопоставление в Настройках; отключение передачи данных об использовании останавливает обе функции. Отзыв согласия останавливает новые связанные события, но не удаляет автоматически уже отправленные данные. RevenueCat не отправляет события подписки в PostHog автоматически.
++
++Приложение также может сообщать этап подписки, текущий доступ, статус продления и факт обнаружения отмены или проблемы с оплатой. Эти наблюдения не являются доказательством списания средств и отправляются только при включённой аналитике.
++
+ ### 3.2 Атрибуция Apple Search Ads
+ 
+ Только после согласия на аналитику Ranked один раз запрашивает через Apple AdServices сведения о том, связана ли установка с Apple Search Ads. После нажатия на рекламу кампания, группа объявлений, ключевое слово, рекламный материал, страна или регион, дата нажатия и тип загрузки могут быть связаны со случайным идентификатором PostHog. Рекламный идентификатор IDFA не используется. Отзыв согласия прекращает будущую передачу.
+diff --git a/privacy-sk.md b/privacy-sk.md
+index 21b3c9c..8dd8714 100644
+--- a/privacy-sk.md
++++ b/privacy-sk.md
+@@ -8,7 +8,7 @@ permalink: /privacy/sk/
+ 
+ # Zásady ochrany osobných údajov · Calisthenics Skills – Ranked
+ 
+-**Posledná aktualizácia: 2026-10-08**
++**Posledná aktualizácia: 2026-10-11**
+ 
+ Tieto zásady opisujú, čo Ranked zbiera, kam to ide a čo s tým môžete urobiť.
+ 
+@@ -58,6 +58,10 @@ nemali.
+ 
+ Analytika je predvolene vypnutá. Iba ak počas úvodného nastavenia alebo neskôr v Nastaveniach výslovne súhlasíte, Ranked odosiela službe PostHog v EÚ udalosti o nastavení, prvotnom hodnotení, zmenách hodnosti a stupňa (vrátane zručnosti a stupňa), nákupnej obrazovke, nákupoch a otvorených obrazovkách. Udalosti živého tréningu zahŕňajú začiatok, dokončenie alebo prerušenie, uplynulé sekundy, počet zaznamenaných sérií, počet rôznych zručností a údaj o prvom dokončenom tréningu. Neobsahujú jednotlivé cviky, opakovania, záťaž ani poznámky. Vek, pohlavie, výška a hmotnosť sa neodosielajú. PostHog dostáva aj bežné technické údaje o zariadení, iOS, aplikácii a jazyku a IP adresu, z ktorej možno odvodiť približnú polohu. Náhodný analytický identifikátor vzniká po súhlase. Súhlas môžete odvolať v Nastaveniach ▸ Údaje a súkromie; nové udalosti sa prestanú odosielať, skoršie údaje sa automaticky nevymažú.
+ 
++S vaším samostatným súhlasom s prepojením predplatného obsahujú zdieľané udalosti používania aj pseudonymnú referenciu nákupu odvodenú z náhodného zákazníckeho identifikátora RevenueCat. To nám umožňuje porovnávať používanie aplikácie počas skúšobného obdobia alebo predplatného s výsledkami nákupov zaznamenanými službou RevenueCat. Táto referencia neodhaľuje vaše meno, e-mailovú adresu, platobné údaje ani účet Apple. Samotný existujúci súhlas so zdieľaním používania toto prepojenie neumožňuje. Prepojenie môžete vypnúť samostatne v Nastaveniach; vypnutie zdieľania používania zastaví oboje. Odvolanie súhlasu zastaví nové prepojené udalosti, ale automaticky neodstráni už odoslané údaje. RevenueCat automaticky neposiela udalosti predplatného do PostHog.
++
++Aplikácia môže tiež hlásiť fázu predplatného, aktuálny prístup, stav obnovenia a zistenie zrušenia alebo problému s fakturáciou. Tieto pozorovania nie sú dokladom účtovania platby a odosielajú sa len pri zapnutej analytike.
++
+ ### 3.2 Priradenie Apple Search Ads
+ 
+ Až po súhlase s analytikou sa Ranked raz opýta Apple AdServices na pôvod inštalácie z Apple Search Ads. Po kliknutí na reklamu možno k náhodnému identifikátoru PostHog priradiť kampaň, reklamnú skupinu, kľúčové slovo, kreatívu, krajinu alebo región, dátum kliknutia a typ stiahnutia. Reklamný identifikátor IDFA sa nepoužíva. Odvolanie súhlasu zastaví ďalšie prenosy.
+diff --git a/privacy-sl.md b/privacy-sl.md
+index 2fb2f8e..c30835b 100644
+--- a/privacy-sl.md
++++ b/privacy-sl.md
+@@ -8,7 +8,7 @@ permalink: /privacy/sl/
+ 
+ # Politika zasebnosti · Calisthenics Skills – Ranked
+ 
+-**Zadnja posodobitev: 2026-10-08**
++**Zadnja posodobitev: 2026-10-11**
+ 
+ Ta politika opisuje, kaj Ranked zbira, kam to gre in kaj lahko glede tega storite.
+ 
+@@ -57,6 +57,10 @@ Izbris aplikacije izbriše vse to iz naprave. Obnoviti tega ne moremo, ker tega
+ 
+ Analitika je privzeto izklopljena. Le če med uvajanjem ali pozneje v nastavitvah izrecno privolite, Ranked pošilja storitvi PostHog v EU dogodke o uvajanju, začetni oceni, spremembah ranga in stopnje (s spretnostjo in stopnjo), plačilnem zaslonu, nakupih in odprtih zaslonih. Dogodki vadbe v živo vsebujejo začetek, zaključek ali prekinitev, pretečene sekunde, število zabeleženih serij, število različnih spretnosti in podatek o prvi zaključeni vadbi. Ne vsebujejo posameznih vaj, ponovitev, uteži ali zapiskov. Starost, spol, višina in telesna teža se ne pošiljajo. PostHog prejme tudi običajne tehnične podatke o napravi, iOS, aplikaciji in jeziku ter naslov IP, iz katerega je mogoče sklepati o približni lokaciji. Naključni analitični identifikator nastane po privolitvi. Privolitev lahko umaknete v Nastavitvah ▸ Podatki in zasebnost; novi dogodki prenehajo, že poslani podatki pa se ne izbrišejo samodejno.
+ 
++Z vašim ločenim soglasjem za povezovanje naročnin deljeni dogodki uporabe vključujejo tudi psevdonimno referenco nakupa, izpeljano iz naključnega identifikatorja stranke RevenueCat. To nam omogoča primerjavo uporabe aplikacije med preizkusom ali naročnino z rezultati nakupov, ki jih zabeleži RevenueCat. Ta referenca ne razkriva vašega imena, e-poštnega naslova, podatkov o plačilu ali računa Apple. Obstoječe soglasje zgolj za deljenje uporabe tega povezovanja ne omogoča. Povezovanje lahko ločeno izklopite v Nastavitvah; izklop deljenja uporabe ustavi oboje. Umik soglasja ustavi nove povezane dogodke, vendar ne izbriše samodejno že poslanih podatkov. RevenueCat ne pošilja samodejno dogodkov naročnin v PostHog.
++
++Aplikacija lahko sporoča tudi fazo naročnine, trenutni dostop, stanje obnove in ali je bila zaznana odpoved ali težava z obračunavanjem. Ta opažanja niso dokaz bremenitve in se pošiljajo samo, ko je analitika vklopljena.
++
+ ### 3.2 Pripis Apple Search Ads
+ 
+ Šele po privolitvi v analitiko Ranked enkrat vpraša Apple AdServices o pripisu namestitve iz Apple Search Ads. Po kliku na oglas se lahko z naključnim identifikatorjem PostHog povežejo kampanja, oglasna skupina, ključna beseda, ustvarjalna vsebina, država ali regija, datum klika in vrsta prenosa. Oglaševalski identifikator IDFA se ne uporablja. Umik privolitve ustavi prihodnje prenose.
+diff --git a/privacy-sv.md b/privacy-sv.md
+index dda0282..b73525e 100644
+--- a/privacy-sv.md
++++ b/privacy-sv.md
+@@ -7,7 +7,7 @@ permalink: /privacy/sv/
+ 
+ # Integritetspolicy · Calisthenics Skills – Ranked
+ 
+-**Senast uppdaterad: 2026-10-08**
++**Senast uppdaterad: 2026-10-11**
+ 
+ Den här policyn beskriver vilka uppgifter Ranked samlar in, vart de skickas och vad du kan göra åt det.
+ 
+@@ -49,6 +49,10 @@ Om du raderar appen raderas allt detta från enheten. Vi kan inte återskapa det
+ 
+ Analys är avstängd som standard. Först när du uttryckligen samtycker under introduktionen eller senare i Inställningar skickar Ranked händelser till PostHog i EU om introduktion, första bedömning, ändringar av rang och steg (med färdighet och steg), betalningsvy, köp och öppnade vyer. Händelser från träningspass i realtid omfattar start, slutförande eller avbrott, antal sekunder, registrerade set, olika färdigheter och om det var det första slutförda passet. De innehåller inte enskilda övningar, repetitioner, vikter eller anteckningar. Ålder, kön, längd och kroppsvikt skickas inte. PostHog får också vanliga tekniska uppgifter om enhet, iOS, app och språk samt IP-adressen, som kan ge en ungefärlig plats. Ett slumpmässigt analys-id skapas först efter ditt samtycke. Du kan återkalla det i Inställningar ▸ Data och integritet; nya händelser stoppas men redan skickade uppgifter raderas inte automatiskt.
+ 
++Med ditt separata samtycke till koppling av prenumerationer innehåller delade användningshändelser även en pseudonym köpreferens som härleds från RevenueCats slumpmässiga kundidentifierare. Detta låter oss jämföra hur appen används under en provperiod eller prenumeration med de köpresultat som RevenueCat registrerar. Referensen avslöjar inte ditt namn, din e-postadress, dina betalningsuppgifter eller ditt Apple-konto. Befintligt samtycke till enbart delning av användning aktiverar inte denna koppling. Du kan stänga av kopplingen separat i Inställningar; att stänga av delning av användning stoppar båda. Återkallelse stoppar nya kopplade händelser men raderar inte automatiskt redan skickade uppgifter. RevenueCat skickar inte automatiskt prenumerationshändelser till PostHog.
++
++Appen kan även rapportera prenumerationsfasen, aktuell åtkomst, förnyelsestatus och om en uppsägning eller ett faktureringsproblem upptäcktes. Dessa observationer är inte bevis på en debitering och skickas endast medan analys är aktiverad.
++
+ ### 3.2 Tillskrivning av Apple Search Ads
+ 
+ Först efter samtycke till analys frågar Ranked en gång Apples AdServices om koppling av en installation från Apple Search Ads. Efter ett annonsklick kan kampanj, annonsgrupp, sökord, annonsmaterial, land eller region, klickdatum och typ av nedladdning kopplas till det slumpmässiga PostHog-id:t. Annonsidentifieraren IDFA används inte. Återkallelse stoppar framtida överföringar.
+diff --git a/privacy-th.md b/privacy-th.md
+index 9b31b20..d57e35c 100644
+--- a/privacy-th.md
++++ b/privacy-th.md
+@@ -7,7 +7,7 @@ permalink: /privacy/th/
+ 
+ # นโยบายความเป็นส่วนตัว · Calisthenics Skills – Ranked
+ 
+-**ปรับปรุงล่าสุด: 2026-10-08**
++**ปรับปรุงล่าสุด: 2026-10-11**
+ 
+ นโยบายนี้อธิบายว่า Ranked เก็บข้อมูลใด ส่งข้อมูลไปที่ใด และคุณสามารถจัดการเรื่องนี้ได้อย่างไร
+ 
+@@ -49,6 +49,10 @@ Ranked ไม่ติดตามคุณข้ามแอปหรือเ
+ 
+ การวิเคราะห์ปิดอยู่ตามค่าเริ่มต้น Ranked จะส่งเหตุการณ์ไปยัง PostHog ที่โฮสต์ในสหภาพยุโรปก็ต่อเมื่อคุณยินยอมอย่างชัดเจนระหว่างการตั้งค่าหรือภายหลังในหน้าการตั้งค่า เหตุการณ์ครอบคลุมการตั้งค่า การประเมินเบื้องต้น การเปลี่ยนอันดับและขั้น (พร้อมทักษะและขั้น) หน้าซื้อ การซื้อ และหน้าที่เปิด เหตุการณ์การฝึกสดระบุการเริ่ม เสร็จสิ้น หรือยกเลิก จำนวนวินาทีที่ผ่านไป จำนวนเซตที่บันทึก จำนวนทักษะที่ต่างกัน และว่าเป็นการฝึกครั้งแรกที่เสร็จหรือไม่ ไม่รวมท่าออกกำลังกายแต่ละท่า จำนวนครั้ง น้ำหนัก หรือบันทึก ไม่ส่งอายุ เพศ ส่วนสูง หรือน้ำหนักตัว PostHog ยังได้รับข้อมูลทางเทคนิคทั่วไปเกี่ยวกับอุปกรณ์ iOS แอป ภาษา และที่อยู่ IP ซึ่งอาจใช้ประมาณตำแหน่งได้ ระบบสร้างรหัสวิเคราะห์แบบสุ่มหลังจากคุณยินยอม คุณถอนความยินยอมได้ที่การตั้งค่า ▸ ข้อมูลและความเป็นส่วนตัว การส่งเหตุการณ์ใหม่จะหยุด แต่ข้อมูลที่ส่งไปแล้วจะไม่ถูกลบโดยอัตโนมัติ
+ 
++เมื่อคุณให้ความยินยอมแยกต่างหากสำหรับการจับคู่การสมัครสมาชิก เหตุการณ์การใช้ที่แชร์จะมีข้อมูลอ้างอิงการซื้อแบบใช้นามแฝง ซึ่งได้มาจากตัวระบุลูกค้าแบบสุ่มของ RevenueCat ด้วย ซึ่งช่วยให้เราเปรียบเทียบการใช้แอปในช่วงทดลองใช้หรือการสมัครสมาชิกกับผลการซื้อที่ RevenueCat บันทึกไว้ ข้อมูลอ้างอิงนี้ไม่เปิดเผยชื่อ ที่อยู่อีเมล รายละเอียดการชำระเงิน หรือบัญชี Apple ของคุณ ความยินยอมเดิมสำหรับการแชร์การใช้เพียงอย่างเดียวไม่เปิดใช้งานการจับคู่นี้ คุณสามารถปิดการจับคู่แยกต่างหากในการตั้งค่า การปิดการแชร์การใช้จะหยุดทั้งสองอย่าง การถอนความยินยอมจะหยุดเหตุการณ์ที่เชื่อมโยงใหม่ แต่จะไม่ลบข้อมูลที่ส่งไปแล้วโดยอัตโนมัติ RevenueCat ไม่ส่งเหตุการณ์การสมัครสมาชิกไปยัง PostHog โดยอัตโนมัติ
++
++แอปอาจรายงานระยะของการสมัครสมาชิก สิทธิ์การเข้าถึงปัจจุบัน สถานะการต่ออายุ และว่าตรวจพบการยกเลิกหรือปัญหาการเรียกเก็บเงินหรือไม่ด้วย ข้อสังเกตเหล่านี้ไม่ใช่หลักฐานการหักเงิน และจะส่งเฉพาะขณะที่เปิดใช้งานการวิเคราะห์เท่านั้น
++
+ ### 3.2 การระบุแหล่งที่มาจาก Apple Search Ads
+ 
+ หลังจากยินยอมให้วิเคราะห์เท่านั้น Ranked จะสอบถาม Apple AdServices หนึ่งครั้งว่าการติดตั้งมาจาก Apple Search Ads หรือไม่ หากคุณแตะโฆษณา แคมเปญ กลุ่มโฆษณา คำค้นหา สื่อโฆษณา ประเทศหรือภูมิภาค วันที่แตะ และประเภทการดาวน์โหลดอาจเชื่อมกับรหัส PostHog แบบสุ่ม ไม่ใช้ตัวระบุโฆษณา IDFA การถอนความยินยอมหยุดการส่งในอนาคต
+diff --git a/privacy-tr.md b/privacy-tr.md
+index 2040a17..48fc0a7 100644
+--- a/privacy-tr.md
++++ b/privacy-tr.md
+@@ -7,7 +7,7 @@ permalink: /privacy/tr/
+ 
+ # Gizlilik Politikası · Calisthenics Skills – Ranked
+ 
+-**Son güncelleme: 2026-10-08**
++**Son güncelleme: 2026-10-11**
+ 
+ Bu politika, Ranked'in hangi verileri topladığını, bunların nereye gittiğini ve bu konuda neler yapabileceğinizi açıklar.
+ 
+@@ -49,6 +49,10 @@ Uygulamayı silmek, bunların tamamını cihazdan siler. Veriler hiçbir zaman e
+ 
+ Analiz varsayılan olarak kapalıdır. Yalnızca kurulum sırasında veya daha sonra Ayarlar'da açıkça onay verirseniz Ranked, AB'de barındırılan PostHog'a kurulum, ilk değerlendirme, rütbe ve aşama değişiklikleri (beceri ve aşama dâhil), satın alma ekranı, satın almalar ve açılan ekranlar hakkında olay gönderir. Canlı antrenman olayları başlangıcı, tamamlanmayı veya yarıda bırakmayı; geçen saniyeleri, kaydedilen set ve farklı beceri sayılarını ve bunun ilk tamamlanan antrenman olup olmadığını içerir. Tek tek egzersizleri, tekrarları, ağırlıkları veya notları içermez. Yaş, cinsiyet, boy ve vücut ağırlığı gönderilmez. PostHog ayrıca cihaz, iOS, uygulama ve dile ilişkin olağan teknik bilgileri ve yaklaşık konum çıkarılabilecek IP adresini alır. Rastgele analiz kimliği onayınızdan sonra oluşturulur. Onayı Ayarlar ▸ Veriler ve gizlilik'ten geri alabilirsiniz; yeni olaylar durur, önceden gönderilen veriler otomatik olarak silinmez.
+ 
++Abonelik eşleştirmesi için verdiğiniz ayrı onayla, paylaşılan kullanım olayları RevenueCat’in rastgele müşteri tanımlayıcısından türetilen takma adlı bir satın alma referansı da içerir. Bu, deneme veya abonelik sırasında uygulamanın kullanımını RevenueCat’in kaydettiği satın alma sonuçlarıyla karşılaştırmamızı sağlar. Bu referans adınızı, e-posta adresinizi, ödeme bilgilerinizi veya Apple Hesabınızı açığa çıkarmaz. Mevcut kullanım paylaşımı onayı tek başına bu eşleştirmeyi etkinleştirmez. Eşleştirmeyi Ayarlar’da ayrı olarak kapatabilirsiniz; kullanım paylaşımını kapatmak ikisini de durdurur. Onayın geri alınması yeni bağlantılı olayları durdurur ancak önceden gönderilmiş verileri otomatik olarak silmez. RevenueCat abonelik olaylarını PostHog’a otomatik olarak göndermez.
++
++Uygulama abonelik aşamasını, mevcut erişimi, yenileme durumunu ve iptal ya da faturalandırma sorunu tespit edilip edilmediğini de bildirebilir. Bu gözlemler bir ücret tahsilatının kanıtı değildir ve yalnızca analiz etkin olduğunda gönderilir.
++
+ ### 3.2 Apple Search Ads ilişkilendirmesi
+ 
+ Ranked, yalnızca analiz onayınızdan sonra Apple AdServices'e bir kez kurulumun Apple Search Ads'den gelip gelmediğini sorar. Bir reklama dokunduysanız kampanya, reklam grubu, anahtar kelime, reklam içeriği, ülke veya bölge, dokunma tarihi ve indirme türü rastgele PostHog kimliğiyle ilişkilendirilebilir. Reklam kimliği IDFA kullanılmaz. Onayı geri çekmek gelecekteki aktarımları durdurur.
+diff --git a/privacy-vi.md b/privacy-vi.md
+index 2d996ea..5b712d0 100644
+--- a/privacy-vi.md
++++ b/privacy-vi.md
+@@ -7,7 +7,7 @@ permalink: /privacy/vi/
+ 
+ # Chính sách quyền riêng tư · Calisthenics Skills – Ranked
+ 
+-**Cập nhật lần cuối: 2026-10-08**
++**Cập nhật lần cuối: 2026-10-11**
+ 
+ Chính sách này mô tả Ranked thu thập dữ liệu gì, dữ liệu được gửi đến đâu và bạn có thể làm gì.
+ 
+@@ -49,6 +49,10 @@ Xóa ứng dụng sẽ xóa toàn bộ dữ liệu này khỏi thiết bị. Ch
+ 
+ Phân tích được tắt theo mặc định. Chỉ khi bạn đồng ý rõ ràng lúc thiết lập hoặc sau đó trong Cài đặt, Ranked mới gửi đến PostHog đặt tại EU các sự kiện về thiết lập, đánh giá ban đầu, thay đổi hạng và giai đoạn (kèm kỹ năng và giai đoạn), màn hình mua, giao dịch mua và màn hình đã mở. Sự kiện buổi tập trực tiếp gồm bắt đầu, hoàn thành hoặc bỏ dở, số giây đã trôi qua, số hiệp đã ghi, số kỹ năng khác nhau và liệu đó có phải buổi tập hoàn thành đầu tiên không. Chúng không gồm từng bài tập, số lần lặp, mức tạ hoặc ghi chú. Tuổi, giới tính, chiều cao và cân nặng không được gửi. PostHog còn nhận thông tin kỹ thuật thông thường về thiết bị, iOS, ứng dụng và ngôn ngữ, cùng địa chỉ IP có thể cho biết vị trí gần đúng. Mã phân tích ngẫu nhiên chỉ được tạo sau khi bạn đồng ý. Bạn có thể rút lại sự đồng ý trong Cài đặt ▸ Dữ liệu và quyền riêng tư; sự kiện mới sẽ dừng, nhưng dữ liệu đã gửi không tự động bị xóa.
+ 
++Khi có sự đồng ý riêng của bạn về việc đối chiếu đăng ký, các sự kiện sử dụng được chia sẻ cũng bao gồm mã tham chiếu mua hàng được định danh bằng bí danh, tạo từ mã định danh khách hàng ngẫu nhiên của RevenueCat. Điều này cho phép chúng tôi so sánh cách ứng dụng được sử dụng trong thời gian dùng thử hoặc đăng ký với kết quả mua hàng do RevenueCat ghi nhận. Mã tham chiếu này không tiết lộ tên, địa chỉ email, thông tin thanh toán hoặc Tài khoản Apple của bạn. Chỉ sự đồng ý chia sẻ việc sử dụng đã có không bật việc đối chiếu này. Bạn có thể tắt đối chiếu riêng trong Cài đặt; tắt chia sẻ việc sử dụng sẽ dừng cả hai. Việc rút lại sự đồng ý dừng các sự kiện liên kết mới, nhưng không tự động xóa dữ liệu đã gửi. RevenueCat không tự động gửi sự kiện đăng ký đến PostHog.
++
++Ứng dụng cũng có thể báo cáo giai đoạn đăng ký, quyền truy cập hiện tại, trạng thái gia hạn và việc có phát hiện hủy hoặc vấn đề lập hóa đơn hay không. Những quan sát này không phải bằng chứng về việc trừ tiền và chỉ được gửi khi tính năng phân tích được bật.
++
+ ### 3.2 Phân bổ nguồn từ Apple Search Ads
+ 
+ Chỉ sau khi bạn đồng ý phân tích, Ranked mới hỏi Apple AdServices một lần xem lượt cài đặt có đến từ Apple Search Ads không. Nếu bạn nhấn vào quảng cáo, chiến dịch, nhóm quảng cáo, từ khóa, mẫu quảng cáo, quốc gia hoặc vùng, ngày nhấn và loại tải xuống có thể được gắn với mã PostHog ngẫu nhiên. Không dùng mã quảng cáo IDFA. Rút lại sự đồng ý sẽ dừng việc gửi trong tương lai.
+diff --git a/privacy-zh-Hans.md b/privacy-zh-Hans.md
+index 64dd872..582d3c9 100644
+--- a/privacy-zh-Hans.md
++++ b/privacy-zh-Hans.md
+@@ -7,7 +7,7 @@ permalink: /privacy/zh-Hans/
+ 
+ # 隐私政策 · Calisthenics Skills – Ranked
+ 
+-**最后更新： 2026-10-08**
++**最后更新： 2026-10-11**
+ 
+ 本政策说明 Ranked 收集哪些数据、数据去向，以及您可以采取哪些措施。
+ 
+@@ -49,6 +49,10 @@ Ranked 不会跨其他应用或网站跟踪您，不展示广告，也不读取
+ 
+ 分析功能默认关闭。只有您在初次设置时或之后在“设置”中明确同意，Ranked 才会向托管于欧盟的 PostHog 发送有关设置、初始评估、段位与阶段变化（包含技能和阶段）、购买页面、购买行为和打开的页面的事件。实时训练事件包括开始、完成或放弃、经过的秒数、记录的组数、不同技能的数量，以及是否为首次完成的训练；不包含具体动作、重复次数、重量或笔记。年龄、性别、身高和体重不会发送。PostHog 还会收到常规设备、iOS、应用和语言信息，以及可能用于推断大致位置的 IP 地址。随机分析标识符在您同意后才会创建。您可在“设置”▸“数据与隐私”中撤回同意；新事件随即停止发送，但已发送的数据不会自动删除。
+ 
++在您单独同意订阅匹配后，共享的使用事件还会包含一个从RevenueCat随机客户标识符派生的假名化购买参考标识。这使我们能够将试用或订阅期间的应用使用情况与RevenueCat记录的购买结果进行比较。此参考标识不会透露您的姓名、电子邮件地址、支付信息或Apple账户。仅有现有的使用情况分享同意不会启用此匹配。您可以在设置中单独关闭匹配；关闭使用情况分享会同时停止两者。撤回同意会停止新的关联事件，但不会自动删除已发送的数据。RevenueCat不会自动将订阅事件发送至PostHog。
++
++应用还可能报告订阅阶段、当前访问权限、续订状态，以及是否检测到取消或账单问题。这些观察信息并非扣款证明，且仅在分析功能启用时发送。
++
+ ### 3.2 Apple Search Ads 广告归因
+ 
+ 仅在您同意分析之后，Ranked 才会通过 Apple AdServices 查询一次安装是否来自 Apple Search Ads。若您点击过广告，广告系列、广告组、关键词、创意素材、国家或地区、点击日期和下载类型可能与随机 PostHog 标识符关联。不使用广告标识符 IDFA。撤回同意会停止之后的传输。
+diff --git a/privacy-zh-Hant.md b/privacy-zh-Hant.md
+index 445b973..b3ec6ea 100644
+--- a/privacy-zh-Hant.md
++++ b/privacy-zh-Hant.md
+@@ -7,7 +7,7 @@ permalink: /privacy/zh-Hant/
+ 
+ # 私隱政策 · Calisthenics Skills – Ranked
+ 
+-**最後更新： 2026-10-08**
++**最後更新： 2026-10-11**
+ 
+ 本政策說明 Ranked 收集哪些資料、資料會送往何處，以及您可以如何處理。
+ 
+@@ -49,6 +49,10 @@ Ranked 不會跨其他應用程式或網站追蹤您，不顯示廣告，也不
+ 
+ 分析功能預設關閉。只有您在初次設定時或之後於「設定」中明確同意，Ranked 才會向託管於歐盟的 PostHog 傳送有關設定、初始評估、階級與階段變更（包含技能和階段）、購買畫面、購買行為和開啟的畫面的事件。即時訓練事件包括開始、完成或放棄、經過的秒數、記錄的組數、不同技能的數量，以及是否為首次完成的訓練；不包含個別動作、重複次數、重量或筆記。年齡、性別、身高和體重不會傳送。PostHog 也會收到一般裝置、iOS、應用程式和語言資訊，以及可能用於推估大致位置的 IP 位址。隨機分析識別碼在您同意後才會建立。您可在「設定」▸「數據與隱私」撤回同意；新事件隨即停止傳送，但已傳送的資料不會自動刪除。
+ 
++在您單獨同意訂閱配對後，分享的使用事件還會包含一個從RevenueCat隨機客戶識別碼衍生的假名化購買參考識別碼。這使我們能夠將試用或訂閱期間的App使用情況與RevenueCat記錄的購買結果進行比較。此參考識別碼不會透露您的姓名、電子郵件地址、付款資訊或Apple帳號。僅有既有的使用情況分享同意不會啟用此配對。您可以在設定中單獨關閉配對；關閉使用情況分享會同時停止兩者。撤回同意會停止新的連結事件，但不會自動刪除已傳送的資料。RevenueCat不會自動將訂閱事件傳送至PostHog。
++
++App也可能回報訂閱階段、目前存取權限、續訂狀態，以及是否偵測到取消或帳務問題。這些觀察資訊並非扣款證明，且僅在分析功能啟用時傳送。
++
+ ### 3.2 Apple Search Ads 廣告歸因
+ 
+ 僅在您同意分析之後，Ranked 才會透過 Apple AdServices 查詢一次安裝是否來自 Apple Search Ads。若您點按過廣告，廣告活動、廣告群組、關鍵字、創意素材、國家或地區、點按日期和下載類型可能與隨機 PostHog 識別碼關聯。不使用廣告識別碼 IDFA。撤回同意會停止之後的傳送。
+diff --git a/privacy.md b/privacy.md
+index 4e70c72..be5c3b3 100644
+--- a/privacy.md
++++ b/privacy.md
+@@ -7,7 +7,7 @@ permalink: /privacy/
+ 
+ # Privacy Policy · Calisthenics Skills – Ranked
+ 
+-**Last updated: 2026-10-08**
++**Last updated: 2026-10-11**
+ 
+ This policy describes what Ranked collects, where it goes, and what you can do about it.
+ 
+@@ -63,8 +63,9 @@ sends it a fixed list of events:
+   you chose as your goal, your starting rank and the rank of each of your six body regions;
+ - when the purchase screen was shown or dismissed, and when a purchase was started, completed or
+   restored — with the product and offer it concerned; when the app later observes an active trial
+-  or paid subscription period, with the product and whether it is a sandbox purchase (this is not
+-  a record of every charge, and it is not sent while the app is closed);
++  or paid subscription period, whether access is active or expired, the renewal choice, and
++  whether a cancellation or billing issue was detected, with the product and whether it is a
++  sandbox purchase (this is not a record of every charge, and it is not sent while the app is closed);
+ - when your rank changed, and which skill triggered it;
+ - when you cleared a stage — which skill, which stage, and whether it came from a logged set, a
+   back-filled workout or a manual claim;
+@@ -89,6 +90,10 @@ choose whether to share usage data. You can later change this in Settings ▸ Da
+ data*. Switching it off stops new events and closes the analytics connection. The choice is stored
+ on your device and survives app updates; withdrawal does not automatically erase events already sent.
+ 
++With your separate consent to subscription matching, shared usage events also include a pseudonymous purchase reference derived from RevenueCat’s random customer identifier. This lets us compare how the app is used during a trial or subscription with the purchase outcomes recorded by RevenueCat. This reference does not reveal your name, email address, payment details or Apple Account. Existing usage-sharing consent alone does not enable this matching. You can turn off matching separately in Settings; turning off usage sharing stops both. Withdrawal stops new linked events, but does not automatically delete data already sent. RevenueCat does not automatically send subscription events to PostHog.
++
++The app may also report the subscription phase, current access, renewal status and whether a cancellation or billing issue was detected. These observations are not proof of a charge and are only sent while analytics is enabled.
++
+ ### 3.2 Apple Search Ads attribution
+ 
+ If you choose to share usage data and installed Ranked after tapping an Apple Search Ads
