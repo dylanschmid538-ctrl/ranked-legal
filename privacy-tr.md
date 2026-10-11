@@ -7,7 +7,7 @@ permalink: /privacy/tr/
 
 # Gizlilik Politikası · Calisthenics Skills – Ranked
 
-**Son güncelleme: 2026-10-08**
+**Son güncelleme: 2026-10-11**
 
 Bu politika, Ranked'in hangi verileri topladığını, bunların nereye gittiğini ve bu konuda neler yapabileceğinizi açıklar.
 
@@ -48,6 +48,8 @@ Uygulamayı silmek, bunların tamamını cihazdan siler. Veriler hiçbir zaman e
 ### 3.1 Kullanım istatistikleri (PostHog)
 
 Analiz varsayılan olarak kapalıdır. Yalnızca kurulum sırasında veya daha sonra Ayarlar'da açıkça onay verirseniz Ranked, AB'de barındırılan PostHog'a kurulum, ilk değerlendirme, rütbe ve aşama değişiklikleri (beceri ve aşama dâhil), satın alma ekranı, satın almalar ve açılan ekranlar hakkında olay gönderir. Canlı antrenman olayları başlangıcı, tamamlanmayı veya yarıda bırakmayı; geçen saniyeleri, kaydedilen set ve farklı beceri sayılarını ve bunun ilk tamamlanan antrenman olup olmadığını içerir. Tek tek egzersizleri, tekrarları, ağırlıkları veya notları içermez. Yaş, cinsiyet, boy ve vücut ağırlığı gönderilmez. PostHog ayrıca cihaz, iOS, uygulama ve dile ilişkin olağan teknik bilgileri ve yaklaşık konum çıkarılabilecek IP adresini alır. Rastgele analiz kimliği onayınızdan sonra oluşturulur. Onayı Ayarlar ▸ Veriler ve gizlilik'ten geri alabilirsiniz; yeni olaylar durur, önceden gönderilen veriler otomatik olarak silinmez.
+
+Uygulama abonelik aşamasını, mevcut erişimi, yenileme durumunu ve iptal ya da faturalandırma sorunu tespit edilip edilmediğini de bildirebilir. Bu gözlemler bir ücret tahsilatının kanıtı değildir ve yalnızca analiz etkin olduğunda gönderilir.
 
 ### 3.2 Apple Search Ads ilişkilendirmesi
 

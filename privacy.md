@@ -7,7 +7,7 @@ permalink: /privacy/
 
 # Privacy Policy · Calisthenics Skills – Ranked
 
-**Last updated: 2026-10-08**
+**Last updated: 2026-10-11**
 
 This policy describes what Ranked collects, where it goes, and what you can do about it.
 
@@ -63,8 +63,9 @@ sends it a fixed list of events:
   you chose as your goal, your starting rank and the rank of each of your six body regions;
 - when the purchase screen was shown or dismissed, and when a purchase was started, completed or
   restored — with the product and offer it concerned; when the app later observes an active trial
-  or paid subscription period, with the product and whether it is a sandbox purchase (this is not
-  a record of every charge, and it is not sent while the app is closed);
+  or paid subscription period, whether access is active or expired, the renewal choice, and
+  whether a cancellation or billing issue was detected, with the product and whether it is a
+  sandbox purchase (this is not a record of every charge, and it is not sent while the app is closed);
 - when your rank changed, and which skill triggered it;
 - when you cleared a stage — which skill, which stage, and whether it came from a logged set, a
   back-filled workout or a manual claim;
@@ -88,6 +89,8 @@ PostHog who you are, and there is nothing — no account, no email — it could 
 choose whether to share usage data. You can later change this in Settings ▸ Data & privacy ▸ *Share usage
 data*. Switching it off stops new events and closes the analytics connection. The choice is stored
 on your device and survives app updates; withdrawal does not automatically erase events already sent.
+
+The app may also report the subscription phase, current access, renewal status and whether a cancellation or billing issue was detected. These observations are not proof of a charge and are only sent while analytics is enabled.
 
 ### 3.2 Apple Search Ads attribution
 

@@ -7,7 +7,7 @@ permalink: /privacy/fi/
 
 # Tietosuojaseloste · Calisthenics Skills – Ranked
 
-**Päivitetty viimeksi: 2026-10-08**
+**Päivitetty viimeksi: 2026-10-11**
 
 Tässä selosteessa kerrotaan, mitä tietoja Ranked kerää, minne ne siirtyvät ja mitä voit tehdä asialle.
 
@@ -48,6 +48,8 @@ Sovelluksen poistaminen poistaa nämä tiedot laitteelta. Emme voi palauttaa nii
 ### 3.1 Käyttötilastot (PostHog)
 
 Analytiikka on oletusarvoisesti pois käytöstä. Vain jos annat siihen nimenomaisen suostumuksen käyttöönotossa tai myöhemmin asetuksissa, Ranked lähettää EU:ssa toimivalle PostHogille tapahtumia käyttöönotosta, alkuarviosta, tason ja vaiheen muutoksista (taito ja vaihe mukana), maksunäkymästä, ostoista ja avatuista näkymistä. Reaaliaikaisen harjoituksen tapahtumissa ovat aloitus, valmistuminen tai keskeytys, kuluneet sekunnit, kirjattujen sarjojen määrä, eri taitojen määrä ja tieto ensimmäisestä valmiista harjoituksesta. Niissä ei ole yksittäisiä liikkeitä, toistoja, painoja tai muistiinpanoja. Ikää, sukupuolta, pituutta ja painoa ei lähetetä. PostHog saa myös tavanomaiset laite-, iOS-, sovellus- ja kielitiedot sekä IP-osoitteen, josta voi päätellä likimääräisen sijainnin. Satunnainen analytiikkatunnus luodaan vasta suostumuksen jälkeen. Voit peruuttaa suostumuksen kohdassa Asetukset ▸ Tiedot ja tietosuoja; uudet tapahtumat loppuvat, mutta aiemmin lähetettyjä tietoja ei poisteta automaattisesti.
+
+Sovellus voi myös ilmoittaa tilauksen vaiheen, nykyisen käyttöoikeuden, uusimisen tilan sekä sen, havaittiinko peruutus tai laskutusongelma. Nämä havainnot eivät ole todiste veloituksesta, ja ne lähetetään vain, kun analytiikka on käytössä.
 
 ### 3.2 Apple Search Ads -mainonnan kohdistaminen
 

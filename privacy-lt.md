@@ -8,7 +8,7 @@ permalink: /privacy/lt/
 
 # Privatumo politika · Calisthenics Skills – Ranked
 
-**Paskutinį kartą atnaujinta: 2026-10-08**
+**Paskutinį kartą atnaujinta: 2026-10-11**
 
 Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti.
 
@@ -58,6 +58,8 @@ neturėjome.
 ### 3.1 Naudojimo statistika (PostHog)
 
 Analitika pagal numatytuosius nustatymus išjungta. Tik aiškiai sutikus sąrankos metu arba vėliau Nustatymuose, Ranked siunčia ES veikiantiems PostHog įvykius apie sąranką, pradinį įvertinimą, rango ir pakopos pokyčius (nurodant įgūdį ir pakopą), pirkimo ekraną, pirkimus ir atidarytus ekranus. Tiesioginės treniruotės įvykiai apima pradžią, pabaigą ar nutraukimą, praėjusias sekundes, užregistruotų serijų ir skirtingų įgūdžių skaičių bei ar tai buvo pirmoji baigta treniruotė. Juose nėra atskirų pratimų, pakartojimų, svorių ar pastabų. Amžius, lytis, ūgis ir kūno svoris nesiunčiami. PostHog taip pat gauna įprastus techninius įrenginio, iOS, programėlės ir kalbos duomenis bei IP adresą, iš kurio galima nustatyti apytikrę vietą. Atsitiktinis analitikos identifikatorius sukuriamas po sutikimo. Jį galite atšaukti Nustatymuose ▸ Duomenys ir privatumas; nauji įvykiai nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami.
+
+Programėlė taip pat gali pranešti prenumeratos etapą, dabartinę prieigą, atnaujinimo būseną ir tai, ar aptiktas atšaukimas arba atsiskaitymo problema. Šie stebėjimai nėra lėšų nurašymo įrodymas ir siunčiami tik įjungus analizę.
 
 ### 3.2 „Apple Search Ads“ priskyrimas
 

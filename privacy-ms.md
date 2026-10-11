@@ -7,7 +7,7 @@ permalink: /privacy/ms/
 
 # Dasar Privasi · Calisthenics Skills – Ranked
 
-**Kemas kini terakhir: 2026-10-08**
+**Kemas kini terakhir: 2026-10-11**
 
 Dasar ini menerangkan data yang dikumpul oleh Ranked, ke mana data itu pergi, dan tindakan yang boleh anda ambil.
 
@@ -48,6 +48,8 @@ Memadamkan aplikasi akan memadamkan semua data ini daripada peranti. Kami tidak 
 ### 3.1 Statistik penggunaan (PostHog)
 
 Analitik dimatikan secara lalai. Hanya jika anda memberi persetujuan nyata semasa persediaan atau kemudian dalam Tetapan, Ranked menghantar peristiwa kepada PostHog yang dihoskan di EU: persediaan, penilaian awal, perubahan pangkat dan peringkat (berserta kemahiran dan peringkat), skrin pembelian, pembelian dan skrin yang dibuka. Peristiwa latihan langsung merangkumi mula, selesai atau ditinggalkan, saat yang berlalu, bilangan set dicatat, bilangan kemahiran berlainan dan sama ada itu latihan pertama yang selesai. Ia tidak merangkumi senaman individu, ulangan, beban atau nota. Umur, jantina, tinggi dan berat badan tidak dihantar. PostHog juga menerima maklumat teknikal lazim tentang peranti, iOS, aplikasi dan bahasa serta alamat IP yang boleh menunjukkan lokasi anggaran. ID analitik rawak dicipta selepas persetujuan. Anda boleh menariknya balik dalam Tetapan ▸ Data & privasi; peristiwa baharu berhenti, tetapi data terdahulu tidak dipadam secara automatik.
+
+Aplikasi juga boleh melaporkan fasa langganan, akses semasa, status pembaharuan dan sama ada pembatalan atau isu pengebilan dikesan. Pemerhatian ini bukan bukti caj dan hanya dihantar ketika analitik diaktifkan.
 
 ### 3.2 Atribusi Apple Search Ads
 
