@@ -51,6 +51,8 @@ Analiz varsayılan olarak kapalıdır. Yalnızca kurulum sırasında veya daha s
 
 Uygulama abonelik aşamasını, mevcut erişimi, yenileme durumunu ve iptal ya da faturalandırma sorunu tespit edilip edilmediğini de bildirebilir. Bu gözlemler bir ücret tahsilatının kanıtı değildir ve yalnızca analiz etkin olduğunda gönderilir.
 
+Onayınızla kullanım olayları, bir antrenman planı seçtiğinizde ve bir antrenman oturumu açtığınızda da kayıt tutar. Plan seçimi yalnızca haftalık antrenman günü sayısını ve egzersiz sayısını içerir; oturumun açılması yalnızca devam ettirilip ettirilmediğini, giriş kaynağını ve belirlenen egzersiz sayısını içerir. Planların tam içeriği, programlar, tek tek egzersizler ve antrenman notları cihazınızda kalır.
+
 ### 3.2 Apple Search Ads ilişkilendirmesi
 
 Ranked, yalnızca analiz onayınızdan sonra Apple AdServices'e bir kez kurulumun Apple Search Ads'den gelip gelmediğini sorar. Bir reklama dokunduysanız kampanya, reklam grubu, anahtar kelime, reklam içeriği, ülke veya bölge, dokunma tarihi ve indirme türü rastgele PostHog kimliğiyle ilişkilendirilebilir. Reklam kimliği IDFA kullanılmaz. Onayı geri çekmek gelecekteki aktarımları durdurur.

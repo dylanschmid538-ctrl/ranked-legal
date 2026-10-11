@@ -51,6 +51,8 @@ Analitik dimatikan secara lalai. Hanya jika anda memberi persetujuan nyata semas
 
 Aplikasi juga boleh melaporkan fasa langganan, akses semasa, status pembaharuan dan sama ada pembatalan atau isu pengebilan dikesan. Pemerhatian ini bukan bukti caj dan hanya dihantar ketika analitik diaktifkan.
 
+Dengan persetujuan anda, peristiwa penggunaan turut merekodkan apabila anda memilih pelan latihan dan membuka sesi senaman. Pemilihan pelan hanya merangkumi bilangan hari latihan seminggu dan senaman; pembukaan sesi hanya merangkumi sama ada ia disambung semula, sumber kemasukan dan bilangan senaman yang ditetapkan. Kandungan penuh pelan, jadual, senaman individu dan nota senaman kekal pada peranti anda.
+
 ### 3.2 Atribusi Apple Search Ads
 
 Hanya selepas persetujuan analitik, Ranked sekali bertanya kepada Apple AdServices sama ada pemasangan datang daripada Apple Search Ads. Jika anda mengetik iklan, kempen, kumpulan iklan, kata kunci, bahan iklan, negara atau rantau, tarikh ketikan dan jenis muat turun boleh dikaitkan dengan ID rawak PostHog. ID pengiklanan IDFA tidak digunakan. Penarikan persetujuan menghentikan penghantaran akan datang.

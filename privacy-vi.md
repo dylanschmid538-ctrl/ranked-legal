@@ -51,6 +51,8 @@ Phân tích được tắt theo mặc định. Chỉ khi bạn đồng ý rõ r�
 
 Ứng dụng cũng có thể báo cáo giai đoạn đăng ký, quyền truy cập hiện tại, trạng thái gia hạn và việc có phát hiện hủy hoặc vấn đề lập hóa đơn hay không. Những quan sát này không phải bằng chứng về việc trừ tiền và chỉ được gửi khi tính năng phân tích được bật.
 
+Với sự đồng ý của bạn, các sự kiện sử dụng cũng ghi nhận khi bạn chọn một kế hoạch tập luyện và khi bạn mở một buổi tập. Việc chọn kế hoạch chỉ bao gồm số ngày tập mỗi tuần và số bài tập; việc mở buổi tập chỉ bao gồm buổi tập có được tiếp tục hay không, nguồn truy cập và số bài tập được chỉ định. Toàn bộ nội dung kế hoạch, lịch tập, từng bài tập và ghi chú tập luyện vẫn ở trên thiết bị của bạn.
+
 ### 3.2 Phân bổ nguồn từ Apple Search Ads
 
 Chỉ sau khi bạn đồng ý phân tích, Ranked mới hỏi Apple AdServices một lần xem lượt cài đặt có đến từ Apple Search Ads không. Nếu bạn nhấn vào quảng cáo, chiến dịch, nhóm quảng cáo, từ khóa, mẫu quảng cáo, quốc gia hoặc vùng, ngày nhấn và loại tải xuống có thể được gắn với mã PostHog ngẫu nhiên. Không dùng mã quảng cáo IDFA. Rút lại sự đồng ý sẽ dừng việc gửi trong tương lai.

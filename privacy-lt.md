@@ -61,6 +61,8 @@ Analitika pagal numatytuosius nustatymus išjungta. Tik aiškiai sutikus sąrank
 
 Programėlė taip pat gali pranešti prenumeratos etapą, dabartinę prieigą, atnaujinimo būseną ir tai, ar aptiktas atšaukimas arba atsiskaitymo problema. Šie stebėjimai nėra lėšų nurašymo įrodymas ir siunčiami tik įjungus analizę.
 
+Gavus jūsų sutikimą, naudojimo įvykiai taip pat užfiksuoja, kada pasirenkate treniruočių planą ir kada atidarote treniruotės sesiją. Plano pasirinkimas apima tik treniruočių dienų per savaitę ir pratimų skaičių; sesijos atidarymas apima tik tai, ar ji tęsiama, įėjimo šaltinį ir paskirtų pratimų skaičių. Visas planų turinys, tvarkaraščiai, atskiri pratimai ir treniruočių pastabos lieka jūsų įrenginyje.
+
 ### 3.2 „Apple Search Ads“ priskyrimas
 
 Tik gavus sutikimą analitikai, Ranked vieną kartą per Apple AdServices patikrina, ar diegimas susijęs su Apple Search Ads. Spustelėjus skelbimą, kampanija, skelbimų grupė, raktažodis, kūrybinė medžiaga, šalis ar regionas, spustelėjimo data ir atsisiuntimo tipas gali būti susieti su atsitiktiniu PostHog identifikatoriumi. Reklamos identifikatorius IDFA nenaudojamas. Atšaukus sutikimą būsimi perdavimai sustoja.

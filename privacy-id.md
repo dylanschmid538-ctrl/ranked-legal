@@ -51,6 +51,8 @@ Analitik dinonaktifkan secara default. Hanya jika Anda memberi persetujuan secar
 
 Aplikasi juga dapat melaporkan tahap langganan, akses saat ini, status perpanjangan, dan apakah pembatalan atau masalah penagihan terdeteksi. Pengamatan ini bukan bukti pembebanan biaya dan hanya dikirim saat analitik aktif.
 
+Dengan persetujuan Anda, peristiwa penggunaan juga mencatat kapan Anda memilih rencana latihan dan membuka sesi latihan. Pemilihan rencana hanya mencakup jumlah hari latihan per minggu dan jumlah latihan; pembukaan sesi hanya mencakup apakah sesi dilanjutkan, sumber masuk, dan jumlah latihan yang ditentukan. Isi lengkap rencana, jadwal, latihan individual, dan catatan latihan tetap berada di perangkat Anda.
+
 ### 3.2 Atribusi Apple Search Ads
 
 Hanya setelah persetujuan analitik, Ranked sekali meminta Apple AdServices menentukan apakah pemasangan berasal dari Apple Search Ads. Jika Anda mengetuk iklan, kampanye, grup iklan, kata kunci, materi iklan, negara atau wilayah, tanggal ketukan dan jenis unduhan dapat dikaitkan dengan ID acak PostHog. ID iklan IDFA tidak digunakan. Penarikan persetujuan menghentikan pengiriman di masa mendatang.

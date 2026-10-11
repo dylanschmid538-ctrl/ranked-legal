@@ -61,6 +61,8 @@ L'analyse est désactivée par défaut. Seulement si vous l'acceptez expresséme
 
 L’app peut également signaler la phase de l’abonnement, l’accès actuel, le statut de renouvellement et la détection d’une résiliation ou d’un problème de facturation. Ces observations ne constituent pas une preuve de débit et ne sont envoyées que lorsque l’analyse est activée.
 
+Avec votre consentement, les événements d’utilisation enregistrent également quand vous sélectionnez un programme d’entraînement et quand vous ouvrez une séance. La sélection d’un programme comprend uniquement le nombre de jours d’entraînement par semaine et d’exercices ; l’ouverture d’une séance comprend uniquement si elle est reprise, la source d’entrée et le nombre d’exercices prescrits. Le contenu intégral des programmes, les calendriers, les exercices individuels et les notes d’entraînement restent sur votre appareil.
+
 ### 3.2 Attribution Apple Search Ads
 
 Après votre accord pour l'analyse seulement, Ranked interroge une fois le service AdServices d'Apple sur l'attribution d'une installation provenant d'Apple Search Ads. Si vous avez cliqué sur une annonce, la campagne, le groupe d'annonces, le mot-clé, le visuel, le pays ou la région, la date du clic et le type de téléchargement peuvent être liés à l'identifiant PostHog aléatoire. L'identifiant publicitaire IDFA n'est pas utilisé. Le retrait du consentement arrête les futurs envois.
