@@ -7,7 +7,7 @@ permalink: /privacy/hu/
 
 # Adatvédelmi tájékoztató · Calisthenics Skills – Ranked
 
-**Utolsó frissítés: 2026-10-11**
+**Utolsó frissítés: 2026-10-13**
 
 Ez a tájékoztató ismerteti, milyen adatokat gyűjt a Ranked, hová kerülnek, és milyen lehetőségei vannak velük kapcsolatban.
 
@@ -19,10 +19,11 @@ A Ranked üzemeltetője és az itt leírt adatkezelés adatkezelője **Monica De
 
 **Életkora, neme, magassága és testsúlya soha nem hagyja el az eszközét.** A rangot számító képlet a telefonon használja ezeket. Sem nekünk, sem az elemzőszolgáltatásnak nem küldi el őket.
 
-Csak kétféle adat hagyja el az eszközét:
+Háromféle adat hagyhatja el az eszközét:
 
 1. **Használati statisztikák**, amelyek alapján láthatjuk, hogyan használják az alkalmazást. Ezt az alkalmazásban bármikor kikapcsolhatja.
 2. **Vásárlási adatok**, hogy ellenőrizni lehessen az App Store-előfizetést. A fizetést az Apple kezeli; fizetési adatait mi soha nem látjuk.
+3. **Visszajelzések és támogatási üzenetek**, csak ha Ön elküldi őket. Válaszhoz külön hozzájárulással e-mail-címet vagy telefonszámot adhat meg.
 
 A Ranked nem követi Önt más alkalmazásokban vagy webhelyeken, nem jelenít meg hirdetéseket, és nem olvas adatot az Apple Egészség alkalmazásból.
 
@@ -64,6 +65,10 @@ Az előfizetéseket az **Apple** értékesíti és számlázza az App Store-on k
 Az aktív előfizetés ellenőrzésére az alkalmazás a **RevenueCat** szolgáltatást használja. A RevenueCat megkapja az előfizetés App Store-beli vásárlási rekordját — a megvásárolt terméket, a kezdés és a lejárat időpontját —, valamint szokásos műszaki adatokat, például az iOS és az alkalmazás verzióját. A telepítést saját maga által létrehozott, az eszközön tárolt véletlenszerű azonosítóval ismeri fel. Nem adjuk át a RevenueCatnek az Ön nevét, e-mail-címét vagy más személyazonossági adatát, és mivel a Rankednek nincsenek fiókjai, nincs is ilyen adat, amelyet átadhatnánk.
 
 Ha a **Vásárlások visszaállítása** lehetőségre koppint, az alkalmazás lekéri az Apple-től az eszközön bejelentkezett Apple-fiókkal végzett vásárlásokat, és az eredményt ugyanígy továbbítja a RevenueCatnek.
+
+### 3.4 Visszajelzések és támogatási üzenetek (Supabase)
+
+Ha visszajelzést vagy támogatási kérést küld, a Ranked az üzenetet, annak kategóriáját és forrását Supabase-szerverünkre továbbítja. Külön hozzájárulással e-mail-címet vagy telefonszámot adhat meg az alkalmazáson kívüli válaszhoz. A szerver a hálózati cím titkos értékkel képzett kivonatát használja a visszaélések korlátozására; az eredeti címet nem tárolja az üzenet-adatbázis. Az üzenet és az elérhetőség nem kerül a PostHoghoz vagy a RevenueCathoz, és nem kapcsolódik fiókhoz. Az üzenetet a kérés megválaszolásához, az opcionális elérhetőséget hozzájárulásával, a kivonatot visszaélés megelőzésére kezeljük. Jelenleg nincs rögzített automatikus törlési határidő. Hozzáférést vagy törlést a **dylan.schmid538@gmail.com** címen kérhet.
 
 ---
 

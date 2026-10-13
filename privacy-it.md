@@ -7,7 +7,7 @@ permalink: /privacy/it/
 
 # Informativa sulla privacy · Calisthenics Skills – Ranked
 
-**Ultimo aggiornamento: 2026-10-11**
+**Ultimo aggiornamento: 2026-10-13**
 
 Questa informativa descrive quali dati Ranked raccoglie, dove vanno e quali scelte puoi fare.
 
@@ -19,10 +19,11 @@ Ranked è gestita da **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Sviz
 
 **Età, sesso, altezza e peso corporeo non lasciano mai il dispositivo.** La formula del rango li usa sul telefono. Non sono inviati né a noi né al servizio di analisi.
 
-Solo due categorie di dati lasciano il dispositivo:
+Tre tipi di dati possono lasciare il dispositivo:
 
 1. **Statistiche d'uso**, per capire come viene utilizzata l'app. Puoi disattivarle nell'app in qualsiasi momento.
 2. **Dati relativi agli acquisti**, per verificare l'abbonamento all'App Store. Apple gestisce il pagamento; noi non vediamo mai i tuoi dati di pagamento.
+3. **Messaggi di feedback e assistenza**, solo se scegli di inviarli. Con il tuo consenso puoi indicare un indirizzo email o un numero di telefono per ricevere una risposta.
 
 Ranked non ti traccia su altre app o siti web, non mostra pubblicità e non legge dati da Apple Salute.
 
@@ -64,6 +65,10 @@ Gli abbonamenti sono venduti e fatturati da **Apple** tramite l'App Store. Non v
 Per verificare se l'abbonamento è attivo, l'app usa **RevenueCat**. RevenueCat riceve la registrazione dell'acquisto dell'App Store relativa all'abbonamento — prodotto acquistato, data di inizio e di scadenza — insieme a informazioni tecniche standard, come la versione di iOS e dell'app. Riconosce l'installazione tramite un identificativo casuale che genera e memorizza sul dispositivo. Non forniamo a RevenueCat nome, indirizzo email o altra identità e, poiché Ranked non ha account, non ne esiste una da fornire.
 
 Quando tocchi **Ripristina acquisti**, l'app chiede ad Apple gli acquisti effettuati con l'Apple Account connesso al dispositivo e ne trasmette l'esito a RevenueCat allo stesso modo.
+
+### 3.4 Messaggi di feedback e assistenza (Supabase)
+
+Se invii un feedback o una richiesta di assistenza, Ranked trasmette il messaggio, la categoria e la provenienza al nostro server Supabase. Puoi acconsentire separatamente a fornire un indirizzo email o un numero di telefono per una risposta fuori dall’app. Il server usa un hash dell’indirizzo di rete con un valore segreto per limitare gli abusi; l’indirizzo originale non viene salvato nel database dei messaggi. Messaggio e recapiti non sono inviati a PostHog o RevenueCat né collegati a un account. Trattiamo il messaggio per rispondere alla richiesta, i recapiti facoltativi con il tuo consenso e l’hash per prevenire abusi. Attualmente non è applicato un termine fisso di cancellazione automatica per messaggi e recapiti. Puoi chiedere accesso o cancellazione scrivendo a **dylan.schmid538@gmail.com**.
 
 ---
 

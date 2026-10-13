@@ -7,7 +7,7 @@ permalink: /privacy/id/
 
 # Kebijakan Privasi · Calisthenics Skills – Ranked
 
-**Terakhir diperbarui: 2026-10-11**
+**Terakhir diperbarui: 2026-10-13**
 
 Kebijakan ini menjelaskan data apa yang dikumpulkan Ranked, ke mana data tersebut dikirim, dan apa yang dapat Anda lakukan.
 
@@ -19,10 +19,11 @@ Ranked dioperasikan oleh **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, 
 
 **Usia, jenis kelamin, tinggi badan, dan berat badan Anda tidak pernah meninggalkan perangkat.** Rumus peringkat menggunakannya di ponsel Anda. Data itu tidak dikirim kepada kami ataupun layanan analitik.
 
-Hanya dua jenis data yang meninggalkan perangkat:
+Tiga jenis data dapat meninggalkan perangkat Anda:
 
 1. **Statistik penggunaan**, agar kami memahami cara aplikasi digunakan. Anda dapat menonaktifkannya kapan saja di aplikasi.
 2. **Data pembelian**, agar langganan App Store dapat diverifikasi. Apple menangani pembayaran; kami tidak pernah melihat rincian pembayaran Anda.
+3. **Pesan masukan dan dukungan**, hanya jika Anda memilih untuk mengirimnya. Anda dapat memberi persetujuan terpisah untuk menyertakan email atau nomor telepon agar kami dapat membalas.
 
 Ranked tidak melacak Anda di aplikasi atau situs web lain, tidak menampilkan iklan, dan tidak membaca apa pun dari Apple Health.
 
@@ -64,6 +65,10 @@ Langganan dijual dan ditagihkan oleh **Apple** melalui App Store. Kami tidak per
 Untuk memeriksa apakah langganan aktif, aplikasi menggunakan **RevenueCat**. RevenueCat menerima catatan pembelian App Store untuk langganan Anda — produk yang dibeli, kapan dimulai dan berakhir — bersama informasi teknis standar seperti versi iOS dan aplikasi. RevenueCat mengenali pemasangan aplikasi melalui pengenal acak yang dibuatnya sendiri dan disimpan di perangkat Anda. Kami tidak memberikan nama, email, atau identitas lain kepada RevenueCat; karena Ranked tidak memiliki akun, tidak ada identitas akun untuk diberikan.
 
 Saat Anda mengetuk **Pulihkan Pembelian**, aplikasi meminta Apple memberikan pembelian yang dilakukan dengan Akun Apple yang masuk pada perangkat lalu menyampaikan hasilnya kepada RevenueCat dengan cara yang sama.
+
+### 3.4 Pesan masukan dan dukungan (Supabase)
+
+Jika Anda mengirim masukan atau permintaan dukungan, Ranked mengirim pesan, kategori, dan asalnya ke server Supabase kami. Dengan persetujuan terpisah, Anda dapat menyertakan email atau nomor telepon untuk balasan di luar aplikasi. Server memakai hash alamat jaringan dengan nilai rahasia untuk membatasi penyalahgunaan; alamat asli tidak disimpan dalam basis data pesan. Pesan dan kontak tidak dikirim ke PostHog atau RevenueCat dan tidak terkait akun. Kami memproses pesan untuk menjawab permintaan, kontak opsional dengan persetujuan Anda, dan hash untuk mencegah penyalahgunaan. Saat ini belum ada batas waktu penghapusan otomatis yang tetap untuk pesan dan kontak. Minta akses atau penghapusan melalui **dylan.schmid538@gmail.com**.
 
 ---
 

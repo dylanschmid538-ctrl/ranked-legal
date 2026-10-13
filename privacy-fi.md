@@ -7,7 +7,7 @@ permalink: /privacy/fi/
 
 # Tietosuojaseloste · Calisthenics Skills – Ranked
 
-**Päivitetty viimeksi: 2026-10-11**
+**Päivitetty viimeksi: 2026-10-13**
 
 Tässä selosteessa kerrotaan, mitä tietoja Ranked kerää, minne ne siirtyvät ja mitä voit tehdä asialle.
 
@@ -19,10 +19,11 @@ Ranked-sovellusta ylläpitää **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Lu
 
 **Ikäsi, sukupuolesi, pituutesi ja painosi eivät koskaan poistu laitteeltasi.** Tasolaskenta käyttää niitä puhelimessasi. Niitä ei lähetetä meille eikä analytiikkapalveluun.
 
-Vain kahdenlaiset tiedot poistuvat laitteeltasi:
+Laitteeltasi voi poistua kolmenlaisia tietoja:
 
 1. **Käyttötilastot**, joiden avulla näemme, miten sovellusta käytetään. Voit poistaa ne käytöstä sovelluksessa milloin tahansa.
 2. **Ostotiedot**, jotta App Store -tilaus voidaan vahvistaa. Apple käsittelee maksun; me emme koskaan näe maksutietojasi.
+3. **Palaute- ja tukiviestit**, vain jos päätät lähettää ne. Voit erikseen suostua antamaan sähköpostin tai puhelinnumeron vastausta varten.
 
 Ranked ei seuraa sinua muissa sovelluksissa tai verkkosivustoilla, ei näytä mainoksia eikä lue tietoja Apple Healthista.
 
@@ -64,6 +65,10 @@ Vasta analytiikkasuostumuksen jälkeen Ranked kysyy kerran Applen AdServices-pal
 Sovellus käyttää **RevenueCatia** tarkistaakseen tilauksesi voimassaolon. RevenueCat saa tilauksesi App Store -ostotiedon — ostetun tuotteen sekä tilauksen alku- ja päättymisajan — ja tavanomaisia teknisiä tietoja, kuten iOS- ja sovellusversion. Se tunnistaa sovelluksen asennuksen itse luomallaan satunnaisella tunnisteella, joka tallennetaan laitteellesi. Emme anna RevenueCatille nimeäsi, sähköpostiosoitettasi tai muuta henkilöllisyyttä; koska Rankedissa ei ole tilejä, sellaista ei ole annettavaksi.
 
 Kun napautat **Palauta ostot**, sovellus pyytää Applelta laitteelle kirjautuneella Apple-tilillä tehdyt ostot ja välittää tuloksen RevenueCatille samalla tavalla.
+
+### 3.4 Palaute- ja tukiviestit (Supabase)
+
+Jos lähetät palautetta tai tukipyynnön, Ranked lähettää viestin, sen luokan ja lähteen Supabase-palvelimellemme. Voit erikseen suostua lähettämään sähköpostin tai puhelinnumeron, jotta voimme vastata sovelluksen ulkopuolella. Palvelin käyttää verkko-osoitteen suolattua tiivistettä väärinkäytön rajoittamiseen; alkuperäistä osoitetta ei tallenneta viestitietokantaan. Viestiä tai yhteystietoja ei lähetetä PostHogille tai RevenueCatille eikä yhdistetä tiliin. Käsittelemme viestin pyyntösi hoitamiseksi, valinnaiset yhteystiedot suostumuksellasi ja tiivisteen väärinkäytön estämiseksi. Viesteille ja yhteystiedoille ei ole tällä hetkellä kiinteää automaattista poistomääräaikaa. Pyydä pääsyä tai poistamista osoitteesta **dylan.schmid538@gmail.com**.
 
 ---
 

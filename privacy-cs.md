@@ -7,7 +7,7 @@ permalink: /privacy/cs/
 
 # Zásady ochrany osobních údajů · Calisthenics Skills – Ranked
 
-**Poslední aktualizace: 2026-10-11**
+**Poslední aktualizace: 2026-10-13**
 
 Tyto zásady popisují, jaké údaje Ranked shromažďuje, kam putují a jaké možnosti v souvislosti s nimi máte.
 
@@ -19,10 +19,11 @@ Ranked provozuje **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švýcar
 
 **Váš věk, pohlaví, výška a tělesná hmotnost nikdy neopouštějí zařízení.** Výpočet hodnosti je používá přímo v telefonu. Neodesílají se nám ani analytické službě.
 
-Zařízení opouštějí pouze dva druhy údajů:
+Zařízení mohou opustit tři druhy údajů:
 
 1. **Statistiky používání**, abychom věděli, jak se aplikace používá. V aplikaci je můžete kdykoli vypnout.
 2. **Údaje o nákupech**, aby bylo možné ověřit předplatné v App Storu. Platbu zpracovává Apple; vaše platební údaje nikdy nevidíme.
+3. **Zprávy se zpětnou vazbou a žádosti o podporu**, pouze pokud je sami odešlete. Se samostatným souhlasem můžete uvést e-mail či telefon pro odpověď.
 
 Ranked vás nesleduje v jiných aplikacích ani na webových stránkách, nezobrazuje reklamy a nečte nic z aplikace Apple Zdraví.
 
@@ -64,6 +65,10 @@ Předplatné prodává a účtuje **Apple** prostřednictvím App Storu. Nikdy n
 K ověření aktivního předplatného aplikace využívá **RevenueCat**. RevenueCat obdrží záznam o nákupu předplatného z App Storu — zakoupený produkt, datum začátku a konce — spolu s běžnými technickými údaji, jako je verze iOS a aplikace. Vaši instalaci rozpoznává pomocí náhodného identifikátoru, který sám vytvoří a uloží do zařízení. RevenueCatu nepředáváme vaše jméno, e-mailovou adresu ani jinou totožnost a protože Ranked nemá účty, žádná taková totožnost ani neexistuje.
 
 Když klepnete na **Obnovit nákupy**, aplikace požádá Apple o nákupy provedené účtem Apple přihlášeným v zařízení a stejným způsobem předá výsledek RevenueCatu.
+
+### 3.4 Zprávy se zpětnou vazbou a žádosti o podporu (Supabase)
+
+Pokud odešlete zpětnou vazbu nebo žádost o podporu, Ranked pošle zprávu, její kategorii a původ na náš server Supabase. E-mail či telefon pro odpověď mimo aplikaci poskytnete jen se samostatným souhlasem. Server používá hash síťové adresy s tajnou hodnotou k omezení zneužití; původní adresa se do databáze zpráv neukládá. Zpráva a kontaktní údaje nejdou do PostHogu ani RevenueCatu a nejsou spojeny s účtem. Zprávu zpracujeme kvůli vyřízení žádosti, volitelný kontakt na základě souhlasu a hash kvůli prevenci zneužití. Pro zprávy a kontakty nyní není stanovena pevná lhůta automatického výmazu. O přístup či výmaz požádejte na **dylan.schmid538@gmail.com**.
 
 ---
 

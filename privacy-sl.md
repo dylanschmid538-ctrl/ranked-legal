@@ -8,7 +8,7 @@ permalink: /privacy/sl/
 
 # Politika zasebnosti · Calisthenics Skills – Ranked
 
-**Zadnja posodobitev: 2026-10-11**
+**Zadnja posodobitev: 2026-10-13**
 
 Ta politika opisuje, kaj Ranked zbira, kam to gre in kaj lahko glede tega storite.
 
@@ -22,12 +22,13 @@ Ranked upravlja **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švica**,
 **Vaša starost, spol, višina in telesna teža nikoli ne zapustijo vaše naprave.** Formula ranga jih
 uporablja v vašem telefonu. Ne pošiljajo se ne nam ne analitični storitvi.
 
-Vašo napravo zapustita dve stvari, in samo ti dve:
+Vašo napravo lahko zapustijo tri vrste podatkov:
 
 1. **Statistika uporabe**, da vidimo, kako se aplikacija uporablja. V aplikaciji jo lahko
    kadar koli izklopite.
 2. **Podatki o nakupu**, da je mogoče preveriti naročnino iz trgovine App Store. Plačilo izvede
    Apple; vaših plačilnih podatkov nikoli ne vidimo.
+3. **Sporočila s povratnimi informacijami in prošnjami za podporo**, samo če jih pošljete. Z ločenim soglasjem lahko za odgovor navedete e-pošto ali telefon.
 
 Ranked vas ne sledi po drugih aplikacijah ali spletnih straneh, ne prikazuje oglasov in ne bere
 ničesar iz aplikacije Apple Zdravje.
@@ -79,6 +80,10 @@ druge identitete, in ker Ranked nima računov, tudi ni česa dati.
 
 Ko se dotaknete **Obnovi nakupe**, aplikacija Apple vpraša po nakupih, opravljenih z računom Apple,
 prijavljenim v napravi, in izid na enak način posreduje RevenueCatu.
+
+### 3.4 Sporočila s povratnimi informacijami in prošnjami za podporo (Supabase)
+
+Če pošljete povratno informacijo ali prošnjo za podporo, Ranked sporočilo, kategorijo in vir pošlje našemu strežniku Supabase. Z ločenim soglasjem lahko dodate e-pošto ali telefon za odgovor zunaj aplikacije. Strežnik uporablja zgoščeno vrednost omrežnega naslova s skrivno vrednostjo za omejevanje zlorab; izvirni naslov se ne shrani v zbirko sporočil. Sporočilo in kontakt se ne pošljeta PostHogu ali RevenueCatu in nista povezana z računom. Sporočilo obdelamo za odgovor, neobvezni kontakt z vašim soglasjem, zgoščeno vrednost pa za preprečevanje zlorab. Trenutno ni določenega roka samodejnega brisanja sporočil ali kontaktov. Dostop ali izbris zahtevajte na **dylan.schmid538@gmail.com**.
 
 ---
 

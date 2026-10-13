@@ -7,7 +7,7 @@ permalink: /privacy/
 
 # Privacy Policy · Calisthenics Skills – Ranked
 
-**Last updated: 2026-10-11**
+**Last updated: 2026-10-13**
 
 This policy describes what Ranked collects, where it goes, and what you can do about it.
 
@@ -21,12 +21,13 @@ contact **dylan.schmid538@gmail.com**. She is the controller for the processing 
 **Your age, sex, height and bodyweight never leave your device.** The rank formula uses them on
 your phone. They are not sent to us, and they are not sent to the analytics service.
 
-Two things do leave your device, and only these two:
+Three kinds of data can leave your device:
 
 1. **Usage statistics**, only if you choose to share them during setup or later in Settings.
    Sharing is off unless you choose it, and you can withdraw your choice at any time.
 2. **Purchase data**, so the App Store subscription can be verified. Apple handles the payment;
    we never see your payment details.
+3. **Feedback and support messages**, only when you choose to send one. You may also give an email address or phone number with consent for a reply.
 
 Ranked does not track you across other apps or websites, shows no advertising, and reads nothing
 from Apple Health.
@@ -78,12 +79,12 @@ The PostHog software inside the app also attaches standard technical information
 such as your device model, iOS version, app version, language and time zone. Like any internet service, PostHog receives the IP
 address of the request; it may derive an approximate location (country or city) from it.
 
-**What is not in there:** no name, no email address (the app never asks for one), no account
+**What is not in there:** no name, no contact details from the feedback form, no account
 identifier (there is none), no age, sex, height or bodyweight, and no individual workout entries.
 
 **How you are identified:** After you choose to share usage data, PostHog generates a random identifier and
 stores it on your device. All events are grouped under that identifier. The app never tells
-PostHog who you are, and there is nothing — no account, no email — it could tell.
+PostHog who you are. Contact details from feedback are not passed to PostHog.
 
 **Your choice:** Analytics is off by default. During setup, before the purchase screen, you can
 choose whether to share usage data. You can later change this in Settings ▸ Data & privacy ▸ *Share usage
@@ -122,6 +123,10 @@ because Ranked has no accounts, there is none to give.
 
 When you tap **Restore Purchases**, the app asks Apple for the purchases made with the Apple
 Account signed in on the device and passes the result to RevenueCat in the same way.
+
+### 3.4 Feedback and support (Supabase)
+
+If you choose to send feedback or a support request, Ranked sends the message, its category and source to our Supabase server. You may separately agree to include an email address or phone number so we can reply outside the app. The server uses a salted hash of the request’s network address to limit abuse; the raw address is not stored in the feedback database. Messages and contact details are not sent to PostHog or RevenueCat and are not tied to an app account. We process the message to answer your request, optional contact details with your consent, and the address hash to prevent abuse. No fixed automatic deletion period is currently enforced for messages or contact details. You can request access or deletion by emailing **dylan.schmid538@gmail.com**.
 
 ---
 

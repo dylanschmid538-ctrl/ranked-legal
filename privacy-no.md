@@ -7,7 +7,7 @@ permalink: /privacy/no/
 
 # Personvernerklæring · Calisthenics Skills – Ranked
 
-**Sist oppdatert: 2026-10-11**
+**Sist oppdatert: 2026-10-13**
 
 Denne erklæringen beskriver hvilke opplysninger Ranked samler inn, hvor de sendes, og hva du kan gjøre med dem.
 
@@ -19,10 +19,11 @@ Ranked drives av **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Sveits**
 
 **Alder, kjønn, høyde og kroppsvekt forlater aldri enheten din.** Rangformelen bruker dem på telefonen. De sendes verken til oss eller analysetjenesten.
 
-Bare to typer opplysninger forlater enheten:
+Tre typer opplysninger kan forlate enheten din:
 
 1. **Bruksstatistikk**, slik at vi kan se hvordan appen brukes. Du kan når som helst slå dette av i appen.
 2. **Kjøpsopplysninger**, slik at abonnementet fra App Store kan bekreftes. Apple håndterer betalingen; vi ser aldri betalingsopplysningene dine.
+3. **Tilbakemeldinger og støttehenvendelser**, bare hvis du velger å sende dem. Med eget samtykke kan du oppgi e-post eller telefonnummer for å få svar.
 
 Ranked sporer deg ikke på tvers av andre apper eller nettsteder, viser ingen annonser og leser ingenting fra Apple Helse.
 
@@ -64,6 +65,10 @@ Abonnementer selges og faktureres av **Apple** gjennom App Store. Vi ser aldri b
 For å kontrollere om abonnementet ditt er aktivt bruker appen **RevenueCat**. RevenueCat mottar kjøpsoppføringen fra App Store for abonnementet ditt — hvilket produkt som ble kjøpt, når det startet og når det utløper — sammen med vanlige tekniske opplysninger, som iOS-versjon og appversjon. Tjenesten kjenner igjen installasjonen din ved hjelp av en tilfeldig identifikator som den selv oppretter og lagrer på enheten. Vi gir ikke RevenueCat navn, e-postadresse eller annen identitet, og siden Ranked ikke har kontoer, finnes det heller ingen slik identitet å gi.
 
 Når du trykker på **Gjenopprett kjøp**, ber appen Apple om kjøp gjort med Apple-kontoen som er logget inn på enheten og sender resultatet til RevenueCat på samme måte.
+
+### 3.4 Tilbakemeldinger og støttehenvendelser (Supabase)
+
+Hvis du sender tilbakemelding eller ber om hjelp, sender Ranked meldingen, kategori og kilde til vår Supabase-server. Du kan særskilt samtykke til å oppgi e-post eller telefonnummer for svar utenfor appen. Serveren bruker en hash av nettverksadressen med en hemmelig verdi for å begrense misbruk; den opprinnelige adressen lagres ikke i meldingsdatabasen. Meldingen og kontaktinformasjonen sendes ikke til PostHog eller RevenueCat og knyttes ikke til en konto. Vi behandler meldingen for å svare, valgfri kontaktinformasjon med ditt samtykke og hashen for å hindre misbruk. Det er for øyeblikket ingen fast automatisk slettefrist for meldinger og kontaktopplysninger. Be om innsyn eller sletting på **dylan.schmid538@gmail.com**.
 
 ---
 

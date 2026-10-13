@@ -7,7 +7,7 @@ permalink: /privacy/tr/
 
 # Gizlilik Politikası · Calisthenics Skills – Ranked
 
-**Son güncelleme: 2026-10-11**
+**Son güncelleme: 2026-10-13**
 
 Bu politika, Ranked'in hangi verileri topladığını, bunların nereye gittiğini ve bu konuda neler yapabileceğinizi açıklar.
 
@@ -19,10 +19,11 @@ Ranked'in işletmecisi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, İ
 
 **Yaşınız, cinsiyetiniz, boyunuz ve vücut ağırlığınız cihazınızdan hiçbir zaman çıkmaz.** Derece formülü bunları telefonunuzda kullanır. Bize veya analiz hizmetine gönderilmezler.
 
-Cihazınızdan yalnızca şu iki tür veri çıkar:
+Üç tür veri cihazınızdan çıkabilir:
 
 1. Uygulamanın nasıl kullanıldığını anlamamız için **Kullanım istatistikleri**. Bunları uygulamada istediğiniz zaman kapatabilirsiniz.
 2. App Store aboneliğinin doğrulanması için **satın alma verileri**. Ödemeyi Apple işler; ödeme bilgileriniz bize hiçbir zaman görünmez.
+3. **Görüş ve destek mesajları**, yalnızca siz göndermeyi seçerseniz. Yanıt almak için ayrıca onay vererek e-posta veya telefon numarası paylaşabilirsiniz.
 
 Ranked sizi başka uygulamalar veya web siteleri arasında takip etmez, reklam göstermez ve Apple Health'ten veri okumaz.
 
@@ -64,6 +65,10 @@ Abonelikler App Store üzerinden **Apple** tarafından satılır ve ücretlendir
 Aboneliğinizin etkin olup olmadığını kontrol etmek için uygulama **RevenueCat** kullanır. RevenueCat, satın alınan ürün ile aboneliğin başlangıç ve bitiş tarihini içeren App Store satın alma kaydını ve iOS ile uygulama sürümü gibi standart teknik bilgileri alır. Yüklemenizi, kendisinin oluşturup cihazınızda sakladığı rastgele bir tanımlayıcıyla tanır. RevenueCat'e adınızı, e-posta adresinizi veya başka bir kimlik bilgisi vermeyiz; Ranked'de hesap olmadığından verilecek böyle bir kimlik de yoktur.
 
 **Satın Almaları Geri Yükle** seçeneğine dokunduğunuzda uygulama, cihazda oturum açılmış Apple Hesabı ile yapılan satın almaları Apple'dan ister ve sonucu aynı şekilde RevenueCat'e iletir.
+
+### 3.4 Görüş ve destek mesajları (Supabase)
+
+Görüş veya destek talebi gönderirseniz Ranked mesajı, kategorisini ve kaynağını Supabase sunucumuza iletir. Uygulama dışında yanıt almak için e-posta veya telefon numarası paylaşmaya ayrıca onay verebilirsiniz. Sunucu, kötüye kullanımı sınırlamak için ağ adresinin gizli bir değerle oluşturulmuş karmasını kullanır; asıl adres mesaj veritabanında saklanmaz. Mesaj ve iletişim bilgileri PostHog veya RevenueCat’e gönderilmez ve bir hesaba bağlanmaz. Mesajı talebinize yanıt vermek, isteğe bağlı iletişim bilgisini onayınızla, karmayı kötüye kullanımı önlemek için işleriz. Şu anda mesajlar ve iletişim bilgileri için sabit bir otomatik silme süresi yoktur. Erişim veya silme talebini **dylan.schmid538@gmail.com** adresine gönderin.
 
 ---
 
