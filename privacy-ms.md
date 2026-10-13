@@ -7,7 +7,7 @@ permalink: /privacy/ms/
 
 # Dasar Privasi · Calisthenics Skills – Ranked
 
-**Kemas kini terakhir: 2026-10-11**
+**Kemas kini terakhir: 2026-10-13**
 
 Dasar ini menerangkan data yang dikumpul oleh Ranked, ke mana data itu pergi, dan tindakan yang boleh anda ambil.
 
@@ -19,10 +19,11 @@ Ranked dikendalikan oleh **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, 
 
 **Umur, jantina, tinggi dan berat badan anda tidak pernah meninggalkan peranti anda.** Formula kedudukan menggunakan maklumat ini pada telefon anda. Maklumat ini tidak dihantar kepada kami atau perkhidmatan analitik.
 
-Hanya dua jenis data meninggalkan peranti anda:
+Tiga jenis data boleh meninggalkan peranti anda:
 
 1. **Statistik penggunaan** supaya kami dapat memahami cara aplikasi digunakan. Anda boleh mematikannya dalam aplikasi pada bila-bila masa.
 2. **Data pembelian** supaya langganan App Store dapat disahkan. Apple mengendalikan pembayaran; kami tidak pernah melihat butiran pembayaran anda.
+3. **Mesej maklum balas dan sokongan**, hanya jika anda memilih untuk menghantarnya. Dengan persetujuan berasingan, anda boleh beri e-mel atau nombor telefon untuk balasan.
 
 Ranked tidak menjejaki anda merentas aplikasi atau laman web lain, tidak memaparkan iklan, dan tidak membaca apa-apa daripada Apple Health.
 
@@ -64,6 +65,10 @@ Langganan dijual dan dibilkan oleh **Apple** melalui App Store. Kami tidak perna
 Untuk mengesahkan sama ada langganan anda aktif, aplikasi menggunakan **RevenueCat**. RevenueCat menerima rekod pembelian langganan daripada App Store — produk yang dibeli, masa ia bermula dan tamat — bersama maklumat teknikal lazim seperti versi iOS dan versi aplikasi. Ia mengenal pasti pemasangan anda melalui pengecam rawak yang dijananya sendiri dan disimpan pada peranti anda. Kami tidak memberikan nama, alamat e-mel atau identiti lain kepada RevenueCat; kerana Ranked tiada akaun, identiti seperti itu tidak wujud untuk diberikan.
 
 Apabila anda mengetik **Pulihkan Pembelian**, aplikasi meminta daripada Apple pembelian yang dibuat menggunakan Akaun Apple yang dilog masuk pada peranti, lalu menghantar hasilnya kepada RevenueCat dengan cara yang sama.
+
+### 3.4 Mesej maklum balas dan sokongan (Cloudflare dan CloudKit)
+
+Jika anda menghantar maklum balas atau permintaan sokongan, Ranked menghantar mesej, kategori dan sumber kepada Cloudflare Worker. Perkhidmatan itu menyimpannya dalam pangkalan data awam Apple CloudKit menggunakan kunci pelayan peribadi. Anda tidak perlu log masuk ke iCloud untuk menghantar mesej. Cloudflare Worker menggunakan alamat rangkaian permintaan untuk had teknikal terhadap penyalahgunaan; alamat asal atau cincangannya tidak disimpan dalam rekod maklum balas CloudKit. Anda boleh memberikan persetujuan secara berasingan untuk menyertakan alamat e-mel atau nombor telefon supaya kami boleh membalas di luar aplikasi. Mesej dan maklumat hubungan tidak dihantar kepada PostHog atau RevenueCat dan tidak dipautkan kepada akaun aplikasi. Kami memproses mesej untuk menjawab permintaan anda dan maklumat hubungan pilihan dengan persetujuan anda. Pada masa ini, tiada tempoh tetap untuk pemadaman automatik mesej atau maklumat hubungan. Anda boleh meminta akses atau pemadaman melalui **dylan.schmid538@gmail.com**.
 
 ---
 

@@ -7,7 +7,7 @@ permalink: /privacy/vi/
 
 # Chính sách quyền riêng tư · Calisthenics Skills – Ranked
 
-**Cập nhật lần cuối: 2026-10-11**
+**Cập nhật lần cuối: 2026-10-13**
 
 Chính sách này mô tả Ranked thu thập dữ liệu gì, dữ liệu được gửi đến đâu và bạn có thể làm gì.
 
@@ -19,10 +19,11 @@ Ranked do **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Thụy Sĩ** v�
 
 **Tuổi, giới tính, chiều cao và cân nặng của bạn không bao giờ rời khỏi thiết bị.** Công thức xếp hạng sử dụng các thông tin này trên điện thoại. Chúng không được gửi cho chúng tôi hay dịch vụ phân tích.
 
-Chỉ có hai loại dữ liệu rời khỏi thiết bị:
+Ba loại dữ liệu có thể rời khỏi thiết bị:
 
 1. **Thống kê sử dụng**, giúp chúng tôi biết ứng dụng được dùng như thế nào. Bạn có thể tắt trong ứng dụng bất kỳ lúc nào.
 2. **Dữ liệu mua hàng**, để xác minh gói đăng ký App Store. Apple xử lý thanh toán; chúng tôi không bao giờ thấy thông tin thanh toán của bạn.
+3. **Tin nhắn góp ý và hỗ trợ**, chỉ khi bạn chọn gửi. Bạn có thể đồng ý riêng để cung cấp email hoặc số điện thoại nhằm nhận phản hồi.
 
 Ranked không theo dõi bạn giữa các ứng dụng hoặc trang web khác, không hiển thị quảng cáo và không đọc dữ liệu từ Apple Health.
 
@@ -64,6 +65,10 @@ Gói đăng ký được **Apple** bán và tính phí qua App Store. Chúng tô
 Ứng dụng dùng **RevenueCat** để kiểm tra gói đăng ký có đang hoạt động hay không. RevenueCat nhận hồ sơ mua gói đăng ký từ App Store — sản phẩm đã mua, thời điểm bắt đầu và hết hạn — cùng thông tin kỹ thuật tiêu chuẩn như phiên bản iOS và ứng dụng. RevenueCat nhận diện lượt cài đặt bằng mã ngẫu nhiên do chính họ tạo và lưu trên thiết bị. Chúng tôi không cung cấp cho RevenueCat tên, email hay thông tin nhận dạng khác; vì Ranked không có tài khoản, không có danh tính nào như vậy để cung cấp.
 
 Khi bạn nhấn **Khôi phục giao dịch mua**, ứng dụng hỏi Apple về các giao dịch được thực hiện bằng Tài khoản Apple đang đăng nhập trên thiết bị và chuyển kết quả cho RevenueCat theo cùng cách.
+
+### 3.4 Tin nhắn góp ý và hỗ trợ (Cloudflare và CloudKit)
+
+Nếu bạn gửi góp ý hoặc yêu cầu hỗ trợ, Ranked chuyển tin nhắn, danh mục và nguồn đến Cloudflare Worker. Dịch vụ này lưu dữ liệu vào cơ sở dữ liệu công khai của Apple CloudKit bằng khóa máy chủ riêng. Bạn không cần đăng nhập iCloud để gửi tin nhắn. Cloudflare Worker dùng địa chỉ mạng của yêu cầu để giới hạn hành vi lạm dụng bằng biện pháp kỹ thuật; địa chỉ gốc hoặc giá trị băm của địa chỉ đó không được lưu trong bản ghi góp ý trên CloudKit. Bạn có thể đồng ý riêng với việc cung cấp địa chỉ email hoặc số điện thoại để chúng tôi trả lời ngoài ứng dụng. Tin nhắn và thông tin liên hệ không được gửi đến PostHog hoặc RevenueCat và không liên kết với tài khoản trong ứng dụng. Chúng tôi xử lý tin nhắn để trả lời yêu cầu của bạn và thông tin liên hệ tùy chọn theo sự đồng ý của bạn. Hiện không có thời hạn cố định để tự động xóa tin nhắn hoặc thông tin liên hệ. Bạn có thể yêu cầu truy cập hoặc xóa dữ liệu qua **dylan.schmid538@gmail.com**.
 
 ---
 

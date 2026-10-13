@@ -7,7 +7,7 @@ permalink: /privacy/sv/
 
 # Integritetspolicy · Calisthenics Skills – Ranked
 
-**Senast uppdaterad: 2026-10-11**
+**Senast uppdaterad: 2026-10-13**
 
 Den här policyn beskriver vilka uppgifter Ranked samlar in, vart de skickas och vad du kan göra åt det.
 
@@ -19,10 +19,11 @@ Ranked drivs av **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Schweiz**
 
 **Din ålder, ditt kön, din längd och din kroppsvikt lämnar aldrig enheten.** Rankningsformeln använder dem på telefonen. De skickas varken till oss eller till analystjänsten.
 
-Endast två slags uppgifter lämnar enheten:
+Tre typer uppgifter kan lämna enheten:
 
 1. **Användningsstatistik**, så att vi kan se hur appen används. Du kan stänga av den i appen när som helst.
 2. **Köpuppgifter**, så att abonnemanget i App Store kan verifieras. Apple hanterar betalningen; vi ser aldrig dina betalningsuppgifter.
+3. **Feedback- och supportmeddelanden**, bara när du själv skickar dem. Med separat samtycke kan du ange e-post eller telefonnummer för svar.
 
 Ranked spårar dig inte mellan andra appar eller webbplatser, visar ingen reklam och läser inget från Apple Health.
 
@@ -64,6 +65,10 @@ Abonnemang säljs och faktureras av **Apple** via App Store. Vi ser aldrig dina 
 För att kontrollera om abonnemanget är aktivt använder appen **RevenueCat**. RevenueCat får köpposten från App Store — vilken produkt du köpte, när abonnemanget började och när det löper ut — tillsammans med vanlig teknisk information som iOS-version och appversion. Din installation identifieras med en slumpmässig identifierare som RevenueCat själv skapar och lagrar på enheten. Vi ger inte RevenueCat ditt namn, din e-postadress eller någon annan identitet; eftersom Ranked inte har konton finns det ingen sådan identitet att lämna.
 
 När du trycker på **Återställ köp** begär appen uppgifter från Apple om de köp som gjorts med det Apple-konto som är inloggat på enheten och skickar resultatet till RevenueCat på samma sätt.
+
+### 3.4 Feedback- och supportmeddelanden (Cloudflare och CloudKit)
+
+Om du skickar feedback eller en supportfråga skickar Ranked meddelandet, dess kategori och källa till en Cloudflare Worker. Den lagrar uppgifterna i Apples offentliga CloudKit-databas med en privat servernyckel. Du behöver inte logga in på iCloud för att skicka ett meddelande. Cloudflare Worker använder förfrågans nätverksadress för en teknisk begränsning mot missbruk; varken den ursprungliga adressen eller en hash av den lagras i CloudKit-posten för feedbacken. Du kan separat samtycka till att lämna en e-postadress eller ett telefonnummer för svar utanför appen. Meddelanden och kontaktuppgifter skickas inte till PostHog eller RevenueCat och kopplas inte till ett konto i appen. Vi behandlar meddelandet för att svara på din förfrågan och frivilliga kontaktuppgifter med ditt samtycke. Det finns för närvarande ingen fast tidsfrist för automatisk radering av meddelanden eller kontaktuppgifter. Du kan begära tillgång eller radering på **dylan.schmid538@gmail.com**.
 
 ---
 

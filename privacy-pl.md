@@ -8,7 +8,7 @@ permalink: /privacy/pl/
 
 # Polityka prywatności · Calisthenics Skills – Ranked
 
-**Ostatnia aktualizacja: 2026-10-11**
+**Ostatnia aktualizacja: 2026-10-13**
 
 Niniejsza polityka opisuje, co Ranked zbiera, dokąd to trafia i co można z tym zrobić.
 
@@ -22,12 +22,13 @@ Ranked prowadzi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Szwajcari
 **Wiek, płeć, wzrost i masa ciała nigdy nie opuszczają urządzenia.** Wzór rangi korzysta z nich w
 telefonie. Nie są wysyłane ani do nas, ani do usługi analitycznej.
 
-Urządzenie opuszczają dwie rzeczy i tylko te dwie:
+Trzy rodzaje danych mogą opuścić urządzenie:
 
 1. **Statystyki użycia**, żebyśmy widzieli, jak aplikacja jest używana. Można je w
    aplikacji w każdej chwili wyłączyć.
 2. **Dane zakupu**, żeby można było zweryfikować subskrypcję App Store. Płatność obsługuje Apple;
    my nigdy nie widzimy danych płatniczych.
+3. **Wiadomości z opinią lub prośbą o pomoc**, tylko jeśli je wyślesz. Za osobną zgodą możesz podać e-mail lub numer telefonu do odpowiedzi.
 
 Ranked nie śledzi użytkownika w innych aplikacjach ani na stronach internetowych, nie wyświetla
 reklam i nie odczytuje niczego z aplikacji Zdrowie firmy Apple.
@@ -80,6 +81,10 @@ tożsamości, a ponieważ Ranked nie ma kont, nie ma też czego przekazać.
 
 Po naciśnięciu **Przywróć zakupy** aplikacja pyta Apple o zakupy dokonane z konta Apple zalogowanego
 na urządzeniu i przekazuje wynik do RevenueCat w ten sam sposób.
+
+### 3.4 Wiadomości z opinią lub prośbą o pomoc (Cloudflare i CloudKit)
+
+Jeśli wyślesz opinię lub prośbę o pomoc, Ranked prześle wiadomość, jej kategorię i źródło do Cloudflare Worker. Usługa zapisze je w publicznej bazie danych Apple CloudKit przy użyciu prywatnego klucza serwera. Wysłanie wiadomości nie wymaga zalogowania do iCloud. Cloudflare Worker używa adresu sieciowego zgłoszenia do technicznego ograniczania nadużyć; ani pierwotny adres, ani jego skrót nie są zapisywane w rekordzie opinii w CloudKit. Możesz osobno wyrazić zgodę na podanie adresu e-mail lub numeru telefonu, aby otrzymać odpowiedź poza aplikacją. Wiadomości i dane kontaktowe nie są wysyłane do PostHog ani RevenueCat i nie są łączone z kontem w aplikacji. Przetwarzamy wiadomość, aby odpowiedzieć na Twoją prośbę, a opcjonalne dane kontaktowe na podstawie Twojej zgody. Obecnie nie obowiązuje stały termin automatycznego usuwania wiadomości ani danych kontaktowych. O dostęp do danych lub ich usunięcie możesz poprosić pod adresem **dylan.schmid538@gmail.com**.
 
 ---
 

@@ -8,7 +8,7 @@ permalink: /privacy/fr/
 
 # Politique de confidentialité · Calisthenics Skills – Ranked
 
-**Dernière mise à jour : 2026-10-11**
+**Dernière mise à jour : 2026-10-13**
 
 La présente politique décrit ce que Ranked collecte, où cela va et ce que vous pouvez y faire.
 
@@ -23,12 +23,13 @@ Ranked est exploitée par **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern,
 formule de rang les utilise sur votre téléphone. Ils ne nous sont pas envoyés, et ils ne sont pas
 envoyés au service d'analyse.
 
-Deux choses quittent votre appareil, et seulement ces deux-là :
+Trois types de données peuvent quitter votre appareil :
 
 1. **Statistiques d'utilisation**, afin que nous puissions voir comment l'application
    est utilisée. Vous pouvez les désactiver à tout moment dans l'application.
 2. **Les données d'achat**, afin que l'abonnement App Store puisse être vérifié. Apple traite le
    paiement ; nous ne voyons jamais vos données de paiement.
+3. **Messages et demandes d’aide**, uniquement si vous décidez de les envoyer. Vous pouvez aussi consentir à fournir une adresse e-mail ou un numéro de téléphone pour recevoir une réponse.
 
 Ranked ne vous suit pas à travers d'autres applications ou sites web, n'affiche aucune publicité et
 ne lit rien depuis Apple Santé.
@@ -83,6 +84,10 @@ donner.
 Lorsque vous appuyez sur **Restaurer les achats**, l'application demande à Apple les achats
 effectués avec le compte Apple connecté sur l'appareil et transmet le résultat à RevenueCat de la
 même manière.
+
+### 3.4 Messages et demandes d’aide (Cloudflare et CloudKit)
+
+Si vous envoyez un avis ou une demande d’aide, Ranked transmet le message, sa catégorie et son origine à un Cloudflare Worker. Celui-ci les enregistre dans la base de données publique d’Apple CloudKit au moyen d’une clé de serveur privée. Aucune connexion à iCloud n’est nécessaire pour envoyer un message. Le Cloudflare Worker utilise l’adresse réseau de la demande pour limiter techniquement les abus ; ni l’adresse d’origine ni son empreinte ne sont enregistrées dans la fiche CloudKit du message. Vous pouvez consentir séparément à fournir une adresse e-mail ou un numéro de téléphone afin de recevoir une réponse hors de l’application. Le message et les coordonnées ne sont transmis ni à PostHog ni à RevenueCat et ne sont liés à aucun compte dans l’application. Nous traitons le message pour répondre à votre demande et les coordonnées facultatives avec votre consentement. Aucune durée fixe de suppression automatique n’est actuellement appliquée aux messages et coordonnées. Pour demander l’accès ou l’effacement, écrivez à **dylan.schmid538@gmail.com**.
 
 ---
 

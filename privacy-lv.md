@@ -8,7 +8,7 @@ permalink: /privacy/lv/
 
 # Privātuma politika · Calisthenics Skills – Ranked
 
-**Pēdējoreiz atjaunināts: 2026-10-11**
+**Pēdējoreiz atjaunināts: 2026-10-13**
 
 Šī politika apraksta, ko Ranked vāc, kurp tas nonāk un ko Jūs varat ar to darīt.
 
@@ -22,12 +22,13 @@ Ranked pārvalda **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Šveice*
 **Jūsu vecums, dzimums, augums un ķermeņa svars nekad neatstāj Jūsu ierīci.** Ranga formula tos
 izmanto Jūsu tālrunī. Tie netiek sūtīti ne mums, ne analītikas pakalpojumam.
 
-Jūsu ierīci atstāj divas lietas, un tikai šīs divas:
+Jūsu ierīci var atstāt trīs veidu dati:
 
 1. **Lietojuma statistika**, lai mēs redzētu, kā lietotne tiek lietota. To lietotnē varat
    jebkurā brīdī izslēgt.
 2. **Pirkuma dati**, lai varētu pārbaudīt App Store abonementu. Maksājumu apstrādā Apple; Jūsu
    maksājumu datus mēs nekad neredzam.
+3. **Atsauksmju un atbalsta ziņojumi**, tikai tad, ja tos nosūtāt. Ar atsevišķu piekrišanu varat norādīt e-pastu vai tālruni atbildes saņemšanai.
 
 Ranked neseko Jums citās lietotnēs vai tīmekļa vietnēs, nerāda reklāmas un neko nelasa no Apple
 lietotnes Veselība.
@@ -79,6 +80,10 @@ arī, ko dot.
 
 Kad pieskaraties **Atjaunot pirkumus**, lietotne pajautā Apple par pirkumiem, kas veikti ar ierīcē
 pieteikto Apple kontu, un rezultātu tādā pašā veidā nodod RevenueCat.
+
+### 3.4 Atsauksmju un atbalsta ziņojumi (Cloudflare un CloudKit)
+
+Ja nosūtāt atsauksmi vai atbalsta pieprasījumu, Ranked nosūta ziņojumu, tā kategoriju un avotu Cloudflare Worker. Tas glabā datus Apple CloudKit publiskajā datubāzē, izmantojot privātu servera atslēgu. Lai nosūtītu ziņojumu, nav jāpierakstās iCloud. Cloudflare Worker izmanto pieprasījuma tīkla adresi tehniskai ļaunprātīgas izmantošanas ierobežošanai; ne sākotnējā adrese, ne tās jaucējvērtība netiek glabāta CloudKit atsauksmes ierakstā. Atsevišķi varat piekrist norādīt e-pasta adresi vai tālruņa numuru, lai saņemtu atbildi ārpus lietotnes. Ziņojumi un kontaktinformācija netiek sūtīti PostHog vai RevenueCat un netiek saistīti ar lietotnes kontu. Ziņojumu apstrādājam, lai atbildētu uz jūsu pieprasījumu, bet neobligāto kontaktinformāciju – ar jūsu piekrišanu. Pašlaik ziņojumiem un kontaktinformācijai nav noteikts fiksēts automātiskas dzēšanas termiņš. Piekļuvi datiem vai to dzēšanu varat pieprasīt, rakstot uz **dylan.schmid538@gmail.com**.
 
 ---
 

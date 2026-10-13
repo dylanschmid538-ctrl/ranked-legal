@@ -8,7 +8,7 @@ permalink: /privacy/lt/
 
 # Privatumo politika · Calisthenics Skills – Ranked
 
-**Paskutinį kartą atnaujinta: 2026-10-11**
+**Paskutinį kartą atnaujinta: 2026-10-13**
 
 Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti.
 
@@ -22,12 +22,13 @@ permalink: /privacy/lt/
 **Jūsų amžius, lytis, ūgis ir kūno svoris niekada nepalieka Jūsų įrenginio.** Reitingo formulė juos
 naudoja Jūsų telefone. Jie nesiunčiami nei mums, nei analitikos paslaugai.
 
-Jūsų įrenginį palieka du dalykai, ir tik šie du:
+Jūsų įrenginį gali palikti trijų rūšių duomenys:
 
 1. **Naudojimo statistika**, kad matytume, kaip programėlė naudojama. Ją galite bet kada
    išjungti programėlėje.
 2. **Pirkimo duomenys**, kad būtų galima patikrinti „App Store“ prenumeratą. Mokėjimą tvarko
    „Apple“; Jūsų mokėjimo duomenų mes niekada nematome.
+3. **Atsiliepimų ir pagalbos pranešimai**, tik jei patys juos siunčiate. Atskirai sutikę galite pateikti el. paštą ar telefono numerį atsakymui.
 
 „Ranked“ neseka Jūsų kitose programėlėse ar svetainėse, nerodo reklamos ir nieko neskaito iš
 „Apple“ programėlės „Sveikata“.
@@ -81,6 +82,10 @@ tapatybės, o kadangi „Ranked“ neturi paskyrų, jos ir nėra ką duoti.
 
 Kai bakstelite **Atkurti pirkinius**, programėlė paklausia „Apple“ apie pirkinius, atliktus
 įrenginyje prisijungusia „Apple“ paskyra, ir rezultatą tuo pačiu būdu perduoda „RevenueCat“.
+
+### 3.4 Atsiliepimų ir pagalbos pranešimai (Cloudflare ir CloudKit)
+
+Jei siunčiate atsiliepimą ar pagalbos prašymą, Ranked perduoda pranešimą, jo kategoriją ir šaltinį „Cloudflare Worker“. Ši tarnyba saugo duomenis viešoje „Apple CloudKit“ duomenų bazėje naudodama privatų serverio raktą. Norint siųsti pranešimą, nereikia prisijungti prie „iCloud“. „Cloudflare Worker“ naudoja užklausos tinklo adresą techniniam piktnaudžiavimo ribojimui; nei pradinis adresas, nei jo maiša nesaugomi „CloudKit“ atsiliepimo įraše. Atskirai galite sutikti pateikti el. pašto adresą arba telefono numerį, kad galėtume atsakyti ne programėlėje. Pranešimai ir kontaktiniai duomenys neperduodami „PostHog“ ar „RevenueCat“ ir nesiejami su programėlės paskyra. Pranešimą tvarkome atsakydami į jūsų prašymą, o neprivalomus kontaktinius duomenis – gavę jūsų sutikimą. Šiuo metu nėra nustatyto termino automatiniam pranešimų ar kontaktinių duomenų ištrynimui. Susipažinti su duomenimis ar prašyti juos ištrinti galite adresu **dylan.schmid538@gmail.com**.
 
 ---
 

@@ -7,7 +7,7 @@ permalink: /privacy/hr/
 
 # Pravila o privatnosti · Calisthenics Skills – Ranked
 
-**Posljednje ažuriranje: 2026-10-11**
+**Posljednje ažuriranje: 2026-10-13**
 
 Ova pravila opisuju koje podatke Ranked prikuplja, kamo odlaze i što možete učiniti u vezi s njima.
 
@@ -19,10 +19,11 @@ Ranked vodi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švicarska**,
 
 **Vaša dob, spol, visina i tjelesna težina nikad ne napuštaju uređaj.** Formula za rang koristi ih na telefonu. Ne šalju se nama ni analitičkoj usluzi.
 
-Uređaj napuštaju samo dvije vrste podataka:
+Tri vrste podataka mogu napustiti vaš uređaj:
 
 1. **Statistika korištenja**, kako bismo razumjeli kako se aplikacija koristi. Možete je bilo kada isključiti u aplikaciji.
 2. **Podaci o kupnji**, radi provjere pretplate u App Storeu. Apple obrađuje plaćanje; mi nikad ne vidimo vaše podatke o plaćanju.
+3. **Poruke s povratnim informacijama i upiti podršci**, samo ako ih sami pošaljete. Uz zaseban pristanak možete dati e-adresu ili telefon za odgovor.
 
 Ranked vas ne prati kroz druge aplikacije ili web-mjesta, ne prikazuje oglase i ne čita ništa iz Apple Healtha.
 
@@ -64,6 +65,10 @@ Pretplate prodaje i naplaćuje **Apple** putem App Storea. Nikad ne vidimo vaše
 Za provjeru aktivne pretplate aplikacija koristi **RevenueCat**. RevenueCat prima zapis kupnje iz App Storea — kupljeni proizvod, početak i istek pretplate — zajedno sa standardnim tehničkim podacima kao što su verzije iOS-a i aplikacije. Instalaciju prepoznaje po nasumičnoj oznaci koju sam stvara i pohranjuje na uređaju. Ne dajemo RevenueCatu vaše ime, e-poštu ni drugi identitet; Ranked nema račune, pa takvog identiteta nema.
 
 Kad dodirnete **Vrati kupnje**, aplikacija traži od Applea kupnje povezane s Apple računom prijavljenim na uređaju i rezultat prosljeđuje RevenueCatu na isti način.
+
+### 3.4 Poruke s povratnim informacijama i upiti podršci (Cloudflare i CloudKit)
+
+Ako pošaljete povratne informacije ili upit podršci, Ranked šalje poruku, njezinu kategoriju i izvor usluzi Cloudflare Worker. Ona ih pohranjuje u javnu bazu podataka Apple CloudKit pomoću privatnog poslužiteljskog ključa. Za slanje poruke nije potrebna prijava na iCloud. Cloudflare Worker koristi mrežnu adresu zahtjeva za tehničko ograničavanje zloupotrebe; ni izvorna adresa ni njezin hash ne pohranjuju se u zapis povratnih informacija u CloudKitu. Zasebno možete pristati dati adresu e-pošte ili telefonski broj kako bismo vam odgovorili izvan aplikacije. Poruke i podaci za kontakt ne šalju se PostHogu ili RevenueCatu niti se povezuju s računom u aplikaciji. Poruku obrađujemo kako bismo odgovorili na vaš zahtjev, a neobavezne podatke za kontakt uz vaš pristanak. Trenutačno nije određen stalan rok za automatsko brisanje poruka ili podataka za kontakt. Pristup ili brisanje možete zatražiti na **dylan.schmid538@gmail.com**.
 
 ---
 

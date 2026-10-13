@@ -7,7 +7,7 @@ permalink: /privacy/ro/
 
 # Politica de confidențialitate · Calisthenics Skills – Ranked
 
-**Ultima actualizare: 2026-10-11**
+**Ultima actualizare: 2026-10-13**
 
 Această politică descrie ce date colectează Ranked, unde ajung și ce puteți face în privința lor.
 
@@ -19,10 +19,11 @@ Ranked este operată de **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, E
 
 **Vârsta, sexul, înălțimea și greutatea dvs. nu părăsesc niciodată dispozitivul.** Formula de calcul al rangului le folosește pe telefon. Nu sunt trimise nici nouă, nici serviciului de analiză.
 
-Doar două categorii de date părăsesc dispozitivul:
+Trei tipuri de date pot părăsi dispozitivul:
 
 1. **Statistici de utilizare**, pentru a înțelege cum este folosită aplicația. Le puteți dezactiva oricând în aplicație.
 2. **Date despre cumpărături**, pentru verificarea abonamentului App Store. Apple procesează plata; noi nu vedem niciodată detaliile dvs. de plată.
+3. **Mesaje de feedback și asistență**, doar dacă alegeți să le trimiteți. Cu acord separat puteți oferi e-mailul sau telefonul pentru răspuns.
 
 Ranked nu vă urmărește între alte aplicații sau site-uri, nu afișează reclame și nu citește date din Apple Health.
 
@@ -64,6 +65,10 @@ Abonamentele sunt vândute și facturate de **Apple** prin App Store. Nu vedem n
 Pentru a verifica dacă abonamentul este activ, aplicația folosește **RevenueCat**. RevenueCat primește înregistrarea cumpărării din App Store — produsul cumpărat, data începerii și data expirării — împreună cu informații tehnice standard, precum versiunea iOS și a aplicației. Identifică instalarea printr-un identificator aleatoriu generat de RevenueCat și stocat pe dispozitiv. Nu îi transmitem numele, adresa de e-mail sau altă identitate; Ranked nu are conturi, deci nu există o asemenea identitate de transmis.
 
 Când apăsați **Restaurare cumpărături**, aplicația cere de la Apple cumpărăturile făcute cu contul Apple conectat pe dispozitiv și transmite rezultatul către RevenueCat în același mod.
+
+### 3.4 Mesaje de feedback și asistență (Cloudflare și CloudKit)
+
+Dacă trimiteți feedback sau o cerere de asistență, Ranked transmite mesajul, categoria și sursa către un Cloudflare Worker. Acesta le stochează în baza de date publică Apple CloudKit folosind o cheie privată de server. Nu trebuie să vă conectați la iCloud pentru a trimite un mesaj. Cloudflare Worker folosește adresa de rețea a cererii pentru o limită tehnică împotriva abuzurilor; nici adresa inițială, nici o amprentă a ei nu sunt stocate în înregistrarea de feedback din CloudKit. Puteți consimți separat să furnizați o adresă de e-mail sau un număr de telefon pentru a primi un răspuns în afara aplicației. Mesajele și datele de contact nu sunt trimise către PostHog sau RevenueCat și nu sunt asociate unui cont din aplicație. Prelucrăm mesajul pentru a răspunde cererii dumneavoastră și datele de contact opționale pe baza consimțământului dumneavoastră. În prezent nu este aplicată o perioadă fixă de ștergere automată pentru mesaje sau datele de contact. Puteți solicita accesul sau ștergerea la **dylan.schmid538@gmail.com**.
 
 ---
 

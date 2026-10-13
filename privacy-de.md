@@ -8,7 +8,7 @@ permalink: /privacy/de/
 
 # Datenschutzerklärung · Calisthenics Skills – Ranked
 
-**Zuletzt aktualisiert: 2026-10-11**
+**Zuletzt aktualisiert: 2026-10-13**
 
 Diese Erklärung beschreibt, was Ranked erhebt, wohin es geht und was Sie dagegen tun können.
 
@@ -24,12 +24,13 @@ Bearbeitung.
 Rangformel verwendet sie auf Ihrem Telefon. Sie werden weder an uns noch an den Analysedienst
 gesendet.
 
-Zwei Dinge verlassen Ihr Gerät, und nur diese zwei:
+Drei Arten von Daten können Ihr Gerät verlassen:
 
 1. **Nutzungsstatistiken**, damit wir sehen, wie die App benutzt wird. Sie können das in
    der App jederzeit abschalten.
 2. **Kaufdaten**, damit das App-Store-Abonnement überprüft werden kann. Apple wickelt die Zahlung
    ab; wir sehen Ihre Zahlungsdaten nie.
+3. **Nachrichten für Feedback und Support**, nur wenn Sie selbst eine senden. Mit Ihrer Einwilligung können Sie eine E-Mail-Adresse oder Telefonnummer für eine Antwort angeben.
 
 Ranked verfolgt Sie nicht über andere Apps oder Websites hinweg, zeigt keine Werbung und liest
 nichts aus Apple Health.
@@ -84,6 +85,10 @@ E-Mail-Adresse noch eine andere Identität, und da Ranked keine Konten hat, gibt
 Wenn Sie **Käufe wiederherstellen** antippen, fragt die App bei Apple die Käufe ab, die mit dem auf
 dem Gerät angemeldeten Apple-Account getätigt wurden, und gibt das Ergebnis auf demselben Weg an
 RevenueCat weiter.
+
+### 3.4 Nachrichten für Feedback und Support (Cloudflare und CloudKit)
+
+Wenn Sie Feedback oder eine Supportanfrage senden, übermittelt Ranked die Nachricht samt Kategorie und Herkunft an einen Cloudflare Worker. Dieser speichert die Angaben mit einem privaten Serverschlüssel in der öffentlichen Datenbank von Apple CloudKit. Für das Senden ist keine iCloud-Anmeldung erforderlich. Der Cloudflare Worker verwendet die Netzwerkadresse für eine technische Begrenzung gegen Missbrauch; weder die ursprüngliche Adresse noch ein Hash davon wird im CloudKit-Feedbackdatensatz gespeichert. Für eine Antwort ausserhalb der App können Sie gesondert in die Übermittlung Ihrer E-Mail-Adresse oder Telefonnummer einwilligen. Nachricht und Kontaktdaten gehen weder an PostHog noch an RevenueCat und sind nicht mit einem App-Konto verknüpft. Wir bearbeiten die Nachricht, um Ihre Anfrage zu beantworten, und die freiwilligen Kontaktdaten mit Ihrer Einwilligung. Für Nachrichten und Kontaktdaten ist derzeit keine feste automatische Löschfrist eingerichtet. Auskunft oder Löschung können Sie unter **dylan.schmid538@gmail.com** verlangen.
 
 ---
 

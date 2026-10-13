@@ -8,7 +8,7 @@ permalink: /privacy/sl/
 
 # Politika zasebnosti · Calisthenics Skills – Ranked
 
-**Zadnja posodobitev: 2026-10-11**
+**Zadnja posodobitev: 2026-10-13**
 
 Ta politika opisuje, kaj Ranked zbira, kam to gre in kaj lahko glede tega storite.
 
@@ -22,12 +22,13 @@ Ranked upravlja **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švica**,
 **Vaša starost, spol, višina in telesna teža nikoli ne zapustijo vaše naprave.** Formula ranga jih
 uporablja v vašem telefonu. Ne pošiljajo se ne nam ne analitični storitvi.
 
-Vašo napravo zapustita dve stvari, in samo ti dve:
+Vašo napravo lahko zapustijo tri vrste podatkov:
 
 1. **Statistika uporabe**, da vidimo, kako se aplikacija uporablja. V aplikaciji jo lahko
    kadar koli izklopite.
 2. **Podatki o nakupu**, da je mogoče preveriti naročnino iz trgovine App Store. Plačilo izvede
    Apple; vaših plačilnih podatkov nikoli ne vidimo.
+3. **Sporočila s povratnimi informacijami in prošnjami za podporo**, samo če jih pošljete. Z ločenim soglasjem lahko za odgovor navedete e-pošto ali telefon.
 
 Ranked vas ne sledi po drugih aplikacijah ali spletnih straneh, ne prikazuje oglasov in ne bere
 ničesar iz aplikacije Apple Zdravje.
@@ -79,6 +80,10 @@ druge identitete, in ker Ranked nima računov, tudi ni česa dati.
 
 Ko se dotaknete **Obnovi nakupe**, aplikacija Apple vpraša po nakupih, opravljenih z računom Apple,
 prijavljenim v napravi, in izid na enak način posreduje RevenueCatu.
+
+### 3.4 Sporočila s povratnimi informacijami in prošnjami za podporo (Cloudflare in CloudKit)
+
+Če pošljete povratne informacije ali prošnjo za podporo, Ranked pošlje sporočilo, njegovo kategorijo in vir storitvi Cloudflare Worker. Ta jih s zasebnim strežniškim ključem shrani v javno podatkovno zbirko Apple CloudKit. Za pošiljanje sporočila se vam ni treba prijaviti v iCloud. Cloudflare Worker uporablja omrežni naslov zahteve za tehnično omejevanje zlorab; niti izvirni naslov niti njegova zgoščena vrednost se ne shranita v zapis povratnih informacij v CloudKitu. Ločeno lahko privolite v posredovanje e-poštnega naslova ali telefonske številke, da vam odgovorimo zunaj aplikacije. Sporočila in kontaktni podatki se ne pošiljajo družbama PostHog ali RevenueCat in niso povezani z računom v aplikaciji. Sporočilo obdelujemo, da odgovorimo na vašo prošnjo, neobvezne kontaktne podatke pa z vašim soglasjem. Trenutno ni določenega roka za samodejni izbris sporočil ali kontaktnih podatkov. Dostop do podatkov ali izbris lahko zahtevate na **dylan.schmid538@gmail.com**.
 
 ---
 

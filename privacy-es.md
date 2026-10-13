@@ -7,7 +7,7 @@ permalink: /privacy/es/
 
 # Política de privacidad · Calisthenics Skills – Ranked
 
-**Última actualización: 2026-10-11**
+**Última actualización: 2026-10-13**
 
 Esta política explica qué datos recopila Ranked, adónde van y qué puede hacer usted al respecto.
 
@@ -19,10 +19,11 @@ Ranked está operada por **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, 
 
 **Su edad, sexo, altura y peso corporal nunca salen de su dispositivo.** La fórmula del rango los utiliza en el teléfono. No se nos envían a nosotros ni al servicio de análisis.
 
-Solo salen de su dispositivo estas dos categorías:
+Tres tipos de datos pueden salir de su dispositivo:
 
 1. **Estadísticas de uso**, para saber cómo se utiliza la aplicación. Puede desactivarlas en la aplicación en cualquier momento.
 2. **Datos de compra**, para verificar la suscripción de App Store. Apple gestiona el pago; nosotros nunca vemos sus datos de pago.
+3. **Mensajes de opinión o asistencia**, solo si decide enviarlos. Puede consentir por separado en facilitar un correo electrónico o teléfono para recibir respuesta.
 
 Ranked no le rastrea entre otras aplicaciones o sitios web, no muestra publicidad y no lee nada de Apple Health.
 
@@ -64,6 +65,10 @@ Solo después de su consentimiento para el análisis, Ranked consulta una vez me
 Para comprobar si su suscripción está activa, la aplicación utiliza **RevenueCat**. RevenueCat recibe el registro de compra de App Store —el producto comprado, cuándo comenzó y cuándo vence— junto con información técnica habitual, como la versión de iOS y de la aplicación. Identifica su instalación mediante un identificador aleatorio que genera y guarda en su dispositivo. No proporcionamos a RevenueCat su nombre, correo electrónico ni ninguna otra identidad; como Ranked no tiene cuentas, no existe tal identidad que proporcionarle.
 
 Cuando toca **Restaurar compras**, la aplicación pide a Apple las compras realizadas con la Cuenta de Apple iniciada en el dispositivo y pasa el resultado a RevenueCat de la misma manera.
+
+### 3.4 Mensajes de opinión o asistencia (Cloudflare y CloudKit)
+
+Si envía una opinión o solicitud de asistencia, Ranked transmite el mensaje, su categoría y origen a un Cloudflare Worker. Este los almacena en la base de datos pública de Apple CloudKit mediante una clave privada de servidor. No necesita iniciar sesión en iCloud para enviar un mensaje. El Cloudflare Worker usa la dirección de red de la solicitud para aplicar un límite técnico contra el uso indebido; ni la dirección original ni un hash de ella se guardan en el registro de opiniones de CloudKit. Puede dar su consentimiento por separado para incluir una dirección de correo electrónico o un número de teléfono y recibir una respuesta fuera de la aplicación. Ni el mensaje ni los datos de contacto se envían a PostHog o RevenueCat ni se vinculan a una cuenta de la aplicación. Tratamos el mensaje para responder a su solicitud y los datos de contacto opcionales con su consentimiento. Actualmente no existe un plazo fijo de eliminación automática para los mensajes ni los datos de contacto. Puede solicitar acceso o eliminación en **dylan.schmid538@gmail.com**.
 
 ---
 

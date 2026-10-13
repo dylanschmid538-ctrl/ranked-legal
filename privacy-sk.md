@@ -8,7 +8,7 @@ permalink: /privacy/sk/
 
 # Zásady ochrany osobných údajov · Calisthenics Skills – Ranked
 
-**Posledná aktualizácia: 2026-10-11**
+**Posledná aktualizácia: 2026-10-13**
 
 Tieto zásady opisujú, čo Ranked zbiera, kam to ide a čo s tým môžete urobiť.
 
@@ -22,12 +22,13 @@ Ranked prevádzkuje **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švaj
 **Váš vek, pohlavie, výška a telesná hmotnosť nikdy neopustia vaše zariadenie.** Vzorec hodnosti ich
 používa vo vašom telefóne. Neodosielajú sa nám ani analytickej službe.
 
-Vaše zariadenie opúšťajú dve veci, a len tieto dve:
+Vaše zariadenie môžu opustiť tri druhy údajov:
 
 1. **Štatistiky používania**, aby sme videli, ako sa aplikácia používa. V aplikácii ich
    môžete kedykoľvek vypnúť.
 2. **Údaje o nákupe**, aby sa dalo overiť predplatné z App Store. Platbu spracúva Apple; vaše
    platobné údaje nikdy nevidíme.
+3. **Správy so spätnou väzbou a žiadosti o podporu**, len ak ich sami odošlete. S osobitným súhlasom môžete uviesť e-mail alebo telefón na odpoveď.
 
 Ranked vás nesleduje naprieč inými aplikáciami ani webovými stránkami, nezobrazuje reklamu a
 nečíta nič z aplikácie Apple Zdravie.
@@ -80,6 +81,10 @@ Ranked nemá účty, ani niet čo dať.
 
 Keď klepnete na **Obnoviť nákupy**, aplikácia sa Apple opýta na nákupy uskutočnené účtom Apple
 prihláseným v zariadení a výsledok odovzdá RevenueCatu rovnakým spôsobom.
+
+### 3.4 Správy so spätnou väzbou a žiadosti o podporu (Cloudflare a CloudKit)
+
+Ak odošlete spätnú väzbu alebo žiadosť o podporu, Ranked odošle správu, jej kategóriu a zdroj službe Cloudflare Worker. Tá ich uloží do verejnej databázy Apple CloudKit pomocou súkromného serverového kľúča. Na odoslanie správy sa nemusíte prihlásiť do iCloudu. Cloudflare Worker používa sieťovú adresu požiadavky na technické obmedzenie zneužívania; pôvodná adresa ani jej hash sa neukladajú do záznamu spätnej väzby v CloudKite. Osobitne môžete súhlasiť s poskytnutím e-mailovej adresy alebo telefónneho čísla na odpoveď mimo aplikácie. Správy a kontaktné údaje sa neposielajú spoločnostiam PostHog ani RevenueCat a nespájajú sa s účtom v aplikácii. Správu spracúvame, aby sme odpovedali na vašu žiadosť; nepovinné kontaktné údaje na základe vášho súhlasu. Pre automatické vymazanie správ a kontaktných údajov nie je momentálne stanovená pevná lehota. O prístup k údajom alebo ich vymazanie môžete požiadať na **dylan.schmid538@gmail.com**.
 
 ---
 
