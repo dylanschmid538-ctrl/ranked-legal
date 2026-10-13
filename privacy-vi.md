@@ -66,9 +66,9 @@ Gói đăng ký được **Apple** bán và tính phí qua App Store. Chúng tô
 
 Khi bạn nhấn **Khôi phục giao dịch mua**, ứng dụng hỏi Apple về các giao dịch được thực hiện bằng Tài khoản Apple đang đăng nhập trên thiết bị và chuyển kết quả cho RevenueCat theo cùng cách.
 
-### 3.4 Tin nhắn góp ý và hỗ trợ (Supabase)
+### 3.4 Tin nhắn góp ý và hỗ trợ (Cloudflare và CloudKit)
 
-Nếu bạn gửi góp ý hoặc yêu cầu hỗ trợ, Ranked chuyển tin nhắn, danh mục và nguồn gửi đến máy chủ Supabase của chúng tôi. Bạn có thể đồng ý riêng để gửi email hoặc số điện thoại nhằm nhận phản hồi bên ngoài ứng dụng. Máy chủ dùng giá trị băm của địa chỉ mạng kết hợp với giá trị bí mật để hạn chế lạm dụng; địa chỉ gốc không được lưu trong cơ sở dữ liệu tin nhắn. Tin nhắn và thông tin liên hệ không gửi cho PostHog hoặc RevenueCat và không gắn với tài khoản. Chúng tôi xử lý tin nhắn để trả lời yêu cầu, thông tin liên hệ tùy chọn theo sự đồng ý của bạn và giá trị băm để ngăn lạm dụng. Hiện chưa có thời hạn xóa tự động cố định cho tin nhắn hoặc thông tin liên hệ. Yêu cầu truy cập hoặc xóa qua **dylan.schmid538@gmail.com**.
+Nếu bạn gửi góp ý hoặc yêu cầu hỗ trợ, Ranked chuyển tin nhắn, danh mục và nguồn đến Cloudflare Worker. Dịch vụ này lưu dữ liệu vào cơ sở dữ liệu công khai của Apple CloudKit bằng khóa máy chủ riêng. Bạn không cần đăng nhập iCloud để gửi tin nhắn. Cloudflare Worker dùng địa chỉ mạng của yêu cầu để giới hạn hành vi lạm dụng bằng biện pháp kỹ thuật; địa chỉ gốc hoặc giá trị băm của địa chỉ đó không được lưu trong bản ghi góp ý trên CloudKit. Bạn có thể đồng ý riêng với việc cung cấp địa chỉ email hoặc số điện thoại để chúng tôi trả lời ngoài ứng dụng. Tin nhắn và thông tin liên hệ không được gửi đến PostHog hoặc RevenueCat và không liên kết với tài khoản trong ứng dụng. Chúng tôi xử lý tin nhắn để trả lời yêu cầu của bạn và thông tin liên hệ tùy chọn theo sự đồng ý của bạn. Hiện không có thời hạn cố định để tự động xóa tin nhắn hoặc thông tin liên hệ. Bạn có thể yêu cầu truy cập hoặc xóa dữ liệu qua **dylan.schmid538@gmail.com**.
 
 ---
 

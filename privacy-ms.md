@@ -66,9 +66,9 @@ Untuk mengesahkan sama ada langganan anda aktif, aplikasi menggunakan **RevenueC
 
 Apabila anda mengetik **Pulihkan Pembelian**, aplikasi meminta daripada Apple pembelian yang dibuat menggunakan Akaun Apple yang dilog masuk pada peranti, lalu menghantar hasilnya kepada RevenueCat dengan cara yang sama.
 
-### 3.4 Mesej maklum balas dan sokongan (Supabase)
+### 3.4 Mesej maklum balas dan sokongan (Cloudflare dan CloudKit)
 
-Jika anda menghantar maklum balas atau permintaan sokongan, Ranked menghantar mesej, kategori dan sumbernya ke pelayan Supabase kami. Anda boleh bersetuju secara berasingan untuk memberikan e-mel atau nombor telefon bagi balasan di luar aplikasi. Pelayan menggunakan cincangan alamat rangkaian dengan nilai rahsia untuk mengehadkan penyalahgunaan; alamat asal tidak disimpan dalam pangkalan data mesej. Mesej dan butiran hubungan tidak dihantar kepada PostHog atau RevenueCat dan tidak dipautkan kepada akaun. Kami memproses mesej untuk menjawab permintaan, butiran hubungan pilihan dengan persetujuan anda, dan cincangan untuk mencegah penyalahgunaan. Pada masa ini tiada tempoh tetap untuk pemadaman automatik mesej atau hubungan. Minta akses atau pemadaman melalui **dylan.schmid538@gmail.com**.
+Jika anda menghantar maklum balas atau permintaan sokongan, Ranked menghantar mesej, kategori dan sumber kepada Cloudflare Worker. Perkhidmatan itu menyimpannya dalam pangkalan data awam Apple CloudKit menggunakan kunci pelayan peribadi. Anda tidak perlu log masuk ke iCloud untuk menghantar mesej. Cloudflare Worker menggunakan alamat rangkaian permintaan untuk had teknikal terhadap penyalahgunaan; alamat asal atau cincangannya tidak disimpan dalam rekod maklum balas CloudKit. Anda boleh memberikan persetujuan secara berasingan untuk menyertakan alamat e-mel atau nombor telefon supaya kami boleh membalas di luar aplikasi. Mesej dan maklumat hubungan tidak dihantar kepada PostHog atau RevenueCat dan tidak dipautkan kepada akaun aplikasi. Kami memproses mesej untuk menjawab permintaan anda dan maklumat hubungan pilihan dengan persetujuan anda. Pada masa ini, tiada tempoh tetap untuk pemadaman automatik mesej atau maklumat hubungan. Anda boleh meminta akses atau pemadaman melalui **dylan.schmid538@gmail.com**.
 
 ---
 

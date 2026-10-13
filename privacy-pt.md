@@ -66,9 +66,9 @@ Para verificar se a assinatura está ativa, a aplicação usa a **RevenueCat**. 
 
 Quando toca em **Restaurar compras**, a aplicação pede à Apple as compras efetuadas com a Conta Apple iniciada no dispositivo e transmite o resultado à RevenueCat da mesma forma.
 
-### 3.4 Mensagens de opinião ou apoio (Supabase)
+### 3.4 Mensagens de opinião ou apoio (Cloudflare e CloudKit)
 
-Se enviar uma opinião ou pedido de apoio, o Ranked transmite a mensagem, categoria e origem ao nosso servidor Supabase. Pode consentir separadamente em incluir um e-mail ou número de telefone para receber uma resposta fora da aplicação. O servidor usa um hash do endereço de rede com um segredo para limitar abusos; o endereço original não é guardado na base de mensagens. A mensagem e os contactos não são enviados à PostHog ou RevenueCat nem associados a uma conta. Tratamos a mensagem para responder ao pedido, os contactos facultativos com o seu consentimento e o hash para prevenir abusos. Atualmente não existe um prazo fixo de eliminação automática para mensagens ou contactos. Pode pedir acesso ou eliminação em **dylan.schmid538@gmail.com**.
+Se enviar uma opinião ou pedido de apoio, o Ranked envia a mensagem, a categoria e a origem para um Cloudflare Worker. Este guarda os dados na base de dados pública do Apple CloudKit através de uma chave privada de servidor. Não precisa de iniciar sessão no iCloud para enviar uma mensagem. O Cloudflare Worker usa o endereço de rede do pedido para impor um limite técnico contra abusos; nem o endereço original nem uma impressão digital dele são guardados no registo de opinião do CloudKit. Pode consentir separadamente em fornecer um endereço de e-mail ou número de telefone para receber uma resposta fora da aplicação. As mensagens e os dados de contacto não são enviados à PostHog nem à RevenueCat e não são associados a uma conta na aplicação. Tratamos a mensagem para responder ao seu pedido e os dados de contacto facultativos com o seu consentimento. Atualmente não há um prazo fixo de eliminação automática de mensagens ou dados de contacto. Pode pedir acesso ou eliminação através de **dylan.schmid538@gmail.com**.
 
 ---
 

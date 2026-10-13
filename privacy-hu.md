@@ -66,9 +66,9 @@ Az aktív előfizetés ellenőrzésére az alkalmazás a **RevenueCat** szolgál
 
 Ha a **Vásárlások visszaállítása** lehetőségre koppint, az alkalmazás lekéri az Apple-től az eszközön bejelentkezett Apple-fiókkal végzett vásárlásokat, és az eredményt ugyanígy továbbítja a RevenueCatnek.
 
-### 3.4 Visszajelzések és támogatási üzenetek (Supabase)
+### 3.4 Visszajelzések és támogatási üzenetek (Cloudflare és CloudKit)
 
-Ha visszajelzést vagy támogatási kérést küld, a Ranked az üzenetet, annak kategóriáját és forrását Supabase-szerverünkre továbbítja. Külön hozzájárulással e-mail-címet vagy telefonszámot adhat meg az alkalmazáson kívüli válaszhoz. A szerver a hálózati cím titkos értékkel képzett kivonatát használja a visszaélések korlátozására; az eredeti címet nem tárolja az üzenet-adatbázis. Az üzenet és az elérhetőség nem kerül a PostHoghoz vagy a RevenueCathoz, és nem kapcsolódik fiókhoz. Az üzenetet a kérés megválaszolásához, az opcionális elérhetőséget hozzájárulásával, a kivonatot visszaélés megelőzésére kezeljük. Jelenleg nincs rögzített automatikus törlési határidő. Hozzáférést vagy törlést a **dylan.schmid538@gmail.com** címen kérhet.
+Ha visszajelzést vagy támogatási kérést küld, a Ranked az üzenetet, annak kategóriáját és forrását egy Cloudflare Workerhez továbbítja. A Worker ezeket az Apple CloudKit nyilvános adatbázisában tárolja, privát szerverkulccsal. Az üzenet elküldéséhez nem kell bejelentkeznie az iCloudba. A Cloudflare Worker a kérés hálózati címét technikai visszaélés-korlátozásra használja; sem az eredeti címet, sem annak kivonatát nem tárolja a CloudKit visszajelzési rekordjában. Külön hozzájárulhat e-mail-cím vagy telefonszám megadásához, hogy az alkalmazáson kívül válaszolhassunk. Az üzenet és a kapcsolattartási adatok nem kerülnek a PostHoghoz vagy a RevenueCathez, és nem kapcsolódnak alkalmazásbeli fiókhoz. Az üzenetet a kérése megválaszolásához, az opcionális kapcsolattartási adatokat pedig a hozzájárulása alapján kezeljük. Jelenleg nincs rögzített határidő az üzenetek vagy kapcsolattartási adatok automatikus törlésére. Hozzáférést vagy törlést a **dylan.schmid538@gmail.com** címen kérhet.
 
 ---
 

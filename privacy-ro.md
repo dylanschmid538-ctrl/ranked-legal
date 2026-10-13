@@ -66,9 +66,9 @@ Pentru a verifica dacă abonamentul este activ, aplicația folosește **RevenueC
 
 Când apăsați **Restaurare cumpărături**, aplicația cere de la Apple cumpărăturile făcute cu contul Apple conectat pe dispozitiv și transmite rezultatul către RevenueCat în același mod.
 
-### 3.4 Mesaje de feedback și asistență (Supabase)
+### 3.4 Mesaje de feedback și asistență (Cloudflare și CloudKit)
 
-Dacă trimiteți feedback sau o cerere de asistență, Ranked trimite mesajul, categoria și sursa la serverul nostru Supabase. Puteți consimți separat la trimiterea e-mailului sau telefonului pentru un răspuns în afara aplicației. Serverul folosește un hash al adresei de rețea cu o valoare secretă pentru a limita abuzurile; adresa originală nu se stochează în baza mesajelor. Mesajul și contactul nu sunt trimise la PostHog sau RevenueCat și nu sunt legate de un cont. Prelucrăm mesajul pentru a răspunde, contactul opțional cu consimțământul dvs., iar hashul pentru prevenirea abuzurilor. În prezent nu există un termen fix de ștergere automată a mesajelor sau contactelor. Solicitați accesul sau ștergerea la **dylan.schmid538@gmail.com**.
+Dacă trimiteți feedback sau o cerere de asistență, Ranked transmite mesajul, categoria și sursa către un Cloudflare Worker. Acesta le stochează în baza de date publică Apple CloudKit folosind o cheie privată de server. Nu trebuie să vă conectați la iCloud pentru a trimite un mesaj. Cloudflare Worker folosește adresa de rețea a cererii pentru o limită tehnică împotriva abuzurilor; nici adresa inițială, nici o amprentă a ei nu sunt stocate în înregistrarea de feedback din CloudKit. Puteți consimți separat să furnizați o adresă de e-mail sau un număr de telefon pentru a primi un răspuns în afara aplicației. Mesajele și datele de contact nu sunt trimise către PostHog sau RevenueCat și nu sunt asociate unui cont din aplicație. Prelucrăm mesajul pentru a răspunde cererii dumneavoastră și datele de contact opționale pe baza consimțământului dumneavoastră. În prezent nu este aplicată o perioadă fixă de ștergere automată pentru mesaje sau datele de contact. Puteți solicita accesul sau ștergerea la **dylan.schmid538@gmail.com**.
 
 ---
 

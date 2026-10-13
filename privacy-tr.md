@@ -66,9 +66,9 @@ Aboneliğinizin etkin olup olmadığını kontrol etmek için uygulama **Revenue
 
 **Satın Almaları Geri Yükle** seçeneğine dokunduğunuzda uygulama, cihazda oturum açılmış Apple Hesabı ile yapılan satın almaları Apple'dan ister ve sonucu aynı şekilde RevenueCat'e iletir.
 
-### 3.4 Görüş ve destek mesajları (Supabase)
+### 3.4 Görüş ve destek mesajları (Cloudflare ve CloudKit)
 
-Görüş veya destek talebi gönderirseniz Ranked mesajı, kategorisini ve kaynağını Supabase sunucumuza iletir. Uygulama dışında yanıt almak için e-posta veya telefon numarası paylaşmaya ayrıca onay verebilirsiniz. Sunucu, kötüye kullanımı sınırlamak için ağ adresinin gizli bir değerle oluşturulmuş karmasını kullanır; asıl adres mesaj veritabanında saklanmaz. Mesaj ve iletişim bilgileri PostHog veya RevenueCat’e gönderilmez ve bir hesaba bağlanmaz. Mesajı talebinize yanıt vermek, isteğe bağlı iletişim bilgisini onayınızla, karmayı kötüye kullanımı önlemek için işleriz. Şu anda mesajlar ve iletişim bilgileri için sabit bir otomatik silme süresi yoktur. Erişim veya silme talebini **dylan.schmid538@gmail.com** adresine gönderin.
+Görüş veya destek talebi gönderirseniz Ranked mesajı, kategorisini ve kaynağını bir Cloudflare Worker'a iletir. Worker, bunları özel bir sunucu anahtarı kullanarak Apple CloudKit'in ortak veritabanında saklar. Mesaj göndermek için iCloud'da oturum açmanız gerekmez. Cloudflare Worker, kötüye kullanımı teknik olarak sınırlamak için isteğin ağ adresini kullanır; asıl adres veya adresin karması CloudKit görüş kaydında saklanmaz. Uygulama dışında yanıt alabilmek için e-posta adresi veya telefon numarası vermeye ayrıca onay verebilirsiniz. Mesajlar ve iletişim bilgileri PostHog veya RevenueCat'e gönderilmez ve uygulama hesabına bağlanmaz. Mesajı talebinizi yanıtlamak, isteğe bağlı iletişim bilgilerini ise onayınız doğrultusunda işlemek için kullanırız. Mesajlar ve iletişim bilgileri için şu anda sabit bir otomatik silme süresi yoktur. Erişim veya silme talebinizi **dylan.schmid538@gmail.com** adresine gönderebilirsiniz.
 
 ---
 

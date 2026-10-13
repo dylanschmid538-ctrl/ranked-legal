@@ -66,9 +66,9 @@ For å kontrollere om abonnementet ditt er aktivt bruker appen **RevenueCat**. R
 
 Når du trykker på **Gjenopprett kjøp**, ber appen Apple om kjøp gjort med Apple-kontoen som er logget inn på enheten og sender resultatet til RevenueCat på samme måte.
 
-### 3.4 Tilbakemeldinger og støttehenvendelser (Supabase)
+### 3.4 Tilbakemeldinger og støttehenvendelser (Cloudflare og CloudKit)
 
-Hvis du sender tilbakemelding eller ber om hjelp, sender Ranked meldingen, kategori og kilde til vår Supabase-server. Du kan særskilt samtykke til å oppgi e-post eller telefonnummer for svar utenfor appen. Serveren bruker en hash av nettverksadressen med en hemmelig verdi for å begrense misbruk; den opprinnelige adressen lagres ikke i meldingsdatabasen. Meldingen og kontaktinformasjonen sendes ikke til PostHog eller RevenueCat og knyttes ikke til en konto. Vi behandler meldingen for å svare, valgfri kontaktinformasjon med ditt samtykke og hashen for å hindre misbruk. Det er for øyeblikket ingen fast automatisk slettefrist for meldinger og kontaktopplysninger. Be om innsyn eller sletting på **dylan.schmid538@gmail.com**.
+Hvis du sender tilbakemelding eller ber om hjelp, sender Ranked meldingen, kategorien og kilden til en Cloudflare Worker. Den lagrer opplysningene i Apples offentlige CloudKit-database ved hjelp av en privat servernøkkel. Du trenger ikke logge på iCloud for å sende en melding. Cloudflare Worker bruker nettverksadressen til forespørselen til en teknisk begrensning mot misbruk; verken den opprinnelige adressen eller en hash av den lagres i CloudKit-posten for tilbakemeldingen. Du kan særskilt samtykke til å oppgi e-postadresse eller telefonnummer for svar utenfor appen. Meldinger og kontaktopplysninger sendes ikke til PostHog eller RevenueCat og knyttes ikke til en konto i appen. Vi behandler meldingen for å svare på henvendelsen din og valgfrie kontaktopplysninger med ditt samtykke. Det finnes for øyeblikket ingen fast frist for automatisk sletting av meldinger eller kontaktopplysninger. Du kan be om innsyn eller sletting på **dylan.schmid538@gmail.com**.
 
 ---
 

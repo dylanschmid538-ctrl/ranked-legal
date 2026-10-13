@@ -66,9 +66,9 @@ Per verificare se l'abbonamento è attivo, l'app usa **RevenueCat**. RevenueCat 
 
 Quando tocchi **Ripristina acquisti**, l'app chiede ad Apple gli acquisti effettuati con l'Apple Account connesso al dispositivo e ne trasmette l'esito a RevenueCat allo stesso modo.
 
-### 3.4 Messaggi di feedback e assistenza (Supabase)
+### 3.4 Messaggi di feedback e assistenza (Cloudflare e CloudKit)
 
-Se invii un feedback o una richiesta di assistenza, Ranked trasmette il messaggio, la categoria e la provenienza al nostro server Supabase. Puoi acconsentire separatamente a fornire un indirizzo email o un numero di telefono per una risposta fuori dall’app. Il server usa un hash dell’indirizzo di rete con un valore segreto per limitare gli abusi; l’indirizzo originale non viene salvato nel database dei messaggi. Messaggio e recapiti non sono inviati a PostHog o RevenueCat né collegati a un account. Trattiamo il messaggio per rispondere alla richiesta, i recapiti facoltativi con il tuo consenso e l’hash per prevenire abusi. Attualmente non è applicato un termine fisso di cancellazione automatica per messaggi e recapiti. Puoi chiedere accesso o cancellazione scrivendo a **dylan.schmid538@gmail.com**.
+Se invii un feedback o una richiesta di assistenza, Ranked trasmette il messaggio, la categoria e l’origine a un Cloudflare Worker. Il Worker li memorizza nel database pubblico di Apple CloudKit mediante una chiave server privata. Per inviare un messaggio non devi accedere a iCloud. Il Cloudflare Worker usa l’indirizzo di rete della richiesta per una limitazione tecnica contro gli abusi; né l’indirizzo originale né una sua impronta sono salvati nel record di feedback in CloudKit. Puoi acconsentire separatamente a fornire un indirizzo email o un numero di telefono per ricevere una risposta fuori dall’app. Messaggi e recapiti non vengono inviati a PostHog o RevenueCat né associati a un account dell’app. Trattiamo il messaggio per rispondere alla tua richiesta e i recapiti facoltativi con il tuo consenso. Attualmente non è previsto un termine fisso per la cancellazione automatica dei messaggi o dei recapiti. Puoi chiedere accesso o cancellazione scrivendo a **dylan.schmid538@gmail.com**.
 
 ---
 

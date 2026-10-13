@@ -81,9 +81,9 @@ arī, ko dot.
 Kad pieskaraties **Atjaunot pirkumus**, lietotne pajautā Apple par pirkumiem, kas veikti ar ierīcē
 pieteikto Apple kontu, un rezultātu tādā pašā veidā nodod RevenueCat.
 
-### 3.4 Atsauksmju un atbalsta ziņojumi (Supabase)
+### 3.4 Atsauksmju un atbalsta ziņojumi (Cloudflare un CloudKit)
 
-Ja nosūtāt atsauksmi vai atbalsta pieprasījumu, Ranked nosūta ziņojumu, tā kategoriju un avotu mūsu Supabase serverim. Ar atsevišķu piekrišanu varat pievienot e-pastu vai tālruni atbildei ārpus lietotnes. Serveris izmanto tīkla adreses jaucējvērtību ar slepenu vērtību ļaunprātīgas izmantošanas ierobežošanai; sākotnējā adrese ziņojumu datubāzē netiek glabāta. Ziņojums un kontaktinformācija netiek sūtīti PostHog vai RevenueCat un nav saistīti ar kontu. Ziņojumu apstrādājam atbildes sniegšanai, izvēles kontaktinformāciju ar Jūsu piekrišanu, bet jaucējvērtību ļaunprātīgas izmantošanas novēršanai. Pašlaik ziņojumiem un kontaktiem nav noteikta automātiska dzēšanas termiņa. Pieprasiet piekļuvi vai dzēšanu: **dylan.schmid538@gmail.com**.
+Ja nosūtāt atsauksmi vai atbalsta pieprasījumu, Ranked nosūta ziņojumu, tā kategoriju un avotu Cloudflare Worker. Tas glabā datus Apple CloudKit publiskajā datubāzē, izmantojot privātu servera atslēgu. Lai nosūtītu ziņojumu, nav jāpierakstās iCloud. Cloudflare Worker izmanto pieprasījuma tīkla adresi tehniskai ļaunprātīgas izmantošanas ierobežošanai; ne sākotnējā adrese, ne tās jaucējvērtība netiek glabāta CloudKit atsauksmes ierakstā. Atsevišķi varat piekrist norādīt e-pasta adresi vai tālruņa numuru, lai saņemtu atbildi ārpus lietotnes. Ziņojumi un kontaktinformācija netiek sūtīti PostHog vai RevenueCat un netiek saistīti ar lietotnes kontu. Ziņojumu apstrādājam, lai atbildētu uz jūsu pieprasījumu, bet neobligāto kontaktinformāciju – ar jūsu piekrišanu. Pašlaik ziņojumiem un kontaktinformācijai nav noteikts fiksēts automātiskas dzēšanas termiņš. Piekļuvi datiem vai to dzēšanu varat pieprasīt, rakstot uz **dylan.schmid538@gmail.com**.
 
 ---
 

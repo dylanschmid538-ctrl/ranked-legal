@@ -66,9 +66,9 @@ Om te controleren of uw abonnement actief is, gebruikt de app **RevenueCat**. Re
 
 Als u op **Aankopen herstellen** tikt, vraagt de app Apple om de aankopen die zijn gedaan met het Apple Account dat op het apparaat is aangemeld en geeft het resultaat op dezelfde manier door aan RevenueCat.
 
-### 3.4 Feedback- en supportberichten (Supabase)
+### 3.4 Feedback- en supportberichten (Cloudflare en CloudKit)
 
-Als u feedback of een hulpvraag verstuurt, stuurt Ranked het bericht, de categorie en de herkomst naar onze Supabase-server. U kunt afzonderlijk toestemming geven om een e-mailadres of telefoonnummer mee te sturen voor een antwoord buiten de app. De server gebruikt een hash van het netwerkadres met een geheime toevoeging om misbruik te beperken; het oorspronkelijke adres wordt niet in de berichtendatabase opgeslagen. Bericht en contactgegevens gaan niet naar PostHog of RevenueCat en zijn niet gekoppeld aan een account. Wij verwerken het bericht om uw verzoek af te handelen, optionele contactgegevens met uw toestemming en de hash om misbruik te voorkomen. Er geldt momenteel geen vaste automatische verwijdertermijn voor berichten of contactgegevens. Vraag inzage of verwijdering aan via **dylan.schmid538@gmail.com**.
+Als u feedback of een hulpvraag verstuurt, stuurt Ranked het bericht, de categorie en de herkomst naar een Cloudflare Worker. Die bewaart de gegevens in de openbare database van Apple CloudKit met een privésleutel voor de server. U hoeft niet bij iCloud in te loggen om een bericht te versturen. De Cloudflare Worker gebruikt het netwerkadres van het verzoek voor een technische beperking tegen misbruik; het oorspronkelijke adres en een hash ervan worden niet opgeslagen in het CloudKit-feedbackrecord. U kunt afzonderlijk toestemming geven om een e-mailadres of telefoonnummer mee te sturen voor een antwoord buiten de app. Berichten en contactgegevens worden niet naar PostHog of RevenueCat verzonden en niet aan een appaccount gekoppeld. We verwerken het bericht om uw vraag te beantwoorden en de optionele contactgegevens met uw toestemming. Er geldt momenteel geen vaste termijn voor automatische verwijdering van berichten of contactgegevens. U kunt inzage of verwijdering aanvragen via **dylan.schmid538@gmail.com**.
 
 ---
 

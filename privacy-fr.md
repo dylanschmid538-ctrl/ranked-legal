@@ -85,9 +85,9 @@ Lorsque vous appuyez sur **Restaurer les achats**, l'application demande à Appl
 effectués avec le compte Apple connecté sur l'appareil et transmet le résultat à RevenueCat de la
 même manière.
 
-### 3.4 Messages et demandes d’aide (Supabase)
+### 3.4 Messages et demandes d’aide (Cloudflare et CloudKit)
 
-Si vous envoyez un avis ou une demande d’aide, Ranked transmet le message, sa catégorie et son origine à notre serveur Supabase. Vous pouvez consentir séparément à fournir une adresse e-mail ou un numéro de téléphone pour une réponse hors de l’application. Le serveur utilise une empreinte de l’adresse réseau avec un sel secret pour limiter les abus ; l’adresse brute n’est pas enregistrée dans la base des messages. Le message et les coordonnées ne sont transmis ni à PostHog ni à RevenueCat et ne sont liés à aucun compte. Le traitement du message sert à répondre à votre demande, les coordonnées facultatives reposent sur votre consentement et l’empreinte sert à prévenir les abus. Aucune durée fixe de suppression automatique n’est actuellement appliquée aux messages et coordonnées. Pour demander l’accès ou l’effacement, écrivez à **dylan.schmid538@gmail.com**.
+Si vous envoyez un avis ou une demande d’aide, Ranked transmet le message, sa catégorie et son origine à un Cloudflare Worker. Celui-ci les enregistre dans la base de données publique d’Apple CloudKit au moyen d’une clé de serveur privée. Aucune connexion à iCloud n’est nécessaire pour envoyer un message. Le Cloudflare Worker utilise l’adresse réseau de la demande pour limiter techniquement les abus ; ni l’adresse d’origine ni son empreinte ne sont enregistrées dans la fiche CloudKit du message. Vous pouvez consentir séparément à fournir une adresse e-mail ou un numéro de téléphone afin de recevoir une réponse hors de l’application. Le message et les coordonnées ne sont transmis ni à PostHog ni à RevenueCat et ne sont liés à aucun compte dans l’application. Nous traitons le message pour répondre à votre demande et les coordonnées facultatives avec votre consentement. Aucune durée fixe de suppression automatique n’est actuellement appliquée aux messages et coordonnées. Pour demander l’accès ou l’effacement, écrivez à **dylan.schmid538@gmail.com**.
 
 ---
 

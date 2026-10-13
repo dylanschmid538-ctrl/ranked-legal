@@ -81,9 +81,9 @@ druge identitete, in ker Ranked nima računov, tudi ni česa dati.
 Ko se dotaknete **Obnovi nakupe**, aplikacija Apple vpraša po nakupih, opravljenih z računom Apple,
 prijavljenim v napravi, in izid na enak način posreduje RevenueCatu.
 
-### 3.4 Sporočila s povratnimi informacijami in prošnjami za podporo (Supabase)
+### 3.4 Sporočila s povratnimi informacijami in prošnjami za podporo (Cloudflare in CloudKit)
 
-Če pošljete povratno informacijo ali prošnjo za podporo, Ranked sporočilo, kategorijo in vir pošlje našemu strežniku Supabase. Z ločenim soglasjem lahko dodate e-pošto ali telefon za odgovor zunaj aplikacije. Strežnik uporablja zgoščeno vrednost omrežnega naslova s skrivno vrednostjo za omejevanje zlorab; izvirni naslov se ne shrani v zbirko sporočil. Sporočilo in kontakt se ne pošljeta PostHogu ali RevenueCatu in nista povezana z računom. Sporočilo obdelamo za odgovor, neobvezni kontakt z vašim soglasjem, zgoščeno vrednost pa za preprečevanje zlorab. Trenutno ni določenega roka samodejnega brisanja sporočil ali kontaktov. Dostop ali izbris zahtevajte na **dylan.schmid538@gmail.com**.
+Če pošljete povratne informacije ali prošnjo za podporo, Ranked pošlje sporočilo, njegovo kategorijo in vir storitvi Cloudflare Worker. Ta jih s zasebnim strežniškim ključem shrani v javno podatkovno zbirko Apple CloudKit. Za pošiljanje sporočila se vam ni treba prijaviti v iCloud. Cloudflare Worker uporablja omrežni naslov zahteve za tehnično omejevanje zlorab; niti izvirni naslov niti njegova zgoščena vrednost se ne shranita v zapis povratnih informacij v CloudKitu. Ločeno lahko privolite v posredovanje e-poštnega naslova ali telefonske številke, da vam odgovorimo zunaj aplikacije. Sporočila in kontaktni podatki se ne pošiljajo družbama PostHog ali RevenueCat in niso povezani z računom v aplikaciji. Sporočilo obdelujemo, da odgovorimo na vašo prošnjo, neobvezne kontaktne podatke pa z vašim soglasjem. Trenutno ni določenega roka za samodejni izbris sporočil ali kontaktnih podatkov. Dostop do podatkov ali izbris lahko zahtevate na **dylan.schmid538@gmail.com**.
 
 ---
 

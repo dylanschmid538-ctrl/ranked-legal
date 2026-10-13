@@ -66,9 +66,9 @@ K ověření aktivního předplatného aplikace využívá **RevenueCat**. Reven
 
 Když klepnete na **Obnovit nákupy**, aplikace požádá Apple o nákupy provedené účtem Apple přihlášeným v zařízení a stejným způsobem předá výsledek RevenueCatu.
 
-### 3.4 Zprávy se zpětnou vazbou a žádosti o podporu (Supabase)
+### 3.4 Zprávy se zpětnou vazbou a žádosti o podporu (Cloudflare a CloudKit)
 
-Pokud odešlete zpětnou vazbu nebo žádost o podporu, Ranked pošle zprávu, její kategorii a původ na náš server Supabase. E-mail či telefon pro odpověď mimo aplikaci poskytnete jen se samostatným souhlasem. Server používá hash síťové adresy s tajnou hodnotou k omezení zneužití; původní adresa se do databáze zpráv neukládá. Zpráva a kontaktní údaje nejdou do PostHogu ani RevenueCatu a nejsou spojeny s účtem. Zprávu zpracujeme kvůli vyřízení žádosti, volitelný kontakt na základě souhlasu a hash kvůli prevenci zneužití. Pro zprávy a kontakty nyní není stanovena pevná lhůta automatického výmazu. O přístup či výmaz požádejte na **dylan.schmid538@gmail.com**.
+Pokud odešlete zpětnou vazbu nebo žádost o podporu, Ranked předá zprávu, její kategorii a zdroj službě Cloudflare Worker. Ta je pomocí soukromého serverového klíče uloží do veřejné databáze Apple CloudKit. K odeslání zprávy se nemusíte přihlašovat k iCloudu. Cloudflare Worker používá síťovou adresu k technickému omezení zneužívání; původní adresu ani její otisk neukládá do záznamu zpětné vazby v CloudKitu. Samostatně můžete souhlasit s poskytnutím e-mailové adresy nebo telefonního čísla pro odpověď mimo aplikaci. Zprávy ani kontaktní údaje neposíláme společnostem PostHog či RevenueCat a nespojujeme je s účtem v aplikaci. Zprávu zpracováváme kvůli odpovědi na váš požadavek; nepovinné kontaktní údaje na základě vašeho souhlasu. Pro automatické odstranění zpráv a kontaktních údajů nyní není stanovena pevná lhůta. O přístup k údajům nebo jejich odstranění můžete požádat na **dylan.schmid538@gmail.com**.
 
 ---
 

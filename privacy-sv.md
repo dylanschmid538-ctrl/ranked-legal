@@ -66,9 +66,9 @@ För att kontrollera om abonnemanget är aktivt använder appen **RevenueCat**. 
 
 När du trycker på **Återställ köp** begär appen uppgifter från Apple om de köp som gjorts med det Apple-konto som är inloggat på enheten och skickar resultatet till RevenueCat på samma sätt.
 
-### 3.4 Feedback- och supportmeddelanden (Supabase)
+### 3.4 Feedback- och supportmeddelanden (Cloudflare och CloudKit)
 
-Om du skickar feedback eller en supportfråga skickar Ranked meddelandet, kategori och källa till vår Supabase-server. Du kan separat samtycka till att ange e-post eller telefonnummer för svar utanför appen. Servern använder en hash av nätverksadressen med ett hemligt värde för att begränsa missbruk; originaladressen lagras inte i meddelandedatabasen. Meddelande och kontaktuppgifter skickas inte till PostHog eller RevenueCat och kopplas inte till ett konto. Vi behandlar meddelandet för att svara, valfria kontaktuppgifter med ditt samtycke och hashen för att förebygga missbruk. Det finns för närvarande ingen fast automatisk raderingsfrist för meddelanden eller kontaktuppgifter. Begär tillgång eller radering via **dylan.schmid538@gmail.com**.
+Om du skickar feedback eller en supportfråga skickar Ranked meddelandet, dess kategori och källa till en Cloudflare Worker. Den lagrar uppgifterna i Apples offentliga CloudKit-databas med en privat servernyckel. Du behöver inte logga in på iCloud för att skicka ett meddelande. Cloudflare Worker använder förfrågans nätverksadress för en teknisk begränsning mot missbruk; varken den ursprungliga adressen eller en hash av den lagras i CloudKit-posten för feedbacken. Du kan separat samtycka till att lämna en e-postadress eller ett telefonnummer för svar utanför appen. Meddelanden och kontaktuppgifter skickas inte till PostHog eller RevenueCat och kopplas inte till ett konto i appen. Vi behandlar meddelandet för att svara på din förfrågan och frivilliga kontaktuppgifter med ditt samtycke. Det finns för närvarande ingen fast tidsfrist för automatisk radering av meddelanden eller kontaktuppgifter. Du kan begära tillgång eller radering på **dylan.schmid538@gmail.com**.
 
 ---
 

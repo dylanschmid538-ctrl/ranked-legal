@@ -66,9 +66,9 @@ For at kontrollere, om dit abonnement er aktivt, bruger appen **RevenueCat**. Re
 
 Når du trykker på **Gendan køb**, beder appen Apple om de køb, der er foretaget med den Apple-konto, som er logget ind på enheden, og sender resultatet videre til RevenueCat på samme måde.
 
-### 3.4 Feedback- og supportbeskeder (Supabase)
+### 3.4 Feedback- og supportbeskeder (Cloudflare og CloudKit)
 
-Sender du feedback eller en supportanmodning, sender Ranked beskeden, dens kategori og kilde til vores Supabase-server. Du kan særskilt give samtykke til at sende e-mail eller telefonnummer, så vi kan svare uden for appen. Serveren bruger en hash af netværksadressen med en hemmelig værdi til at begrænse misbrug; den oprindelige adresse lagres ikke i beskeddatabasen. Besked og kontaktoplysninger sendes ikke til PostHog eller RevenueCat og knyttes ikke til en konto. Vi behandler beskeden for at besvare din henvendelse, valgfri kontaktoplysninger med dit samtykke og hashen for at forebygge misbrug. Der er i øjeblikket ingen fast automatisk slettefrist for beskeder og kontaktoplysninger. Bed om indsigt eller sletning på **dylan.schmid538@gmail.com**.
+Hvis du sender feedback eller en supportanmodning, sender Ranked beskeden, dens kategori og kilde til en Cloudflare Worker. Den gemmer oplysningerne i Apples offentlige CloudKit-database ved hjælp af en privat servernøgle. Du behøver ikke logge på iCloud for at sende en besked. Cloudflare Worker bruger netværksadressen til en teknisk begrænsning mod misbrug; hverken den oprindelige adresse eller en hash af den gemmes i feedbackposten i CloudKit. Du kan særskilt give samtykke til at oplyse en e-mailadresse eller et telefonnummer, så vi kan svare uden for appen. Beskeder og kontaktoplysninger sendes ikke til PostHog eller RevenueCat og knyttes ikke til en konto i appen. Vi behandler beskeden for at besvare din henvendelse og valgfrie kontaktoplysninger med dit samtykke. Der er i øjeblikket ingen fast frist for automatisk sletning af beskeder eller kontaktoplysninger. Du kan anmode om indsigt eller sletning på **dylan.schmid538@gmail.com**.
 
 ---
 
