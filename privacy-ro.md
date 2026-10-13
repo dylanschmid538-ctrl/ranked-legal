@@ -7,7 +7,7 @@ permalink: /privacy/ro/
 
 # Politica de confidențialitate · Calisthenics Skills – Ranked
 
-**Ultima actualizare: 2026-10-08**
+**Ultima actualizare: 2026-10-13**
 
 Această politică descrie ce date colectează Ranked, unde ajung și ce puteți face în privința lor.
 
@@ -19,10 +19,11 @@ Ranked este operată de **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, E
 
 **Vârsta, sexul, înălțimea și greutatea dvs. nu părăsesc niciodată dispozitivul.** Formula de calcul al rangului le folosește pe telefon. Nu sunt trimise nici nouă, nici serviciului de analiză.
 
-Doar două categorii de date părăsesc dispozitivul:
+Trei tipuri de date pot părăsi dispozitivul:
 
 1. **Statistici de utilizare**, pentru a înțelege cum este folosită aplicația. Le puteți dezactiva oricând în aplicație.
 2. **Date despre cumpărături**, pentru verificarea abonamentului App Store. Apple procesează plata; noi nu vedem niciodată detaliile dvs. de plată.
+3. **Mesaje de feedback și asistență**, doar dacă alegeți să le trimiteți. Cu acord separat puteți oferi e-mailul sau telefonul pentru răspuns.
 
 Ranked nu vă urmărește între alte aplicații sau site-uri, nu afișează reclame și nu citește date din Apple Health.
 
@@ -60,6 +61,10 @@ Abonamentele sunt vândute și facturate de **Apple** prin App Store. Nu vedem n
 Pentru a verifica dacă abonamentul este activ, aplicația folosește **RevenueCat**. RevenueCat primește înregistrarea cumpărării din App Store — produsul cumpărat, data începerii și data expirării — împreună cu informații tehnice standard, precum versiunea iOS și a aplicației. Identifică instalarea printr-un identificator aleatoriu generat de RevenueCat și stocat pe dispozitiv. Nu îi transmitem numele, adresa de e-mail sau altă identitate; Ranked nu are conturi, deci nu există o asemenea identitate de transmis.
 
 Când apăsați **Restaurare cumpărături**, aplicația cere de la Apple cumpărăturile făcute cu contul Apple conectat pe dispozitiv și transmite rezultatul către RevenueCat în același mod.
+
+### 3.4 Mesaje de feedback și asistență (Supabase)
+
+Dacă trimiteți feedback sau o cerere de asistență, Ranked trimite mesajul, categoria și sursa la serverul nostru Supabase. Puteți consimți separat la trimiterea e-mailului sau telefonului pentru un răspuns în afara aplicației. Serverul folosește un hash al adresei de rețea cu o valoare secretă pentru a limita abuzurile; adresa originală nu se stochează în baza mesajelor. Mesajul și contactul nu sunt trimise la PostHog sau RevenueCat și nu sunt legate de un cont. Prelucrăm mesajul pentru a răspunde, contactul opțional cu consimțământul dvs., iar hashul pentru prevenirea abuzurilor. În prezent nu există un termen fix de ștergere automată a mesajelor sau contactelor. Solicitați accesul sau ștergerea la **dylan.schmid538@gmail.com**.
 
 ---
 

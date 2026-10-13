@@ -8,7 +8,7 @@ permalink: /privacy/lv/
 
 # Privātuma politika · Calisthenics Skills – Ranked
 
-**Pēdējoreiz atjaunināts: 2026-10-08**
+**Pēdējoreiz atjaunināts: 2026-10-13**
 
 Šī politika apraksta, ko Ranked vāc, kurp tas nonāk un ko Jūs varat ar to darīt.
 
@@ -22,12 +22,13 @@ Ranked pārvalda **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Šveice*
 **Jūsu vecums, dzimums, augums un ķermeņa svars nekad neatstāj Jūsu ierīci.** Ranga formula tos
 izmanto Jūsu tālrunī. Tie netiek sūtīti ne mums, ne analītikas pakalpojumam.
 
-Jūsu ierīci atstāj divas lietas, un tikai šīs divas:
+Jūsu ierīci var atstāt trīs veidu dati:
 
 1. **Lietojuma statistika**, lai mēs redzētu, kā lietotne tiek lietota. To lietotnē varat
    jebkurā brīdī izslēgt.
 2. **Pirkuma dati**, lai varētu pārbaudīt App Store abonementu. Maksājumu apstrādā Apple; Jūsu
    maksājumu datus mēs nekad neredzam.
+3. **Atsauksmju un atbalsta ziņojumi**, tikai tad, ja tos nosūtāt. Ar atsevišķu piekrišanu varat norādīt e-pastu vai tālruni atbildes saņemšanai.
 
 Ranked neseko Jums citās lietotnēs vai tīmekļa vietnēs, nerāda reklāmas un neko nelasa no Apple
 lietotnes Veselība.
@@ -75,6 +76,10 @@ arī, ko dot.
 
 Kad pieskaraties **Atjaunot pirkumus**, lietotne pajautā Apple par pirkumiem, kas veikti ar ierīcē
 pieteikto Apple kontu, un rezultātu tādā pašā veidā nodod RevenueCat.
+
+### 3.4 Atsauksmju un atbalsta ziņojumi (Supabase)
+
+Ja nosūtāt atsauksmi vai atbalsta pieprasījumu, Ranked nosūta ziņojumu, tā kategoriju un avotu mūsu Supabase serverim. Ar atsevišķu piekrišanu varat pievienot e-pastu vai tālruni atbildei ārpus lietotnes. Serveris izmanto tīkla adreses jaucējvērtību ar slepenu vērtību ļaunprātīgas izmantošanas ierobežošanai; sākotnējā adrese ziņojumu datubāzē netiek glabāta. Ziņojums un kontaktinformācija netiek sūtīti PostHog vai RevenueCat un nav saistīti ar kontu. Ziņojumu apstrādājam atbildes sniegšanai, izvēles kontaktinformāciju ar Jūsu piekrišanu, bet jaucējvērtību ļaunprātīgas izmantošanas novēršanai. Pašlaik ziņojumiem un kontaktiem nav noteikta automātiska dzēšanas termiņa. Pieprasiet piekļuvi vai dzēšanu: **dylan.schmid538@gmail.com**.
 
 ---
 

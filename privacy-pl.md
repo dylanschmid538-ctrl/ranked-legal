@@ -8,7 +8,7 @@ permalink: /privacy/pl/
 
 # Polityka prywatności · Calisthenics Skills – Ranked
 
-**Ostatnia aktualizacja: 2026-10-08**
+**Ostatnia aktualizacja: 2026-10-13**
 
 Niniejsza polityka opisuje, co Ranked zbiera, dokąd to trafia i co można z tym zrobić.
 
@@ -22,12 +22,13 @@ Ranked prowadzi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Szwajcari
 **Wiek, płeć, wzrost i masa ciała nigdy nie opuszczają urządzenia.** Wzór rangi korzysta z nich w
 telefonie. Nie są wysyłane ani do nas, ani do usługi analitycznej.
 
-Urządzenie opuszczają dwie rzeczy i tylko te dwie:
+Trzy rodzaje danych mogą opuścić urządzenie:
 
 1. **Statystyki użycia**, żebyśmy widzieli, jak aplikacja jest używana. Można je w
    aplikacji w każdej chwili wyłączyć.
 2. **Dane zakupu**, żeby można było zweryfikować subskrypcję App Store. Płatność obsługuje Apple;
    my nigdy nie widzimy danych płatniczych.
+3. **Wiadomości z opinią lub prośbą o pomoc**, tylko jeśli je wyślesz. Za osobną zgodą możesz podać e-mail lub numer telefonu do odpowiedzi.
 
 Ranked nie śledzi użytkownika w innych aplikacjach ani na stronach internetowych, nie wyświetla
 reklam i nie odczytuje niczego z aplikacji Zdrowie firmy Apple.
@@ -76,6 +77,10 @@ tożsamości, a ponieważ Ranked nie ma kont, nie ma też czego przekazać.
 
 Po naciśnięciu **Przywróć zakupy** aplikacja pyta Apple o zakupy dokonane z konta Apple zalogowanego
 na urządzeniu i przekazuje wynik do RevenueCat w ten sam sposób.
+
+### 3.4 Wiadomości z opinią lub prośbą o pomoc (Supabase)
+
+Jeśli wyślesz opinię lub prośbę o pomoc, Ranked przekazuje wiadomość, kategorię i źródło na nasz serwer Supabase. Możesz osobno zgodzić się na podanie e-maila lub numeru telefonu, by otrzymać odpowiedź poza aplikacją. Serwer używa skrótu adresu sieciowego z tajną wartością, aby ograniczać nadużycia; pierwotny adres nie jest zapisywany w bazie wiadomości. Wiadomość i dane kontaktowe nie trafiają do PostHog ani RevenueCat i nie są powiązane z kontem. Przetwarzamy wiadomość, aby odpowiedzieć, opcjonalny kontakt za Twoją zgodą, a skrót w celu zapobiegania nadużyciom. Obecnie nie obowiązuje stały termin automatycznego usuwania wiadomości i kontaktów. O dostęp lub usunięcie poproś pod **dylan.schmid538@gmail.com**.
 
 ---
 

@@ -8,7 +8,7 @@ permalink: /privacy/lt/
 
 # Privatumo politika · Calisthenics Skills – Ranked
 
-**Paskutinį kartą atnaujinta: 2026-10-08**
+**Paskutinį kartą atnaujinta: 2026-10-13**
 
 Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti.
 
@@ -22,12 +22,13 @@ permalink: /privacy/lt/
 **Jūsų amžius, lytis, ūgis ir kūno svoris niekada nepalieka Jūsų įrenginio.** Reitingo formulė juos
 naudoja Jūsų telefone. Jie nesiunčiami nei mums, nei analitikos paslaugai.
 
-Jūsų įrenginį palieka du dalykai, ir tik šie du:
+Jūsų įrenginį gali palikti trijų rūšių duomenys:
 
 1. **Naudojimo statistika**, kad matytume, kaip programėlė naudojama. Ją galite bet kada
    išjungti programėlėje.
 2. **Pirkimo duomenys**, kad būtų galima patikrinti „App Store“ prenumeratą. Mokėjimą tvarko
    „Apple“; Jūsų mokėjimo duomenų mes niekada nematome.
+3. **Atsiliepimų ir pagalbos pranešimai**, tik jei patys juos siunčiate. Atskirai sutikę galite pateikti el. paštą ar telefono numerį atsakymui.
 
 „Ranked“ neseka Jūsų kitose programėlėse ar svetainėse, nerodo reklamos ir nieko neskaito iš
 „Apple“ programėlės „Sveikata“.
@@ -77,6 +78,10 @@ tapatybės, o kadangi „Ranked“ neturi paskyrų, jos ir nėra ką duoti.
 
 Kai bakstelite **Atkurti pirkinius**, programėlė paklausia „Apple“ apie pirkinius, atliktus
 įrenginyje prisijungusia „Apple“ paskyra, ir rezultatą tuo pačiu būdu perduoda „RevenueCat“.
+
+### 3.4 Atsiliepimų ir pagalbos pranešimai (Supabase)
+
+Jei siunčiate atsiliepimą ar pagalbos prašymą, „Ranked“ perduoda pranešimą, jo kategoriją ir šaltinį mūsų „Supabase“ serveriui. Atskiru sutikimu galite pateikti el. paštą ar telefono numerį atsakymui už programėlės ribų. Serveris naudoja tinklo adreso maišą su slapta reikšme piktnaudžiavimui riboti; pradinis adresas pranešimų duomenų bazėje nesaugomas. Pranešimas ir kontaktas nesiunčiami „PostHog“ ar „RevenueCat“ ir nesiejami su paskyra. Pranešimą tvarkome norėdami atsakyti į prašymą, pasirenkamą kontaktą – gavę Jūsų sutikimą, o maišą – piktnaudžiavimui išvengti. Šiuo metu nėra nustatyto automatinio pranešimų ar kontaktų ištrynimo termino. Prašykite prieigos ar ištrynimo adresu **dylan.schmid538@gmail.com**.
 
 ---
 

@@ -8,7 +8,7 @@ permalink: /privacy/fr/
 
 # Politique de confidentialité · Calisthenics Skills – Ranked
 
-**Dernière mise à jour : 2026-10-08**
+**Dernière mise à jour : 2026-10-13**
 
 La présente politique décrit ce que Ranked collecte, où cela va et ce que vous pouvez y faire.
 
@@ -23,12 +23,13 @@ Ranked est exploitée par **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern,
 formule de rang les utilise sur votre téléphone. Ils ne nous sont pas envoyés, et ils ne sont pas
 envoyés au service d'analyse.
 
-Deux choses quittent votre appareil, et seulement ces deux-là :
+Trois types de données peuvent quitter votre appareil :
 
 1. **Statistiques d'utilisation**, afin que nous puissions voir comment l'application
    est utilisée. Vous pouvez les désactiver à tout moment dans l'application.
 2. **Les données d'achat**, afin que l'abonnement App Store puisse être vérifié. Apple traite le
    paiement ; nous ne voyons jamais vos données de paiement.
+3. **Messages et demandes d’aide**, uniquement si vous décidez de les envoyer. Vous pouvez aussi consentir à fournir une adresse e-mail ou un numéro de téléphone pour recevoir une réponse.
 
 Ranked ne vous suit pas à travers d'autres applications ou sites web, n'affiche aucune publicité et
 ne lit rien depuis Apple Santé.
@@ -79,6 +80,10 @@ donner.
 Lorsque vous appuyez sur **Restaurer les achats**, l'application demande à Apple les achats
 effectués avec le compte Apple connecté sur l'appareil et transmet le résultat à RevenueCat de la
 même manière.
+
+### 3.4 Messages et demandes d’aide (Supabase)
+
+Si vous envoyez un avis ou une demande d’aide, Ranked transmet le message, sa catégorie et son origine à notre serveur Supabase. Vous pouvez consentir séparément à fournir une adresse e-mail ou un numéro de téléphone pour une réponse hors de l’application. Le serveur utilise une empreinte de l’adresse réseau avec un sel secret pour limiter les abus ; l’adresse brute n’est pas enregistrée dans la base des messages. Le message et les coordonnées ne sont transmis ni à PostHog ni à RevenueCat et ne sont liés à aucun compte. Le traitement du message sert à répondre à votre demande, les coordonnées facultatives reposent sur votre consentement et l’empreinte sert à prévenir les abus. Aucune durée fixe de suppression automatique n’est actuellement appliquée aux messages et coordonnées. Pour demander l’accès ou l’effacement, écrivez à **dylan.schmid538@gmail.com**.
 
 ---
 

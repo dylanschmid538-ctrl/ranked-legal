@@ -7,7 +7,7 @@ permalink: /privacy/pt/
 
 # Política de Privacidade · Calisthenics Skills – Ranked
 
-**Última atualização: 2026-10-08**
+**Última atualização: 2026-10-13**
 
 Esta política descreve o que o Ranked recolhe, para onde vão os dados e o que pode fazer a esse respeito.
 
@@ -19,10 +19,11 @@ O Ranked é operado por **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, S
 
 **A sua idade, sexo, altura e peso corporal nunca saem do dispositivo.** A fórmula de classificação usa-os no telemóvel. Não são enviados para nós nem para o serviço de análise.
 
-Apenas duas categorias de dados saem do dispositivo:
+Três tipos de dados podem sair do dispositivo:
 
 1. **Estatísticas de utilização**, para percebermos como a aplicação é usada. Pode desativá-las a qualquer momento na aplicação.
 2. **Dados de compra**, para verificar a assinatura da App Store. A Apple processa o pagamento; nunca vemos os seus dados de pagamento.
+3. **Mensagens de opinião ou apoio**, apenas quando optar por enviá-las. Pode consentir separadamente em fornecer um e-mail ou número de telefone para receber resposta.
 
 O Ranked não o segue entre outras aplicações ou sites, não apresenta publicidade e não lê dados da Apple Health.
 
@@ -60,6 +61,10 @@ As assinaturas são vendidas e cobradas pela **Apple** através da App Store. Nu
 Para verificar se a assinatura está ativa, a aplicação usa a **RevenueCat**. A RevenueCat recebe o registo de compra da App Store relativo à assinatura — o produto comprado, quando começou e quando expira — juntamente com informações técnicas habituais, como a versão do iOS e da aplicação. Identifica a instalação por um identificador aleatório que ela própria gera e guarda no dispositivo. Não fornecemos à RevenueCat o seu nome, e-mail ou qualquer outra identidade; como o Ranked não tem contas, não existe uma para fornecer.
 
 Quando toca em **Restaurar compras**, a aplicação pede à Apple as compras efetuadas com a Conta Apple iniciada no dispositivo e transmite o resultado à RevenueCat da mesma forma.
+
+### 3.4 Mensagens de opinião ou apoio (Supabase)
+
+Se enviar uma opinião ou pedido de apoio, o Ranked transmite a mensagem, categoria e origem ao nosso servidor Supabase. Pode consentir separadamente em incluir um e-mail ou número de telefone para receber uma resposta fora da aplicação. O servidor usa um hash do endereço de rede com um segredo para limitar abusos; o endereço original não é guardado na base de mensagens. A mensagem e os contactos não são enviados à PostHog ou RevenueCat nem associados a uma conta. Tratamos a mensagem para responder ao pedido, os contactos facultativos com o seu consentimento e o hash para prevenir abusos. Atualmente não existe um prazo fixo de eliminação automática para mensagens ou contactos. Pode pedir acesso ou eliminação em **dylan.schmid538@gmail.com**.
 
 ---
 

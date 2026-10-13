@@ -7,7 +7,7 @@ permalink: /privacy/hr/
 
 # Pravila o privatnosti · Calisthenics Skills – Ranked
 
-**Posljednje ažuriranje: 2026-10-08**
+**Posljednje ažuriranje: 2026-10-13**
 
 Ova pravila opisuju koje podatke Ranked prikuplja, kamo odlaze i što možete učiniti u vezi s njima.
 
@@ -19,10 +19,11 @@ Ranked vodi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švicarska**,
 
 **Vaša dob, spol, visina i tjelesna težina nikad ne napuštaju uređaj.** Formula za rang koristi ih na telefonu. Ne šalju se nama ni analitičkoj usluzi.
 
-Uređaj napuštaju samo dvije vrste podataka:
+Tri vrste podataka mogu napustiti vaš uređaj:
 
 1. **Statistika korištenja**, kako bismo razumjeli kako se aplikacija koristi. Možete je bilo kada isključiti u aplikaciji.
 2. **Podaci o kupnji**, radi provjere pretplate u App Storeu. Apple obrađuje plaćanje; mi nikad ne vidimo vaše podatke o plaćanju.
+3. **Poruke s povratnim informacijama i upiti podršci**, samo ako ih sami pošaljete. Uz zaseban pristanak možete dati e-adresu ili telefon za odgovor.
 
 Ranked vas ne prati kroz druge aplikacije ili web-mjesta, ne prikazuje oglase i ne čita ništa iz Apple Healtha.
 
@@ -60,6 +61,10 @@ Pretplate prodaje i naplaćuje **Apple** putem App Storea. Nikad ne vidimo vaše
 Za provjeru aktivne pretplate aplikacija koristi **RevenueCat**. RevenueCat prima zapis kupnje iz App Storea — kupljeni proizvod, početak i istek pretplate — zajedno sa standardnim tehničkim podacima kao što su verzije iOS-a i aplikacije. Instalaciju prepoznaje po nasumičnoj oznaci koju sam stvara i pohranjuje na uređaju. Ne dajemo RevenueCatu vaše ime, e-poštu ni drugi identitet; Ranked nema račune, pa takvog identiteta nema.
 
 Kad dodirnete **Vrati kupnje**, aplikacija traži od Applea kupnje povezane s Apple računom prijavljenim na uređaju i rezultat prosljeđuje RevenueCatu na isti način.
+
+### 3.4 Poruke s povratnim informacijama i upiti podršci (Supabase)
+
+Ako pošaljete povratne informacije ili upit podršci, Ranked šalje poruku, kategoriju i izvor na naš Supabase poslužitelj. Uz zaseban pristanak možete dati e-adresu ili telefon za odgovor izvan aplikacije. Poslužitelj koristi sažetak mrežne adrese s tajnom vrijednošću za ograničavanje zlouporabe; izvorna se adresa ne sprema u bazu poruka. Poruka i kontakt ne šalju se PostHogu ni RevenueCatu i ne povezuju s računom. Poruku obrađujemo radi odgovora, neobavezni kontakt uz vaš pristanak, a sažetak radi sprečavanja zlouporabe. Trenutačno nema fiksnog roka automatskog brisanja poruka i kontakata. Zatražite pristup ili brisanje na **dylan.schmid538@gmail.com**.
 
 ---
 
