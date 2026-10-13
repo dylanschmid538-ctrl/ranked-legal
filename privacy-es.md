@@ -62,9 +62,9 @@ Para comprobar si su suscripción está activa, la aplicación utiliza **Revenue
 
 Cuando toca **Restaurar compras**, la aplicación pide a Apple las compras realizadas con la Cuenta de Apple iniciada en el dispositivo y pasa el resultado a RevenueCat de la misma manera.
 
-### 3.4 Mensajes de opinión o asistencia (Supabase)
+### 3.4 Mensajes de opinión o asistencia (Cloudflare y CloudKit)
 
-Si envía una opinión o solicitud de asistencia, Ranked transmite el mensaje, su categoría y origen a nuestro servidor Supabase. Puede consentir por separado en incluir un correo electrónico o número de teléfono para que respondamos fuera de la aplicación. El servidor usa un hash de la dirección de red con una clave secreta para limitar abusos; la dirección original no se guarda en la base de mensajes. Ni el mensaje ni los datos de contacto se envían a PostHog o RevenueCat, ni se vinculan a una cuenta. Tratamos el mensaje para atender su solicitud, los datos de contacto con su consentimiento y el hash para prevenir abusos. Actualmente no hay un plazo fijo de borrado automático para mensajes o datos de contacto. Puede solicitar acceso o eliminación en **dylan.schmid538@gmail.com**.
+Si envía una opinión o solicitud de asistencia, Ranked transmite el mensaje, su categoría y origen a un Cloudflare Worker. Este los almacena en la base de datos pública de Apple CloudKit mediante una clave privada de servidor. No necesita iniciar sesión en iCloud para enviar un mensaje. El Cloudflare Worker usa la dirección de red de la solicitud para aplicar un límite técnico contra el uso indebido; ni la dirección original ni un hash de ella se guardan en el registro de opiniones de CloudKit. Puede dar su consentimiento por separado para incluir una dirección de correo electrónico o un número de teléfono y recibir una respuesta fuera de la aplicación. Ni el mensaje ni los datos de contacto se envían a PostHog o RevenueCat ni se vinculan a una cuenta de la aplicación. Tratamos el mensaje para responder a su solicitud y los datos de contacto opcionales con su consentimiento. Actualmente no existe un plazo fijo de eliminación automática para los mensajes ni los datos de contacto. Puede solicitar acceso o eliminación en **dylan.schmid538@gmail.com**.
 
 ---
 

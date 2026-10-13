@@ -78,9 +78,9 @@ Ranked nemá účty, ani niet čo dať.
 Keď klepnete na **Obnoviť nákupy**, aplikácia sa Apple opýta na nákupy uskutočnené účtom Apple
 prihláseným v zariadení a výsledok odovzdá RevenueCatu rovnakým spôsobom.
 
-### 3.4 Správy so spätnou väzbou a žiadosti o podporu (Supabase)
+### 3.4 Správy so spätnou väzbou a žiadosti o podporu (Cloudflare a CloudKit)
 
-Ak odošlete spätnú väzbu alebo žiadosť o podporu, Ranked pošle správu, jej kategóriu a zdroj na náš server Supabase. S osobitným súhlasom môžete pridať e-mail alebo telefón na odpoveď mimo aplikácie. Server používa hash sieťovej adresy s tajnou hodnotou na obmedzenie zneužitia; pôvodná adresa sa do databázy správ neukladá. Správa a kontaktné údaje nejdú do PostHogu ani RevenueCatu a nespájajú sa s účtom. Správu spracúvame na vybavenie žiadosti, voliteľný kontakt s vaším súhlasom a hash na prevenciu zneužitia. V súčasnosti nie je stanovená pevná lehota automatického vymazania správ či kontaktov. O prístup alebo vymazanie požiadajte na **dylan.schmid538@gmail.com**.
+Ak odošlete spätnú väzbu alebo žiadosť o podporu, Ranked odošle správu, jej kategóriu a zdroj službe Cloudflare Worker. Tá ich uloží do verejnej databázy Apple CloudKit pomocou súkromného serverového kľúča. Na odoslanie správy sa nemusíte prihlásiť do iCloudu. Cloudflare Worker používa sieťovú adresu požiadavky na technické obmedzenie zneužívania; pôvodná adresa ani jej hash sa neukladajú do záznamu spätnej väzby v CloudKite. Osobitne môžete súhlasiť s poskytnutím e-mailovej adresy alebo telefónneho čísla na odpoveď mimo aplikácie. Správy a kontaktné údaje sa neposielajú spoločnostiam PostHog ani RevenueCat a nespájajú sa s účtom v aplikácii. Správu spracúvame, aby sme odpovedali na vašu žiadosť; nepovinné kontaktné údaje na základe vášho súhlasu. Pre automatické vymazanie správ a kontaktných údajov nie je momentálne stanovená pevná lehota. O prístup k údajom alebo ich vymazanie môžete požiadať na **dylan.schmid538@gmail.com**.
 
 ---
 

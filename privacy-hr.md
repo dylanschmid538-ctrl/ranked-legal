@@ -62,9 +62,9 @@ Za provjeru aktivne pretplate aplikacija koristi **RevenueCat**. RevenueCat prim
 
 Kad dodirnete **Vrati kupnje**, aplikacija traži od Applea kupnje povezane s Apple računom prijavljenim na uređaju i rezultat prosljeđuje RevenueCatu na isti način.
 
-### 3.4 Poruke s povratnim informacijama i upiti podršci (Supabase)
+### 3.4 Poruke s povratnim informacijama i upiti podršci (Cloudflare i CloudKit)
 
-Ako pošaljete povratne informacije ili upit podršci, Ranked šalje poruku, kategoriju i izvor na naš Supabase poslužitelj. Uz zaseban pristanak možete dati e-adresu ili telefon za odgovor izvan aplikacije. Poslužitelj koristi sažetak mrežne adrese s tajnom vrijednošću za ograničavanje zlouporabe; izvorna se adresa ne sprema u bazu poruka. Poruka i kontakt ne šalju se PostHogu ni RevenueCatu i ne povezuju s računom. Poruku obrađujemo radi odgovora, neobavezni kontakt uz vaš pristanak, a sažetak radi sprečavanja zlouporabe. Trenutačno nema fiksnog roka automatskog brisanja poruka i kontakata. Zatražite pristup ili brisanje na **dylan.schmid538@gmail.com**.
+Ako pošaljete povratne informacije ili upit podršci, Ranked šalje poruku, njezinu kategoriju i izvor usluzi Cloudflare Worker. Ona ih pohranjuje u javnu bazu podataka Apple CloudKit pomoću privatnog poslužiteljskog ključa. Za slanje poruke nije potrebna prijava na iCloud. Cloudflare Worker koristi mrežnu adresu zahtjeva za tehničko ograničavanje zloupotrebe; ni izvorna adresa ni njezin hash ne pohranjuju se u zapis povratnih informacija u CloudKitu. Zasebno možete pristati dati adresu e-pošte ili telefonski broj kako bismo vam odgovorili izvan aplikacije. Poruke i podaci za kontakt ne šalju se PostHogu ili RevenueCatu niti se povezuju s računom u aplikaciji. Poruku obrađujemo kako bismo odgovorili na vaš zahtjev, a neobavezne podatke za kontakt uz vaš pristanak. Trenutačno nije određen stalan rok za automatsko brisanje poruka ili podataka za kontakt. Pristup ili brisanje možete zatražiti na **dylan.schmid538@gmail.com**.
 
 ---
 

@@ -62,9 +62,9 @@ Per comprovar si la subscripció està activa, l'aplicació fa servir **RevenueC
 
 Quan toqueu **Restaura les compres**, l'aplicació demana a Apple les compres fetes amb el Compte d'Apple amb què s'ha iniciat sessió al dispositiu i passa el resultat a RevenueCat de la mateixa manera.
 
-### 3.4 Missatges d’opinió i assistència (Supabase)
+### 3.4 Missatges d’opinió i assistència (Cloudflare i CloudKit)
 
-Si envieu una opinió o una consulta, Ranked envia el missatge, la categoria i l’origen al nostre servidor Supabase. Amb consentiment separat, podeu incloure un correu electrònic o telèfon per rebre resposta fora de l’app. El servidor utilitza un hash de l’adreça de xarxa amb un valor secret per limitar abusos; l’adreça original no es desa a la base de missatges. No enviem el missatge ni el contacte a PostHog o RevenueCat ni els vinculem a cap compte. Tractem el missatge per atendre la consulta, el contacte opcional amb el vostre consentiment i el hash per evitar abusos. Actualment no hi ha un termini fix de supressió automàtica. Podeu demanar accés o supressió a **dylan.schmid538@gmail.com**.
+Si envieu una opinió o una consulta, Ranked envia el missatge, la categoria i l’origen a un Cloudflare Worker, que els desa a la base de dades pública d’Apple CloudKit amb una clau privada de servidor. No cal iniciar sessió a iCloud per enviar el missatge. El Cloudflare Worker utilitza l’adreça de xarxa per aplicar un límit tècnic contra l’ús abusiu; no desa ni l’adreça original ni una empremta d’aquesta al registre d’opinions de CloudKit. Podeu consentir per separat a proporcionar una adreça electrònica o un número de telèfon per rebre una resposta fora de l’app. El missatge i les dades de contacte no s’envien a PostHog ni a RevenueCat i no es vinculen a cap compte de l’app. Tractem el missatge per respondre a la vostra sol·licitud i les dades de contacte opcionals amb el vostre consentiment. Actualment no hi ha un termini fix de supressió automàtica dels missatges ni de les dades de contacte. Podeu demanar-ne l’accés o la supressió a **dylan.schmid538@gmail.com**.
 
 ---
 

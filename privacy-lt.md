@@ -79,9 +79,9 @@ tapatybės, o kadangi „Ranked“ neturi paskyrų, jos ir nėra ką duoti.
 Kai bakstelite **Atkurti pirkinius**, programėlė paklausia „Apple“ apie pirkinius, atliktus
 įrenginyje prisijungusia „Apple“ paskyra, ir rezultatą tuo pačiu būdu perduoda „RevenueCat“.
 
-### 3.4 Atsiliepimų ir pagalbos pranešimai (Supabase)
+### 3.4 Atsiliepimų ir pagalbos pranešimai (Cloudflare ir CloudKit)
 
-Jei siunčiate atsiliepimą ar pagalbos prašymą, „Ranked“ perduoda pranešimą, jo kategoriją ir šaltinį mūsų „Supabase“ serveriui. Atskiru sutikimu galite pateikti el. paštą ar telefono numerį atsakymui už programėlės ribų. Serveris naudoja tinklo adreso maišą su slapta reikšme piktnaudžiavimui riboti; pradinis adresas pranešimų duomenų bazėje nesaugomas. Pranešimas ir kontaktas nesiunčiami „PostHog“ ar „RevenueCat“ ir nesiejami su paskyra. Pranešimą tvarkome norėdami atsakyti į prašymą, pasirenkamą kontaktą – gavę Jūsų sutikimą, o maišą – piktnaudžiavimui išvengti. Šiuo metu nėra nustatyto automatinio pranešimų ar kontaktų ištrynimo termino. Prašykite prieigos ar ištrynimo adresu **dylan.schmid538@gmail.com**.
+Jei siunčiate atsiliepimą ar pagalbos prašymą, Ranked perduoda pranešimą, jo kategoriją ir šaltinį „Cloudflare Worker“. Ši tarnyba saugo duomenis viešoje „Apple CloudKit“ duomenų bazėje naudodama privatų serverio raktą. Norint siųsti pranešimą, nereikia prisijungti prie „iCloud“. „Cloudflare Worker“ naudoja užklausos tinklo adresą techniniam piktnaudžiavimo ribojimui; nei pradinis adresas, nei jo maiša nesaugomi „CloudKit“ atsiliepimo įraše. Atskirai galite sutikti pateikti el. pašto adresą arba telefono numerį, kad galėtume atsakyti ne programėlėje. Pranešimai ir kontaktiniai duomenys neperduodami „PostHog“ ar „RevenueCat“ ir nesiejami su programėlės paskyra. Pranešimą tvarkome atsakydami į jūsų prašymą, o neprivalomus kontaktinius duomenis – gavę jūsų sutikimą. Šiuo metu nėra nustatyto termino automatiniam pranešimų ar kontaktinių duomenų ištrynimui. Susipažinti su duomenimis ar prašyti juos ištrinti galite adresu **dylan.schmid538@gmail.com**.
 
 ---
 

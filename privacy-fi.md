@@ -62,9 +62,9 @@ Sovellus käyttää **RevenueCatia** tarkistaakseen tilauksesi voimassaolon. Rev
 
 Kun napautat **Palauta ostot**, sovellus pyytää Applelta laitteelle kirjautuneella Apple-tilillä tehdyt ostot ja välittää tuloksen RevenueCatille samalla tavalla.
 
-### 3.4 Palaute- ja tukiviestit (Supabase)
+### 3.4 Palaute- ja tukiviestit (Cloudflare ja CloudKit)
 
-Jos lähetät palautetta tai tukipyynnön, Ranked lähettää viestin, sen luokan ja lähteen Supabase-palvelimellemme. Voit erikseen suostua lähettämään sähköpostin tai puhelinnumeron, jotta voimme vastata sovelluksen ulkopuolella. Palvelin käyttää verkko-osoitteen suolattua tiivistettä väärinkäytön rajoittamiseen; alkuperäistä osoitetta ei tallenneta viestitietokantaan. Viestiä tai yhteystietoja ei lähetetä PostHogille tai RevenueCatille eikä yhdistetä tiliin. Käsittelemme viestin pyyntösi hoitamiseksi, valinnaiset yhteystiedot suostumuksellasi ja tiivisteen väärinkäytön estämiseksi. Viesteille ja yhteystiedoille ei ole tällä hetkellä kiinteää automaattista poistomääräaikaa. Pyydä pääsyä tai poistamista osoitteesta **dylan.schmid538@gmail.com**.
+Jos lähetät palautetta tai tukipyynnön, Ranked lähettää viestin, sen luokan ja lähteen Cloudflare Workerille. Se tallentaa tiedot Applen julkiseen CloudKit-tietokantaan yksityisellä palvelinavaimella. Viestin lähettäminen ei edellytä iCloudiin kirjautumista. Cloudflare Worker käyttää pyynnön verkko-osoitetta tekniseen väärinkäytön rajoitukseen; alkuperäistä osoitetta tai sen tiivistettä ei tallenneta CloudKitin palautetietueeseen. Voit erikseen suostua antamaan sähköpostiosoitteen tai puhelinnumeron, jotta voimme vastata sovelluksen ulkopuolella. Viestejä ja yhteystietoja ei lähetetä PostHogille tai RevenueCatille eikä yhdistetä sovellustiliin. Käsittelemme viestin vastataksemme pyyntöösi ja vapaaehtoiset yhteystiedot suostumuksesi perusteella. Viesteille tai yhteystiedoille ei ole tällä hetkellä kiinteää automaattista poistoaikaa. Voit pyytää tietojen tarkastelua tai poistamista osoitteesta **dylan.schmid538@gmail.com**.
 
 ---
 

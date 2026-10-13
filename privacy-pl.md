@@ -78,9 +78,9 @@ tożsamości, a ponieważ Ranked nie ma kont, nie ma też czego przekazać.
 Po naciśnięciu **Przywróć zakupy** aplikacja pyta Apple o zakupy dokonane z konta Apple zalogowanego
 na urządzeniu i przekazuje wynik do RevenueCat w ten sam sposób.
 
-### 3.4 Wiadomości z opinią lub prośbą o pomoc (Supabase)
+### 3.4 Wiadomości z opinią lub prośbą o pomoc (Cloudflare i CloudKit)
 
-Jeśli wyślesz opinię lub prośbę o pomoc, Ranked przekazuje wiadomość, kategorię i źródło na nasz serwer Supabase. Możesz osobno zgodzić się na podanie e-maila lub numeru telefonu, by otrzymać odpowiedź poza aplikacją. Serwer używa skrótu adresu sieciowego z tajną wartością, aby ograniczać nadużycia; pierwotny adres nie jest zapisywany w bazie wiadomości. Wiadomość i dane kontaktowe nie trafiają do PostHog ani RevenueCat i nie są powiązane z kontem. Przetwarzamy wiadomość, aby odpowiedzieć, opcjonalny kontakt za Twoją zgodą, a skrót w celu zapobiegania nadużyciom. Obecnie nie obowiązuje stały termin automatycznego usuwania wiadomości i kontaktów. O dostęp lub usunięcie poproś pod **dylan.schmid538@gmail.com**.
+Jeśli wyślesz opinię lub prośbę o pomoc, Ranked prześle wiadomość, jej kategorię i źródło do Cloudflare Worker. Usługa zapisze je w publicznej bazie danych Apple CloudKit przy użyciu prywatnego klucza serwera. Wysłanie wiadomości nie wymaga zalogowania do iCloud. Cloudflare Worker używa adresu sieciowego zgłoszenia do technicznego ograniczania nadużyć; ani pierwotny adres, ani jego skrót nie są zapisywane w rekordzie opinii w CloudKit. Możesz osobno wyrazić zgodę na podanie adresu e-mail lub numeru telefonu, aby otrzymać odpowiedź poza aplikacją. Wiadomości i dane kontaktowe nie są wysyłane do PostHog ani RevenueCat i nie są łączone z kontem w aplikacji. Przetwarzamy wiadomość, aby odpowiedzieć na Twoją prośbę, a opcjonalne dane kontaktowe na podstawie Twojej zgody. Obecnie nie obowiązuje stały termin automatycznego usuwania wiadomości ani danych kontaktowych. O dostęp do danych lub ich usunięcie możesz poprosić pod adresem **dylan.schmid538@gmail.com**.
 
 ---
 

@@ -82,9 +82,9 @@ Wenn Sie **Käufe wiederherstellen** antippen, fragt die App bei Apple die Käuf
 dem Gerät angemeldeten Apple-Account getätigt wurden, und gibt das Ergebnis auf demselben Weg an
 RevenueCat weiter.
 
-### 3.4 Nachrichten für Feedback und Support (Supabase)
+### 3.4 Nachrichten für Feedback und Support (Cloudflare und CloudKit)
 
-Wenn Sie Feedback oder eine Supportanfrage senden, übermittelt Ranked die Nachricht samt Kategorie und Herkunft an unseren Supabase-Server. Für eine Antwort ausserhalb der App können Sie gesondert in die Übermittlung Ihrer E-Mail-Adresse oder Telefonnummer einwilligen. Der Server verwendet einen mit einem geheimen Zusatzwert gebildeten Hash der Netzwerkadresse, um Missbrauch zu begrenzen; die ursprüngliche Adresse wird nicht in der Feedback-Datenbank gespeichert. Nachricht und Kontaktdaten gehen weder an PostHog noch an RevenueCat und sind nicht mit einem App-Konto verknüpft. Rechtsgrundlagen sind die Bearbeitung Ihrer Anfrage, Ihre Einwilligung für die freiwilligen Kontaktdaten und unser berechtigtes Interesse an der Missbrauchsabwehr. Für Nachrichten und Kontaktdaten ist derzeit keine feste automatische Löschfrist eingerichtet. Auskunft oder Löschung können Sie unter **dylan.schmid538@gmail.com** verlangen.
+Wenn Sie Feedback oder eine Supportanfrage senden, übermittelt Ranked die Nachricht samt Kategorie und Herkunft an einen Cloudflare Worker. Dieser speichert die Angaben mit einem privaten Serverschlüssel in der öffentlichen Datenbank von Apple CloudKit. Für das Senden ist keine iCloud-Anmeldung erforderlich. Der Cloudflare Worker verwendet die Netzwerkadresse für eine technische Begrenzung gegen Missbrauch; weder die ursprüngliche Adresse noch ein Hash davon wird im CloudKit-Feedbackdatensatz gespeichert. Für eine Antwort ausserhalb der App können Sie gesondert in die Übermittlung Ihrer E-Mail-Adresse oder Telefonnummer einwilligen. Nachricht und Kontaktdaten gehen weder an PostHog noch an RevenueCat und sind nicht mit einem App-Konto verknüpft. Wir bearbeiten die Nachricht, um Ihre Anfrage zu beantworten, und die freiwilligen Kontaktdaten mit Ihrer Einwilligung. Für Nachrichten und Kontaktdaten ist derzeit keine feste automatische Löschfrist eingerichtet. Auskunft oder Löschung können Sie unter **dylan.schmid538@gmail.com** verlangen.
 
 ---
 

@@ -119,9 +119,9 @@ because Ranked has no accounts, there is none to give.
 When you tap **Restore Purchases**, the app asks Apple for the purchases made with the Apple
 Account signed in on the device and passes the result to RevenueCat in the same way.
 
-### 3.4 Feedback and support (Supabase)
+### 3.4 Feedback and support (Cloudflare and CloudKit)
 
-If you choose to send feedback or a support request, Ranked sends the message, its category and source to our Supabase server. You may separately agree to include an email address or phone number so we can reply outside the app. The server uses a salted hash of the request’s network address to limit abuse; the raw address is not stored in the feedback database. Messages and contact details are not sent to PostHog or RevenueCat and are not tied to an app account. We process the message to answer your request, optional contact details with your consent, and the address hash to prevent abuse. No fixed automatic deletion period is currently enforced for messages or contact details. You can request access or deletion by emailing **dylan.schmid538@gmail.com**.
+If you choose to send feedback or a support request, Ranked sends the message, its category and source to a Cloudflare Worker. The Worker stores them in Apple's CloudKit public database using a private server key. You do not need to sign in to iCloud to send a message. The Cloudflare Worker uses the request's network address for a technical abuse limit; neither the raw address nor a hash of it is stored in the CloudKit feedback record. You may separately agree to include an email address or phone number so we can reply outside the app. Messages and contact details are not sent to PostHog or RevenueCat and are not tied to an app account. We process the message to answer your request and optional contact details with your consent. No fixed automatic deletion period is currently enforced for messages or contact details. You can request access or deletion by emailing **dylan.schmid538@gmail.com**.
 
 ---
 

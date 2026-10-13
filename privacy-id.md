@@ -62,9 +62,9 @@ Untuk memeriksa apakah langganan aktif, aplikasi menggunakan **RevenueCat**. Rev
 
 Saat Anda mengetuk **Pulihkan Pembelian**, aplikasi meminta Apple memberikan pembelian yang dilakukan dengan Akun Apple yang masuk pada perangkat lalu menyampaikan hasilnya kepada RevenueCat dengan cara yang sama.
 
-### 3.4 Pesan masukan dan dukungan (Supabase)
+### 3.4 Pesan masukan dan dukungan (Cloudflare dan CloudKit)
 
-Jika Anda mengirim masukan atau permintaan dukungan, Ranked mengirim pesan, kategori, dan asalnya ke server Supabase kami. Dengan persetujuan terpisah, Anda dapat menyertakan email atau nomor telepon untuk balasan di luar aplikasi. Server memakai hash alamat jaringan dengan nilai rahasia untuk membatasi penyalahgunaan; alamat asli tidak disimpan dalam basis data pesan. Pesan dan kontak tidak dikirim ke PostHog atau RevenueCat dan tidak terkait akun. Kami memproses pesan untuk menjawab permintaan, kontak opsional dengan persetujuan Anda, dan hash untuk mencegah penyalahgunaan. Saat ini belum ada batas waktu penghapusan otomatis yang tetap untuk pesan dan kontak. Minta akses atau penghapusan melalui **dylan.schmid538@gmail.com**.
+Jika Anda mengirim masukan atau permintaan dukungan, Ranked mengirim pesan, kategori, dan sumber ke Cloudflare Worker. Layanan tersebut menyimpannya di basis data publik Apple CloudKit menggunakan kunci server pribadi. Anda tidak perlu masuk ke iCloud untuk mengirim pesan. Cloudflare Worker menggunakan alamat jaringan permintaan untuk pembatasan teknis terhadap penyalahgunaan; alamat asli maupun hash-nya tidak disimpan dalam catatan masukan CloudKit. Anda dapat memberikan persetujuan terpisah untuk menyertakan alamat email atau nomor telepon agar kami dapat membalas di luar aplikasi. Pesan dan informasi kontak tidak dikirim ke PostHog atau RevenueCat dan tidak dihubungkan dengan akun aplikasi. Kami memproses pesan untuk menanggapi permintaan Anda dan informasi kontak opsional berdasarkan persetujuan Anda. Saat ini tidak ada batas waktu tetap untuk penghapusan otomatis pesan atau informasi kontak. Anda dapat meminta akses atau penghapusan melalui **dylan.schmid538@gmail.com**.
 
 ---
 

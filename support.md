@@ -8,8 +8,10 @@ permalink: /support/
 ## Get in touch
 
 When the feedback form is available in Ranked, open **Settings → Feedback to Dylan** to send a
-message or ask for help. You can send it without contact details. If you want a reply, you can
-separately agree to provide an email address or phone number; we reply outside the app.
+message or ask for help. You can send it without contact details or an iCloud sign-in. If you want
+a reply, you can separately agree to provide an email address or phone number; we reply outside
+the app. The message goes through Cloudflare to Apple CloudKit. Please do not include passwords
+or private health details.
 
 For privacy requests, including access to or deletion of a message you sent, email
 **dylan.schmid538@gmail.com**. You can also use this address for support.
