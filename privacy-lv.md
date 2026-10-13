@@ -64,6 +64,8 @@ Tikai pēc piekrišanas analītikai Ranked vienreiz ar Apple AdServices pārbaud
 
 ### 3.3 Pirkumi (Apple un RevenueCat)
 
+Tikai pēc analītikas ieslēgšanas Ranked kopīgo ar RevenueCat to pašu nejaušo lietotnes instalācijas ID, ko izmanto PostHog. Tas ļauj sasaistīt abonementa notikumus ar lietotnes lietošanas notikumiem. Aizsargāts serveris pārsūta PostHog ierobežotu abonementa notikumu kopu un tādu informāciju kā produkts, cena, valūta un veikals. Tas nepārsūta jūsu vārdu, e-pasta adresi, Apple kontu vai darījuma ID. Ja analītiku izslēdzat, Ranked noņem šo ID no RevenueCat; pēc tam, kad RevenueCat saņem izmaiņas, jauni abonementa notikumi tiek atmesti. Jau nosūtītie dati netiek automātiski dzēsti.
+
 Abonementus pārdod un norēķinus veic **Apple** caur App Store. Jūsu maksājumu datus, Jūsu Apple
 kontu un Jūsu vārdu mēs nekad neredzam.
 

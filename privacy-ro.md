@@ -56,6 +56,8 @@ Doar după consimțământul pentru analiză, Ranked întreabă o singură dată
 
 ### 3.3 Cumpărături (Apple și RevenueCat)
 
+Numai după ce activezi analiza, Ranked partajează cu RevenueCat același ID aleatoriu de instalare a aplicației folosit de PostHog. Astfel, evenimentele abonamentului pot fi asociate cu evenimentele de utilizare a aplicației. Un server securizat transmite către PostHog un set limitat de evenimente și detalii precum produsul, prețul, moneda și magazinul. Nu transmite numele, adresa de e-mail, contul Apple sau ID-ul tranzacției. Dacă dezactivezi analiza, Ranked elimină acest ID din RevenueCat; după ce RevenueCat primește schimbarea, noile evenimente de abonament sunt eliminate. Datele trimise deja nu sunt șterse automat.
+
 Abonamentele sunt vândute și facturate de **Apple** prin App Store. Nu vedem niciodată detaliile dvs. de plată, contul Apple sau numele dvs.
 
 Pentru a verifica dacă abonamentul este activ, aplicația folosește **RevenueCat**. RevenueCat primește înregistrarea cumpărării din App Store — produsul cumpărat, data începerii și data expirării — împreună cu informații tehnice standard, precum versiunea iOS și a aplicației. Identifică instalarea printr-un identificator aleatoriu generat de RevenueCat și stocat pe dispozitiv. Nu îi transmitem numele, adresa de e-mail sau altă identitate; Ranked nu are conturi, deci nu există o asemenea identitate de transmis.

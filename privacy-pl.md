@@ -65,6 +65,8 @@ Dopiero po zgodzie na analitykę Ranked jednorazowo pyta Apple AdServices o przy
 
 ### 3.3 Zakupy (Apple i RevenueCat)
 
+Dopiero po włączeniu analityki Ranked udostępnia RevenueCat ten sam losowy identyfikator instalacji aplikacji, którego używa PostHog. Pozwala to łączyć zdarzenia subskrypcji ze zdarzeniami korzystania z aplikacji. Zabezpieczony serwer przekazuje do PostHog ograniczony zestaw zdarzeń subskrypcji i informacje takie jak produkt, cena, waluta i sklep. Nie przekazuje imienia i nazwiska, adresu e-mail, konta Apple ani identyfikatora transakcji. Po wyłączeniu analityki Ranked usuwa ten identyfikator z RevenueCat; gdy RevenueCat otrzyma zmianę, nowe zdarzenia subskrypcji są odrzucane. Wysłane wcześniej dane nie są automatycznie usuwane.
+
 Subskrypcje sprzedaje i rozlicza **Apple** za pośrednictwem App Store. Nigdy nie widzimy danych
 płatniczych, konta Apple ani imienia i nazwiska.
 

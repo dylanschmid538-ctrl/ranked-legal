@@ -56,9 +56,11 @@ Pas na toestemming voor analyse vraagt Ranked via Apple AdServices eenmaal naar 
 
 ### 3.3 Aankopen (Apple en RevenueCat)
 
+Pas nadat je analytics inschakelt, deelt Ranked dezelfde willekeurige app-installatie-ID met RevenueCat die PostHog gebruikt. Zo kunnen abonnementsgebeurtenissen worden gekoppeld aan app-gebruik. Een beveiligde server stuurt een beperkte set abonnementsgebeurtenissen en gegevens zoals product, prijs, valuta en winkel door naar PostHog. Je naam, e-mailadres, Apple Account en transactie-ID worden niet doorgestuurd. Als je analytics uitschakelt, verwijdert Ranked deze ID uit RevenueCat; zodra RevenueCat die wijziging ontvangt, worden nieuwe abonnementsgebeurtenissen weggegooid. Eerder verzonden gegevens worden niet automatisch verwijderd.
+
 Abonnementen worden door **Apple** verkocht en gefactureerd via de App Store. Wij zien nooit uw betaalgegevens, Apple Account of naam.
 
-Om te controleren of uw abonnement actief is, gebruikt de app **RevenueCat**. RevenueCat ontvangt het App Store-aankoopbewijs voor uw abonnement — het gekochte product, wanneer het begon en wanneer het afloopt — samen met standaard technische informatie zoals uw iOS-versie en appversie. Het herkent uw installatie via een willekeurige code die het zelf aanmaakt en op uw apparaat opslaat. Wij verstrekken RevenueCat niet uw naam, e-mailadres of andere identiteit; Ranked heeft geen accounts en dus geen accountidentiteit om te verstrekken.
+Om te controleren of uw abonnement actief is, gebruikt de app **RevenueCat**. RevenueCat ontvangt het App Store-aankoopbewijs voor uw abonnement — het gekochte product, wanneer het begon en wanneer het afloopt — samen met standaard technische informatie zoals uw iOS-versie en appversie. Het herkent uw installatie via een willekeurige code die het zelf aanmaakt en op uw apparaat opslaat. Wij verstrekken RevenueCat niet uw naam of e-mailadres. De hierboven beschreven willekeurige app-ID is pseudoniem en wordt alleen voor analyses gebruikt als u deze inschakelt; Ranked heeft geen inlogaccounts.
 
 Als u op **Aankopen herstellen** tikt, vraagt de app Apple om de aankopen die zijn gedaan met het Apple Account dat op het apparaat is aangemeld en geeft het resultaat op dezelfde manier door aan RevenueCat.
 

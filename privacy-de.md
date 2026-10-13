@@ -68,6 +68,8 @@ Nur nach Ihrer Zustimmung zur Analyse fragt Ranked über Apples AdServices einma
 
 ### 3.3 Käufe (Apple und RevenueCat)
 
+Erst wenn Sie Analyse aktivieren, teilt Ranked dieselbe zufällige App-Installations-ID mit RevenueCat, die auch PostHog verwendet. So können Aboereignisse mit Nutzungsereignissen der App verknüpft werden. Ein geschützter Server leitet eine begrenzte Auswahl an Aboereignissen und Angaben wie Produkt, Preis, Währung und Store an PostHog weiter. Name, E-Mail-Adresse, Apple-Account und Transaktions-ID werden nicht weitergeleitet. Wenn Sie Analyse ausschalten, entfernt Ranked diese ID aus RevenueCat; sobald RevenueCat die Änderung erhalten hat, werden neue Aboereignisse verworfen. Bereits übermittelte Daten werden nicht automatisch gelöscht.
+
 Abonnements werden von **Apple** über den App Store verkauft und abgerechnet. Wir sehen Ihre
 Zahlungsdaten, Ihren Apple-Account und Ihren Namen nie.
 
@@ -75,8 +77,7 @@ Um zu prüfen, ob Ihr Abonnement aktiv ist, verwendet die App **RevenueCat**. Re
 App-Store-Kaufdatensatz zu Ihrem Abonnement — welches Produkt gekauft wurde, wann es begonnen hat
 und wann es abläuft — zusammen mit technischen Standardangaben wie Ihrer iOS-Version und der
 App-Version. Ihre Installation wird über eine zufällige Kennung erkannt, die RevenueCat selbst
-erzeugt und auf Ihrem Gerät speichert. Wir geben RevenueCat weder Ihren Namen noch Ihre
-E-Mail-Adresse noch eine andere Identität, und da Ranked keine Konten hat, gibt es auch keine.
+erzeugt und auf Ihrem Gerät speichert. Wir übermitteln RevenueCat weder Ihren Namen noch Ihre E-Mail-Adresse. Die oben beschriebene zufällige App-ID ist ein Pseudonym und wird nur für Analyse verwendet, wenn Sie diese einschalten; Ranked hat keine Anmeldekonten.
 
 Wenn Sie **Käufe wiederherstellen** antippen, fragt die App bei Apple die Käufe ab, die mit dem auf
 dem Gerät angemeldeten Apple-Account getätigt wurden, und gibt das Ergebnis auf demselben Weg an

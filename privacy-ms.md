@@ -56,6 +56,8 @@ Hanya selepas persetujuan analitik, Ranked sekali bertanya kepada Apple AdServic
 
 ### 3.3 Pembelian (Apple dan RevenueCat)
 
+Hanya selepas anda menghidupkan analitik, Ranked berkongsi ID pemasangan aplikasi rawak yang sama dengan RevenueCat seperti yang digunakan oleh PostHog. Ini membolehkan peristiwa langganan dipautkan kepada peristiwa penggunaan aplikasi. Pelayan yang dilindungi menghantar set terhad peristiwa langganan dan butiran seperti produk, harga, mata wang dan gedung kepada PostHog. Nama, alamat e-mel, Akaun Apple dan ID transaksi anda tidak dihantar. Jika anda mematikan analitik, Ranked mengalih keluar ID ini daripada RevenueCat; selepas RevenueCat menerima perubahan itu, peristiwa langganan baharu akan digugurkan. Data yang telah dihantar tidak dipadamkan secara automatik.
+
 Langganan dijual dan dibilkan oleh **Apple** melalui App Store. Kami tidak pernah melihat butiran pembayaran, Akaun Apple atau nama anda.
 
 Untuk mengesahkan sama ada langganan anda aktif, aplikasi menggunakan **RevenueCat**. RevenueCat menerima rekod pembelian langganan daripada App Store — produk yang dibeli, masa ia bermula dan tamat — bersama maklumat teknikal lazim seperti versi iOS dan versi aplikasi. Ia mengenal pasti pemasangan anda melalui pengecam rawak yang dijananya sendiri dan disimpan pada peranti anda. Kami tidak memberikan nama, alamat e-mel atau identiti lain kepada RevenueCat; kerana Ranked tiada akaun, identiti seperti itu tidak wujud untuk diberikan.

@@ -56,6 +56,8 @@ Només després del consentiment per a l'anàlisi, Ranked consulta una vegada Ad
 
 ### 3.3 Compres (Apple i RevenueCat)
 
+Només quan activeu l’anàlisi, Ranked comparteix amb RevenueCat el mateix identificador aleatori de la instal·lació que utilitza PostHog. Això permet relacionar els esdeveniments de subscripció amb els d’ús de l’app. Un servidor protegit envia a PostHog un conjunt limitat d’esdeveniments de subscripció i dades com el producte, el preu, la moneda i la botiga. No hi envia el vostre nom, correu electrònic, compte d’Apple ni l’identificador de transacció. Si desactiveu l’anàlisi, Ranked elimina aquest identificador de RevenueCat; quan RevenueCat rep el canvi, els esdeveniments de subscripció nous es descarten. Les dades ja enviades no s’eliminen automàticament.
+
 **Apple** ven i factura les subscripcions a través de l'App Store. No veiem mai les vostres dades de pagament, el vostre Compte d'Apple ni el vostre nom.
 
 Per comprovar si la subscripció està activa, l'aplicació fa servir **RevenueCat**. RevenueCat rep el registre de compra de l'App Store —el producte comprat, quan va començar i quan venç— juntament amb informació tècnica habitual com la versió d'iOS i de l'aplicació. Identifica la instal·lació amb un identificador aleatori que genera ella mateixa i desa al dispositiu. No facilitem a RevenueCat el vostre nom, correu electrònic ni cap altra identitat; com que Ranked no té comptes, no hi ha cap identitat d'aquest tipus per facilitar.

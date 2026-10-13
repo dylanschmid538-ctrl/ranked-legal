@@ -106,6 +106,8 @@ statistics (§3.1) also stops this.
 
 ### 3.3 Purchases (Apple and RevenueCat)
 
+Only after you enable analytics, Ranked shares the same random app-installation ID with RevenueCat that PostHog uses. This lets us connect subscription events to app-usage events. A secured server forwards a limited set of subscription events and details such as product, price, currency and store to PostHog. It does not forward your name, email address, Apple Account or transaction ID. If you switch analytics off, Ranked clears this ID from RevenueCat; after RevenueCat receives that change, new subscription events are discarded. Data already sent is not automatically deleted.
+
 Subscriptions are sold and billed by **Apple** through the App Store. We never see your payment
 details, your Apple Account or your name.
 
@@ -113,8 +115,7 @@ To check whether your subscription is active, the app uses **RevenueCat**. Reven
 App Store purchase record for your subscription — the product bought, when it started and when it
 expires — together with standard technical information such as your iOS version and the app
 version. It identifies your installation by a random identifier it generates itself and stores on
-your device. We do not give RevenueCat your name, your email address or any other identity, and
-because Ranked has no accounts, there is none to give.
+your device. We do not give RevenueCat your name or email address. The random app ID described above is pseudonymous and used for analytics only when you enable it; Ranked has no sign-in accounts.
 
 When you tap **Restore Purchases**, the app asks Apple for the purchases made with the Apple
 Account signed in on the device and passes the result to RevenueCat in the same way.

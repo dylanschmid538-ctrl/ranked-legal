@@ -56,9 +56,11 @@ Só após o consentimento para a análise, a Ranked consulta uma vez o AdService
 
 ### 3.3 Compras (Apple e RevenueCat)
 
+Só depois de ativar a análise, a Ranked partilha com a RevenueCat o mesmo ID aleatório de instalação da aplicação utilizado pelo PostHog. Isto permite associar eventos de assinatura aos eventos de utilização da aplicação. Um servidor protegido encaminha para o PostHog um conjunto limitado de eventos de assinatura e detalhes como produto, preço, moeda e loja. Não encaminha o seu nome, endereço de e-mail, Conta Apple ou ID da transação. Se desativar a análise, a Ranked remove este ID da RevenueCat; assim que a RevenueCat recebe a alteração, os novos eventos de assinatura são descartados. Os dados já enviados não são eliminados automaticamente.
+
 As assinaturas são vendidas e cobradas pela **Apple** através da App Store. Nunca vemos os seus dados de pagamento, a sua Conta Apple ou o seu nome.
 
-Para verificar se a assinatura está ativa, a aplicação usa a **RevenueCat**. A RevenueCat recebe o registo de compra da App Store relativo à assinatura — o produto comprado, quando começou e quando expira — juntamente com informações técnicas habituais, como a versão do iOS e da aplicação. Identifica a instalação por um identificador aleatório que ela própria gera e guarda no dispositivo. Não fornecemos à RevenueCat o seu nome, e-mail ou qualquer outra identidade; como o Ranked não tem contas, não existe uma para fornecer.
+Para verificar se a assinatura está ativa, a aplicação usa a **RevenueCat**. A RevenueCat recebe o registo de compra da App Store relativo à assinatura — o produto comprado, quando começou e quando expira — juntamente com informações técnicas habituais, como a versão do iOS e da aplicação. Identifica a instalação por um identificador aleatório que ela própria gera e guarda no dispositivo. Não fornecemos à RevenueCat o seu nome nem o seu e-mail. O ID aleatório da aplicação descrito acima é pseudónimo e só é usado para análise se o ativar; o Ranked não tem contas de início de sessão.
 
 Quando toca em **Restaurar compras**, a aplicação pede à Apple as compras efetuadas com a Conta Apple iniciada no dispositivo e transmite o resultado à RevenueCat da mesma forma.
 
