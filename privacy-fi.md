@@ -56,8 +56,6 @@ Vasta analytiikkasuostumuksen jälkeen Ranked kysyy kerran Applen AdServices-pal
 
 ### 3.3 Ostot (Apple ja RevenueCat)
 
-Vasta kun otat analytiikan käyttöön, Ranked jakaa RevenueCatin kanssa saman satunnaisen sovellusasennuksen tunnisteen, jota PostHog käyttää. Näin tilaustapahtumat voidaan yhdistää sovelluksen käyttötapahtumiin. Suojattu palvelin välittää PostHogille rajatun määrän tilaustapahtumia ja tietoja, kuten tuotteen, hinnan, valuutan ja kaupan. Se ei välitä nimeäsi, sähköpostiosoitettasi, Apple-tiliäsi tai tapahtumatunnusta. Jos poistat analytiikan käytöstä, Ranked poistaa tunnisteen RevenueCatista; kun RevenueCat on saanut muutoksen, uudet tilaustapahtumat hylätään. Jo lähetettyjä tietoja ei poisteta automaattisesti.
-
 **Apple** myy ja laskuttaa tilaukset App Storessa. Emme koskaan näe maksutietojasi, Apple-tiliäsi tai nimeäsi.
 
 Sovellus käyttää **RevenueCatia** tarkistaakseen tilauksesi voimassaolon. RevenueCat saa tilauksesi App Store -ostotiedon — ostetun tuotteen sekä tilauksen alku- ja päättymisajan — ja tavanomaisia teknisiä tietoja, kuten iOS- ja sovellusversion. Se tunnistaa sovelluksen asennuksen itse luomallaan satunnaisella tunnisteella, joka tallennetaan laitteellesi. Emme anna RevenueCatille nimeäsi, sähköpostiosoitettasi tai muuta henkilöllisyyttä; koska Rankedissa ei ole tilejä, sellaista ei ole annettavaksi.

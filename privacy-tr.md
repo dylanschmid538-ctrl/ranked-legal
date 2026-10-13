@@ -56,8 +56,6 @@ Ranked, yalnızca analiz onayınızdan sonra Apple AdServices'e bir kez kurulumu
 
 ### 3.3 Satın almalar (Apple ve RevenueCat)
 
-Ranked, analizleri yalnızca siz açtıktan sonra PostHog’un kullandığı rastgele uygulama yükleme kimliğinin aynısını RevenueCat ile paylaşır. Böylece abonelik etkinlikleri uygulama kullanım etkinlikleriyle ilişkilendirilebilir. Güvenli bir sunucu, sınırlı sayıdaki abonelik etkinliğini ve ürün, fiyat, para birimi ve mağaza gibi ayrıntıları PostHog’a iletir. Adınızı, e-posta adresinizi, Apple Hesabınızı veya işlem kimliğinizi iletmez. Analizi kapatırsanız Ranked bu kimliği RevenueCat’ten siler; RevenueCat değişikliği aldıktan sonra yeni abonelik etkinlikleri atılır. Önceden gönderilen veriler otomatik olarak silinmez.
-
 Abonelikler App Store üzerinden **Apple** tarafından satılır ve ücretlendirilir. Ödeme bilgileriniz, Apple Hesabınız veya adınız bize hiçbir zaman görünmez.
 
 Aboneliğinizin etkin olup olmadığını kontrol etmek için uygulama **RevenueCat** kullanır. RevenueCat, satın alınan ürün ile aboneliğin başlangıç ve bitiş tarihini içeren App Store satın alma kaydını ve iOS ile uygulama sürümü gibi standart teknik bilgileri alır. Yüklemenizi, kendisinin oluşturup cihazınızda sakladığı rastgele bir tanımlayıcıyla tanır. RevenueCat'e adınızı, e-posta adresinizi veya başka bir kimlik bilgisi vermeyiz; Ranked'de hesap olmadığından verilecek böyle bir kimlik de yoktur.

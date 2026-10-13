@@ -56,11 +56,9 @@ Solo dopo il consenso all'analisi, Ranked interroga una volta AdServices di Appl
 
 ### 3.3 Acquisti (Apple e RevenueCat)
 
-Solo dopo aver attivato l’analisi, Ranked condivide con RevenueCat lo stesso ID casuale dell’installazione usato da PostHog. In questo modo gli eventi dell’abbonamento possono essere collegati agli eventi di utilizzo dell’app. Un server protetto inoltra a PostHog un insieme limitato di eventi dell’abbonamento e dettagli come prodotto, prezzo, valuta e store. Non inoltra nome, indirizzo e-mail, account Apple o ID della transazione. Se disattivi l’analisi, Ranked rimuove questo ID da RevenueCat; quando RevenueCat riceve la modifica, i nuovi eventi dell’abbonamento vengono scartati. I dati già inviati non vengono eliminati automaticamente.
-
 Gli abbonamenti sono venduti e fatturati da **Apple** tramite l'App Store. Non vediamo mai i tuoi dati di pagamento, il tuo Apple Account o il tuo nome.
 
-Per verificare se l'abbonamento è attivo, l'app usa **RevenueCat**. RevenueCat riceve la registrazione dell'acquisto dell'App Store relativa all'abbonamento — prodotto acquistato, data di inizio e di scadenza — insieme a informazioni tecniche standard, come la versione di iOS e dell'app. Riconosce l'installazione tramite un identificativo casuale che genera e memorizza sul dispositivo. Non comunichiamo a RevenueCat il tuo nome o indirizzo email. L’ID casuale dell’app descritto sopra è pseudonimo e viene usato per l’analisi solo se la attivi. Nella versione attuale Ranked non offre l’accesso con account.
+Per verificare se l'abbonamento è attivo, l'app usa **RevenueCat**. RevenueCat riceve la registrazione dell'acquisto dell'App Store relativa all'abbonamento — prodotto acquistato, data di inizio e di scadenza — insieme a informazioni tecniche standard, come la versione di iOS e dell'app. Riconosce l'installazione tramite un identificativo casuale che genera e memorizza sul dispositivo. Non forniamo a RevenueCat nome, indirizzo email o altra identità e, poiché Ranked non ha account, non ne esiste una da fornire.
 
 Quando tocchi **Ripristina acquisti**, l'app chiede ad Apple gli acquisti effettuati con l'Apple Account connesso al dispositivo e ne trasmette l'esito a RevenueCat allo stesso modo.
 

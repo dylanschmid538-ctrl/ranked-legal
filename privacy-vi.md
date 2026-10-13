@@ -56,8 +56,6 @@ Chỉ sau khi bạn đồng ý phân tích, Ranked mới hỏi Apple AdServices 
 
 ### 3.3 Mua hàng (Apple và RevenueCat)
 
-Chỉ sau khi bạn bật phân tích, Ranked mới chia sẻ với RevenueCat cùng một ID cài đặt ứng dụng ngẫu nhiên mà PostHog sử dụng. Nhờ đó, sự kiện đăng ký có thể được liên kết với sự kiện sử dụng ứng dụng. Máy chủ bảo mật chỉ chuyển tiếp một số sự kiện đăng ký và thông tin như sản phẩm, giá, tiền tệ và cửa hàng tới PostHog. Máy chủ không chuyển tên, email, Tài khoản Apple hoặc ID giao dịch của bạn. Nếu tắt phân tích, Ranked xóa ID này khỏi RevenueCat; sau khi RevenueCat nhận thay đổi, các sự kiện đăng ký mới sẽ bị loại bỏ. Dữ liệu đã gửi không tự động bị xóa.
-
 Gói đăng ký được **Apple** bán và tính phí qua App Store. Chúng tôi không bao giờ thấy thông tin thanh toán, Tài khoản Apple hay tên của bạn.
 
 Ứng dụng dùng **RevenueCat** để kiểm tra gói đăng ký có đang hoạt động hay không. RevenueCat nhận hồ sơ mua gói đăng ký từ App Store — sản phẩm đã mua, thời điểm bắt đầu và hết hạn — cùng thông tin kỹ thuật tiêu chuẩn như phiên bản iOS và ứng dụng. RevenueCat nhận diện lượt cài đặt bằng mã ngẫu nhiên do chính họ tạo và lưu trên thiết bị. Chúng tôi không cung cấp cho RevenueCat tên, email hay thông tin nhận dạng khác; vì Ranked không có tài khoản, không có danh tính nào như vậy để cung cấp.

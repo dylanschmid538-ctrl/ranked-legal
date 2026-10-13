@@ -56,8 +56,6 @@ Csak az elemzéshez adott hozzájárulás után kérdezi le a Ranked egyszer az 
 
 ### 3.3 Vásárlások (Apple és RevenueCat)
 
-A Ranked csak az analitika bekapcsolása után osztja meg a RevenueCattel ugyanazt a véletlenszerű alkalmazástelepítési azonosítót, amelyet a PostHog is használ. Így az előfizetési események összekapcsolhatók az alkalmazáshasználati eseményekkel. Egy védett szerver korlátozott számú előfizetési eseményt és olyan adatokat továbbít a PostHog felé, mint a termék, az ár, a pénznem és az áruház. A nevedet, e-mail-címedet, Apple-fiókodat és a tranzakcióazonosítót nem továbbítja. Ha kikapcsolod az analitikát, a Ranked eltávolítja ezt az azonosítót a RevenueCatből; amint a RevenueCat megkapja a módosítást, az új előfizetési eseményeket eldobja. A korábban elküldött adatok nem törlődnek automatikusan.
-
 Az előfizetéseket az **Apple** értékesíti és számlázza az App Store-on keresztül. Fizetési adatait, Apple-fiókját és nevét soha nem látjuk.
 
 Az aktív előfizetés ellenőrzésére az alkalmazás a **RevenueCat** szolgáltatást használja. A RevenueCat megkapja az előfizetés App Store-beli vásárlási rekordját — a megvásárolt terméket, a kezdés és a lejárat időpontját —, valamint szokásos műszaki adatokat, például az iOS és az alkalmazás verzióját. A telepítést saját maga által létrehozott, az eszközön tárolt véletlenszerű azonosítóval ismeri fel. Nem adjuk át a RevenueCatnek az Ön nevét, e-mail-címét vagy más személyazonossági adatát, és mivel a Rankednek nincsenek fiókjai, nincs is ilyen adat, amelyet átadhatnánk.

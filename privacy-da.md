@@ -56,8 +56,6 @@ Først efter samtykke til analyse spørger Ranked én gang Apples AdServices om 
 
 ### 3.3 Køb (Apple og RevenueCat)
 
-Først når du slår analyse til, deler Ranked det samme tilfældige app-installations-id med RevenueCat, som PostHog bruger. Det gør det muligt at forbinde abonnementshændelser med hændelser om app-brug. En sikret server sender et begrænset udvalg af abonnementshændelser og oplysninger som produkt, pris, valuta og butik til PostHog. Den sender ikke dit navn, din e-mailadresse, din Apple-konto eller transaktions-id. Hvis du slår analyse fra, fjerner Ranked dette id fra RevenueCat; når RevenueCat har modtaget ændringen, kasseres nye abonnementshændelser. Allerede sendte data slettes ikke automatisk.
-
 Abonnementer sælges og faktureres af **Apple** via App Store. Vi ser aldrig dine betalingsoplysninger, din Apple-konto eller dit navn.
 
 For at kontrollere, om dit abonnement er aktivt, bruger appen **RevenueCat**. RevenueCat modtager købsposten fra App Store for dit abonnement — det købte produkt, starttidspunktet og udløbstidspunktet — sammen med standardtekniske oplysninger som iOS-version og appversion. Din installation identificeres med en tilfældig identifikator, som RevenueCat selv danner og gemmer på din enhed. Vi giver ikke RevenueCat dit navn, din e-mailadresse eller nogen anden identitet; fordi Ranked ikke har konti, findes der ingen sådan identitet at give.

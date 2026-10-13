@@ -66,8 +66,6 @@ Tik gavus sutikimą analitikai, Ranked vieną kartą per Apple AdServices patikr
 
 ### 3.3 Pirkiniai („Apple“ ir „RevenueCat“)
 
-Tik įjungus analitiką, „Ranked“ bendrina su „RevenueCat“ tą patį atsitiktinį programėlės įdiegimo ID, kurį naudoja „PostHog“. Taip prenumeratos įvykius galima susieti su programėlės naudojimo įvykiais. Saugus serveris perduoda „PostHog“ ribotą prenumeratos įvykių rinkinį ir tokią informaciją kaip produktas, kaina, valiuta bei parduotuvė. Jis neperduoda jūsų vardo, el. pašto, „Apple“ paskyros ar operacijos ID. Išjungus analitiką, „Ranked“ pašalina šį ID iš „RevenueCat“; „RevenueCat“ gavus pakeitimą, nauji prenumeratos įvykiai atmetami. Jau išsiųsti duomenys automatiškai neištrinami.
-
 Prenumeratas parduoda ir apmoka **„Apple“** per „App Store“. Jūsų mokėjimo duomenų, Jūsų „Apple“
 paskyros ir Jūsų vardo mes niekada nematome.
 

@@ -65,8 +65,6 @@ Až po súhlase s analytikou sa Ranked raz opýta Apple AdServices na pôvod in�
 
 ### 3.3 Nákupy (Apple a RevenueCat)
 
-Až po zapnutí analytiky zdieľa Ranked s RevenueCat rovnaké náhodné ID inštalácie aplikácie, aké používa PostHog. Umožňuje to prepojiť udalosti predplatného s udalosťami používania aplikácie. Zabezpečený server posiela do PostHogu obmedzený súbor udalostí predplatného a údaje, ako sú produkt, cena, mena a obchod. Neposiela vaše meno, e-mail, Apple účet ani ID transakcie. Ak analytiku vypnete, Ranked odstráni toto ID z RevenueCat; po doručení zmeny RevenueCat zahodí nové udalosti predplatného. Už odoslané údaje sa automaticky nevymažú.
-
 Predplatné predáva a účtuje **Apple** cez App Store. Vaše platobné údaje, váš účet Apple ani vaše
 meno nikdy nevidíme.
 

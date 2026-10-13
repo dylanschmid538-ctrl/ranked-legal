@@ -56,8 +56,6 @@ Ranked 不會跨其他應用程式或網站追蹤您，不顯示廣告，也不�
 
 ### 3.3 購買（Apple 與 RevenueCat）
 
-只有在你開啟分析後，Ranked 才會與 RevenueCat 分享 PostHog 使用的同一個隨機 App 安裝 ID。這樣可將訂閱事件與 App 使用事件連結。受保護的伺服器會向 PostHog 轉送有限的訂閱事件，以及產品、價格、貨幣和商店等資料，不會轉送你的姓名、電子郵件、Apple 帳號或交易 ID。關閉分析後，Ranked 會從 RevenueCat 移除此 ID；RevenueCat 收到變更後，新的訂閱事件會被捨棄。已傳送的資料不會自動刪除。
-
 訂閱由 **Apple** 透過 App Store 銷售和收費。我們絕不會看到您的付款詳情、Apple 帳戶或姓名。
 
 應用程式使用 **RevenueCat** 檢查訂閱是否有效。RevenueCat 會收到 App Store 的訂閱購買紀錄——購買的產品、開始和到期時間——以及 iOS 版本、應用程式版本等標準技術資料。它以自行產生並儲存在裝置上的隨機識別碼辨認您的安裝。我們不會向 RevenueCat 提供您的姓名、電郵或任何其他身分資料；Ranked 沒有帳戶，因此也沒有這類身分資料可供提供。

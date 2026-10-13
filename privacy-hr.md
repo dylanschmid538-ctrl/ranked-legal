@@ -56,8 +56,6 @@ Tek nakon pristanka na analitiku Ranked jednom pita Apple AdServices o pripisiva
 
 ### 3.3 Kupnje (Apple i RevenueCat)
 
-Tek nakon što uključite analitiku, Ranked dijeli s RevenueCatom isti nasumični ID instalacije aplikacije koji koristi PostHog. Tako se događaji pretplate mogu povezati s događajima korištenja aplikacije. Zaštićeni poslužitelj prosljeđuje PostHogu ograničen skup događaja pretplate i pojedinosti poput proizvoda, cijene, valute i trgovine. Ne prosljeđuje vaše ime, e-adresu, Apple račun ni ID transakcije. Ako isključite analitiku, Ranked uklanja taj ID iz RevenueCata; nakon što RevenueCat primi promjenu, novi događaji pretplate odbacuju se. Već poslani podaci ne brišu se automatski.
-
 Pretplate prodaje i naplaćuje **Apple** putem App Storea. Nikad ne vidimo vaše podatke o plaćanju, Apple račun ni ime.
 
 Za provjeru aktivne pretplate aplikacija koristi **RevenueCat**. RevenueCat prima zapis kupnje iz App Storea — kupljeni proizvod, početak i istek pretplate — zajedno sa standardnim tehničkim podacima kao što su verzije iOS-a i aplikacije. Instalaciju prepoznaje po nasumičnoj oznaci koju sam stvara i pohranjuje na uređaju. Ne dajemo RevenueCatu vaše ime, e-poštu ni drugi identitet; Ranked nema račune, pa takvog identiteta nema.

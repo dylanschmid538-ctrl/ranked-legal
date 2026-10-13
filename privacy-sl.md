@@ -64,8 +64,6 @@ Analitika je privzeto izklopljena. Le če med uvajanjem ali pozneje v nastavitva
 
 ### 3.3 Nakupi (Apple in RevenueCat)
 
-Šele po vklopu analitike Ranked deli z RevenueCat isti naključni ID namestitve aplikacije, ki ga uporablja tudi PostHog. Tako je mogoče dogodke naročnine povezati z dogodki uporabe aplikacije. Zaščiten strežnik posreduje PostHogu omejen nabor dogodkov naročnine in podatke, kot so izdelek, cena, valuta in trgovina. Ne posreduje vašega imena, e-poštnega naslova, računa Apple ali ID-ja transakcije. Če analitiko izklopite, Ranked odstrani ta ID iz RevenueCat; ko RevenueCat prejme spremembo, zavrže nove dogodke naročnine. Že poslani podatki se ne izbrišejo samodejno.
-
 Naročnine prodaja in zaračunava **Apple** prek trgovine App Store. Vaših plačilnih podatkov, vašega
 računa Apple in vašega imena nikoli ne vidimo.
 
