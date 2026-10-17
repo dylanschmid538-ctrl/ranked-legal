@@ -7,7 +7,7 @@ permalink: /privacy/sv/
 
 # Integritetspolicy · Calisthenics Skills – Ranked
 
-**Senast uppdaterad: 2026-10-13**
+**Senast uppdaterad: 2026-10-17**
 
 Den här policyn beskriver vilka uppgifter Ranked samlar in, vart de skickas och vad du kan göra åt det.
 
@@ -53,6 +53,8 @@ Analys är avstängd som standard. Först när du uttryckligen samtycker under i
 Appen kan även rapportera prenumerationsfasen, aktuell åtkomst, förnyelsestatus och om en uppsägning eller ett faktureringsproblem upptäcktes. Dessa observationer är inte bevis på en debitering och skickas endast medan analys är aktiverad.
 
 Med ditt samtycke registrerar användningshändelser även när du väljer en träningsplan och öppnar ett träningspass. Val av plan omfattar endast antalet träningsdagar per vecka och övningar; öppning av ett pass omfattar endast om det återupptas, ingångskällan och antalet föreskrivna övningar. Planernas fullständiga innehåll, scheman, enskilda övningar och träningsanteckningar stannar på din enhet.
+
+> Valfritt: Dela appanvändning, bedömda färdigheter, rang, träningsaktivitet och kampanjdata från Apple Search Ads med PostHog för att förbättra Ranked. Vi kopplar också denna användning till din provperiod och prenumeration med en slumpmässig köpreferens. Inga namn eller träningsanteckningar. Ändra detta när som helst i Inställningar.
 
 ### 3.2 Tillskrivning av Apple Search Ads
 

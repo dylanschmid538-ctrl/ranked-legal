@@ -7,7 +7,7 @@ permalink: /privacy/tr/
 
 # Gizlilik Politikası · Calisthenics Skills – Ranked
 
-**Son güncelleme: 2026-10-13**
+**Son güncelleme: 2026-10-17**
 
 Bu politika, Ranked'in hangi verileri topladığını, bunların nereye gittiğini ve bu konuda neler yapabileceğinizi açıklar.
 
@@ -53,6 +53,8 @@ Analiz varsayılan olarak kapalıdır. Yalnızca kurulum sırasında veya daha s
 Uygulama abonelik aşamasını, mevcut erişimi, yenileme durumunu ve iptal ya da faturalandırma sorunu tespit edilip edilmediğini de bildirebilir. Bu gözlemler bir ücret tahsilatının kanıtı değildir ve yalnızca analiz etkin olduğunda gönderilir.
 
 Onayınızla kullanım olayları, bir antrenman planı seçtiğinizde ve bir antrenman oturumu açtığınızda da kayıt tutar. Plan seçimi yalnızca haftalık antrenman günü sayısını ve egzersiz sayısını içerir; oturumun açılması yalnızca devam ettirilip ettirilmediğini, giriş kaynağını ve belirlenen egzersiz sayısını içerir. Planların tam içeriği, programlar, tek tek egzersizler ve antrenman notları cihazınızda kalır.
+
+> İsteğe bağlı: Ranked uygulamasını geliştirmek için uygulama kullanımını, değerlendirilen becerileri, sıralamayı, antrenman etkinliğini ve Apple Search Ads kampanya verilerini PostHog ile paylaş. Bu kullanımı rastgele bir satın alma referansı ile deneme süren ve aboneliğinle de ilişkilendiriyoruz. İsim veya antrenman notu içermez. Ayarlar’dan istediğin zaman değiştir.
 
 ### 3.2 Apple Search Ads ilişkilendirmesi
 

@@ -7,7 +7,7 @@ permalink: /privacy/pt/
 
 # Política de Privacidade · Calisthenics Skills – Ranked
 
-**Última atualização: 2026-10-13**
+**Última atualização: 2026-10-17**
 
 Esta política descreve o que o Ranked recolhe, para onde vão os dados e o que pode fazer a esse respeito.
 
@@ -53,6 +53,8 @@ A análise está desativada por predefinição. Só depois de dar consentimento 
 A app também pode comunicar a fase da assinatura, o acesso atual, o estado de renovação e se foi detetado um cancelamento ou um problema de faturação. Estas observações não constituem prova de uma cobrança e só são enviadas enquanto a análise está ativada.
 
 Com o seu consentimento, os eventos de utilização também registam quando seleciona um plano de treino e quando abre uma sessão de treino. A seleção do plano inclui apenas o número de dias de treino por semana e de exercícios; a abertura da sessão inclui apenas se é retomada, a origem de entrada e o número de exercícios prescritos. O conteúdo completo dos planos, os horários, os exercícios individuais e as notas de treino permanecem no seu dispositivo.
+
+> Opcional: Compartilhe o uso do app, as habilidades avaliadas, o nível, a atividade de treino e os dados de campanhas do Apple Search Ads com o PostHog para melhorar o Ranked. Também vinculamos esse uso ao seu período de teste e à sua assinatura por meio de uma referência de compra aleatória. Sem nomes nem notas de treino. Altere quando quiser nos Ajustes.
 
 ### 3.2 Atribuição da Apple Search Ads
 

@@ -7,7 +7,7 @@ permalink: /privacy/hu/
 
 # Adatvédelmi tájékoztató · Calisthenics Skills – Ranked
 
-**Utolsó frissítés: 2026-10-13**
+**Utolsó frissítés: 2026-10-17**
 
 Ez a tájékoztató ismerteti, milyen adatokat gyűjt a Ranked, hová kerülnek, és milyen lehetőségei vannak velük kapcsolatban.
 
@@ -53,6 +53,8 @@ Az elemzés alapértelmezés szerint ki van kapcsolva. A Ranked csak akkor küld
 Az alkalmazás az előfizetés szakaszát, az aktuális hozzáférést, a megújítás állapotát és az észlelt lemondást vagy számlázási problémát is jelentheti. Ezek a megfigyelések nem bizonyítanak terhelést, és csak bekapcsolt analitika mellett kerülnek elküldésre.
 
 Az Ön hozzájárulásával a használati események azt is rögzítik, mikor választ edzéstervet és mikor nyit meg egy edzést. A terv kiválasztása csak a heti edzésnapok és a gyakorlatok számát tartalmazza; az edzés megnyitása csak azt, hogy folytatásról van-e szó, a belépés forrását és az előírt gyakorlatok számát. A tervek teljes tartalma, az ütemezések, az egyes gyakorlatok és az edzésjegyzetek az eszközén maradnak.
+
+> Választható: Oszd meg az alkalmazáshasználatot, a felmért készségeket, a rangot, az edzési tevékenységet és az Apple Search Ads kampányadatait a PostHoggal a Ranked fejlesztéséhez. Ezt a használatot egy véletlenszerű vásárlási hivatkozással a próbaidőszakodhoz és az előfizetésedhez is kapcsoljuk. Nevek és edzésjegyzetek nélkül. Bármikor módosíthatod a Beállításokban.
 
 ### 3.2 Apple Search Ads-hozzárendelés
 

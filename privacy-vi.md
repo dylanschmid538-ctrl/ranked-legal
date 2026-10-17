@@ -7,7 +7,7 @@ permalink: /privacy/vi/
 
 # Chính sách quyền riêng tư · Calisthenics Skills – Ranked
 
-**Cập nhật lần cuối: 2026-10-13**
+**Cập nhật lần cuối: 2026-10-17**
 
 Chính sách này mô tả Ranked thu thập dữ liệu gì, dữ liệu được gửi đến đâu và bạn có thể làm gì.
 
@@ -53,6 +53,8 @@ Phân tích được tắt theo mặc định. Chỉ khi bạn đồng ý rõ r�
 Ứng dụng cũng có thể báo cáo giai đoạn đăng ký, quyền truy cập hiện tại, trạng thái gia hạn và việc có phát hiện hủy hoặc vấn đề lập hóa đơn hay không. Những quan sát này không phải bằng chứng về việc trừ tiền và chỉ được gửi khi tính năng phân tích được bật.
 
 Với sự đồng ý của bạn, các sự kiện sử dụng cũng ghi nhận khi bạn chọn một kế hoạch tập luyện và khi bạn mở một buổi tập. Việc chọn kế hoạch chỉ bao gồm số ngày tập mỗi tuần và số bài tập; việc mở buổi tập chỉ bao gồm buổi tập có được tiếp tục hay không, nguồn truy cập và số bài tập được chỉ định. Toàn bộ nội dung kế hoạch, lịch tập, từng bài tập và ghi chú tập luyện vẫn ở trên thiết bị của bạn.
+
+> Tùy chọn: Chia sẻ việc sử dụng ứng dụng, kỹ năng đã đánh giá, thứ hạng, hoạt động tập luyện và dữ liệu chiến dịch Apple Search Ads với PostHog để cải thiện Ranked. Chúng tôi cũng liên kết việc sử dụng này với thời gian dùng thử và gói đăng ký của bạn bằng mã tham chiếu mua hàng ngẫu nhiên. Không có tên hoặc ghi chú tập luyện. Thay đổi bất cứ lúc nào trong Cài đặt.
 
 ### 3.2 Phân bổ nguồn từ Apple Search Ads
 
