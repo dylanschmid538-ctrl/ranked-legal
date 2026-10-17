@@ -7,7 +7,7 @@ permalink: /privacy/fi/
 
 # Tietosuojaseloste · Calisthenics Skills – Ranked
 
-**Päivitetty viimeksi: 2026-10-13**
+**Päivitetty viimeksi: 2026-10-17**
 
 Tässä selosteessa kerrotaan, mitä tietoja Ranked kerää, minne ne siirtyvät ja mitä voit tehdä asialle.
 
@@ -53,6 +53,8 @@ Analytiikka on oletusarvoisesti pois käytöstä. Vain jos annat siihen nimenoma
 Sovellus voi myös ilmoittaa tilauksen vaiheen, nykyisen käyttöoikeuden, uusimisen tilan sekä sen, havaittiinko peruutus tai laskutusongelma. Nämä havainnot eivät ole todiste veloituksesta, ja ne lähetetään vain, kun analytiikka on käytössä.
 
 Suostumuksellasi käyttötapahtumat tallentavat myös, milloin valitset harjoitussuunnitelman ja milloin avaat harjoituskerran. Suunnitelman valinta sisältää vain harjoituspäivien määrän viikossa ja harjoitteiden määrän; harjoituskerran avaaminen sisältää vain sen, jatketaanko sitä, avaamisen lähteen ja määrättyjen harjoitteiden määrän. Suunnitelmien koko sisältö, aikataulut, yksittäiset harjoitteet ja harjoitusmuistiinpanot pysyvät laitteellasi.
+
+> Valinnainen: Jaa sovelluksen käyttö, arvioidut taidot, sijoitus, harjoittelutoiminta ja Apple Search Ads -kampanjatiedot PostHogille Ranked-sovelluksen parantamiseksi. Yhdistämme tämän käytön myös kokeilujaksoosi ja tilaukseesi satunnaisella ostoviitteellä. Ei nimiä tai harjoitusmuistiinpanoja. Voit muuttaa tätä milloin tahansa Asetuksissa.
 
 ### 3.2 Apple Search Ads -mainonnan kohdistaminen
 

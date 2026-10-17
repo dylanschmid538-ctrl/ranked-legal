@@ -7,7 +7,7 @@ permalink: /privacy/nl/
 
 # Privacyverklaring · Calisthenics Skills – Ranked
 
-**Laatst bijgewerkt: 2026-10-13**
+**Laatst bijgewerkt: 2026-10-17**
 
 Deze verklaring beschrijft welke gegevens Ranked verzamelt, waar ze naartoe gaan en wat u eraan kunt doen.
 
@@ -53,6 +53,8 @@ Analyse staat standaard uit. Alleen als u tijdens de eerste inrichting of later 
 De app kan ook de abonnementsfase, huidige toegang, verlengingsstatus en de detectie van een opzegging of factureringsprobleem melden. Deze waarnemingen zijn geen bewijs van een afschrijving en worden alleen verzonden zolang analyse is ingeschakeld.
 
 Met uw toestemming registreren gebruiksgebeurtenissen ook wanneer u een trainingsplan selecteert en een trainingssessie opent. De selectie van een plan omvat alleen het aantal trainingsdagen per week en oefeningen; het openen van een sessie omvat alleen of deze wordt hervat, de bron van binnenkomst en het aantal voorgeschreven oefeningen. De volledige inhoud van plannen, schema’s, afzonderlijke oefeningen en trainingsnotities blijven op uw apparaat.
+
+> Optioneel: Deel appgebruik, beoordeelde vaardigheden, rang, trainingsactiviteit en campagnegegevens van Apple Search Ads met PostHog om Ranked te verbeteren. We koppelen dit gebruik ook aan je proefperiode en abonnement via een willekeurige aankoopreferentie. Geen namen of trainingsnotities. Je kunt dit altijd wijzigen in Instellingen.
 
 ### 3.2 Toeschrijving aan Apple Search Ads
 

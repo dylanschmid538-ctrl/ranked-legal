@@ -7,7 +7,7 @@ permalink: /privacy/hr/
 
 # Pravila o privatnosti · Calisthenics Skills – Ranked
 
-**Posljednje ažuriranje: 2026-10-13**
+**Posljednje ažuriranje: 2026-10-17**
 
 Ova pravila opisuju koje podatke Ranked prikuplja, kamo odlaze i što možete učiniti u vezi s njima.
 
@@ -53,6 +53,8 @@ Analitika je zadano isključena. Tek kada izričito pristanete tijekom početnog
 Aplikacija također može izvještavati o fazi pretplate, trenutačnom pristupu, statusu obnove te je li otkriven otkaz ili problem s naplatom. Ta opažanja nisu dokaz terećenja i šalju se samo dok je analitika uključena.
 
 Uz vašu privolu događaji upotrebe bilježe i kada odaberete plan treninga i kada otvorite trening. Odabir plana uključuje samo broj dana treninga tjedno i vježbi; otvaranje treninga uključuje samo nastavlja li se, izvor ulaska i broj propisanih vježbi. Potpuni sadržaj planova, rasporedi, pojedinačne vježbe i bilješke treninga ostaju na vašem uređaju.
+
+> Neobavezno: Podijeli upotrebu aplikacije, procijenjene vještine, rang, aktivnost treninga i podatke kampanja Apple Search Ads s uslugom PostHog radi poboljšanja aplikacije Ranked. Tu upotrebu povezujemo i s tvojim probnim razdobljem i pretplatom putem nasumične reference kupnje. Bez imena ili bilježaka treninga. Promijeni to bilo kada u Postavkama.
 
 ### 3.2 Pripisivanje Apple Search Ads oglasa
 

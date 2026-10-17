@@ -7,7 +7,7 @@ permalink: /privacy/id/
 
 # Kebijakan Privasi · Calisthenics Skills – Ranked
 
-**Terakhir diperbarui: 2026-10-13**
+**Terakhir diperbarui: 2026-10-17**
 
 Kebijakan ini menjelaskan data apa yang dikumpulkan Ranked, ke mana data tersebut dikirim, dan apa yang dapat Anda lakukan.
 
@@ -53,6 +53,8 @@ Analitik dinonaktifkan secara default. Hanya jika Anda memberi persetujuan secar
 Aplikasi juga dapat melaporkan tahap langganan, akses saat ini, status perpanjangan, dan apakah pembatalan atau masalah penagihan terdeteksi. Pengamatan ini bukan bukti pembebanan biaya dan hanya dikirim saat analitik aktif.
 
 Dengan persetujuan Anda, peristiwa penggunaan juga mencatat kapan Anda memilih rencana latihan dan membuka sesi latihan. Pemilihan rencana hanya mencakup jumlah hari latihan per minggu dan jumlah latihan; pembukaan sesi hanya mencakup apakah sesi dilanjutkan, sumber masuk, dan jumlah latihan yang ditentukan. Isi lengkap rencana, jadwal, latihan individual, dan catatan latihan tetap berada di perangkat Anda.
+
+> Opsional: Bagikan penggunaan aplikasi, keterampilan yang dinilai, peringkat, aktivitas latihan, dan data kampanye Apple Search Ads dengan PostHog untuk meningkatkan Ranked. Kami juga menghubungkan penggunaan ini dengan masa uji coba dan langgananmu melalui referensi pembelian acak. Tanpa nama atau catatan latihan. Ubah kapan saja di Pengaturan.
 
 ### 3.2 Atribusi Apple Search Ads
 

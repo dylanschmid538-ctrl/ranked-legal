@@ -8,7 +8,7 @@ permalink: /privacy/sk/
 
 # Zásady ochrany osobných údajov · Calisthenics Skills – Ranked
 
-**Posledná aktualizácia: 2026-10-13**
+**Posledná aktualizácia: 2026-10-17**
 
 Tieto zásady opisujú, čo Ranked zbiera, kam to ide a čo s tým môžete urobiť.
 
@@ -62,6 +62,8 @@ Analytika je predvolene vypnutá. Iba ak počas úvodného nastavenia alebo nesk
 Aplikácia môže tiež hlásiť fázu predplatného, aktuálny prístup, stav obnovenia a zistenie zrušenia alebo problému s fakturáciou. Tieto pozorovania nie sú dokladom účtovania platby a odosielajú sa len pri zapnutej analytike.
 
 S vaším súhlasom udalosti používania zaznamenávajú aj výber tréningového plánu a otvorenie tréningovej relácie. Výber plánu zahŕňa iba počet tréningových dní týždenne a cvikov; otvorenie relácie zahŕňa iba to, či sa v nej pokračuje, zdroj vstupu a počet predpísaných cvikov. Úplný obsah plánov, rozvrhy, jednotlivé cviky a tréningové poznámky zostávajú na vašom zariadení.
+
+> Voliteľné: Zdieľaj používanie aplikácie, vyhodnotené zručnosti, úroveň, tréningovú aktivitu a údaje kampaní Apple Search Ads s PostHog na zlepšenie Ranked. Toto používanie spájame aj s tvojím skúšobným obdobím a predplatným pomocou náhodnej referencie nákupu. Bez mien alebo tréningových poznámok. Kedykoľvek to zmeníš v Nastaveniach.
 
 ### 3.2 Priradenie Apple Search Ads
 
