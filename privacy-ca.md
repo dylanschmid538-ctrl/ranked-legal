@@ -7,7 +7,7 @@ permalink: /privacy/ca/
 
 # Política de privacitat · Calisthenics Skills – Ranked
 
-**Última actualització: 2026-10-17**
+**Última actualització: 2026-10-18**
 
 Aquesta política explica quines dades recull Ranked, on van i què podeu fer al respecte.
 
@@ -21,11 +21,11 @@ Ranked és operada per **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Su
 
 Tres tipus de dades poden sortir del dispositiu:
 
-1. **Estadístiques d'ús**, per saber com s'utilitza l'aplicació. Les podeu desactivar en qualsevol moment dins l'aplicació.
+1. **Estadístiques d'ús**, Ranked només comparteix aquestes estadístiques si accepteu la sol·licitud de seguiment estàndard d’Apple. Podeu desactivar l’ús compartit a l’app o revocar el permís a Configuració de l’iOS.
 2. **Dades de compra**, per verificar la subscripció de l'App Store. Apple gestiona el pagament; nosaltres no en veiem mai els detalls.
 3. **Missatges d’opinió i assistència**, només si decidiu enviar-los. Podeu consentir per separat a facilitar un correu electrònic o telèfon per rebre resposta.
 
-Ranked no us segueix entre altres aplicacions o llocs web, no mostra publicitat i no llegeix res d'Apple Health.
+Ranked no utilitza l'identificador publicitari IDFA, no mostra anuncis dins l'aplicació ni ven o cedeix dades a intermediaris. Només envia estadístiques d'ús i demana l'atribució d'Apple Search Ads després que autoritzeu el seguiment al diàleg ATT; els enviaments continuen mentre l'opció d'anàlisi estigui activada. Tampoc no llegeix dades d'Apple Health.
 
 ---
 
@@ -48,7 +48,7 @@ En esborrar l'aplicació, tot això s'esborra del dispositiu. No ho podem recupe
 
 ### 3.1 Estadístiques d'ús (PostHog)
 
-L'anàlisi és desactivada per defecte. Només si hi consentiu expressament durant la configuració o després a Configuració, Ranked envia a PostHog a la UE esdeveniments de configuració, avaluació inicial, canvis de rang i etapa (amb habilitat i etapa), pantalla de compra, compres i pantalles obertes. Els esdeveniments d'entrenament en directe inclouen inici, finalització o abandonament, segons transcorreguts, nombre de sèries registrades, nombre d'habilitats diferents i si era el primer entrenament acabat. No inclouen exercicis individuals, repeticions, pesos ni notes. No s'envien edat, sexe, alçada ni pes corporal. PostHog també rep dades tècniques habituals del dispositiu, iOS, l'app i l'idioma, i l'adreça IP, de la qual es pot deduir una ubicació aproximada. L'identificador aleatori d'anàlisi es crea després del consentiment. Podeu retirar-lo a Configuració ▸ Dades i privadesa; els nous enviaments s'aturen, però les dades ja enviades no s'esborren automàticament.
+Quan obriu l'aplicació per primera vegada, iOS mostra el diàleg estàndard d'Apple per demanar permís de seguiment (App Tracking Transparency, ATT). Ranked només envia dades d'ús a PostHog a la UE si autoritzeu el seguiment al diàleg ATT; després, els enviaments continuen mentre l'opció d'anàlisi de l'aplicació estigui activada. Els esdeveniments inclouen la configuració, l'avaluació inicial, els canvis de rang i d'etapa (amb l'habilitat i l'etapa), la pantalla de compra, les compres i les pantalles obertes. Els esdeveniments d'entrenament en directe inclouen inici, finalització o abandonament, segons transcorreguts, nombre de sèries registrades, nombre d'habilitats diferents i si era el primer entrenament acabat. No inclouen exercicis individuals, repeticions, pesos ni notes. No s'envien edat, sexe, alçada ni pes corporal. PostHog també rep dades tècniques habituals del dispositiu, iOS, l'app i l'idioma, i l'adreça IP, de la qual es pot deduir una ubicació aproximada. Quan autoritzeu el seguiment i l'opció d'anàlisi està activada, PostHog crea un identificador aleatori d'instal·lació i hi associa els esdeveniments i les dades d'atribució de campanya per a l'anàlisi i el mesurament publicitari. No s'utilitza l'identificador publicitari IDFA. Podeu desactivar l'anàlisi a Configuració ▸ Dades i privadesa o revocar el permís ATT a la configuració d'iOS. Si desactiveu qualsevol de les dues opcions, s'aturen els enviaments futurs; les dades ja enviades no s'esborren automàticament.
 
 L’app també pot comunicar la fase de la subscripció, l’accés actual, l’estat de renovació i si s’ha detectat una cancel·lació o un problema de facturació. Aquestes observacions no constitueixen prova d’un càrrec i només s’envien mentre l’anàlisi està activada.
 
@@ -58,7 +58,7 @@ Amb el vostre consentiment, els esdeveniments d’ús també registren quan sele
 
 ### 3.2 Atribució d'Apple Search Ads
 
-Només després del consentiment per a l'anàlisi, Ranked consulta una vegada AdServices d'Apple per atribuir una instal·lació procedent d'Apple Search Ads. Si heu premut un anunci, campanya, grup, paraula clau, creativitat, país o regió, data del clic i tipus de descàrrega es poden vincular a l'identificador aleatori de PostHog. No s'utilitza l'identificador publicitari IDFA. La retirada del consentiment atura els enviaments futurs.
+Ranked només sol·licita l'atribució d'Apple Search Ads i consulta AdServices si autoritzeu el seguiment al diàleg ATT i teniu activada l'opció d'anàlisi. En aquest cas, les dades de campanya, grup d'anuncis, paraula clau, creativitat, país o regió, data del clic i tipus de descàrrega es poden vincular a l'identificador aleatori d'instal·lació de PostHog per a l'anàlisi i el mesurament publicitari. No s'utilitza IDFA. Si desactiveu l'anàlisi o revoqueu el permís ATT, s'aturen l'atribució i els enviaments futurs; les dades anteriors no s'esborren automàticament.
 
 ### 3.3 Compres (Apple i RevenueCat)
 
@@ -74,12 +74,12 @@ Si envieu una opinió o una consulta, Ranked envia el missatge, la categoria i l
 
 ---
 
-## 4. Què no fa Ranked
+## 4. Seguiment i permisos a Ranked
 
 - **Sense comptes.** No inicieu sessió mai. No hi ha cap perfil vostre en cap servidor.
 - **Sense Apple Health.** Ranked no llegeix ni escriu a l'aplicació Salut.
 - **Sense càmera, fotos, micròfon, ubicació ni contactes.** L'aplicació no demana aquests permisos.
-- **Sense seguiment entre aplicacions o llocs web**, identificador publicitari, anuncis dins l'aplicació ni dades venudes o cedides a intermediaris de dades.
+- **Ranked no utilitza l'identificador publicitari IDFA, no mostra anuncis dins l'aplicació i no ven ni cedeix dades a intermediaris de dades. Les estadístiques d'ús i l'atribució d'Apple Search Ads només s'envien si autoritzeu el seguiment al diàleg ATT; els enviaments continuen mentre l'opció d'anàlisi de l'aplicació estigui activada.**
 - **Sense servidor de notificacions push.** Els recordatoris es programen localment al telèfon; res que hi tingui relació no surt del dispositiu. Us demanem permís abans de programar-ne el primer, i els podeu desactivar quan vulgueu a la configuració d'iOS.
 
 ---
@@ -89,8 +89,8 @@ Si envieu una opinió o una consulta, Ranked envia el missatge, la categoria i l
 | Tractament | Base |
 |---|---|
 | Compres i verificació de la subscripció (§3.3) | Execució d'un contracte |
-| Estadístiques d'ús (§3.1) | El vostre consentiment, revocable en qualsevol moment a Configuració ▸ Dades i privadesa |
-| Atribució de Search Ads (§3.2) | El vostre consentiment, revocable en qualsevol moment a Configuració ▸ Dades i privadesa |
+| Estadístiques d'ús (§3.1) | El vostre consentiment mitjançant el permís ATT i l'opció d'anàlisi de Ranked; podeu desactivar qualsevol de les dues en qualsevol moment, vegeu §8 |
+| Atribució de Search Ads (§3.2) | El vostre consentiment mitjançant el permís ATT i l'opció d'anàlisi de Ranked; podeu desactivar qualsevol de les dues en qualsevol moment, vegeu §8 |
 
 **Aquí s'apliquen dues lleis, no una.** Ranked s'opera des de Suïssa; per tant, la Llei federal suïssa de protecció de dades revisada (**revDSG**, vigent des del setembre de 2023) regeix aquest tractament. L'**RGPD** també s'aplica quan l'aplicació s'utilitza des de la Unió Europea o el Regne Unit. Si divergeixen, seguim la norma més estricta. Els residents a Suïssa tenen els mateixos drets bàsics indicats al §8 en virtut de l'article 25 i següents de la revDSG.
 

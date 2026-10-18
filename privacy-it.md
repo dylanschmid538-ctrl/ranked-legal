@@ -7,7 +7,7 @@ permalink: /privacy/it/
 
 # Informativa sulla privacy · Calisthenics Skills – Ranked
 
-**Ultimo aggiornamento: 2026-10-17**
+**Ultimo aggiornamento: 2026-10-18**
 
 Questa informativa descrive quali dati Ranked raccoglie, dove vanno e quali scelte puoi fare.
 
@@ -21,11 +21,13 @@ Ranked è gestita da **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Sviz
 
 Tre tipi di dati possono lasciare il dispositivo:
 
-1. **Statistiche d'uso**, per capire come viene utilizzata l'app. Puoi disattivarle nell'app in qualsiasi momento.
+1. **Statistiche d'uso**, Ranked condivide queste statistiche solo se consenti la richiesta standard di tracciamento di Apple. Puoi disattivare la condivisione nell’app o revocare il permesso nelle Impostazioni di iOS.
 2. **Dati relativi agli acquisti**, per verificare l'abbonamento all'App Store. Apple gestisce il pagamento; noi non vediamo mai i tuoi dati di pagamento.
 3. **Messaggi di feedback e assistenza**, solo se scegli di inviarli. Con il tuo consenso puoi indicare un indirizzo email o un numero di telefono per ricevere una risposta.
 
-Ranked non ti traccia su altre app o siti web, non mostra pubblicità e non legge dati da Apple Salute.
+Ranked non mostra pubblicità e non legge dati da Apple Salute. Dopo l’autorizzazione ATT, Ranked attiva automaticamente la condivisione dei dati d’uso; l’invio prosegue finché non disattivi l’interruttore nelle Impostazioni di Ranked. I dati d’uso e l’attribuzione delle installazioni Apple Search Ads possono essere collegati per la misurazione; vedi §3.1–3.2.
+
+Dopo che autorizzi ATT al primo avvio, Ranked attiva automaticamente la condivisione dei dati d’uso. I dati vengono inviati finché ATT è autorizzato e l’interruttore di condivisione resta attivo nelle Impostazioni di Ranked. Puoi disattivare la condivisione in qualsiasi momento nelle Impostazioni di Ranked. Revocare ATT nelle Impostazioni di iOS interrompe a sua volta la raccolta e gli invii futuri; i dati già inviati non vengono cancellati.
 
 ---
 
@@ -48,7 +50,7 @@ Eliminando l'app, elimini tutti questi dati dal dispositivo. Non possiamo recupe
 
 ### 3.1 Statistiche d'uso (PostHog)
 
-L'analisi è disattivata per impostazione predefinita. Solo se acconsenti espressamente durante la configurazione o in seguito nelle Impostazioni, Ranked invia a PostHog nell'UE eventi relativi a configurazione, valutazione iniziale, cambi di rango e livello (con abilità e livello), schermata di acquisto, acquisti e schermate aperte. Gli eventi degli allenamenti dal vivo indicano avvio, completamento o interruzione, secondi trascorsi, numero di serie registrate, numero di abilità distinte e se si tratta del primo allenamento completato. Non includono singoli esercizi, ripetizioni, pesi o note. Età, sesso, altezza e peso corporeo non vengono trasmessi. PostHog riceve anche normali dati tecnici su dispositivo, iOS, app e lingua, nonché l'indirizzo IP, dal quale può essere dedotta una posizione approssimativa. Un identificativo casuale viene creato dopo il consenso. Puoi revocarlo in Impostazioni ▸ Dati e privacy: i nuovi invii cessano, ma i dati già trasmessi non vengono cancellati automaticamente.
+Al primo avvio iOS mostra la richiesta standard di Apple per il consenso al tracciamento (App Tracking Transparency, ATT). Dopo aver autorizzato ATT, Ranked attiva automaticamente la condivisione dei dati d’uso. Ranked invia eventi a PostHog nell’UE solo finché ATT è autorizzato e l’interruttore di condivisione resta attivo nelle Impostazioni di Ranked. Gli eventi riguardano le fasi di configurazione e la valutazione iniziale, i cambi di rango e livello (con abilità e livello), la schermata di acquisto e gli acquisti, le schermate aperte, nonché l’avvio, il completamento o l’interruzione di un allenamento dal vivo; includono anche i secondi trascorsi, il numero di serie registrate, il numero di abilità distinte e se si tratta del primo allenamento completato. Non includono singoli esercizi, ripetizioni, pesi o note. Età, sesso, altezza e peso corporeo non vengono trasmessi. PostHog riceve anche normali dati tecnici su dispositivo, iOS, app e lingua, nonché l’indirizzo IP, dal quale può essere dedotta una posizione approssimativa. Gli eventi sono associati a un identificativo casuale dell’installazione in PostHog per analisi e misurazione pubblicitaria; non viene usato l’IDFA. Disattivare la condivisione nelle Impostazioni di Ranked o revocare ATT nelle Impostazioni di iOS interrompe la raccolta e gli invii futuri. Gli eventi già inviati non vengono cancellati automaticamente.
 
 L’app può inoltre comunicare la fase dell’abbonamento, l’accesso attuale, lo stato di rinnovo e se è stata rilevata una disdetta o un problema di fatturazione. Queste osservazioni non costituiscono prova di un addebito e vengono inviate solo mentre l’analisi è attivata.
 
@@ -58,7 +60,7 @@ Con il Suo consenso, gli eventi di utilizzo registrano anche quando seleziona un
 
 ### 3.2 Attribuzione Apple Search Ads
 
-Solo dopo il consenso all'analisi, Ranked interroga una volta AdServices di Apple per attribuire un'installazione proveniente da Apple Search Ads. Se hai toccato un annuncio, campagna, gruppo, parola chiave, creatività, paese o regione, data del clic e tipo di download possono essere associati all'identificativo casuale di PostHog. Non viene usato l'identificativo pubblicitario IDFA. La revoca interrompe i futuri invii.
+Ranked richiede l’attribuzione dell’installazione ad Apple AdServices solo finché ATT è autorizzato e l’interruttore di condivisione resta attivo nelle Impostazioni di Ranked. Se hai toccato un annuncio, campagna, gruppo, parola chiave, creatività, paese o regione, data del clic e tipo di download possono essere associati allo stesso identificativo casuale dell’installazione in PostHog per la misurazione pubblicitaria. Non viene usato l’identificativo pubblicitario IDFA. Revocare l’autorizzazione o disattivare la condivisione interrompe le richieste e gli invii futuri; i dati già inviati non vengono cancellati.
 
 ### 3.3 Acquisti (Apple e RevenueCat)
 
@@ -79,23 +81,21 @@ Se invii un feedback o una richiesta di assistenza, Ranked trasmette il messaggi
 - **Nessun account.** Non devi effettuare l'accesso. Non esiste un tuo profilo su un server.
 - **Nessun accesso ad Apple Salute.** Ranked non legge né scrive dati nell'app Salute.
 - **Nessuna fotocamera, foto, microfono, posizione o contatto.** L'app non richiede queste autorizzazioni.
-- **Nessun tracciamento tra app o siti web**, identificativo pubblicitario, pubblicità nell'app o vendita o cessione di dati a intermediari di dati.
+- **Tracciamento e attribuzione:** Ranked non usa l’IDFA. I dati d’uso e l’attribuzione delle installazioni tramite Apple Search Ads possono essere collegati per la misurazione pubblicitaria solo con ATT autorizzato e condivisione dei dati d’uso attiva. Non ci sono pubblicità nell’app e i dati non vengono venduti o ceduti a intermediari di dati.
 - **Nessun server per le notifiche push.** I promemoria di Ranked sono programmati localmente sul telefono; nulla che li riguarda lascia il dispositivo. Ti viene chiesto il permesso prima che sia programmato il primo, e puoi disattivarli in qualsiasi momento nelle impostazioni di iOS.
 
 ---
-
 ## 5. Base giuridica (GDPR e revDSG svizzera)
 
 | Trattamento | Base giuridica |
 |---|---|
 | Acquisti e verifica dell'abbonamento (§3.3) | Esecuzione di un contratto |
-| Statistiche d'uso (§3.1) | Il tuo consenso, revocabile in qualsiasi momento in Impostazioni ▸ Dati e privacy |
-| Attribuzione Search Ads (§3.2) | Il tuo consenso, revocabile in qualsiasi momento in Impostazioni ▸ Dati e privacy |
+| Statistiche d'uso (§3.1) | Il tuo consenso alla condivisione dei dati d’uso e l’autorizzazione ATT di Apple; puoi revocare ciascuno in qualsiasi momento. Disattivare la condivisione nelle Impostazioni di Ranked o revocare ATT nelle Impostazioni di iOS interrompe la raccolta futura; i dati già inviati non vengono cancellati. |
+| Attribuzione Search Ads (§3.2) | Il tuo consenso alla condivisione dei dati d’uso e l’autorizzazione ATT di Apple; puoi revocare ciascuno in qualsiasi momento. Disattivare la condivisione nelle Impostazioni di Ranked o revocare ATT nelle Impostazioni di iOS interrompe la raccolta futura; i dati già inviati non vengono cancellati. |
 
 **Si applicano due leggi, non una sola.** Ranked è gestita dalla Svizzera, quindi il trattamento è disciplinato dalla legge federale svizzera riveduta sulla protezione dei dati (**revDSG**, in vigore da settembre 2023). Il **GDPR** si applica inoltre quando l'app è usata dall'Unione europea o dal Regno Unito. In caso di differenze, seguiamo la norma più rigorosa. I residenti in Svizzera godono degli stessi diritti fondamentali elencati al §8 ai sensi dell'articolo 25 e seguenti della revDSG.
 
 ---
-
 ## 6. Dove sono trattati i dati
 
 - **PostHog** tratta le statistiche d'uso nell'Unione europea.
@@ -116,7 +116,7 @@ I dati sul dispositivo rimangono lì finché non elimini l'app.
 
 ## 8. I tuoi diritti
 
-Puoi revocare in qualsiasi momento il consenso all'analisi in Impostazioni ▸ Dati e privacy, senza spiegazioni. Questo interrompe subito i nuovi eventi, ma non cancella automaticamente i dati già inviati né annulla l'abbonamento App Store.
+Puoi disattivare in qualsiasi momento la condivisione dei dati d’uso in Impostazioni di Ranked ▸ Dati e privacy e revocare ATT nelle Impostazioni di iOS. Entrambe le azioni interrompono la raccolta e gli invii futuri. I dati già inviati non vengono cancellati automaticamente e l’abbonamento App Store non viene annullato.
 
 Puoi eliminare i dati di allenamento locali in Impostazioni ▸ Dati e privacy ▸ *Elimina i dati locali di allenamento*, oppure eliminando l'app. L'abbonamento va gestito e annullato separatamente nel tuo Apple Account.
 

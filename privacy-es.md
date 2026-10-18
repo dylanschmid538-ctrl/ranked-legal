@@ -7,7 +7,7 @@ permalink: /privacy/es/
 
 # Política de privacidad · Calisthenics Skills – Ranked
 
-**Última actualización: 2026-10-17**
+**Última actualización: 2026-10-18**
 
 Esta política explica qué datos recopila Ranked, adónde van y qué puede hacer usted al respecto.
 
@@ -21,11 +21,11 @@ Ranked está operada por **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, 
 
 Tres tipos de datos pueden salir de su dispositivo:
 
-1. **Estadísticas de uso**, para saber cómo se utiliza la aplicación. Puede desactivarlas en la aplicación en cualquier momento.
+1. **Estadísticas de uso**, Ranked solo comparte estas estadísticas si permite la solicitud estándar de seguimiento de Apple. Puede desactivar el envío en la app o revocar el permiso en Ajustes de iOS.
 2. **Datos de compra**, para verificar la suscripción de App Store. Apple gestiona el pago; nosotros nunca vemos sus datos de pago.
 3. **Mensajes de opinión o asistencia**, solo si decide enviarlos. Puede consentir por separado en facilitar un correo electrónico o teléfono para recibir respuesta.
 
-Ranked no le rastrea entre otras aplicaciones o sitios web, no muestra publicidad y no lee nada de Apple Health.
+Ranked no utiliza el identificador publicitario IDFA, no muestra anuncios dentro de la aplicación ni vende o entrega datos a intermediarios. Solo envía estadísticas de uso y solicita la atribución de Apple Search Ads si autoriza el seguimiento en el diálogo ATT; los envíos continúan mientras la opción de análisis de la aplicación esté activada. Ranked tampoco lee datos de Apple Health.
 
 ---
 
@@ -48,7 +48,7 @@ Al borrar la aplicación, se elimina todo esto del dispositivo. No podemos recup
 
 ### 3.1 Estadísticas de uso (PostHog)
 
-El análisis está desactivado de forma predeterminada. Solo si da su consentimiento expreso durante la configuración o después en Ajustes, Ranked envía a PostHog en la UE eventos sobre la configuración, la evaluación inicial, cambios de rango y etapa (con la habilidad y etapa), la pantalla de compra, las compras y las pantallas abiertas. Los eventos de entrenamiento en directo indican el inicio, fin o abandono, los segundos transcurridos, el número de series registradas, el número de habilidades distintas y si es el primer entrenamiento completado. No incluyen ejercicios individuales, repeticiones, pesos ni notas. No se transmiten edad, sexo, altura ni peso corporal. PostHog recibe además datos técnicos habituales del dispositivo, iOS, la aplicación y el idioma, y la dirección IP, de la que puede deducirse una ubicación aproximada. Se crea un identificador aleatorio después del consentimiento. Puede retirarlo en Ajustes ▸ Datos y privacidad: cesan los nuevos envíos, pero los datos ya enviados no se borran automáticamente.
+La primera vez que abre la aplicación, iOS muestra el diálogo estándar de Apple para solicitar permiso de seguimiento (App Tracking Transparency, ATT). Ranked solo envía datos de uso a PostHog en la UE si autoriza el seguimiento en el diálogo ATT; después, los envíos continúan mientras la opción de análisis de la aplicación esté activada. Los eventos incluyen la configuración, la evaluación inicial, los cambios de rango y etapa (con la habilidad y etapa), la pantalla de compra, las compras y las pantallas abiertas. Los eventos de entrenamiento en directo indican el inicio, fin o abandono, los segundos transcurridos, el número de series registradas, el número de habilidades distintas y si es el primer entrenamiento completado. No incluyen ejercicios individuales, repeticiones, pesos ni notas. No se transmiten edad, sexo, altura ni peso corporal. PostHog recibe además datos técnicos habituales del dispositivo, iOS, la aplicación y el idioma, y la dirección IP, de la que puede deducirse una ubicación aproximada. Cuando autoriza el seguimiento y tiene activada la opción de análisis, PostHog crea un identificador aleatorio de instalación y vincula a él los eventos y los datos de atribución de campaña para análisis y medición publicitaria. No se usa el IDFA. Puede desactivar el análisis en Ajustes ▸ Datos y privacidad o revocar el permiso de seguimiento en los ajustes de iOS. Al desactivar cualquiera de las dos opciones, cesan los envíos futuros; los datos ya enviados no se borran automáticamente.
 
 La app también puede comunicar la fase de la suscripción, el acceso actual, el estado de renovación y si se detectó una cancelación o un problema de facturación. Estas observaciones no constituyen prueba de un cargo y solo se envían mientras el análisis está activado.
 
@@ -58,7 +58,7 @@ Con su consentimiento, los eventos de uso también registran cuándo selecciona 
 
 ### 3.2 Atribución de Apple Search Ads
 
-Solo después de su consentimiento para el análisis, Ranked consulta una vez mediante AdServices de Apple la atribución de una instalación procedente de Apple Search Ads. Si tocó un anuncio, la campaña, el grupo de anuncios, la palabra clave, el elemento creativo, el país o región, la fecha del clic y el tipo de descarga pueden asociarse al identificador aleatorio de PostHog. No se usa el identificador publicitario IDFA. La retirada del consentimiento detiene futuros envíos.
+Ranked solo solicita la atribución de Apple Search Ads y consulta AdServices si autoriza el seguimiento en el diálogo ATT y tiene activada la opción de análisis dentro de la aplicación. En ese caso, los datos de campaña, grupo de anuncios, palabra clave, elemento creativo, país o región, fecha del clic y tipo de descarga pueden vincularse al identificador aleatorio de instalación de PostHog para análisis y medición publicitaria. No se usa el IDFA. Si desactiva el análisis o revoca el permiso ATT, cesan la atribución y los envíos futuros; los datos anteriores no se borran automáticamente.
 
 ### 3.3 Compras (Apple y RevenueCat)
 
@@ -74,12 +74,12 @@ Si envía una opinión o solicitud de asistencia, Ranked transmite el mensaje, s
 
 ---
 
-## 4. Qué no hace Ranked
+## 4. Seguimiento y permisos en Ranked
 
 - **Sin cuentas.** Nunca inicia sesión. No hay ningún perfil suyo en un servidor.
 - **Sin Apple Health.** Ranked no lee ni escribe datos en la aplicación Salud.
 - **Sin cámara, fotos, micrófono, ubicación ni contactos.** La aplicación no solicita esos permisos.
-- **Sin seguimiento entre aplicaciones o sitios web**, identificador publicitario, anuncios en la aplicación ni venta o entrega de datos a intermediarios de datos.
+- **Ranked no utiliza el identificador publicitario IDFA, no muestra anuncios dentro de la aplicación ni vende o entrega datos a intermediarios de datos. Las estadísticas de uso y la atribución de Apple Search Ads solo se envían si autoriza el seguimiento en el diálogo ATT; continúan mientras la opción de análisis de la aplicación esté activada.**
 - **Sin servidor de notificaciones push.** Los recordatorios que puede enviar Ranked se programan localmente en su teléfono; nada de ellos sale del dispositivo. Se le pide permiso antes del primero y puede desactivarlos en los ajustes de iOS en cualquier momento.
 
 ---
@@ -89,8 +89,8 @@ Si envía una opinión o solicitud de asistencia, Ranked transmite el mensaje, s
 | Tratamiento | Base |
 |---|---|
 | Compras y verificación de suscripciones (§3.3) | Ejecución de un contrato |
-| Estadísticas de uso (§3.1) | Su consentimiento; puede retirarlo en cualquier momento en Ajustes ▸ Datos y privacidad |
-| Atribución de Search Ads (§3.2) | Su consentimiento; puede retirarlo en cualquier momento en Ajustes ▸ Datos y privacidad |
+| Estadísticas de uso (§3.1) | Su consentimiento mediante el permiso ATT y la opción de análisis de Ranked; puede desactivar cualquiera de las dos en cualquier momento, véase §8 |
+| Atribución de Search Ads (§3.2) | Su consentimiento mediante el permiso ATT y la opción de análisis de Ranked; puede desactivar cualquiera de las dos en cualquier momento, véase §8 |
 
 **Aquí se aplican dos leyes, no una.** Ranked se opera desde Suiza, por lo que este tratamiento se rige por la Ley Federal de Protección de Datos suiza revisada (**revDSG**, vigente desde septiembre de 2023). El **RGPD** se aplica además cuando la aplicación se utiliza desde la Unión Europea o el Reino Unido. Si difieren, seguimos la norma más estricta. Los residentes en Suiza tienen los mismos derechos fundamentales enumerados en §8 conforme al artículo 25 y siguientes de la revDSG.
 

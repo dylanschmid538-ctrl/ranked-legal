@@ -7,7 +7,7 @@ permalink: /privacy/
 
 # Privacy Policy · Calisthenics Skills – Ranked
 
-**Last updated: 2026-10-17**
+**Last updated: 2026-10-18**
 
 This policy describes what Ranked collects, where it goes, and what you can do about it.
 
@@ -23,14 +23,14 @@ your phone. They are not sent to us, and they are not sent to the analytics serv
 
 Three kinds of data can leave your device:
 
-1. **Usage statistics**, only if you choose to share them during setup or later in Settings.
-   Sharing is off unless you choose it, and you can withdraw your choice at any time.
+1. **Usage statistics**, Ranked shares these statistics only if you allow Apple’s standard tracking request. You can turn sharing off in the app or revoke permission in iOS Settings.
 2. **Purchase data**, so the App Store subscription can be verified. Apple handles the payment;
    we never see your payment details.
 3. **Feedback and support messages**, only when you choose to send one. You may also give an email address or phone number with consent for a reply.
 
-Ranked does not track you across other apps or websites, shows no advertising, and reads nothing
-from Apple Health.
+Ranked asks for Apple's tracking permission on first launch because it links app activity with
+Apple Search Ads campaign data to measure campaign results. It does not use the advertising
+identifier (IDFA), show ads, or read Apple Health.
 
 ---
 
@@ -86,10 +86,12 @@ identifier (there is none), no age, sex, height or bodyweight, and no individual
 stores it on your device. All events are grouped under that identifier. The app never tells
 PostHog who you are. Contact details from feedback are not passed to PostHog.
 
-**Your choice:** Analytics is off by default. During setup, before the purchase screen, you can
-choose whether to share usage data. You can later change this in Settings ▸ Data & privacy ▸ *Share usage
-data*. Switching it off stops new events and closes the analytics connection. The choice is stored
-on your device and survives app updates; withdrawal does not automatically erase events already sent.
+**Your choice:** On first launch, iOS shows Apple's standard tracking permission dialog before
+Ranked starts PostHog analytics or requests Apple Search Ads attribution. If you allow tracking,
+usage sharing starts automatically and remains on until you switch *Share usage data* off in
+Ranked's Settings ▸ Data & privacy. If you deny tracking or later revoke it in iOS Settings,
+Ranked sends no analytics events or campaign attribution. Either choice stops new data from being
+sent; it does not erase events already sent.
 
 The app may also report the subscription phase, current access, renewal status and whether a cancellation or billing issue was detected. These observations are not proof of a charge and are only sent while analytics is enabled.
 
@@ -99,17 +101,19 @@ With your consent, usage events also record when you select a training plan and 
 
 ### 3.2 Apple Search Ads attribution
 
-If you choose to share usage data and installed Ranked after tapping an Apple Search Ads
-advertisement, the app asks Apple once after that choice where the install came from. Apple answers with the campaign, ad group, keyword
+If tracking permission is granted and usage sharing is enabled, and you installed Ranked after
+tapping an Apple Search Ads advertisement, the app asks Apple once where the install came from.
+Apple answers with the campaign, ad group, keyword
 and creative set of that ad, the country or region of the click, the date of the click, and
 whether this was a new download or a re-download. The app attaches these values to the anonymous
 PostHog identifier described in §3.1, so every later event can be grouped by the ad that brought
 you.
 
-This uses Apple's **AdServices** framework, which does not involve the advertising identifier
-(IDFA) and which Apple does not count as tracking — so no tracking permission dialog is shown. If
-you did not arrive through an ad, Apple says so and nothing else is attached. Turning off usage
-statistics (§3.1) also stops this.
+This uses Apple's **AdServices** framework and does not use the advertising identifier (IDFA).
+Ranked links campaign details with app and subscription events to measure campaign results, so
+this data flow runs only while tracking permission and usage sharing are enabled. If you did not
+arrive through an ad, Apple says so and nothing else is attached. Revoking tracking permission or
+turning off usage sharing (§3.1) stops further attribution requests and sends.
 
 ### 3.3 Purchases (Apple and RevenueCat)
 
@@ -138,8 +142,9 @@ If you choose to send feedback or a support request, Ranked sends the message, i
 - **No Apple Health.** Ranked neither reads from nor writes to the Health app.
 - **No camera, no photos, no microphone, no location, no contacts.** The app does not request any
   of these permissions.
-- **No tracking across apps or websites**, no advertising identifier, no advertising inside the
-  app, no data sold or given to data brokers.
+- **No advertising identifier (IDFA) and no ads inside the app.** Ranked asks for Apple's tracking
+  permission because it links app activity with Apple Search Ads campaign data for advertising
+  measurement. It does not sell data or share it with data brokers.
 - **No push server.** The reminders Ranked can send are scheduled locally on your phone; nothing
   about them leaves the device. You are asked before the first one is scheduled, and you can turn
   them off in iOS Settings at any time.
@@ -151,8 +156,7 @@ If you choose to send feedback or a support request, Ranked sends the message, i
 | What | Basis |
 |---|---|
 | Purchases and subscription verification (§3.3) | Performance of a contract |
-| Usage statistics (§3.1) | Your consent, which you can withdraw at any time in Settings, see §8 |
-| Search Ads attribution (§3.2) | Your consent to usage statistics, withdrawn using the same switch |
+| Usage statistics and Search Ads attribution (§3.1–3.2) | Apple's tracking permission; future sharing can be stopped in iOS Settings or by switching off Ranked usage sharing, see §8 |
 
 **Two laws apply here, not one.** Ranked is operated from Switzerland, so the revised Swiss
 Federal Act on Data Protection (**revDSG**, in force since September 2023) governs this
@@ -189,8 +193,9 @@ Everything on your device stays there until you delete the app.
 
 You can, at any time:
 
-- **Withdraw analytics consent** in Settings ▸ Data & privacy. This stops new analytics events immediately
-  without requiring a reason. It does not cancel your subscription or erase events already sent.
+- **Stop analytics sharing** by turning off *Share usage data* in Settings ▸ Data & privacy or
+  revoking tracking permission in iOS Settings. This stops new analytics and campaign data; it does
+  not cancel your subscription or erase events already sent.
 - **Delete local training data** in Settings ▸ Data & privacy ▸ *Delete local training data*, or delete the
   app. This removes the app's local records; it does not cancel your App Store subscription.
 - **Ask us about data already sent to PostHog.** Because Ranked has no account linked to its

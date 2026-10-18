@@ -7,7 +7,7 @@ permalink: /privacy/fi/
 
 # Tietosuojaseloste · Calisthenics Skills – Ranked
 
-**Päivitetty viimeksi: 2026-10-17**
+**Päivitetty viimeksi: 2026-10-18**
 
 Tässä selosteessa kerrotaan, mitä tietoja Ranked kerää, minne ne siirtyvät ja mitä voit tehdä asialle.
 
@@ -21,11 +21,11 @@ Ranked-sovellusta ylläpitää **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Lu
 
 Laitteeltasi voi poistua kolmenlaisia tietoja:
 
-1. **Käyttötilastot**, joiden avulla näemme, miten sovellusta käytetään. Voit poistaa ne käytöstä sovelluksessa milloin tahansa.
+1. **Käyttötilastot**, Ranked jakaa näitä tilastoja vain, jos sallit Applen vakiomuotoisen seurantapyynnön. Voit poistaa jakamisen käytöstä sovelluksessa tai perua luvan iOS-asetuksissa.
 2. **Ostotiedot**, jotta App Store -tilaus voidaan vahvistaa. Apple käsittelee maksun; me emme koskaan näe maksutietojasi.
 3. **Palaute- ja tukiviestit**, vain jos päätät lähettää ne. Voit erikseen suostua antamaan sähköpostin tai puhelinnumeron vastausta varten.
 
-Ranked ei seuraa sinua muissa sovelluksissa tai verkkosivustoilla, ei näytä mainoksia eikä lue tietoja Apple Healthista.
+Ranked ei käytä mainostunnistetta IDFA, näytä mainoksia sovelluksessa eikä myy tai luovuta tietoja tiedonvälittäjille. Käyttötilastot ja Apple Search Ads -attribuutiotiedot lähetetään vain, jos sallit seurannan ATT-valintaikkunassa; lähetys jatkuu niin kauan kuin sovelluksen analytiikka-asetus on käytössä. Ranked ei myöskään lue tietoja Apple Healthista.
 
 ---
 
@@ -48,7 +48,7 @@ Sovelluksen poistaminen poistaa nämä tiedot laitteelta. Emme voi palauttaa nii
 
 ### 3.1 Käyttötilastot (PostHog)
 
-Analytiikka on oletusarvoisesti pois käytöstä. Vain jos annat siihen nimenomaisen suostumuksen käyttöönotossa tai myöhemmin asetuksissa, Ranked lähettää EU:ssa toimivalle PostHogille tapahtumia käyttöönotosta, alkuarviosta, tason ja vaiheen muutoksista (taito ja vaihe mukana), maksunäkymästä, ostoista ja avatuista näkymistä. Reaaliaikaisen harjoituksen tapahtumissa ovat aloitus, valmistuminen tai keskeytys, kuluneet sekunnit, kirjattujen sarjojen määrä, eri taitojen määrä ja tieto ensimmäisestä valmiista harjoituksesta. Niissä ei ole yksittäisiä liikkeitä, toistoja, painoja tai muistiinpanoja. Ikää, sukupuolta, pituutta ja painoa ei lähetetä. PostHog saa myös tavanomaiset laite-, iOS-, sovellus- ja kielitiedot sekä IP-osoitteen, josta voi päätellä likimääräisen sijainnin. Satunnainen analytiikkatunnus luodaan vasta suostumuksen jälkeen. Voit peruuttaa suostumuksen kohdassa Asetukset ▸ Tiedot ja tietosuoja; uudet tapahtumat loppuvat, mutta aiemmin lähetettyjä tietoja ei poisteta automaattisesti.
+Kun avaat sovelluksen ensimmäisen kerran, iOS näyttää Applen vakiomuotoisen seurantaa koskevan lupapyynnön (App Tracking Transparency, ATT). Ranked lähettää käyttötietoja EU:ssa toimivalle PostHogille vain, jos sallit seurannan ATT-valintaikkunassa; sen jälkeen lähetys jatkuu, kunnes poistat analytiikan käytöstä sovelluksessa. Tapahtumat sisältävät käyttöönoton, alkuarvioinnin, tason ja vaiheen muutokset (taito ja vaihe mukana), maksunäkymän, ostot ja avatut näkymät. Reaaliaikaisen harjoituksen tapahtumissa ovat aloitus, valmistuminen tai keskeytys, kuluneet sekunnit, kirjattujen sarjojen määrä, eri taitojen määrä ja tieto ensimmäisestä valmiista harjoituksesta. Niissä ei ole yksittäisiä liikkeitä, toistoja, painoja tai muistiinpanoja. Ikää, sukupuolta, pituutta ja painoa ei lähetetä. PostHog saa myös tavanomaiset laite-, iOS-, sovellus- ja kielitiedot sekä IP-osoitteen, josta voi päätellä likimääräisen sijainnin. Kun olet sallinut seurannan ja analytiikka-asetus on käytössä, PostHog luo satunnaisen asennustunnisteen ja yhdistää siihen tapahtumat sekä kampanjan attribuutiotiedot analytiikkaa ja mainonnan mittaamista varten. IDFA-mainostunnistetta ei käytetä. Voit poistaa analytiikan käytöstä kohdassa Asetukset ▸ Tiedot ja tietosuoja tai peruuttaa seurantaoikeuden iOS-asetuksissa. Kumman tahansa poistaminen käytöstä lopettaa tulevat siirrot; jo lähetettyjä tietoja ei poisteta automaattisesti.
 
 Sovellus voi myös ilmoittaa tilauksen vaiheen, nykyisen käyttöoikeuden, uusimisen tilan sekä sen, havaittiinko peruutus tai laskutusongelma. Nämä havainnot eivät ole todiste veloituksesta, ja ne lähetetään vain, kun analytiikka on käytössä.
 
@@ -58,7 +58,7 @@ Suostumuksellasi käyttötapahtumat tallentavat myös, milloin valitset harjoitu
 
 ### 3.2 Apple Search Ads -mainonnan kohdistaminen
 
-Vasta analytiikkasuostumuksen jälkeen Ranked kysyy kerran Applen AdServices-palvelulta, tuliko asennus Apple Search Ads -mainoksesta. Mainoksen klikkauksen yhteydessä kampanja, mainosryhmä, hakusana, mainosaineisto, maa tai alue, klikkauspäivä ja lataustyyppi voidaan liittää satunnaiseen PostHog-tunnukseen. Mainostunnistetta IDFA ei käytetä. Suostumuksen peruminen estää tulevat lähetykset.
+Ranked pyytää Apple Search Ads -attribuutiotietoja ja kysyy AdServices-palvelulta vain, jos sallit seurannan ATT-valintaikkunassa ja olet ottanut analytiikan käyttöön sovelluksessa. Tällöin kampanja, mainosryhmä, hakusana, mainosaineisto, maa tai alue, klikkauspäivä ja lataustyyppi voidaan yhdistää satunnaiseen PostHog-asennustunnisteeseen analytiikkaa ja mainonnan mittaamista varten. IDFA-mainostunnistetta ei käytetä. Jos poistat analytiikan käytöstä tai peruutat ATT-luvan, attribuutiotietojen keruu ja tulevat siirrot loppuvat; aiempia tietoja ei poisteta automaattisesti.
 
 ### 3.3 Ostot (Apple ja RevenueCat)
 
@@ -74,12 +74,12 @@ Jos lähetät palautetta tai tukipyynnön, Ranked lähettää viestin, sen luoka
 
 ---
 
-## 4. Mitä Ranked ei tee
+## 4. Seuranta ja luvat Ranked-sovelluksessa
 
 - **Ei tilejä.** Et koskaan kirjaudu sisään. Sinusta ei ole profiilia millään palvelimella.
 - **Ei Apple Healthia.** Ranked ei lue Terveys-sovelluksen tietoja eikä kirjoita sinne.
 - **Ei kameraa, kuvia, mikrofonia, sijaintia eikä yhteystietoja.** Sovellus ei pyydä näitä käyttöoikeuksia.
-- **Ei seurantaa sovellusten tai verkkosivustojen välillä**, ei mainostunnistetta, sovelluksen sisäisiä mainoksia eikä tietojen myyntiä tai antamista tietovälittäjille.
+- **Ranked ei käytä mainostunnistetta IDFA, näytä mainoksia sovelluksessa eikä myy tai luovuta tietoja tiedonvälittäjille. Käyttötilastot ja Apple Search Ads -attribuutiotiedot lähetetään vain, jos sallit seurannan ATT-valintaikkunassa; lähetys jatkuu niin kauan kuin sovelluksen analytiikka-asetus on käytössä.**
 - **Ei push-palvelinta.** Muistutukset ajastetaan paikallisesti puhelimellasi; niihin liittyviä tietoja ei siirretä laitteelta. Sinulta kysytään lupaa ennen ensimmäisen muistutuksen ajastamista, ja voit poistaa ne käytöstä iOS-asetuksissa milloin tahansa.
 
 ---
@@ -89,8 +89,8 @@ Jos lähetät palautetta tai tukipyynnön, Ranked lähettää viestin, sen luoka
 | Käsittely | Oikeusperuste |
 |---|---|
 | Ostot ja tilauksen vahvistaminen (§3.3) | Sopimuksen täytäntöönpano |
-| Käyttötilastot (§3.1) | Suostumuksesi; peruutettavissa milloin tahansa kohdassa Asetukset ▸ Tiedot ja tietosuoja |
-| Search Ads -kohdistaminen (§3.2) | Suostumuksesi; peruutettavissa milloin tahansa kohdassa Asetukset ▸ Tiedot ja tietosuoja |
+| Käyttötilastot (§3.1) | Suostumuksesi ATT-luvan ja Ranked-sovelluksen analytiikka-asetuksen kautta; voit poistaa kumman tahansa käytöstä milloin tahansa, ks. §8 |
+| Search Ads -kohdistaminen (§3.2) | Suostumuksesi ATT-luvan ja Ranked-sovelluksen analytiikka-asetuksen kautta; voit poistaa kumman tahansa käytöstä milloin tahansa, ks. §8 |
 
 **Tässä sovelletaan kahta lakia, ei vain yhtä.** Rankedia ylläpidetään Sveitsistä, joten käsittelyä säätelee Sveitsin uudistettu liittovaltion tietosuojalaki (**revDSG**, voimassa syyskuusta 2023). **GDPR** soveltuu lisäksi, kun sovellusta käytetään Euroopan unionista tai Yhdistyneestä kuningaskunnasta. Jos säännöt eroavat, noudatamme tiukempaa. Sveitsissä asuvilla on samat §8:ssa luetellut keskeiset oikeudet revDSG:n 25 artiklasta eteenpäin.
 

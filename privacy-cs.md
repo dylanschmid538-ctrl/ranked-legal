@@ -7,7 +7,7 @@ permalink: /privacy/cs/
 
 # Zásady ochrany osobních údajů · Calisthenics Skills – Ranked
 
-**Poslední aktualizace: 2026-10-17**
+**Poslední aktualizace: 2026-10-18**
 
 Tyto zásady popisují, jaké údaje Ranked shromažďuje, kam putují a jaké možnosti v souvislosti s nimi máte.
 
@@ -21,11 +21,11 @@ Ranked provozuje **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švýcar
 
 Zařízení mohou opustit tři druhy údajů:
 
-1. **Statistiky používání**, abychom věděli, jak se aplikace používá. V aplikaci je můžete kdykoli vypnout.
+1. **Statistiky používání**, Ranked tyto statistiky sdílí pouze tehdy, když povolíte standardní žádost Apple o sledování. Sdílení můžete vypnout v aplikaci nebo oprávnění odvolat v Nastavení iOS.
 2. **Údaje o nákupech**, aby bylo možné ověřit předplatné v App Storu. Platbu zpracovává Apple; vaše platební údaje nikdy nevidíme.
 3. **Zprávy se zpětnou vazbou a žádosti o podporu**, pouze pokud je sami odešlete. Se samostatným souhlasem můžete uvést e-mail či telefon pro odpověď.
 
-Ranked vás nesleduje v jiných aplikacích ani na webových stránkách, nezobrazuje reklamy a nečte nic z aplikace Apple Zdraví.
+Ranked nepoužívá reklamní identifikátor IDFA, nezobrazuje reklamy v aplikaci a neprodává údaje ani je neposkytuje datovým zprostředkovatelům. Statistiky používání a přiřazení Apple Search Ads odesílá pouze po povolení sledování v dialogu ATT; přenos pokračuje, dokud máte v aplikaci zapnutou analytiku. Ranked také nečte data z aplikace Apple Zdraví.
 
 ---
 
@@ -48,7 +48,7 @@ Odstranění aplikace tyto údaje ze zařízení smaže. Nemůžeme je obnovit, 
 
 ### 3.1 Statistiky používání (PostHog)
 
-Analytika je ve výchozím nastavení vypnutá. Pouze pokud během úvodního nastavení nebo později v Nastavení výslovně souhlasíte, odesílá Ranked službě PostHog v EU události o nastavení, počátečním hodnocení, změnách hodnosti a úrovní (včetně dovednosti a úrovně), nákupní obrazovce, nákupech a otevřených obrazovkách. Události živého tréninku zahrnují začátek, dokončení nebo opuštění, uplynulé sekundy, počet zaznamenaných sérií, počet různých dovedností a údaj, zda šlo o první dokončený trénink. Neobsahují jednotlivá cvičení, opakování, zátěž ani poznámky. Věk, pohlaví, výška a hmotnost se neodesílají. PostHog také získává běžné technické údaje o zařízení, iOS, aplikaci a jazyce a IP adresu, z níž lze odvodit přibližnou polohu. Náhodný analytický identifikátor vzniká až po souhlasu. Souhlas můžete odvolat v Nastavení ▸ Data a soukromí; nové události se přestanou odesílat, ale dříve zaslané údaje se automaticky nesmažou.
+Při prvním spuštění aplikace zobrazí iOS standardní dialog Apple pro povolení sledování (App Tracking Transparency, ATT). Ranked odesílá údaje o používání službě PostHog v EU pouze po povolení sledování v dialogu ATT; poté přenos pokračuje, dokud máte v aplikaci zapnutou analytiku. Události zahrnují úvodní nastavení, počáteční hodnocení, změny hodnosti a úrovní (včetně dovednosti a úrovně), nákupní obrazovku, nákupy a otevřené obrazovky. Události živého tréninku zahrnují začátek, dokončení nebo opuštění, uplynulé sekundy, počet zaznamenaných sérií, počet různých dovedností a údaj, zda šlo o první dokončený trénink. Neobsahují jednotlivá cvičení, opakování, zátěž ani poznámky. Věk, pohlaví, výška a hmotnost se neodesílají. PostHog také získává běžné technické údaje o zařízení, iOS, aplikaci a jazyce a IP adresu, z níž lze odvodit přibližnou polohu. Po povolení sledování a zapnutí analytiky vytvoří PostHog náhodný identifikátor instalace a spojí s ním události i údaje o reklamní kampani pro analytiku a měření reklamy. Reklamní identifikátor IDFA se nepoužívá. Analytiku můžete vypnout v Nastavení ▸ Data a soukromí nebo odvolat oprávnění ke sledování v nastavení iOS. Vypnutím kterékoli možnosti se zastaví budoucí přenosy; dříve odeslané údaje se automaticky nesmažou.
 
 Aplikace může také hlásit fázi předplatného, aktuální přístup, stav obnovení a zjištění zrušení nebo problému s fakturací. Tato pozorování nejsou dokladem účtování platby a odesílají se pouze při zapnuté analytice.
 
@@ -58,7 +58,7 @@ S vaším souhlasem zaznamenávají události používání také výběr tréni
 
 ### 3.2 Přiřazení Apple Search Ads
 
-Teprve po souhlasu s analytikou se Ranked jednou dotáže služby Apple AdServices na původ instalace z Apple Search Ads. Pokud jste klepli na reklamu, mohou se k náhodnému identifikátoru PostHog přiřadit kampaň, reklamní skupina, klíčové slovo, kreativní sada, země nebo oblast, datum klepnutí a typ stažení. Reklamní identifikátor IDFA se nepoužívá. Odvolání souhlasu zastaví další přenosy.
+Ranked žádá o přiřazení Apple Search Ads a dotazuje se služby AdServices pouze tehdy, když povolíte sledování v dialogu ATT a máte zapnutou analytiku v aplikaci. Údaje o kampani, reklamní skupině, klíčovém slovu, kreativní sadě, zemi či oblasti, datu klepnutí a typu stažení se pak mohou spojit s náhodným identifikátorem instalace PostHog pro analytiku a měření reklamy. IDFA se nepoužívá. Vypnutím analytiky nebo odvoláním oprávnění ATT se zastaví další přiřazování a přenosy; dříve odeslané údaje se automaticky nesmažou.
 
 ### 3.3 Nákupy (Apple a RevenueCat)
 
@@ -74,12 +74,12 @@ Pokud odešlete zpětnou vazbu nebo žádost o podporu, Ranked předá zprávu, 
 
 ---
 
-## 4. Co Ranked nedělá
+## 4. Sledování a oprávnění v Ranked
 
 - **Žádné účty.** Nikdy se nepřihlašujete. Na žádném serveru o vás není profil.
 - **Žádné Apple Zdraví.** Ranked nečte data z aplikace Zdraví ani do ní nezapisuje.
 - **Žádný fotoaparát, fotky, mikrofon, poloha ani kontakty.** Aplikace o tato oprávnění nežádá.
-- **Žádné sledování napříč aplikacemi nebo weby**, reklamní identifikátor ani reklama v aplikaci; žádný prodej údajů ani jejich předávání datovým zprostředkovatelům.
+- **Ranked nepoužívá reklamní identifikátor IDFA, nezobrazuje reklamy v aplikaci a neprodává údaje ani je neposkytuje datovým zprostředkovatelům. Statistiky používání a přiřazení Apple Search Ads se odesílají pouze po povolení sledování v dialogu ATT; přenos pokračuje, dokud máte v aplikaci zapnutou analytiku.**
 - **Žádný server pro push oznámení.** Připomínky Ranked se plánují místně v telefonu; nic o nich neopouští zařízení. Před naplánováním první vás aplikace požádá o svolení a kdykoli je můžete vypnout v nastavení iOS.
 
 ---
@@ -89,8 +89,8 @@ Pokud odešlete zpětnou vazbu nebo žádost o podporu, Ranked předá zprávu, 
 | Zpracování | Právní základ |
 |---|---|
 | Nákupy a ověřování předplatného (§3.3) | Plnění smlouvy |
-| Statistiky používání (§3.1) | Váš souhlas; lze jej kdykoli odvolat v Nastavení ▸ Data a soukromí |
-| Přiřazení Search Ads (§3.2) | Váš souhlas; lze jej kdykoli odvolat v Nastavení ▸ Data a soukromí |
+| Statistiky používání (§3.1) | Váš souhlas prostřednictvím oprávnění ATT a analytického nastavení v Ranked; kteroukoli možnost můžete kdykoli vypnout, viz §8 |
+| Přiřazení Search Ads (§3.2) | Váš souhlas prostřednictvím oprávnění ATT a analytického nastavení v Ranked; kteroukoli možnost můžete kdykoli vypnout, viz §8 |
 
 **Uplatňují se zde dva právní předpisy, nikoli jen jeden.** Ranked se provozuje ze Švýcarska, takže se toto zpracování řídí revidovaným švýcarským federálním zákonem o ochraně osobních údajů (**revDSG**, účinným od září 2023). **GDPR** se navíc uplatní při používání aplikace z Evropské unie nebo Spojeného království. Pokud se pravidla liší, řídíme se přísnějším z nich. Obyvatelé Švýcarska mají podle článku 25 a následujících revDSG stejná základní práva uvedená v §8.
 
