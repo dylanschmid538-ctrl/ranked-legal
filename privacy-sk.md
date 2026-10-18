@@ -24,8 +24,7 @@ používa vo vašom telefóne. Neodosielajú sa nám ani analytickej službe.
 
 Vaše zariadenie môžu opustiť tri druhy údajov:
 
-1. **Štatistiky používania**, aby sme videli, ako sa aplikácia používa. V aplikácii ich
-   môžete kedykoľvek vypnúť.
+1. **Štatistiky používania**, Ranked zdieľa tieto štatistiky iba vtedy, keď povolíte štandardnú žiadosť Apple o sledovanie. Zdieľanie môžete vypnúť v aplikácii alebo odvolať povolenie v Nastaveniach iOS.
 2. **Údaje o nákupe**, aby sa dalo overiť predplatné z App Store. Platbu spracúva Apple; vaše
    platobné údaje nikdy nevidíme.
 3. **Správy so spätnou väzbou a žiadosti o podporu**, len ak ich sami odošlete. S osobitným súhlasom môžete uviesť e-mail alebo telefón na odpoveď.
@@ -57,6 +56,12 @@ nemali.
 ### 3.1 Štatistiky používania (PostHog)
 
 Pri prvom spustení iOS zobrazí štandardný systémový dialóg App Tracking Transparency (ATT). Po povolení ATT sa analytika spustí automaticky a pokračuje, kým je v Ranked zapnutá možnosť „Share usage data“. Udalosti sa odosielajú do PostHog v EÚ iba počas platného povolenia ATT a so zapnutou touto možnosťou; pri odmietnutí alebo vypnutí sa nové údaje neodosielajú. Ranked odosiela službe PostHog v EÚ udalosti o nastavení, prvotnom hodnotení, zmenách hodnosti a stupňa (vrátane zručnosti a stupňa), nákupnej obrazovke, nákupoch a otvorených obrazovkách. Udalosti živého tréningu zahŕňajú začiatok, dokončenie alebo prerušenie, uplynulé sekundy, počet zaznamenaných sérií, počet rôznych zručností a údaj o prvom dokončenom tréningu. Neobsahujú jednotlivé cviky, opakovania, záťaž ani poznámky. Vek, pohlavie, výška a hmotnosť sa neodosielajú. PostHog dostáva aj bežné technické údaje o zariadení, iOS, aplikácii a jazyku a IP adresu, z ktorej možno odvodiť približnú polohu. Náhodný identifikátor inštalácie PostHog vzniká po povolení ATT. Udalosti a údaje o priradení kampane sa spájajú s týmto identifikátorom na účely analytiky a merania účinnosti reklám. Povolenie ATT môžete odvolať v nastaveniach iOS alebo vypnúť možnosť „Share usage data“ v Ranked v Nastaveniach ▸ Údaje a súkromie; nové udalosti sa prestanú odosielať, skoršie údaje sa automaticky nevymažú.
+
+Aplikácia môže tiež hlásiť fázu predplatného, aktuálny prístup, stav obnovenia a zistenie zrušenia alebo problému s fakturáciou. Tieto pozorovania nie sú dokladom účtovania platby a odosielajú sa len pri zapnutej analytike.
+
+S vaším súhlasom udalosti používania zaznamenávajú aj výber tréningového plánu a otvorenie tréningovej relácie. Výber plánu zahŕňa iba počet tréningových dní týždenne a cvikov; otvorenie relácie zahŕňa iba to, či sa v nej pokračuje, zdroj vstupu a počet predpísaných cvikov. Úplný obsah plánov, rozvrhy, jednotlivé cviky a tréningové poznámky zostávajú na vašom zariadení.
+
+> Voliteľné: Zdieľaj používanie aplikácie, vyhodnotené zručnosti, úroveň, tréningovú aktivitu a údaje kampaní Apple Search Ads s PostHog na zlepšenie Ranked. Toto používanie spájame aj s tvojím skúšobným obdobím a predplatným pomocou náhodnej referencie nákupu. Bez mien alebo tréningových poznámok. Kedykoľvek to zmeníš v Nastaveniach.
 
 ### 3.2 Priradenie Apple Search Ads
 

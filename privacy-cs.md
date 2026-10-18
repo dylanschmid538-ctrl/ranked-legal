@@ -21,7 +21,7 @@ Ranked provozuje **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švýcar
 
 Zařízení mohou opustit tři druhy údajů:
 
-1. **Statistiky používání**, abychom věděli, jak se aplikace používá. V aplikaci je můžete kdykoli vypnout.
+1. **Statistiky používání**, Ranked tyto statistiky sdílí pouze tehdy, když povolíte standardní žádost Apple o sledování. Sdílení můžete vypnout v aplikaci nebo oprávnění odvolat v Nastavení iOS.
 2. **Údaje o nákupech**, aby bylo možné ověřit předplatné v App Storu. Platbu zpracovává Apple; vaše platební údaje nikdy nevidíme.
 3. **Zprávy se zpětnou vazbou a žádosti o podporu**, pouze pokud je sami odešlete. Se samostatným souhlasem můžete uvést e-mail či telefon pro odpověď.
 
@@ -49,6 +49,12 @@ Odstranění aplikace tyto údaje ze zařízení smaže. Nemůžeme je obnovit, 
 ### 3.1 Statistiky používání (PostHog)
 
 Při prvním spuštění aplikace zobrazí iOS standardní dialog Apple pro povolení sledování (App Tracking Transparency, ATT). Ranked odesílá údaje o používání službě PostHog v EU pouze po povolení sledování v dialogu ATT; poté přenos pokračuje, dokud máte v aplikaci zapnutou analytiku. Události zahrnují úvodní nastavení, počáteční hodnocení, změny hodnosti a úrovní (včetně dovednosti a úrovně), nákupní obrazovku, nákupy a otevřené obrazovky. Události živého tréninku zahrnují začátek, dokončení nebo opuštění, uplynulé sekundy, počet zaznamenaných sérií, počet různých dovedností a údaj, zda šlo o první dokončený trénink. Neobsahují jednotlivá cvičení, opakování, zátěž ani poznámky. Věk, pohlaví, výška a hmotnost se neodesílají. PostHog také získává běžné technické údaje o zařízení, iOS, aplikaci a jazyce a IP adresu, z níž lze odvodit přibližnou polohu. Po povolení sledování a zapnutí analytiky vytvoří PostHog náhodný identifikátor instalace a spojí s ním události i údaje o reklamní kampani pro analytiku a měření reklamy. Reklamní identifikátor IDFA se nepoužívá. Analytiku můžete vypnout v Nastavení ▸ Data a soukromí nebo odvolat oprávnění ke sledování v nastavení iOS. Vypnutím kterékoli možnosti se zastaví budoucí přenosy; dříve odeslané údaje se automaticky nesmažou.
+
+Aplikace může také hlásit fázi předplatného, aktuální přístup, stav obnovení a zjištění zrušení nebo problému s fakturací. Tato pozorování nejsou dokladem účtování platby a odesílají se pouze při zapnuté analytice.
+
+S vaším souhlasem zaznamenávají události používání také výběr tréninkového plánu a otevření tréninkové relace. Výběr plánu zahrnuje pouze počet tréninkových dnů týdně a počet cviků; otevření relace zahrnuje pouze to, zda se v ní pokračuje, zdroj vstupu a počet předepsaných cviků. Úplný obsah plánů, rozvrhy, jednotlivé cviky a tréninkové poznámky zůstávají na vašem zařízení.
+
+> Volitelné: Sdílej používání aplikace, vyhodnocené dovednosti, úroveň, tréninkovou aktivitu a údaje kampaní Apple Search Ads s PostHog, abychom vylepšili Ranked. Toto používání také propojujeme s tvým zkušebním obdobím a předplatným pomocí náhodné reference nákupu. Bez jmen a tréninkových poznámek. Kdykoli to změníš v Nastavení.
 
 ### 3.2 Přiřazení Apple Search Ads
 

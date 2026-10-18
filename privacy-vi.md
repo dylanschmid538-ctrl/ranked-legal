@@ -21,7 +21,7 @@ Ranked do **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Thụy Sĩ** v�
 
 Ba loại dữ liệu có thể rời khỏi thiết bị:
 
-1. **Thống kê sử dụng**, giúp chúng tôi biết ứng dụng được dùng như thế nào. Bạn có thể tắt trong ứng dụng bất kỳ lúc nào.
+1. **Thống kê sử dụng**, Ranked chỉ chia sẻ thống kê này nếu bạn cho phép yêu cầu theo dõi tiêu chuẩn của Apple. Bạn có thể tắt chia sẻ trong ứng dụng hoặc thu hồi quyền trong Cài đặt iOS.
 2. **Dữ liệu mua hàng**, để xác minh gói đăng ký App Store. Apple xử lý thanh toán; chúng tôi không bao giờ thấy thông tin thanh toán của bạn.
 3. **Tin nhắn góp ý và hỗ trợ**, chỉ khi bạn chọn gửi. Bạn có thể đồng ý riêng để cung cấp email hoặc số điện thoại nhằm nhận phản hồi.
 
@@ -49,6 +49,12 @@ Xóa ứng dụng sẽ xóa toàn bộ dữ liệu này khỏi thiết bị. Ch�
 ### 3.1 Thống kê sử dụng (PostHog)
 
 Khi mở ứng dụng lần đầu, iOS hiển thị hộp thoại hệ thống tiêu chuẩn của App Tracking Transparency (ATT). Sau khi bạn cho phép ATT, phân tích tự động bắt đầu và tiếp tục khi cài đặt “Share usage data” trong Ranked còn bật. Sự kiện chỉ được gửi đến PostHog tại EU khi ATT được cho phép và cài đặt này đang bật; nếu từ chối hoặc tắt cài đặt, dữ liệu mới sẽ không được gửi. Ranked gửi đến PostHog các sự kiện về thiết lập, đánh giá ban đầu, thay đổi hạng và giai đoạn (kèm kỹ năng và giai đoạn), màn hình mua, giao dịch mua và màn hình đã mở. Sự kiện buổi tập trực tiếp gồm bắt đầu, hoàn thành hoặc bỏ dở, số giây đã trôi qua, số hiệp đã ghi, số kỹ năng khác nhau và liệu đó có phải buổi tập hoàn thành đầu tiên không. Chúng không gồm từng bài tập, số lần lặp, mức tạ hoặc ghi chú. Tuổi, giới tính, chiều cao và cân nặng không được gửi. PostHog còn nhận thông tin kỹ thuật thông thường về thiết bị, iOS, ứng dụng và ngôn ngữ, cùng địa chỉ IP có thể cho biết vị trí gần đúng. Mã cài đặt PostHog ngẫu nhiên được tạo sau khi ATT được cho phép. Sự kiện và dữ liệu phân bổ chiến dịch được liên kết với mã này để phân tích và đo lường quảng cáo. Bạn có thể thu hồi quyền ATT trong Cài đặt iOS hoặc tắt “Share usage data” trong Ranked tại Cài đặt ▸ Dữ liệu và quyền riêng tư; sự kiện mới sẽ dừng, nhưng dữ liệu đã gửi không tự động bị xóa.
+
+Ứng dụng cũng có thể báo cáo giai đoạn đăng ký, quyền truy cập hiện tại, trạng thái gia hạn và việc có phát hiện hủy hoặc vấn đề lập hóa đơn hay không. Những quan sát này không phải bằng chứng về việc trừ tiền và chỉ được gửi khi tính năng phân tích được bật.
+
+Với sự đồng ý của bạn, các sự kiện sử dụng cũng ghi nhận khi bạn chọn một kế hoạch tập luyện và khi bạn mở một buổi tập. Việc chọn kế hoạch chỉ bao gồm số ngày tập mỗi tuần và số bài tập; việc mở buổi tập chỉ bao gồm buổi tập có được tiếp tục hay không, nguồn truy cập và số bài tập được chỉ định. Toàn bộ nội dung kế hoạch, lịch tập, từng bài tập và ghi chú tập luyện vẫn ở trên thiết bị của bạn.
+
+> Tùy chọn: Chia sẻ việc sử dụng ứng dụng, kỹ năng đã đánh giá, thứ hạng, hoạt động tập luyện và dữ liệu chiến dịch Apple Search Ads với PostHog để cải thiện Ranked. Chúng tôi cũng liên kết việc sử dụng này với thời gian dùng thử và gói đăng ký của bạn bằng mã tham chiếu mua hàng ngẫu nhiên. Không có tên hoặc ghi chú tập luyện. Thay đổi bất cứ lúc nào trong Cài đặt.
 
 ### 3.2 Phân bổ nguồn từ Apple Search Ads
 

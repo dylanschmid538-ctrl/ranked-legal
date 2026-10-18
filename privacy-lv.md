@@ -24,8 +24,7 @@ izmanto Jūsu tālrunī. Tie netiek sūtīti ne mums, ne analītikas pakalpojuma
 
 Jūsu ierīci var atstāt trīs veidu dati:
 
-1. **Lietojuma statistika**, lai mēs redzētu, kā lietotne tiek lietota. To lietotnē varat
-   jebkurā brīdī izslēgt.
+1. **Lietojuma statistika**, Ranked kopīgo šo statistiku tikai tad, ja atļaujat Apple standarta izsekošanas pieprasījumu. Kopīgošanu var izslēgt lietotnē vai atsaukt atļauju iOS iestatījumos.
 2. **Pirkuma dati**, lai varētu pārbaudīt App Store abonementu. Maksājumu apstrādā Apple; Jūsu
    maksājumu datus mēs nekad neredzam.
 3. **Atsauksmju un atbalsta ziņojumi**, tikai tad, ja tos nosūtāt. Ar atsevišķu piekrišanu varat norādīt e-pastu vai tālruni atbildes saņemšanai.
@@ -56,6 +55,10 @@ Lietotnes dzēšana izdzēš to visu no ierīces. Mēs to atjaunot nevaram, jo m
 ### 3.1 Lietojuma statistika (PostHog)
 
 Pirmoreiz palaižot lietotni, iOS parāda standarta „App Tracking Transparency“ (ATT) atļaujas dialogu. Ranked sūta notikumus ES izvietotajam PostHog tikai tad, ja ir piešķirta ATT atļauja un Iestatījumos ieslēgta lietojuma statistikas kopīgošana. Ja atļauja nav piešķirta vai kopīgošana ir izslēgta, šie dati netiek sūtīti. Ranked sūta PostHog notikumus par iestatīšanu, sākotnējo novērtējumu, ranga un posma izmaiņām (ar prasmi un posmu), pirkuma ekrānu, pirkumiem un atvērtajiem ekrāniem. Tiešsaistes treniņa notikumi ietver sākumu, pabeigšanu vai pārtraukšanu, pagājušās sekundes, reģistrēto sēriju un dažādu prasmju skaitu, kā arī to, vai šis bija pirmais pabeigtais treniņš. Tie nesatur atsevišķus vingrinājumus, atkārtojumus, svarus vai piezīmes. Vecums, dzimums, augums un ķermeņa svars netiek nosūtīti. PostHog saņem arī parastos tehniskos datus par ierīci, iOS, lietotni un valodu un IP adresi, no kuras var secināt aptuvenu atrašanās vietu. Nejaušs PostHog instalācijas identifikators tiek izveidots, kad ir piešķirta ATT atļauja un ieslēgta lietojuma statistikas kopīgošana. Notikumi un kampaņas attiecinājuma dati tiek saistīti ar šo identifikatoru analītikai un reklāmu efektivitātes mērīšanai. ATT atļauju varat atsaukt iOS iestatījumos, bet lietojuma statistikas kopīgošanu — izslēgt Ranked Iestatījumos ▸ Dati un privātums; jauni notikumi vairs netiek sūtīti, bet iepriekš nosūtītie dati automātiski netiek dzēsti.
+
+Lietotne var arī ziņot abonementa posmu, pašreizējo piekļuvi, atjaunošanas statusu un to, vai konstatēta atcelšana vai norēķinu problēma. Šie novērojumi nav pierādījums naudas ieturēšanai un tiek nosūtīti tikai tad, kad analīze ir ieslēgta.
+
+Ar jūsu piekrišanu lietošanas notikumi arī reģistrē, kad izvēlaties treniņu plānu un kad atverat treniņa sesiju. Plāna izvēle ietver tikai treniņu dienu skaitu nedēļā un vingrinājumu skaitu; sesijas atvēršana ietver tikai to, vai tā tiek atsākta, ieejas avotu un paredzēto vingrinājumu skaitu. Pilns plānu saturs, grafiki, atsevišķi vingrinājumi un treniņu piezīmes paliek jūsu ierīcē.
 
 ### 3.2 Apple Search Ads attiecinājums
 

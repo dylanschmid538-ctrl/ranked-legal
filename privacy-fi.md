@@ -21,7 +21,7 @@ Ranked-sovellusta ylläpitää **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Lu
 
 Laitteeltasi voi poistua kolmenlaisia tietoja:
 
-1. **Käyttötilastot**, joiden avulla näemme, miten sovellusta käytetään. Voit poistaa ne käytöstä sovelluksessa milloin tahansa.
+1. **Käyttötilastot**, Ranked jakaa näitä tilastoja vain, jos sallit Applen vakiomuotoisen seurantapyynnön. Voit poistaa jakamisen käytöstä sovelluksessa tai perua luvan iOS-asetuksissa.
 2. **Ostotiedot**, jotta App Store -tilaus voidaan vahvistaa. Apple käsittelee maksun; me emme koskaan näe maksutietojasi.
 3. **Palaute- ja tukiviestit**, vain jos päätät lähettää ne. Voit erikseen suostua antamaan sähköpostin tai puhelinnumeron vastausta varten.
 
@@ -49,6 +49,12 @@ Sovelluksen poistaminen poistaa nämä tiedot laitteelta. Emme voi palauttaa nii
 ### 3.1 Käyttötilastot (PostHog)
 
 Kun avaat sovelluksen ensimmäisen kerran, iOS näyttää Applen vakiomuotoisen seurantaa koskevan lupapyynnön (App Tracking Transparency, ATT). Ranked lähettää käyttötietoja EU:ssa toimivalle PostHogille vain, jos sallit seurannan ATT-valintaikkunassa; sen jälkeen lähetys jatkuu, kunnes poistat analytiikan käytöstä sovelluksessa. Tapahtumat sisältävät käyttöönoton, alkuarvioinnin, tason ja vaiheen muutokset (taito ja vaihe mukana), maksunäkymän, ostot ja avatut näkymät. Reaaliaikaisen harjoituksen tapahtumissa ovat aloitus, valmistuminen tai keskeytys, kuluneet sekunnit, kirjattujen sarjojen määrä, eri taitojen määrä ja tieto ensimmäisestä valmiista harjoituksesta. Niissä ei ole yksittäisiä liikkeitä, toistoja, painoja tai muistiinpanoja. Ikää, sukupuolta, pituutta ja painoa ei lähetetä. PostHog saa myös tavanomaiset laite-, iOS-, sovellus- ja kielitiedot sekä IP-osoitteen, josta voi päätellä likimääräisen sijainnin. Kun olet sallinut seurannan ja analytiikka-asetus on käytössä, PostHog luo satunnaisen asennustunnisteen ja yhdistää siihen tapahtumat sekä kampanjan attribuutiotiedot analytiikkaa ja mainonnan mittaamista varten. IDFA-mainostunnistetta ei käytetä. Voit poistaa analytiikan käytöstä kohdassa Asetukset ▸ Tiedot ja tietosuoja tai peruuttaa seurantaoikeuden iOS-asetuksissa. Kumman tahansa poistaminen käytöstä lopettaa tulevat siirrot; jo lähetettyjä tietoja ei poisteta automaattisesti.
+
+Sovellus voi myös ilmoittaa tilauksen vaiheen, nykyisen käyttöoikeuden, uusimisen tilan sekä sen, havaittiinko peruutus tai laskutusongelma. Nämä havainnot eivät ole todiste veloituksesta, ja ne lähetetään vain, kun analytiikka on käytössä.
+
+Suostumuksellasi käyttötapahtumat tallentavat myös, milloin valitset harjoitussuunnitelman ja milloin avaat harjoituskerran. Suunnitelman valinta sisältää vain harjoituspäivien määrän viikossa ja harjoitteiden määrän; harjoituskerran avaaminen sisältää vain sen, jatketaanko sitä, avaamisen lähteen ja määrättyjen harjoitteiden määrän. Suunnitelmien koko sisältö, aikataulut, yksittäiset harjoitteet ja harjoitusmuistiinpanot pysyvät laitteellasi.
+
+> Valinnainen: Jaa sovelluksen käyttö, arvioidut taidot, sijoitus, harjoittelutoiminta ja Apple Search Ads -kampanjatiedot PostHogille Ranked-sovelluksen parantamiseksi. Yhdistämme tämän käytön myös kokeilujaksoosi ja tilaukseesi satunnaisella ostoviitteellä. Ei nimiä tai harjoitusmuistiinpanoja. Voit muuttaa tätä milloin tahansa Asetuksissa.
 
 ### 3.2 Apple Search Ads -mainonnan kohdistaminen
 

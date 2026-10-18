@@ -21,7 +21,7 @@ Ranked vodi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švicarska**,
 
 Tri vrste podataka mogu napustiti vaš uređaj:
 
-1. **Statistika korištenja**, kako bismo razumjeli kako se aplikacija koristi. Možete je bilo kada isključiti u aplikaciji.
+1. **Statistika korištenja**, Ranked dijeli ovu statistiku samo ako dopustite Appleov standardni zahtjev za praćenje. Dijeljenje možete isključiti u aplikaciji ili opozvati dopuštenje u postavkama iOS-a.
 2. **Podaci o kupnji**, radi provjere pretplate u App Storeu. Apple obrađuje plaćanje; mi nikad ne vidimo vaše podatke o plaćanju.
 3. **Poruke s povratnim informacijama i upiti podršci**, samo ako ih sami pošaljete. Uz zaseban pristanak možete dati e-adresu ili telefon za odgovor.
 
@@ -51,6 +51,12 @@ Brisanjem aplikacije sve se to briše s uređaja. Ne možemo to vratiti jer nika
 ### 3.1 Statistika korištenja (PostHog)
 
 Pri prvom pokretanju iOS prikazuje Appleov standardni dijalog za dopuštenje praćenja (App Tracking Transparency, ATT). Nakon što dopustite ATT, Ranked automatski uključuje dijeljenje podataka o korištenju. Ranked šalje događaje PostHogu u EU samo dok je ATT dopušten i dok je prekidač dijeljenja uključen u Rankedovim Postavkama. Događaji obuhvaćaju korake postavljanja i početnu procjenu, promjene ranga i stupnja (uključujući vještinu i stupanj), zaslon za kupnju i kupnje, otvorene zaslone te početak, završetak ili prekid treninga uživo, protekle sekunde, broj zabilježenih serija, broj različitih vještina i podatak je li to bio prvi završeni trening. Ne uključuju pojedinačne vježbe, ponavljanja, utege ni bilješke. Dob, spol, visina i tjelesna težina ne šalju se. PostHog prima i uobičajene tehničke podatke o uređaju, iOS-u, aplikaciji i jeziku te IP adresu iz koje se može izvesti približna lokacija. Događaji se povezuju pod nasumičnim identifikatorom instalacije u PostHogu radi analitike i mjerenja oglašavanja; IDFA se ne koristi. Isključivanje dijeljenja u Rankedovim Postavkama ili opoziv dopuštenja ATT-a u postavkama iOS-a zaustavlja buduće prikupljanje i slanje. Već poslani događaji ne brišu se automatski.
+
+Aplikacija također može izvještavati o fazi pretplate, trenutačnom pristupu, statusu obnove te je li otkriven otkaz ili problem s naplatom. Ta opažanja nisu dokaz terećenja i šalju se samo dok je analitika uključena.
+
+Uz vašu privolu događaji upotrebe bilježe i kada odaberete plan treninga i kada otvorite trening. Odabir plana uključuje samo broj dana treninga tjedno i vježbi; otvaranje treninga uključuje samo nastavlja li se, izvor ulaska i broj propisanih vježbi. Potpuni sadržaj planova, rasporedi, pojedinačne vježbe i bilješke treninga ostaju na vašem uređaju.
+
+> Neobavezno: Podijeli upotrebu aplikacije, procijenjene vještine, rang, aktivnost treninga i podatke kampanja Apple Search Ads s uslugom PostHog radi poboljšanja aplikacije Ranked. Tu upotrebu povezujemo i s tvojim probnim razdobljem i pretplatom putem nasumične reference kupnje. Bez imena ili bilježaka treninga. Promijeni to bilo kada u Postavkama.
 
 ### 3.2 Pripisivanje Apple Search Ads oglasa
 

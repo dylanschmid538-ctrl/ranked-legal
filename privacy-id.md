@@ -21,7 +21,7 @@ Ranked dioperasikan oleh **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, 
 
 Tiga jenis data dapat meninggalkan perangkat Anda:
 
-1. **Statistik penggunaan**, agar kami memahami cara aplikasi digunakan. Anda dapat menonaktifkannya kapan saja di aplikasi.
+1. **Statistik penggunaan**, Ranked hanya membagikan statistik ini jika Anda mengizinkan permintaan pelacakan standar dari Apple. Anda dapat mematikan berbagi di app atau mencabut izinnya di Pengaturan iOS.
 2. **Data pembelian**, agar langganan App Store dapat diverifikasi. Apple menangani pembayaran; kami tidak pernah melihat rincian pembayaran Anda.
 3. **Pesan masukan dan dukungan**, hanya jika Anda memilih untuk mengirimnya. Anda dapat memberi persetujuan terpisah untuk menyertakan email atau nomor telepon agar kami dapat membalas.
 
@@ -51,6 +51,12 @@ Menghapus aplikasi akan menghapus semua data tersebut dari perangkat. Kami tidak
 ### 3.1 Statistik penggunaan (PostHog)
 
 Saat pertama kali aplikasi dibuka, iOS menampilkan dialog standar Apple untuk izin pelacakan (App Tracking Transparency, ATT). Setelah Anda mengizinkan ATT, Ranked otomatis mengaktifkan berbagi data penggunaan. Ranked hanya mengirim peristiwa ke PostHog di UE selama ATT diizinkan dan tombol berbagi di Pengaturan Ranked tetap aktif. Peristiwa mencakup langkah penyiapan dan hasil penilaian awal, perubahan peringkat dan tahap (beserta keahlian dan tahap), layar pembelian dan pembelian, layar yang dibuka, serta mulai, selesai atau ditinggalkannya latihan langsung; peristiwa ini juga mencakup detik yang berlalu, jumlah set yang dicatat, jumlah keahlian berbeda, dan apakah itu latihan pertama yang selesai. Peristiwa tidak mencakup latihan individual, repetisi, beban, atau catatan. Usia, jenis kelamin, tinggi dan berat badan tidak dikirim. PostHog juga menerima informasi teknis umum tentang perangkat, iOS, aplikasi, bahasa dan alamat IP yang dapat menunjukkan lokasi perkiraan. Peristiwa ditautkan di bawah ID instalasi PostHog yang acak untuk analitik dan pengukuran iklan; IDFA tidak digunakan. Menonaktifkan tombol berbagi di Pengaturan Ranked atau mencabut izin ATT di Pengaturan iOS menghentikan pengumpulan dan pengiriman berikutnya. Peristiwa yang sudah dikirim tidak otomatis dihapus.
+
+Aplikasi juga dapat melaporkan tahap langganan, akses saat ini, status perpanjangan, dan apakah pembatalan atau masalah penagihan terdeteksi. Pengamatan ini bukan bukti pembebanan biaya dan hanya dikirim saat analitik aktif.
+
+Dengan persetujuan Anda, peristiwa penggunaan juga mencatat kapan Anda memilih rencana latihan dan membuka sesi latihan. Pemilihan rencana hanya mencakup jumlah hari latihan per minggu dan jumlah latihan; pembukaan sesi hanya mencakup apakah sesi dilanjutkan, sumber masuk, dan jumlah latihan yang ditentukan. Isi lengkap rencana, jadwal, latihan individual, dan catatan latihan tetap berada di perangkat Anda.
+
+> Opsional: Bagikan penggunaan aplikasi, keterampilan yang dinilai, peringkat, aktivitas latihan, dan data kampanye Apple Search Ads dengan PostHog untuk meningkatkan Ranked. Kami juga menghubungkan penggunaan ini dengan masa uji coba dan langgananmu melalui referensi pembelian acak. Tanpa nama atau catatan latihan. Ubah kapan saja di Pengaturan.
 
 ### 3.2 Atribusi Apple Search Ads
 

@@ -34,7 +34,7 @@ locked in.
 
 ### I paid, but the app still asks me to subscribe
 
-Tap **Restore purchases** on the paywall or in Settings. Check that the device uses the
+Tap **Restore purchases** on the paywall. Check that the device uses the
 same Apple Account that made the App Store purchase. Ranked has no in-app login. If access
 is still missing, contact us with the message shown by the app.
 

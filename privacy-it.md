@@ -21,7 +21,7 @@ Ranked è gestita da **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Sviz
 
 Tre tipi di dati possono lasciare il dispositivo:
 
-1. **Statistiche d'uso**, per capire come viene utilizzata l'app. Puoi disattivarle nell'app in qualsiasi momento.
+1. **Statistiche d'uso**, Ranked condivide queste statistiche solo se consenti la richiesta standard di tracciamento di Apple. Puoi disattivare la condivisione nell’app o revocare il permesso nelle Impostazioni di iOS.
 2. **Dati relativi agli acquisti**, per verificare l'abbonamento all'App Store. Apple gestisce il pagamento; noi non vediamo mai i tuoi dati di pagamento.
 3. **Messaggi di feedback e assistenza**, solo se scegli di inviarli. Con il tuo consenso puoi indicare un indirizzo email o un numero di telefono per ricevere una risposta.
 
@@ -51,6 +51,12 @@ Eliminando l'app, elimini tutti questi dati dal dispositivo. Non possiamo recupe
 ### 3.1 Statistiche d'uso (PostHog)
 
 Al primo avvio iOS mostra la richiesta standard di Apple per il consenso al tracciamento (App Tracking Transparency, ATT). Dopo aver autorizzato ATT, Ranked attiva automaticamente la condivisione dei dati d’uso. Ranked invia eventi a PostHog nell’UE solo finché ATT è autorizzato e l’interruttore di condivisione resta attivo nelle Impostazioni di Ranked. Gli eventi riguardano le fasi di configurazione e la valutazione iniziale, i cambi di rango e livello (con abilità e livello), la schermata di acquisto e gli acquisti, le schermate aperte, nonché l’avvio, il completamento o l’interruzione di un allenamento dal vivo; includono anche i secondi trascorsi, il numero di serie registrate, il numero di abilità distinte e se si tratta del primo allenamento completato. Non includono singoli esercizi, ripetizioni, pesi o note. Età, sesso, altezza e peso corporeo non vengono trasmessi. PostHog riceve anche normali dati tecnici su dispositivo, iOS, app e lingua, nonché l’indirizzo IP, dal quale può essere dedotta una posizione approssimativa. Gli eventi sono associati a un identificativo casuale dell’installazione in PostHog per analisi e misurazione pubblicitaria; non viene usato l’IDFA. Disattivare la condivisione nelle Impostazioni di Ranked o revocare ATT nelle Impostazioni di iOS interrompe la raccolta e gli invii futuri. Gli eventi già inviati non vengono cancellati automaticamente.
+
+L’app può inoltre comunicare la fase dell’abbonamento, l’accesso attuale, lo stato di rinnovo e se è stata rilevata una disdetta o un problema di fatturazione. Queste osservazioni non costituiscono prova di un addebito e vengono inviate solo mentre l’analisi è attivata.
+
+Con il Suo consenso, gli eventi di utilizzo registrano anche quando seleziona un piano di allenamento e quando apre una sessione di allenamento. La selezione del piano include solo il numero di giorni di allenamento alla settimana e di esercizi; l’apertura della sessione include solo se viene ripresa, la fonte di accesso e il numero di esercizi prescritti. Il contenuto completo dei piani, i programmi orari, i singoli esercizi e le note di allenamento rimangono sul Suo dispositivo.
+
+> Facoltativo: Condividi l’uso dell’app, le abilità valutate, il rango, l’attività di allenamento e i dati delle campagne Apple Search Ads con PostHog per migliorare Ranked. Colleghiamo questo uso anche alla tua prova e al tuo abbonamento tramite un riferimento di acquisto casuale. Nessun nome o nota di allenamento. Puoi modificarlo in qualsiasi momento nelle Impostazioni.
 
 ### 3.2 Attribuzione Apple Search Ads
 

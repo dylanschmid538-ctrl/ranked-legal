@@ -21,7 +21,7 @@ Ranked és operada per **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Su
 
 Tres tipus de dades poden sortir del dispositiu:
 
-1. **Estadístiques d'ús**, per saber com s'utilitza l'aplicació. Les podeu desactivar en qualsevol moment dins l'aplicació.
+1. **Estadístiques d'ús**, Ranked només comparteix aquestes estadístiques si accepteu la sol·licitud de seguiment estàndard d’Apple. Podeu desactivar l’ús compartit a l’app o revocar el permís a Configuració de l’iOS.
 2. **Dades de compra**, per verificar la subscripció de l'App Store. Apple gestiona el pagament; nosaltres no en veiem mai els detalls.
 3. **Missatges d’opinió i assistència**, només si decidiu enviar-los. Podeu consentir per separat a facilitar un correu electrònic o telèfon per rebre resposta.
 
@@ -49,6 +49,12 @@ En esborrar l'aplicació, tot això s'esborra del dispositiu. No ho podem recupe
 ### 3.1 Estadístiques d'ús (PostHog)
 
 Quan obriu l'aplicació per primera vegada, iOS mostra el diàleg estàndard d'Apple per demanar permís de seguiment (App Tracking Transparency, ATT). Ranked només envia dades d'ús a PostHog a la UE si autoritzeu el seguiment al diàleg ATT; després, els enviaments continuen mentre l'opció d'anàlisi de l'aplicació estigui activada. Els esdeveniments inclouen la configuració, l'avaluació inicial, els canvis de rang i d'etapa (amb l'habilitat i l'etapa), la pantalla de compra, les compres i les pantalles obertes. Els esdeveniments d'entrenament en directe inclouen inici, finalització o abandonament, segons transcorreguts, nombre de sèries registrades, nombre d'habilitats diferents i si era el primer entrenament acabat. No inclouen exercicis individuals, repeticions, pesos ni notes. No s'envien edat, sexe, alçada ni pes corporal. PostHog també rep dades tècniques habituals del dispositiu, iOS, l'app i l'idioma, i l'adreça IP, de la qual es pot deduir una ubicació aproximada. Quan autoritzeu el seguiment i l'opció d'anàlisi està activada, PostHog crea un identificador aleatori d'instal·lació i hi associa els esdeveniments i les dades d'atribució de campanya per a l'anàlisi i el mesurament publicitari. No s'utilitza l'identificador publicitari IDFA. Podeu desactivar l'anàlisi a Configuració ▸ Dades i privadesa o revocar el permís ATT a la configuració d'iOS. Si desactiveu qualsevol de les dues opcions, s'aturen els enviaments futurs; les dades ja enviades no s'esborren automàticament.
+
+L’app també pot comunicar la fase de la subscripció, l’accés actual, l’estat de renovació i si s’ha detectat una cancel·lació o un problema de facturació. Aquestes observacions no constitueixen prova d’un càrrec i només s’envien mentre l’anàlisi està activada.
+
+Amb el vostre consentiment, els esdeveniments d’ús també registren quan seleccioneu un pla d’entrenament i quan obriu una sessió d’entrenament. La selecció del pla només inclou el nombre de dies d’entrenament per setmana i d’exercicis; l’obertura de la sessió només inclou si es reprèn, l’origen d’entrada i el nombre d’exercicis prescrits. El contingut complet dels plans, els horaris, els exercicis individuals i les notes d’entrenament es queden al vostre dispositiu.
+
+> Opcional: Comparteix l’ús de l’app, les habilitats avaluades, el rang, l’activitat d’entrenament i les dades de campanyes d’Apple Search Ads amb PostHog per millorar Ranked. També vinculem aquest ús a la teva prova i subscripció mitjançant una referència de compra aleatòria. Sense noms ni notes d’entrenament. Pots canviar-ho en qualsevol moment a Configuració.
 
 ### 3.2 Atribució d'Apple Search Ads
 

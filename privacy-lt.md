@@ -24,8 +24,7 @@ naudoja Jūsų telefone. Jie nesiunčiami nei mums, nei analitikos paslaugai.
 
 Jūsų įrenginį gali palikti trijų rūšių duomenys:
 
-1. **Naudojimo statistika**, kad matytume, kaip programėlė naudojama. Ją galite bet kada
-   išjungti programėlėje.
+1. **Naudojimo statistika**, Ranked bendrina šią statistiką tik tada, kai leidžiate standartinį „Apple“ sekimo prašymą. Bendrinimą galite išjungti programėlėje arba atšaukti leidimą „iOS“ nustatymuose.
 2. **Pirkimo duomenys**, kad būtų galima patikrinti „App Store“ prenumeratą. Mokėjimą tvarko
    „Apple“; Jūsų mokėjimo duomenų mes niekada nematome.
 3. **Atsiliepimų ir pagalbos pranešimai**, tik jei patys juos siunčiate. Atskirai sutikę galite pateikti el. paštą ar telefono numerį atsakymui.
@@ -58,6 +57,10 @@ neturėjome.
 ### 3.1 Naudojimo statistika (PostHog)
 
 Pirmą kartą paleidus programėlę, iOS parodo standartinį „App Tracking Transparency“ (ATT) leidimo dialogą. Ranked siunčia įvykius į ES esantį PostHog tik tada, kai suteiktas ATT leidimas ir Nustatymuose įjungtas naudojimo statistikos bendrinimas. Jei leidimas nesuteiktas arba bendrinimas išjungtas, šie duomenys nesiunčiami. Ranked siunčia PostHog įvykius apie sąranką, pradinį įvertinimą, rango ir pakopos pokyčius (nurodant įgūdį ir pakopą), pirkimo ekraną, pirkimus ir atidarytus ekranus. Tiesioginės treniruotės įvykiai apima pradžią, pabaigą ar nutraukimą, praėjusias sekundes, užregistruotų serijų ir skirtingų įgūdžių skaičių bei ar tai buvo pirmoji baigta treniruotė. Juose nėra atskirų pratimų, pakartojimų, svorių ar pastabų. Amžius, lytis, ūgis ir kūno svoris nesiunčiami. PostHog taip pat gauna įprastus techninius įrenginio, iOS, programėlės ir kalbos duomenis bei IP adresą, iš kurio galima nustatyti apytikrę vietą. Atsitiktinis PostHog diegimo identifikatorius sukuriamas, kai suteiktas ATT leidimas ir įjungtas naudojimo statistikos bendrinimas. Įvykiai ir kampanijos priskyrimo duomenys siejami su šiuo identifikatoriumi analizei ir reklamos veiksmingumui matuoti. ATT leidimą galite atšaukti iOS nustatymuose, o statistikos bendrinimą išjungti Ranked Nustatymuose ▸ Duomenys ir privatumas; nauji įvykiai nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami.
+
+Programėlė taip pat gali pranešti prenumeratos etapą, dabartinę prieigą, atnaujinimo būseną ir tai, ar aptiktas atšaukimas arba atsiskaitymo problema. Šie stebėjimai nėra lėšų nurašymo įrodymas ir siunčiami tik įjungus analizę.
+
+Gavus jūsų sutikimą, naudojimo įvykiai taip pat užfiksuoja, kada pasirenkate treniruočių planą ir kada atidarote treniruotės sesiją. Plano pasirinkimas apima tik treniruočių dienų per savaitę ir pratimų skaičių; sesijos atidarymas apima tik tai, ar ji tęsiama, įėjimo šaltinį ir paskirtų pratimų skaičių. Visas planų turinys, tvarkaraščiai, atskiri pratimai ir treniruočių pastabos lieka jūsų įrenginyje.
 
 ### 3.2 „Apple Search Ads“ priskyrimas
 

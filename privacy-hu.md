@@ -21,7 +21,7 @@ A Ranked üzemeltetője és az itt leírt adatkezelés adatkezelője **Monica De
 
 Háromféle adat hagyhatja el az eszközét:
 
-1. **Használati statisztikák**, amelyek alapján láthatjuk, hogyan használják az alkalmazást. Ezt az alkalmazásban bármikor kikapcsolhatja.
+1. **Használati statisztikák**, A Ranked csak akkor osztja meg ezeket a statisztikákat, ha engedélyezi az Apple szabványos követési kérését. A megosztást az alkalmazásban kapcsolhatja ki, az engedélyt pedig az iOS Beállításokban vonhatja vissza.
 2. **Vásárlási adatok**, hogy ellenőrizni lehessen az App Store-előfizetést. A fizetést az Apple kezeli; fizetési adatait mi soha nem látjuk.
 3. **Visszajelzések és támogatási üzenetek**, csak ha Ön elküldi őket. Válaszhoz külön hozzájárulással e-mail-címet vagy telefonszámot adhat meg.
 
@@ -51,6 +51,12 @@ Az alkalmazás törlése ezeket az adatokat is törli az eszközről. Nem tudjuk
 ### 3.1 Használati statisztikák (PostHog)
 
 Az első indításkor az iOS megjeleníti az Apple szabványos követési engedélykérő ablakát (App Tracking Transparency, ATT). Az ATT engedélyezése után a Ranked automatikusan bekapcsolja a használati adatok megosztását. A Ranked csak addig küld eseményeket az EU-ban működő PostHognak, amíg az ATT engedélyezett, és a megosztási kapcsoló be van kapcsolva a Ranked Beállításaiban. Az események a beállítási lépésekről és a kezdeti felmérésről, a rang- és szintváltozásokról (a készséggel és szinttel), a vásárlási képernyőről és vásárlásokról, a megnyitott képernyőkről, valamint az élő edzés indításáról, befejezéséről vagy megszakításáról szólnak; tartalmazzák az eltelt másodperceket, a rögzített sorozatok és különböző készségek számát, valamint azt, hogy ez volt-e az első befejezett edzés. Nem tartalmaznak egyedi gyakorlatokat, ismétléseket, súlyokat vagy jegyzeteket. Az életkor, nem, magasság és testsúly nem kerül elküldésre. A PostHog szokásos technikai adatokat is kap az eszközről, iOS-ről, alkalmazásról és nyelvről, valamint az IP-címet, amelyből hozzávetőleges hely becsülhető. Az eseményeket a PostHog véletlenszerű telepítési azonosítóhoz kapcsolja elemzési és hirdetésmérési célból; IDFA-t nem használunk. A megosztás kikapcsolása a Ranked Beállításaiban vagy az ATT visszavonása az iOS beállításaiban leállítja a jövőbeli gyűjtést és küldést. A már elküldött események nem törlődnek automatikusan.
+
+Az alkalmazás az előfizetés szakaszát, az aktuális hozzáférést, a megújítás állapotát és az észlelt lemondást vagy számlázási problémát is jelentheti. Ezek a megfigyelések nem bizonyítanak terhelést, és csak bekapcsolt analitika mellett kerülnek elküldésre.
+
+Az Ön hozzájárulásával a használati események azt is rögzítik, mikor választ edzéstervet és mikor nyit meg egy edzést. A terv kiválasztása csak a heti edzésnapok és a gyakorlatok számát tartalmazza; az edzés megnyitása csak azt, hogy folytatásról van-e szó, a belépés forrását és az előírt gyakorlatok számát. A tervek teljes tartalma, az ütemezések, az egyes gyakorlatok és az edzésjegyzetek az eszközén maradnak.
+
+> Választható: Oszd meg az alkalmazáshasználatot, a felmért készségeket, a rangot, az edzési tevékenységet és az Apple Search Ads kampányadatait a PostHoggal a Ranked fejlesztéséhez. Ezt a használatot egy véletlenszerű vásárlási hivatkozással a próbaidőszakodhoz és az előfizetésedhez is kapcsoljuk. Nevek és edzésjegyzetek nélkül. Bármikor módosíthatod a Beállításokban.
 
 ### 3.2 Apple Search Ads-hozzárendelés
 

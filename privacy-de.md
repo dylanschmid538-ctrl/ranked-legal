@@ -26,8 +26,7 @@ gesendet.
 
 Drei Arten von Daten können Ihr Gerät verlassen:
 
-1. **Nutzungsstatistiken**, damit wir sehen, wie die App benutzt wird. Sie können das in
-   der App jederzeit abschalten.
+1. **Nutzungsstatistiken**, Ranked teilt diese Statistiken nur, wenn Sie Apples standardmäßige Tracking-Abfrage erlauben. Sie können die Datenfreigabe in der App ausschalten oder die Erlaubnis in den iOS-Einstellungen widerrufen.
 2. **Kaufdaten**, damit das App-Store-Abonnement überprüft werden kann. Apple wickelt die Zahlung
    ab; wir sehen Ihre Zahlungsdaten nie.
 3. **Nachrichten für Feedback und Support**, nur wenn Sie selbst eine senden. Mit Ihrer Einwilligung können Sie eine E-Mail-Adresse oder Telefonnummer für eine Antwort angeben.
@@ -62,6 +61,12 @@ hatten.
 ### 3.1 Nutzungsstatistiken (PostHog)
 
 Beim ersten Öffnen zeigt iOS den standardmässigen Dialog von Apple zur Tracking-Erlaubnis, bevor Ranked PostHog-Analysen startet oder Apple-Search-Ads-Zuordnungen abfragt. Wenn Sie Tracking erlauben, beginnt das Teilen der Nutzungsdaten automatisch. Es bleibt eingeschaltet, bis Sie *Nutzungsdaten teilen* unter Einstellungen ▸ Daten & Datenschutz ausschalten. Wenn Sie Tracking ablehnen oder später in den iOS-Einstellungen widerrufen, sendet Ranked keine Analyseereignisse oder Kampagnenzuordnungen. An PostHog in der EU gehen Nutzungsereignisse zu Einrichtung und Ersteinstufung, Rang- und Stufenänderungen (mit Skill und Stufe), Kaufbildschirm und Kaufvorgang sowie geöffneten Ansichten. Ereignisse zu Live-Trainings enthalten Start, Abschluss oder Abbruch, verstrichene Sekunden, Anzahl geloggter Sätze, Anzahl unterschiedlicher Skills und ob es das erste abgeschlossene Training war. Sie enthalten keine einzelnen Übungen, Wiederholungen, Gewichte oder Notizen. Alter, Geschlecht, Grösse und Körpergewicht werden nicht übermittelt. PostHog erhält übliche Geräte-, iOS-, App- und Sprachangaben sowie die IP-Adresse, aus der ein ungefährer Ort abgeleitet werden kann. Eine zufällige Analysekennung gruppiert die Ereignisse. Das Ablehnen oder Widerrufen der Tracking-Erlaubnis sowie das Ausschalten des Teilens stoppt neue Datenübermittlungen; bereits gesendete Daten werden dadurch nicht automatisch gelöscht.
+
+Die App kann außerdem die Abonnementphase, den aktuellen Zugriff, den Verlängerungsstatus sowie die Feststellung einer Kündigung oder eines Abrechnungsproblems melden. Diese Beobachtungen sind kein Nachweis einer Belastung und werden nur gesendet, solange die Analyse eingeschaltet ist.
+
+Mit Ihrer Einwilligung erfassen Nutzungsereignisse auch, wann Sie einen Trainingsplan auswählen und wann Sie eine Trainingseinheit öffnen. Die Planauswahl umfasst nur die Anzahl der Trainingstage pro Woche und der Übungen; das Öffnen einer Einheit umfasst nur, ob sie fortgesetzt wird, den Einstiegsweg und die Anzahl der vorgegebenen Übungen. Vollständige Planinhalte, Zeitpläne, einzelne Übungen und Trainingsnotizen bleiben auf Ihrem Gerät.
+
+> Freiwillig: Teile App-Nutzung, bewertete Skills, Rang, Trainingsaktivität und Kampagnendaten von Apple Search Ads mit PostHog, um Ranked zu verbessern. Wir verknüpfen diese Nutzung außerdem über eine zufällige Kaufreferenz mit deiner Testphase und deinem Abonnement. Keine Namen oder Trainingsnotizen. Jederzeit in den Einstellungen änderbar.
 
 ### 3.2 Zuordnung von Apple Search Ads
 

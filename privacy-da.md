@@ -21,7 +21,7 @@ Ranked drives af **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Schweiz*
 
 Tre slags oplysninger kan forlade din enhed:
 
-1. **Brugsstatistik**, så vi kan se, hvordan appen bruges. Du kan slå den fra i appen når som helst.
+1. **Brugsstatistik**, Ranked deler kun disse statistikker, hvis du tillader Apples standardanmodning om sporing. Du kan slå deling fra i appen eller tilbagekalde tilladelsen i iOS-indstillinger.
 2. **Købsoplysninger**, så App Store-abonnementet kan kontrolleres. Apple håndterer betalingen; vi ser aldrig dine betalingsoplysninger.
 3. **Feedback- og supportbeskeder**, kun når du selv sender dem. Du kan særskilt give samtykke til at oplyse e-mail eller telefonnummer for et svar.
 
@@ -49,6 +49,12 @@ Når du sletter appen, slettes alt dette fra enheden. Vi kan ikke genskabe det, 
 ### 3.1 Brugsstatistik (PostHog)
 
 Første gang du åbner appen, viser iOS Apples standarddialog om tilladelse til sporing (App Tracking Transparency, ATT). Ranked sender kun brugsoplysninger til PostHog i EU, hvis du tillader sporing i ATT-dialogen; derefter fortsætter overførslerne, så længe analyse er slået til i appen. Hændelserne omfatter opsætning, første vurdering, ændringer i rang og trin (med færdighed og trin), købsskærm, køb og åbnede skærme. Hændelser fra live træning angiver start, afslutning eller afbrydelse, forløbne sekunder, antal registrerede sæt, antal forskellige færdigheder og om det var den første afsluttede træning. De indeholder ikke enkelte øvelser, gentagelser, vægte eller noter. Alder, køn, højde og kropsvægt sendes ikke. PostHog modtager også almindelige tekniske oplysninger om enhed, iOS, app og sprog samt IP-adressen, hvorfra en omtrentlig placering kan udledes. Når du har tilladt sporing og slået analyse til, opretter PostHog en tilfældig installationsidentifikator og knytter hændelser og kampagneoplysninger til den med henblik på analyse og måling af annoncer. IDFA bruges ikke. Du kan slå analyse fra under Indstillinger ▸ Data og anonymitet eller tilbagekalde sporingstilladelsen i iOS-indstillingerne. Når en af mulighederne slås fra, stopper fremtidige overførsler; allerede sendte data slettes ikke automatisk.
+
+Appen kan også rapportere abonnementsfasen, den aktuelle adgang, fornyelsesstatus og om en opsigelse eller et faktureringsproblem blev registreret. Disse observationer er ikke bevis for en opkrævning og sendes kun, mens analyse er aktiveret.
+
+Med dit samtykke registrerer brugshændelser også, når du vælger en træningsplan, og når du åbner en træningssession. Valg af plan omfatter kun antallet af træningsdage om ugen og øvelser; åbning af en session omfatter kun, om den genoptages, indgangskilden og antallet af foreskrevne øvelser. Planernes fulde indhold, tidsplaner, individuelle øvelser og træningsnoter forbliver på din enhed.
+
+> Valgfrit: Del brug af appen, vurderede færdigheder, rang, træningsaktivitet og kampagnedata fra Apple Search Ads med PostHog for at forbedre Ranked. Vi knytter også denne brug til din prøveperiode og dit abonnement via en tilfældig købsreference. Ingen navne eller træningsnoter. Du kan ændre dette når som helst i Indstillinger.
 
 ### 3.2 Tilskrivning af Apple Search Ads
 

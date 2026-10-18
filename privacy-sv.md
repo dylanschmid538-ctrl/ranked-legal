@@ -21,7 +21,7 @@ Ranked drivs av **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Schweiz**
 
 Tre typer uppgifter kan lämna enheten:
 
-1. **Användningsstatistik**, så att vi kan se hur appen används. Du kan stänga av den i appen när som helst.
+1. **Användningsstatistik**, Ranked delar bara den här statistiken om du tillåter Apples standardfråga om spårning. Du kan stänga av delning i appen eller återkalla tillståndet i iOS-inställningarna.
 2. **Köpuppgifter**, så att abonnemanget i App Store kan verifieras. Apple hanterar betalningen; vi ser aldrig dina betalningsuppgifter.
 3. **Feedback- och supportmeddelanden**, bara när du själv skickar dem. Med separat samtycke kan du ange e-post eller telefonnummer för svar.
 
@@ -49,6 +49,12 @@ Om du raderar appen raderas allt detta från enheten. Vi kan inte återskapa det
 ### 3.1 Användningsstatistik (PostHog)
 
 När appen öppnas första gången visar iOS Apples vanliga systemdialog för App Tracking Transparency (ATT). När du godkänner ATT aktiveras analys automatiskt och fortsätter så länge inställningen ”Share usage data” är på i Ranked. Händelser skickas till PostHog i EU endast medan ATT är godkänt och inställningen är på; vid avslag eller avstängning skickas inga nya uppgifter. Ranked skickar händelser till PostHog i EU om introduktion, första bedömning, ändringar av rang och steg (med färdighet och steg), betalningsvy, köp och öppnade vyer. Händelser från träningspass i realtid omfattar start, slutförande eller avbrott, antal sekunder, registrerade set, olika färdigheter och om det var det första slutförda passet. De innehåller inte enskilda övningar, repetitioner, vikter eller anteckningar. Ålder, kön, längd och kroppsvikt skickas inte. PostHog får också vanliga tekniska uppgifter om enhet, iOS, app och språk samt IP-adressen, som kan ge en ungefärlig plats. Ett slumpmässigt installations-id för PostHog skapas när ATT har godkänts. Händelser och kampanjuppgifter kopplas till detta id för analys och mätning av annonser. Du kan återkalla ATT i iOS-inställningarna eller stänga av ”Share usage data” i Ranked under Inställningar ▸ Data och integritet; nya händelser stoppas men redan skickade uppgifter raderas inte automatiskt.
+
+Appen kan även rapportera prenumerationsfasen, aktuell åtkomst, förnyelsestatus och om en uppsägning eller ett faktureringsproblem upptäcktes. Dessa observationer är inte bevis på en debitering och skickas endast medan analys är aktiverad.
+
+Med ditt samtycke registrerar användningshändelser även när du väljer en träningsplan och öppnar ett träningspass. Val av plan omfattar endast antalet träningsdagar per vecka och övningar; öppning av ett pass omfattar endast om det återupptas, ingångskällan och antalet föreskrivna övningar. Planernas fullständiga innehåll, scheman, enskilda övningar och träningsanteckningar stannar på din enhet.
+
+> Valfritt: Dela appanvändning, bedömda färdigheter, rang, träningsaktivitet och kampanjdata från Apple Search Ads med PostHog för att förbättra Ranked. Vi kopplar också denna användning till din provperiod och prenumeration med en slumpmässig köpreferens. Inga namn eller träningsanteckningar. Ändra detta när som helst i Inställningar.
 
 ### 3.2 Tillskrivning av Apple Search Ads
 

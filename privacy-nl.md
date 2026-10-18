@@ -21,7 +21,7 @@ Ranked wordt beheerd door **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern,
 
 Drie soorten gegevens kunnen uw apparaat verlaten:
 
-1. **Gebruiksstatistieken**, zodat we kunnen zien hoe de app wordt gebruikt. U kunt deze op elk moment in de app uitschakelen.
+1. **Gebruiksstatistieken**, Ranked deelt deze statistieken alleen als u het standaardverzoek van Apple om tracking toe te staan accepteert. U kunt delen in de app uitschakelen of de toestemming intrekken in de iOS-instellingen.
 2. **Aankoopgegevens**, zodat het App Store-abonnement kan worden geverifieerd. Apple verwerkt de betaling; wij zien uw betaalgegevens nooit.
 3. **Feedback- en supportberichten**, alleen als u er zelf een verstuurt. Met uw toestemming kunt u een e-mailadres of telefoonnummer opgeven voor een antwoord.
 
@@ -49,6 +49,12 @@ Als u de app verwijdert, worden al deze gegevens van het apparaat gewist. Wij ku
 ### 3.1 Gebruiksstatistieken (PostHog)
 
 Bij de eerste keer openen toont iOS het standaarddialoogvenster voor toestemming van „App Tracking Transparency“ (ATT). Ranked stuurt gebeurtenissen naar PostHog in de EU alleen als ATT-toestemming is gegeven en het delen van gebruiksgegevens in Instellingen is ingeschakeld. Als de toestemming ontbreekt of het delen is uitgeschakeld, worden deze gegevens niet verzonden. Ranked stuurt naar PostHog gebeurtenissen over inrichting, eerste beoordeling, rang- en fasewijzigingen (met vaardigheid en fase), betaalscherm, aankopen en geopende schermen. Gebeurtenissen van live trainingen bevatten begin, voltooiing of afbreken, verstreken seconden, aantal vastgelegde sets, aantal verschillende vaardigheden en of dit de eerste voltooide training was. Ze bevatten geen afzonderlijke oefeningen, herhalingen, gewichten of notities. Leeftijd, geslacht, lengte en lichaamsgewicht worden niet verzonden. PostHog ontvangt ook gebruikelijke technische gegevens over apparaat, iOS, app en taal en het IP-adres, waaruit een globale locatie kan worden afgeleid. Een willekeurige PostHog-installatie-ID wordt aangemaakt zodra ATT-toestemming is gegeven en het delen van gebruiksgegevens is ingeschakeld. Gebeurtenissen en gegevens over campagneherkomst worden aan deze ID gekoppeld voor analyse en meting van advertentie-effectiviteit. U kunt ATT-toestemming intrekken in de iOS-instellingen en het delen van gebruiksgegevens uitschakelen in Ranked via Instellingen ▸ Gegevens en privacy; nieuwe verzending stopt, eerder verzonden gegevens worden niet automatisch gewist.
+
+De app kan ook de abonnementsfase, huidige toegang, verlengingsstatus en de detectie van een opzegging of factureringsprobleem melden. Deze waarnemingen zijn geen bewijs van een afschrijving en worden alleen verzonden zolang analyse is ingeschakeld.
+
+Met uw toestemming registreren gebruiksgebeurtenissen ook wanneer u een trainingsplan selecteert en een trainingssessie opent. De selectie van een plan omvat alleen het aantal trainingsdagen per week en oefeningen; het openen van een sessie omvat alleen of deze wordt hervat, de bron van binnenkomst en het aantal voorgeschreven oefeningen. De volledige inhoud van plannen, schema’s, afzonderlijke oefeningen en trainingsnotities blijven op uw apparaat.
+
+> Optioneel: Deel appgebruik, beoordeelde vaardigheden, rang, trainingsactiviteit en campagnegegevens van Apple Search Ads met PostHog om Ranked te verbeteren. We koppelen dit gebruik ook aan je proefperiode en abonnement via een willekeurige aankoopreferentie. Geen namen of trainingsnotities. Je kunt dit altijd wijzigen in Instellingen.
 
 ### 3.2 Toeschrijving aan Apple Search Ads
 

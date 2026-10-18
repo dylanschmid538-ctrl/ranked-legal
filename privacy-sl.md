@@ -24,8 +24,7 @@ uporablja v vašem telefonu. Ne pošiljajo se ne nam ne analitični storitvi.
 
 Vašo napravo lahko zapustijo tri vrste podatkov:
 
-1. **Statistika uporabe**, da vidimo, kako se aplikacija uporablja. V aplikaciji jo lahko
-   kadar koli izklopite.
+1. **Statistika uporabe**, Ranked deli to statistiko samo, če dovolite standardno Applovo zahtevo za sledenje. Deljenje lahko izklopite v aplikaciji ali prekličete dovoljenje v nastavitvah sistema iOS.
 2. **Podatki o nakupu**, da je mogoče preveriti naročnino iz trgovine App Store. Plačilo izvede
    Apple; vaših plačilnih podatkov nikoli ne vidimo.
 3. **Sporočila s povratnimi informacijami in prošnjami za podporo**, samo če jih pošljete. Z ločenim soglasjem lahko za odgovor navedete e-pošto ali telefon.
@@ -56,6 +55,10 @@ Izbris aplikacije izbriše vse to iz naprave. Obnoviti tega ne moremo, ker tega 
 ### 3.1 Statistika uporabe (PostHog)
 
 Ob prvem zagonu iOS prikaže standardno sistemsko okno za dovoljenje App Tracking Transparency (ATT). Ko dovoljenje ATT odobrite, se analitika samodejno vklopi in deluje, dokler je v Ranked vklopljena možnost »Share usage data«. Dogodki se v PostHog v EU pošiljajo samo, dokler je ATT odobren in je ta možnost vklopljena; ob zavrnitvi ali izklopu se novi podatki ne pošiljajo. Ranked pošilja storitvi PostHog v EU dogodke o uvajanju, začetni oceni, spremembah ranga in stopnje (s spretnostjo in stopnjo), plačilnem zaslonu, nakupih in odprtih zaslonih. Dogodki vadbe v živo vsebujejo začetek, zaključek ali prekinitev, pretečene sekunde, število zabeleženih serij, število različnih spretnosti in podatek o prvi zaključeni vadbi. Ne vsebujejo posameznih vaj, ponovitev, uteži ali zapiskov. Starost, spol, višina in telesna teža se ne pošiljajo. PostHog prejme tudi običajne tehnične podatke o napravi, iOS, aplikaciji in jeziku ter naslov IP, iz katerega je mogoče sklepati o približni lokaciji. Naključni identifikator namestitve PostHog se ustvari po odobritvi ATT. Dogodki in podatki o pripisu kampanje se povežejo s tem identifikatorjem za analitiko in merjenje učinkovitosti oglasov. Dovoljenje ATT lahko prekličete v nastavitvah iOS ali izklopite možnost »Share usage data« v Ranked v Nastavitvah ▸ Podatki in zasebnost; novi dogodki prenehajo, že poslani podatki pa se ne izbrišejo samodejno.
+
+Aplikacija lahko sporoča tudi fazo naročnine, trenutni dostop, stanje obnove in ali je bila zaznana odpoved ali težava z obračunavanjem. Ta opažanja niso dokaz bremenitve in se pošiljajo samo, ko je analitika vklopljena.
+
+Z vašim soglasjem dogodki uporabe beležijo tudi, kdaj izberete načrt vadbe in kdaj odprete vadbeno sejo. Izbira načrta vključuje le število vadbenih dni na teden in vaj; odprtje seje vključuje le, ali se nadaljuje, vir vstopa in število predpisanih vaj. Celotna vsebina načrtov, urniki, posamezne vaje in zapiski vadbe ostanejo v vaši napravi.
 
 ### 3.2 Pripis Apple Search Ads
 

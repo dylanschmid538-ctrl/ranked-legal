@@ -24,8 +24,7 @@ telefonie. Nie są wysyłane ani do nas, ani do usługi analitycznej.
 
 Trzy rodzaje danych mogą opuścić urządzenie:
 
-1. **Statystyki użycia**, żebyśmy widzieli, jak aplikacja jest używana. Można je w
-   aplikacji w każdej chwili wyłączyć.
+1. **Statystyki użycia**, Ranked udostępnia te statystyki tylko po zezwoleniu na standardowy komunikat Apple dotyczący śledzenia. Udostępnianie można wyłączyć w aplikacji lub cofnąć zgodę w ustawieniach iOS.
 2. **Dane zakupu**, żeby można było zweryfikować subskrypcję App Store. Płatność obsługuje Apple;
    my nigdy nie widzimy danych płatniczych.
 3. **Wiadomości z opinią lub prośbą o pomoc**, tylko jeśli je wyślesz. Za osobną zgodą możesz podać e-mail lub numer telefonu do odpowiedzi.
@@ -57,6 +56,12 @@ nie mieliśmy.
 ### 3.1 Statystyki użycia (PostHog)
 
 Przy pierwszym uruchomieniu aplikacji iOS wyświetla standardowy systemowy komunikat zgody „App Tracking Transparency” (ATT). Ranked wysyła zdarzenia do PostHog w UE tylko wtedy, gdy udzielono zgody ATT i w Ustawieniach włączono udostępnianie danych o użyciu. Jeśli zgody nie udzielono lub udostępnianie jest wyłączone, dane te nie są wysyłane. Ranked wysyła do PostHog zdarzenia dotyczące konfiguracji, oceny początkowej, zmian rangi i etapu (wraz z umiejętnością i etapem), ekranu zakupu, zakupów i otwieranych ekranów. Zdarzenia treningu na żywo obejmują rozpoczęcie, ukończenie lub przerwanie, liczbę sekund, zapisanych serii, różnych umiejętności oraz informację, czy był to pierwszy ukończony trening. Nie zawierają poszczególnych ćwiczeń, powtórzeń, obciążeń ani notatek. Wiek, płeć, wzrost i masa ciała nie są przesyłane. PostHog otrzymuje też typowe dane techniczne o urządzeniu, iOS, aplikacji i języku oraz adres IP, z którego można wywnioskować przybliżoną lokalizację. Losowy identyfikator instalacji PostHog jest tworzony po udzieleniu zgody ATT i włączeniu udostępniania danych o użyciu. Zdarzenia i dane o przypisaniu kampanii są łączone z tym identyfikatorem na potrzeby analityki i pomiaru skuteczności reklam. Zgodę ATT można cofnąć w ustawieniach iOS, a udostępnianie danych o użyciu wyłączyć w Ranked: Ustawienia ▸ Dane i prywatność; nowe zdarzenia przestają być wysyłane, ale wcześniejsze dane nie są automatycznie usuwane.
+
+Aplikacja może także zgłaszać fazę subskrypcji, bieżący dostęp, stan odnowienia oraz wykrycie anulowania lub problemu z rozliczeniem. Obserwacje te nie stanowią dowodu obciążenia i są wysyłane tylko wtedy, gdy analityka jest włączona.
+
+Za Państwa zgodą zdarzenia korzystania rejestrują także wybór planu treningowego i otwarcie sesji treningowej. Wybór planu obejmuje wyłącznie liczbę dni treningowych w tygodniu i ćwiczeń; otwarcie sesji obejmuje wyłącznie informację, czy jest wznawiana, źródło wejścia i liczbę zalecanych ćwiczeń. Pełna zawartość planów, harmonogramy, poszczególne ćwiczenia i notatki treningowe pozostają na Państwa urządzeniu.
+
+> Opcjonalnie: Udostępniaj korzystanie z aplikacji, ocenione umiejętności, rangę, aktywność treningową i dane kampanii Apple Search Ads usłudze PostHog, aby ulepszać Ranked. Łączymy też to korzystanie z Twoim okresem próbnym i subskrypcją za pomocą losowego identyfikatora zakupu. Bez imion i notatek treningowych. Możesz to zmienić w dowolnym momencie w Ustawieniach.
 
 ### 3.2 Atrybucja Apple Search Ads
 

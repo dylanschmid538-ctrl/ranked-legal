@@ -21,7 +21,7 @@ Ranked está operada por **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, 
 
 Tres tipos de datos pueden salir de su dispositivo:
 
-1. **Estadísticas de uso**, para saber cómo se utiliza la aplicación. Puede desactivarlas en la aplicación en cualquier momento.
+1. **Estadísticas de uso**, Ranked solo comparte estas estadísticas si permite la solicitud estándar de seguimiento de Apple. Puede desactivar el envío en la app o revocar el permiso en Ajustes de iOS.
 2. **Datos de compra**, para verificar la suscripción de App Store. Apple gestiona el pago; nosotros nunca vemos sus datos de pago.
 3. **Mensajes de opinión o asistencia**, solo si decide enviarlos. Puede consentir por separado en facilitar un correo electrónico o teléfono para recibir respuesta.
 
@@ -49,6 +49,12 @@ Al borrar la aplicación, se elimina todo esto del dispositivo. No podemos recup
 ### 3.1 Estadísticas de uso (PostHog)
 
 La primera vez que abre la aplicación, iOS muestra el diálogo estándar de Apple para solicitar permiso de seguimiento (App Tracking Transparency, ATT). Ranked solo envía datos de uso a PostHog en la UE si autoriza el seguimiento en el diálogo ATT; después, los envíos continúan mientras la opción de análisis de la aplicación esté activada. Los eventos incluyen la configuración, la evaluación inicial, los cambios de rango y etapa (con la habilidad y etapa), la pantalla de compra, las compras y las pantallas abiertas. Los eventos de entrenamiento en directo indican el inicio, fin o abandono, los segundos transcurridos, el número de series registradas, el número de habilidades distintas y si es el primer entrenamiento completado. No incluyen ejercicios individuales, repeticiones, pesos ni notas. No se transmiten edad, sexo, altura ni peso corporal. PostHog recibe además datos técnicos habituales del dispositivo, iOS, la aplicación y el idioma, y la dirección IP, de la que puede deducirse una ubicación aproximada. Cuando autoriza el seguimiento y tiene activada la opción de análisis, PostHog crea un identificador aleatorio de instalación y vincula a él los eventos y los datos de atribución de campaña para análisis y medición publicitaria. No se usa el IDFA. Puede desactivar el análisis en Ajustes ▸ Datos y privacidad o revocar el permiso de seguimiento en los ajustes de iOS. Al desactivar cualquiera de las dos opciones, cesan los envíos futuros; los datos ya enviados no se borran automáticamente.
+
+La app también puede comunicar la fase de la suscripción, el acceso actual, el estado de renovación y si se detectó una cancelación o un problema de facturación. Estas observaciones no constituyen prueba de un cargo y solo se envían mientras el análisis está activado.
+
+Con su consentimiento, los eventos de uso también registran cuándo selecciona un plan de entrenamiento y cuándo abre una sesión de entrenamiento. La selección del plan incluye únicamente el número de días de entrenamiento por semana y de ejercicios; la apertura de la sesión incluye únicamente si se reanuda, el origen de entrada y el número de ejercicios prescritos. El contenido completo de los planes, los horarios, los ejercicios individuales y las notas de entrenamiento permanecen en su dispositivo.
+
+> Opcional: Comparte el uso de la app, las habilidades evaluadas, el rango, la actividad de entrenamiento y los datos de campañas de Apple Search Ads con PostHog para mejorar Ranked. También vinculamos este uso a tu prueba y suscripción mediante una referencia de compra aleatoria. Sin nombres ni notas de entrenamiento. Cámbialo cuando quieras en Ajustes.
 
 ### 3.2 Atribución de Apple Search Ads
 

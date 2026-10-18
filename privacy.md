@@ -23,8 +23,7 @@ your phone. They are not sent to us, and they are not sent to the analytics serv
 
 Three kinds of data can leave your device:
 
-1. **Usage statistics**, only if you choose to share them during setup or later in Settings.
-   Sharing is off unless you choose it, and you can withdraw your choice at any time.
+1. **Usage statistics**, Ranked shares these statistics only if you allow Apple’s standard tracking request. You can turn sharing off in the app or revoke permission in iOS Settings.
 2. **Purchase data**, so the App Store subscription can be verified. Apple handles the payment;
    we never see your payment details.
 3. **Feedback and support messages**, only when you choose to send one. You may also give an email address or phone number with consent for a reply.
@@ -65,8 +64,9 @@ sends it a fixed list of events:
   you chose as your goal, your starting rank and the rank of each of your six body regions;
 - when the purchase screen was shown or dismissed, and when a purchase was started, completed or
   restored — with the product and offer it concerned; when the app later observes an active trial
-  or paid subscription period, with the product and whether it is a sandbox purchase (this is not
-  a record of every charge, and it is not sent while the app is closed);
+  or paid subscription period, whether access is active or expired, the renewal choice, and
+  whether a cancellation or billing issue was detected, with the product and whether it is a
+  sandbox purchase (this is not a record of every charge, and it is not sent while the app is closed);
 - when your rank changed, and which skill triggered it;
 - when you cleared a stage — which skill, which stage, and whether it came from a logged set, a
   back-filled workout or a manual claim;
@@ -92,6 +92,12 @@ usage sharing starts automatically and remains on until you switch *Share usage 
 Ranked's Settings ▸ Data & privacy. If you deny tracking or later revoke it in iOS Settings,
 Ranked sends no analytics events or campaign attribution. Either choice stops new data from being
 sent; it does not erase events already sent.
+
+The app may also report the subscription phase, current access, renewal status and whether a cancellation or billing issue was detected. These observations are not proof of a charge and are only sent while analytics is enabled.
+
+With your consent, usage events also record when you select a training plan and when you open a workout session. Plan selection includes only the number of training days per week and exercises; session opening includes only whether it is resumed, the entry source and the number of prescribed exercises. Full plan contents, schedules, individual exercises and workout notes stay on your device.
+
+> Optional: Share app use, assessed skills, rank, workout activity and Apple Search Ads campaign data with PostHog to improve Ranked. We also link this use to your trial and subscription using a random purchase reference. No names or workout notes. Change this anytime in Settings.
 
 ### 3.2 Apple Search Ads attribution
 
