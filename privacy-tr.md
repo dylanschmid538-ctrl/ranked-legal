@@ -7,7 +7,7 @@ permalink: /privacy/tr/
 
 # Gizlilik Politikası · Calisthenics Skills – Ranked
 
-**Son güncelleme: 2026-10-13**
+**Son güncelleme: 2026-10-18**
 
 Bu politika, Ranked'in hangi verileri topladığını, bunların nereye gittiğini ve bu konuda neler yapabileceğinizi açıklar.
 
@@ -25,7 +25,7 @@ Ranked'in işletmecisi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, İ
 2. App Store aboneliğinin doğrulanması için **satın alma verileri**. Ödemeyi Apple işler; ödeme bilgileriniz bize hiçbir zaman görünmez.
 3. **Görüş ve destek mesajları**, yalnızca siz göndermeyi seçerseniz. Yanıt almak için ayrıca onay vererek e-posta veya telefon numarası paylaşabilirsiniz.
 
-Ranked sizi başka uygulamalar veya web siteleri arasında takip etmez, reklam göstermez ve Apple Health'ten veri okumaz.
+Ranked sizi diğer uygulama veya web sitelerinde takip etmez. Aşağıda açıklanan kullanım istatistikleri ve reklam kampanyası ilişkilendirmesi yalnızca ATT izni verildiğinde ve Ranked içindeki “Share usage data” ayarı açıkken gönderilir. Uygulama reklam göstermez ve Apple Health'ten veri okumaz.
 
 ---
 
@@ -48,11 +48,11 @@ Uygulamayı silmek, bunların tamamını cihazdan siler. Veriler hiçbir zaman e
 
 ### 3.1 Kullanım istatistikleri (PostHog)
 
-Analiz varsayılan olarak kapalıdır. Yalnızca kurulum sırasında veya daha sonra Ayarlar'da açıkça onay verirseniz Ranked, AB'de barındırılan PostHog'a kurulum, ilk değerlendirme, rütbe ve aşama değişiklikleri (beceri ve aşama dâhil), satın alma ekranı, satın almalar ve açılan ekranlar hakkında olay gönderir. Canlı antrenman olayları başlangıcı, tamamlanmayı veya yarıda bırakmayı; geçen saniyeleri, kaydedilen set ve farklı beceri sayılarını ve bunun ilk tamamlanan antrenman olup olmadığını içerir. Tek tek egzersizleri, tekrarları, ağırlıkları veya notları içermez. Yaş, cinsiyet, boy ve vücut ağırlığı gönderilmez. PostHog ayrıca cihaz, iOS, uygulama ve dile ilişkin olağan teknik bilgileri ve yaklaşık konum çıkarılabilecek IP adresini alır. Rastgele analiz kimliği onayınızdan sonra oluşturulur. Onayı Ayarlar ▸ Veriler ve gizlilik'ten geri alabilirsiniz; yeni olaylar durur, önceden gönderilen veriler otomatik olarak silinmez.
+Uygulama ilk kez açıldığında iOS, App Tracking Transparency (ATT) için standart sistem izin iletişim kutusunu gösterir. ATT izni verildiğinde analiz otomatik olarak başlar ve Ranked içindeki “Share usage data” ayarı açık olduğu sürece devam eder. Olaylar, yalnızca ATT izni varken ve bu ayar açıkken AB’deki PostHog’a gönderilir; izin reddedilirse veya ayar kapatılırsa yeni veriler gönderilmez. Ranked PostHog’a kurulum, ilk değerlendirme, rütbe ve aşama değişiklikleri (beceri ve aşama dâhil), satın alma ekranı, satın almalar ve açılan ekranlar hakkında olay gönderir. Canlı antrenman olayları başlangıcı, tamamlanmayı veya yarıda bırakmayı; geçen saniyeleri, kaydedilen set ve farklı beceri sayılarını ve bunun ilk tamamlanan antrenman olup olmadığını içerir. Tek tek egzersizleri, tekrarları, ağırlıkları veya notları içermez. Yaş, cinsiyet, boy ve vücut ağırlığı gönderilmez. PostHog ayrıca cihaz, iOS, uygulama ve dile ilişkin olağan teknik bilgileri ve yaklaşık konum çıkarılabilecek IP adresini alır. Rastgele bir PostHog kurulum kimliği ATT izni verildiğinde oluşturulur. Olaylar ve kampanya ilişkilendirme verileri analiz ve reklam ölçümü amacıyla bu kimlikle ilişkilendirilir. ATT iznini iOS Ayarları’ndan geri alabilir veya Ranked’de Ayarlar ▸ Veriler ve gizlilik bölümünden “Share usage data” ayarını kapatabilirsiniz; yeni olaylar durur, önceden gönderilen veriler otomatik olarak silinmez.
 
 ### 3.2 Apple Search Ads ilişkilendirmesi
 
-Ranked, yalnızca analiz onayınızdan sonra Apple AdServices'e bir kez kurulumun Apple Search Ads'den gelip gelmediğini sorar. Bir reklama dokunduysanız kampanya, reklam grubu, anahtar kelime, reklam içeriği, ülke veya bölge, dokunma tarihi ve indirme türü rastgele PostHog kimliğiyle ilişkilendirilebilir. Reklam kimliği IDFA kullanılmaz. Onayı geri çekmek gelecekteki aktarımları durdurur.
+Ranked, yalnızca ATT izni varken ve “Share usage data” ayarı açıkken Apple AdServices’e bir kez kurulumun Apple Search Ads'den gelip gelmediğini sorar. Bir reklama dokunduysanız kampanya, reklam grubu, anahtar kelime, reklam içeriği, ülke veya bölge, dokunma tarihi ve indirme türü rastgele PostHog kimliğiyle ilişkilendirilebilir. Reklam kimliği IDFA kullanılmaz. iOS Ayarları’ndan ATT iznini geri çekmek veya Ranked’de “Share usage data” ayarını kapatmak gelecekteki aktarımları durdurur.
 
 ### 3.3 Satın almalar (Apple ve RevenueCat)
 
@@ -73,7 +73,7 @@ Görüş veya destek talebi gönderirseniz Ranked mesajı, kategorisini ve kayna
 - **Hesap yok.** Oturum açmazsınız. Herhangi bir sunucuda size ait profil bulunmaz.
 - **Apple Health yok.** Ranked, Sağlık uygulamasından veri okumaz veya oraya yazmaz.
 - **Kamera, fotoğraf, mikrofon, konum veya kişiler yok.** Uygulama bu izinleri istemez.
-- **Uygulamalar veya web siteleri arasında takip**, reklam tanımlayıcısı, uygulama içi reklam, veri aracılarına veri satışı veya aktarımı yok.
+- **Ranked sizi diğer uygulama veya web sitelerinde takip etmez.** §3’te açıklanan kullanım istatistikleri ve kampanya ölçümü yalnızca ATT izni verildiğinde ve “Share usage data” ayarı açıkken kullanılır; IDFA kullanılmaz. Uygulama reklam göstermez, veriler satılmaz veya veri aracılarına aktarılmaz.
 - **Anlık bildirim sunucusu yok.** Hatırlatıcılar telefonunuzda yerel olarak planlanır; bunlarla ilgili hiçbir şey cihazdan çıkmaz. İlki planlanmadan önce izniniz istenir ve bunları iOS Ayarları'ndan istediğiniz zaman kapatabilirsiniz.
 
 ---
@@ -110,7 +110,7 @@ Cihazınızdaki her şey, uygulamayı silene kadar orada kalır.
 
 ## 8. Haklarınız
 
-Analiz onayınızı Ayarlar ▸ Veriler ve gizlilik'ten gerekçe göstermeden istediğiniz zaman geri çekebilirsiniz. Yeni olaylar hemen durur; ancak önceden gönderilen veriler otomatik silinmez ve App Store aboneliğiniz iptal edilmez.
+Gelecekteki analiz verilerinin gönderilmesini istediğiniz zaman iOS Ayarları’ndan ATT iznini geri çekerek veya Ranked’de “Share usage data” ayarını kapatarak durdurabilirsiniz: Ayarlar ▸ Veriler ve gizlilik. Önceden gönderilen veriler otomatik olarak silinmez ve App Store aboneliğiniz iptal edilmez.
 
 Yerel antrenman verilerini Ayarlar ▸ Veriler ve gizlilik ▸ *Yerel antrenman verilerini sil* bölümünden veya uygulamayı silerek kaldırabilirsiniz. Aboneliği Apple Hesabınızda ayrıca yönetip iptal edersiniz.
 

@@ -7,7 +7,7 @@ permalink: /privacy/ro/
 
 # Politica de confidențialitate · Calisthenics Skills – Ranked
 
-**Ultima actualizare: 2026-10-13**
+**Ultima actualizare: 2026-10-18**
 
 Această politică descrie ce date colectează Ranked, unde ajung și ce puteți face în privința lor.
 
@@ -25,7 +25,7 @@ Trei tipuri de date pot părăsi dispozitivul:
 2. **Date despre cumpărături**, pentru verificarea abonamentului App Store. Apple procesează plata; noi nu vedem niciodată detaliile dvs. de plată.
 3. **Mesaje de feedback și asistență**, doar dacă alegeți să le trimiteți. Cu acord separat puteți oferi e-mailul sau telefonul pentru răspuns.
 
-Ranked nu vă urmărește între alte aplicații sau site-uri, nu afișează reclame și nu citește date din Apple Health.
+Ranked nu vă urmărește între alte aplicații sau site-uri. Statisticile de utilizare și atribuirea campaniilor publicitare descrise mai jos sunt trimise numai dacă ați autorizat ATT și ați activat partajarea datelor de utilizare. Aplicația nu afișează reclame și nu citește date din Apple Health.
 
 ---
 
@@ -48,11 +48,11 @@ Aplicația nu exclude această bază de date din copia de rezervă a dispozitivu
 
 ### 3.1 Statistici de utilizare (PostHog)
 
-Analiza este dezactivată implicit. Numai dacă vă dați acordul explicit la configurare sau ulterior în Setări, Ranked trimite către PostHog în UE evenimente privind configurarea, evaluarea inițială, schimbările de rang și etapă (cu abilitatea și etapa), ecranul de cumpărare, achizițiile și ecranele deschise. Evenimentele antrenamentelor în timp real includ începutul, finalizarea sau abandonarea, secundele scurse, numărul de seturi înregistrate, numărul de abilități diferite și dacă a fost primul antrenament finalizat. Nu includ exerciții individuale, repetări, greutăți sau note. Vârsta, sexul, înălțimea și greutatea corporală nu sunt transmise. PostHog primește și informații tehnice obișnuite despre dispozitiv, iOS, aplicație și limbă, precum și adresa IP, din care se poate deduce o locație aproximativă. Un identificator aleatoriu este creat după consimțământ. Îl puteți retrage în Setări ▸ Date și confidențialitate; noile evenimente se opresc, dar datele deja trimise nu sunt șterse automat.
+La prima deschidere a aplicației, iOS afișează dialogul standard de autorizare „App Tracking Transparency” (ATT). Ranked trimite evenimente către PostHog în UE numai dacă ați autorizat ATT și ați activat partajarea datelor de utilizare în Setări. Dacă autorizarea nu este acordată sau partajarea este dezactivată, aceste date nu sunt trimise. Ranked trimite către PostHog evenimente privind configurarea, evaluarea inițială, schimbările de rang și etapă (cu abilitatea și etapa), ecranul de cumpărare, achizițiile și ecranele deschise. Evenimentele antrenamentelor în timp real includ începutul, finalizarea sau abandonarea, secundele scurse, numărul de seturi înregistrate, numărul de abilități diferite și dacă a fost primul antrenament finalizat. Nu includ exerciții individuale, repetări, greutăți sau note. Vârsta, sexul, înălțimea și greutatea corporală nu sunt transmise. PostHog primește și informații tehnice obișnuite despre dispozitiv, iOS, aplicație și limbă, precum și adresa IP, din care se poate deduce o locație aproximativă. Un identificator aleatoriu de instalare PostHog este creat după autorizarea ATT și activarea partajării datelor de utilizare. Evenimentele și datele de atribuire a campaniilor sunt asociate acestui identificator pentru analiză și măsurarea eficienței publicitare. Puteți revoca autorizarea ATT în configurările iOS și puteți dezactiva partajarea datelor de utilizare în Ranked, Setări ▸ Date și confidențialitate; noile evenimente se opresc, dar datele deja trimise nu sunt șterse automat.
 
 ### 3.2 Atribuirea Apple Search Ads
 
-Doar după consimțământul pentru analiză, Ranked întreabă o singură dată Apple AdServices dacă instalarea provine din Apple Search Ads. După un clic pe reclamă, campania, grupul, cuvântul-cheie, materialul publicitar, țara sau regiunea, data clicului și tipul descărcării pot fi asociate identificatorului aleatoriu PostHog. IDFA nu este folosit. Retragerea consimțământului oprește transmiterile viitoare.
+Numai dacă ați autorizat ATT și ați activat partajarea datelor de utilizare, Ranked întreabă o singură dată Apple AdServices dacă instalarea provine din Apple Search Ads. După un clic pe reclamă, campania, grupul, cuvântul-cheie, materialul publicitar, țara sau regiunea, data clicului și tipul descărcării pot fi asociate identificatorului aleatoriu PostHog. IDFA nu este folosit. Transmiterea viitoare se oprește dacă revocați autorizarea ATT în configurările iOS sau dezactivați partajarea datelor de utilizare în Setările Ranked.
 
 ### 3.3 Cumpărături (Apple și RevenueCat)
 
@@ -73,7 +73,7 @@ Dacă trimiteți feedback sau o cerere de asistență, Ranked transmite mesajul,
 - **Fără conturi.** Nu vă conectați niciodată. Nu există un profil despre dvs. pe vreun server.
 - **Fără Apple Health.** Ranked nu citește și nu scrie în aplicația Health.
 - **Fără cameră, fotografii, microfon, locație sau contacte.** Aplicația nu cere aceste permisiuni.
-- **Fără urmărire între aplicații sau site-uri**, identificator publicitar, reclame în aplicație ori date vândute sau transmise brokerilor de date.
+- **Ranked nu vă urmărește între alte aplicații sau site-uri.** Statisticile de utilizare și măsurarea campaniilor descrise la §3 sunt folosite numai după autorizarea ATT și activarea partajării datelor de utilizare; IDFA nu este utilizat. Aplicația nu afișează reclame, iar datele nu sunt vândute sau transmise brokerilor de date.
 - **Fără server de notificări push.** Mementourile sunt programate local pe telefon; nimic despre ele nu părăsește dispozitivul. Vi se cere permisiunea înainte de primul memento și le puteți dezactiva oricând în configurările iOS.
 
 ---
@@ -110,7 +110,7 @@ Tot ce este pe dispozitiv rămâne acolo până ștergeți aplicația.
 
 ## 8. Drepturile dvs.
 
-Puteți retrage oricând, fără motiv, consimțământul pentru analiză în Setări ▸ Date și confidențialitate. Noile evenimente încetează imediat, dar datele deja trimise nu sunt șterse automat și abonamentul App Store nu este anulat.
+Puteți opri oricând transmiterea viitoare a datelor analitice revocând autorizarea ATT în configurările iOS sau dezactivând partajarea datelor de utilizare în Ranked: Setări ▸ Date și confidențialitate. Datele deja trimise nu sunt șterse automat, iar abonamentul App Store nu este anulat.
 
 Puteți șterge datele locale de antrenament în Setări ▸ Date și confidențialitate ▸ *Șterge datele locale de antrenament* sau prin ștergerea aplicației. Abonamentul se gestionează și se anulează separat în Contul Apple.
 

@@ -8,7 +8,7 @@ permalink: /privacy/lt/
 
 # Privatumo politika · Calisthenics Skills – Ranked
 
-**Paskutinį kartą atnaujinta: 2026-10-13**
+**Paskutinį kartą atnaujinta: 2026-10-18**
 
 Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti.
 
@@ -30,8 +30,7 @@ Jūsų įrenginį gali palikti trijų rūšių duomenys:
    „Apple“; Jūsų mokėjimo duomenų mes niekada nematome.
 3. **Atsiliepimų ir pagalbos pranešimai**, tik jei patys juos siunčiate. Atskirai sutikę galite pateikti el. paštą ar telefono numerį atsakymui.
 
-„Ranked“ neseka Jūsų kitose programėlėse ar svetainėse, nerodo reklamos ir nieko neskaito iš
-„Apple“ programėlės „Sveikata“.
+„Ranked“ neseka Jūsų tarp kitų programėlių ar svetainių. Naudojimo statistika ir reklamos kampanijų priskyrimas, aprašyti toliau, siunčiami tik gavus ATT leidimą ir įjungus naudojimo statistikos bendrinimą. Programėlėje reklama nerodoma ir iš „Apple“ programėlės „Sveikata“ duomenys neskaitomi.
 
 ---
 
@@ -58,11 +57,11 @@ neturėjome.
 
 ### 3.1 Naudojimo statistika (PostHog)
 
-Analitika pagal numatytuosius nustatymus išjungta. Tik aiškiai sutikus sąrankos metu arba vėliau Nustatymuose, Ranked siunčia ES veikiantiems PostHog įvykius apie sąranką, pradinį įvertinimą, rango ir pakopos pokyčius (nurodant įgūdį ir pakopą), pirkimo ekraną, pirkimus ir atidarytus ekranus. Tiesioginės treniruotės įvykiai apima pradžią, pabaigą ar nutraukimą, praėjusias sekundes, užregistruotų serijų ir skirtingų įgūdžių skaičių bei ar tai buvo pirmoji baigta treniruotė. Juose nėra atskirų pratimų, pakartojimų, svorių ar pastabų. Amžius, lytis, ūgis ir kūno svoris nesiunčiami. PostHog taip pat gauna įprastus techninius įrenginio, iOS, programėlės ir kalbos duomenis bei IP adresą, iš kurio galima nustatyti apytikrę vietą. Atsitiktinis analitikos identifikatorius sukuriamas po sutikimo. Jį galite atšaukti Nustatymuose ▸ Duomenys ir privatumas; nauji įvykiai nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami.
+Pirmą kartą paleidus programėlę, iOS parodo standartinį „App Tracking Transparency“ (ATT) leidimo dialogą. Ranked siunčia įvykius į ES esantį PostHog tik tada, kai suteiktas ATT leidimas ir Nustatymuose įjungtas naudojimo statistikos bendrinimas. Jei leidimas nesuteiktas arba bendrinimas išjungtas, šie duomenys nesiunčiami. Ranked siunčia PostHog įvykius apie sąranką, pradinį įvertinimą, rango ir pakopos pokyčius (nurodant įgūdį ir pakopą), pirkimo ekraną, pirkimus ir atidarytus ekranus. Tiesioginės treniruotės įvykiai apima pradžią, pabaigą ar nutraukimą, praėjusias sekundes, užregistruotų serijų ir skirtingų įgūdžių skaičių bei ar tai buvo pirmoji baigta treniruotė. Juose nėra atskirų pratimų, pakartojimų, svorių ar pastabų. Amžius, lytis, ūgis ir kūno svoris nesiunčiami. PostHog taip pat gauna įprastus techninius įrenginio, iOS, programėlės ir kalbos duomenis bei IP adresą, iš kurio galima nustatyti apytikrę vietą. Atsitiktinis PostHog diegimo identifikatorius sukuriamas, kai suteiktas ATT leidimas ir įjungtas naudojimo statistikos bendrinimas. Įvykiai ir kampanijos priskyrimo duomenys siejami su šiuo identifikatoriumi analizei ir reklamos veiksmingumui matuoti. ATT leidimą galite atšaukti iOS nustatymuose, o statistikos bendrinimą išjungti Ranked Nustatymuose ▸ Duomenys ir privatumas; nauji įvykiai nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami.
 
 ### 3.2 „Apple Search Ads“ priskyrimas
 
-Tik gavus sutikimą analitikai, Ranked vieną kartą per Apple AdServices patikrina, ar diegimas susijęs su Apple Search Ads. Spustelėjus skelbimą, kampanija, skelbimų grupė, raktažodis, kūrybinė medžiaga, šalis ar regionas, spustelėjimo data ir atsisiuntimo tipas gali būti susieti su atsitiktiniu PostHog identifikatoriumi. Reklamos identifikatorius IDFA nenaudojamas. Atšaukus sutikimą būsimi perdavimai sustoja.
+Tik kai suteiktas ATT leidimas ir įjungtas naudojimo statistikos bendrinimas, Ranked vieną kartą per Apple AdServices patikrina, ar diegimas susijęs su Apple Search Ads. Spustelėjus skelbimą, kampanija, skelbimų grupė, raktažodis, kūrybinė medžiaga, šalis ar regionas, spustelėjimo data ir atsisiuntimo tipas gali būti susieti su atsitiktiniu PostHog identifikatoriumi. Reklamos identifikatorius IDFA nenaudojamas. Atšaukus ATT leidimą iOS nustatymuose arba išjungus naudojimo statistikos bendrinimą Ranked Nustatymuose, būsimi duomenų siuntimai sustoja.
 
 ### 3.3 Pirkiniai („Apple“ ir „RevenueCat“)
 
@@ -91,8 +90,7 @@ Jei siunčiate atsiliepimą ar pagalbos prašymą, Ranked perduoda pranešimą, 
 - **Jokio „Apple Sveikata“.** „Ranked“ nei skaito iš programėlės „Sveikata“, nei į ją rašo.
 - **Jokios kameros, nuotraukų, mikrofono, vietos ar kontaktų.** Programėlė neprašo nė vieno iš šių
   leidimų.
-- **Jokio sekimo tarp programėlių ar svetainių**, jokio reklamos identifikatoriaus, jokios reklamos
-  programėlėje, jokių duomenų, parduodamų ar perduodamų duomenų tarpininkams.
+- **„Ranked“ neseka Jūsų tarp kitų programėlių ar svetainių.** Naudojimo statistika ir kampanijų priskyrimas, aprašyti §3, naudojami tik gavus ATT leidimą ir įjungus statistikos bendrinimą; IDFA nenaudojamas. Programėlėje reklama nerodoma, o duomenys neparduodami ir neperduodami duomenų tarpininkams.
 - **Jokio pranešimų serverio.** Priminimai, kuriuos „Ranked“ gali siųsti, planuojami vietoje, Jūsų
   telefone; niekas apie juos įrenginio nepalieka. Prieš pirmąjį Jūsų paklausiama, o išjungti juos
   galite bet kada „iOS“ nustatymuose.
@@ -140,7 +138,7 @@ Viskas, kas yra Jūsų įrenginyje, ten lieka tol, kol ištrinsite programėlę.
 
 ## 8. Jūsų teisės
 
-Sutikimą analitikai galite bet kada be priežasties atšaukti Nustatymuose ▸ Duomenys ir privatumas. Nauji įvykiai iškart nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami, o App Store prenumerata neatšaukiama.
+Būsimų analitikos duomenų siuntimą galite bet kada sustabdyti atšaukę ATT leidimą iOS nustatymuose arba išjungę naudojimo statistikos bendrinimą Ranked Nustatymuose ▸ Duomenys ir privatumas. Jau išsiųsti duomenys automatiškai neištrinami, o App Store prenumerata neatšaukiama.
 
 Vietinius treniruočių duomenis galite ištrinti Nustatymuose ▸ Duomenys ir privatumas ▸ *Ištrinti vietinius treniruočių duomenis* arba pašalinę programėlę. Prenumerata atskirai valdoma ir atšaukiama Apple paskyroje.
 

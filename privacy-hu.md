@@ -7,7 +7,7 @@ permalink: /privacy/hu/
 
 # Adatvédelmi tájékoztató · Calisthenics Skills – Ranked
 
-**Utolsó frissítés: 2026-10-13**
+**Utolsó frissítés: 2026-10-18**
 
 Ez a tájékoztató ismerteti, milyen adatokat gyűjt a Ranked, hová kerülnek, és milyen lehetőségei vannak velük kapcsolatban.
 
@@ -25,7 +25,9 @@ Háromféle adat hagyhatja el az eszközét:
 2. **Vásárlási adatok**, hogy ellenőrizni lehessen az App Store-előfizetést. A fizetést az Apple kezeli; fizetési adatait mi soha nem látjuk.
 3. **Visszajelzések és támogatási üzenetek**, csak ha Ön elküldi őket. Válaszhoz külön hozzájárulással e-mail-címet vagy telefonszámot adhat meg.
 
-A Ranked nem követi Önt más alkalmazásokban vagy webhelyeken, nem jelenít meg hirdetéseket, és nem olvas adatot az Apple Egészség alkalmazásból.
+A Ranked nem jelenít meg hirdetéseket, és nem olvas adatot az Apple Egészség alkalmazásból. Az ATT engedélyezése után a Ranked automatikusan bekapcsolja a használati adatok megosztását; az adatküldés addig folytatódik, amíg ezt a kapcsolót ki nem kapcsolja. A használati adatok és az Apple Search Ads telepítési hozzárendelése mérési célból összekapcsolható; lásd §3.1–3.2.
+
+Az első indításkor megjelenő ATT-kérés engedélyezése után a Ranked automatikusan bekapcsolja a használati adatok megosztását. Az adatküldés addig tart, amíg az ATT engedélyezett, és a megosztás kapcsolója be van kapcsolva a Ranked Beállításaiban. A megosztás a Ranked Beállításaiban bármikor kikapcsolható. Az ATT iOS-beállításokban történő visszavonása szintén leállítja a jövőbeli gyűjtést és küldést; a már elküldött adatok nem törlődnek.
 
 ---
 
@@ -48,11 +50,11 @@ Az alkalmazás törlése ezeket az adatokat is törli az eszközről. Nem tudjuk
 
 ### 3.1 Használati statisztikák (PostHog)
 
-Az elemzés alapértelmezés szerint ki van kapcsolva. A Ranked csak akkor küld az EU-ban működő PostHognak eseményeket, ha a beállítás során vagy később a Beállításokban kifejezetten hozzájárul: a beállításról, kezdeti felmérésről, rang- és szintváltozásokról (a készséggel és szinttel), fizetési képernyőről, vásárlásokról és megnyitott képernyőkről. Az élő edzés eseményei tartalmazzák a kezdést, befejezést vagy megszakítást, az eltelt másodperceket, a rögzített sorozatok és különböző készségek számát, valamint hogy ez volt-e az első befejezett edzés. Nem tartalmaznak egyedi gyakorlatokat, ismétléseket, súlyokat vagy jegyzeteket. Az életkor, nem, magasság és testsúly nem kerül elküldésre. A PostHog szokásos technikai adatokat is kap az eszközről, iOS-ről, alkalmazásról és nyelvről, valamint az IP-címet, amelyből hozzávetőleges hely becsülhető. Véletlenszerű elemzési azonosító csak a hozzájárulás után jön létre. A hozzájárulás a Beállítások ▸ Adatok és adatvédelem alatt visszavonható; az új események leállnak, a korábban elküldött adatok nem törlődnek automatikusan.
+Az első indításkor az iOS megjeleníti az Apple szabványos követési engedélykérő ablakát (App Tracking Transparency, ATT). Az ATT engedélyezése után a Ranked automatikusan bekapcsolja a használati adatok megosztását. A Ranked csak addig küld eseményeket az EU-ban működő PostHognak, amíg az ATT engedélyezett, és a megosztási kapcsoló be van kapcsolva a Ranked Beállításaiban. Az események a beállítási lépésekről és a kezdeti felmérésről, a rang- és szintváltozásokról (a készséggel és szinttel), a vásárlási képernyőről és vásárlásokról, a megnyitott képernyőkről, valamint az élő edzés indításáról, befejezéséről vagy megszakításáról szólnak; tartalmazzák az eltelt másodperceket, a rögzített sorozatok és különböző készségek számát, valamint azt, hogy ez volt-e az első befejezett edzés. Nem tartalmaznak egyedi gyakorlatokat, ismétléseket, súlyokat vagy jegyzeteket. Az életkor, nem, magasság és testsúly nem kerül elküldésre. A PostHog szokásos technikai adatokat is kap az eszközről, iOS-ről, alkalmazásról és nyelvről, valamint az IP-címet, amelyből hozzávetőleges hely becsülhető. Az eseményeket a PostHog véletlenszerű telepítési azonosítóhoz kapcsolja elemzési és hirdetésmérési célból; IDFA-t nem használunk. A megosztás kikapcsolása a Ranked Beállításaiban vagy az ATT visszavonása az iOS beállításaiban leállítja a jövőbeli gyűjtést és küldést. A már elküldött események nem törlődnek automatikusan.
 
 ### 3.2 Apple Search Ads-hozzárendelés
 
-Csak az elemzéshez adott hozzájárulás után kérdezi le a Ranked egyszer az Apple AdServices rendszerétől, hogy a telepítés Apple Search Ads hirdetésből származott-e. Hirdetésre kattintás után a kampány, hirdetéscsoport, kulcsszó, kreatív anyag, ország vagy régió, kattintási dátum és letöltéstípus a véletlenszerű PostHog-azonosítóhoz kapcsolható. Az IDFA hirdetési azonosítót nem használjuk. A hozzájárulás visszavonása leállítja a jövőbeli továbbítást.
+A Ranked csak addig kér telepítési hozzárendelést az Apple AdServices szolgáltatástól, amíg az ATT engedélyezett, és a megosztás be van kapcsolva a Ranked Beállításaiban. Hirdetésre kattintás után a kampány, hirdetéscsoport, kulcsszó, kreatív anyag, ország vagy régió, kattintási dátum és letöltéstípus ugyanahhoz a véletlenszerű PostHog-telepítési azonosítóhoz kapcsolódhat hirdetésmérési célból. IDFA-t nem használunk. Az engedély visszavonása vagy az adatmegosztás kikapcsolása leállítja a jövőbeli lekérdezéseket és küldéseket; a már elküldött adatok nem törlődnek.
 
 ### 3.3 Vásárlások (Apple és RevenueCat)
 
@@ -73,23 +75,21 @@ Ha visszajelzést vagy támogatási kérést küld, a Ranked az üzenetet, annak
 - **Nincsenek fiókok.** Nem kell bejelentkeznie. Semmilyen szerveren nincs Önről profil.
 - **Nincs Apple Egészség-hozzáférés.** A Ranked nem olvas és nem ír adatot az Egészség alkalmazásban.
 - **Nincs kamera-, fénykép-, mikrofon-, helyadat- vagy névjegyhozzáférés.** Az alkalmazás nem kér ilyen engedélyeket.
-- **Nincs alkalmazások vagy webhelyek közötti követés**, hirdetési azonosító, alkalmazáson belüli reklám, valamint adatértékesítés vagy adatközvetítőknek történő adattovábbítás.
+- **Követés és hozzárendelés:** a Ranked nem használ IDFA-t. A használati adatok és az Apple Search Ads révén történt telepítések hozzárendelése hirdetésmérési célból csak az ATT engedélyezése és a használati adatok megosztásának bekapcsolása után kapcsolható össze. Az alkalmazásban nincsenek hirdetések, és adatokat nem adunk el, illetve nem adunk át adatkereskedőknek.
 - **Nincs pushértesítési szerver.** A Ranked emlékeztetőit a telefon helyben ütemezi; semmilyen kapcsolódó adat nem hagyja el az eszközt. Az első ütemezése előtt engedélyt kérünk, és az iOS beállításaiban bármikor kikapcsolhatja őket.
 
 ---
-
 ## 5. Jogalap (GDPR és svájci revDSG)
 
 | Adatkezelés | Jogalap |
 |---|---|
 | Vásárlások és előfizetés-ellenőrzés (§3.3) | Szerződés teljesítése |
-| Használati statisztikák (§3.1) | Az Ön hozzájárulása; bármikor visszavonható a Beállítások ▸ Adatok és adatvédelem alatt |
-| Search Ads-hozzárendelés (§3.2) | Az Ön hozzájárulása; bármikor visszavonható a Beállítások ▸ Adatok és adatvédelem alatt |
+| Használati statisztikák (§3.1) | Az Ön hozzájárulása a használati adatok megosztásához és az Apple ATT-engedélye; mindkettőt bármikor visszavonhatja. A Ranked Beállításaiban történő kikapcsolás vagy az ATT iOS-beállításokban történő visszavonása leállítja a jövőbeli adatgyűjtést; a már elküldött adatok nem törlődnek. |
+| Search Ads-hozzárendelés (§3.2) | Az Ön hozzájárulása a használati adatok megosztásához és az Apple ATT-engedélye; mindkettőt bármikor visszavonhatja. A Ranked Beállításaiban történő kikapcsolás vagy az ATT iOS-beállításokban történő visszavonása leállítja a jövőbeli adatgyűjtést; a már elküldött adatok nem törlődnek. |
 
 **Itt két jogszabályrendszer alkalmazandó, nem csak egy.** A Rankedet Svájcból üzemeltetik, ezért az adatkezelést a felülvizsgált svájci szövetségi adatvédelmi törvény (**revDSG**, 2023 szeptembere óta hatályos) szabályozza. A **GDPR** emellett akkor is alkalmazandó, ha az alkalmazást az Európai Unióból vagy az Egyesült Királyságból használják. Eltérés esetén a szigorúbb szabályt követjük. A svájci lakosokat a revDSG 25. és következő cikke alapján ugyanazok a §8-ban felsorolt alapvető jogok illetik meg.
 
 ---
-
 ## 6. Hol történik az adatkezelés
 
 - A **PostHog** az Európai Unióban kezeli a használati statisztikákat.
@@ -110,7 +110,7 @@ Az eszközén tárolt adatok az alkalmazás törléséig maradnak ott.
 
 ## 8. Az Ön jogai
 
-Az elemzéshez adott hozzájárulást bármikor, indoklás nélkül visszavonhatja a Beállítások ▸ Adatok és adatvédelem alatt. Az új események azonnal leállnak, de a már elküldött adatok nem törlődnek automatikusan, és az App Store-előfizetés nem szűnik meg.
+A használati adatok megosztását bármikor kikapcsolhatja a Ranked Beállítások ▸ Adatok és adatvédelem menüpontjában, az ATT-engedélyt pedig visszavonhatja az iOS beállításaiban. Mindkét művelet leállítja a jövőbeli gyűjtést és küldést. A már elküldött adatok nem törlődnek automatikusan, és az App Store-előfizetés nem szűnik meg.
 
 A helyi edzésadatokat a Beállítások ▸ Adatok és adatvédelem ▸ *Helyi edzésadatok törlése* pontban vagy az alkalmazás törlésével távolíthatja el. Az előfizetést külön az Apple-fiókjában kezelheti és mondhatja le.
 
