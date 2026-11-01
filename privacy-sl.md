@@ -8,7 +8,7 @@ permalink: /privacy/sl/
 
 # Politika zasebnosti · Calisthenics Skills – Ranked
 
-**Zadnja posodobitev: 2026-10-18**
+**Zadnja posodobitev: 2026-11-01**
 
 Ta politika opisuje, kaj Ranked zbira, kam to gre in kaj lahko glede tega storite.
 
@@ -82,6 +82,10 @@ prijavljenim v napravi, in izid na enak način posreduje RevenueCatu.
 ### 3.4 Sporočila s povratnimi informacijami in prošnjami za podporo (Cloudflare in CloudKit)
 
 Če pošljete povratne informacije ali prošnjo za podporo, Ranked pošlje sporočilo, njegovo kategorijo in vir storitvi Cloudflare Worker. Ta jih s zasebnim strežniškim ključem shrani v javno podatkovno zbirko Apple CloudKit. Za pošiljanje sporočila se vam ni treba prijaviti v iCloud. Cloudflare Worker uporablja omrežni naslov zahteve za tehnično omejevanje zlorab; niti izvirni naslov niti njegova zgoščena vrednost se ne shranita v zapis povratnih informacij v CloudKitu. Ločeno lahko privolite v posredovanje e-poštnega naslova ali telefonske številke, da vam odgovorimo zunaj aplikacije. Sporočila in kontaktni podatki se ne pošiljajo družbama PostHog ali RevenueCat in niso povezani z računom v aplikaciji. Sporočilo obdelujemo, da odgovorimo na vašo prošnjo, neobvezne kontaktne podatke pa z vašim soglasjem. Trenutno ni določenega roka za samodejni izbris sporočil ali kontaktnih podatkov. Dostop do podatkov ali izbris lahko zahtevate na **dylan.schmid538@gmail.com**.
+
+### 3.5 Videoposnetki z navodili (YouTube)
+
+Na straneh vaj se najprej prikaže predogledna slika, shranjena v napravi. Vdelani predvajalnik YouTube se naloži šele, ko se dotaknete možnosti **Oglej si videoposnetek**. Ob tej zahtevi Google/YouTube prejme vaš omrežni naslov, podatke o zahtevi brskalnika in predvajalnika, stalni ID videoposnetka ter podatek o viru, ki označuje aplikacijo Ranked. Ranked ne doda vašega imena, telesnih mer, dnevnika ali načrta vadbe niti identifikatorjev PostHog ali RevenueCat. Vajo lahko uporabljate brez nalaganja videoposnetka. Ločena povezava **Oglej si na YouTubu** vas odpelje iz aplikacije Ranked. [Googlova politika zasebnosti](https://policies.google.com/privacy) opisuje obdelavo in hrambo podatkov pri Googlu; Ranked ne more izbrisati podatkov, ki jih hrani YouTube.
 
 ---
 

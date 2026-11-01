@@ -8,7 +8,7 @@ permalink: /privacy/lt/
 
 # Privatumo politika · Calisthenics Skills – Ranked
 
-**Paskutinį kartą atnaujinta: 2026-10-18**
+**Paskutinį kartą atnaujinta: 2026-11-01**
 
 Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti.
 
@@ -84,6 +84,10 @@ Kai bakstelite **Atkurti pirkinius**, programėlė paklausia „Apple“ apie pi
 ### 3.4 Atsiliepimų ir pagalbos pranešimai (Cloudflare ir CloudKit)
 
 Jei siunčiate atsiliepimą ar pagalbos prašymą, Ranked perduoda pranešimą, jo kategoriją ir šaltinį „Cloudflare Worker“. Ši tarnyba saugo duomenis viešoje „Apple CloudKit“ duomenų bazėje naudodama privatų serverio raktą. Norint siųsti pranešimą, nereikia prisijungti prie „iCloud“. „Cloudflare Worker“ naudoja užklausos tinklo adresą techniniam piktnaudžiavimo ribojimui; nei pradinis adresas, nei jo maiša nesaugomi „CloudKit“ atsiliepimo įraše. Atskirai galite sutikti pateikti el. pašto adresą arba telefono numerį, kad galėtume atsakyti ne programėlėje. Pranešimai ir kontaktiniai duomenys neperduodami „PostHog“ ar „RevenueCat“ ir nesiejami su programėlės paskyra. Pranešimą tvarkome atsakydami į jūsų prašymą, o neprivalomus kontaktinius duomenis – gavę jūsų sutikimą. Šiuo metu nėra nustatyto termino automatiniam pranešimų ar kontaktinių duomenų ištrynimui. Susipažinti su duomenimis ar prašyti juos ištrinti galite adresu **dylan.schmid538@gmail.com**.
+
+### 3.5 Pratimų vaizdo įrašai („YouTube“)
+
+Pratimų puslapiuose iš pradžių rodomas įrenginyje saugomas peržiūros vaizdas. Įterptąjį „YouTube“ grotuvą „Ranked“ įkelia tik palietus **Žiūrėti vaizdo įrašą**. Tuomet „Google“ / „YouTube“ gauna jūsų tinklo adresą, naršyklės ir grotuvo užklausos duomenis, konkretaus vaizdo įrašo ID bei nuorodos informaciją, nurodančią „Ranked“ programėlę. „Ranked“ neprideda jūsų vardo, kūno matmenų, treniruočių žurnalo, treniruočių plano, „PostHog“ identifikatoriaus ar „RevenueCat“ identifikatoriaus. Pratimą galima atlikti neįkėlus vaizdo įrašo. Atskira nuoroda **Žiūrėti „YouTube“** išveda iš „Ranked“. [„Google“ privatumo politikoje](https://policies.google.com/privacy) aprašomas jos duomenų tvarkymas ir saugojimas; „Ranked“ negali ištrinti „YouTube“ saugomų duomenų.
 
 ---
 

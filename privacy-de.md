@@ -8,7 +8,7 @@ permalink: /privacy/de/
 
 # Datenschutzerklärung · Calisthenics Skills – Ranked
 
-**Zuletzt aktualisiert: 2026-10-18**
+**Zuletzt aktualisiert: 2026-11-01**
 
 Diese Erklärung beschreibt, was Ranked erhebt, wohin es geht und was Sie dagegen tun können.
 
@@ -91,6 +91,10 @@ RevenueCat weiter.
 ### 3.4 Nachrichten für Feedback und Support (Cloudflare und CloudKit)
 
 Wenn Sie Feedback oder eine Supportanfrage senden, übermittelt Ranked die Nachricht samt Kategorie und Herkunft an einen Cloudflare Worker. Dieser speichert die Angaben mit einem privaten Serverschlüssel in der öffentlichen Datenbank von Apple CloudKit. Für das Senden ist keine iCloud-Anmeldung erforderlich. Der Cloudflare Worker verwendet die Netzwerkadresse für eine technische Begrenzung gegen Missbrauch; weder die ursprüngliche Adresse noch ein Hash davon wird im CloudKit-Feedbackdatensatz gespeichert. Für eine Antwort ausserhalb der App können Sie gesondert in die Übermittlung Ihrer E-Mail-Adresse oder Telefonnummer einwilligen. Nachricht und Kontaktdaten gehen weder an PostHog noch an RevenueCat und sind nicht mit einem App-Konto verknüpft. Wir bearbeiten die Nachricht, um Ihre Anfrage zu beantworten, und die freiwilligen Kontaktdaten mit Ihrer Einwilligung. Für Nachrichten und Kontaktdaten ist derzeit keine feste automatische Löschfrist eingerichtet. Auskunft oder Löschung können Sie unter **dylan.schmid538@gmail.com** verlangen.
+
+### 3.5 Anleitungsvideos (YouTube)
+
+Auf Übungsseiten erscheint zunächst ein lokal gespeichertes Vorschaubild. Erst wenn Sie auf **Video ansehen** tippen, lädt Ranked den eingebetteten YouTube-Player. Bei dieser Anfrage erhält Google/YouTube Ihre Netzwerkadresse, Browser- und Player-Anfragedaten, die feste Video-ID und eine Herkunftsangabe, die Ranked als App nennt. Ranked fügt weder Ihren Namen noch Körpermasse, Trainingsprotokolle, Trainingspläne oder Kennungen von PostHog oder RevenueCat hinzu. Sie können die Übung auch ohne das Video verwenden. Über den gesonderten Link **Auf YouTube ansehen** verlassen Sie Ranked. Die [Datenschutzerklärung von Google](https://policies.google.com/privacy) beschreibt die dortige Datenbearbeitung und Aufbewahrung; Ranked kann Daten, die YouTube gespeichert hat, nicht löschen.
 
 ---
 

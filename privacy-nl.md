@@ -7,7 +7,7 @@ permalink: /privacy/nl/
 
 # Privacyverklaring · Calisthenics Skills – Ranked
 
-**Laatst bijgewerkt: 2026-10-18**
+**Laatst bijgewerkt: 2026-11-01**
 
 Deze verklaring beschrijft welke gegevens Ranked verzamelt, waar ze naartoe gaan en wat u eraan kunt doen.
 
@@ -71,6 +71,10 @@ Als u op **Aankopen herstellen** tikt, vraagt de app Apple om de aankopen die zi
 ### 3.4 Feedback- en supportberichten (Cloudflare en CloudKit)
 
 Als u feedback of een hulpvraag verstuurt, stuurt Ranked het bericht, de categorie en de herkomst naar een Cloudflare Worker. Die bewaart de gegevens in de openbare database van Apple CloudKit met een privésleutel voor de server. U hoeft niet bij iCloud in te loggen om een bericht te versturen. De Cloudflare Worker gebruikt het netwerkadres van het verzoek voor een technische beperking tegen misbruik; het oorspronkelijke adres en een hash ervan worden niet opgeslagen in het CloudKit-feedbackrecord. U kunt afzonderlijk toestemming geven om een e-mailadres of telefoonnummer mee te sturen voor een antwoord buiten de app. Berichten en contactgegevens worden niet naar PostHog of RevenueCat verzonden en niet aan een appaccount gekoppeld. We verwerken het bericht om uw vraag te beantwoorden en de optionele contactgegevens met uw toestemming. Er geldt momenteel geen vaste termijn voor automatische verwijdering van berichten of contactgegevens. U kunt inzage of verwijdering aanvragen via **dylan.schmid538@gmail.com**.
+
+### 3.5 Instructievideo's (YouTube)
+
+Op de oefenpagina's verschijnt eerst een voorbeeldafbeelding die op je apparaat is opgeslagen. Ranked laadt de ingesloten YouTube-speler pas wanneer je op **Video bekijken** tikt. Bij dat verzoek ontvangt Google/YouTube je netwerkadres, gegevens over het verzoek van de browser en de speler, de vaste video-ID en een verwijzing die Ranked als app aangeeft. Ranked voegt je naam, lichaamsmaten, trainingslogboek, trainingsplan, PostHog-ID of RevenueCat-ID niet toe. Je kunt de oefening gebruiken zonder de video te laden. De aparte link **Bekijken op YouTube** brengt je buiten Ranked. Het [privacybeleid van Google](https://policies.google.com/privacy) beschrijft hoe Google deze gegevens verwerkt en bewaart; Ranked kan gegevens die YouTube bewaart niet wissen.
 
 ---
 

@@ -7,7 +7,7 @@ permalink: /privacy/zh-Hans/
 
 # 隐私政策 · Calisthenics Skills – Ranked
 
-**最后更新：2026-10-18**
+**最后更新：2026-11-01**
 
 本政策说明 Ranked 收集哪些数据、数据去向，以及您可以采取哪些措施。
 
@@ -71,6 +71,10 @@ Ranked 不会在其他应用或网站中跟踪您。下文所述的使用统计�
 ### 3.4 反馈和支持消息 (Cloudflare 与 CloudKit)
 
 如果你发送反馈或支持请求，Ranked 会将消息、类别及来源 发送给 Cloudflare Worker。Worker 使用私有服务器密钥，将这些信息存入 Apple CloudKit 的公共数据库。发送消息无需登录 iCloud。 Cloudflare Worker 会使用请求的网络地址实施技术限制，以防滥用；原始地址及其哈希值均不会存入 CloudKit 反馈记录。你可以单独同意提供电子邮件地址或电话号码，以便我们在应用外回复。消息和联系方式不会发送给 PostHog 或 RevenueCat，也不会与你的应用账户关联。我们处理消息以回应你的请求；可选的联系方式则基于你的同意处理。目前没有对消息或联系方式实施固定的自动删除期限。你可以发送邮件至 **dylan.schmid538@gmail.com** 请求查阅或删除。
+
+### 3.5 教学视频（YouTube）
+
+练习页面会先显示保存在设备上的预览图片。只有点按**观看视频**后，Ranked 才会加载嵌入式 YouTube 播放器。此请求会向 Google/YouTube 提供您的网络地址、浏览器和播放器的请求数据、固定的视频 ID，以及标明请求来自 Ranked 应用的来源信息。Ranked 不会在请求中附加您的姓名、身体测量数据、训练记录或计划，也不会附加 PostHog 或 RevenueCat 标识符。您无需加载视频也可以使用该练习。单独的**在 YouTube 观看**链接会带您离开 Ranked。[Google 隐私权政策](https://policies.google.com/privacy)说明 Google 如何处理和保留数据；Ranked 无法删除 YouTube 保存的数据。
 
 ---
 

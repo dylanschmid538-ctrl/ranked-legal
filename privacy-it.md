@@ -7,7 +7,7 @@ permalink: /privacy/it/
 
 # Informativa sulla privacy · Calisthenics Skills – Ranked
 
-**Ultimo aggiornamento: 2026-10-18**
+**Ultimo aggiornamento: 2026-11-01**
 
 Questa informativa descrive quali dati Ranked raccoglie, dove vanno e quali scelte puoi fare.
 
@@ -73,6 +73,10 @@ Quando tocchi **Ripristina acquisti**, l'app chiede ad Apple gli acquisti effett
 ### 3.4 Messaggi di feedback e assistenza (Cloudflare e CloudKit)
 
 Se invii un feedback o una richiesta di assistenza, Ranked trasmette il messaggio, la categoria e l’origine a un Cloudflare Worker. Il Worker li memorizza nel database pubblico di Apple CloudKit mediante una chiave server privata. Per inviare un messaggio non devi accedere a iCloud. Il Cloudflare Worker usa l’indirizzo di rete della richiesta per una limitazione tecnica contro gli abusi; né l’indirizzo originale né una sua impronta sono salvati nel record di feedback in CloudKit. Puoi acconsentire separatamente a fornire un indirizzo email o un numero di telefono per ricevere una risposta fuori dall’app. Messaggi e recapiti non vengono inviati a PostHog o RevenueCat né associati a un account dell’app. Trattiamo il messaggio per rispondere alla tua richiesta e i recapiti facoltativi con il tuo consenso. Attualmente non è previsto un termine fisso per la cancellazione automatica dei messaggi o dei recapiti. Puoi chiedere accesso o cancellazione scrivendo a **dylan.schmid538@gmail.com**.
+
+### 3.5 Video tutorial (YouTube)
+
+Le pagine degli esercizi mostrano inizialmente un'immagine di anteprima salvata sul dispositivo. Ranked carica il lettore YouTube incorporato solo quando tocchi **Guarda il video**. La richiesta comunica a Google/YouTube il tuo indirizzo di rete, i dati della richiesta del browser e del lettore, l'ID del video e un riferimento all'app Ranked. Ranked non aggiunge il tuo nome, le misure corporee, il registro degli allenamenti, il piano di allenamento né gli identificativi PostHog o RevenueCat. Puoi usare l'esercizio senza caricare il video. Il link separato **Guarda su YouTube** ti porta fuori da Ranked. Le [norme sulla privacy di Google](https://policies.google.com/privacy) descrivono il trattamento e la conservazione dei dati da parte di Google; Ranked non può cancellare i dati conservati da YouTube.
 
 ---
 

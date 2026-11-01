@@ -8,7 +8,7 @@ permalink: /privacy/sk/
 
 # Zásady ochrany osobných údajov · Calisthenics Skills – Ranked
 
-**Posledná aktualizácia: 2026-10-18**
+**Posledná aktualizácia: 2026-11-01**
 
 Tieto zásady opisujú, čo Ranked zbiera, kam to ide a čo s tým môžete urobiť.
 
@@ -85,6 +85,10 @@ prihláseným v zariadení a výsledok odovzdá RevenueCatu rovnakým spôsobom.
 ### 3.4 Správy so spätnou väzbou a žiadosti o podporu (Cloudflare a CloudKit)
 
 Ak odošlete spätnú väzbu alebo žiadosť o podporu, Ranked odošle správu, jej kategóriu a zdroj službe Cloudflare Worker. Tá ich uloží do verejnej databázy Apple CloudKit pomocou súkromného serverového kľúča. Na odoslanie správy sa nemusíte prihlásiť do iCloudu. Cloudflare Worker používa sieťovú adresu požiadavky na technické obmedzenie zneužívania; pôvodná adresa ani jej hash sa neukladajú do záznamu spätnej väzby v CloudKite. Osobitne môžete súhlasiť s poskytnutím e-mailovej adresy alebo telefónneho čísla na odpoveď mimo aplikácie. Správy a kontaktné údaje sa neposielajú spoločnostiam PostHog ani RevenueCat a nespájajú sa s účtom v aplikácii. Správu spracúvame, aby sme odpovedali na vašu žiadosť; nepovinné kontaktné údaje na základe vášho súhlasu. Pre automatické vymazanie správ a kontaktných údajov nie je momentálne stanovená pevná lehota. O prístup k údajom alebo ich vymazanie môžete požiadať na **dylan.schmid538@gmail.com**.
+
+### 3.5 Inštruktážne videá (YouTube)
+
+Na stránkach cvičení sa najprv zobrazuje náhľadový obrázok uložený v zariadení. Až keď ťuknete na **Prehrať video**, Ranked načíta vložený prehrávač YouTube. Pri tejto požiadavke Google/YouTube získa vašu sieťovú adresu, údaje požiadavky prehliadača a prehrávača, pevné ID videa a údaj o zdroji, ktorý označuje aplikáciu Ranked. Ranked nepripája vaše meno, telesné miery, záznamy ani plán tréningu, ani identifikátory PostHog či RevenueCat. Cvičenie môžete používať aj bez načítania videa. Samostatný odkaz **Prehrať na YouTube** vás presmeruje mimo aplikácie Ranked. [Pravidlá ochrany súkromia spoločnosti Google](https://policies.google.com/privacy) opisujú spracúvanie a uchovávanie údajov spoločnosťou Google; Ranked nemôže vymazať údaje uložené službou YouTube.
 
 ---
 

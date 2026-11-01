@@ -7,7 +7,7 @@ permalink: /privacy/
 
 # Privacy Policy · Calisthenics Skills – Ranked
 
-**Last updated: 2026-10-18**
+**Last updated: 2026-11-01**
 
 This policy describes what Ranked collects, where it goes, and what you can do about it.
 
@@ -133,6 +133,10 @@ Account signed in on the device and passes the result to RevenueCat in the same 
 ### 3.4 Feedback and support (Cloudflare and CloudKit)
 
 If you choose to send feedback or a support request, Ranked sends the message, its category and source to a Cloudflare Worker. The Worker stores them in Apple's CloudKit public database using a private server key. You do not need to sign in to iCloud to send a message. The Cloudflare Worker uses the request's network address for a technical abuse limit; neither the raw address nor a hash of it is stored in the CloudKit feedback record. You may separately agree to include an email address or phone number so we can reply outside the app. Messages and contact details are not sent to PostHog or RevenueCat and are not tied to an app account. We process the message to answer your request and optional contact details with your consent. No fixed automatic deletion period is currently enforced for messages or contact details. You can request access or deletion by emailing **dylan.schmid538@gmail.com**.
+
+### 3.5 Tutorial videos (YouTube)
+
+Exercise pages show a local preview image. Only when you tap **Watch video** does Ranked load the embedded YouTube player. That request gives Google/YouTube your network address and browser/player request data, the fixed video ID, and an app referer identifying Ranked. Ranked does not add your name, body measurements, workout log, training plan, PostHog identifier or RevenueCat identifier. You can use the exercise without loading the video. The separate **Watch on YouTube** link leaves Ranked. [Google's privacy policy](https://policies.google.com/privacy) describes its processing and retention; Ranked cannot erase data held by YouTube.
 
 ---
 

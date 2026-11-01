@@ -7,7 +7,7 @@ permalink: /privacy/hr/
 
 # Pravila o privatnosti · Calisthenics Skills – Ranked
 
-**Posljednje ažuriranje: 2026-10-18**
+**Posljednje ažuriranje: 2026-11-01**
 
 Ova pravila opisuju koje podatke Ranked prikuplja, kamo odlaze i što možete učiniti u vezi s njima.
 
@@ -74,7 +74,12 @@ Kad dodirnete **Vrati kupnje**, aplikacija traži od Applea kupnje povezane s Ap
 
 Ako pošaljete povratne informacije ili upit podršci, Ranked šalje poruku, njezinu kategoriju i izvor usluzi Cloudflare Worker. Ona ih pohranjuje u javnu bazu podataka Apple CloudKit pomoću privatnog poslužiteljskog ključa. Za slanje poruke nije potrebna prijava na iCloud. Cloudflare Worker koristi mrežnu adresu zahtjeva za tehničko ograničavanje zloupotrebe; ni izvorna adresa ni njezin hash ne pohranjuju se u zapis povratnih informacija u CloudKitu. Zasebno možete pristati dati adresu e-pošte ili telefonski broj kako bismo vam odgovorili izvan aplikacije. Poruke i podaci za kontakt ne šalju se PostHogu ili RevenueCatu niti se povezuju s računom u aplikaciji. Poruku obrađujemo kako bismo odgovorili na vaš zahtjev, a neobavezne podatke za kontakt uz vaš pristanak. Trenutačno nije određen stalan rok za automatsko brisanje poruka ili podataka za kontakt. Pristup ili brisanje možete zatražiti na **dylan.schmid538@gmail.com**.
 
+### 3.5 Videozapisi s uputama (YouTube)
+
+Stranice vježbi prikazuju sliku za pregled spremljenu na uređaju. Ranked učitava ugrađeni reproduktor YouTubea tek kada dodirnete **Pogledaj videozapis**. Tim zahtjevom Google/YouTube prima vašu mrežnu adresu, podatke o zahtjevu preglednika i reproduktora, stalni ID videozapisa te podatak o aplikaciji upućivanja koji identificira Ranked. Ranked ne dodaje vaše ime, tjelesne mjere, dnevnik treninga, plan treninga ni identifikatore PostHoga ili RevenueCata. Vježbu možete koristiti bez učitavanja videozapisa. Zasebna poveznica **Pogledaj na YouTubeu** vodi vas izvan aplikacije Ranked. [Googleova pravila o privatnosti](https://policies.google.com/privacy) opisuju obradu i čuvanje tih podataka; Ranked ne može izbrisati podatke koje čuva YouTube.
+
 ---
+
 
 ## 4. Što Ranked ne radi
 

@@ -7,7 +7,7 @@ permalink: /privacy/zh-Hant/
 
 # 私隱政策 · Calisthenics Skills – Ranked
 
-**最後更新：2026-10-18**
+**最後更新：2026-11-01**
 
 本政策說明 Ranked 收集哪些資料、資料會送往何處，以及您可以如何處理。
 
@@ -71,6 +71,10 @@ App也可能回報訂閱階段、目前存取權限、續訂狀態，以及是�
 ### 3.4 意見回饋及支援訊息 (Cloudflare 與 CloudKit)
 
 如果你傳送意見或支援請求，Ranked 會把訊息、類別及來源 傳送給 Cloudflare Worker。Worker 使用私有伺服器金鑰，將資料儲存於 Apple CloudKit 的公用資料庫。傳送訊息無須登入 iCloud。 Cloudflare Worker 會使用請求的網路位址實施技術限制，以防濫用；原始位址及其雜湊值均不會存入 CloudKit 意見記錄。你可以另行同意提供電郵地址或電話號碼，以便我們在應用程式外回覆。訊息和聯絡資料不會傳送給 PostHog 或 RevenueCat，也不會與應用程式帳戶連結。我們處理訊息以回應你的請求；可選填的聯絡資料則基於你的同意處理。目前沒有對訊息或聯絡資料設置固定的自動刪除期限。你可以電郵至 **dylan.schmid538@gmail.com** 要求查閱或刪除。
+
+### 3.5 教學影片（YouTube）
+
+練習頁面會先顯示儲存在裝置上的預覽圖片。只有點按**觀看影片**後，Ranked 才會載入內嵌的 YouTube 播放器。這項請求會向 Google/YouTube 提供你的網路位址、瀏覽器和播放器的請求資料、固定的影片 ID，以及標明請求來自 Ranked App 的來源資訊。Ranked 不會在請求中加入你的姓名、身體測量資料、訓練紀錄或計劃，也不會加入 PostHog 或 RevenueCat 識別碼。即使不載入影片，你仍可使用該練習。獨立的**在 YouTube 觀看**連結會帶你離開 Ranked。[Google 私隱政策](https://policies.google.com/privacy)說明 Google 如何處理和保留資料；Ranked 無法刪除 YouTube 儲存的資料。
 
 ---
 

@@ -7,7 +7,7 @@ permalink: /privacy/sv/
 
 # Integritetspolicy · Calisthenics Skills – Ranked
 
-**Senast uppdaterad: 2026-10-18**
+**Senast uppdaterad: 2026-11-01**
 
 Den här policyn beskriver vilka uppgifter Ranked samlar in, vart de skickas och vad du kan göra åt det.
 
@@ -71,6 +71,10 @@ När du trycker på **Återställ köp** begär appen uppgifter från Apple om d
 ### 3.4 Feedback- och supportmeddelanden (Cloudflare och CloudKit)
 
 Om du skickar feedback eller en supportfråga skickar Ranked meddelandet, dess kategori och källa till en Cloudflare Worker. Den lagrar uppgifterna i Apples offentliga CloudKit-databas med en privat servernyckel. Du behöver inte logga in på iCloud för att skicka ett meddelande. Cloudflare Worker använder förfrågans nätverksadress för en teknisk begränsning mot missbruk; varken den ursprungliga adressen eller en hash av den lagras i CloudKit-posten för feedbacken. Du kan separat samtycka till att lämna en e-postadress eller ett telefonnummer för svar utanför appen. Meddelanden och kontaktuppgifter skickas inte till PostHog eller RevenueCat och kopplas inte till ett konto i appen. Vi behandlar meddelandet för att svara på din förfrågan och frivilliga kontaktuppgifter med ditt samtycke. Det finns för närvarande ingen fast tidsfrist för automatisk radering av meddelanden eller kontaktuppgifter. Du kan begära tillgång eller radering på **dylan.schmid538@gmail.com**.
+
+### 3.5 Instruktionsvideor (YouTube)
+
+Övningssidorna visar först en förhandsbild som finns sparad på enheten. Först när du trycker på **Titta på video** laddar Ranked den inbäddade YouTube-spelaren. Vid den begäran får Google/YouTube din nätverksadress, uppgifter om begäran från webbläsaren och spelaren, videons fasta ID och en hänvisning som identifierar Ranked som app. Ranked lägger inte till ditt namn, dina kroppsmått, din träningslogg eller träningsplan eller identifierare från PostHog eller RevenueCat. Du kan använda övningen utan att ladda videon. Den separata länken **Titta på YouTube** tar dig ut från Ranked. [Googles integritetspolicy](https://policies.google.com/privacy) beskriver hur Google behandlar och lagrar uppgifterna; Ranked kan inte radera uppgifter som YouTube har lagrat.
 
 ---
 

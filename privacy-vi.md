@@ -7,7 +7,7 @@ permalink: /privacy/vi/
 
 # Chính sách quyền riêng tư · Calisthenics Skills – Ranked
 
-**Cập nhật lần cuối: 2026-10-18**
+**Cập nhật lần cuối: 2026-11-01**
 
 Chính sách này mô tả Ranked thu thập dữ liệu gì, dữ liệu được gửi đến đâu và bạn có thể làm gì.
 
@@ -71,6 +71,10 @@ Khi bạn nhấn **Khôi phục giao dịch mua**, ứng dụng hỏi Apple về
 ### 3.4 Tin nhắn góp ý và hỗ trợ (Cloudflare và CloudKit)
 
 Nếu bạn gửi góp ý hoặc yêu cầu hỗ trợ, Ranked chuyển tin nhắn, danh mục và nguồn đến Cloudflare Worker. Dịch vụ này lưu dữ liệu vào cơ sở dữ liệu công khai của Apple CloudKit bằng khóa máy chủ riêng. Bạn không cần đăng nhập iCloud để gửi tin nhắn. Cloudflare Worker dùng địa chỉ mạng của yêu cầu để giới hạn hành vi lạm dụng bằng biện pháp kỹ thuật; địa chỉ gốc hoặc giá trị băm của địa chỉ đó không được lưu trong bản ghi góp ý trên CloudKit. Bạn có thể đồng ý riêng với việc cung cấp địa chỉ email hoặc số điện thoại để chúng tôi trả lời ngoài ứng dụng. Tin nhắn và thông tin liên hệ không được gửi đến PostHog hoặc RevenueCat và không liên kết với tài khoản trong ứng dụng. Chúng tôi xử lý tin nhắn để trả lời yêu cầu của bạn và thông tin liên hệ tùy chọn theo sự đồng ý của bạn. Hiện không có thời hạn cố định để tự động xóa tin nhắn hoặc thông tin liên hệ. Bạn có thể yêu cầu truy cập hoặc xóa dữ liệu qua **dylan.schmid538@gmail.com**.
+
+### 3.5 Video hướng dẫn (YouTube)
+
+Trang bài tập trước tiên hiển thị ảnh xem trước được lưu trên thiết bị. Ranked chỉ tải trình phát YouTube nhúng khi bạn nhấn **Xem video**. Khi đó, Google/YouTube nhận địa chỉ mạng của bạn, dữ liệu yêu cầu từ trình duyệt và trình phát, mã video cố định cùng thông tin nguồn cho biết yêu cầu đến từ ứng dụng Ranked. Ranked không thêm tên, số đo cơ thể, nhật ký hoặc kế hoạch tập luyện của bạn, cũng không thêm mã định danh PostHog hay RevenueCat. Bạn vẫn có thể sử dụng bài tập mà không cần tải video. Liên kết riêng **Xem trên YouTube** sẽ đưa bạn ra khỏi Ranked. [Chính sách quyền riêng tư của Google](https://policies.google.com/privacy) mô tả cách Google xử lý và lưu giữ dữ liệu; Ranked không thể xóa dữ liệu do YouTube lưu giữ.
 
 ---
 

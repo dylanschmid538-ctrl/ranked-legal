@@ -7,7 +7,7 @@ permalink: /privacy/ms/
 
 # Dasar Privasi · Calisthenics Skills – Ranked
 
-**Kemas kini terakhir: 2026-10-18**
+**Kemas kini terakhir: 2026-11-01**
 
 Dasar ini menerangkan data yang dikumpul oleh Ranked, ke mana data itu pergi, dan tindakan yang boleh anda ambil.
 
@@ -73,6 +73,10 @@ Apabila anda mengetik **Pulihkan Pembelian**, aplikasi meminta daripada Apple pe
 ### 3.4 Mesej maklum balas dan sokongan (Cloudflare dan CloudKit)
 
 Jika anda menghantar maklum balas atau permintaan sokongan, Ranked menghantar mesej, kategori dan sumber kepada Cloudflare Worker. Perkhidmatan itu menyimpannya dalam pangkalan data awam Apple CloudKit menggunakan kunci pelayan peribadi. Anda tidak perlu log masuk ke iCloud untuk menghantar mesej. Cloudflare Worker menggunakan alamat rangkaian permintaan untuk had teknikal terhadap penyalahgunaan; alamat asal atau cincangannya tidak disimpan dalam rekod maklum balas CloudKit. Anda boleh memberikan persetujuan secara berasingan untuk menyertakan alamat e-mel atau nombor telefon supaya kami boleh membalas di luar aplikasi. Mesej dan maklumat hubungan tidak dihantar kepada PostHog atau RevenueCat dan tidak dipautkan kepada akaun aplikasi. Kami memproses mesej untuk menjawab permintaan anda dan maklumat hubungan pilihan dengan persetujuan anda. Pada masa ini, tiada tempoh tetap untuk pemadaman automatik mesej atau maklumat hubungan. Anda boleh meminta akses atau pemadaman melalui **dylan.schmid538@gmail.com**.
+
+### 3.5 Video panduan (YouTube)
+
+Halaman senaman mula-mula memaparkan imej pratonton yang disimpan pada peranti. Ranked hanya memuatkan pemain YouTube terbenam apabila anda mengetik **Tonton video**. Permintaan itu memberikan alamat rangkaian anda, data permintaan pelayar dan pemain, ID video yang tertentu serta maklumat perujuk aplikasi yang mengenal pasti Ranked kepada Google/YouTube. Ranked tidak menambahkan nama, ukuran badan, rekod senaman, pelan latihan, pengecam PostHog atau pengecam RevenueCat anda. Anda boleh menggunakan senaman tanpa memuatkan video. Pautan berasingan **Tonton di YouTube** membawa anda keluar daripada Ranked. [Dasar privasi Google](https://policies.google.com/privacy) menerangkan pemprosesan dan penyimpanan datanya; Ranked tidak dapat memadamkan data yang disimpan oleh YouTube.
 
 ---
 

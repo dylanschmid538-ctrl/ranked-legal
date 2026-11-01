@@ -7,7 +7,7 @@ permalink: /privacy/cs/
 
 # Zásady ochrany osobních údajů · Calisthenics Skills – Ranked
 
-**Poslední aktualizace: 2026-10-18**
+**Poslední aktualizace: 2026-11-01**
 
 Tyto zásady popisují, jaké údaje Ranked shromažďuje, kam putují a jaké možnosti v souvislosti s nimi máte.
 
@@ -72,7 +72,12 @@ Když klepnete na **Obnovit nákupy**, aplikace požádá Apple o nákupy proved
 
 Pokud odešlete zpětnou vazbu nebo žádost o podporu, Ranked předá zprávu, její kategorii a zdroj službě Cloudflare Worker. Ta je pomocí soukromého serverového klíče uloží do veřejné databáze Apple CloudKit. K odeslání zprávy se nemusíte přihlašovat k iCloudu. Cloudflare Worker používá síťovou adresu k technickému omezení zneužívání; původní adresu ani její otisk neukládá do záznamu zpětné vazby v CloudKitu. Samostatně můžete souhlasit s poskytnutím e-mailové adresy nebo telefonního čísla pro odpověď mimo aplikaci. Zprávy ani kontaktní údaje neposíláme společnostem PostHog či RevenueCat a nespojujeme je s účtem v aplikaci. Zprávu zpracováváme kvůli odpovědi na váš požadavek; nepovinné kontaktní údaje na základě vašeho souhlasu. Pro automatické odstranění zpráv a kontaktních údajů nyní není stanovena pevná lhůta. O přístup k údajům nebo jejich odstranění můžete požádat na **dylan.schmid538@gmail.com**.
 
+### 3.5 Výuková videa (YouTube)
+
+Na stránkách cviků se zobrazuje náhledový obrázek uložený v zařízení. Vložený přehrávač YouTube aplikace Ranked načte až po klepnutí na **Přehrát video**. Při tomto požadavku Google/YouTube obdrží vaši síťovou adresu, údaje o požadavku prohlížeče a přehrávače, pevné ID videa a údaj o odkazující aplikaci Ranked. Ranked nepřidává vaše jméno, tělesné míry, záznamy tréninků, tréninkový plán ani identifikátor PostHog či RevenueCat. Cvik můžete používat i bez načtení videa. Samostatný odkaz **Přehrát na YouTube** vás přenese mimo Ranked. [Zásady ochrany osobních údajů společnosti Google](https://policies.google.com/privacy) popisují její zpracování a uchovávání dat; Ranked nemůže smazat data uchovávaná službou YouTube.
+
 ---
+
 
 ## 4. Sledování a oprávnění v Ranked
 

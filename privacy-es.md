@@ -7,7 +7,7 @@ permalink: /privacy/es/
 
 # Política de privacidad · Calisthenics Skills – Ranked
 
-**Última actualización: 2026-10-18**
+**Última actualización: 2026-11-01**
 
 Esta política explica qué datos recopila Ranked, adónde van y qué puede hacer usted al respecto.
 
@@ -72,7 +72,12 @@ Cuando toca **Restaurar compras**, la aplicación pide a Apple las compras reali
 
 Si envía una opinión o solicitud de asistencia, Ranked transmite el mensaje, su categoría y origen a un Cloudflare Worker. Este los almacena en la base de datos pública de Apple CloudKit mediante una clave privada de servidor. No necesita iniciar sesión en iCloud para enviar un mensaje. El Cloudflare Worker usa la dirección de red de la solicitud para aplicar un límite técnico contra el uso indebido; ni la dirección original ni un hash de ella se guardan en el registro de opiniones de CloudKit. Puede dar su consentimiento por separado para incluir una dirección de correo electrónico o un número de teléfono y recibir una respuesta fuera de la aplicación. Ni el mensaje ni los datos de contacto se envían a PostHog o RevenueCat ni se vinculan a una cuenta de la aplicación. Tratamos el mensaje para responder a su solicitud y los datos de contacto opcionales con su consentimiento. Actualmente no existe un plazo fijo de eliminación automática para los mensajes ni los datos de contacto. Puede solicitar acceso o eliminación en **dylan.schmid538@gmail.com**.
 
+### 3.5 Vídeos de ejercicios (YouTube)
+
+Las páginas de ejercicios muestran una imagen de vista previa guardada en el dispositivo. Ranked solo carga el reproductor integrado de YouTube cuando pulsa **Ver vídeo**. Esa solicitud transmite a Google/YouTube su dirección de red, datos de la solicitud del navegador y del reproductor, el identificador fijo del vídeo y una referencia de la aplicación que identifica a Ranked. Ranked no añade su nombre, medidas corporales, registro de entrenamientos, plan de entrenamiento ni identificadores de PostHog o RevenueCat. Puede usar el ejercicio sin cargar el vídeo. El enlace independiente **Ver en YouTube** le lleva fuera de Ranked. La [política de privacidad de Google](https://policies.google.com/privacy) describe cómo trata y conserva esos datos; Ranked no puede borrar los datos que conserva YouTube.
+
 ---
+
 
 ## 4. Seguimiento y permisos en Ranked
 

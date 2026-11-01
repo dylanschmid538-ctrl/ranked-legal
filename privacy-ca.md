@@ -7,7 +7,7 @@ permalink: /privacy/ca/
 
 # Política de privacitat · Calisthenics Skills – Ranked
 
-**Última actualització: 2026-10-18**
+**Última actualització: 2026-11-01**
 
 Aquesta política explica quines dades recull Ranked, on van i què podeu fer al respecte.
 
@@ -72,7 +72,12 @@ Quan toqueu **Restaura les compres**, l'aplicació demana a Apple les compres fe
 
 Si envieu una opinió o una consulta, Ranked envia el missatge, la categoria i l’origen a un Cloudflare Worker, que els desa a la base de dades pública d’Apple CloudKit amb una clau privada de servidor. No cal iniciar sessió a iCloud per enviar el missatge. El Cloudflare Worker utilitza l’adreça de xarxa per aplicar un límit tècnic contra l’ús abusiu; no desa ni l’adreça original ni una empremta d’aquesta al registre d’opinions de CloudKit. Podeu consentir per separat a proporcionar una adreça electrònica o un número de telèfon per rebre una resposta fora de l’app. El missatge i les dades de contacte no s’envien a PostHog ni a RevenueCat i no es vinculen a cap compte de l’app. Tractem el missatge per respondre a la vostra sol·licitud i les dades de contacte opcionals amb el vostre consentiment. Actualment no hi ha un termini fix de supressió automàtica dels missatges ni de les dades de contacte. Podeu demanar-ne l’accés o la supressió a **dylan.schmid538@gmail.com**.
 
+### 3.5 Vídeos d’instruccions (YouTube)
+
+Les pàgines d’exercicis mostren una imatge de previsualització desada al dispositiu. Ranked només carrega el reproductor integrat de YouTube quan toqueu **Mira el vídeo**. Aquesta sol·licitud facilita a Google/YouTube la vostra adreça de xarxa, dades de la sol·licitud del navegador i del reproductor, l’identificador fix del vídeo i una referència de l’app que identifica Ranked. Ranked no hi afegeix el vostre nom, mesures corporals, registre d’entrenaments, pla d’entrenament ni els identificadors de PostHog o RevenueCat. Podeu fer servir l’exercici sense carregar el vídeo. L’enllaç separat **Mira’l a YouTube** us porta fora de Ranked. La [política de privadesa de Google](https://policies.google.com/privacy) explica el tractament i la conservació de les dades per part de Google; Ranked no pot esborrar les dades que conserva YouTube.
+
 ---
+
 
 ## 4. Seguiment i permisos a Ranked
 

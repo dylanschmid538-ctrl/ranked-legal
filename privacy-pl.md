@@ -8,7 +8,7 @@ permalink: /privacy/pl/
 
 # Polityka prywatności · Calisthenics Skills – Ranked
 
-**Ostatnia aktualizacja: 2026-10-18**
+**Ostatnia aktualizacja: 2026-11-01**
 
 Niniejsza polityka opisuje, co Ranked zbiera, dokąd to trafia i co można z tym zrobić.
 
@@ -85,6 +85,10 @@ na urządzeniu i przekazuje wynik do RevenueCat w ten sam sposób.
 ### 3.4 Wiadomości z opinią lub prośbą o pomoc (Cloudflare i CloudKit)
 
 Jeśli wyślesz opinię lub prośbę o pomoc, Ranked prześle wiadomość, jej kategorię i źródło do Cloudflare Worker. Usługa zapisze je w publicznej bazie danych Apple CloudKit przy użyciu prywatnego klucza serwera. Wysłanie wiadomości nie wymaga zalogowania do iCloud. Cloudflare Worker używa adresu sieciowego zgłoszenia do technicznego ograniczania nadużyć; ani pierwotny adres, ani jego skrót nie są zapisywane w rekordzie opinii w CloudKit. Możesz osobno wyrazić zgodę na podanie adresu e-mail lub numeru telefonu, aby otrzymać odpowiedź poza aplikacją. Wiadomości i dane kontaktowe nie są wysyłane do PostHog ani RevenueCat i nie są łączone z kontem w aplikacji. Przetwarzamy wiadomość, aby odpowiedzieć na Twoją prośbę, a opcjonalne dane kontaktowe na podstawie Twojej zgody. Obecnie nie obowiązuje stały termin automatycznego usuwania wiadomości ani danych kontaktowych. O dostęp do danych lub ich usunięcie możesz poprosić pod adresem **dylan.schmid538@gmail.com**.
+
+### 3.5 Filmy instruktażowe (YouTube)
+
+Na stronach ćwiczeń najpierw wyświetlany jest obraz podglądu zapisany na urządzeniu. Ranked wczytuje osadzony odtwarzacz YouTube dopiero po dotknięciu **Obejrzyj film**. Wtedy Google/YouTube otrzymuje Twój adres sieciowy, dane żądania przeglądarki i odtwarzacza, identyfikator konkretnego filmu oraz informację o aplikacji odsyłającej, wskazującą Ranked. Ranked nie dodaje Twojego imienia i nazwiska, wymiarów ciała, dziennika treningów, planu treningowego ani identyfikatorów PostHog lub RevenueCat. Z ćwiczenia możesz korzystać bez wczytywania filmu. Osobny link **Obejrzyj w YouTube** przenosi poza Ranked. [Polityka prywatności Google](https://policies.google.com/privacy) opisuje zasady przetwarzania i przechowywania danych przez Google; Ranked nie może usunąć danych przechowywanych przez YouTube.
 
 ---
 

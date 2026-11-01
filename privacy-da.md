@@ -7,7 +7,7 @@ permalink: /privacy/da/
 
 # Privatlivspolitik · Calisthenics Skills – Ranked
 
-**Senest opdateret: 2026-10-18**
+**Senest opdateret: 2026-11-01**
 
 Denne politik beskriver, hvilke oplysninger Ranked indsamler, hvor de sendes hen, og hvad du kan gøre ved det.
 
@@ -72,7 +72,12 @@ Når du trykker på **Gendan køb**, beder appen Apple om de køb, der er foreta
 
 Hvis du sender feedback eller en supportanmodning, sender Ranked beskeden, dens kategori og kilde til en Cloudflare Worker. Den gemmer oplysningerne i Apples offentlige CloudKit-database ved hjælp af en privat servernøgle. Du behøver ikke logge på iCloud for at sende en besked. Cloudflare Worker bruger netværksadressen til en teknisk begrænsning mod misbrug; hverken den oprindelige adresse eller en hash af den gemmes i feedbackposten i CloudKit. Du kan særskilt give samtykke til at oplyse en e-mailadresse eller et telefonnummer, så vi kan svare uden for appen. Beskeder og kontaktoplysninger sendes ikke til PostHog eller RevenueCat og knyttes ikke til en konto i appen. Vi behandler beskeden for at besvare din henvendelse og valgfrie kontaktoplysninger med dit samtykke. Der er i øjeblikket ingen fast frist for automatisk sletning af beskeder eller kontaktoplysninger. Du kan anmode om indsigt eller sletning på **dylan.schmid538@gmail.com**.
 
+### 3.5 Instruktionsvideoer (YouTube)
+
+Øvelsessider viser et eksempelbillede, der er gemt på enheden. Ranked indlæser først den integrerede YouTube-afspiller, når du trykker på **Se video**. Anmodningen giver Google/YouTube din netværksadresse, oplysninger om browserens og afspillerens anmodning, videoens faste ID og en apphenvisning, der identificerer Ranked. Ranked tilføjer ikke dit navn, dine kropsmål, din træningslog, din træningsplan eller dit PostHog- eller RevenueCat-id. Du kan bruge øvelsen uden at indlæse videoen. Det separate link **Se på YouTube** fører dig væk fra Ranked. [Googles privatlivspolitik](https://policies.google.com/privacy) beskriver Googles behandling og opbevaring af data; Ranked kan ikke slette data, som YouTube opbevarer.
+
 ---
+
 
 ## 4. Sporing og tilladelser i Ranked
 

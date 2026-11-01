@@ -7,7 +7,7 @@ permalink: /privacy/tr/
 
 # Gizlilik Politikası · Calisthenics Skills – Ranked
 
-**Son güncelleme: 2026-10-18**
+**Son güncelleme: 2026-11-01**
 
 Bu politika, Ranked'in hangi verileri topladığını, bunların nereye gittiğini ve bu konuda neler yapabileceğinizi açıklar.
 
@@ -71,6 +71,10 @@ Aboneliğinizin etkin olup olmadığını kontrol etmek için uygulama **Revenue
 ### 3.4 Görüş ve destek mesajları (Cloudflare ve CloudKit)
 
 Görüş veya destek talebi gönderirseniz Ranked mesajı, kategorisini ve kaynağını bir Cloudflare Worker'a iletir. Worker, bunları özel bir sunucu anahtarı kullanarak Apple CloudKit'in ortak veritabanında saklar. Mesaj göndermek için iCloud'da oturum açmanız gerekmez. Cloudflare Worker, kötüye kullanımı teknik olarak sınırlamak için isteğin ağ adresini kullanır; asıl adres veya adresin karması CloudKit görüş kaydında saklanmaz. Uygulama dışında yanıt alabilmek için e-posta adresi veya telefon numarası vermeye ayrıca onay verebilirsiniz. Mesajlar ve iletişim bilgileri PostHog veya RevenueCat'e gönderilmez ve uygulama hesabına bağlanmaz. Mesajı talebinizi yanıtlamak, isteğe bağlı iletişim bilgilerini ise onayınız doğrultusunda işlemek için kullanırız. Mesajlar ve iletişim bilgileri için şu anda sabit bir otomatik silme süresi yoktur. Erişim veya silme talebinizi **dylan.schmid538@gmail.com** adresine gönderebilirsiniz.
+
+### 3.5 Eğitim videoları (YouTube)
+
+Egzersiz sayfalarında önce cihazda saklanan bir önizleme görseli gösterilir. Ranked, gömülü YouTube oynatıcısını yalnızca **Videoyu izle** seçeneğine dokunduğunuzda yükler. Bu istekle Google/YouTube ağ adresinizi, tarayıcı ve oynatıcı isteğine ait verileri, videonun sabit kimliğini ve Ranked uygulamasını tanımlayan yönlendirme bilgisini alır. Ranked adınızı, vücut ölçülerinizi, antrenman günlüğünüzü veya planınızı ya da PostHog veya RevenueCat tanımlayıcılarını isteğe eklemez. Videoyu yüklemeden de egzersizi kullanabilirsiniz. Ayrı **YouTube'da izle** bağlantısı sizi Ranked dışına çıkarır. [Google Gizlilik Politikası](https://policies.google.com/privacy), Google'ın verileri nasıl işlediğini ve sakladığını açıklar; Ranked, YouTube'un sakladığı verileri silemez.
 
 ---
 

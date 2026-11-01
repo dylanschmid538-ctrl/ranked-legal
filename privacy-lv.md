@@ -8,7 +8,7 @@ permalink: /privacy/lv/
 
 # Privātuma politika · Calisthenics Skills – Ranked
 
-**Pēdējoreiz atjaunināts: 2026-10-18**
+**Pēdējoreiz atjaunināts: 2026-11-01**
 
 Šī politika apraksta, ko Ranked vāc, kurp tas nonāk un ko Jūs varat ar to darīt.
 
@@ -82,6 +82,10 @@ pieteikto Apple kontu, un rezultātu tādā pašā veidā nodod RevenueCat.
 ### 3.4 Atsauksmju un atbalsta ziņojumi (Cloudflare un CloudKit)
 
 Ja nosūtāt atsauksmi vai atbalsta pieprasījumu, Ranked nosūta ziņojumu, tā kategoriju un avotu Cloudflare Worker. Tas glabā datus Apple CloudKit publiskajā datubāzē, izmantojot privātu servera atslēgu. Lai nosūtītu ziņojumu, nav jāpierakstās iCloud. Cloudflare Worker izmanto pieprasījuma tīkla adresi tehniskai ļaunprātīgas izmantošanas ierobežošanai; ne sākotnējā adrese, ne tās jaucējvērtība netiek glabāta CloudKit atsauksmes ierakstā. Atsevišķi varat piekrist norādīt e-pasta adresi vai tālruņa numuru, lai saņemtu atbildi ārpus lietotnes. Ziņojumi un kontaktinformācija netiek sūtīti PostHog vai RevenueCat un netiek saistīti ar lietotnes kontu. Ziņojumu apstrādājam, lai atbildētu uz jūsu pieprasījumu, bet neobligāto kontaktinformāciju – ar jūsu piekrišanu. Pašlaik ziņojumiem un kontaktinformācijai nav noteikts fiksēts automātiskas dzēšanas termiņš. Piekļuvi datiem vai to dzēšanu varat pieprasīt, rakstot uz **dylan.schmid538@gmail.com**.
+
+### 3.5 Pamācību video („YouTube“)
+
+Vingrinājumu lapās vispirms tiek rādīts ierīcē saglabāts priekšskatījuma attēls. Iegulto „YouTube“ atskaņotāju Ranked ielādē tikai tad, kad pieskaraties **Skatīties video**. Šis pieprasījums uzņēmumam Google/YouTube nodod jūsu tīkla adresi, pārlūka un atskaņotāja pieprasījuma datus, konkrētā video ID un atsauces informāciju, kas norāda uz Ranked lietotni. Ranked nepievieno jūsu vārdu, ķermeņa mērījumus, treniņu žurnālu, treniņu plānu, PostHog identifikatoru vai RevenueCat identifikatoru. Vingrinājumu var izmantot, neielādējot video. Atsevišķā saite **Skatīties pakalpojumā YouTube** aizved ārpus Ranked. [Google konfidencialitātes politikā](https://policies.google.com/privacy) ir aprakstīta tā datu apstrāde un glabāšana; Ranked nevar dzēst YouTube glabātos datus.
 
 ---
 

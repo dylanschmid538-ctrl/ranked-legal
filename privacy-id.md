@@ -7,7 +7,7 @@ permalink: /privacy/id/
 
 # Kebijakan Privasi · Calisthenics Skills – Ranked
 
-**Terakhir diperbarui: 2026-10-18**
+**Terakhir diperbarui: 2026-11-01**
 
 Kebijakan ini menjelaskan data apa yang dikumpulkan Ranked, ke mana data tersebut dikirim, dan apa yang dapat Anda lakukan.
 
@@ -73,6 +73,10 @@ Saat Anda mengetuk **Pulihkan Pembelian**, aplikasi meminta Apple memberikan pem
 ### 3.4 Pesan masukan dan dukungan (Cloudflare dan CloudKit)
 
 Jika Anda mengirim masukan atau permintaan dukungan, Ranked mengirim pesan, kategori, dan sumber ke Cloudflare Worker. Layanan tersebut menyimpannya di basis data publik Apple CloudKit menggunakan kunci server pribadi. Anda tidak perlu masuk ke iCloud untuk mengirim pesan. Cloudflare Worker menggunakan alamat jaringan permintaan untuk pembatasan teknis terhadap penyalahgunaan; alamat asli maupun hash-nya tidak disimpan dalam catatan masukan CloudKit. Anda dapat memberikan persetujuan terpisah untuk menyertakan alamat email atau nomor telepon agar kami dapat membalas di luar aplikasi. Pesan dan informasi kontak tidak dikirim ke PostHog atau RevenueCat dan tidak dihubungkan dengan akun aplikasi. Kami memproses pesan untuk menanggapi permintaan Anda dan informasi kontak opsional berdasarkan persetujuan Anda. Saat ini tidak ada batas waktu tetap untuk penghapusan otomatis pesan atau informasi kontak. Anda dapat meminta akses atau penghapusan melalui **dylan.schmid538@gmail.com**.
+
+### 3.5 Video panduan (YouTube)
+
+Halaman latihan mula-mula menampilkan gambar pratinjau yang tersimpan di perangkat. Ranked hanya memuat pemutar YouTube tertanam setelah Anda mengetuk **Tonton video**. Permintaan tersebut memberikan alamat jaringan Anda, data permintaan peramban dan pemutar, ID video, serta rujukan aplikasi yang menunjukkan Ranked kepada Google/YouTube. Ranked tidak menambahkan nama, ukuran tubuh, catatan latihan, rencana latihan, pengenal PostHog, atau pengenal RevenueCat Anda. Anda tetap dapat menggunakan latihan tanpa memuat video. Tautan terpisah **Tonton di YouTube** akan membawa Anda keluar dari Ranked. [Kebijakan privasi Google](https://policies.google.com/privacy) menjelaskan pemrosesan dan penyimpanan datanya; Ranked tidak dapat menghapus data yang disimpan oleh YouTube.
 
 ---
 

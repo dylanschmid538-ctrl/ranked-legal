@@ -7,7 +7,7 @@ permalink: /privacy/fi/
 
 # Tietosuojaseloste · Calisthenics Skills – Ranked
 
-**Päivitetty viimeksi: 2026-10-18**
+**Päivitetty viimeksi: 2026-11-01**
 
 Tässä selosteessa kerrotaan, mitä tietoja Ranked kerää, minne ne siirtyvät ja mitä voit tehdä asialle.
 
@@ -72,7 +72,12 @@ Kun napautat **Palauta ostot**, sovellus pyytää Applelta laitteelle kirjautune
 
 Jos lähetät palautetta tai tukipyynnön, Ranked lähettää viestin, sen luokan ja lähteen Cloudflare Workerille. Se tallentaa tiedot Applen julkiseen CloudKit-tietokantaan yksityisellä palvelinavaimella. Viestin lähettäminen ei edellytä iCloudiin kirjautumista. Cloudflare Worker käyttää pyynnön verkko-osoitetta tekniseen väärinkäytön rajoitukseen; alkuperäistä osoitetta tai sen tiivistettä ei tallenneta CloudKitin palautetietueeseen. Voit erikseen suostua antamaan sähköpostiosoitteen tai puhelinnumeron, jotta voimme vastata sovelluksen ulkopuolella. Viestejä ja yhteystietoja ei lähetetä PostHogille tai RevenueCatille eikä yhdistetä sovellustiliin. Käsittelemme viestin vastataksemme pyyntöösi ja vapaaehtoiset yhteystiedot suostumuksesi perusteella. Viesteille tai yhteystiedoille ei ole tällä hetkellä kiinteää automaattista poistoaikaa. Voit pyytää tietojen tarkastelua tai poistamista osoitteesta **dylan.schmid538@gmail.com**.
 
+### 3.5 Ohjevideot (YouTube)
+
+Harjoitussivuilla näkyy laitteeseen tallennettu esikatselukuva. Ranked lataa upotetun YouTube-soittimen vasta, kun napautat **Katso video**. Pyynnön yhteydessä Google/YouTube saa verkko-osoitteesi, selaimen ja soittimen pyyntötiedot, videon pysyvän tunnisteen sekä sovellusviitteen, josta Ranked tunnistetaan. Ranked ei lisää pyyntöön nimeäsi, kehon mittoja, harjoituslokia, harjoitussuunnitelmaa eikä PostHog- tai RevenueCat-tunnistetta. Voit käyttää harjoitusta lataamatta videota. Erillinen **Katso YouTubessa** -linkki vie sinut pois Rankedista. [Googlen tietosuojakäytännössä](https://policies.google.com/privacy) kerrotaan tietojen käsittelystä ja säilyttämisestä; Ranked ei voi poistaa YouTuben säilyttämiä tietoja.
+
 ---
+
 
 ## 4. Seuranta ja luvat Ranked-sovelluksessa
 

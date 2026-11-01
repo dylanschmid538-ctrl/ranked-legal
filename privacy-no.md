@@ -7,7 +7,7 @@ permalink: /privacy/no/
 
 # Personvernerklæring · Calisthenics Skills – Ranked
 
-**Sist oppdatert: 2026-10-18**
+**Sist oppdatert: 2026-11-01**
 
 Denne erklæringen beskriver hvilke opplysninger Ranked samler inn, hvor de sendes, og hva du kan gjøre med dem.
 
@@ -71,6 +71,10 @@ Når du trykker på **Gjenopprett kjøp**, ber appen Apple om kjøp gjort med Ap
 ### 3.4 Tilbakemeldinger og støttehenvendelser (Cloudflare og CloudKit)
 
 Hvis du sender tilbakemelding eller ber om hjelp, sender Ranked meldingen, kategorien og kilden til en Cloudflare Worker. Den lagrer opplysningene i Apples offentlige CloudKit-database ved hjelp av en privat servernøkkel. Du trenger ikke logge på iCloud for å sende en melding. Cloudflare Worker bruker nettverksadressen til forespørselen til en teknisk begrensning mot misbruk; verken den opprinnelige adressen eller en hash av den lagres i CloudKit-posten for tilbakemeldingen. Du kan særskilt samtykke til å oppgi e-postadresse eller telefonnummer for svar utenfor appen. Meldinger og kontaktopplysninger sendes ikke til PostHog eller RevenueCat og knyttes ikke til en konto i appen. Vi behandler meldingen for å svare på henvendelsen din og valgfrie kontaktopplysninger med ditt samtykke. Det finnes for øyeblikket ingen fast frist for automatisk sletting av meldinger eller kontaktopplysninger. Du kan be om innsyn eller sletting på **dylan.schmid538@gmail.com**.
+
+### 3.5 Instruksjonsvideoer (YouTube)
+
+Øvelsessidene viser først et forhåndsvisningsbilde som er lagret på enheten. Ranked laster bare inn den innebygde YouTube-spilleren når du trykker på **Se video**. Da mottar Google/YouTube nettverksadressen din, data fra forespørselen til nettleseren og spilleren, den bestemte video-ID-en og en referanse som identifiserer Ranked som app. Ranked legger ikke til navnet ditt, kroppsmål, treningslogg, treningsplan, PostHog-ID eller RevenueCat-ID. Du kan bruke øvelsen uten å laste inn videoen. Den separate lenken **Se på YouTube** tar deg ut av Ranked. [Googles personvernregler](https://policies.google.com/privacy) beskriver hvordan Google behandler og lagrer data; Ranked kan ikke slette data som YouTube oppbevarer.
 
 ---
 

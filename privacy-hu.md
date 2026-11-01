@@ -7,7 +7,7 @@ permalink: /privacy/hu/
 
 # Adatvédelmi tájékoztató · Calisthenics Skills – Ranked
 
-**Utolsó frissítés: 2026-10-18**
+**Utolsó frissítés: 2026-11-01**
 
 Ez a tájékoztató ismerteti, milyen adatokat gyűjt a Ranked, hová kerülnek, és milyen lehetőségei vannak velük kapcsolatban.
 
@@ -73,6 +73,10 @@ Ha a **Vásárlások visszaállítása** lehetőségre koppint, az alkalmazás l
 ### 3.4 Visszajelzések és támogatási üzenetek (Cloudflare és CloudKit)
 
 Ha visszajelzést vagy támogatási kérést küld, a Ranked az üzenetet, annak kategóriáját és forrását egy Cloudflare Workerhez továbbítja. A Worker ezeket az Apple CloudKit nyilvános adatbázisában tárolja, privát szerverkulccsal. Az üzenet elküldéséhez nem kell bejelentkeznie az iCloudba. A Cloudflare Worker a kérés hálózati címét technikai visszaélés-korlátozásra használja; sem az eredeti címet, sem annak kivonatát nem tárolja a CloudKit visszajelzési rekordjában. Külön hozzájárulhat e-mail-cím vagy telefonszám megadásához, hogy az alkalmazáson kívül válaszolhassunk. Az üzenet és a kapcsolattartási adatok nem kerülnek a PostHoghoz vagy a RevenueCathez, és nem kapcsolódnak alkalmazásbeli fiókhoz. Az üzenetet a kérése megválaszolásához, az opcionális kapcsolattartási adatokat pedig a hozzájárulása alapján kezeljük. Jelenleg nincs rögzített határidő az üzenetek vagy kapcsolattartási adatok automatikus törlésére. Hozzáférést vagy törlést a **dylan.schmid538@gmail.com** címen kérhet.
+
+### 3.5 Oktatóvideók (YouTube)
+
+A gyakorlatok oldalain először egy helyben tárolt előnézeti kép jelenik meg. A Ranked csak akkor tölti be a beágyazott YouTube-lejátszót, ha megérinted a **Videó megtekintése** gombot. Ekkor a Google/YouTube megkapja a hálózati címedet, a böngésző és a lejátszó kérésének adatait, a videó azonosítóját, valamint a Ranked alkalmazásra utaló hivatkozást. A Ranked nem adja hozzá a nevedet, testméreteidet, edzésnaplódat, edzéstervedet, PostHog-azonosítódat vagy RevenueCat-azonosítódat. A gyakorlat a videó betöltése nélkül is használható. A külön **Megtekintés a YouTube-on** hivatkozás elhagyja a Ranked alkalmazást. A Google [adatvédelmi irányelvei](https://policies.google.com/privacy) ismertetik a saját adatkezelését és megőrzési szabályait; a Ranked nem tudja törölni a YouTube-nál tárolt adatokat.
 
 ---
 

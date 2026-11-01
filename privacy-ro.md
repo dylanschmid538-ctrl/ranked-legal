@@ -7,7 +7,7 @@ permalink: /privacy/ro/
 
 # Politica de confidențialitate · Calisthenics Skills – Ranked
 
-**Ultima actualizare: 2026-10-18**
+**Ultima actualizare: 2026-11-01**
 
 Această politică descrie ce date colectează Ranked, unde ajung și ce puteți face în privința lor.
 
@@ -71,6 +71,10 @@ Când apăsați **Restaurare cumpărături**, aplicația cere de la Apple cumpă
 ### 3.4 Mesaje de feedback și asistență (Cloudflare și CloudKit)
 
 Dacă trimiteți feedback sau o cerere de asistență, Ranked transmite mesajul, categoria și sursa către un Cloudflare Worker. Acesta le stochează în baza de date publică Apple CloudKit folosind o cheie privată de server. Nu trebuie să vă conectați la iCloud pentru a trimite un mesaj. Cloudflare Worker folosește adresa de rețea a cererii pentru o limită tehnică împotriva abuzurilor; nici adresa inițială, nici o amprentă a ei nu sunt stocate în înregistrarea de feedback din CloudKit. Puteți consimți separat să furnizați o adresă de e-mail sau un număr de telefon pentru a primi un răspuns în afara aplicației. Mesajele și datele de contact nu sunt trimise către PostHog sau RevenueCat și nu sunt asociate unui cont din aplicație. Prelucrăm mesajul pentru a răspunde cererii dumneavoastră și datele de contact opționale pe baza consimțământului dumneavoastră. În prezent nu este aplicată o perioadă fixă de ștergere automată pentru mesaje sau datele de contact. Puteți solicita accesul sau ștergerea la **dylan.schmid538@gmail.com**.
+
+### 3.5 Videoclipuri de instruire (YouTube)
+
+Paginile exercițiilor afișează mai întâi o imagine de previzualizare stocată local. Numai când atingeți **Vezi video**, Ranked încarcă playerul YouTube încorporat. La această solicitare, Google/YouTube primește adresa dvs. de rețea, datele solicitării din browser și player, ID-ul fix al videoclipului și o referință care identifică aplicația Ranked. Ranked nu adaugă numele, măsurătorile corporale, jurnalul sau planul de antrenament și nici identificatorii PostHog sau RevenueCat. Puteți folosi exercițiul fără a încărca videoclipul. Linkul separat **Vezi pe YouTube** vă scoate din Ranked. [Politica de confidențialitate Google](https://policies.google.com/privacy) descrie prelucrarea și păstrarea datelor de către Google; Ranked nu poate șterge datele deținute de YouTube.
 
 ---
 
