@@ -19,13 +19,14 @@ Ranked wordt beheerd door **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern,
 
 **Uw leeftijd, geslacht, lengte en lichaamsgewicht verlaten uw apparaat nooit.** De rangformule gebruikt ze op uw telefoon. Ze worden niet naar ons of naar de analysedienst gestuurd.
 
-Drie soorten gegevens kunnen uw apparaat verlaten:
+Vier soorten gegevens kunnen uw apparaat verlaten:
 
-1. **Gebruiksstatistieken**, Ranked deelt deze statistieken alleen als u het standaardverzoek van Apple om tracking toe te staan accepteert. U kunt delen in de app uitschakelen of de toestemming intrekken in de iOS-instellingen.
+1. **Gebruiksstatistieken**, zodat we kunnen zien hoe de app wordt gebruikt. U kunt deze op elk moment in de app uitschakelen.
 2. **Aankoopgegevens**, zodat het App Store-abonnement kan worden geverifieerd. Apple verwerkt de betaling; wij zien uw betaalgegevens nooit.
 3. **Feedback- en supportberichten**, alleen als u er zelf een verstuurt. Met uw toestemming kunt u een e-mailadres of telefoonnummer opgeven voor een antwoord.
+4. **YouTube (§3.4)**
 
-Ranked volgt u niet tussen andere apps of websites. De hieronder beschreven gebruiksstatistieken en toeschrijving van advertentiecampagnes worden alleen verzonden als u ATT-toestemming hebt gegeven en het delen van gebruiksgegevens hebt ingeschakeld. De app toont geen advertenties en leest niets uit Apple Health.
+Ranked volgt u niet in andere apps of op websites, toont geen advertenties en leest niets uit Apple Health.
 
 ---
 
@@ -42,25 +43,21 @@ De app sluit deze database niet uit van de back-up van uw apparaat. Gebruikt u i
 
 Als u de app verwijdert, worden al deze gegevens van het apparaat gewist. Wij kunnen ze niet herstellen, omdat we ze nooit hebben gehad.
 
+Je naam, profielfoto en voorfoto blijven op dit apparaat.
+
 ---
 
 ## 3. Wat uw apparaat verlaat
 
 ### 3.1 Gebruiksstatistieken (PostHog)
 
-Bij de eerste keer openen toont iOS het standaarddialoogvenster voor toestemming van „App Tracking Transparency“ (ATT). Ranked stuurt gebeurtenissen naar PostHog in de EU alleen als ATT-toestemming is gegeven en het delen van gebruiksgegevens in Instellingen is ingeschakeld. Als de toestemming ontbreekt of het delen is uitgeschakeld, worden deze gegevens niet verzonden. Ranked stuurt naar PostHog gebeurtenissen over inrichting, eerste beoordeling, rang- en fasewijzigingen (met vaardigheid en fase), betaalscherm, aankopen en geopende schermen. Gebeurtenissen van live trainingen bevatten begin, voltooiing of afbreken, verstreken seconden, aantal vastgelegde sets, aantal verschillende vaardigheden en of dit de eerste voltooide training was. Ze bevatten geen afzonderlijke oefeningen, herhalingen, gewichten of notities. Leeftijd, geslacht, lengte en lichaamsgewicht worden niet verzonden. PostHog ontvangt ook gebruikelijke technische gegevens over apparaat, iOS, app en taal en het IP-adres, waaruit een globale locatie kan worden afgeleid. Een willekeurige PostHog-installatie-ID wordt aangemaakt zodra ATT-toestemming is gegeven en het delen van gebruiksgegevens is ingeschakeld. Gebeurtenissen en gegevens over campagneherkomst worden aan deze ID gekoppeld voor analyse en meting van advertentie-effectiviteit. U kunt ATT-toestemming intrekken in de iOS-instellingen en het delen van gebruiksgegevens uitschakelen in Ranked via Instellingen ▸ Gegevens en privacy; nieuwe verzending stopt, eerder verzonden gegevens worden niet automatisch gewist.
+Analyse staat standaard uit. Alleen als u in Instellingen uitdrukkelijk toestemming geeft, stuurt Ranked naar PostHog in de EU gebeurtenissen over inrichting, eerste beoordeling, rang- en fasewijzigingen (met vaardigheid en fase), betaalscherm, aankopen en geopende schermen. Gebeurtenissen van live trainingen bevatten begin, voltooiing of afbreken, verstreken seconden, aantal vastgelegde sets, aantal verschillende vaardigheden en of dit de eerste voltooide training was. Ze bevatten geen afzonderlijke oefeningen, herhalingen, gewichten of notities. Leeftijd, geslacht, lengte en lichaamsgewicht worden niet verzonden. PostHog ontvangt ook gebruikelijke technische gegevens over apparaat, iOS, app en taal en het IP-adres, waaruit een globale locatie kan worden afgeleid. Na uw toestemming wordt een willekeurige analyse-ID gemaakt. U kunt de toestemming in Instellingen ▸ Gegevens en privacy intrekken; nieuwe verzending stopt, eerder verzonden gegevens worden niet automatisch gewist.
 
 De app kan ook de abonnementsfase, huidige toegang, verlengingsstatus en de detectie van een opzegging of factureringsprobleem melden. Deze waarnemingen zijn geen bewijs van een afschrijving en worden alleen verzonden zolang analyse is ingeschakeld.
 
 Met uw toestemming registreren gebruiksgebeurtenissen ook wanneer u een trainingsplan selecteert en een trainingssessie opent. De selectie van een plan omvat alleen het aantal trainingsdagen per week en oefeningen; het openen van een sessie omvat alleen of deze wordt hervat, de bron van binnenkomst en het aantal voorgeschreven oefeningen. De volledige inhoud van plannen, schema’s, afzonderlijke oefeningen en trainingsnotities blijven op uw apparaat.
 
-> Optioneel: Deel appgebruik, beoordeelde vaardigheden, rang, trainingsactiviteit en campagnegegevens van Apple Search Ads met PostHog om Ranked te verbeteren. We koppelen dit gebruik ook aan je proefperiode en abonnement via een willekeurige aankoopreferentie. Geen namen of trainingsnotities. Je kunt dit altijd wijzigen in Instellingen.
-
-### 3.2 Toeschrijving aan Apple Search Ads
-
-Alleen als ATT-toestemming is gegeven en het delen van gebruiksgegevens is ingeschakeld, vraagt Ranked via Apple AdServices eenmaal naar de herkomst van een installatie via Apple Search Ads. Na een advertentieklik kunnen campagne, advertentiegroep, trefwoord, uiting, land of regio, klikdatum en downloadtype aan de willekeurige PostHog-ID worden gekoppeld. De advertentie-ID IDFA wordt niet gebruikt. Toekomstige verzending stopt als u ATT-toestemming intrekt in de iOS-instellingen of het delen van gebruiksgegevens uitschakelt in de instellingen van Ranked.
-
-### 3.3 Aankopen (Apple en RevenueCat)
+### 3.2 Aankopen (Apple en RevenueCat)
 
 Abonnementen worden door **Apple** verkocht en gefactureerd via de App Store. Wij zien nooit uw betaalgegevens, Apple Account of naam.
 
@@ -68,11 +65,11 @@ Om te controleren of uw abonnement actief is, gebruikt de app **RevenueCat**. Re
 
 Als u op **Aankopen herstellen** tikt, vraagt de app Apple om de aankopen die zijn gedaan met het Apple Account dat op het apparaat is aangemeld en geeft het resultaat op dezelfde manier door aan RevenueCat.
 
-### 3.4 Feedback- en supportberichten (Cloudflare en CloudKit)
+### 3.3 Feedback- en supportberichten (Cloudflare en CloudKit)
 
 Als u feedback of een hulpvraag verstuurt, stuurt Ranked het bericht, de categorie en de herkomst naar een Cloudflare Worker. Die bewaart de gegevens in de openbare database van Apple CloudKit met een privésleutel voor de server. U hoeft niet bij iCloud in te loggen om een bericht te versturen. De Cloudflare Worker gebruikt het netwerkadres van het verzoek voor een technische beperking tegen misbruik; het oorspronkelijke adres en een hash ervan worden niet opgeslagen in het CloudKit-feedbackrecord. U kunt afzonderlijk toestemming geven om een e-mailadres of telefoonnummer mee te sturen voor een antwoord buiten de app. Berichten en contactgegevens worden niet naar PostHog of RevenueCat verzonden en niet aan een appaccount gekoppeld. We verwerken het bericht om uw vraag te beantwoorden en de optionele contactgegevens met uw toestemming. Er geldt momenteel geen vaste termijn voor automatische verwijdering van berichten of contactgegevens. U kunt inzage of verwijdering aanvragen via **dylan.schmid538@gmail.com**.
 
-### 3.5 Instructievideo's (YouTube)
+### 3.4 Instructievideo's (YouTube)
 
 Op de oefenpagina's verschijnt eerst een voorbeeldafbeelding die op je apparaat is opgeslagen. Ranked laadt de ingesloten YouTube-speler pas wanneer je op **Video bekijken** tikt. Bij dat verzoek ontvangt Google/YouTube je netwerkadres, gegevens over het verzoek van de browser en de speler, de vaste video-ID en een verwijzing die Ranked als app aangeeft. Ranked voegt je naam, lichaamsmaten, trainingslogboek, trainingsplan, PostHog-ID of RevenueCat-ID niet toe. Je kunt de oefening gebruiken zonder de video te laden. De aparte link **Bekijken op YouTube** brengt je buiten Ranked. Het [privacybeleid van Google](https://policies.google.com/privacy) beschrijft hoe Google deze gegevens verwerkt en bewaart; Ranked kan gegevens die YouTube bewaart niet wissen.
 
@@ -82,8 +79,7 @@ Op de oefenpagina's verschijnt eerst een voorbeeldafbeelding die op je apparaat 
 
 - **Geen accounts.** U meldt zich nooit aan. Er bestaat nergens op een server een profiel van u.
 - **Geen Apple Health.** Ranked leest niet uit en schrijft niet naar de Gezondheid-app.
-- **Geen camera, foto's, microfoon, locatie of contacten.** De app vraagt geen van deze toestemmingen.
-- **Ranked volgt u niet tussen andere apps of websites.** De in §3 beschreven gebruiksstatistieken en campagnemeting worden alleen gebruikt als u ATT-toestemming hebt gegeven en het delen van gebruiksgegevens hebt ingeschakeld; IDFA wordt niet gebruikt. De app toont geen advertenties en gegevens worden niet verkocht of aan datahandelaren verstrekt.
+- **Geen tracking tussen apps of websites**, geen advertentie-ID, geen advertenties in de app en geen verkoop of verstrekking van gegevens aan datahandelaren.
 - **Geen pushserver.** Herinneringen worden lokaal op uw telefoon gepland; niets daarover verlaat het apparaat. U wordt om toestemming gevraagd voordat de eerste wordt ingepland en kunt ze altijd uitschakelen in de iOS-instellingen.
 
 ---
@@ -92,9 +88,8 @@ Op de oefenpagina's verschijnt eerst een voorbeeldafbeelding die op je apparaat 
 
 | Verwerking | Rechtsgrond |
 |---|---|
-| Aankopen en verificatie van abonnementen (§3.3) | Uitvoering van een overeenkomst |
+| Aankopen en verificatie van abonnementen (§3.2) | Uitvoering van een overeenkomst |
 | Gebruiksstatistieken (§3.1) | Uw toestemming; op elk moment in Instellingen ▸ Gegevens en privacy in te trekken |
-| Toeschrijving aan Search Ads (§3.2) | Uw toestemming; op elk moment in Instellingen ▸ Gegevens en privacy in te trekken |
 
 **Hier gelden twee wetten, niet één.** Ranked wordt vanuit Zwitserland beheerd; daarom valt deze verwerking onder de herziene Zwitserse federale wet inzake gegevensbescherming (**revDSG**, van kracht sinds september 2023). De **AVG (GDPR)** geldt daarnaast wanneer de app vanuit de Europese Unie of het Verenigd Koninkrijk wordt gebruikt. Als ze verschillen, volgen we de strengere regel. Inwoners van Zwitserland hebben dezelfde kernrechten die in §8 staan, op grond van artikel 25 en volgende van de revDSG.
 
@@ -103,8 +98,7 @@ Op de oefenpagina's verschijnt eerst een voorbeeldafbeelding die op je apparaat 
 ## 6. Waar gegevens worden verwerkt
 
 - **PostHog** verwerkt gebruiksstatistieken in de Europese Unie.
-- **RevenueCat, Inc.** is gevestigd in de Verenigde Staten en verwerkt daar de aankoopgegevens uit §3.3.
-- **Apple** verwerkt de aankoop zelf en het verzoek om Search Ads-toeschrijving volgens Apples eigen privacybeleid, dat onafhankelijk van deze app op uw Apple Account van toepassing is.
+- **RevenueCat, Inc.** is gevestigd in de Verenigde Staten en verwerkt daar de aankoopgegevens uit §3.2.
 
 ---
 
@@ -120,7 +114,7 @@ Alles op uw apparaat blijft daar totdat u de app verwijdert.
 
 ## 8. Uw rechten
 
-U kunt toekomstige verzending van analytische gegevens op elk moment stoppen door ATT-toestemming in de iOS-instellingen in te trekken of het delen van gebruiksgegevens uit te schakelen in Ranked via Instellingen ▸ Gegevens en privacy. Eerder verzonden gegevens worden niet automatisch gewist en uw App Store-abonnement wordt niet opgezegd.
+U kunt uw toestemming voor analyse op elk moment zonder reden intrekken in Instellingen ▸ Gegevens en privacy. Nieuwe gebeurtenissen stoppen direct; eerder verzonden gegevens worden niet automatisch gewist en uw App Store-abonnement wordt niet opgezegd.
 
 U kunt lokale trainingsgegevens wissen via Instellingen ▸ Gegevens en privacy ▸ *Lokale trainingsgegevens verwijderen* of door de app te verwijderen. Het abonnement beheert en beëindigt u apart via uw Apple Account.
 

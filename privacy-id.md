@@ -19,15 +19,14 @@ Ranked dioperasikan oleh **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, 
 
 **Usia, jenis kelamin, tinggi badan, dan berat badan Anda tidak pernah meninggalkan perangkat.** Rumus peringkat menggunakannya di ponsel Anda. Data itu tidak dikirim kepada kami ataupun layanan analitik.
 
-Tiga jenis data dapat meninggalkan perangkat Anda:
+Empat jenis data dapat meninggalkan perangkat Anda:
 
-1. **Statistik penggunaan**, Ranked hanya membagikan statistik ini jika Anda mengizinkan permintaan pelacakan standar dari Apple. Anda dapat mematikan berbagi di app atau mencabut izinnya di Pengaturan iOS.
+1. **Statistik penggunaan**, agar kami memahami cara aplikasi digunakan. Anda dapat menonaktifkannya kapan saja di aplikasi.
 2. **Data pembelian**, agar langganan App Store dapat diverifikasi. Apple menangani pembayaran; kami tidak pernah melihat rincian pembayaran Anda.
 3. **Pesan masukan dan dukungan**, hanya jika Anda memilih untuk mengirimnya. Anda dapat memberi persetujuan terpisah untuk menyertakan email atau nomor telepon agar kami dapat membalas.
+4. **YouTube (§3.4)**
 
-Ranked tidak menampilkan iklan dan tidak membaca data dari Apple Health. Setelah ATT diizinkan, Ranked otomatis mengaktifkan berbagi data penggunaan; pengiriman berlanjut selama tombol berbagi di Pengaturan Ranked tetap aktif. Data penggunaan dan atribusi instalasi Apple Search Ads dapat ditautkan untuk pengukuran; lihat §3.1–3.2.
-
-Setelah Anda mengizinkan ATT pada peluncuran pertama, Ranked otomatis mengaktifkan berbagi data penggunaan. Data dikirim selama ATT diizinkan dan tombol berbagi tetap aktif di Pengaturan Ranked. Anda dapat mematikan berbagi kapan saja di Pengaturan Ranked. Pengumpulan dan pengiriman berikutnya juga berhenti jika Anda mencabut ATT di Pengaturan iOS; data yang sudah dikirim tidak dihapus.
+Ranked tidak melacak Anda di aplikasi atau situs web lain, tidak menampilkan iklan, dan tidak membaca apa pun dari Apple Health.
 
 ---
 
@@ -44,25 +43,21 @@ Aplikasi tidak mengecualikan basis data ini dari cadangan perangkat. Jika Anda m
 
 Menghapus aplikasi akan menghapus semua data tersebut dari perangkat. Kami tidak dapat memulihkannya karena kami tidak pernah memilikinya.
 
+Nama, foto profil, dan foto sebelum tetap di perangkat ini.
+
 ---
 
 ## 3. Data yang meninggalkan perangkat
 
 ### 3.1 Statistik penggunaan (PostHog)
 
-Saat pertama kali aplikasi dibuka, iOS menampilkan dialog standar Apple untuk izin pelacakan (App Tracking Transparency, ATT). Setelah Anda mengizinkan ATT, Ranked otomatis mengaktifkan berbagi data penggunaan. Ranked hanya mengirim peristiwa ke PostHog di UE selama ATT diizinkan dan tombol berbagi di Pengaturan Ranked tetap aktif. Peristiwa mencakup langkah penyiapan dan hasil penilaian awal, perubahan peringkat dan tahap (beserta keahlian dan tahap), layar pembelian dan pembelian, layar yang dibuka, serta mulai, selesai atau ditinggalkannya latihan langsung; peristiwa ini juga mencakup detik yang berlalu, jumlah set yang dicatat, jumlah keahlian berbeda, dan apakah itu latihan pertama yang selesai. Peristiwa tidak mencakup latihan individual, repetisi, beban, atau catatan. Usia, jenis kelamin, tinggi dan berat badan tidak dikirim. PostHog juga menerima informasi teknis umum tentang perangkat, iOS, aplikasi, bahasa dan alamat IP yang dapat menunjukkan lokasi perkiraan. Peristiwa ditautkan di bawah ID instalasi PostHog yang acak untuk analitik dan pengukuran iklan; IDFA tidak digunakan. Menonaktifkan tombol berbagi di Pengaturan Ranked atau mencabut izin ATT di Pengaturan iOS menghentikan pengumpulan dan pengiriman berikutnya. Peristiwa yang sudah dikirim tidak otomatis dihapus.
+Analitik dinonaktifkan secara default. Hanya jika Anda memberi persetujuan secara tegas di Pengaturan, Ranked mengirim peristiwa ke PostHog yang dihosting di UE: penyiapan, penilaian awal, perubahan peringkat dan tahap (beserta keahlian dan tahap), layar pembelian, pembelian, dan layar yang dibuka. Peristiwa latihan langsung mencakup mulai, selesai atau ditinggalkan, detik yang berlalu, jumlah set yang dicatat, jumlah keahlian berbeda, dan apakah itu latihan pertama yang selesai. Peristiwa ini tidak mencakup latihan individual, repetisi, beban, atau catatan. Usia, jenis kelamin, tinggi dan berat badan tidak dikirim. PostHog juga menerima informasi teknis umum tentang perangkat, iOS, aplikasi, bahasa dan alamat IP yang dapat menunjukkan lokasi perkiraan. ID analitik acak dibuat setelah persetujuan. Anda dapat menarik persetujuan di Pengaturan ▸ Data & privasi; peristiwa baru berhenti, tetapi data yang sudah dikirim tidak otomatis dihapus.
 
 Aplikasi juga dapat melaporkan tahap langganan, akses saat ini, status perpanjangan, dan apakah pembatalan atau masalah penagihan terdeteksi. Pengamatan ini bukan bukti pembebanan biaya dan hanya dikirim saat analitik aktif.
 
 Dengan persetujuan Anda, peristiwa penggunaan juga mencatat kapan Anda memilih rencana latihan dan membuka sesi latihan. Pemilihan rencana hanya mencakup jumlah hari latihan per minggu dan jumlah latihan; pembukaan sesi hanya mencakup apakah sesi dilanjutkan, sumber masuk, dan jumlah latihan yang ditentukan. Isi lengkap rencana, jadwal, latihan individual, dan catatan latihan tetap berada di perangkat Anda.
 
-> Opsional: Bagikan penggunaan aplikasi, keterampilan yang dinilai, peringkat, aktivitas latihan, dan data kampanye Apple Search Ads dengan PostHog untuk meningkatkan Ranked. Kami juga menghubungkan penggunaan ini dengan masa uji coba dan langgananmu melalui referensi pembelian acak. Tanpa nama atau catatan latihan. Ubah kapan saja di Pengaturan.
-
-### 3.2 Atribusi Apple Search Ads
-
-Ranked meminta atribusi instalasi dari Apple AdServices hanya selama ATT diizinkan dan tombol berbagi di Pengaturan Ranked tetap aktif. Jika Anda mengetuk iklan, kampanye, grup iklan, kata kunci, materi iklan, negara atau wilayah, tanggal ketukan dan jenis unduhan dapat ditautkan ke ID instalasi PostHog yang sama untuk pengukuran iklan. ID iklan IDFA tidak digunakan. Mencabut izin atau menonaktifkan berbagi menghentikan permintaan dan pengiriman berikutnya; data yang sudah dikirim tidak dihapus.
-
-### 3.3 Pembelian (Apple dan RevenueCat)
+### 3.2 Pembelian (Apple dan RevenueCat)
 
 Langganan dijual dan ditagihkan oleh **Apple** melalui App Store. Kami tidak pernah melihat rincian pembayaran, Akun Apple, atau nama Anda.
 
@@ -70,11 +65,11 @@ Untuk memeriksa apakah langganan aktif, aplikasi menggunakan **RevenueCat**. Rev
 
 Saat Anda mengetuk **Pulihkan Pembelian**, aplikasi meminta Apple memberikan pembelian yang dilakukan dengan Akun Apple yang masuk pada perangkat lalu menyampaikan hasilnya kepada RevenueCat dengan cara yang sama.
 
-### 3.4 Pesan masukan dan dukungan (Cloudflare dan CloudKit)
+### 3.3 Pesan masukan dan dukungan (Cloudflare dan CloudKit)
 
 Jika Anda mengirim masukan atau permintaan dukungan, Ranked mengirim pesan, kategori, dan sumber ke Cloudflare Worker. Layanan tersebut menyimpannya di basis data publik Apple CloudKit menggunakan kunci server pribadi. Anda tidak perlu masuk ke iCloud untuk mengirim pesan. Cloudflare Worker menggunakan alamat jaringan permintaan untuk pembatasan teknis terhadap penyalahgunaan; alamat asli maupun hash-nya tidak disimpan dalam catatan masukan CloudKit. Anda dapat memberikan persetujuan terpisah untuk menyertakan alamat email atau nomor telepon agar kami dapat membalas di luar aplikasi. Pesan dan informasi kontak tidak dikirim ke PostHog atau RevenueCat dan tidak dihubungkan dengan akun aplikasi. Kami memproses pesan untuk menanggapi permintaan Anda dan informasi kontak opsional berdasarkan persetujuan Anda. Saat ini tidak ada batas waktu tetap untuk penghapusan otomatis pesan atau informasi kontak. Anda dapat meminta akses atau penghapusan melalui **dylan.schmid538@gmail.com**.
 
-### 3.5 Video panduan (YouTube)
+### 3.4 Video panduan (YouTube)
 
 Halaman latihan mula-mula menampilkan gambar pratinjau yang tersimpan di perangkat. Ranked hanya memuat pemutar YouTube tertanam setelah Anda mengetuk **Tonton video**. Permintaan tersebut memberikan alamat jaringan Anda, data permintaan peramban dan pemutar, ID video, serta rujukan aplikasi yang menunjukkan Ranked kepada Google/YouTube. Ranked tidak menambahkan nama, ukuran tubuh, catatan latihan, rencana latihan, pengenal PostHog, atau pengenal RevenueCat Anda. Anda tetap dapat menggunakan latihan tanpa memuat video. Tautan terpisah **Tonton di YouTube** akan membawa Anda keluar dari Ranked. [Kebijakan privasi Google](https://policies.google.com/privacy) menjelaskan pemrosesan dan penyimpanan datanya; Ranked tidak dapat menghapus data yang disimpan oleh YouTube.
 
@@ -84,27 +79,26 @@ Halaman latihan mula-mula menampilkan gambar pratinjau yang tersimpan di perangk
 
 - **Tidak ada akun.** Anda tidak perlu masuk. Tidak ada profil tentang Anda di server mana pun.
 - **Tidak ada Apple Health.** Ranked tidak membaca dari atau menulis ke aplikasi Kesehatan.
-- **Tidak ada kamera, foto, mikrofon, lokasi, atau kontak.** Aplikasi tidak meminta izin tersebut.
-- **Pelacakan dan atribusi:** Ranked tidak menggunakan IDFA. Data penggunaan dan atribusi instalasi Apple Search Ads dapat ditautkan untuk pengukuran iklan hanya jika ATT diizinkan dan berbagi data penggunaan diaktifkan. Tidak ada iklan di dalam aplikasi, dan data tidak dijual atau diberikan kepada broker data.
+- **Tidak ada pelacakan lintas aplikasi atau situs web**, pengenal iklan, iklan dalam aplikasi, atau penjualan maupun pemberian data kepada pialang data.
 - **Tidak ada server pemberitahuan push.** Pengingat dijadwalkan secara lokal di ponsel; tidak ada informasinya yang meninggalkan perangkat. Izin diminta sebelum pengingat pertama dijadwalkan, dan Anda dapat menonaktifkannya kapan saja di Pengaturan iOS.
 
 ---
+
 ## 5. Dasar hukum (GDPR dan UU Perlindungan Data Swiss yang direvisi)
 
 | Pemrosesan | Dasar hukum |
 |---|---|
-| Pembelian dan verifikasi langganan (§3.3) | Pelaksanaan kontrak |
-| Statistik penggunaan (§3.1) | Persetujuan Anda untuk berbagi data penggunaan dan izin ATT dari Apple; masing-masing dapat dicabut kapan saja. Menonaktifkan berbagi data di Pengaturan Ranked atau mencabut ATT di Pengaturan iOS menghentikan pengumpulan berikutnya; data yang sudah dikirim tidak dihapus. |
-| Atribusi Search Ads (§3.2) | Persetujuan Anda untuk berbagi data penggunaan dan izin ATT dari Apple; masing-masing dapat dicabut kapan saja. Menonaktifkan berbagi data di Pengaturan Ranked atau mencabut ATT di Pengaturan iOS menghentikan pengumpulan berikutnya; data yang sudah dikirim tidak dihapus. |
+| Pembelian dan verifikasi langganan (§3.2) | Pelaksanaan kontrak |
+| Statistik penggunaan (§3.1) | Persetujuan Anda; dapat ditarik kapan saja di Pengaturan ▸ Data & privasi |
 
 **Dua hukum berlaku di sini, bukan satu.** Ranked dioperasikan dari Swiss, sehingga Undang-Undang Federal Swiss tentang Perlindungan Data yang direvisi (**revDSG**, berlaku sejak September 2023) mengatur pemrosesan ini. **GDPR** juga berlaku apabila aplikasi digunakan dari Uni Eropa atau Britania Raya. Jika keduanya berbeda, kami mengikuti aturan yang lebih ketat. Penduduk Swiss memiliki hak-hak pokok yang sama sebagaimana tercantum pada §8 berdasarkan Pasal 25 dan seterusnya revDSG.
 
 ---
+
 ## 6. Lokasi pemrosesan data
 
 - **PostHog** memproses statistik penggunaan di Uni Eropa.
-- **RevenueCat, Inc.** berkedudukan di Amerika Serikat dan memproses data pembelian sebagaimana pada §3.3 di sana.
-- **Apple** memproses pembelian dan permintaan atribusi Search Ads menurut kebijakan privasinya sendiri, yang berlaku untuk Akun Apple Anda terlepas dari aplikasi ini.
+- **RevenueCat, Inc.** berkedudukan di Amerika Serikat dan memproses data pembelian sebagaimana pada §3.2 di sana.
 
 ---
 
@@ -120,7 +114,7 @@ Semua data pada perangkat tetap tersimpan hingga Anda menghapus aplikasi.
 
 ## 8. Hak Anda
 
-Anda dapat menonaktifkan berbagi data penggunaan kapan saja di Pengaturan Ranked ▸ Data & privasi dan mencabut izin ATT di Pengaturan iOS. Masing-masing tindakan menghentikan pengumpulan dan pengiriman berikutnya. Data yang sudah dikirim tidak otomatis dihapus dan langganan App Store tidak dibatalkan.
+Anda dapat menarik persetujuan analitik kapan saja di Pengaturan ▸ Data & privasi tanpa alasan. Peristiwa baru segera berhenti, tetapi data yang sudah dikirim tidak otomatis dihapus dan langganan App Store tidak dibatalkan.
 
 Anda dapat menghapus data latihan lokal di Pengaturan ▸ Data & privasi ▸ *Hapus data latihan lokal* atau dengan menghapus aplikasi. Langganan dikelola dan dibatalkan secara terpisah di Akun Apple Anda.
 

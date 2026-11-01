@@ -19,15 +19,14 @@ Ranked vodi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švicarska**,
 
 **Vaša dob, spol, visina i tjelesna težina nikad ne napuštaju uređaj.** Formula za rang koristi ih na telefonu. Ne šalju se nama ni analitičkoj usluzi.
 
-Tri vrste podataka mogu napustiti vaš uređaj:
+Četiri vrste podataka mogu napustiti vaš uređaj:
 
-1. **Statistika korištenja**, Ranked dijeli ovu statistiku samo ako dopustite Appleov standardni zahtjev za praćenje. Dijeljenje možete isključiti u aplikaciji ili opozvati dopuštenje u postavkama iOS-a.
+1. **Statistika korištenja**, kako bismo razumjeli kako se aplikacija koristi. Možete je bilo kada isključiti u aplikaciji.
 2. **Podaci o kupnji**, radi provjere pretplate u App Storeu. Apple obrađuje plaćanje; mi nikad ne vidimo vaše podatke o plaćanju.
 3. **Poruke s povratnim informacijama i upiti podršci**, samo ako ih sami pošaljete. Uz zaseban pristanak možete dati e-adresu ili telefon za odgovor.
+4. **YouTube (§3.4)**
 
-Ranked ne prikazuje oglase i ne čita podatke iz Apple Healtha. Nakon dopuštenja ATT-a dijeljenje podataka o korištenju automatski se uključuje i ostaje uključeno dok ga ne isključite u Rankedovim Postavkama. Podaci o korištenju i atribuciji instalacija putem Apple Search Ads mogu se povezati radi mjerenja; vidi §3.1–3.2.
-
-Kad dopustite ATT pri prvom pokretanju, Ranked automatski uključuje dijeljenje podataka o korištenju. Podaci se šalju dok je ATT dopušten i dok je prekidač dijeljenja uključen u Rankedovim Postavkama. Dijeljenje možete isključiti u Rankedovim Postavkama. Opoziv dopuštenja ATT-a u postavkama iOS-a također zaustavlja buduće prikupljanje i slanje; već poslani podaci ne brišu se.
+Ranked vas ne prati kroz druge aplikacije ili web-mjesta, ne prikazuje oglase i ne čita ništa iz Apple Healtha.
 
 ---
 
@@ -44,25 +43,21 @@ Aplikacija ne isključuje ovu bazu iz sigurnosne kopije uređaja. Ako koristite 
 
 Brisanjem aplikacije sve se to briše s uređaja. Ne možemo to vratiti jer nikad nismo imali te podatke.
 
+Ime, profilna fotografija i fotografija prije početka ostaju na ovom uređaju.
+
 ---
 
 ## 3. Što napušta vaš uređaj
 
 ### 3.1 Statistika korištenja (PostHog)
 
-Pri prvom pokretanju iOS prikazuje Appleov standardni dijalog za dopuštenje praćenja (App Tracking Transparency, ATT). Nakon što dopustite ATT, Ranked automatski uključuje dijeljenje podataka o korištenju. Ranked šalje događaje PostHogu u EU samo dok je ATT dopušten i dok je prekidač dijeljenja uključen u Rankedovim Postavkama. Događaji obuhvaćaju korake postavljanja i početnu procjenu, promjene ranga i stupnja (uključujući vještinu i stupanj), zaslon za kupnju i kupnje, otvorene zaslone te početak, završetak ili prekid treninga uživo, protekle sekunde, broj zabilježenih serija, broj različitih vještina i podatak je li to bio prvi završeni trening. Ne uključuju pojedinačne vježbe, ponavljanja, utege ni bilješke. Dob, spol, visina i tjelesna težina ne šalju se. PostHog prima i uobičajene tehničke podatke o uređaju, iOS-u, aplikaciji i jeziku te IP adresu iz koje se može izvesti približna lokacija. Događaji se povezuju pod nasumičnim identifikatorom instalacije u PostHogu radi analitike i mjerenja oglašavanja; IDFA se ne koristi. Isključivanje dijeljenja u Rankedovim Postavkama ili opoziv dopuštenja ATT-a u postavkama iOS-a zaustavlja buduće prikupljanje i slanje. Već poslani događaji ne brišu se automatski.
+Analitika je zadano isključena. Tek kada izričito pristanete u Postavkama, Ranked šalje PostHogu u EU događaje o postavljanju, početnoj procjeni, promjenama ranga i stupnja (s vještinom i stupnjem), zaslonu za kupnju, kupnjama i otvorenim zaslonima. Događaji treninga uživo uključuju početak, završetak ili prekid, protekle sekunde, broj zabilježenih serija, broj različitih vještina te je li to bio prvi završeni trening. Ne uključuju pojedinačne vježbe, ponavljanja, utege ni bilješke. Dob, spol, visina i tjelesna težina ne šalju se. PostHog prima i uobičajene tehničke podatke o uređaju, iOS-u, aplikaciji i jeziku te IP adresu iz koje se može izvesti približna lokacija. Nasumični analitički identifikator nastaje nakon pristanka. Pristanak možete povući u Postavkama ▸ Podaci i privatnost; novi događaji prestaju, ali prethodno poslani podaci ne brišu se automatski.
 
 Aplikacija također može izvještavati o fazi pretplate, trenutačnom pristupu, statusu obnove te je li otkriven otkaz ili problem s naplatom. Ta opažanja nisu dokaz terećenja i šalju se samo dok je analitika uključena.
 
 Uz vašu privolu događaji upotrebe bilježe i kada odaberete plan treninga i kada otvorite trening. Odabir plana uključuje samo broj dana treninga tjedno i vježbi; otvaranje treninga uključuje samo nastavlja li se, izvor ulaska i broj propisanih vježbi. Potpuni sadržaj planova, rasporedi, pojedinačne vježbe i bilješke treninga ostaju na vašem uređaju.
 
-> Neobavezno: Podijeli upotrebu aplikacije, procijenjene vještine, rang, aktivnost treninga i podatke kampanja Apple Search Ads s uslugom PostHog radi poboljšanja aplikacije Ranked. Tu upotrebu povezujemo i s tvojim probnim razdobljem i pretplatom putem nasumične reference kupnje. Bez imena ili bilježaka treninga. Promijeni to bilo kada u Postavkama.
-
-### 3.2 Pripisivanje Apple Search Ads oglasa
-
-Ranked traži atribuciju instalacije od Apple AdServices samo dok je ATT dopušten i dok je dijeljenje podataka o korištenju uključeno u Rankedovim Postavkama. Nakon klika na oglas, kampanja, oglasna grupa, ključna riječ, oglasni sadržaj, država ili regija, datum klika i vrsta preuzimanja mogu se povezati s istim nasumičnim identifikatorom instalacije u PostHogu radi mjerenja oglašavanja. Oglašivački identifikator IDFA ne koristi se. Opoziv dopuštenja ili isključivanje dijeljenja zaustavlja buduće upite i slanje; već poslani podaci ne brišu se.
-
-### 3.3 Kupnje (Apple i RevenueCat)
+### 3.2 Kupnje (Apple i RevenueCat)
 
 Pretplate prodaje i naplaćuje **Apple** putem App Storea. Nikad ne vidimo vaše podatke o plaćanju, Apple račun ni ime.
 
@@ -70,11 +65,11 @@ Za provjeru aktivne pretplate aplikacija koristi **RevenueCat**. RevenueCat prim
 
 Kad dodirnete **Vrati kupnje**, aplikacija traži od Applea kupnje povezane s Apple računom prijavljenim na uređaju i rezultat prosljeđuje RevenueCatu na isti način.
 
-### 3.4 Poruke s povratnim informacijama i upiti podršci (Cloudflare i CloudKit)
+### 3.3 Poruke s povratnim informacijama i upiti podršci (Cloudflare i CloudKit)
 
 Ako pošaljete povratne informacije ili upit podršci, Ranked šalje poruku, njezinu kategoriju i izvor usluzi Cloudflare Worker. Ona ih pohranjuje u javnu bazu podataka Apple CloudKit pomoću privatnog poslužiteljskog ključa. Za slanje poruke nije potrebna prijava na iCloud. Cloudflare Worker koristi mrežnu adresu zahtjeva za tehničko ograničavanje zloupotrebe; ni izvorna adresa ni njezin hash ne pohranjuju se u zapis povratnih informacija u CloudKitu. Zasebno možete pristati dati adresu e-pošte ili telefonski broj kako bismo vam odgovorili izvan aplikacije. Poruke i podaci za kontakt ne šalju se PostHogu ili RevenueCatu niti se povezuju s računom u aplikaciji. Poruku obrađujemo kako bismo odgovorili na vaš zahtjev, a neobavezne podatke za kontakt uz vaš pristanak. Trenutačno nije određen stalan rok za automatsko brisanje poruka ili podataka za kontakt. Pristup ili brisanje možete zatražiti na **dylan.schmid538@gmail.com**.
 
-### 3.5 Videozapisi s uputama (YouTube)
+### 3.4 Videozapisi s uputama (YouTube)
 
 Stranice vježbi prikazuju sliku za pregled spremljenu na uređaju. Ranked učitava ugrađeni reproduktor YouTubea tek kada dodirnete **Pogledaj videozapis**. Tim zahtjevom Google/YouTube prima vašu mrežnu adresu, podatke o zahtjevu preglednika i reproduktora, stalni ID videozapisa te podatak o aplikaciji upućivanja koji identificira Ranked. Ranked ne dodaje vaše ime, tjelesne mjere, dnevnik treninga, plan treninga ni identifikatore PostHoga ili RevenueCata. Vježbu možete koristiti bez učitavanja videozapisa. Zasebna poveznica **Pogledaj na YouTubeu** vodi vas izvan aplikacije Ranked. [Googleova pravila o privatnosti](https://policies.google.com/privacy) opisuju obradu i čuvanje tih podataka; Ranked ne može izbrisati podatke koje čuva YouTube.
 
@@ -85,27 +80,26 @@ Stranice vježbi prikazuju sliku za pregled spremljenu na uređaju. Ranked učit
 
 - **Nema računa.** Nikad se ne prijavljujete. Na poslužitelju ne postoji vaš profil.
 - **Nema Apple Healtha.** Ranked ne čita iz aplikacije Health niti piše u nju.
-- **Nema kamere, fotografija, mikrofona, lokacije ni kontakata.** Aplikacija ne traži ta dopuštenja.
-- **Praćenje i atribucija:** Ranked ne koristi IDFA. Podaci o korištenju i atribuciji instalacija putem Apple Search Ads mogu se povezati radi mjerenja oglašavanja samo uz dopuštenje ATT-a i uključeno dijeljenje podataka o korištenju. U aplikaciji nema oglasa, a podaci se ne prodaju ni ne predaju posrednicima za podatke.
+- **Nema praćenja između aplikacija ili web-mjesta**, oglašivačke oznake, oglasa u aplikaciji ni prodaje ili predaje podataka posrednicima u trgovini podacima.
 - **Nema poslužitelja za push obavijesti.** Podsjetnici se zakazuju lokalno na telefonu; ništa o njima ne napušta uređaj. Pitanje dopuštenja postavlja se prije prvog, a možete ih bilo kada isključiti u postavkama iOS-a.
 
 ---
+
 ## 5. Pravna osnova (GDPR i švicarski revDSG)
 
 | Obrada | Osnova |
 |---|---|
-| Kupnje i provjera pretplate (§3.3) | Izvršavanje ugovora |
-| Statistika korištenja (§3.1) | Vaš pristanak na dijeljenje podataka o korištenju i dopuštenje ATT-a koje daje Apple; svako od njih možete povući u bilo kojem trenutku. Isključivanje dijeljenja u Rankedovim Postavkama ili opoziv dopuštenja ATT-a u postavkama iOS-a zaustavlja buduće prikupljanje; već poslani podaci ne brišu se. |
-| Pripisivanje Search Ads oglasa (§3.2) | Vaš pristanak na dijeljenje podataka o korištenju i dopuštenje ATT-a koje daje Apple; svako od njih možete povući u bilo kojem trenutku. Isključivanje dijeljenja u Rankedovim Postavkama ili opoziv dopuštenja ATT-a u postavkama iOS-a zaustavlja buduće prikupljanje; već poslani podaci ne brišu se. |
+| Kupnje i provjera pretplate (§3.2) | Izvršavanje ugovora |
+| Statistika korištenja (§3.1) | Vaš pristanak; možete ga povući bilo kada u Postavkama ▸ Podaci i privatnost |
 
 **Ovdje se primjenjuju dva zakona, ne jedan.** Ranked se vodi iz Švicarske, pa ovu obradu uređuje revidirani švicarski Savezni zakon o zaštiti podataka (**revDSG**, na snazi od rujna 2023.). **GDPR** se dodatno primjenjuje gdje god se aplikacija koristi iz Europske unije ili Ujedinjene Kraljevine. Ako se zakoni razlikuju, slijedimo stroži. Stanovnici Švicarske imaju ista temeljna prava iz §8 prema članku 25. i sljedećima revDSG-a.
 
 ---
+
 ## 6. Gdje se podaci obrađuju
 
 - **PostHog** obrađuje statistiku korištenja u Europskoj uniji.
-- **RevenueCat, Inc.** ima sjedište u Sjedinjenim Američkim Državama i ondje obrađuje podatke o kupnji iz §3.3.
-- **Apple** obrađuje samu kupnju i zahtjev za pripisivanje Search Ads oglasa prema vlastitim pravilima o privatnosti, koja se odnose na vaš Apple račun neovisno o ovoj aplikaciji.
+- **RevenueCat, Inc.** ima sjedište u Sjedinjenim Američkim Državama i ondje obrađuje podatke o kupnji iz §3.2.
 
 ---
 
@@ -121,7 +115,7 @@ Sve na vašem uređaju ostaje ondje dok ne izbrišete aplikaciju.
 
 ## 8. Vaša prava
 
-Dijeljenje podataka o korištenju možete isključiti u Rankedovim Postavkama ▸ Podaci i privatnost, a dopuštenje ATT-a možete opozvati u postavkama iOS-a. Obje radnje zaustavljaju buduće prikupljanje i slanje. Već poslani podaci ne brišu se automatski, a pretplata na App Store ne otkazuje se.
+Pristanak na analitiku možete u bilo kojem trenutku povući u Postavkama ▸ Podaci i privatnost bez objašnjenja. Novi događaji odmah prestaju, ali prethodno poslani podaci ne brišu se automatski i pretplata na App Store ne otkazuje se.
 
 Lokalne podatke o treningu možete izbrisati u Postavkama ▸ Podaci i privatnost ▸ *Izbriši lokalne podatke treninga* ili brisanjem aplikacije. Pretplatom zasebno upravljate i otkazujete je na svom Apple računu.
 

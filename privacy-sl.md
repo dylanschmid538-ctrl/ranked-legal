@@ -22,14 +22,17 @@ Ranked upravlja **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švica**,
 **Vaša starost, spol, višina in telesna teža nikoli ne zapustijo vaše naprave.** Formula ranga jih
 uporablja v vašem telefonu. Ne pošiljajo se ne nam ne analitični storitvi.
 
-Vašo napravo lahko zapustijo tri vrste podatkov:
+Vašo napravo lahko zapustijo štiri vrste podatkov:
 
-1. **Statistika uporabe**, Ranked deli to statistiko samo, če dovolite standardno Applovo zahtevo za sledenje. Deljenje lahko izklopite v aplikaciji ali prekličete dovoljenje v nastavitvah sistema iOS.
+1. **Statistika uporabe**, da vidimo, kako se aplikacija uporablja. V aplikaciji jo lahko
+   kadar koli izklopite.
 2. **Podatki o nakupu**, da je mogoče preveriti naročnino iz trgovine App Store. Plačilo izvede
    Apple; vaših plačilnih podatkov nikoli ne vidimo.
 3. **Sporočila s povratnimi informacijami in prošnjami za podporo**, samo če jih pošljete. Z ločenim soglasjem lahko za odgovor navedete e-pošto ali telefon.
+4. **YouTube (§3.4)**
 
-Ranked vam ne sledi med drugimi aplikacijami ali spletnimi mesti. Spodaj opisani statistika uporabe in pripisovanje oglaševalskih kampanj se pošiljata samo po odobritvi ATT in dokler je vklopljena možnost »Share usage data«. Aplikacija ne prikazuje oglasov in ne bere podatkov iz Apple Zdravja.
+Ranked vas ne sledi po drugih aplikacijah ali spletnih straneh, ne prikazuje oglasov in ne bere
+ničesar iz aplikacije Apple Zdravje.
 
 ---
 
@@ -48,23 +51,21 @@ obnovitvi vrnejo — pod Applovimi pogoji, ne našimi.
 
 Izbris aplikacije izbriše vse to iz naprave. Obnoviti tega ne moremo, ker tega nikoli nismo imeli.
 
+Vaše ime, profilna fotografija in začetna fotografija ostanejo v tej napravi.
+
 ---
 
 ## 3. Kaj zapusti vašo napravo
 
 ### 3.1 Statistika uporabe (PostHog)
 
-Ob prvem zagonu iOS prikaže standardno sistemsko okno za dovoljenje App Tracking Transparency (ATT). Ko dovoljenje ATT odobrite, se analitika samodejno vklopi in deluje, dokler je v Ranked vklopljena možnost »Share usage data«. Dogodki se v PostHog v EU pošiljajo samo, dokler je ATT odobren in je ta možnost vklopljena; ob zavrnitvi ali izklopu se novi podatki ne pošiljajo. Ranked pošilja storitvi PostHog v EU dogodke o uvajanju, začetni oceni, spremembah ranga in stopnje (s spretnostjo in stopnjo), plačilnem zaslonu, nakupih in odprtih zaslonih. Dogodki vadbe v živo vsebujejo začetek, zaključek ali prekinitev, pretečene sekunde, število zabeleženih serij, število različnih spretnosti in podatek o prvi zaključeni vadbi. Ne vsebujejo posameznih vaj, ponovitev, uteži ali zapiskov. Starost, spol, višina in telesna teža se ne pošiljajo. PostHog prejme tudi običajne tehnične podatke o napravi, iOS, aplikaciji in jeziku ter naslov IP, iz katerega je mogoče sklepati o približni lokaciji. Naključni identifikator namestitve PostHog se ustvari po odobritvi ATT. Dogodki in podatki o pripisu kampanje se povežejo s tem identifikatorjem za analitiko in merjenje učinkovitosti oglasov. Dovoljenje ATT lahko prekličete v nastavitvah iOS ali izklopite možnost »Share usage data« v Ranked v Nastavitvah ▸ Podatki in zasebnost; novi dogodki prenehajo, že poslani podatki pa se ne izbrišejo samodejno.
+Analitika je privzeto izklopljena. Le če v nastavitvah izrecno privolite, Ranked pošilja storitvi PostHog v EU dogodke o uvajanju, začetni oceni, spremembah ranga in stopnje (s spretnostjo in stopnjo), plačilnem zaslonu, nakupih in odprtih zaslonih. Dogodki vadbe v živo vsebujejo začetek, zaključek ali prekinitev, pretečene sekunde, število zabeleženih serij, število različnih spretnosti in podatek o prvi zaključeni vadbi. Ne vsebujejo posameznih vaj, ponovitev, uteži ali zapiskov. Starost, spol, višina in telesna teža se ne pošiljajo. PostHog prejme tudi običajne tehnične podatke o napravi, iOS, aplikaciji in jeziku ter naslov IP, iz katerega je mogoče sklepati o približni lokaciji. Naključni analitični identifikator nastane po privolitvi. Privolitev lahko umaknete v Nastavitvah ▸ Podatki in zasebnost; novi dogodki prenehajo, že poslani podatki pa se ne izbrišejo samodejno.
 
 Aplikacija lahko sporoča tudi fazo naročnine, trenutni dostop, stanje obnove in ali je bila zaznana odpoved ali težava z obračunavanjem. Ta opažanja niso dokaz bremenitve in se pošiljajo samo, ko je analitika vklopljena.
 
 Z vašim soglasjem dogodki uporabe beležijo tudi, kdaj izberete načrt vadbe in kdaj odprete vadbeno sejo. Izbira načrta vključuje le število vadbenih dni na teden in vaj; odprtje seje vključuje le, ali se nadaljuje, vir vstopa in število predpisanih vaj. Celotna vsebina načrtov, urniki, posamezne vaje in zapiski vadbe ostanejo v vaši napravi.
 
-### 3.2 Pripis Apple Search Ads
-
-Samo dokler je ATT odobren in je možnost »Share usage data« vklopljena, Ranked enkrat vpraša Apple AdServices o pripisu namestitve iz Apple Search Ads. Po kliku na oglas se lahko z naključnim identifikatorjem PostHog povežejo kampanja, oglasna skupina, ključna beseda, ustvarjalna vsebina, država ali regija, datum klika in vrsta prenosa. Oglaševalski identifikator IDFA se ne uporablja. Preklic dovoljenja ATT v nastavitvah iOS ali izklop možnosti »Share usage data« v Ranked ustavi prihodnje prenose.
-
-### 3.3 Nakupi (Apple in RevenueCat)
+### 3.2 Nakupi (Apple in RevenueCat)
 
 Naročnine prodaja in zaračunava **Apple** prek trgovine App Store. Vaših plačilnih podatkov, vašega
 računa Apple in vašega imena nikoli ne vidimo.
@@ -79,11 +80,11 @@ druge identitete, in ker Ranked nima računov, tudi ni česa dati.
 Ko se dotaknete **Obnovi nakupe**, aplikacija Apple vpraša po nakupih, opravljenih z računom Apple,
 prijavljenim v napravi, in izid na enak način posreduje RevenueCatu.
 
-### 3.4 Sporočila s povratnimi informacijami in prošnjami za podporo (Cloudflare in CloudKit)
+### 3.3 Sporočila s povratnimi informacijami in prošnjami za podporo (Cloudflare in CloudKit)
 
 Če pošljete povratne informacije ali prošnjo za podporo, Ranked pošlje sporočilo, njegovo kategorijo in vir storitvi Cloudflare Worker. Ta jih s zasebnim strežniškim ključem shrani v javno podatkovno zbirko Apple CloudKit. Za pošiljanje sporočila se vam ni treba prijaviti v iCloud. Cloudflare Worker uporablja omrežni naslov zahteve za tehnično omejevanje zlorab; niti izvirni naslov niti njegova zgoščena vrednost se ne shranita v zapis povratnih informacij v CloudKitu. Ločeno lahko privolite v posredovanje e-poštnega naslova ali telefonske številke, da vam odgovorimo zunaj aplikacije. Sporočila in kontaktni podatki se ne pošiljajo družbama PostHog ali RevenueCat in niso povezani z računom v aplikaciji. Sporočilo obdelujemo, da odgovorimo na vašo prošnjo, neobvezne kontaktne podatke pa z vašim soglasjem. Trenutno ni določenega roka za samodejni izbris sporočil ali kontaktnih podatkov. Dostop do podatkov ali izbris lahko zahtevate na **dylan.schmid538@gmail.com**.
 
-### 3.5 Videoposnetki z navodili (YouTube)
+### 3.4 Videoposnetki z navodili (YouTube)
 
 Na straneh vaj se najprej prikaže predogledna slika, shranjena v napravi. Vdelani predvajalnik YouTube se naloži šele, ko se dotaknete možnosti **Oglej si videoposnetek**. Ob tej zahtevi Google/YouTube prejme vaš omrežni naslov, podatke o zahtevi brskalnika in predvajalnika, stalni ID videoposnetka ter podatek o viru, ki označuje aplikacijo Ranked. Ranked ne doda vašega imena, telesnih mer, dnevnika ali načrta vadbe niti identifikatorjev PostHog ali RevenueCat. Vajo lahko uporabljate brez nalaganja videoposnetka. Ločena povezava **Oglej si na YouTubu** vas odpelje iz aplikacije Ranked. [Googlova politika zasebnosti](https://policies.google.com/privacy) opisuje obdelavo in hrambo podatkov pri Googlu; Ranked ne more izbrisati podatkov, ki jih hrani YouTube.
 
@@ -93,9 +94,9 @@ Na straneh vaj se najprej prikaže predogledna slika, shranjena v napravi. Vdela
 
 - **Nobenih računov.** Nikoli se ne prijavljate. Na nobenem strežniku ni vašega profila.
 - **Nobenega Apple Zdravja.** Ranked iz aplikacije Zdravje ne bere in vanjo ne piše.
-- **Nobene kamere, fotografij, mikrofona, lokacije ali stikov.** Aplikacija za nobeno od teh
-  dovoljenj ne prosi.
-- **Ranked vam ne sledi med drugimi aplikacijami ali spletnimi mesti.** Statistika uporabe in merjenje kampanj iz §3 se uporabljata samo ob dovoljenju ATT in vklopljeni možnosti »Share usage data«; IDFA se ne uporablja. Aplikacija ne prikazuje oglasov, podatki pa se ne prodajajo ali posredujejo podatkovnim posrednikom.
+- **Nobenega sledenja po aplikacijah ali spletnih straneh**, nobenega oglaševalskega
+  identifikatorja, nobenega oglaševanja v aplikaciji, nobenih podatkov, prodanih ali izročenih
+  posrednikom s podatki.
 - **Nobenega strežnika za potisna obvestila.** Opomniki, ki jih Ranked lahko pošlje, se načrtujejo
   lokalno v vašem telefonu; nič o njih ne zapusti naprave. Pred prvim vas aplikacija vpraša, izklopite
   pa jih lahko kadar koli v nastavitvah sistema iOS.
@@ -106,9 +107,8 @@ Na straneh vaj se najprej prikaže predogledna slika, shranjena v napravi. Vdela
 
 | Kaj | Podlaga |
 |---|---|
-| Nakupi in preverjanje naročnine (§3.3) | Izvajanje pogodbe |
+| Nakupi in preverjanje naročnine (§3.2) | Izvajanje pogodbe |
 | Statistika uporabe (§3.1) | Vaša privolitev; kadar koli jo lahko umaknete v Nastavitvah ▸ Podatki in zasebnost |
-| Pripis Search Ads (§3.2) | Vaša privolitev; kadar koli jo lahko umaknete v Nastavitvah ▸ Podatki in zasebnost |
 
 **Tu veljata dva pravna reda, ne eden.** Ranked se upravlja iz Švice, zato to obdelavo ureja
 prenovljeni švicarski zvezni zakon o varstvu podatkov (**revDSG**, v veljavi od septembra 2023).
@@ -122,9 +122,7 @@ temeljne pravice, naštete v §8, na podlagi 25. in naslednjih členov revDSG.
 
 - **PostHog** obdeluje statistiko uporabe v Evropski uniji.
 - **RevenueCat, Inc.** ima sedež v Združenih državah in tam obdeluje podatke o nakupu, opisane v
-  §3.3.
-- **Apple** obdeluje sam nakup in zahtevo za pripis Search Ads po lastni politiki zasebnosti, ki za
-  vaš račun Apple velja neodvisno od te aplikacije.
+  §3.2.
 
 ---
 
@@ -143,7 +141,7 @@ Vse, kar je v vaši napravi, tam ostane, dokler aplikacije ne izbrišete.
 
 ## 8. Vaše pravice
 
-Prihodnje pošiljanje analitičnih podatkov lahko kadar koli ustavite tako, da prekličete dovoljenje ATT v nastavitvah iOS ali izklopite možnost »Share usage data« v Ranked: Nastavitve ▸ Podatki in zasebnost. Že poslani podatki se ne izbrišejo samodejno, naročnina v App Store pa ostane veljavna.
+Privolitev v analitiko lahko kadar koli brez razloga umaknete v Nastavitvah ▸ Podatki in zasebnost. Novi dogodki se takoj ustavijo, že poslani podatki se ne izbrišejo samodejno, naročnina v App Store pa ostane veljavna.
 
 Lokalne podatke o vadbi lahko izbrišete v Nastavitvah ▸ Podatki in zasebnost ▸ *Izbriši lokalne podatke o vadbi* ali z izbrisom aplikacije. Naročnino upravljate in prekličete posebej v računu Apple.
 

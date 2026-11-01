@@ -19,13 +19,14 @@ Ranked'in işletmecisi **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, İ
 
 **Yaşınız, cinsiyetiniz, boyunuz ve vücut ağırlığınız cihazınızdan hiçbir zaman çıkmaz.** Derece formülü bunları telefonunuzda kullanır. Bize veya analiz hizmetine gönderilmezler.
 
-Üç tür veri cihazınızdan çıkabilir:
+Dört tür veri cihazınızdan çıkabilir:
 
-1. **Kullanım istatistikleri**, Ranked bu istatistikleri yalnızca Apple’ın standart takip isteğine izin verirseniz paylaşır. Paylaşımı uygulamada kapatabilir veya izni iOS Ayarları’ndan geri alabilirsiniz.
+1. Uygulamanın nasıl kullanıldığını anlamamız için **Kullanım istatistikleri**. Bunları uygulamada istediğiniz zaman kapatabilirsiniz.
 2. App Store aboneliğinin doğrulanması için **satın alma verileri**. Ödemeyi Apple işler; ödeme bilgileriniz bize hiçbir zaman görünmez.
 3. **Görüş ve destek mesajları**, yalnızca siz göndermeyi seçerseniz. Yanıt almak için ayrıca onay vererek e-posta veya telefon numarası paylaşabilirsiniz.
+4. **YouTube (§3.4)**
 
-Ranked sizi diğer uygulama veya web sitelerinde takip etmez. Aşağıda açıklanan kullanım istatistikleri ve reklam kampanyası ilişkilendirmesi yalnızca ATT izni verildiğinde ve Ranked içindeki “Share usage data” ayarı açıkken gönderilir. Uygulama reklam göstermez ve Apple Health'ten veri okumaz.
+Ranked sizi başka uygulamalar veya web siteleri arasında takip etmez, reklam göstermez ve Apple Health'ten veri okumaz.
 
 ---
 
@@ -42,25 +43,21 @@ Uygulama bu veritabanını cihaz yedeğinden hariç tutmaz. iCloud Backup veya b
 
 Uygulamayı silmek, bunların tamamını cihazdan siler. Veriler hiçbir zaman elimizde olmadığı için onları geri getiremeyiz.
 
+Adın, profil fotoğrafın ve başlangıç fotoğrafın bu cihazda kalır.
+
 ---
 
 ## 3. Cihazınızdan çıkanlar
 
 ### 3.1 Kullanım istatistikleri (PostHog)
 
-Uygulama ilk kez açıldığında iOS, App Tracking Transparency (ATT) için standart sistem izin iletişim kutusunu gösterir. ATT izni verildiğinde analiz otomatik olarak başlar ve Ranked içindeki “Share usage data” ayarı açık olduğu sürece devam eder. Olaylar, yalnızca ATT izni varken ve bu ayar açıkken AB’deki PostHog’a gönderilir; izin reddedilirse veya ayar kapatılırsa yeni veriler gönderilmez. Ranked PostHog’a kurulum, ilk değerlendirme, rütbe ve aşama değişiklikleri (beceri ve aşama dâhil), satın alma ekranı, satın almalar ve açılan ekranlar hakkında olay gönderir. Canlı antrenman olayları başlangıcı, tamamlanmayı veya yarıda bırakmayı; geçen saniyeleri, kaydedilen set ve farklı beceri sayılarını ve bunun ilk tamamlanan antrenman olup olmadığını içerir. Tek tek egzersizleri, tekrarları, ağırlıkları veya notları içermez. Yaş, cinsiyet, boy ve vücut ağırlığı gönderilmez. PostHog ayrıca cihaz, iOS, uygulama ve dile ilişkin olağan teknik bilgileri ve yaklaşık konum çıkarılabilecek IP adresini alır. Rastgele bir PostHog kurulum kimliği ATT izni verildiğinde oluşturulur. Olaylar ve kampanya ilişkilendirme verileri analiz ve reklam ölçümü amacıyla bu kimlikle ilişkilendirilir. ATT iznini iOS Ayarları’ndan geri alabilir veya Ranked’de Ayarlar ▸ Veriler ve gizlilik bölümünden “Share usage data” ayarını kapatabilirsiniz; yeni olaylar durur, önceden gönderilen veriler otomatik olarak silinmez.
+Analiz varsayılan olarak kapalıdır. Yalnızca Ayarlar'da açıkça onay verirseniz Ranked, AB'de barındırılan PostHog'a kurulum, ilk değerlendirme, rütbe ve aşama değişiklikleri (beceri ve aşama dâhil), satın alma ekranı, satın almalar ve açılan ekranlar hakkında olay gönderir. Canlı antrenman olayları başlangıcı, tamamlanmayı veya yarıda bırakmayı; geçen saniyeleri, kaydedilen set ve farklı beceri sayılarını ve bunun ilk tamamlanan antrenman olup olmadığını içerir. Tek tek egzersizleri, tekrarları, ağırlıkları veya notları içermez. Yaş, cinsiyet, boy ve vücut ağırlığı gönderilmez. PostHog ayrıca cihaz, iOS, uygulama ve dile ilişkin olağan teknik bilgileri ve yaklaşık konum çıkarılabilecek IP adresini alır. Rastgele analiz kimliği onayınızdan sonra oluşturulur. Onayı Ayarlar ▸ Veriler ve gizlilik'ten geri alabilirsiniz; yeni olaylar durur, önceden gönderilen veriler otomatik olarak silinmez.
 
 Uygulama abonelik aşamasını, mevcut erişimi, yenileme durumunu ve iptal ya da faturalandırma sorunu tespit edilip edilmediğini de bildirebilir. Bu gözlemler bir ücret tahsilatının kanıtı değildir ve yalnızca analiz etkin olduğunda gönderilir.
 
 Onayınızla kullanım olayları, bir antrenman planı seçtiğinizde ve bir antrenman oturumu açtığınızda da kayıt tutar. Plan seçimi yalnızca haftalık antrenman günü sayısını ve egzersiz sayısını içerir; oturumun açılması yalnızca devam ettirilip ettirilmediğini, giriş kaynağını ve belirlenen egzersiz sayısını içerir. Planların tam içeriği, programlar, tek tek egzersizler ve antrenman notları cihazınızda kalır.
 
-> İsteğe bağlı: Ranked uygulamasını geliştirmek için uygulama kullanımını, değerlendirilen becerileri, sıralamayı, antrenman etkinliğini ve Apple Search Ads kampanya verilerini PostHog ile paylaş. Bu kullanımı rastgele bir satın alma referansı ile deneme süren ve aboneliğinle de ilişkilendiriyoruz. İsim veya antrenman notu içermez. Ayarlar’dan istediğin zaman değiştir.
-
-### 3.2 Apple Search Ads ilişkilendirmesi
-
-Ranked, yalnızca ATT izni varken ve “Share usage data” ayarı açıkken Apple AdServices’e bir kez kurulumun Apple Search Ads'den gelip gelmediğini sorar. Bir reklama dokunduysanız kampanya, reklam grubu, anahtar kelime, reklam içeriği, ülke veya bölge, dokunma tarihi ve indirme türü rastgele PostHog kimliğiyle ilişkilendirilebilir. Reklam kimliği IDFA kullanılmaz. iOS Ayarları’ndan ATT iznini geri çekmek veya Ranked’de “Share usage data” ayarını kapatmak gelecekteki aktarımları durdurur.
-
-### 3.3 Satın almalar (Apple ve RevenueCat)
+### 3.2 Satın almalar (Apple ve RevenueCat)
 
 Abonelikler App Store üzerinden **Apple** tarafından satılır ve ücretlendirilir. Ödeme bilgileriniz, Apple Hesabınız veya adınız bize hiçbir zaman görünmez.
 
@@ -68,11 +65,11 @@ Aboneliğinizin etkin olup olmadığını kontrol etmek için uygulama **Revenue
 
 **Satın Almaları Geri Yükle** seçeneğine dokunduğunuzda uygulama, cihazda oturum açılmış Apple Hesabı ile yapılan satın almaları Apple'dan ister ve sonucu aynı şekilde RevenueCat'e iletir.
 
-### 3.4 Görüş ve destek mesajları (Cloudflare ve CloudKit)
+### 3.3 Görüş ve destek mesajları (Cloudflare ve CloudKit)
 
 Görüş veya destek talebi gönderirseniz Ranked mesajı, kategorisini ve kaynağını bir Cloudflare Worker'a iletir. Worker, bunları özel bir sunucu anahtarı kullanarak Apple CloudKit'in ortak veritabanında saklar. Mesaj göndermek için iCloud'da oturum açmanız gerekmez. Cloudflare Worker, kötüye kullanımı teknik olarak sınırlamak için isteğin ağ adresini kullanır; asıl adres veya adresin karması CloudKit görüş kaydında saklanmaz. Uygulama dışında yanıt alabilmek için e-posta adresi veya telefon numarası vermeye ayrıca onay verebilirsiniz. Mesajlar ve iletişim bilgileri PostHog veya RevenueCat'e gönderilmez ve uygulama hesabına bağlanmaz. Mesajı talebinizi yanıtlamak, isteğe bağlı iletişim bilgilerini ise onayınız doğrultusunda işlemek için kullanırız. Mesajlar ve iletişim bilgileri için şu anda sabit bir otomatik silme süresi yoktur. Erişim veya silme talebinizi **dylan.schmid538@gmail.com** adresine gönderebilirsiniz.
 
-### 3.5 Eğitim videoları (YouTube)
+### 3.4 Eğitim videoları (YouTube)
 
 Egzersiz sayfalarında önce cihazda saklanan bir önizleme görseli gösterilir. Ranked, gömülü YouTube oynatıcısını yalnızca **Videoyu izle** seçeneğine dokunduğunuzda yükler. Bu istekle Google/YouTube ağ adresinizi, tarayıcı ve oynatıcı isteğine ait verileri, videonun sabit kimliğini ve Ranked uygulamasını tanımlayan yönlendirme bilgisini alır. Ranked adınızı, vücut ölçülerinizi, antrenman günlüğünüzü veya planınızı ya da PostHog veya RevenueCat tanımlayıcılarını isteğe eklemez. Videoyu yüklemeden de egzersizi kullanabilirsiniz. Ayrı **YouTube'da izle** bağlantısı sizi Ranked dışına çıkarır. [Google Gizlilik Politikası](https://policies.google.com/privacy), Google'ın verileri nasıl işlediğini ve sakladığını açıklar; Ranked, YouTube'un sakladığı verileri silemez.
 
@@ -82,8 +79,7 @@ Egzersiz sayfalarında önce cihazda saklanan bir önizleme görseli gösterilir
 
 - **Hesap yok.** Oturum açmazsınız. Herhangi bir sunucuda size ait profil bulunmaz.
 - **Apple Health yok.** Ranked, Sağlık uygulamasından veri okumaz veya oraya yazmaz.
-- **Kamera, fotoğraf, mikrofon, konum veya kişiler yok.** Uygulama bu izinleri istemez.
-- **Ranked sizi diğer uygulama veya web sitelerinde takip etmez.** §3’te açıklanan kullanım istatistikleri ve kampanya ölçümü yalnızca ATT izni verildiğinde ve “Share usage data” ayarı açıkken kullanılır; IDFA kullanılmaz. Uygulama reklam göstermez, veriler satılmaz veya veri aracılarına aktarılmaz.
+- **Uygulamalar veya web siteleri arasında takip**, reklam tanımlayıcısı, uygulama içi reklam, veri aracılarına veri satışı veya aktarımı yok.
 - **Anlık bildirim sunucusu yok.** Hatırlatıcılar telefonunuzda yerel olarak planlanır; bunlarla ilgili hiçbir şey cihazdan çıkmaz. İlki planlanmadan önce izniniz istenir ve bunları iOS Ayarları'ndan istediğiniz zaman kapatabilirsiniz.
 
 ---
@@ -92,9 +88,8 @@ Egzersiz sayfalarında önce cihazda saklanan bir önizleme görseli gösterilir
 
 | İşleme | Dayanak |
 |---|---|
-| Satın almalar ve abonelik doğrulaması (§3.3) | Sözleşmenin ifası |
+| Satın almalar ve abonelik doğrulaması (§3.2) | Sözleşmenin ifası |
 | Kullanım istatistikleri (§3.1) | Onayınız; Ayarlar ▸ Veriler ve gizlilik'ten her zaman geri çekilebilir |
-| Search Ads ilişkilendirmesi (§3.2) | Onayınız; Ayarlar ▸ Veriler ve gizlilik'ten her zaman geri çekilebilir |
 
 **Burada tek değil, iki yasa geçerlidir.** Ranked İsviçre'den işletildiğinden, Eylül 2023'ten beri yürürlükte olan gözden geçirilmiş İsviçre Federal Veri Koruma Yasası (**revDSG**) bu işlemeyi düzenler. Uygulama Avrupa Birliği veya Birleşik Krallık'tan kullanıldığında **GDPR** ayrıca uygulanır. İkisi farklıysa daha sıkı olanı izleriz. İsviçre'de yaşayanlar revDSG Madde 25 ve devamı uyarınca §8'deki aynı temel haklara sahiptir.
 
@@ -103,8 +98,7 @@ Egzersiz sayfalarında önce cihazda saklanan bir önizleme görseli gösterilir
 ## 6. Verilerin işlendiği yerler
 
 - **PostHog**, kullanım istatistiklerini Avrupa Birliği'nde işler.
-- **RevenueCat, Inc.**, Amerika Birleşik Devletleri'nde yerleşiktir ve §3.3'teki satın alma verilerini orada işler.
-- **Apple**, satın almayı ve Search Ads ilişkilendirme isteğini, bu uygulamadan bağımsız olarak Apple Hesabınıza uygulanan kendi gizlilik politikasına göre işler.
+- **RevenueCat, Inc.**, Amerika Birleşik Devletleri'nde yerleşiktir ve §3.2'teki satın alma verilerini orada işler.
 
 ---
 
@@ -120,7 +114,7 @@ Cihazınızdaki her şey, uygulamayı silene kadar orada kalır.
 
 ## 8. Haklarınız
 
-Gelecekteki analiz verilerinin gönderilmesini istediğiniz zaman iOS Ayarları’ndan ATT iznini geri çekerek veya Ranked’de “Share usage data” ayarını kapatarak durdurabilirsiniz: Ayarlar ▸ Veriler ve gizlilik. Önceden gönderilen veriler otomatik olarak silinmez ve App Store aboneliğiniz iptal edilmez.
+Analiz onayınızı Ayarlar ▸ Veriler ve gizlilik'ten gerekçe göstermeden istediğiniz zaman geri çekebilirsiniz. Yeni olaylar hemen durur; ancak önceden gönderilen veriler otomatik silinmez ve App Store aboneliğiniz iptal edilmez.
 
 Yerel antrenman verilerini Ayarlar ▸ Veriler ve gizlilik ▸ *Yerel antrenman verilerini sil* bölümünden veya uygulamayı silerek kaldırabilirsiniz. Aboneliği Apple Hesabınızda ayrıca yönetip iptal edersiniz.
 

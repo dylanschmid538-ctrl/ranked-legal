@@ -22,14 +22,17 @@ Ranked pārvalda **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Šveice*
 **Jūsu vecums, dzimums, augums un ķermeņa svars nekad neatstāj Jūsu ierīci.** Ranga formula tos
 izmanto Jūsu tālrunī. Tie netiek sūtīti ne mums, ne analītikas pakalpojumam.
 
-Jūsu ierīci var atstāt trīs veidu dati:
+Jūsu ierīci var atstāt četru veidu dati:
 
-1. **Lietojuma statistika**, Ranked kopīgo šo statistiku tikai tad, ja atļaujat Apple standarta izsekošanas pieprasījumu. Kopīgošanu var izslēgt lietotnē vai atsaukt atļauju iOS iestatījumos.
+1. **Lietojuma statistika**, lai mēs redzētu, kā lietotne tiek lietota. To lietotnē varat
+   jebkurā brīdī izslēgt.
 2. **Pirkuma dati**, lai varētu pārbaudīt App Store abonementu. Maksājumu apstrādā Apple; Jūsu
    maksājumu datus mēs nekad neredzam.
 3. **Atsauksmju un atbalsta ziņojumi**, tikai tad, ja tos nosūtāt. Ar atsevišķu piekrišanu varat norādīt e-pastu vai tālruni atbildes saņemšanai.
+4. **YouTube (§3.4)**
 
-Ranked neseko Jums starp citām lietotnēm vai vietnēm. Tālāk aprakstītā lietojuma statistika un reklāmas kampaņu attiecināšana tiek sūtīta tikai tad, ja ir piešķirta ATT atļauja un ieslēgta lietojuma statistikas kopīgošana. Lietotnē nav reklāmu, un Ranked nelasa datus no Apple lietotnes Veselība.
+Ranked neseko Jums citās lietotnēs vai tīmekļa vietnēs, nerāda reklāmas un neko nelasa no Apple
+lietotnes Veselība.
 
 ---
 
@@ -48,23 +51,21 @@ noteikumiem, nevis mūsu.
 
 Lietotnes dzēšana izdzēš to visu no ierīces. Mēs to atjaunot nevaram, jo mums tā nekad nav bijusi.
 
+Jūsu vārds, profila fotoattēls un sākuma fotoattēls paliek šajā ierīcē.
+
 ---
 
 ## 3. Kas atstāj Jūsu ierīci
 
 ### 3.1 Lietojuma statistika (PostHog)
 
-Pirmoreiz palaižot lietotni, iOS parāda standarta „App Tracking Transparency“ (ATT) atļaujas dialogu. Ranked sūta notikumus ES izvietotajam PostHog tikai tad, ja ir piešķirta ATT atļauja un Iestatījumos ieslēgta lietojuma statistikas kopīgošana. Ja atļauja nav piešķirta vai kopīgošana ir izslēgta, šie dati netiek sūtīti. Ranked sūta PostHog notikumus par iestatīšanu, sākotnējo novērtējumu, ranga un posma izmaiņām (ar prasmi un posmu), pirkuma ekrānu, pirkumiem un atvērtajiem ekrāniem. Tiešsaistes treniņa notikumi ietver sākumu, pabeigšanu vai pārtraukšanu, pagājušās sekundes, reģistrēto sēriju un dažādu prasmju skaitu, kā arī to, vai šis bija pirmais pabeigtais treniņš. Tie nesatur atsevišķus vingrinājumus, atkārtojumus, svarus vai piezīmes. Vecums, dzimums, augums un ķermeņa svars netiek nosūtīti. PostHog saņem arī parastos tehniskos datus par ierīci, iOS, lietotni un valodu un IP adresi, no kuras var secināt aptuvenu atrašanās vietu. Nejaušs PostHog instalācijas identifikators tiek izveidots, kad ir piešķirta ATT atļauja un ieslēgta lietojuma statistikas kopīgošana. Notikumi un kampaņas attiecinājuma dati tiek saistīti ar šo identifikatoru analītikai un reklāmu efektivitātes mērīšanai. ATT atļauju varat atsaukt iOS iestatījumos, bet lietojuma statistikas kopīgošanu — izslēgt Ranked Iestatījumos ▸ Dati un privātums; jauni notikumi vairs netiek sūtīti, bet iepriekš nosūtītie dati automātiski netiek dzēsti.
+Analītika pēc noklusējuma ir izslēgta. Tikai tad, ja Iestatījumos skaidri piekrītat, Ranked nosūta ES izvietotajam PostHog notikumus par iestatīšanu, sākotnējo novērtējumu, ranga un posma izmaiņām (ar prasmi un posmu), pirkuma ekrānu, pirkumiem un atvērtajiem ekrāniem. Tiešsaistes treniņa notikumi ietver sākumu, pabeigšanu vai pārtraukšanu, pagājušās sekundes, reģistrēto sēriju un dažādu prasmju skaitu, kā arī to, vai šis bija pirmais pabeigtais treniņš. Tie nesatur atsevišķus vingrinājumus, atkārtojumus, svarus vai piezīmes. Vecums, dzimums, augums un ķermeņa svars netiek nosūtīti. PostHog saņem arī parastos tehniskos datus par ierīci, iOS, lietotni un valodu un IP adresi, no kuras var secināt aptuvenu atrašanās vietu. Nejaušs analītikas identifikators tiek izveidots pēc piekrišanas. To varat atsaukt Iestatījumos ▸ Dati un privātums; jauni notikumi vairs netiek sūtīti, bet iepriekš nosūtītie dati automātiski netiek dzēsti.
 
 Lietotne var arī ziņot abonementa posmu, pašreizējo piekļuvi, atjaunošanas statusu un to, vai konstatēta atcelšana vai norēķinu problēma. Šie novērojumi nav pierādījums naudas ieturēšanai un tiek nosūtīti tikai tad, kad analīze ir ieslēgta.
 
 Ar jūsu piekrišanu lietošanas notikumi arī reģistrē, kad izvēlaties treniņu plānu un kad atverat treniņa sesiju. Plāna izvēle ietver tikai treniņu dienu skaitu nedēļā un vingrinājumu skaitu; sesijas atvēršana ietver tikai to, vai tā tiek atsākta, ieejas avotu un paredzēto vingrinājumu skaitu. Pilns plānu saturs, grafiki, atsevišķi vingrinājumi un treniņu piezīmes paliek jūsu ierīcē.
 
-### 3.2 Apple Search Ads attiecinājums
-
-Tikai tad, ja ir piešķirta ATT atļauja un ieslēgta lietojuma statistikas kopīgošana, Ranked vienreiz ar Apple AdServices pārbauda, vai instalēšana nākusi no Apple Search Ads. Pēc klikšķa uz reklāmas kampaņu, reklāmu grupu, atslēgvārdu, reklāmas materiālu, valsti vai reģionu, klikšķa datumu un lejupielādes veidu var piesaistīt nejaušajam PostHog identifikatoram. Reklāmas identifikators IDFA netiek izmantots. Turpmāka datu nosūtīšana tiek apturēta, ja iOS iestatījumos atsaucat ATT atļauju vai Ranked iestatījumos izslēdzat lietojuma statistikas kopīgošanu.
-
-### 3.3 Pirkumi (Apple un RevenueCat)
+### 3.2 Pirkumi (Apple un RevenueCat)
 
 Abonementus pārdod un norēķinus veic **Apple** caur App Store. Jūsu maksājumu datus, Jūsu Apple
 kontu un Jūsu vārdu mēs nekad neredzam.
@@ -79,11 +80,11 @@ arī, ko dot.
 Kad pieskaraties **Atjaunot pirkumus**, lietotne pajautā Apple par pirkumiem, kas veikti ar ierīcē
 pieteikto Apple kontu, un rezultātu tādā pašā veidā nodod RevenueCat.
 
-### 3.4 Atsauksmju un atbalsta ziņojumi (Cloudflare un CloudKit)
+### 3.3 Atsauksmju un atbalsta ziņojumi (Cloudflare un CloudKit)
 
 Ja nosūtāt atsauksmi vai atbalsta pieprasījumu, Ranked nosūta ziņojumu, tā kategoriju un avotu Cloudflare Worker. Tas glabā datus Apple CloudKit publiskajā datubāzē, izmantojot privātu servera atslēgu. Lai nosūtītu ziņojumu, nav jāpierakstās iCloud. Cloudflare Worker izmanto pieprasījuma tīkla adresi tehniskai ļaunprātīgas izmantošanas ierobežošanai; ne sākotnējā adrese, ne tās jaucējvērtība netiek glabāta CloudKit atsauksmes ierakstā. Atsevišķi varat piekrist norādīt e-pasta adresi vai tālruņa numuru, lai saņemtu atbildi ārpus lietotnes. Ziņojumi un kontaktinformācija netiek sūtīti PostHog vai RevenueCat un netiek saistīti ar lietotnes kontu. Ziņojumu apstrādājam, lai atbildētu uz jūsu pieprasījumu, bet neobligāto kontaktinformāciju – ar jūsu piekrišanu. Pašlaik ziņojumiem un kontaktinformācijai nav noteikts fiksēts automātiskas dzēšanas termiņš. Piekļuvi datiem vai to dzēšanu varat pieprasīt, rakstot uz **dylan.schmid538@gmail.com**.
 
-### 3.5 Pamācību video („YouTube“)
+### 3.4 Pamācību video („YouTube“)
 
 Vingrinājumu lapās vispirms tiek rādīts ierīcē saglabāts priekšskatījuma attēls. Iegulto „YouTube“ atskaņotāju Ranked ielādē tikai tad, kad pieskaraties **Skatīties video**. Šis pieprasījums uzņēmumam Google/YouTube nodod jūsu tīkla adresi, pārlūka un atskaņotāja pieprasījuma datus, konkrētā video ID un atsauces informāciju, kas norāda uz Ranked lietotni. Ranked nepievieno jūsu vārdu, ķermeņa mērījumus, treniņu žurnālu, treniņu plānu, PostHog identifikatoru vai RevenueCat identifikatoru. Vingrinājumu var izmantot, neielādējot video. Atsevišķā saite **Skatīties pakalpojumā YouTube** aizved ārpus Ranked. [Google konfidencialitātes politikā](https://policies.google.com/privacy) ir aprakstīta tā datu apstrāde un glabāšana; Ranked nevar dzēst YouTube glabātos datus.
 
@@ -93,9 +94,8 @@ Vingrinājumu lapās vispirms tiek rādīts ierīcē saglabāts priekšskatījum
 
 - **Nekādu kontu.** Jūs nekad nepiesakāties. Nevienā serverī nav Jūsu profila.
 - **Nekāda Apple Veselība.** Ranked no lietotnes Veselība ne lasa, ne tajā raksta.
-- **Nekādas kameras, fotoattēlu, mikrofona, atrašanās vietas vai kontaktu.** Lietotne nevienu no
-  šīm atļaujām neprasa.
-- **Ranked neseko Jums starp citām lietotnēm vai vietnēm.** §3 aprakstītā lietojuma statistika un kampaņu attiecināšana tiek izmantota tikai ar ATT atļauju un ieslēgtu statistikas kopīgošanu; IDFA netiek izmantots. Lietotnē nav reklāmu, un dati netiek pārdoti vai nodoti datu tirgotājiem.
+- **Nekādas izsekošanas starp lietotnēm vai vietnēm**, nekāda reklāmas identifikatora, nekādas
+  reklāmas lietotnē, nekādu datu, kas pārdoti vai nodoti datu tirgotājiem.
 - **Nekāda paziņojumu servera.** Atgādinājumi, ko Ranked var nosūtīt, tiek plānoti lokāli Jūsu
   tālrunī; nekas par tiem ierīci neatstāj. Pirms pirmā Jums tiek jautāts, un izslēgt tos varat
   jebkurā brīdī iOS iestatījumos.
@@ -106,9 +106,8 @@ Vingrinājumu lapās vispirms tiek rādīts ierīcē saglabāts priekšskatījum
 
 | Kas | Pamats |
 |---|---|
-| Pirkumi un abonementa pārbaude (§3.3) | Līguma izpilde |
+| Pirkumi un abonementa pārbaude (§3.2) | Līguma izpilde |
 | Lietojuma statistika (§3.1) | Jūsu piekrišana; to jebkurā laikā var atsaukt Iestatījumos ▸ Dati un privātums |
-| Search Ads attiecinājums (§3.2) | Jūsu piekrišana; to jebkurā laikā var atsaukt Iestatījumos ▸ Dati un privātums |
 
 **Šeit piemēro divas tiesību sistēmas, ne vienu.** Ranked tiek pārvaldīta no Šveices, tāpēc šo
 apstrādi regulē pārskatītais Šveices federālais datu aizsardzības likums (**revDSG**, spēkā kopš
@@ -122,10 +121,8 @@ pantiem.
 ## 6. Kur dati tiek apstrādāti
 
 - **PostHog** apstrādā lietojuma statistiku Eiropas Savienībā.
-- **RevenueCat, Inc.** atrodas Amerikas Savienotajās Valstīs un tur apstrādā §3.3 aprakstītos
+- **RevenueCat, Inc.** atrodas Amerikas Savienotajās Valstīs un tur apstrādā §3.2 aprakstītos
   pirkuma datus.
-- **Apple** apstrādā pašu pirkumu un Search Ads attiecinājuma pieprasījumu saskaņā ar savu privātuma
-  politiku, kas Jūsu Apple kontam piemērojama neatkarīgi no šīs lietotnes.
 
 ---
 
@@ -144,7 +141,7 @@ Viss, kas ir Jūsu ierīcē, tur paliek, līdz izdzēšat lietotni.
 
 ## 8. Jūsu tiesības
 
-Turpmāku analītikas datu sūtīšanu jebkurā laikā varat apturēt, atsaucot ATT atļauju iOS iestatījumos vai izslēdzot lietojuma statistikas kopīgošanu Ranked iestatījumos ▸ Dati un privātums. Iepriekš nosūtītie dati netiek automātiski dzēsti, un App Store abonements netiek atcelts.
+Piekrišanu analītikai varat jebkurā laikā bez pamatojuma atsaukt Iestatījumos ▸ Dati un privātums. Jauni notikumi uzreiz apstājas, bet iepriekš nosūtītie dati netiek automātiski dzēsti un App Store abonements netiek atcelts.
 
 Vietējos treniņu datus varat dzēst Iestatījumos ▸ Dati un privātums ▸ *Dzēst vietējos treniņu datus* vai dzēšot lietotni. Abonementu pārvaldāt un atceļat atsevišķi savā Apple kontā.
 
