@@ -120,11 +120,4 @@ between you and Apple. Apple is not responsible for the app or its content and h
 provide maintenance or support for it. Apple and its subsidiaries may enforce these terms against
 you as a third-party beneficiary of them.
 
----
-
-> **⚠️ Not legal advice.** Drafted by an engineer from the app's actual behaviour, not by a
-> lawyer, and not reviewed for any jurisdiction. Operator and jurisdiction fields are filled in
-> as of 4 September 2026. Publishing this satisfies Apple; it does not make you compliant. Have a
-> lawyer read it once the app earns money.
-
 <!-- FERTIG -->
