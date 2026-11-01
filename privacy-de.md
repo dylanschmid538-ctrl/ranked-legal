@@ -8,7 +8,7 @@ permalink: /privacy/de/
 
 # Datenschutzerklärung · Calisthenics Skills – Ranked
 
-**Zuletzt aktualisiert: 2026-10-18**
+**Zuletzt aktualisiert: 2026-11-01**
 
 Diese Erklärung beschreibt, was Ranked erhebt, wohin es geht und was Sie dagegen tun können.
 
@@ -24,16 +24,17 @@ Bearbeitung.
 Rangformel verwendet sie auf Ihrem Telefon. Sie werden weder an uns noch an den Analysedienst
 gesendet.
 
-Drei Arten von Daten können Ihr Gerät verlassen:
+Vier Arten von Daten können Ihr Gerät verlassen:
 
-1. **Nutzungsstatistiken**, Ranked teilt diese Statistiken nur, wenn Sie Apples standardmäßige Tracking-Abfrage erlauben. Sie können die Datenfreigabe in der App ausschalten oder die Erlaubnis in den iOS-Einstellungen widerrufen.
+1. **Nutzungsstatistiken**, damit wir sehen, wie die App benutzt wird. Sie können das in
+   der App jederzeit abschalten.
 2. **Kaufdaten**, damit das App-Store-Abonnement überprüft werden kann. Apple wickelt die Zahlung
    ab; wir sehen Ihre Zahlungsdaten nie.
 3. **Nachrichten für Feedback und Support**, nur wenn Sie selbst eine senden. Mit Ihrer Einwilligung können Sie eine E-Mail-Adresse oder Telefonnummer für eine Antwort angeben.
+4. **YouTube (§3.4)**
 
-Ranked fragt beim ersten Öffnen nach Apples Tracking-Erlaubnis, weil die App-Nutzung mit Daten zu
-Apple-Search-Ads-Kampagnen verbunden wird, um Kampagnenergebnisse zu messen. Ranked verwendet die
-Werbekennung IDFA nicht, zeigt keine Werbung und liest nichts aus Apple Health.
+Ranked verfolgt Sie nicht über andere Apps oder Websites hinweg, zeigt keine Werbung und liest
+nichts aus Apple Health.
 
 ---
 
@@ -54,25 +55,21 @@ kommen beim Wiederherstellen zurück — zu Apples Bedingungen, nicht zu unseren
 Das Löschen der App löscht all das vom Gerät. Wir können es nicht wiederherstellen, weil wir es nie
 hatten.
 
+Name, Profilfoto und Vorher-Foto bleiben auf diesem Gerät.
+
 ---
 
 ## 3. Was Ihr Gerät verlässt
 
 ### 3.1 Nutzungsstatistiken (PostHog)
 
-Beim ersten Öffnen zeigt iOS den standardmässigen Dialog von Apple zur Tracking-Erlaubnis, bevor Ranked PostHog-Analysen startet oder Apple-Search-Ads-Zuordnungen abfragt. Wenn Sie Tracking erlauben, beginnt das Teilen der Nutzungsdaten automatisch. Es bleibt eingeschaltet, bis Sie *Nutzungsdaten teilen* unter Einstellungen ▸ Daten & Datenschutz ausschalten. Wenn Sie Tracking ablehnen oder später in den iOS-Einstellungen widerrufen, sendet Ranked keine Analyseereignisse oder Kampagnenzuordnungen. An PostHog in der EU gehen Nutzungsereignisse zu Einrichtung und Ersteinstufung, Rang- und Stufenänderungen (mit Skill und Stufe), Kaufbildschirm und Kaufvorgang sowie geöffneten Ansichten. Ereignisse zu Live-Trainings enthalten Start, Abschluss oder Abbruch, verstrichene Sekunden, Anzahl geloggter Sätze, Anzahl unterschiedlicher Skills und ob es das erste abgeschlossene Training war. Sie enthalten keine einzelnen Übungen, Wiederholungen, Gewichte oder Notizen. Alter, Geschlecht, Grösse und Körpergewicht werden nicht übermittelt. PostHog erhält übliche Geräte-, iOS-, App- und Sprachangaben sowie die IP-Adresse, aus der ein ungefährer Ort abgeleitet werden kann. Eine zufällige Analysekennung gruppiert die Ereignisse. Das Ablehnen oder Widerrufen der Tracking-Erlaubnis sowie das Ausschalten des Teilens stoppt neue Datenübermittlungen; bereits gesendete Daten werden dadurch nicht automatisch gelöscht.
+Die Analyse ist standardmäßig ausgeschaltet. Erst wenn Sie in den Einstellungen ausdrücklich zustimmen, sendet Ranked Nutzungsereignisse an PostHog in der EU: Einrichtung und Ersteinstufung, Rang- und Stufenänderungen (mit Skill und Stufe), Kaufbildschirm und Kaufvorgang sowie geöffnete Ansichten. Ereignisse zu Live-Trainings enthalten Start, Abschluss oder Abbruch, verstrichene Sekunden, Anzahl geloggter Sätze, Anzahl unterschiedlicher Skills und ob es das erste abgeschlossene Training war. Sie enthalten keine einzelnen Übungen, Wiederholungen, Gewichte oder Notizen. Alter, Geschlecht, Größe und Körpergewicht werden nicht übermittelt. PostHog erhält übliche Geräte-, iOS-, App- und Sprachangaben sowie die IP-Adresse, aus der ein ungefährer Ort abgeleitet werden kann. Eine zufällige Analysekennung entsteht erst nach Ihrer Zustimmung. Sie können diese unter Einstellungen ▸ Daten & Datenschutz widerrufen; danach werden keine neuen Ereignisse gesendet. Bereits gesendete Daten werden dadurch nicht automatisch gelöscht.
 
 Die App kann außerdem die Abonnementphase, den aktuellen Zugriff, den Verlängerungsstatus sowie die Feststellung einer Kündigung oder eines Abrechnungsproblems melden. Diese Beobachtungen sind kein Nachweis einer Belastung und werden nur gesendet, solange die Analyse eingeschaltet ist.
 
 Mit Ihrer Einwilligung erfassen Nutzungsereignisse auch, wann Sie einen Trainingsplan auswählen und wann Sie eine Trainingseinheit öffnen. Die Planauswahl umfasst nur die Anzahl der Trainingstage pro Woche und der Übungen; das Öffnen einer Einheit umfasst nur, ob sie fortgesetzt wird, den Einstiegsweg und die Anzahl der vorgegebenen Übungen. Vollständige Planinhalte, Zeitpläne, einzelne Übungen und Trainingsnotizen bleiben auf Ihrem Gerät.
 
-> Freiwillig: Teile App-Nutzung, bewertete Skills, Rang, Trainingsaktivität und Kampagnendaten von Apple Search Ads mit PostHog, um Ranked zu verbessern. Wir verknüpfen diese Nutzung außerdem über eine zufällige Kaufreferenz mit deiner Testphase und deinem Abonnement. Keine Namen oder Trainingsnotizen. Jederzeit in den Einstellungen änderbar.
-
-### 3.2 Zuordnung von Apple Search Ads
-
-Nur wenn die Tracking-Erlaubnis erteilt und *Nutzungsdaten teilen* aktiviert ist, fragt Ranked über Apples AdServices einmalig die Zuordnung einer Apple-Search-Ads-Installation ab. Bei einem Anzeigenklick können Kampagne, Anzeigengruppe, Suchbegriff, Werbemotiv, Land oder Region, Klickdatum sowie Neu- oder Wiederdownload mit der zufälligen PostHog-Kennung und App-Ereignissen verbunden werden, um Kampagnenergebnisse zu messen. Die Werbekennung IDFA wird nicht verwendet. Wenn Sie die Tracking-Erlaubnis widerrufen oder das Teilen der Nutzungsdaten ausschalten, stoppt Ranked weitere Abfragen und Übermittlungen.
-
-### 3.3 Käufe (Apple und RevenueCat)
+### 3.2 Käufe (Apple und RevenueCat)
 
 Abonnements werden von **Apple** über den App Store verkauft und abgerechnet. Wir sehen Ihre
 Zahlungsdaten, Ihren Apple-Account und Ihren Namen nie.
@@ -88,9 +85,13 @@ Wenn Sie **Käufe wiederherstellen** antippen, fragt die App bei Apple die Käuf
 dem Gerät angemeldeten Apple-Account getätigt wurden, und gibt das Ergebnis auf demselben Weg an
 RevenueCat weiter.
 
-### 3.4 Nachrichten für Feedback und Support (Cloudflare und CloudKit)
+### 3.3 Nachrichten für Feedback und Support (Cloudflare und CloudKit)
 
 Wenn Sie Feedback oder eine Supportanfrage senden, übermittelt Ranked die Nachricht samt Kategorie und Herkunft an einen Cloudflare Worker. Dieser speichert die Angaben mit einem privaten Serverschlüssel in der öffentlichen Datenbank von Apple CloudKit. Für das Senden ist keine iCloud-Anmeldung erforderlich. Der Cloudflare Worker verwendet die Netzwerkadresse für eine technische Begrenzung gegen Missbrauch; weder die ursprüngliche Adresse noch ein Hash davon wird im CloudKit-Feedbackdatensatz gespeichert. Für eine Antwort ausserhalb der App können Sie gesondert in die Übermittlung Ihrer E-Mail-Adresse oder Telefonnummer einwilligen. Nachricht und Kontaktdaten gehen weder an PostHog noch an RevenueCat und sind nicht mit einem App-Konto verknüpft. Wir bearbeiten die Nachricht, um Ihre Anfrage zu beantworten, und die freiwilligen Kontaktdaten mit Ihrer Einwilligung. Für Nachrichten und Kontaktdaten ist derzeit keine feste automatische Löschfrist eingerichtet. Auskunft oder Löschung können Sie unter **dylan.schmid538@gmail.com** verlangen.
+
+### 3.4 Anleitungsvideos (YouTube)
+
+Auf Übungsseiten erscheint zunächst ein lokal gespeichertes Vorschaubild. Erst wenn Sie auf **Video ansehen** tippen, lädt Ranked den eingebetteten YouTube-Player. Bei dieser Anfrage erhält Google/YouTube Ihre Netzwerkadresse, Browser- und Player-Anfragedaten, die feste Video-ID und eine Herkunftsangabe, die Ranked als App nennt. Ranked fügt weder Ihren Namen noch Körpermasse, Trainingsprotokolle, Trainingspläne oder Kennungen von PostHog oder RevenueCat hinzu. Sie können die Übung auch ohne das Video verwenden. Über den gesonderten Link **Auf YouTube ansehen** verlassen Sie Ranked. Die [Datenschutzerklärung von Google](https://policies.google.com/privacy) beschreibt die dortige Datenbearbeitung und Aufbewahrung; Ranked kann Daten, die YouTube gespeichert hat, nicht löschen.
 
 ---
 
@@ -98,11 +99,8 @@ Wenn Sie Feedback oder eine Supportanfrage senden, übermittelt Ranked die Nachr
 
 - **Keine Konten.** Sie melden sich nie an. Es gibt kein Profil von Ihnen auf irgendeinem Server.
 - **Kein Apple Health.** Ranked liest weder aus der Health-App noch schreibt es dorthin.
-- **Keine Kamera, keine Fotos, kein Mikrofon, kein Standort, keine Kontakte.** Die App fordert
-  keine dieser Berechtigungen an.
-- **Keine Werbekennung IDFA und keine Werbung in der App.** Ranked fragt Apples Tracking-Erlaubnis
-  ab, weil App-Nutzungsdaten mit Apple-Search-Ads-Kampagnendaten für die Werbewirkungsmessung
-  verbunden werden. Daten werden nicht verkauft oder an Datenhändler weitergegeben.
+- **Kein Tracking über Apps oder Websites hinweg**, kein Werbe-Identifier, keine Werbung in der
+  App, keine Daten, die an Datenhändler verkauft oder weitergegeben werden.
 - **Kein Push-Server.** Die Erinnerungen, die Ranked senden kann, werden lokal auf Ihrem Telefon
   geplant; nichts davon verlässt das Gerät. Sie werden vor der ersten gefragt, und Sie können sie
   in den iOS-Einstellungen jederzeit abschalten.
@@ -113,8 +111,8 @@ Wenn Sie Feedback oder eine Supportanfrage senden, übermittelt Ranked die Nachr
 
 | Was | Grundlage |
 |---|---|
-| Käufe und Abo-Überprüfung (§3.3) | Vertragserfüllung |
-| Nutzungsstatistiken und Search-Ads-Zuordnung (§3.1–3.2) | Apples Tracking-Erlaubnis; künftiges Teilen lässt sich in den iOS-Einstellungen widerrufen oder über *Nutzungsdaten teilen* in Ranked ausschalten, siehe §8 |
+| Käufe und Abo-Überprüfung (§3.2) | Vertragserfüllung |
+| Nutzungsstatistiken (§3.1) | Ihre Einwilligung; jederzeit unter Einstellungen ▸ Daten & Datenschutz widerrufbar |
 
 **Hier gelten zwei Rechtsordnungen, nicht eine.** Ranked wird aus der Schweiz betrieben, daher
 regelt das revidierte Schweizer Datenschutzgesetz (**revDSG**, in Kraft seit September 2023) diese
@@ -128,10 +126,8 @@ revDSG.
 ## 6. Wo die Daten bearbeitet werden
 
 - **PostHog** bearbeitet die Nutzungsstatistiken in der Europäischen Union.
-- **RevenueCat, Inc.** hat seinen Sitz in den Vereinigten Staaten und bearbeitet die in §3.3
+- **RevenueCat, Inc.** hat seinen Sitz in den Vereinigten Staaten und bearbeitet die in §3.2
   beschriebenen Kaufdaten dort.
-- **Apple** bearbeitet den Kauf selbst und die Search-Ads-Anfrage nach Apples eigener
-  Datenschutzerklärung, die unabhängig von dieser App für Ihren Apple-Account gilt.
 
 ---
 
@@ -150,7 +146,7 @@ Alles auf Ihrem Gerät bleibt dort, bis Sie die App löschen.
 
 ## 8. Ihre Rechte
 
-Sie können das Teilen der Nutzungsdaten jederzeit unter Einstellungen ▸ Daten & Datenschutz ausschalten oder die Tracking-Erlaubnis in den iOS-Einstellungen widerrufen. Das stoppt neue Analyseereignisse und Kampagnenzuordnungen, löscht aber nicht bereits gesendete Daten und beendet kein App-Store-Abonnement.
+Sie können Ihre Einwilligung zur Analyse unter Einstellungen ▸ Daten & Datenschutz jederzeit ohne Begründung widerrufen. Das stoppt neue Ereignisse sofort, löscht aber nicht automatisch bereits gesendete Daten und beendet kein App-Store-Abonnement.
 
 Ihre lokalen Trainingsdaten können Sie unter Einstellungen ▸ Daten & Datenschutz ▸ *Lokale Trainingsdaten löschen* oder durch Löschen der App entfernen. Das Abonnement verwalten und kündigen Sie getrennt in Ihrem Apple-Account.
 

@@ -7,7 +7,7 @@ permalink: /privacy/da/
 
 # Privatlivspolitik · Calisthenics Skills – Ranked
 
-**Senest opdateret: 2026-10-18**
+**Senest opdateret: 2026-11-01**
 
 Denne politik beskriver, hvilke oplysninger Ranked indsamler, hvor de sendes hen, og hvad du kan gøre ved det.
 
@@ -19,13 +19,14 @@ Ranked drives af **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Schweiz*
 
 **Din alder, dit køn, din højde og din kropsvægt forlader aldrig din enhed.** Rangformlen bruger dem på telefonen. De sendes hverken til os eller analysetjenesten.
 
-Tre slags oplysninger kan forlade din enhed:
+Fire slags oplysninger kan forlade din enhed:
 
-1. **Brugsstatistik**, Ranked deler kun disse statistikker, hvis du tillader Apples standardanmodning om sporing. Du kan slå deling fra i appen eller tilbagekalde tilladelsen i iOS-indstillinger.
+1. **Brugsstatistik**, så vi kan se, hvordan appen bruges. Du kan slå den fra i appen når som helst.
 2. **Købsoplysninger**, så App Store-abonnementet kan kontrolleres. Apple håndterer betalingen; vi ser aldrig dine betalingsoplysninger.
 3. **Feedback- og supportbeskeder**, kun når du selv sender dem. Du kan særskilt give samtykke til at oplyse e-mail eller telefonnummer for et svar.
+4. **YouTube (§3.4)**
 
-Ranked bruger ikke annonce-id’et IDFA, viser ikke reklamer i appen og sælger eller videregiver ikke data til datamæglere. Brugsstatistik og tilskrivning fra Apple Search Ads sendes kun, hvis du tillader sporing i ATT-dialogen; overførslen fortsætter, så længe analyse er slået til i appen. Ranked læser heller ikke fra Apple Health.
+Ranked sporer dig ikke på tværs af andre apps eller websteder, viser ingen reklamer og læser intet fra Apple Health.
 
 ---
 
@@ -42,25 +43,21 @@ Appen udelukker ikke denne database fra sikkerhedskopien af din enhed. Hvis du b
 
 Når du sletter appen, slettes alt dette fra enheden. Vi kan ikke genskabe det, fordi vi aldrig har haft det.
 
+Navn, profilbillede og førfoto bliver på denne enhed.
+
 ---
 
 ## 3. Hvad der forlader din enhed
 
 ### 3.1 Brugsstatistik (PostHog)
 
-Første gang du åbner appen, viser iOS Apples standarddialog om tilladelse til sporing (App Tracking Transparency, ATT). Ranked sender kun brugsoplysninger til PostHog i EU, hvis du tillader sporing i ATT-dialogen; derefter fortsætter overførslerne, så længe analyse er slået til i appen. Hændelserne omfatter opsætning, første vurdering, ændringer i rang og trin (med færdighed og trin), købsskærm, køb og åbnede skærme. Hændelser fra live træning angiver start, afslutning eller afbrydelse, forløbne sekunder, antal registrerede sæt, antal forskellige færdigheder og om det var den første afsluttede træning. De indeholder ikke enkelte øvelser, gentagelser, vægte eller noter. Alder, køn, højde og kropsvægt sendes ikke. PostHog modtager også almindelige tekniske oplysninger om enhed, iOS, app og sprog samt IP-adressen, hvorfra en omtrentlig placering kan udledes. Når du har tilladt sporing og slået analyse til, opretter PostHog en tilfældig installationsidentifikator og knytter hændelser og kampagneoplysninger til den med henblik på analyse og måling af annoncer. IDFA bruges ikke. Du kan slå analyse fra under Indstillinger ▸ Data og anonymitet eller tilbagekalde sporingstilladelsen i iOS-indstillingerne. Når en af mulighederne slås fra, stopper fremtidige overførsler; allerede sendte data slettes ikke automatisk.
+Analyse er som standard slået fra. Først når du udtrykkeligt giver samtykke i Indstillinger, sender Ranked til PostHog i EU hændelser om opsætning, første vurdering, ændringer i rang og trin (med færdighed og trin), købsskærm, køb og åbnede skærme. Hændelser fra live træning angiver start, afslutning eller afbrydelse, forløbne sekunder, antal registrerede sæt, antal forskellige færdigheder og om det var den første afsluttede træning. De indeholder ikke enkelte øvelser, gentagelser, vægte eller noter. Alder, køn, højde og kropsvægt sendes ikke. PostHog modtager også almindelige tekniske oplysninger om enhed, iOS, app og sprog samt IP-adressen, hvorfra en omtrentlig placering kan udledes. Et tilfældigt analyse-id oprettes efter dit samtykke. Du kan trække det tilbage under Indstillinger ▸ Data og anonymitet; nye hændelser stopper, mens allerede sendte data ikke slettes automatisk.
 
 Appen kan også rapportere abonnementsfasen, den aktuelle adgang, fornyelsesstatus og om en opsigelse eller et faktureringsproblem blev registreret. Disse observationer er ikke bevis for en opkrævning og sendes kun, mens analyse er aktiveret.
 
 Med dit samtykke registrerer brugshændelser også, når du vælger en træningsplan, og når du åbner en træningssession. Valg af plan omfatter kun antallet af træningsdage om ugen og øvelser; åbning af en session omfatter kun, om den genoptages, indgangskilden og antallet af foreskrevne øvelser. Planernes fulde indhold, tidsplaner, individuelle øvelser og træningsnoter forbliver på din enhed.
 
-> Valgfrit: Del brug af appen, vurderede færdigheder, rang, træningsaktivitet og kampagnedata fra Apple Search Ads med PostHog for at forbedre Ranked. Vi knytter også denne brug til din prøveperiode og dit abonnement via en tilfældig købsreference. Ingen navne eller træningsnoter. Du kan ændre dette når som helst i Indstillinger.
-
-### 3.2 Tilskrivning af Apple Search Ads
-
-Ranked anmoder kun om tilskrivning fra Apple Search Ads og forespørger kun AdServices, hvis du tillader sporing i ATT-dialogen og har slået analyse til i appen. I så fald kan oplysninger om kampagne, annoncegruppe, søgeord, annonceindhold, land eller region, klikdato og downloadtype knyttes til den tilfældige PostHog-installationsidentifikator med henblik på analyse og måling af annoncer. IDFA bruges ikke. Hvis du slår analyse fra eller tilbagekalder ATT-tilladelsen, stopper tilskrivningen og fremtidige overførsler; tidligere data slettes ikke automatisk.
-
-### 3.3 Køb (Apple og RevenueCat)
+### 3.2 Køb (Apple og RevenueCat)
 
 Abonnementer sælges og faktureres af **Apple** via App Store. Vi ser aldrig dine betalingsoplysninger, din Apple-konto eller dit navn.
 
@@ -68,18 +65,22 @@ For at kontrollere, om dit abonnement er aktivt, bruger appen **RevenueCat**. Re
 
 Når du trykker på **Gendan køb**, beder appen Apple om de køb, der er foretaget med den Apple-konto, som er logget ind på enheden, og sender resultatet videre til RevenueCat på samme måde.
 
-### 3.4 Feedback- og supportbeskeder (Cloudflare og CloudKit)
+### 3.3 Feedback- og supportbeskeder (Cloudflare og CloudKit)
 
 Hvis du sender feedback eller en supportanmodning, sender Ranked beskeden, dens kategori og kilde til en Cloudflare Worker. Den gemmer oplysningerne i Apples offentlige CloudKit-database ved hjælp af en privat servernøgle. Du behøver ikke logge på iCloud for at sende en besked. Cloudflare Worker bruger netværksadressen til en teknisk begrænsning mod misbrug; hverken den oprindelige adresse eller en hash af den gemmes i feedbackposten i CloudKit. Du kan særskilt give samtykke til at oplyse en e-mailadresse eller et telefonnummer, så vi kan svare uden for appen. Beskeder og kontaktoplysninger sendes ikke til PostHog eller RevenueCat og knyttes ikke til en konto i appen. Vi behandler beskeden for at besvare din henvendelse og valgfrie kontaktoplysninger med dit samtykke. Der er i øjeblikket ingen fast frist for automatisk sletning af beskeder eller kontaktoplysninger. Du kan anmode om indsigt eller sletning på **dylan.schmid538@gmail.com**.
 
+### 3.4 Instruktionsvideoer (YouTube)
+
+Øvelsessider viser et eksempelbillede, der er gemt på enheden. Ranked indlæser først den integrerede YouTube-afspiller, når du trykker på **Se video**. Anmodningen giver Google/YouTube din netværksadresse, oplysninger om browserens og afspillerens anmodning, videoens faste ID og en apphenvisning, der identificerer Ranked. Ranked tilføjer ikke dit navn, dine kropsmål, din træningslog, din træningsplan eller dit PostHog- eller RevenueCat-id. Du kan bruge øvelsen uden at indlæse videoen. Det separate link **Se på YouTube** fører dig væk fra Ranked. [Googles privatlivspolitik](https://policies.google.com/privacy) beskriver Googles behandling og opbevaring af data; Ranked kan ikke slette data, som YouTube opbevarer.
+
 ---
 
-## 4. Sporing og tilladelser i Ranked
+
+## 4. Hvad Ranked ikke gør
 
 - **Ingen konti.** Du logger aldrig ind. Ingen server har en profil om dig.
 - **Intet Apple Health.** Ranked hverken læser fra eller skriver til appen Sundhed.
-- **Intet kamera, ingen fotos, mikrofon, placering eller kontakter.** Appen beder ikke om disse tilladelser.
-- **Ranked bruger ikke annonce-id’et IDFA, viser ikke reklamer i appen og sælger eller videregiver ikke data til datamæglere. Brugsstatistik og tilskrivning fra Apple Search Ads sendes kun, hvis du tillader sporing i ATT-dialogen; overførslen fortsætter, så længe analyse er slået til i appen.**
+- **Ingen sporing på tværs af apps eller websteder**, ingen reklameidentifikator, ingen reklamer i appen og ingen data, der sælges eller gives til datamæglere.
 - **Ingen pushserver.** Påmindelser planlægges lokalt på din telefon; intet om dem forlader enheden. Du bliver spurgt, før den første planlægges, og du kan når som helst slå dem fra i iOS-indstillingerne.
 
 ---
@@ -88,9 +89,8 @@ Hvis du sender feedback eller en supportanmodning, sender Ranked beskeden, dens 
 
 | Behandling | Grundlag |
 |---|---|
-| Køb og kontrol af abonnement (§3.3) | Opfyldelse af en kontrakt |
-| Brugsstatistik (§3.1) | Dit samtykke via ATT-tilladelsen og analyseindstillingen i Ranked; du kan slå hver af dem fra når som helst, se §8 |
-| Tilskrivning af Search Ads (§3.2) | Dit samtykke via ATT-tilladelsen og analyseindstillingen i Ranked; du kan slå hver af dem fra når som helst, se §8 |
+| Køb og kontrol af abonnement (§3.2) | Opfyldelse af en kontrakt |
+| Brugsstatistik (§3.1) | Dit samtykke; kan til enhver tid trækkes tilbage i Indstillinger ▸ Data og anonymitet |
 
 **To love gælder her, ikke kun én.** Ranked drives fra Schweiz, så den reviderede schweiziske føderale databeskyttelseslov (**revDSG**, i kraft siden september 2023) regulerer behandlingen. **GDPR** gælder derudover, hvor appen bruges fra Den Europæiske Union eller Storbritannien. Hvis reglerne er forskellige, følger vi den strengere. Personer bosat i Schweiz har de samme grundlæggende rettigheder som i §8 efter artikel 25 ff. i revDSG.
 
@@ -99,8 +99,7 @@ Hvis du sender feedback eller en supportanmodning, sender Ranked beskeden, dens 
 ## 6. Hvor oplysningerne behandles
 
 - **PostHog** behandler brugsstatistikken i Den Europæiske Union.
-- **RevenueCat, Inc.** har hjemsted i USA og behandler købsoplysningerne fra §3.3 dér.
-- **Apple** behandler selve købet og anmodningen om Search Ads-tilskrivning efter sin egen privatlivspolitik, der gælder for din Apple-konto uafhængigt af denne app.
+- **RevenueCat, Inc.** har hjemsted i USA og behandler købsoplysningerne fra §3.2 dér.
 
 ---
 

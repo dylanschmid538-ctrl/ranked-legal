@@ -7,7 +7,7 @@ permalink: /privacy/ro/
 
 # Politica de confidențialitate · Calisthenics Skills – Ranked
 
-**Ultima actualizare: 2026-10-18**
+**Ultima actualizare: 2026-11-01**
 
 Această politică descrie ce date colectează Ranked, unde ajung și ce puteți face în privința lor.
 
@@ -19,13 +19,14 @@ Ranked este operată de **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, E
 
 **Vârsta, sexul, înălțimea și greutatea dvs. nu părăsesc niciodată dispozitivul.** Formula de calcul al rangului le folosește pe telefon. Nu sunt trimise nici nouă, nici serviciului de analiză.
 
-Trei tipuri de date pot părăsi dispozitivul:
+Patru tipuri de date pot părăsi dispozitivul:
 
-1. **Statistici de utilizare**, Ranked partajează aceste statistici numai dacă permiteți solicitarea standard de urmărire de la Apple. Puteți dezactiva partajarea în aplicație sau revoca permisiunea din Configurări iOS.
+1. **Statistici de utilizare**, pentru a înțelege cum este folosită aplicația. Le puteți dezactiva oricând în aplicație.
 2. **Date despre cumpărături**, pentru verificarea abonamentului App Store. Apple procesează plata; noi nu vedem niciodată detaliile dvs. de plată.
 3. **Mesaje de feedback și asistență**, doar dacă alegeți să le trimiteți. Cu acord separat puteți oferi e-mailul sau telefonul pentru răspuns.
+4. **YouTube (§3.4)**
 
-Ranked nu vă urmărește între alte aplicații sau site-uri. Statisticile de utilizare și atribuirea campaniilor publicitare descrise mai jos sunt trimise numai dacă ați autorizat ATT și ați activat partajarea datelor de utilizare. Aplicația nu afișează reclame și nu citește date din Apple Health.
+Ranked nu vă urmărește între alte aplicații sau site-uri, nu afișează reclame și nu citește date din Apple Health.
 
 ---
 
@@ -42,25 +43,21 @@ Aplicația nu exclude această bază de date din copia de rezervă a dispozitivu
 
 Ștergerea aplicației șterge toate acestea de pe dispozitiv. Nu le putem recupera, deoarece nu le-am avut niciodată.
 
+Numele, fotografia de profil și fotografia „înainte” rămân pe acest dispozitiv.
+
 ---
 
 ## 3. Ce părăsește dispozitivul
 
 ### 3.1 Statistici de utilizare (PostHog)
 
-La prima deschidere a aplicației, iOS afișează dialogul standard de autorizare „App Tracking Transparency” (ATT). Ranked trimite evenimente către PostHog în UE numai dacă ați autorizat ATT și ați activat partajarea datelor de utilizare în Setări. Dacă autorizarea nu este acordată sau partajarea este dezactivată, aceste date nu sunt trimise. Ranked trimite către PostHog evenimente privind configurarea, evaluarea inițială, schimbările de rang și etapă (cu abilitatea și etapa), ecranul de cumpărare, achizițiile și ecranele deschise. Evenimentele antrenamentelor în timp real includ începutul, finalizarea sau abandonarea, secundele scurse, numărul de seturi înregistrate, numărul de abilități diferite și dacă a fost primul antrenament finalizat. Nu includ exerciții individuale, repetări, greutăți sau note. Vârsta, sexul, înălțimea și greutatea corporală nu sunt transmise. PostHog primește și informații tehnice obișnuite despre dispozitiv, iOS, aplicație și limbă, precum și adresa IP, din care se poate deduce o locație aproximativă. Un identificator aleatoriu de instalare PostHog este creat după autorizarea ATT și activarea partajării datelor de utilizare. Evenimentele și datele de atribuire a campaniilor sunt asociate acestui identificator pentru analiză și măsurarea eficienței publicitare. Puteți revoca autorizarea ATT în configurările iOS și puteți dezactiva partajarea datelor de utilizare în Ranked, Setări ▸ Date și confidențialitate; noile evenimente se opresc, dar datele deja trimise nu sunt șterse automat.
+Analiza este dezactivată implicit. Numai dacă vă dați acordul explicit în Setări, Ranked trimite către PostHog în UE evenimente privind configurarea, evaluarea inițială, schimbările de rang și etapă (cu abilitatea și etapa), ecranul de cumpărare, achizițiile și ecranele deschise. Evenimentele antrenamentelor în timp real includ începutul, finalizarea sau abandonarea, secundele scurse, numărul de seturi înregistrate, numărul de abilități diferite și dacă a fost primul antrenament finalizat. Nu includ exerciții individuale, repetări, greutăți sau note. Vârsta, sexul, înălțimea și greutatea corporală nu sunt transmise. PostHog primește și informații tehnice obișnuite despre dispozitiv, iOS, aplicație și limbă, precum și adresa IP, din care se poate deduce o locație aproximativă. Un identificator aleatoriu este creat după consimțământ. Îl puteți retrage în Setări ▸ Date și confidențialitate; noile evenimente se opresc, dar datele deja trimise nu sunt șterse automat.
 
 Aplicația poate raporta și faza abonamentului, accesul curent, starea reînnoirii și dacă a fost detectată o anulare sau o problemă de facturare. Aceste observații nu constituie dovada unei debitări și sunt trimise doar cât timp analiza este activată.
 
 Cu consimțământul dumneavoastră, evenimentele de utilizare înregistrează și când selectați un plan de antrenament și când deschideți o sesiune de antrenament. Selectarea planului include doar numărul de zile de antrenament pe săptămână și de exerciții; deschiderea sesiunii include doar dacă este reluată, sursa de acces și numărul de exerciții prescrise. Conținutul complet al planurilor, programele, exercițiile individuale și notițele de antrenament rămân pe dispozitivul dumneavoastră.
 
-> Opțional: Partajează utilizarea aplicației, abilitățile evaluate, rangul, activitatea de antrenament și datele campaniilor Apple Search Ads cu PostHog pentru a îmbunătăți Ranked. Asociem această utilizare și cu perioada ta de probă și abonamentul tău printr-o referință de achiziție aleatorie. Fără nume sau notițe de antrenament. Poți schimba oricând în Configurări.
-
-### 3.2 Atribuirea Apple Search Ads
-
-Numai dacă ați autorizat ATT și ați activat partajarea datelor de utilizare, Ranked întreabă o singură dată Apple AdServices dacă instalarea provine din Apple Search Ads. După un clic pe reclamă, campania, grupul, cuvântul-cheie, materialul publicitar, țara sau regiunea, data clicului și tipul descărcării pot fi asociate identificatorului aleatoriu PostHog. IDFA nu este folosit. Transmiterea viitoare se oprește dacă revocați autorizarea ATT în configurările iOS sau dezactivați partajarea datelor de utilizare în Setările Ranked.
-
-### 3.3 Cumpărături (Apple și RevenueCat)
+### 3.2 Cumpărături (Apple și RevenueCat)
 
 Abonamentele sunt vândute și facturate de **Apple** prin App Store. Nu vedem niciodată detaliile dvs. de plată, contul Apple sau numele dvs.
 
@@ -68,9 +65,13 @@ Pentru a verifica dacă abonamentul este activ, aplicația folosește **RevenueC
 
 Când apăsați **Restaurare cumpărături**, aplicația cere de la Apple cumpărăturile făcute cu contul Apple conectat pe dispozitiv și transmite rezultatul către RevenueCat în același mod.
 
-### 3.4 Mesaje de feedback și asistență (Cloudflare și CloudKit)
+### 3.3 Mesaje de feedback și asistență (Cloudflare și CloudKit)
 
 Dacă trimiteți feedback sau o cerere de asistență, Ranked transmite mesajul, categoria și sursa către un Cloudflare Worker. Acesta le stochează în baza de date publică Apple CloudKit folosind o cheie privată de server. Nu trebuie să vă conectați la iCloud pentru a trimite un mesaj. Cloudflare Worker folosește adresa de rețea a cererii pentru o limită tehnică împotriva abuzurilor; nici adresa inițială, nici o amprentă a ei nu sunt stocate în înregistrarea de feedback din CloudKit. Puteți consimți separat să furnizați o adresă de e-mail sau un număr de telefon pentru a primi un răspuns în afara aplicației. Mesajele și datele de contact nu sunt trimise către PostHog sau RevenueCat și nu sunt asociate unui cont din aplicație. Prelucrăm mesajul pentru a răspunde cererii dumneavoastră și datele de contact opționale pe baza consimțământului dumneavoastră. În prezent nu este aplicată o perioadă fixă de ștergere automată pentru mesaje sau datele de contact. Puteți solicita accesul sau ștergerea la **dylan.schmid538@gmail.com**.
+
+### 3.4 Videoclipuri de instruire (YouTube)
+
+Paginile exercițiilor afișează mai întâi o imagine de previzualizare stocată local. Numai când atingeți **Vezi video**, Ranked încarcă playerul YouTube încorporat. La această solicitare, Google/YouTube primește adresa dvs. de rețea, datele solicitării din browser și player, ID-ul fix al videoclipului și o referință care identifică aplicația Ranked. Ranked nu adaugă numele, măsurătorile corporale, jurnalul sau planul de antrenament și nici identificatorii PostHog sau RevenueCat. Puteți folosi exercițiul fără a încărca videoclipul. Linkul separat **Vezi pe YouTube** vă scoate din Ranked. [Politica de confidențialitate Google](https://policies.google.com/privacy) descrie prelucrarea și păstrarea datelor de către Google; Ranked nu poate șterge datele deținute de YouTube.
 
 ---
 
@@ -78,8 +79,7 @@ Dacă trimiteți feedback sau o cerere de asistență, Ranked transmite mesajul,
 
 - **Fără conturi.** Nu vă conectați niciodată. Nu există un profil despre dvs. pe vreun server.
 - **Fără Apple Health.** Ranked nu citește și nu scrie în aplicația Health.
-- **Fără cameră, fotografii, microfon, locație sau contacte.** Aplicația nu cere aceste permisiuni.
-- **Ranked nu vă urmărește între alte aplicații sau site-uri.** Statisticile de utilizare și măsurarea campaniilor descrise la §3 sunt folosite numai după autorizarea ATT și activarea partajării datelor de utilizare; IDFA nu este utilizat. Aplicația nu afișează reclame, iar datele nu sunt vândute sau transmise brokerilor de date.
+- **Fără urmărire între aplicații sau site-uri**, identificator publicitar, reclame în aplicație ori date vândute sau transmise brokerilor de date.
 - **Fără server de notificări push.** Mementourile sunt programate local pe telefon; nimic despre ele nu părăsește dispozitivul. Vi se cere permisiunea înainte de primul memento și le puteți dezactiva oricând în configurările iOS.
 
 ---
@@ -88,9 +88,8 @@ Dacă trimiteți feedback sau o cerere de asistență, Ranked transmite mesajul,
 
 | Prelucrare | Temei |
 |---|---|
-| Cumpărături și verificarea abonamentului (§3.3) | Executarea unui contract |
+| Cumpărături și verificarea abonamentului (§3.2) | Executarea unui contract |
 | Statistici de utilizare (§3.1) | Consimțământul dvs.; poate fi retras oricând în Setări ▸ Date și confidențialitate |
-| Atribuirea Search Ads (§3.2) | Consimțământul dvs.; poate fi retras oricând în Setări ▸ Date și confidențialitate |
 
 **Se aplică două legi, nu una.** Ranked este operată din Elveția, deci prelucrarea este guvernată de Legea federală elvețiană revizuită privind protecția datelor (**revDSG**, în vigoare din septembrie 2023). **GDPR** se aplică suplimentar oriunde aplicația este utilizată din Uniunea Europeană sau Regatul Unit. Dacă diferă, urmăm regula mai strictă. Rezidenții elvețieni au aceleași drepturi de bază enumerate la §8 potrivit art. 25 și următoarele din revDSG.
 
@@ -99,8 +98,7 @@ Dacă trimiteți feedback sau o cerere de asistență, Ranked transmite mesajul,
 ## 6. Unde sunt prelucrate datele
 
 - **PostHog** prelucrează statisticile de utilizare în Uniunea Europeană.
-- **RevenueCat, Inc.** are sediul în Statele Unite și prelucrează acolo datele despre cumpărături descrise la §3.3.
-- **Apple** prelucrează cumpărarea și cererea de atribuire Search Ads potrivit propriei politici de confidențialitate, aplicabilă contului dvs. Apple independent de această aplicație.
+- **RevenueCat, Inc.** are sediul în Statele Unite și prelucrează acolo datele despre cumpărături descrise la §3.2.
 
 ---
 
@@ -116,7 +114,7 @@ Tot ce este pe dispozitiv rămâne acolo până ștergeți aplicația.
 
 ## 8. Drepturile dvs.
 
-Puteți opri oricând transmiterea viitoare a datelor analitice revocând autorizarea ATT în configurările iOS sau dezactivând partajarea datelor de utilizare în Ranked: Setări ▸ Date și confidențialitate. Datele deja trimise nu sunt șterse automat, iar abonamentul App Store nu este anulat.
+Puteți retrage oricând, fără motiv, consimțământul pentru analiză în Setări ▸ Date și confidențialitate. Noile evenimente încetează imediat, dar datele deja trimise nu sunt șterse automat și abonamentul App Store nu este anulat.
 
 Puteți șterge datele locale de antrenament în Setări ▸ Date și confidențialitate ▸ *Șterge datele locale de antrenament* sau prin ștergerea aplicației. Abonamentul se gestionează și se anulează separat în Contul Apple.
 

@@ -7,7 +7,7 @@ permalink: /privacy/vi/
 
 # Chính sách quyền riêng tư · Calisthenics Skills – Ranked
 
-**Cập nhật lần cuối: 2026-10-18**
+**Cập nhật lần cuối: 2026-11-01**
 
 Chính sách này mô tả Ranked thu thập dữ liệu gì, dữ liệu được gửi đến đâu và bạn có thể làm gì.
 
@@ -19,13 +19,14 @@ Ranked do **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Thụy Sĩ** v�
 
 **Tuổi, giới tính, chiều cao và cân nặng của bạn không bao giờ rời khỏi thiết bị.** Công thức xếp hạng sử dụng các thông tin này trên điện thoại. Chúng không được gửi cho chúng tôi hay dịch vụ phân tích.
 
-Ba loại dữ liệu có thể rời khỏi thiết bị:
+Bốn loại dữ liệu có thể rời khỏi thiết bị:
 
-1. **Thống kê sử dụng**, Ranked chỉ chia sẻ thống kê này nếu bạn cho phép yêu cầu theo dõi tiêu chuẩn của Apple. Bạn có thể tắt chia sẻ trong ứng dụng hoặc thu hồi quyền trong Cài đặt iOS.
+1. **Thống kê sử dụng**, giúp chúng tôi biết ứng dụng được dùng như thế nào. Bạn có thể tắt trong ứng dụng bất kỳ lúc nào.
 2. **Dữ liệu mua hàng**, để xác minh gói đăng ký App Store. Apple xử lý thanh toán; chúng tôi không bao giờ thấy thông tin thanh toán của bạn.
 3. **Tin nhắn góp ý và hỗ trợ**, chỉ khi bạn chọn gửi. Bạn có thể đồng ý riêng để cung cấp email hoặc số điện thoại nhằm nhận phản hồi.
+4. **YouTube (§3.4)**
 
-Ranked không theo dõi bạn trên các ứng dụng hoặc trang web khác. Thống kê sử dụng và dữ liệu phân bổ chiến dịch quảng cáo mô tả bên dưới chỉ được gửi khi ATT được cho phép và cài đặt “Share usage data” trong Ranked đang bật. Ứng dụng không hiển thị quảng cáo và không đọc dữ liệu từ Apple Health.
+Ranked không theo dõi bạn giữa các ứng dụng hoặc trang web khác, không hiển thị quảng cáo và không đọc dữ liệu từ Apple Health.
 
 ---
 
@@ -42,25 +43,21 @@ Những thông tin sau được lưu trong cơ sở dữ liệu riêng của ứ
 
 Xóa ứng dụng sẽ xóa toàn bộ dữ liệu này khỏi thiết bị. Chúng tôi không thể khôi phục vì chưa từng sở hữu dữ liệu đó.
 
+Tên, ảnh hồ sơ và ảnh trước khi bắt đầu chỉ lưu trên thiết bị này.
+
 ---
 
 ## 3. Dữ liệu rời khỏi thiết bị
 
 ### 3.1 Thống kê sử dụng (PostHog)
 
-Khi mở ứng dụng lần đầu, iOS hiển thị hộp thoại hệ thống tiêu chuẩn của App Tracking Transparency (ATT). Sau khi bạn cho phép ATT, phân tích tự động bắt đầu và tiếp tục khi cài đặt “Share usage data” trong Ranked còn bật. Sự kiện chỉ được gửi đến PostHog tại EU khi ATT được cho phép và cài đặt này đang bật; nếu từ chối hoặc tắt cài đặt, dữ liệu mới sẽ không được gửi. Ranked gửi đến PostHog các sự kiện về thiết lập, đánh giá ban đầu, thay đổi hạng và giai đoạn (kèm kỹ năng và giai đoạn), màn hình mua, giao dịch mua và màn hình đã mở. Sự kiện buổi tập trực tiếp gồm bắt đầu, hoàn thành hoặc bỏ dở, số giây đã trôi qua, số hiệp đã ghi, số kỹ năng khác nhau và liệu đó có phải buổi tập hoàn thành đầu tiên không. Chúng không gồm từng bài tập, số lần lặp, mức tạ hoặc ghi chú. Tuổi, giới tính, chiều cao và cân nặng không được gửi. PostHog còn nhận thông tin kỹ thuật thông thường về thiết bị, iOS, ứng dụng và ngôn ngữ, cùng địa chỉ IP có thể cho biết vị trí gần đúng. Mã cài đặt PostHog ngẫu nhiên được tạo sau khi ATT được cho phép. Sự kiện và dữ liệu phân bổ chiến dịch được liên kết với mã này để phân tích và đo lường quảng cáo. Bạn có thể thu hồi quyền ATT trong Cài đặt iOS hoặc tắt “Share usage data” trong Ranked tại Cài đặt ▸ Dữ liệu và quyền riêng tư; sự kiện mới sẽ dừng, nhưng dữ liệu đã gửi không tự động bị xóa.
+Phân tích được tắt theo mặc định. Chỉ khi bạn đồng ý rõ ràng trong Cài đặt, Ranked mới gửi đến PostHog đặt tại EU các sự kiện về thiết lập, đánh giá ban đầu, thay đổi hạng và giai đoạn (kèm kỹ năng và giai đoạn), màn hình mua, giao dịch mua và màn hình đã mở. Sự kiện buổi tập trực tiếp gồm bắt đầu, hoàn thành hoặc bỏ dở, số giây đã trôi qua, số hiệp đã ghi, số kỹ năng khác nhau và liệu đó có phải buổi tập hoàn thành đầu tiên không. Chúng không gồm từng bài tập, số lần lặp, mức tạ hoặc ghi chú. Tuổi, giới tính, chiều cao và cân nặng không được gửi. PostHog còn nhận thông tin kỹ thuật thông thường về thiết bị, iOS, ứng dụng và ngôn ngữ, cùng địa chỉ IP có thể cho biết vị trí gần đúng. Mã phân tích ngẫu nhiên chỉ được tạo sau khi bạn đồng ý. Bạn có thể rút lại sự đồng ý trong Cài đặt ▸ Dữ liệu và quyền riêng tư; sự kiện mới sẽ dừng, nhưng dữ liệu đã gửi không tự động bị xóa.
 
 Ứng dụng cũng có thể báo cáo giai đoạn đăng ký, quyền truy cập hiện tại, trạng thái gia hạn và việc có phát hiện hủy hoặc vấn đề lập hóa đơn hay không. Những quan sát này không phải bằng chứng về việc trừ tiền và chỉ được gửi khi tính năng phân tích được bật.
 
 Với sự đồng ý của bạn, các sự kiện sử dụng cũng ghi nhận khi bạn chọn một kế hoạch tập luyện và khi bạn mở một buổi tập. Việc chọn kế hoạch chỉ bao gồm số ngày tập mỗi tuần và số bài tập; việc mở buổi tập chỉ bao gồm buổi tập có được tiếp tục hay không, nguồn truy cập và số bài tập được chỉ định. Toàn bộ nội dung kế hoạch, lịch tập, từng bài tập và ghi chú tập luyện vẫn ở trên thiết bị của bạn.
 
-> Tùy chọn: Chia sẻ việc sử dụng ứng dụng, kỹ năng đã đánh giá, thứ hạng, hoạt động tập luyện và dữ liệu chiến dịch Apple Search Ads với PostHog để cải thiện Ranked. Chúng tôi cũng liên kết việc sử dụng này với thời gian dùng thử và gói đăng ký của bạn bằng mã tham chiếu mua hàng ngẫu nhiên. Không có tên hoặc ghi chú tập luyện. Thay đổi bất cứ lúc nào trong Cài đặt.
-
-### 3.2 Phân bổ nguồn từ Apple Search Ads
-
-Ranked chỉ hỏi Apple AdServices một lần xem lượt cài đặt có đến từ Apple Search Ads không, và chỉ hỏi khi ATT được cho phép và cài đặt “Share usage data” đang bật. Nếu bạn nhấn vào quảng cáo, chiến dịch, nhóm quảng cáo, từ khóa, mẫu quảng cáo, quốc gia hoặc vùng, ngày nhấn và loại tải xuống có thể được gắn với mã PostHog ngẫu nhiên. Không dùng mã quảng cáo IDFA. Thu hồi ATT trong Cài đặt iOS hoặc tắt “Share usage data” trong Ranked sẽ dừng việc gửi trong tương lai.
-
-### 3.3 Mua hàng (Apple và RevenueCat)
+### 3.2 Mua hàng (Apple và RevenueCat)
 
 Gói đăng ký được **Apple** bán và tính phí qua App Store. Chúng tôi không bao giờ thấy thông tin thanh toán, Tài khoản Apple hay tên của bạn.
 
@@ -68,9 +65,13 @@ Gói đăng ký được **Apple** bán và tính phí qua App Store. Chúng tô
 
 Khi bạn nhấn **Khôi phục giao dịch mua**, ứng dụng hỏi Apple về các giao dịch được thực hiện bằng Tài khoản Apple đang đăng nhập trên thiết bị và chuyển kết quả cho RevenueCat theo cùng cách.
 
-### 3.4 Tin nhắn góp ý và hỗ trợ (Cloudflare và CloudKit)
+### 3.3 Tin nhắn góp ý và hỗ trợ (Cloudflare và CloudKit)
 
 Nếu bạn gửi góp ý hoặc yêu cầu hỗ trợ, Ranked chuyển tin nhắn, danh mục và nguồn đến Cloudflare Worker. Dịch vụ này lưu dữ liệu vào cơ sở dữ liệu công khai của Apple CloudKit bằng khóa máy chủ riêng. Bạn không cần đăng nhập iCloud để gửi tin nhắn. Cloudflare Worker dùng địa chỉ mạng của yêu cầu để giới hạn hành vi lạm dụng bằng biện pháp kỹ thuật; địa chỉ gốc hoặc giá trị băm của địa chỉ đó không được lưu trong bản ghi góp ý trên CloudKit. Bạn có thể đồng ý riêng với việc cung cấp địa chỉ email hoặc số điện thoại để chúng tôi trả lời ngoài ứng dụng. Tin nhắn và thông tin liên hệ không được gửi đến PostHog hoặc RevenueCat và không liên kết với tài khoản trong ứng dụng. Chúng tôi xử lý tin nhắn để trả lời yêu cầu của bạn và thông tin liên hệ tùy chọn theo sự đồng ý của bạn. Hiện không có thời hạn cố định để tự động xóa tin nhắn hoặc thông tin liên hệ. Bạn có thể yêu cầu truy cập hoặc xóa dữ liệu qua **dylan.schmid538@gmail.com**.
+
+### 3.4 Video hướng dẫn (YouTube)
+
+Trang bài tập trước tiên hiển thị ảnh xem trước được lưu trên thiết bị. Ranked chỉ tải trình phát YouTube nhúng khi bạn nhấn **Xem video**. Khi đó, Google/YouTube nhận địa chỉ mạng của bạn, dữ liệu yêu cầu từ trình duyệt và trình phát, mã video cố định cùng thông tin nguồn cho biết yêu cầu đến từ ứng dụng Ranked. Ranked không thêm tên, số đo cơ thể, nhật ký hoặc kế hoạch tập luyện của bạn, cũng không thêm mã định danh PostHog hay RevenueCat. Bạn vẫn có thể sử dụng bài tập mà không cần tải video. Liên kết riêng **Xem trên YouTube** sẽ đưa bạn ra khỏi Ranked. [Chính sách quyền riêng tư của Google](https://policies.google.com/privacy) mô tả cách Google xử lý và lưu giữ dữ liệu; Ranked không thể xóa dữ liệu do YouTube lưu giữ.
 
 ---
 
@@ -78,8 +79,7 @@ Nếu bạn gửi góp ý hoặc yêu cầu hỗ trợ, Ranked chuyển tin nh�
 
 - **Không có tài khoản.** Bạn không bao giờ phải đăng nhập. Không có hồ sơ của bạn trên máy chủ nào.
 - **Không sử dụng Apple Health.** Ranked không đọc hay ghi vào ứng dụng Sức khỏe.
-- **Không dùng máy ảnh, ảnh, micrô, vị trí hay danh bạ.** Ứng dụng không yêu cầu những quyền này.
-- **Ranked không theo dõi bạn trên các ứng dụng hoặc trang web khác.** Thống kê sử dụng và đo lường chiến dịch nêu tại §3 chỉ được dùng khi ATT được cho phép và cài đặt “Share usage data” đang bật; không sử dụng IDFA. Ứng dụng không có quảng cáo, dữ liệu không bị bán hoặc cung cấp cho bên môi giới dữ liệu.
+- **Không theo dõi giữa các ứng dụng hoặc trang web**, không dùng mã định danh quảng cáo, không có quảng cáo trong ứng dụng, không bán hoặc cung cấp dữ liệu cho bên môi giới dữ liệu.
 - **Không có máy chủ thông báo đẩy.** Lời nhắc được lên lịch ngay trên điện thoại; không có thông tin nào về chúng rời khỏi thiết bị. Bạn được hỏi trước khi lời nhắc đầu tiên được lên lịch và có thể tắt chúng trong Cài đặt iOS bất cứ lúc nào.
 
 ---
@@ -88,9 +88,8 @@ Nếu bạn gửi góp ý hoặc yêu cầu hỗ trợ, Ranked chuyển tin nh�
 
 | Hoạt động xử lý | Cơ sở |
 |---|---|
-| Mua hàng và xác minh gói đăng ký (§3.3) | Thực hiện hợp đồng |
+| Mua hàng và xác minh gói đăng ký (§3.2) | Thực hiện hợp đồng |
 | Thống kê sử dụng (§3.1) | Sự đồng ý của bạn; có thể rút lại bất cứ lúc nào trong Cài đặt ▸ Dữ liệu và quyền riêng tư |
-| Phân bổ Search Ads (§3.2) | Sự đồng ý của bạn; có thể rút lại bất cứ lúc nào trong Cài đặt ▸ Dữ liệu và quyền riêng tư |
 
 **Ở đây áp dụng hai luật, không phải một.** Ranked được vận hành từ Thụy Sĩ, vì vậy Đạo luật Liên bang Thụy Sĩ về Bảo vệ Dữ liệu đã sửa đổi (**revDSG**, có hiệu lực từ tháng 9 năm 2023) điều chỉnh việc xử lý này. **GDPR** cũng áp dụng khi ứng dụng được dùng từ Liên minh Châu Âu hoặc Vương quốc Anh. Khi hai luật khác nhau, chúng tôi tuân theo quy định nghiêm ngặt hơn. Cư dân Thụy Sĩ có các quyền cốt lõi tương tự được nêu ở §8 theo Điều 25 và các điều tiếp theo của revDSG.
 
@@ -99,8 +98,7 @@ Nếu bạn gửi góp ý hoặc yêu cầu hỗ trợ, Ranked chuyển tin nh�
 ## 6. Nơi xử lý dữ liệu
 
 - **PostHog** xử lý thống kê sử dụng tại Liên minh Châu Âu.
-- **RevenueCat, Inc.** có trụ sở tại Hoa Kỳ và xử lý dữ liệu mua hàng mô tả ở §3.3 tại đó.
-- **Apple** xử lý giao dịch mua và yêu cầu phân bổ Search Ads theo chính sách quyền riêng tư riêng của Apple, áp dụng cho Tài khoản Apple của bạn độc lập với ứng dụng này.
+- **RevenueCat, Inc.** có trụ sở tại Hoa Kỳ và xử lý dữ liệu mua hàng mô tả ở §3.2 tại đó.
 
 ---
 
@@ -116,7 +114,7 @@ Mọi thứ trên thiết bị vẫn ở đó cho đến khi bạn xóa ứng d�
 
 ## 8. Quyền của bạn
 
-Bạn có thể dừng gửi dữ liệu phân tích trong tương lai bất cứ lúc nào bằng cách thu hồi ATT trong Cài đặt iOS hoặc tắt “Share usage data” trong Ranked: Cài đặt ▸ Dữ liệu và quyền riêng tư. Dữ liệu đã gửi không tự động bị xóa và gói đăng ký App Store không bị hủy.
+Bạn có thể rút lại sự đồng ý phân tích bất cứ lúc nào trong Cài đặt ▸ Dữ liệu và quyền riêng tư mà không cần nêu lý do. Sự kiện mới dừng ngay, nhưng dữ liệu đã gửi không tự động bị xóa và gói đăng ký App Store không bị hủy.
 
 Bạn có thể xóa dữ liệu tập luyện trên thiết bị trong Cài đặt ▸ Dữ liệu và quyền riêng tư ▸ *Xóa dữ liệu tập luyện trên thiết bị* hoặc bằng cách xóa ứng dụng. Gói đăng ký được quản lý và hủy riêng trong Tài khoản Apple.
 

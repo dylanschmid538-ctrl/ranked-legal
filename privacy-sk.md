@@ -8,7 +8,7 @@ permalink: /privacy/sk/
 
 # Zásady ochrany osobných údajov · Calisthenics Skills – Ranked
 
-**Posledná aktualizácia: 2026-10-18**
+**Posledná aktualizácia: 2026-11-01**
 
 Tieto zásady opisujú, čo Ranked zbiera, kam to ide a čo s tým môžete urobiť.
 
@@ -22,14 +22,17 @@ Ranked prevádzkuje **Monica Dede Schmid, Fluhmattstrasse 40, 6004 Luzern, Švaj
 **Váš vek, pohlavie, výška a telesná hmotnosť nikdy neopustia vaše zariadenie.** Vzorec hodnosti ich
 používa vo vašom telefóne. Neodosielajú sa nám ani analytickej službe.
 
-Vaše zariadenie môžu opustiť tri druhy údajov:
+Vaše zariadenie môžu opustiť štyri druhy údajov:
 
-1. **Štatistiky používania**, Ranked zdieľa tieto štatistiky iba vtedy, keď povolíte štandardnú žiadosť Apple o sledovanie. Zdieľanie môžete vypnúť v aplikácii alebo odvolať povolenie v Nastaveniach iOS.
+1. **Štatistiky používania**, aby sme videli, ako sa aplikácia používa. V aplikácii ich
+   môžete kedykoľvek vypnúť.
 2. **Údaje o nákupe**, aby sa dalo overiť predplatné z App Store. Platbu spracúva Apple; vaše
    platobné údaje nikdy nevidíme.
 3. **Správy so spätnou väzbou a žiadosti o podporu**, len ak ich sami odošlete. S osobitným súhlasom môžete uviesť e-mail alebo telefón na odpoveď.
+4. **YouTube (§3.4)**
 
-Ranked vás nesleduje naprieč inými aplikáciami ani webovými stránkami. Štatistiky používania a priradenie reklamných kampaní opísané nižšie sa odosielajú iba po povolení ATT a so zapnutou možnosťou zdieľania údajov o používaní. Aplikácia nezobrazuje reklamy a nečíta údaje z Apple Zdravie.
+Ranked vás nesleduje naprieč inými aplikáciami ani webovými stránkami, nezobrazuje reklamu a
+nečíta nič z aplikácie Apple Zdravie.
 
 ---
 
@@ -49,25 +52,21 @@ podmienok Apple, nie našich.
 Odstránenie aplikácie vymaže toto všetko zo zariadenia. Obnoviť to nedokážeme, pretože sme to nikdy
 nemali.
 
+Meno, profilová aj úvodná fotka zostávajú v tomto zariadení.
+
 ---
 
 ## 3. Čo opúšťa vaše zariadenie
 
 ### 3.1 Štatistiky používania (PostHog)
 
-Pri prvom spustení iOS zobrazí štandardný systémový dialóg App Tracking Transparency (ATT). Po povolení ATT sa analytika spustí automaticky a pokračuje, kým je v Ranked zapnutá možnosť „Share usage data“. Udalosti sa odosielajú do PostHog v EÚ iba počas platného povolenia ATT a so zapnutou touto možnosťou; pri odmietnutí alebo vypnutí sa nové údaje neodosielajú. Ranked odosiela službe PostHog v EÚ udalosti o nastavení, prvotnom hodnotení, zmenách hodnosti a stupňa (vrátane zručnosti a stupňa), nákupnej obrazovke, nákupoch a otvorených obrazovkách. Udalosti živého tréningu zahŕňajú začiatok, dokončenie alebo prerušenie, uplynulé sekundy, počet zaznamenaných sérií, počet rôznych zručností a údaj o prvom dokončenom tréningu. Neobsahujú jednotlivé cviky, opakovania, záťaž ani poznámky. Vek, pohlavie, výška a hmotnosť sa neodosielajú. PostHog dostáva aj bežné technické údaje o zariadení, iOS, aplikácii a jazyku a IP adresu, z ktorej možno odvodiť približnú polohu. Náhodný identifikátor inštalácie PostHog vzniká po povolení ATT. Udalosti a údaje o priradení kampane sa spájajú s týmto identifikátorom na účely analytiky a merania účinnosti reklám. Povolenie ATT môžete odvolať v nastaveniach iOS alebo vypnúť možnosť „Share usage data“ v Ranked v Nastaveniach ▸ Údaje a súkromie; nové udalosti sa prestanú odosielať, skoršie údaje sa automaticky nevymažú.
+Analytika je predvolene vypnutá. Iba ak v Nastaveniach výslovne súhlasíte, Ranked odosiela službe PostHog v EÚ udalosti o nastavení, prvotnom hodnotení, zmenách hodnosti a stupňa (vrátane zručnosti a stupňa), nákupnej obrazovke, nákupoch a otvorených obrazovkách. Udalosti živého tréningu zahŕňajú začiatok, dokončenie alebo prerušenie, uplynulé sekundy, počet zaznamenaných sérií, počet rôznych zručností a údaj o prvom dokončenom tréningu. Neobsahujú jednotlivé cviky, opakovania, záťaž ani poznámky. Vek, pohlavie, výška a hmotnosť sa neodosielajú. PostHog dostáva aj bežné technické údaje o zariadení, iOS, aplikácii a jazyku a IP adresu, z ktorej možno odvodiť približnú polohu. Náhodný analytický identifikátor vzniká po súhlase. Súhlas môžete odvolať v Nastaveniach ▸ Údaje a súkromie; nové udalosti sa prestanú odosielať, skoršie údaje sa automaticky nevymažú.
 
 Aplikácia môže tiež hlásiť fázu predplatného, aktuálny prístup, stav obnovenia a zistenie zrušenia alebo problému s fakturáciou. Tieto pozorovania nie sú dokladom účtovania platby a odosielajú sa len pri zapnutej analytike.
 
 S vaším súhlasom udalosti používania zaznamenávajú aj výber tréningového plánu a otvorenie tréningovej relácie. Výber plánu zahŕňa iba počet tréningových dní týždenne a cvikov; otvorenie relácie zahŕňa iba to, či sa v nej pokračuje, zdroj vstupu a počet predpísaných cvikov. Úplný obsah plánov, rozvrhy, jednotlivé cviky a tréningové poznámky zostávajú na vašom zariadení.
 
-> Voliteľné: Zdieľaj používanie aplikácie, vyhodnotené zručnosti, úroveň, tréningovú aktivitu a údaje kampaní Apple Search Ads s PostHog na zlepšenie Ranked. Toto používanie spájame aj s tvojím skúšobným obdobím a predplatným pomocou náhodnej referencie nákupu. Bez mien alebo tréningových poznámok. Kedykoľvek to zmeníš v Nastaveniach.
-
-### 3.2 Priradenie Apple Search Ads
-
-Iba počas platného povolenia ATT a so zapnutou možnosťou „Share usage data“ sa Ranked raz opýta Apple AdServices na pôvod inštalácie z Apple Search Ads. Po kliknutí na reklamu možno k náhodnému identifikátoru PostHog priradiť kampaň, reklamnú skupinu, kľúčové slovo, kreatívu, krajinu alebo región, dátum kliknutia a typ stiahnutia. Reklamný identifikátor IDFA sa nepoužíva. Odvolanie povolenia ATT v nastaveniach iOS alebo vypnutie možnosti „Share usage data“ v Ranked zastaví ďalšie prenosy.
-
-### 3.3 Nákupy (Apple a RevenueCat)
+### 3.2 Nákupy (Apple a RevenueCat)
 
 Predplatné predáva a účtuje **Apple** cez App Store. Vaše platobné údaje, váš účet Apple ani vaše
 meno nikdy nevidíme.
@@ -82,9 +81,13 @@ Ranked nemá účty, ani niet čo dať.
 Keď klepnete na **Obnoviť nákupy**, aplikácia sa Apple opýta na nákupy uskutočnené účtom Apple
 prihláseným v zariadení a výsledok odovzdá RevenueCatu rovnakým spôsobom.
 
-### 3.4 Správy so spätnou väzbou a žiadosti o podporu (Cloudflare a CloudKit)
+### 3.3 Správy so spätnou väzbou a žiadosti o podporu (Cloudflare a CloudKit)
 
 Ak odošlete spätnú väzbu alebo žiadosť o podporu, Ranked odošle správu, jej kategóriu a zdroj službe Cloudflare Worker. Tá ich uloží do verejnej databázy Apple CloudKit pomocou súkromného serverového kľúča. Na odoslanie správy sa nemusíte prihlásiť do iCloudu. Cloudflare Worker používa sieťovú adresu požiadavky na technické obmedzenie zneužívania; pôvodná adresa ani jej hash sa neukladajú do záznamu spätnej väzby v CloudKite. Osobitne môžete súhlasiť s poskytnutím e-mailovej adresy alebo telefónneho čísla na odpoveď mimo aplikácie. Správy a kontaktné údaje sa neposielajú spoločnostiam PostHog ani RevenueCat a nespájajú sa s účtom v aplikácii. Správu spracúvame, aby sme odpovedali na vašu žiadosť; nepovinné kontaktné údaje na základe vášho súhlasu. Pre automatické vymazanie správ a kontaktných údajov nie je momentálne stanovená pevná lehota. O prístup k údajom alebo ich vymazanie môžete požiadať na **dylan.schmid538@gmail.com**.
+
+### 3.4 Inštruktážne videá (YouTube)
+
+Na stránkach cvičení sa najprv zobrazuje náhľadový obrázok uložený v zariadení. Až keď ťuknete na **Prehrať video**, Ranked načíta vložený prehrávač YouTube. Pri tejto požiadavke Google/YouTube získa vašu sieťovú adresu, údaje požiadavky prehliadača a prehrávača, pevné ID videa a údaj o zdroji, ktorý označuje aplikáciu Ranked. Ranked nepripája vaše meno, telesné miery, záznamy ani plán tréningu, ani identifikátory PostHog či RevenueCat. Cvičenie môžete používať aj bez načítania videa. Samostatný odkaz **Prehrať na YouTube** vás presmeruje mimo aplikácie Ranked. [Pravidlá ochrany súkromia spoločnosti Google](https://policies.google.com/privacy) opisujú spracúvanie a uchovávanie údajov spoločnosťou Google; Ranked nemôže vymazať údaje uložené službou YouTube.
 
 ---
 
@@ -92,9 +95,8 @@ Ak odošlete spätnú väzbu alebo žiadosť o podporu, Ranked odošle správu, 
 
 - **Žiadne účty.** Nikdy sa neprihlasujete. Na žiadnom serveri neexistuje váš profil.
 - **Žiadne Apple Zdravie.** Ranked z aplikácie Zdravie ani nečíta, ani do nej nezapisuje.
-- **Žiadny fotoaparát, fotky, mikrofón, poloha ani kontakty.** Aplikácia o žiadne z týchto povolení
-  nežiada.
-- **Ranked vás nesleduje naprieč inými aplikáciami či webmi.** Štatistiky používania a meranie kampaní opísané v §3 sa používajú iba pri povolení ATT a zapnutej možnosti „Share usage data“; IDFA sa nepoužíva. Aplikácia nezobrazuje reklamy a údaje sa nepredávajú ani neposkytujú dátovým sprostredkovateľom.
+- **Žiadne sledovanie naprieč aplikáciami či webmi**, žiadny reklamný identifikátor, žiadna reklama
+  v aplikácii, žiadne údaje predávané alebo odovzdávané dátovým obchodníkom.
 - **Žiadny push server.** Pripomienky, ktoré Ranked vie poslať, sa plánujú lokálne vo vašom
   telefóne; nič o nich zariadenie neopúšťa. Pred prvou vás aplikácia požiada o súhlas a kedykoľvek
   ich môžete vypnúť v nastaveniach systému iOS.
@@ -105,9 +107,8 @@ Ak odošlete spätnú väzbu alebo žiadosť o podporu, Ranked odošle správu, 
 
 | Čo | Základ |
 |---|---|
-| Nákupy a overenie predplatného (§3.3) | Plnenie zmluvy |
+| Nákupy a overenie predplatného (§3.2) | Plnenie zmluvy |
 | Štatistiky používania (§3.1) | Váš súhlas; možno ho kedykoľvek odvolať v Nastaveniach ▸ Údaje a súkromie |
-| Priradenie Search Ads (§3.2) | Váš súhlas; možno ho kedykoľvek odvolať v Nastaveniach ▸ Údaje a súkromie |
 
 **Platia tu dva právne poriadky, nie jeden.** Ranked sa prevádzkuje zo Švajčiarska, takže toto
 spracúvanie upravuje revidovaný švajčiarsky federálny zákon o ochrane údajov (**revDSG**, účinný od
@@ -120,9 +121,7 @@ majú tie isté základné práva uvedené v §8 podľa čl. 25 a nasl. revDSG.
 ## 6. Kde sa údaje spracúvajú
 
 - **PostHog** spracúva štatistiky používania v Európskej únii.
-- **RevenueCat, Inc.** sídli v Spojených štátoch a tam spracúva údaje o nákupe opísané v §3.3.
-- **Apple** spracúva samotný nákup a požiadavku na priradenie Search Ads podľa vlastných zásad
-  ochrany osobných údajov, ktoré sa na váš účet Apple vzťahujú nezávisle od tejto aplikácie.
+- **RevenueCat, Inc.** sídli v Spojených štátoch a tam spracúva údaje o nákupe opísané v §3.2.
 
 ---
 
@@ -141,7 +140,7 @@ Všetko vo vašom zariadení tam zostáva, kým aplikáciu neodstránite.
 
 ## 8. Vaše práva
 
-Ďalšie analytické údaje môžete kedykoľvek zastaviť odvolaním povolenia ATT v nastaveniach iOS alebo vypnutím možnosti „Share usage data“ v Ranked: Nastavenia ▸ Údaje a súkromie. Už odoslané údaje sa automaticky nevymažú a predplatné App Store sa nezruší.
+Súhlas s analytikou môžete kedykoľvek bez udania dôvodu odvolať v Nastaveniach ▸ Údaje a súkromie. Nové udalosti sa okamžite zastavia, ale už odoslané údaje sa automaticky nevymažú a predplatné App Store sa nezruší.
 
 Miestne tréningové údaje môžete vymazať v Nastaveniach ▸ Údaje a súkromie ▸ *Odstrániť miestne tréningové údaje* alebo odstránením aplikácie. Predplatné spravujete a rušíte samostatne vo svojom účte Apple.
 
