@@ -7,7 +7,7 @@ permalink: /privacy/no/
 
 # Personvernerklæring · Calisthenics Skills – Ranked
 
-**Sist oppdatert: 2026-11-01**
+**Sist oppdatert: 2026-11-05**
 
 Denne erklæringen beskriver hvilke opplysninger Ranked samler inn, hvor de sendes, og hva du kan gjøre med dem.
 
@@ -51,17 +51,21 @@ Navn, profilbilde og før-bilde blir på denne enheten.
 
 ### 3.1 Bruksstatistikk (PostHog)
 
-Analyse er av som standard. Først når du uttrykkelig samtykker i Innstillinger, sender Ranked hendelser til PostHog i EU om oppsett, første vurdering, endringer i rang og trinn (med ferdighet og trinn), betalingsskjerm, kjøp og åpnede skjermer. Hendelser fra direkte treningsøkter omfatter start, fullføring eller avbrudd, antall sekunder, registrerte sett, ulike ferdigheter og om dette var den første fullførte økten. De omfatter ikke enkeltøvelser, repetisjoner, vekter eller notater. Alder, kjønn, høyde og kroppsvekt sendes ikke. PostHog mottar også vanlige tekniske opplysninger om enhet, iOS, app og språk samt IP-adressen, som kan gi en omtrentlig plassering. En tilfeldig analyse-ID opprettes etter samtykke. Du kan trekke det tilbake i Innstillinger ▸ Data og personvern; nye hendelser stopper, mens tidligere sendte data ikke slettes automatisk.
+Analyse er av som standard. Først når du uttrykkelig samtykker under oppsettet eller senere i Innstillinger, sender Ranked hendelser til PostHog i EU om oppsett, første vurdering, endringer i rang og trinn (med ferdighet og trinn), betalingsskjerm, kjøp og åpnede skjermer. Hendelser fra direkte treningsøkter omfatter start, fullføring eller avbrudd, antall sekunder, registrerte sett, ulike ferdigheter og om dette var den første fullførte økten. De omfatter ikke enkeltøvelser, repetisjoner, vekter eller notater. Alder, kjønn, høyde og kroppsvekt sendes ikke. PostHog mottar også vanlige tekniske opplysninger om enhet, iOS, app og språk samt IP-adressen, som kan gi en omtrentlig plassering. En tilfeldig analyse-ID opprettes etter samtykke. Du kan trekke det tilbake i Innstillinger ▸ Data og personvern; nye hendelser stopper, mens tidligere sendte data ikke slettes automatisk.
 
 Appen kan også rapportere abonnementsfasen, gjeldende tilgang, fornyelsesstatus og om en oppsigelse eller et faktureringsproblem ble oppdaget. Disse observasjonene er ikke bevis på en belastning og sendes bare mens analyse er aktivert.
 
 Med ditt samtykke registrerer brukshendelser også når du velger en treningsplan og åpner en treningsøkt. Planvalg omfatter bare antall treningsdager per uke og øvelser; åpning av en økt omfatter bare om den gjenopptas, inngangskilden og antall foreskrevne øvelser. Hele planinnholdet, tidsplaner, individuelle øvelser og treningsnotater blir på enheten din.
 
+Etter at du frivillig har samtykket, oppretter PostHog en varig, tilfeldig identifikator for brukshendelser. Hvis du også samtykker til å knytte bruk til abonnementet, sender Ranked en stabil hashverdi utledet fra RevenueCats tilfeldige installasjonsidentifikator til PostHog. Da kan appbruk knyttes til utfallet av prøveperioden og abonnementet. Opplysningene er pseudonyme, ikke anonyme. Ranked sender ikke navn, e-postadresser, Apple-ID, kjøpskvitteringer eller treningsnotater til PostHog. Du kan trekke tilbake samtykket til bruksanalyse og til abonnementskobling hver for seg i Innstillinger ▸ Data og personvern. Tilbaketrekking stopper nye koblinger, men sletter ikke tidligere data automatisk.
+
+> Valgfritt: Del appbruk, vurderte ferdigheter, rang, treningsaktivitet med PostHog for å forbedre Ranked. Vi knytter også denne bruken til prøveperioden og abonnementet ditt med en tilfeldig kjøpsreferanse. Ingen navn eller treningsnotater. Endre dette når som helst i Innstillinger.
+
 ### 3.2 Kjøp (Apple og RevenueCat)
 
 Abonnementer selges og faktureres av **Apple** gjennom App Store. Vi ser aldri betalingsopplysningene dine, Apple-kontoen din eller navnet ditt.
 
-For å kontrollere om abonnementet ditt er aktivt bruker appen **RevenueCat**. RevenueCat mottar kjøpsoppføringen fra App Store for abonnementet ditt — hvilket produkt som ble kjøpt, når det startet og når det utløper — sammen med vanlige tekniske opplysninger, som iOS-versjon og appversjon. Tjenesten kjenner igjen installasjonen din ved hjelp av en tilfeldig identifikator som den selv oppretter og lagrer på enheten. Vi gir ikke RevenueCat navn, e-postadresse eller annen identitet, og siden Ranked ikke har kontoer, finnes det heller ingen slik identitet å gi.
+For å kontrollere om abonnementet ditt er aktivt bruker appen **RevenueCat**. RevenueCat mottar kjøpsoppføringen fra App Store for abonnementet ditt — hvilket produkt som ble kjøpt, når det startet og når det utløper — sammen med vanlige tekniske opplysninger, som iOS-versjon og appversjon. Tjenesten kjenner igjen installasjonen din ved hjelp av en tilfeldig identifikator som den selv oppretter og lagrer på enheten. Vi gir ikke RevenueCat navn, e-postadresse eller andre direkte identitetsopplysninger. Ranked har ingen appkontoer; den tilfeldige installasjonsidentifikatoren er knyttet til abonnementet.
 
 Når du trykker på **Gjenopprett kjøp**, ber appen Apple om kjøp gjort med Apple-kontoen som er logget inn på enheten og sender resultatet til RevenueCat på samme måte.
 
@@ -118,7 +122,7 @@ Du kan når som helst trekke tilbake samtykke til analyse i Innstillinger ▸ Da
 
 Du kan slette lokale treningsdata i Innstillinger ▸ Data og personvern ▸ *Slett lokale treningsdata* eller ved å slette appen. Abonnementet administreres og sies opp separat i Apple-kontoen din.
 
-For data som allerede er sendt til PostHog, skriv til **dylan.schmid538@gmail.com**. Ranked knytter ikke den tilfeldige analyse-ID-en til en konto. Omtrentlig dato eller enhetsmodell er kanskje ikke nok til å finne profilen sikkert. Vi forklarer hva vi kan identifisere og behandler verifiserbare forespørsler om innsyn, retting eller sletting. Ikke send påloggingsopplysninger for Apple-kontoen din.
+For data som allerede er sendt til PostHog, skriv til **dylan.schmid538@gmail.com**. Ranked har ingen appkonto, men med ditt samtykke kan analyse-ID-en knyttes pseudonymt til utfallet av prøveperioden og abonnementet. Omtrentlig dato eller enhetsmodell er kanskje ikke nok til å finne profilen sikkert. Vi forklarer hva vi kan identifisere og behandler verifiserbare forespørsler om innsyn, retting eller sletting. Ikke send påloggingsopplysninger for Apple-kontoen din.
 
 Du kan be om begrensning av behandlingen og klage til tilsynsmyndigheten i landet ditt; i Sveits er dette den føderale databeskyttelses- og informasjonskommissæren (FDPIC).
 

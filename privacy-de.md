@@ -8,7 +8,7 @@ permalink: /privacy/de/
 
 # Datenschutzerklärung · Calisthenics Skills – Ranked
 
-**Zuletzt aktualisiert: 2026-11-01**
+**Zuletzt aktualisiert: 2026-11-05**
 
 Diese Erklärung beschreibt, was Ranked erhebt, wohin es geht und was Sie dagegen tun können.
 
@@ -63,11 +63,15 @@ Name, Profilfoto und Vorher-Foto bleiben auf diesem Gerät.
 
 ### 3.1 Nutzungsstatistiken (PostHog)
 
-Die Analyse ist standardmäßig ausgeschaltet. Erst wenn Sie in den Einstellungen ausdrücklich zustimmen, sendet Ranked Nutzungsereignisse an PostHog in der EU: Einrichtung und Ersteinstufung, Rang- und Stufenänderungen (mit Skill und Stufe), Kaufbildschirm und Kaufvorgang sowie geöffnete Ansichten. Ereignisse zu Live-Trainings enthalten Start, Abschluss oder Abbruch, verstrichene Sekunden, Anzahl geloggter Sätze, Anzahl unterschiedlicher Skills und ob es das erste abgeschlossene Training war. Sie enthalten keine einzelnen Übungen, Wiederholungen, Gewichte oder Notizen. Alter, Geschlecht, Größe und Körpergewicht werden nicht übermittelt. PostHog erhält übliche Geräte-, iOS-, App- und Sprachangaben sowie die IP-Adresse, aus der ein ungefährer Ort abgeleitet werden kann. Eine zufällige Analysekennung entsteht erst nach Ihrer Zustimmung. Sie können diese unter Einstellungen ▸ Daten & Datenschutz widerrufen; danach werden keine neuen Ereignisse gesendet. Bereits gesendete Daten werden dadurch nicht automatisch gelöscht.
+Die Analyse ist standardmäßig ausgeschaltet. Erst wenn Sie während der Einrichtung oder später in den Einstellungen ausdrücklich zustimmen, sendet Ranked Nutzungsereignisse an PostHog in der EU: Einrichtung und Ersteinstufung, Rang- und Stufenänderungen (mit Skill und Stufe), Kaufbildschirm und Kaufvorgang sowie geöffnete Ansichten. Ereignisse zu Live-Trainings enthalten Start, Abschluss oder Abbruch, verstrichene Sekunden, Anzahl geloggter Sätze, Anzahl unterschiedlicher Skills und ob es das erste abgeschlossene Training war. Sie enthalten keine einzelnen Übungen, Wiederholungen, Gewichte oder Notizen. Alter, Geschlecht, Größe und Körpergewicht werden nicht übermittelt. PostHog erhält übliche Geräte-, iOS-, App- und Sprachangaben sowie die IP-Adresse, aus der ein ungefährer Ort abgeleitet werden kann. Eine zufällige Analysekennung entsteht erst nach Ihrer Zustimmung. Sie können diese unter Einstellungen ▸ Daten & Datenschutz widerrufen; danach werden keine neuen Ereignisse gesendet. Bereits gesendete Daten werden dadurch nicht automatisch gelöscht.
 
 Die App kann außerdem die Abonnementphase, den aktuellen Zugriff, den Verlängerungsstatus sowie die Feststellung einer Kündigung oder eines Abrechnungsproblems melden. Diese Beobachtungen sind kein Nachweis einer Belastung und werden nur gesendet, solange die Analyse eingeschaltet ist.
 
 Mit Ihrer Einwilligung erfassen Nutzungsereignisse auch, wann Sie einen Trainingsplan auswählen und wann Sie eine Trainingseinheit öffnen. Die Planauswahl umfasst nur die Anzahl der Trainingstage pro Woche und der Übungen; das Öffnen einer Einheit umfasst nur, ob sie fortgesetzt wird, den Einstiegsweg und die Anzahl der vorgegebenen Übungen. Vollständige Planinhalte, Zeitpläne, einzelne Übungen und Trainingsnotizen bleiben auf Ihrem Gerät.
+
+Nach Ihrer freiwilligen Einwilligung in die Nutzungsanalyse erstellt PostHog auf Ihrem Gerät eine dauerhafte, zufällige Kennung, unter der Nutzungsereignisse zusammengefasst werden. Wenn Sie zusätzlich der Verknüpfung mit Probezeit und Abonnement zustimmen, sendet Ranked einen stabilen, gehashten Wert aus der zufälligen Installationskennung von RevenueCat an PostHog. So lassen sich App-Nutzung und das Ergebnis der Probezeit oder des Abonnements verbinden. Die Daten sind pseudonym, nicht anonym: Ereignisse können weiterhin derselben Person zugeordnet werden. Namen, E-Mail-Adressen, Apple-Accounts, Kaufbelege und Trainingsnotizen werden nicht an PostHog gesendet. Sie können die Einwilligungen zur Nutzungsanalyse und zur Abo-Verknüpfung später unter Einstellungen ▸ Daten & Datenschutz getrennt widerrufen. Der Widerruf der Analyse stoppt neue Ereignisse, der Widerruf der Verknüpfung stoppt neue Verknüpfungen. Bereits gesendete Daten werden nicht automatisch gelöscht.
+
+> Freiwillig: Teile App-Nutzung, bewertete Skills, Rang und Trainingsaktivität mit PostHog, um Ranked zu verbessern. Wir verknüpfen diese Nutzung außerdem über eine zufällige Kaufreferenz mit deiner Testphase und deinem Abonnement. Keine Namen oder Trainingsnotizen. Jederzeit in den Einstellungen änderbar.
 
 ### 3.2 Käufe (Apple und RevenueCat)
 
@@ -97,7 +101,7 @@ Auf Übungsseiten erscheint zunächst ein lokal gespeichertes Vorschaubild. Erst
 
 ## 4. Was Ranked nicht tut
 
-- **Keine Konten.** Sie melden sich nie an. Es gibt kein Profil von Ihnen auf irgendeinem Server.
+- **Keine App-Konten.** Sie melden sich bei Ranked nicht an. Mit Ihrer Einwilligung kann PostHog jedoch pseudonyme Nutzungsereignisse wie in §3.1 beschrieben zusammenfassen.
 - **Kein Apple Health.** Ranked liest weder aus der Health-App noch schreibt es dorthin.
 - **Kein Tracking über Apps oder Websites hinweg**, kein Werbe-Identifier, keine Werbung in der
   App, keine Daten, die an Datenhändler verkauft oder weitergegeben werden.
@@ -146,11 +150,11 @@ Alles auf Ihrem Gerät bleibt dort, bis Sie die App löschen.
 
 ## 8. Ihre Rechte
 
-Sie können Ihre Einwilligung zur Analyse unter Einstellungen ▸ Daten & Datenschutz jederzeit ohne Begründung widerrufen. Das stoppt neue Ereignisse sofort, löscht aber nicht automatisch bereits gesendete Daten und beendet kein App-Store-Abonnement.
+Sie können Ihre Einwilligungen zur Nutzungsanalyse und zur Abo-Verknüpfung unter Einstellungen ▸ Daten & Datenschutz jederzeit getrennt und ohne Begründung widerrufen. Der Widerruf der Analyse stoppt neue Ereignisse sofort, der Widerruf der Verknüpfung stoppt neue Verknüpfungen. Bereits gesendete Daten werden nicht automatisch gelöscht und Ihr App-Store-Abonnement wird nicht beendet.
 
 Ihre lokalen Trainingsdaten können Sie unter Einstellungen ▸ Daten & Datenschutz ▸ *Lokale Trainingsdaten löschen* oder durch Löschen der App entfernen. Das Abonnement verwalten und kündigen Sie getrennt in Ihrem Apple-Account.
 
-Für Daten, die bereits an PostHog gesendet wurden, schreiben Sie an **dylan.schmid538@gmail.com**. Ranked verknüpft die zufällige Analysekennung nicht mit einem Konto. Ein ungefähres Nutzungsdatum oder Gerätemodell allein reicht möglicherweise nicht aus, um Ihr Profil zuverlässig zu finden. Wir erklären, welche Daten wir zuordnen können, und bearbeiten überprüfbare Anträge auf Auskunft, Berichtigung oder Löschung. Bitte senden Sie keine Zugangsdaten Ihres Apple-Accounts.
+Für Daten, die bereits an PostHog gesendet wurden, schreiben Sie an **dylan.schmid538@gmail.com**. Ranked hat keine App-Nutzerkonten. Der in §3.1 beschriebene gehashte Wert kann jedoch Nutzungsereignisse mit Abo-Ergebnissen verknüpfen. Ein ungefähres Nutzungsdatum oder Gerätemodell allein reicht möglicherweise nicht aus, um Ihr Profil zuverlässig zu finden. Wir erklären, welche Daten wir zuordnen können, und bearbeiten überprüfbare Anträge auf Auskunft, Berichtigung oder Löschung. Bitte senden Sie keine Zugangsdaten Ihres Apple-Accounts.
 
 Sie können eine Einschränkung der Bearbeitung verlangen und sich bei einer Aufsichtsbehörde beschweren; in der Schweiz ist dies der Eidgenössische Datenschutz- und Öffentlichkeitsbeauftragte (EDÖB).
 

@@ -7,7 +7,7 @@ permalink: /privacy/hr/
 
 # Pravila o privatnosti · Calisthenics Skills – Ranked
 
-**Posljednje ažuriranje: 2026-11-01**
+**Posljednje ažuriranje: 2026-11-05**
 
 Ova pravila opisuju koje podatke Ranked prikuplja, kamo odlaze i što možete učiniti u vezi s njima.
 
@@ -51,11 +51,15 @@ Ime, profilna fotografija i fotografija prije početka ostaju na ovom uređaju.
 
 ### 3.1 Statistika korištenja (PostHog)
 
-Analitika je zadano isključena. Tek kada izričito pristanete u Postavkama, Ranked šalje PostHogu u EU događaje o postavljanju, početnoj procjeni, promjenama ranga i stupnja (s vještinom i stupnjem), zaslonu za kupnju, kupnjama i otvorenim zaslonima. Događaji treninga uživo uključuju početak, završetak ili prekid, protekle sekunde, broj zabilježenih serija, broj različitih vještina te je li to bio prvi završeni trening. Ne uključuju pojedinačne vježbe, ponavljanja, utege ni bilješke. Dob, spol, visina i tjelesna težina ne šalju se. PostHog prima i uobičajene tehničke podatke o uređaju, iOS-u, aplikaciji i jeziku te IP adresu iz koje se može izvesti približna lokacija. Nasumični analitički identifikator nastaje nakon pristanka. Pristanak možete povući u Postavkama ▸ Podaci i privatnost; novi događaji prestaju, ali prethodno poslani podaci ne brišu se automatski.
+Analitika je zadano isključena. Tek kada izričito pristanete tijekom početnog postavljanja ili poslije u Postavkama, Ranked šalje PostHogu u EU događaje o postavljanju, početnoj procjeni, promjenama ranga i stupnja (s vještinom i stupnjem), zaslonu za kupnju, kupnjama i otvorenim zaslonima. Događaji treninga uživo uključuju početak, završetak ili prekid, protekle sekunde, broj zabilježenih serija, broj različitih vještina te je li to bio prvi završeni trening. Ne uključuju pojedinačne vježbe, ponavljanja, utege ni bilješke. Dob, spol, visina i tjelesna težina ne šalju se. PostHog prima i uobičajene tehničke podatke o uređaju, iOS-u, aplikaciji i jeziku te IP adresu iz koje se može izvesti približna lokacija. Nasumični analitički identifikator nastaje nakon pristanka. Pristanak možete povući u Postavkama ▸ Podaci i privatnost; novi događaji prestaju, ali prethodno poslani podaci ne brišu se automatski.
 
 Aplikacija također može izvještavati o fazi pretplate, trenutačnom pristupu, statusu obnove te je li otkriven otkaz ili problem s naplatom. Ta opažanja nisu dokaz terećenja i šalju se samo dok je analitika uključena.
 
 Uz vašu privolu događaji upotrebe bilježe i kada odaberete plan treninga i kada otvorite trening. Odabir plana uključuje samo broj dana treninga tjedno i vježbi; otvaranje treninga uključuje samo nastavlja li se, izvor ulaska i broj propisanih vježbi. Potpuni sadržaj planova, rasporedi, pojedinačne vježbe i bilješke treninga ostaju na vašem uređaju.
+
+Nakon vašeg dobrovoljnog pristanka na dijeljenje podataka o upotrebi, PostHog na uređaju stvara trajni nasumični identifikator za grupiranje događaja upotrebe. Ako dodatno pristanete na povezivanje upotrebe s probnim razdobljem i pretplatom, Ranked šalje PostHogu stabilnu vrijednost dobivenu kriptografskim sažimanjem nasumičnog instalacijskog identifikatora usluge RevenueCat. To omogućuje povezivanje upotrebe aplikacije s ishodom probnog razdoblja ili pretplate. Podaci su pseudonimni, a ne anonimni: događaji se i dalje mogu odnositi na istu osobu. PostHogu se ne šalju imena, adrese e-pošte, Apple računi, potvrde o kupnji ni bilješke treninga. Pristanak na analizu upotrebe i na povezivanje s pretplatom možete kasnije povući zasebno u Postavkama ▸ Podaci i privatnost. Povlačenje prvoga zaustavlja nove događaje, a drugoga nova povezivanja. Ranije poslani podaci ne brišu se automatski.
+
+> Neobavezno: Podijeli upotrebu aplikacije, procijenjene vještine, rang, aktivnost treninga s uslugom PostHog radi poboljšanja aplikacije Ranked. Tu upotrebu povezujemo i s tvojim probnim razdobljem i pretplatom putem nasumične reference kupnje. Bez imena ili bilježaka treninga. Promijeni to bilo kada u Postavkama.
 
 ### 3.2 Kupnje (Apple i RevenueCat)
 
@@ -78,7 +82,7 @@ Stranice vježbi prikazuju sliku za pregled spremljenu na uređaju. Ranked učit
 
 ## 4. Što Ranked ne radi
 
-- **Nema računa.** Nikad se ne prijavljujete. Na poslužitelju ne postoji vaš profil.
+- **Nema računa u aplikaciji.** Ne prijavljujete se u Ranked. Uz vaš pristanak PostHog ipak može grupirati pseudonimne događaje upotrebe kako je opisano u §3.1.
 - **Nema Apple Healtha.** Ranked ne čita iz aplikacije Health niti piše u nju.
 - **Nema praćenja između aplikacija ili web-mjesta**, oglašivačke oznake, oglasa u aplikaciji ni prodaje ili predaje podataka posrednicima u trgovini podacima.
 - **Nema poslužitelja za push obavijesti.** Podsjetnici se zakazuju lokalno na telefonu; ništa o njima ne napušta uređaj. Pitanje dopuštenja postavlja se prije prvog, a možete ih bilo kada isključiti u postavkama iOS-a.
@@ -115,11 +119,11 @@ Sve na vašem uređaju ostaje ondje dok ne izbrišete aplikaciju.
 
 ## 8. Vaša prava
 
-Pristanak na analitiku možete u bilo kojem trenutku povući u Postavkama ▸ Podaci i privatnost bez objašnjenja. Novi događaji odmah prestaju, ali prethodno poslani podaci ne brišu se automatski i pretplata na App Store ne otkazuje se.
+Pristanak na analizu upotrebe i na povezivanje s pretplatom možete u bilo kojem trenutku povući zasebno u Postavkama ▸ Podaci i privatnost bez objašnjenja. Povlačenje prvoga odmah zaustavlja nove događaje, a drugoga nova povezivanja. Ranije poslani podaci ne brišu se automatski i pretplata na App Store ne otkazuje se.
 
 Lokalne podatke o treningu možete izbrisati u Postavkama ▸ Podaci i privatnost ▸ *Izbriši lokalne podatke treninga* ili brisanjem aplikacije. Pretplatom zasebno upravljate i otkazujete je na svom Apple računu.
 
-Za podatke već poslane PostHogu pišite na **dylan.schmid538@gmail.com**. Ranked ne povezuje nasumični analitički identifikator s računom. Približan datum ili model uređaja možda nisu dovoljni za pouzdano pronalaženje profila. Objasnit ćemo što možemo identificirati i obraditi provjerljive zahtjeve za pristup, ispravak ili brisanje. Ne šaljite podatke za prijavu na Apple račun.
+Za podatke već poslane PostHogu pišite na **dylan.schmid538@gmail.com**. Ranked nema korisničke račune u aplikaciji, ali kriptografski sažeta referenca opisana u §3.1 može povezati događaje upotrebe s ishodima pretplate. Približan datum ili model uređaja možda nisu dovoljni za pouzdano pronalaženje profila. Objasnit ćemo što možemo identificirati i obraditi provjerljive zahtjeve za pristup, ispravak ili brisanje. Ne šaljite podatke za prijavu na Apple račun.
 
 Možete zatražiti ograničenje obrade i podnijeti pritužbu nadzornom tijelu svoje zemlje; u Švicarskoj je to savezni povjerenik za zaštitu podataka i informiranje (FDPIC).
 

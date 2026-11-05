@@ -7,7 +7,7 @@ permalink: /privacy/ro/
 
 # Politica de confidențialitate · Calisthenics Skills – Ranked
 
-**Ultima actualizare: 2026-11-01**
+**Ultima actualizare: 2026-11-05**
 
 Această politică descrie ce date colectează Ranked, unde ajung și ce puteți face în privința lor.
 
@@ -51,11 +51,15 @@ Numele, fotografia de profil și fotografia „înainte” rămân pe acest disp
 
 ### 3.1 Statistici de utilizare (PostHog)
 
-Analiza este dezactivată implicit. Numai dacă vă dați acordul explicit în Setări, Ranked trimite către PostHog în UE evenimente privind configurarea, evaluarea inițială, schimbările de rang și etapă (cu abilitatea și etapa), ecranul de cumpărare, achizițiile și ecranele deschise. Evenimentele antrenamentelor în timp real includ începutul, finalizarea sau abandonarea, secundele scurse, numărul de seturi înregistrate, numărul de abilități diferite și dacă a fost primul antrenament finalizat. Nu includ exerciții individuale, repetări, greutăți sau note. Vârsta, sexul, înălțimea și greutatea corporală nu sunt transmise. PostHog primește și informații tehnice obișnuite despre dispozitiv, iOS, aplicație și limbă, precum și adresa IP, din care se poate deduce o locație aproximativă. Un identificator aleatoriu este creat după consimțământ. Îl puteți retrage în Setări ▸ Date și confidențialitate; noile evenimente se opresc, dar datele deja trimise nu sunt șterse automat.
+Analiza este dezactivată implicit. Numai dacă vă dați acordul explicit la configurare sau ulterior în Setări, Ranked trimite către PostHog în UE evenimente privind configurarea, evaluarea inițială, schimbările de rang și etapă (cu abilitatea și etapa), ecranul de cumpărare, achizițiile și ecranele deschise. Evenimentele antrenamentelor în timp real includ începutul, finalizarea sau abandonarea, secundele scurse, numărul de seturi înregistrate, numărul de abilități diferite și dacă a fost primul antrenament finalizat. Nu includ exerciții individuale, repetări, greutăți sau note. Vârsta, sexul, înălțimea și greutatea corporală nu sunt transmise. PostHog primește și informații tehnice obișnuite despre dispozitiv, iOS, aplicație și limbă, precum și adresa IP, din care se poate deduce o locație aproximativă. Un identificator aleatoriu este creat după consimțământ. Îl puteți retrage în Setări ▸ Date și confidențialitate; noile evenimente se opresc, dar datele deja trimise nu sunt șterse automat.
 
 Aplicația poate raporta și faza abonamentului, accesul curent, starea reînnoirii și dacă a fost detectată o anulare sau o problemă de facturare. Aceste observații nu constituie dovada unei debitări și sunt trimise doar cât timp analiza este activată.
 
 Cu consimțământul dumneavoastră, evenimentele de utilizare înregistrează și când selectați un plan de antrenament și când deschideți o sesiune de antrenament. Selectarea planului include doar numărul de zile de antrenament pe săptămână și de exerciții; deschiderea sesiunii include doar dacă este reluată, sursa de acces și numărul de exerciții prescrise. Conținutul complet al planurilor, programele, exercițiile individuale și notițele de antrenament rămân pe dispozitivul dumneavoastră.
+
+> Opțional: Partajează utilizarea aplicației, abilitățile evaluate, rangul, activitatea de antrenament cu PostHog pentru a îmbunătăți Ranked. Asociem această utilizare și cu perioada ta de probă și abonamentul tău printr-o referință de achiziție aleatorie. Fără nume sau notițe de antrenament. Poți schimba oricând în Configurări.
+
+După consimțământul dvs. voluntar pentru analiză, PostHog creează un identificator aleatoriu persistent pentru a grupa evenimentele de utilizare. Dacă sunteți de acord și cu asocierea utilizării cu abonamentul, Ranked trimite către PostHog o valoare stabilă, obținută prin funcția hash din identificatorul aleatoriu al instalării generat de RevenueCat, pentru a corela folosirea aplicației cu rezultatul perioadei de probă sau al abonamentului. Datele sunt pseudonime, nu anonime: evenimentele pot fi asociate în continuare aceleiași persoane. Nu sunt transmise nume, adrese de e-mail, ID-uri Apple, chitanțe sau notițe de antrenament. Puteți retrage separat consimțământul pentru analiza utilizării și pe cel pentru asocierea cu abonamentul în Setări ▸ Date și confidențialitate. Retragerea oprește asocierile noi, dar nu șterge automat datele anterioare.
 
 ### 3.2 Cumpărături (Apple și RevenueCat)
 
@@ -77,7 +81,7 @@ Paginile exercițiilor afișează mai întâi o imagine de previzualizare stocat
 
 ## 4. Ce nu face Ranked
 
-- **Fără conturi.** Nu vă conectați niciodată. Nu există un profil despre dvs. pe vreun server.
+- **Fără conturi în aplicație.** Nu vă conectați la Ranked. După consimțământul dvs., PostHog poate grupa evenimentele de utilizare sub un identificator pseudonim (§3.1).
 - **Fără Apple Health.** Ranked nu citește și nu scrie în aplicația Health.
 - **Fără urmărire între aplicații sau site-uri**, identificator publicitar, reclame în aplicație ori date vândute sau transmise brokerilor de date.
 - **Fără server de notificări push.** Mementourile sunt programate local pe telefon; nimic despre ele nu părăsește dispozitivul. Vi se cere permisiunea înainte de primul memento și le puteți dezactiva oricând în configurările iOS.

@@ -7,7 +7,7 @@ permalink: /privacy/fi/
 
 # Tietosuojaseloste · Calisthenics Skills – Ranked
 
-**Päivitetty viimeksi: 2026-11-01**
+**Päivitetty viimeksi: 2026-11-05**
 
 Tässä selosteessa kerrotaan, mitä tietoja Ranked kerää, minne ne siirtyvät ja mitä voit tehdä asialle.
 
@@ -51,11 +51,15 @@ Nimi, profiilikuva ja ennen-kuva säilyvät tällä laitteella.
 
 ### 3.1 Käyttötilastot (PostHog)
 
-Analytiikka on oletusarvoisesti pois käytöstä. Vain jos annat siihen nimenomaisen suostumuksen asetuksissa, Ranked lähettää EU:ssa toimivalle PostHogille tapahtumia käyttöönotosta, alkuarviosta, tason ja vaiheen muutoksista (taito ja vaihe mukana), maksunäkymästä, ostoista ja avatuista näkymistä. Reaaliaikaisen harjoituksen tapahtumissa ovat aloitus, valmistuminen tai keskeytys, kuluneet sekunnit, kirjattujen sarjojen määrä, eri taitojen määrä ja tieto ensimmäisestä valmiista harjoituksesta. Niissä ei ole yksittäisiä liikkeitä, toistoja, painoja tai muistiinpanoja. Ikää, sukupuolta, pituutta ja painoa ei lähetetä. PostHog saa myös tavanomaiset laite-, iOS-, sovellus- ja kielitiedot sekä IP-osoitteen, josta voi päätellä likimääräisen sijainnin. Satunnainen analytiikkatunnus luodaan vasta suostumuksen jälkeen. Voit peruuttaa suostumuksen kohdassa Asetukset ▸ Tiedot ja tietosuoja; uudet tapahtumat loppuvat, mutta aiemmin lähetettyjä tietoja ei poisteta automaattisesti.
+Analytiikka on oletusarvoisesti pois käytöstä. Vain jos annat siihen nimenomaisen suostumuksen käyttöönotossa tai myöhemmin asetuksissa, Ranked lähettää EU:ssa toimivalle PostHogille tapahtumia käyttöönotosta, alkuarviosta, tason ja vaiheen muutoksista (taito ja vaihe mukana), maksunäkymästä, ostoista ja avatuista näkymistä. Reaaliaikaisen harjoituksen tapahtumissa ovat aloitus, valmistuminen tai keskeytys, kuluneet sekunnit, kirjattujen sarjojen määrä, eri taitojen määrä ja tieto ensimmäisestä valmiista harjoituksesta. Niissä ei ole yksittäisiä liikkeitä, toistoja, painoja tai muistiinpanoja. Ikää, sukupuolta, pituutta ja painoa ei lähetetä. PostHog saa myös tavanomaiset laite-, iOS-, sovellus- ja kielitiedot sekä IP-osoitteen, josta voi päätellä likimääräisen sijainnin. Satunnainen analytiikkatunnus luodaan vasta suostumuksen jälkeen. Voit peruuttaa suostumuksen kohdassa Asetukset ▸ Tiedot ja tietosuoja; uudet tapahtumat loppuvat, mutta aiemmin lähetettyjä tietoja ei poisteta automaattisesti.
 
 Sovellus voi myös ilmoittaa tilauksen vaiheen, nykyisen käyttöoikeuden, uusimisen tilan sekä sen, havaittiinko peruutus tai laskutusongelma. Nämä havainnot eivät ole todiste veloituksesta, ja ne lähetetään vain, kun analytiikka on käytössä.
 
 Suostumuksellasi käyttötapahtumat tallentavat myös, milloin valitset harjoitussuunnitelman ja milloin avaat harjoituskerran. Suunnitelman valinta sisältää vain harjoituspäivien määrän viikossa ja harjoitteiden määrän; harjoituskerran avaaminen sisältää vain sen, jatketaanko sitä, avaamisen lähteen ja määrättyjen harjoitteiden määrän. Suunnitelmien koko sisältö, aikataulut, yksittäiset harjoitteet ja harjoitusmuistiinpanot pysyvät laitteellasi.
+
+Kun olet vapaaehtoisesti suostunut käyttötietojen jakamiseen, PostHog luo laitteellesi pysyvän satunnaisen tunnisteen käyttötapahtumien ryhmittelyä varten. Jos suostut lisäksi yhdistämään käytön kokeilujaksoosi ja tilaukseesi, Ranked lähettää PostHogille vakaan, RevenueCatin satunnaisesta asennustunnisteesta kryptografisella tiivistefunktiolla johdetun arvon. Sen avulla sovelluksen käyttö voidaan yhdistää kokeilujakson tai tilauksen lopputulokseen. Tiedot ovat pseudonyymejä eivätkä anonyymejä: tapahtumat voivat edelleen koskea samaa henkilöä. PostHogille ei lähetetä nimiä, sähköpostiosoitteita, Apple-tilejä, ostokuitteja eikä harjoitusmuistiinpanoja. Voit myöhemmin peruuttaa erikseen käyttöanalytiikkaa ja tilaukseen yhdistämistä koskevat suostumukset kohdassa Asetukset ▸ Tiedot ja tietosuoja. Ensin mainitun peruuttaminen lopettaa uudet tapahtumat, jälkimmäisen uudet yhdistämiset. Aiemmin lähetettyjä tietoja ei poisteta automaattisesti.
+
+> Valinnainen: Jaa sovelluksen käyttö, arvioidut taidot, sijoitus ja harjoittelutoiminta PostHogille Ranked-sovelluksen parantamiseksi. Yhdistämme tämän käytön myös kokeilujaksoosi ja tilaukseesi satunnaisella ostoviitteellä. Ei nimiä tai harjoitusmuistiinpanoja. Voit muuttaa tätä milloin tahansa Asetuksissa.
 
 ### 3.2 Ostot (Apple ja RevenueCat)
 
@@ -78,7 +82,7 @@ Harjoitussivuilla näkyy laitteeseen tallennettu esikatselukuva. Ranked lataa up
 
 ## 4. Mitä Ranked ei tee
 
-- **Ei tilejä.** Et koskaan kirjaudu sisään. Sinusta ei ole profiilia millään palvelimella.
+- **Ei sovellustilejä.** Rankediin ei kirjauduta. Suostumuksellasi PostHog voi kuitenkin ryhmitellä pseudonyymejä käyttötapahtumia §3.1:n mukaisesti.
 - **Ei Apple Healthia.** Ranked ei lue Terveys-sovelluksen tietoja eikä kirjoita sinne.
 - **Ei seurantaa sovellusten tai verkkosivustojen välillä**, ei mainostunnistetta, sovelluksen sisäisiä mainoksia eikä tietojen myyntiä tai antamista tietovälittäjille.
 - **Ei push-palvelinta.** Muistutukset ajastetaan paikallisesti puhelimellasi; niihin liittyviä tietoja ei siirretä laitteelta. Sinulta kysytään lupaa ennen ensimmäisen muistutuksen ajastamista, ja voit poistaa ne käytöstä iOS-asetuksissa milloin tahansa.
@@ -115,11 +119,11 @@ Laitteesi tiedot pysyvät siellä, kunnes poistat sovelluksen.
 
 ## 8. Oikeutesi
 
-Voit peruuttaa analytiikkasuostumuksesi milloin tahansa kohdassa Asetukset ▸ Tiedot ja tietosuoja ilman perustelua. Uusien tapahtumien lähetys päättyy heti, mutta jo lähetettyjä tietoja ei poisteta automaattisesti eikä App Store -tilaustasi peruuteta.
+Voit peruuttaa käyttöanalytiikkaa ja tilaukseen yhdistämistä koskevat suostumukset erikseen milloin tahansa kohdassa Asetukset ▸ Tiedot ja tietosuoja ilman perustelua. Ensin mainitun peruuttaminen lopettaa uusien tapahtumien lähetyksen heti, jälkimmäisen uudet yhdistämiset. Jo lähetettyjä tietoja ei poisteta automaattisesti eikä App Store -tilaustasi peruuteta.
 
 Voit poistaa paikalliset harjoitustiedot kohdassa Asetukset ▸ Tiedot ja tietosuoja ▸ *Poista paikalliset harjoitustiedot* tai poistamalla sovelluksen. Tilaus hallinnoidaan ja perutaan erikseen Apple-tililläsi.
 
-Jos asia koskee PostHogille jo lähetettyjä tietoja, kirjoita osoitteeseen **dylan.schmid538@gmail.com**. Ranked ei yhdistä satunnaista analytiikkatunnusta käyttäjätiliin. Likimääräinen päivämäärä tai laitemalli ei välttämättä riitä löytämään profiilia luotettavasti. Kerromme, mitä tietoja voimme tunnistaa, ja käsittelemme todennettavat tarkastus-, oikaisu- ja poistopyynnöt. Älä lähetä Apple-tilisi tunnuksia.
+Jos asia koskee PostHogille jo lähetettyjä tietoja, kirjoita osoitteeseen **dylan.schmid538@gmail.com**. Rankedissa ei ole sovelluksen käyttäjätilejä, mutta §3.1:ssä kuvattu kryptografisesti tiivistetty viite voi yhdistää käyttötapahtumia tilauksen lopputuloksiin. Likimääräinen päivämäärä tai laitemalli ei välttämättä riitä löytämään profiilia luotettavasti. Kerromme, mitä tietoja voimme tunnistaa, ja käsittelemme todennettavat tarkastus-, oikaisu- ja poistopyynnöt. Älä lähetä Apple-tilisi tunnuksia.
 
 Voit pyytää käsittelyn rajoittamista ja tehdä valituksen maasi valvontaviranomaiselle; Sveitsissä se on liittovaltion tietosuoja- ja avoimuusvaltuutettu (FDPIC).
 

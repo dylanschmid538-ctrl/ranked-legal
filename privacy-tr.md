@@ -7,7 +7,7 @@ permalink: /privacy/tr/
 
 # Gizlilik Politikası · Calisthenics Skills – Ranked
 
-**Son güncelleme: 2026-11-01**
+**Son güncelleme: 2026-11-05**
 
 Bu politika, Ranked'in hangi verileri topladığını, bunların nereye gittiğini ve bu konuda neler yapabileceğinizi açıklar.
 
@@ -51,11 +51,15 @@ Adın, profil fotoğrafın ve başlangıç fotoğrafın bu cihazda kalır.
 
 ### 3.1 Kullanım istatistikleri (PostHog)
 
-Analiz varsayılan olarak kapalıdır. Yalnızca Ayarlar'da açıkça onay verirseniz Ranked, AB'de barındırılan PostHog'a kurulum, ilk değerlendirme, rütbe ve aşama değişiklikleri (beceri ve aşama dâhil), satın alma ekranı, satın almalar ve açılan ekranlar hakkında olay gönderir. Canlı antrenman olayları başlangıcı, tamamlanmayı veya yarıda bırakmayı; geçen saniyeleri, kaydedilen set ve farklı beceri sayılarını ve bunun ilk tamamlanan antrenman olup olmadığını içerir. Tek tek egzersizleri, tekrarları, ağırlıkları veya notları içermez. Yaş, cinsiyet, boy ve vücut ağırlığı gönderilmez. PostHog ayrıca cihaz, iOS, uygulama ve dile ilişkin olağan teknik bilgileri ve yaklaşık konum çıkarılabilecek IP adresini alır. Rastgele analiz kimliği onayınızdan sonra oluşturulur. Onayı Ayarlar ▸ Veriler ve gizlilik'ten geri alabilirsiniz; yeni olaylar durur, önceden gönderilen veriler otomatik olarak silinmez.
+Analiz varsayılan olarak kapalıdır. Yalnızca kurulum sırasında veya daha sonra Ayarlar'da açıkça onay verirseniz Ranked, AB'de barındırılan PostHog'a kurulum, ilk değerlendirme, rütbe ve aşama değişiklikleri (beceri ve aşama dâhil), satın alma ekranı, satın almalar ve açılan ekranlar hakkında olay gönderir. Canlı antrenman olayları başlangıcı, tamamlanmayı veya yarıda bırakmayı; geçen saniyeleri, kaydedilen set ve farklı beceri sayılarını ve bunun ilk tamamlanan antrenman olup olmadığını içerir. Tek tek egzersizleri, tekrarları, ağırlıkları veya notları içermez. Yaş, cinsiyet, boy ve vücut ağırlığı gönderilmez. PostHog ayrıca cihaz, iOS, uygulama ve dile ilişkin olağan teknik bilgileri ve yaklaşık konum çıkarılabilecek IP adresini alır. Rastgele analiz kimliği onayınızdan sonra oluşturulur. Onayı Ayarlar ▸ Veriler ve gizlilik'ten geri alabilirsiniz; yeni olaylar durur, önceden gönderilen veriler otomatik olarak silinmez.
 
 Uygulama abonelik aşamasını, mevcut erişimi, yenileme durumunu ve iptal ya da faturalandırma sorunu tespit edilip edilmediğini de bildirebilir. Bu gözlemler bir ücret tahsilatının kanıtı değildir ve yalnızca analiz etkin olduğunda gönderilir.
 
 Onayınızla kullanım olayları, bir antrenman planı seçtiğinizde ve bir antrenman oturumu açtığınızda da kayıt tutar. Plan seçimi yalnızca haftalık antrenman günü sayısını ve egzersiz sayısını içerir; oturumun açılması yalnızca devam ettirilip ettirilmediğini, giriş kaynağını ve belirlenen egzersiz sayısını içerir. Planların tam içeriği, programlar, tek tek egzersizler ve antrenman notları cihazınızda kalır.
+
+> İsteğe bağlı: Ranked uygulamasını geliştirmek için uygulama kullanımını, değerlendirilen becerileri, sıralamayı, antrenman etkinliğini PostHog ile paylaş. Bu kullanımı rastgele bir satın alma referansı ile deneme süren ve aboneliğinle de ilişkilendiriyoruz. İsim veya antrenman notu içermez. Ayarlar’dan istediğin zaman değiştir.
+
+Kullanım analizine gönüllü olarak onay verdikten sonra PostHog, kullanım olaylarını gruplamak için kalıcı ve rastgele bir tanımlayıcı oluşturur. Kullanımın abonelikle ilişkilendirilmesine de onay verirseniz Ranked, RevenueCat'in oluşturduğu rastgele kurulum tanımlayıcısından türetilmiş sabit bir karma değeri PostHog'a gönderir. Böylece uygulama kullanımı deneme süresinin veya aboneliğin sonucuyla ilişkilendirilebilir. Bu veriler anonim değil, takma adlıdır: olaylar yine aynı kişiyle ilgili olabilir. Adlar, e-posta adresleri, Apple Kimliği, makbuzlar veya antrenman notları gönderilmez. Kullanım analizi onayını ve abonelikle ilişkilendirme onayını Ayarlar ▸ Veriler ve gizlilik bölümünde birbirinden bağımsız olarak geri çekebilirsiniz. Geri çekme yeni ilişkilendirmeleri durdurur, ancak önceki verileri otomatik olarak silmez.
 
 ### 3.2 Satın almalar (Apple ve RevenueCat)
 
@@ -77,7 +81,7 @@ Egzersiz sayfalarında önce cihazda saklanan bir önizleme görseli gösterilir
 
 ## 4. Ranked'in yapmadıkları
 
-- **Hesap yok.** Oturum açmazsınız. Herhangi bir sunucuda size ait profil bulunmaz.
+- **Uygulama hesabı yok.** Ranked'e giriş yapmazsınız. Onayınızdan sonra PostHog kullanım olaylarını takma adlı bir tanımlayıcı altında gruplayabilir (§3.1).
 - **Apple Health yok.** Ranked, Sağlık uygulamasından veri okumaz veya oraya yazmaz.
 - **Uygulamalar veya web siteleri arasında takip**, reklam tanımlayıcısı, uygulama içi reklam, veri aracılarına veri satışı veya aktarımı yok.
 - **Anlık bildirim sunucusu yok.** Hatırlatıcılar telefonunuzda yerel olarak planlanır; bunlarla ilgili hiçbir şey cihazdan çıkmaz. İlki planlanmadan önce izniniz istenir ve bunları iOS Ayarları'ndan istediğiniz zaman kapatabilirsiniz.

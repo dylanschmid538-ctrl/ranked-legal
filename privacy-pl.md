@@ -8,7 +8,7 @@ permalink: /privacy/pl/
 
 # Polityka prywatności · Calisthenics Skills – Ranked
 
-**Ostatnia aktualizacja: 2026-11-01**
+**Ostatnia aktualizacja: 2026-11-05**
 
 Niniejsza polityka opisuje, co Ranked zbiera, dokąd to trafia i co można z tym zrobić.
 
@@ -60,11 +60,15 @@ Imię, zdjęcie profilowe i zdjęcie przed pozostają na tym urządzeniu.
 
 ### 3.1 Statystyki użycia (PostHog)
 
-Analityka jest domyślnie wyłączona. Dopiero gdy wyraźnie wyrazisz zgodę w Ustawieniach, Ranked wysyła do PostHog w UE zdarzenia dotyczące konfiguracji, oceny początkowej, zmian rangi i etapu (wraz z umiejętnością i etapem), ekranu zakupu, zakupów i otwieranych ekranów. Zdarzenia treningu na żywo obejmują rozpoczęcie, ukończenie lub przerwanie, liczbę sekund, zapisanych serii, różnych umiejętności oraz informację, czy był to pierwszy ukończony trening. Nie zawierają poszczególnych ćwiczeń, powtórzeń, obciążeń ani notatek. Wiek, płeć, wzrost i masa ciała nie są przesyłane. PostHog otrzymuje też typowe dane techniczne o urządzeniu, iOS, aplikacji i języku oraz adres IP, z którego można wywnioskować przybliżoną lokalizację. Losowy identyfikator analityczny powstaje po wyrażeniu zgody. Zgodę można wycofać w Ustawieniach ▸ Dane i prywatność; nowe zdarzenia przestają być wysyłane, ale wcześniejsze dane nie są automatycznie usuwane.
+Analityka jest domyślnie wyłączona. Dopiero gdy wyraźnie wyrazisz zgodę podczas konfiguracji lub później w Ustawieniach, Ranked wysyła do PostHog w UE zdarzenia dotyczące konfiguracji, oceny początkowej, zmian rangi i etapu (wraz z umiejętnością i etapem), ekranu zakupu, zakupów i otwieranych ekranów. Zdarzenia treningu na żywo obejmują rozpoczęcie, ukończenie lub przerwanie, liczbę sekund, zapisanych serii, różnych umiejętności oraz informację, czy był to pierwszy ukończony trening. Nie zawierają poszczególnych ćwiczeń, powtórzeń, obciążeń ani notatek. Wiek, płeć, wzrost i masa ciała nie są przesyłane. PostHog otrzymuje też typowe dane techniczne o urządzeniu, iOS, aplikacji i języku oraz adres IP, z którego można wywnioskować przybliżoną lokalizację. Losowy identyfikator analityczny powstaje po wyrażeniu zgody. Zgodę można wycofać w Ustawieniach ▸ Dane i prywatność; nowe zdarzenia przestają być wysyłane, ale wcześniejsze dane nie są automatycznie usuwane.
 
 Aplikacja może także zgłaszać fazę subskrypcji, bieżący dostęp, stan odnowienia oraz wykrycie anulowania lub problemu z rozliczeniem. Obserwacje te nie stanowią dowodu obciążenia i są wysyłane tylko wtedy, gdy analityka jest włączona.
 
 Za Państwa zgodą zdarzenia korzystania rejestrują także wybór planu treningowego i otwarcie sesji treningowej. Wybór planu obejmuje wyłącznie liczbę dni treningowych w tygodniu i ćwiczeń; otwarcie sesji obejmuje wyłącznie informację, czy jest wznawiana, źródło wejścia i liczbę zalecanych ćwiczeń. Pełna zawartość planów, harmonogramy, poszczególne ćwiczenia i notatki treningowe pozostają na Państwa urządzeniu.
+
+Po dobrowolnym wyrażeniu zgody PostHog tworzy trwały, losowy identyfikator zdarzeń użycia. Jeśli wyrazisz również zgodę na powiązanie korzystania z aplikacji z subskrypcją, Ranked wysyła do PostHog stałą wartość skrótu utworzoną z losowego identyfikatora instalacji RevenueCat. Pozwala to powiązać korzystanie z aplikacji z wynikiem okresu próbnego i subskrypcji. Są to dane pseudonimowe, a nie anonimowe. Ranked nie wysyła do PostHog imion i nazwisk, adresów e-mail, identyfikatorów Apple ID, potwierdzeń zakupu ani notatek treningowych. Zgodę na analitykę użycia oraz na powiązanie z subskrypcją można wycofać osobno w Ustawieniach ▸ Dane i prywatność. Wycofanie zgody zatrzymuje nowe powiązania, ale nie usuwa automatycznie wcześniejszych danych.
+
+> Opcjonalnie: Udostępniaj korzystanie z aplikacji, ocenione umiejętności, rangę, aktywność treningową usłudze PostHog, aby ulepszać Ranked. Łączymy też to korzystanie z Twoim okresem próbnym i subskrypcją za pomocą losowego identyfikatora zakupu. Bez imion i notatek treningowych. Możesz to zmienić w dowolnym momencie w Ustawieniach.
 
 ### 3.2 Zakupy (Apple i RevenueCat)
 
@@ -75,8 +79,7 @@ Aby sprawdzić, czy subskrypcja jest aktywna, aplikacja korzysta z **RevenueCat*
 otrzymuje zapis zakupu z App Store dotyczący subskrypcji — jaki produkt kupiono, kiedy się zaczął i
 kiedy wygasa — wraz ze standardowymi informacjami technicznymi, takimi jak wersja systemu iOS i
 wersja aplikacji. Instalację rozpoznaje po losowym identyfikatorze, który sam generuje i zapisuje na
-urządzeniu. Nie przekazujemy RevenueCat imienia i nazwiska, adresu e-mail ani żadnej innej
-tożsamości, a ponieważ Ranked nie ma kont, nie ma też czego przekazać.
+urządzeniu. Nie przekazujemy RevenueCat imienia i nazwiska, adresu e-mail ani innych danych bezpośrednio identyfikujących. Ranked nie ma kont w aplikacji, ale losowy identyfikator instalacji jest powiązany z subskrypcją.
 
 Po naciśnięciu **Przywróć zakupy** aplikacja pyta Apple o zakupy dokonane z konta Apple zalogowanego
 na urządzeniu i przekazuje wynik do RevenueCat w ten sam sposób.
@@ -146,7 +149,7 @@ Możesz w każdej chwili wycofać zgodę na analitykę w Ustawieniach ▸ Dane i
 
 Lokalne dane treningowe możesz usunąć w Ustawieniach ▸ Dane i prywatność ▸ *Usuń lokalne dane treningowe* albo usuwając aplikację. Subskrypcją zarządzasz i anulujesz ją oddzielnie na swoim koncie Apple.
 
-W sprawie danych przesłanych już do PostHog napisz na **dylan.schmid538@gmail.com**. Ranked nie łączy losowego identyfikatora analitycznego z kontem. Przybliżona data lub model urządzenia mogą nie wystarczyć, by wiarygodnie odnaleźć profil. Wyjaśnimy, co możemy zidentyfikować, i rozpatrzymy możliwe do zweryfikowania żądania dostępu, sprostowania lub usunięcia. Nie przesyłaj danych logowania do konta Apple.
+W sprawie danych przesłanych już do PostHog napisz na **dylan.schmid538@gmail.com**. Ranked nie ma kont w aplikacji, ale za Twoją zgodą identyfikator analityczny może zostać pseudonimowo powiązany z wynikiem okresu próbnego i subskrypcji. Przybliżona data lub model urządzenia mogą nie wystarczyć, by wiarygodnie odnaleźć profil. Wyjaśnimy, co możemy zidentyfikować, i rozpatrzymy możliwe do zweryfikowania żądania dostępu, sprostowania lub usunięcia. Nie przesyłaj danych logowania do konta Apple.
 
 Możesz zażądać ograniczenia przetwarzania i złożyć skargę do organu nadzorczego w swoim kraju; w Szwajcarii jest nim federalny komisarz ds. ochrony danych i informacji (FDPIC).
 

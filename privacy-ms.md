@@ -7,7 +7,7 @@ permalink: /privacy/ms/
 
 # Dasar Privasi · Calisthenics Skills – Ranked
 
-**Kemas kini terakhir: 2026-11-01**
+**Kemas kini terakhir: 2026-11-05**
 
 Dasar ini menerangkan data yang dikumpul oleh Ranked, ke mana data itu pergi, dan tindakan yang boleh anda ambil.
 
@@ -51,17 +51,21 @@ Nama, foto profil dan foto sebelum kekal pada peranti ini.
 
 ### 3.1 Statistik penggunaan (PostHog)
 
-Analitik dimatikan secara lalai. Hanya jika anda memberi persetujuan nyata dalam Tetapan, Ranked menghantar peristiwa kepada PostHog yang dihoskan di EU: persediaan, penilaian awal, perubahan pangkat dan peringkat (berserta kemahiran dan peringkat), skrin pembelian, pembelian dan skrin yang dibuka. Peristiwa latihan langsung merangkumi mula, selesai atau ditinggalkan, saat yang berlalu, bilangan set dicatat, bilangan kemahiran berlainan dan sama ada itu latihan pertama yang selesai. Ia tidak merangkumi senaman individu, ulangan, beban atau nota. Umur, jantina, tinggi dan berat badan tidak dihantar. PostHog juga menerima maklumat teknikal lazim tentang peranti, iOS, aplikasi dan bahasa serta alamat IP yang boleh menunjukkan lokasi anggaran. ID analitik rawak dicipta selepas persetujuan. Anda boleh menariknya balik dalam Tetapan ▸ Data & privasi; peristiwa baharu berhenti, tetapi data terdahulu tidak dipadam secara automatik.
+Analitik dimatikan secara lalai. Hanya jika anda memberi persetujuan nyata semasa persediaan atau kemudian dalam Tetapan, Ranked menghantar peristiwa kepada PostHog yang dihoskan di EU: persediaan, penilaian awal, perubahan pangkat dan peringkat (berserta kemahiran dan peringkat), skrin pembelian, pembelian dan skrin yang dibuka. Peristiwa latihan langsung merangkumi mula, selesai atau ditinggalkan, saat yang berlalu, bilangan set dicatat, bilangan kemahiran berlainan dan sama ada itu latihan pertama yang selesai. Ia tidak merangkumi senaman individu, ulangan, beban atau nota. Umur, jantina, tinggi dan berat badan tidak dihantar. PostHog juga menerima maklumat teknikal lazim tentang peranti, iOS, aplikasi dan bahasa serta alamat IP yang boleh menunjukkan lokasi anggaran. ID analitik rawak dicipta selepas persetujuan. Anda boleh menariknya balik dalam Tetapan ▸ Data & privasi; peristiwa baharu berhenti, tetapi data terdahulu tidak dipadam secara automatik.
 
 Aplikasi juga boleh melaporkan fasa langganan, akses semasa, status pembaharuan dan sama ada pembatalan atau isu pengebilan dikesan. Pemerhatian ini bukan bukti caj dan hanya dihantar ketika analitik diaktifkan.
 
 Dengan persetujuan anda, peristiwa penggunaan turut merekodkan apabila anda memilih pelan latihan dan membuka sesi senaman. Pemilihan pelan hanya merangkumi bilangan hari latihan seminggu dan senaman; pembukaan sesi hanya merangkumi sama ada ia disambung semula, sumber kemasukan dan bilangan senaman yang ditetapkan. Kandungan penuh pelan, jadual, senaman individu dan nota senaman kekal pada peranti anda.
 
+Selepas anda memberi persetujuan secara sukarela, PostHog mencipta pengecam rawak yang kekal untuk peristiwa penggunaan. Jika anda juga bersetuju untuk mengaitkan penggunaan dengan langganan, Ranked menghantar nilai cincangan stabil yang terbit daripada pengecam pemasangan rawak RevenueCat kepada PostHog supaya penggunaan aplikasi dapat dikaitkan dengan hasil percubaan dan langganan. Data ini berpseudonim, bukan tanpa nama. Ranked tidak menghantar nama, alamat e-mel, Apple ID, resit pembelian atau nota senaman kepada PostHog. Anda boleh menarik balik persetujuan untuk analitik penggunaan dan pengaitan langganan secara berasingan dalam Tetapan ▸ Data & privasi. Penarikan balik menghentikan pengaitan baharu tetapi tidak memadam data terdahulu secara automatik.
+
+> Pilihan: Kongsi penggunaan aplikasi, kemahiran yang dinilai, kedudukan, aktiviti senaman dengan PostHog untuk menambah baik Ranked. Kami juga menghubungkan penggunaan ini dengan percubaan dan langganan anda melalui rujukan pembelian rawak. Tiada nama atau nota senaman. Ubah bila-bila masa dalam Tetapan.
+
 ### 3.2 Pembelian (Apple dan RevenueCat)
 
 Langganan dijual dan dibilkan oleh **Apple** melalui App Store. Kami tidak pernah melihat butiran pembayaran, Akaun Apple atau nama anda.
 
-Untuk mengesahkan sama ada langganan anda aktif, aplikasi menggunakan **RevenueCat**. RevenueCat menerima rekod pembelian langganan daripada App Store — produk yang dibeli, masa ia bermula dan tamat — bersama maklumat teknikal lazim seperti versi iOS dan versi aplikasi. Ia mengenal pasti pemasangan anda melalui pengecam rawak yang dijananya sendiri dan disimpan pada peranti anda. Kami tidak memberikan nama, alamat e-mel atau identiti lain kepada RevenueCat; kerana Ranked tiada akaun, identiti seperti itu tidak wujud untuk diberikan.
+Untuk mengesahkan sama ada langganan anda aktif, aplikasi menggunakan **RevenueCat**. RevenueCat menerima rekod pembelian langganan daripada App Store — produk yang dibeli, masa ia bermula dan tamat — bersama maklumat teknikal lazim seperti versi iOS dan versi aplikasi. Ia mengenal pasti pemasangan anda melalui pengecam rawak yang dijananya sendiri dan disimpan pada peranti anda. Kami tidak memberikan nama, alamat e-mel atau maklumat pengenalan langsung yang lain kepada RevenueCat. Ranked tidak mempunyai akaun aplikasi; pengecam pemasangan rawak itu dikaitkan dengan langganan.
 
 Apabila anda mengetik **Pulihkan Pembelian**, aplikasi meminta daripada Apple pembelian yang dibuat menggunakan Akaun Apple yang dilog masuk pada peranti, lalu menghantar hasilnya kepada RevenueCat dengan cara yang sama.
 
@@ -118,7 +122,7 @@ Anda boleh menarik balik persetujuan analitik pada bila-bila masa dalam Tetapan 
 
 Anda boleh memadam data latihan setempat dalam Tetapan ▸ Data & privasi ▸ *Padam data latihan setempat* atau dengan memadam aplikasi. Langganan diurus dan dibatalkan berasingan dalam Akaun Apple anda.
 
-Bagi data yang sudah dihantar kepada PostHog, tulis kepada **dylan.schmid538@gmail.com**. Ranked tidak mengaitkan ID analitik rawak dengan akaun. Tarikh anggaran atau model peranti mungkin tidak mencukupi untuk mencari profil dengan pasti. Kami akan menerangkan apa yang dapat dikenal pasti dan memproses permintaan akses, pembetulan atau pemadaman yang boleh disahkan. Jangan hantar butiran log masuk Akaun Apple.
+Bagi data yang sudah dihantar kepada PostHog, tulis kepada **dylan.schmid538@gmail.com**. Ranked tidak mempunyai akaun aplikasi, tetapi dengan persetujuan anda, ID analitik boleh dikaitkan secara berpseudonim dengan hasil percubaan dan langganan. Tarikh anggaran atau model peranti mungkin tidak mencukupi untuk mencari profil dengan pasti. Kami akan menerangkan apa yang dapat dikenal pasti dan memproses permintaan akses, pembetulan atau pemadaman yang boleh disahkan. Jangan hantar butiran log masuk Akaun Apple.
 
 Anda boleh meminta had pemprosesan dan membuat aduan kepada pihak berkuasa penyeliaan negara anda; di Switzerland kepada Pesuruhjaya Perlindungan Data dan Maklumat Persekutuan (FDPIC).
 
