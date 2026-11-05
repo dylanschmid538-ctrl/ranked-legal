@@ -7,7 +7,7 @@ permalink: /privacy/hu/
 
 # Adatvédelmi tájékoztató · Calisthenics Skills – Ranked
 
-**Utolsó frissítés: 2026-11-01**
+**Utolsó frissítés: 2026-11-05**
 
 Ez a tájékoztató ismerteti, milyen adatokat gyűjt a Ranked, hová kerülnek, és milyen lehetőségei vannak velük kapcsolatban.
 
@@ -51,17 +51,21 @@ A név, a profilkép és a kezdőfotó ezen az eszközön marad.
 
 ### 3.1 Használati statisztikák (PostHog)
 
-Az elemzés alapértelmezés szerint ki van kapcsolva. A Ranked csak akkor küld az EU-ban működő PostHognak eseményeket, ha a Beállításokban kifejezetten hozzájárul: a beállításról, kezdeti felmérésről, rang- és szintváltozásokról (a készséggel és szinttel), fizetési képernyőről, vásárlásokról és megnyitott képernyőkről. Az élő edzés eseményei tartalmazzák a kezdést, befejezést vagy megszakítást, az eltelt másodperceket, a rögzített sorozatok és különböző készségek számát, valamint hogy ez volt-e az első befejezett edzés. Nem tartalmaznak egyedi gyakorlatokat, ismétléseket, súlyokat vagy jegyzeteket. Az életkor, nem, magasság és testsúly nem kerül elküldésre. A PostHog szokásos technikai adatokat is kap az eszközről, iOS-ről, alkalmazásról és nyelvről, valamint az IP-címet, amelyből hozzávetőleges hely becsülhető. Véletlenszerű elemzési azonosító csak a hozzájárulás után jön létre. A hozzájárulás a Beállítások ▸ Adatok és adatvédelem alatt visszavonható; az új események leállnak, a korábban elküldött adatok nem törlődnek automatikusan.
+Az elemzés alapértelmezés szerint ki van kapcsolva. A Ranked csak akkor küld az EU-ban működő PostHognak eseményeket, ha a beállítás során vagy később a Beállításokban kifejezetten hozzájárul: a beállításról, kezdeti felmérésről, rang- és szintváltozásokról (a készséggel és szinttel), fizetési képernyőről, vásárlásokról és megnyitott képernyőkről. Az élő edzés eseményei tartalmazzák a kezdést, befejezést vagy megszakítást, az eltelt másodperceket, a rögzített sorozatok és különböző készségek számát, valamint hogy ez volt-e az első befejezett edzés. Nem tartalmaznak egyedi gyakorlatokat, ismétléseket, súlyokat vagy jegyzeteket. Az életkor, nem, magasság és testsúly nem kerül elküldésre. A PostHog szokásos technikai adatokat is kap az eszközről, iOS-ről, alkalmazásról és nyelvről, valamint az IP-címet, amelyből hozzávetőleges hely becsülhető. Véletlenszerű elemzési azonosító csak a hozzájárulás után jön létre. A hozzájárulás a Beállítások ▸ Adatok és adatvédelem alatt visszavonható; az új események leállnak, a korábban elküldött adatok nem törlődnek automatikusan.
 
 Az alkalmazás az előfizetés szakaszát, az aktuális hozzáférést, a megújítás állapotát és az észlelt lemondást vagy számlázási problémát is jelentheti. Ezek a megfigyelések nem bizonyítanak terhelést, és csak bekapcsolt analitika mellett kerülnek elküldésre.
 
 Az Ön hozzájárulásával a használati események azt is rögzítik, mikor választ edzéstervet és mikor nyit meg egy edzést. A terv kiválasztása csak a heti edzésnapok és a gyakorlatok számát tartalmazza; az edzés megnyitása csak azt, hogy folytatásról van-e szó, a belépés forrását és az előírt gyakorlatok számát. A tervek teljes tartalma, az ütemezések, az egyes gyakorlatok és az edzésjegyzetek az eszközén maradnak.
 
+Önkéntes hozzájárulás után a PostHog tartós, véletlenszerű azonosítót hoz létre a használati eseményekhez. Ha Ön a használat és az előfizetés összekapcsolásához is hozzájárul, a Ranked a RevenueCat véletlenszerű telepítési azonosítójából képzett stabil, kivonatolt értéket küld a PostHognak, hogy az alkalmazáshasználat összekapcsolható legyen a próbaidőszak és az előfizetés eredményével. Ez álnevesített, nem anonim adatkezelés. A Ranked nem küld a PostHognak nevet, e-mail-címet, Apple ID-t, vásárlási bizonylatot vagy edzésjegyzetet. A használati analitikához és az előfizetés összekapcsolásához adott hozzájárulás külön-külön visszavonható a Beállítások ▸ Adatok és adatvédelem menüpontban. A visszavonás megállítja az új összekapcsolásokat, de nem törli automatikusan a korábbi adatokat.
+
+> Választható: Oszd meg az alkalmazáshasználatot, a felmért készségeket, a rangot, az edzési tevékenységet a PostHoggal a Ranked fejlesztéséhez. Ezt a használatot egy véletlenszerű vásárlási hivatkozással a próbaidőszakodhoz és az előfizetésedhez is kapcsoljuk. Nevek és edzésjegyzetek nélkül. Bármikor módosíthatod a Beállításokban.
+
 ### 3.2 Vásárlások (Apple és RevenueCat)
 
 Az előfizetéseket az **Apple** értékesíti és számlázza az App Store-on keresztül. Fizetési adatait, Apple-fiókját és nevét soha nem látjuk.
 
-Az aktív előfizetés ellenőrzésére az alkalmazás a **RevenueCat** szolgáltatást használja. A RevenueCat megkapja az előfizetés App Store-beli vásárlási rekordját — a megvásárolt terméket, a kezdés és a lejárat időpontját —, valamint szokásos műszaki adatokat, például az iOS és az alkalmazás verzióját. A telepítést saját maga által létrehozott, az eszközön tárolt véletlenszerű azonosítóval ismeri fel. Nem adjuk át a RevenueCatnek az Ön nevét, e-mail-címét vagy más személyazonossági adatát, és mivel a Rankednek nincsenek fiókjai, nincs is ilyen adat, amelyet átadhatnánk.
+Az aktív előfizetés ellenőrzésére az alkalmazás a **RevenueCat** szolgáltatást használja. A RevenueCat megkapja az előfizetés App Store-beli vásárlási rekordját — a megvásárolt terméket, a kezdés és a lejárat időpontját —, valamint szokásos műszaki adatokat, például az iOS és az alkalmazás verzióját. A telepítést saját maga által létrehozott, az eszközön tárolt véletlenszerű azonosítóval ismeri fel. Nem adjuk át a RevenueCatnek az Ön nevét, e-mail-címét vagy más közvetlen személyazonossági adatát. A Rankednek nincs alkalmazásbeli fiókja; a véletlenszerű telepítési azonosító az előfizetéshez kapcsolódik.
 
 Ha a **Vásárlások visszaállítása** lehetőségre koppint, az alkalmazás lekéri az Apple-től az eszközön bejelentkezett Apple-fiókkal végzett vásárlásokat, és az eredményt ugyanígy továbbítja a RevenueCatnek.
 
@@ -118,7 +122,7 @@ Az elemzéshez adott hozzájárulást bármikor, indoklás nélkül visszavonhat
 
 A helyi edzésadatokat a Beállítások ▸ Adatok és adatvédelem ▸ *Helyi edzésadatok törlése* pontban vagy az alkalmazás törlésével távolíthatja el. Az előfizetést külön az Apple-fiókjában kezelheti és mondhatja le.
 
-A PostHognak már elküldött adatok ügyében írjon a **dylan.schmid538@gmail.com** címre. A Ranked nem kapcsolja a véletlenszerű elemzési azonosítót fiókhoz. Hozzávetőleges dátum vagy eszközmodell önmagában nem feltétlenül elegendő a profil megbízható megtalálásához. Elmagyarázzuk, mit tudunk azonosítani, és a hitelesíthető hozzáférési, helyesbítési vagy törlési kérelmeket feldolgozzuk. Ne küldje el Apple-fiókja belépési adatait.
+A PostHognak már elküldött adatok ügyében írjon a **dylan.schmid538@gmail.com** címre. A Rankednek nincs alkalmazásbeli fiókja, de hozzájárulás esetén az elemzési azonosító álnevesítetten kapcsolódhat a próbaidőszak és az előfizetés eredményéhez. Hozzávetőleges dátum vagy eszközmodell önmagában nem feltétlenül elegendő a profil megbízható megtalálásához. Elmagyarázzuk, mit tudunk azonosítani, és a hitelesíthető hozzáférési, helyesbítési vagy törlési kérelmeket feldolgozzuk. Ne küldje el Apple-fiókja belépési adatait.
 
 Kérheti az adatkezelés korlátozását és panaszt tehet országa felügyeleti hatóságánál; Svájcban ez a szövetségi adatvédelmi és információs biztos (FDPIC).
 

@@ -7,7 +7,7 @@ permalink: /privacy/es/
 
 # Política de privacidad · Calisthenics Skills – Ranked
 
-**Última actualización: 2026-11-01**
+**Última actualización: 2026-11-05**
 
 Esta política explica qué datos recopila Ranked, adónde van y qué puede hacer usted al respecto.
 
@@ -51,11 +51,15 @@ El nombre, la foto de perfil y la foto inicial se guardan en este dispositivo.
 
 ### 3.1 Estadísticas de uso (PostHog)
 
-El análisis está desactivado de forma predeterminada. Solo si da su consentimiento expreso en Ajustes, Ranked envía a PostHog en la UE eventos sobre la configuración, la evaluación inicial, cambios de rango y etapa (con la habilidad y etapa), la pantalla de compra, las compras y las pantallas abiertas. Los eventos de entrenamiento en directo indican el inicio, fin o abandono, los segundos transcurridos, el número de series registradas, el número de habilidades distintas y si es el primer entrenamiento completado. No incluyen ejercicios individuales, repeticiones, pesos ni notas. No se transmiten edad, sexo, altura ni peso corporal. PostHog recibe además datos técnicos habituales del dispositivo, iOS, la aplicación y el idioma, y la dirección IP, de la que puede deducirse una ubicación aproximada. Se crea un identificador aleatorio después del consentimiento. Puede retirarlo en Ajustes ▸ Datos y privacidad: cesan los nuevos envíos, pero los datos ya enviados no se borran automáticamente.
+El análisis está desactivado de forma predeterminada. Solo si da su consentimiento expreso durante la configuración o después en Ajustes, Ranked envía a PostHog en la UE eventos sobre la configuración, la evaluación inicial, cambios de rango y etapa (con la habilidad y etapa), la pantalla de compra, las compras y las pantallas abiertas. Los eventos de entrenamiento en directo indican el inicio, fin o abandono, los segundos transcurridos, el número de series registradas, el número de habilidades distintas y si es el primer entrenamiento completado. No incluyen ejercicios individuales, repeticiones, pesos ni notas. No se transmiten edad, sexo, altura ni peso corporal. PostHog recibe además datos técnicos habituales del dispositivo, iOS, la aplicación y el idioma, y la dirección IP, de la que puede deducirse una ubicación aproximada. Se crea un identificador aleatorio después del consentimiento. Puede retirarlo en Ajustes ▸ Datos y privacidad: cesan los nuevos envíos, pero los datos ya enviados no se borran automáticamente.
 
 La app también puede comunicar la fase de la suscripción, el acceso actual, el estado de renovación y si se detectó una cancelación o un problema de facturación. Estas observaciones no constituyen prueba de un cargo y solo se envían mientras el análisis está activado.
 
 Con su consentimiento, los eventos de uso también registran cuándo selecciona un plan de entrenamiento y cuándo abre una sesión de entrenamiento. La selección del plan incluye únicamente el número de días de entrenamiento por semana y de ejercicios; la apertura de la sesión incluye únicamente si se reanuda, el origen de entrada y el número de ejercicios prescritos. El contenido completo de los planes, los horarios, los ejercicios individuales y las notas de entrenamiento permanecen en su dispositivo.
+
+Tras su consentimiento voluntario para compartir datos de uso, PostHog crea en su dispositivo un identificador aleatorio persistente para agrupar los eventos de uso. Si además consiente en vincular el uso con su prueba y suscripción, Ranked envía a PostHog un valor estable, obtenido mediante hash del identificador aleatorio de instalación de RevenueCat. Esto permite relacionar el uso de la app con el resultado de la prueba o suscripción. Los datos son seudónimos, no anónimos: los eventos todavía pueden corresponder a una misma persona. No se envían a PostHog nombres, direcciones de correo electrónico, Cuentas de Apple, recibos de compra ni notas de entrenamiento. Puede retirar más adelante y por separado el consentimiento para el análisis de uso y para el vínculo con la suscripción en Ajustes ▸ Datos y privacidad. Retirar el primero detiene los eventos nuevos; retirar el segundo detiene las nuevas vinculaciones. Los datos ya enviados no se borran automáticamente.
+
+> Opcional: Comparte el uso de la app, las habilidades evaluadas, el rango y la actividad de entrenamiento con PostHog para mejorar Ranked. También vinculamos este uso a tu prueba y suscripción mediante una referencia de compra aleatoria. Sin nombres ni notas de entrenamiento. Cámbialo cuando quieras en Ajustes.
 
 ### 3.2 Compras (Apple y RevenueCat)
 
@@ -78,7 +82,7 @@ Las páginas de ejercicios muestran una imagen de vista previa guardada en el di
 
 ## 4. Qué no hace Ranked
 
-- **Sin cuentas.** Nunca inicia sesión. No hay ningún perfil suyo en un servidor.
+- **Sin cuentas en la app.** No inicia sesión en Ranked. Con su consentimiento, PostHog sí puede agrupar eventos de uso seudónimos como se describe en el §3.1.
 - **Sin Apple Health.** Ranked no lee ni escribe datos en la aplicación Salud.
 - **Sin seguimiento entre aplicaciones o sitios web**, identificador publicitario, anuncios en la aplicación ni venta o entrega de datos a intermediarios de datos.
 - **Sin servidor de notificaciones push.** Los recordatorios que puede enviar Ranked se programan localmente en su teléfono; nada de ellos sale del dispositivo. Se le pide permiso antes del primero y puede desactivarlos en los ajustes de iOS en cualquier momento.
@@ -115,11 +119,11 @@ Todo lo que está en su dispositivo permanece allí hasta que borre la aplicaci�
 
 ## 8. Sus derechos
 
-Puede retirar en cualquier momento su consentimiento para el análisis en Ajustes ▸ Datos y privacidad, sin dar explicaciones. Esto detiene inmediatamente los nuevos eventos, pero no borra automáticamente los datos ya enviados ni cancela su suscripción de App Store.
+Puede retirar por separado y en cualquier momento, sin dar explicaciones, el consentimiento para el análisis de uso y para el vínculo con la suscripción en Ajustes ▸ Datos y privacidad. Retirar el primero detiene de inmediato los eventos nuevos; retirar el segundo detiene las nuevas vinculaciones. Los datos ya enviados no se borran automáticamente ni se cancela su suscripción de App Store.
 
 Puede borrar los datos de entrenamiento locales en Ajustes ▸ Datos y privacidad ▸ *Eliminar datos locales de entrenamiento*, o eliminando la aplicación. La suscripción se gestiona y cancela por separado en su Cuenta de Apple.
 
-Para los datos ya enviados a PostHog, escriba a **dylan.schmid538@gmail.com**. Ranked no vincula el identificador analítico aleatorio con una cuenta. Una fecha aproximada o un modelo de dispositivo puede no bastar para localizar su perfil de forma fiable. Explicaremos qué podemos identificar y atenderemos solicitudes verificables de acceso, rectificación o eliminación. No envíe las credenciales de su Cuenta de Apple.
+Para los datos ya enviados a PostHog, escriba a **dylan.schmid538@gmail.com**. Ranked no tiene cuentas de usuario en la app, pero la referencia obtenida mediante hash descrita en el §3.1 puede vincular eventos de uso con resultados de suscripción. Una fecha aproximada o un modelo de dispositivo puede no bastar para localizar su perfil de forma fiable. Explicaremos qué podemos identificar y atenderemos solicitudes verificables de acceso, rectificación o eliminación. No envíe las credenciales de su Cuenta de Apple.
 
 Puede pedir la limitación del tratamiento y presentar una reclamación ante la autoridad de protección de datos de su país; en Suiza es el Comisionado Federal de Protección de Datos y Transparencia (FDPIC).
 

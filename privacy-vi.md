@@ -7,7 +7,7 @@ permalink: /privacy/vi/
 
 # Chính sách quyền riêng tư · Calisthenics Skills – Ranked
 
-**Cập nhật lần cuối: 2026-11-01**
+**Cập nhật lần cuối: 2026-11-05**
 
 Chính sách này mô tả Ranked thu thập dữ liệu gì, dữ liệu được gửi đến đâu và bạn có thể làm gì.
 
@@ -51,11 +51,15 @@ Tên, ảnh hồ sơ và ảnh trước khi bắt đầu chỉ lưu trên thiế
 
 ### 3.1 Thống kê sử dụng (PostHog)
 
-Phân tích được tắt theo mặc định. Chỉ khi bạn đồng ý rõ ràng trong Cài đặt, Ranked mới gửi đến PostHog đặt tại EU các sự kiện về thiết lập, đánh giá ban đầu, thay đổi hạng và giai đoạn (kèm kỹ năng và giai đoạn), màn hình mua, giao dịch mua và màn hình đã mở. Sự kiện buổi tập trực tiếp gồm bắt đầu, hoàn thành hoặc bỏ dở, số giây đã trôi qua, số hiệp đã ghi, số kỹ năng khác nhau và liệu đó có phải buổi tập hoàn thành đầu tiên không. Chúng không gồm từng bài tập, số lần lặp, mức tạ hoặc ghi chú. Tuổi, giới tính, chiều cao và cân nặng không được gửi. PostHog còn nhận thông tin kỹ thuật thông thường về thiết bị, iOS, ứng dụng và ngôn ngữ, cùng địa chỉ IP có thể cho biết vị trí gần đúng. Mã phân tích ngẫu nhiên chỉ được tạo sau khi bạn đồng ý. Bạn có thể rút lại sự đồng ý trong Cài đặt ▸ Dữ liệu và quyền riêng tư; sự kiện mới sẽ dừng, nhưng dữ liệu đã gửi không tự động bị xóa.
+Phân tích được tắt theo mặc định. Chỉ khi bạn đồng ý rõ ràng lúc thiết lập hoặc sau đó trong Cài đặt, Ranked mới gửi đến PostHog đặt tại EU các sự kiện về thiết lập, đánh giá ban đầu, thay đổi hạng và giai đoạn (kèm kỹ năng và giai đoạn), màn hình mua, giao dịch mua và màn hình đã mở. Sự kiện buổi tập trực tiếp gồm bắt đầu, hoàn thành hoặc bỏ dở, số giây đã trôi qua, số hiệp đã ghi, số kỹ năng khác nhau và liệu đó có phải buổi tập hoàn thành đầu tiên không. Chúng không gồm từng bài tập, số lần lặp, mức tạ hoặc ghi chú. Tuổi, giới tính, chiều cao và cân nặng không được gửi. PostHog còn nhận thông tin kỹ thuật thông thường về thiết bị, iOS, ứng dụng và ngôn ngữ, cùng địa chỉ IP có thể cho biết vị trí gần đúng. Mã phân tích ngẫu nhiên chỉ được tạo sau khi bạn đồng ý. Bạn có thể rút lại sự đồng ý trong Cài đặt ▸ Dữ liệu và quyền riêng tư; sự kiện mới sẽ dừng, nhưng dữ liệu đã gửi không tự động bị xóa.
 
 Ứng dụng cũng có thể báo cáo giai đoạn đăng ký, quyền truy cập hiện tại, trạng thái gia hạn và việc có phát hiện hủy hoặc vấn đề lập hóa đơn hay không. Những quan sát này không phải bằng chứng về việc trừ tiền và chỉ được gửi khi tính năng phân tích được bật.
 
 Với sự đồng ý của bạn, các sự kiện sử dụng cũng ghi nhận khi bạn chọn một kế hoạch tập luyện và khi bạn mở một buổi tập. Việc chọn kế hoạch chỉ bao gồm số ngày tập mỗi tuần và số bài tập; việc mở buổi tập chỉ bao gồm buổi tập có được tiếp tục hay không, nguồn truy cập và số bài tập được chỉ định. Toàn bộ nội dung kế hoạch, lịch tập, từng bài tập và ghi chú tập luyện vẫn ở trên thiết bị của bạn.
+
+> Tùy chọn: Chia sẻ việc sử dụng ứng dụng, kỹ năng đã đánh giá, thứ hạng, hoạt động tập luyện với PostHog để cải thiện Ranked. Chúng tôi cũng liên kết việc sử dụng này với thời gian dùng thử và gói đăng ký của bạn bằng mã tham chiếu mua hàng ngẫu nhiên. Không có tên hoặc ghi chú tập luyện. Thay đổi bất cứ lúc nào trong Cài đặt.
+
+Sau khi bạn tự nguyện đồng ý cho phân tích, PostHog tạo một mã định danh ngẫu nhiên, tồn tại lâu dài để nhóm các sự kiện sử dụng. Nếu bạn cũng đồng ý liên kết việc sử dụng với gói đăng ký, Ranked gửi cho PostHog một giá trị băm ổn định được tạo từ mã định danh cài đặt ngẫu nhiên của RevenueCat. Nhờ đó, việc sử dụng ứng dụng có thể được liên kết với kết quả của thời gian dùng thử hoặc gói đăng ký. Dữ liệu này là dữ liệu định danh gián tiếp, không phải dữ liệu ẩn danh: các sự kiện vẫn có thể liên quan đến cùng một người. Tên, địa chỉ email, Apple ID, biên lai và ghi chú tập luyện không được gửi. Bạn có thể rút riêng sự đồng ý cho phân tích sử dụng và sự đồng ý cho liên kết với gói đăng ký trong Cài đặt ▸ Dữ liệu và quyền riêng tư. Việc rút lại ngăn các liên kết mới, nhưng không tự động xóa dữ liệu trước đó.
 
 ### 3.2 Mua hàng (Apple và RevenueCat)
 
@@ -77,7 +81,7 @@ Trang bài tập trước tiên hiển thị ảnh xem trước được lưu tr
 
 ## 4. Những việc Ranked không làm
 
-- **Không có tài khoản.** Bạn không bao giờ phải đăng nhập. Không có hồ sơ của bạn trên máy chủ nào.
+- **Không có tài khoản trong ứng dụng.** Bạn không phải đăng nhập vào Ranked. Sau khi bạn đồng ý, PostHog có thể nhóm các sự kiện sử dụng dưới một mã định danh gián tiếp (§3.1).
 - **Không sử dụng Apple Health.** Ranked không đọc hay ghi vào ứng dụng Sức khỏe.
 - **Không theo dõi giữa các ứng dụng hoặc trang web**, không dùng mã định danh quảng cáo, không có quảng cáo trong ứng dụng, không bán hoặc cung cấp dữ liệu cho bên môi giới dữ liệu.
 - **Không có máy chủ thông báo đẩy.** Lời nhắc được lên lịch ngay trên điện thoại; không có thông tin nào về chúng rời khỏi thiết bị. Bạn được hỏi trước khi lời nhắc đầu tiên được lên lịch và có thể tắt chúng trong Cài đặt iOS bất cứ lúc nào.

@@ -7,7 +7,7 @@ permalink: /privacy/sv/
 
 # Integritetspolicy · Calisthenics Skills – Ranked
 
-**Senast uppdaterad: 2026-11-01**
+**Senast uppdaterad: 2026-11-05**
 
 Den här policyn beskriver vilka uppgifter Ranked samlar in, vart de skickas och vad du kan göra åt det.
 
@@ -51,11 +51,15 @@ Namn, profilfoto och förefoto stannar på den här enheten.
 
 ### 3.1 Användningsstatistik (PostHog)
 
-Analys är avstängd som standard. Först när du uttryckligen samtycker i Inställningar skickar Ranked händelser till PostHog i EU om introduktion, första bedömning, ändringar av rang och steg (med färdighet och steg), betalningsvy, köp och öppnade vyer. Händelser från träningspass i realtid omfattar start, slutförande eller avbrott, antal sekunder, registrerade set, olika färdigheter och om det var det första slutförda passet. De innehåller inte enskilda övningar, repetitioner, vikter eller anteckningar. Ålder, kön, längd och kroppsvikt skickas inte. PostHog får också vanliga tekniska uppgifter om enhet, iOS, app och språk samt IP-adressen, som kan ge en ungefärlig plats. Ett slumpmässigt analys-id skapas först efter ditt samtycke. Du kan återkalla det i Inställningar ▸ Data och integritet; nya händelser stoppas men redan skickade uppgifter raderas inte automatiskt.
+Analys är avstängd som standard. Först när du uttryckligen samtycker under introduktionen eller senare i Inställningar skickar Ranked händelser till PostHog i EU om introduktion, första bedömning, ändringar av rang och steg (med färdighet och steg), betalningsvy, köp och öppnade vyer. Händelser från träningspass i realtid omfattar start, slutförande eller avbrott, antal sekunder, registrerade set, olika färdigheter och om det var det första slutförda passet. De innehåller inte enskilda övningar, repetitioner, vikter eller anteckningar. Ålder, kön, längd och kroppsvikt skickas inte. PostHog får också vanliga tekniska uppgifter om enhet, iOS, app och språk samt IP-adressen, som kan ge en ungefärlig plats. Ett slumpmässigt analys-id skapas först efter ditt samtycke. Du kan återkalla det i Inställningar ▸ Data och integritet; nya händelser stoppas men redan skickade uppgifter raderas inte automatiskt.
 
 Appen kan även rapportera prenumerationsfasen, aktuell åtkomst, förnyelsestatus och om en uppsägning eller ett faktureringsproblem upptäcktes. Dessa observationer är inte bevis på en debitering och skickas endast medan analys är aktiverad.
 
 Med ditt samtycke registrerar användningshändelser även när du väljer en träningsplan och öppnar ett träningspass. Val av plan omfattar endast antalet träningsdagar per vecka och övningar; öppning av ett pass omfattar endast om det återupptas, ingångskällan och antalet föreskrivna övningar. Planernas fullständiga innehåll, scheman, enskilda övningar och träningsanteckningar stannar på din enhet.
+
+> Valfritt: Dela appanvändning, bedömda färdigheter, rang, träningsaktivitet med PostHog för att förbättra Ranked. Vi kopplar också denna användning till din provperiod och prenumeration med en slumpmässig köpreferens. Inga namn eller träningsanteckningar. Ändra detta när som helst i Inställningar.
+
+Efter ditt frivilliga samtycke till analys skapar PostHog en beständig slumpmässig identifierare som samlar användningshändelser. Om du också samtycker till att koppla användning till prenumeration skickar Ranked ett stabilt hashat värde, härlett från RevenueCats slumpmässiga installationsidentifierare, till PostHog. Därmed kan appanvändning kopplas till utfallet av provperioden eller prenumerationen. Uppgifterna är pseudonyma, inte anonyma: händelserna kan fortfarande gälla samma person. Namn, e-postadresser, Apple-ID, kvitton och träningsanteckningar skickas inte. Du kan återkalla samtycket till användningsanalys och samtycket till kopplingen till prenumerationen var för sig i Inställningar ▸ Data och integritet. Återkallelsen stoppar nya kopplingar men raderar inte tidigare uppgifter automatiskt.
 
 ### 3.2 Köp (Apple och RevenueCat)
 
@@ -77,7 +81,7 @@ Om du skickar feedback eller en supportfråga skickar Ranked meddelandet, dess k
 
 ## 4. Det som Ranked inte gör
 
-- **Inga konton.** Du loggar aldrig in. Ingen server har en profil om dig.
+- **Inget konto i appen.** Du loggar inte in i Ranked. Efter ditt samtycke kan PostHog samla användningshändelser under en pseudonym identifierare (§3.1).
 - **Inget Apple Health.** Ranked varken läser från eller skriver till appen Hälsa.
 - **Ingen spårning mellan appar eller webbplatser**, ingen reklamidentifierare, ingen reklam i appen och inga uppgifter som säljs eller lämnas till datamäklare.
 - **Ingen pushserver.** Påminnelser schemaläggs lokalt på din telefon; inget om dem lämnar enheten. Du tillfrågas innan den första schemaläggs och kan när som helst stänga av dem i iOS-inställningarna.

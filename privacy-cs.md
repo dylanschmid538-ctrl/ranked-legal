@@ -7,7 +7,7 @@ permalink: /privacy/cs/
 
 # Zásady ochrany osobních údajů · Calisthenics Skills – Ranked
 
-**Poslední aktualizace: 2026-11-01**
+**Poslední aktualizace: 2026-11-05**
 
 Tyto zásady popisují, jaké údaje Ranked shromažďuje, kam putují a jaké možnosti v souvislosti s nimi máte.
 
@@ -51,11 +51,15 @@ Jméno, profilová i úvodní fotka zůstávají v tomto zařízení.
 
 ### 3.1 Statistiky používání (PostHog)
 
-Analytika je ve výchozím nastavení vypnutá. Pouze pokud v Nastavení výslovně souhlasíte, odesílá Ranked službě PostHog v EU události o nastavení, počátečním hodnocení, změnách hodnosti a úrovní (včetně dovednosti a úrovně), nákupní obrazovce, nákupech a otevřených obrazovkách. Události živého tréninku zahrnují začátek, dokončení nebo opuštění, uplynulé sekundy, počet zaznamenaných sérií, počet různých dovedností a údaj, zda šlo o první dokončený trénink. Neobsahují jednotlivá cvičení, opakování, zátěž ani poznámky. Věk, pohlaví, výška a hmotnost se neodesílají. PostHog také získává běžné technické údaje o zařízení, iOS, aplikaci a jazyce a IP adresu, z níž lze odvodit přibližnou polohu. Náhodný analytický identifikátor vzniká až po souhlasu. Souhlas můžete odvolat v Nastavení ▸ Data a soukromí; nové události se přestanou odesílat, ale dříve zaslané údaje se automaticky nesmažou.
+Analytika je ve výchozím nastavení vypnutá. Pouze pokud během úvodního nastavení nebo později v Nastavení výslovně souhlasíte, odesílá Ranked službě PostHog v EU události o nastavení, počátečním hodnocení, změnách hodnosti a úrovní (včetně dovednosti a úrovně), nákupní obrazovce, nákupech a otevřených obrazovkách. Události živého tréninku zahrnují začátek, dokončení nebo opuštění, uplynulé sekundy, počet zaznamenaných sérií, počet různých dovedností a údaj, zda šlo o první dokončený trénink. Neobsahují jednotlivá cvičení, opakování, zátěž ani poznámky. Věk, pohlaví, výška a hmotnost se neodesílají. PostHog také získává běžné technické údaje o zařízení, iOS, aplikaci a jazyce a IP adresu, z níž lze odvodit přibližnou polohu. Náhodný analytický identifikátor vzniká až po souhlasu. Souhlas můžete odvolat v Nastavení ▸ Data a soukromí; nové události se přestanou odesílat, ale dříve zaslané údaje se automaticky nesmažou.
 
 Aplikace může také hlásit fázi předplatného, aktuální přístup, stav obnovení a zjištění zrušení nebo problému s fakturací. Tato pozorování nejsou dokladem účtování platby a odesílají se pouze při zapnuté analytice.
 
 S vaším souhlasem zaznamenávají události používání také výběr tréninkového plánu a otevření tréninkové relace. Výběr plánu zahrnuje pouze počet tréninkových dnů týdně a počet cviků; otevření relace zahrnuje pouze to, zda se v ní pokračuje, zdroj vstupu a počet předepsaných cviků. Úplný obsah plánů, rozvrhy, jednotlivé cviky a tréninkové poznámky zůstávají na vašem zařízení.
+
+Po vašem dobrovolném souhlasu se sdílením údajů o používání vytvoří PostHog v zařízení trvalý náhodný identifikátor, pod kterým seskupuje události používání. Pokud navíc souhlasíte s propojením používání aplikace se zkušebním obdobím a předplatným, odešle Ranked službě PostHog stabilní hodnotu odvozenou hašováním náhodného instalačního identifikátoru RevenueCat. Díky ní lze propojit používání aplikace s výsledkem zkušebního období nebo předplatného. Jde o pseudonymní, nikoli anonymní údaje: události se mohou stále týkat téže osoby. Do PostHogu neposíláme jména, e-mailové adresy, účty Apple, doklady o nákupu ani tréninkové poznámky. Souhlas s analýzou používání a s propojením s předplatným můžete později samostatně odvolat v Nastavení ▸ Data a soukromí. Odvolání prvního zastaví nové události, odvolání druhého nová propojení. Dříve odeslané údaje se automaticky nesmažou.
+
+> Volitelné: Sdílej používání aplikace, vyhodnocené dovednosti, úroveň, tréninkovou aktivitu s PostHog, abychom vylepšili Ranked. Toto používání také propojujeme s tvým zkušebním obdobím a předplatným pomocí náhodné reference nákupu. Bez jmen a tréninkových poznámek. Kdykoli to změníš v Nastavení.
 
 ### 3.2 Nákupy (Apple a RevenueCat)
 
@@ -78,7 +82,7 @@ Na stránkách cviků se zobrazuje náhledový obrázek uložený v zařízení.
 
 ## 4. Co Ranked nedělá
 
-- **Žádné účty.** Nikdy se nepřihlašujete. Na žádném serveru o vás není profil.
+- **Žádné účty v aplikaci.** Do Ranked se nepřihlašujete. Se souhlasem však PostHog může seskupovat pseudonymní události používání podle §3.1.
 - **Žádné Apple Zdraví.** Ranked nečte data z aplikace Zdraví ani do ní nezapisuje.
 - **Žádné sledování napříč aplikacemi nebo weby**, reklamní identifikátor ani reklama v aplikaci; žádný prodej údajů ani jejich předávání datovým zprostředkovatelům.
 - **Žádný server pro push oznámení.** Připomínky Ranked se plánují místně v telefonu; nic o nich neopouští zařízení. Před naplánováním první vás aplikace požádá o svolení a kdykoli je můžete vypnout v nastavení iOS.
@@ -115,11 +119,11 @@ Záznamy o nákupech uchovává RevenueCat po dobu existence předplatného a je
 
 ## 8. Vaše práva
 
-Souhlas s analytikou můžete kdykoli bez udání důvodu odvolat v Nastavení ▸ Data a soukromí. Nové události se ihned přestanou odesílat, ale dříve odeslané údaje se automaticky nesmažou a předplatné App Store se nezruší.
+Souhlas s analýzou používání a s propojením s předplatným můžete kdykoli samostatně odvolat v Nastavení ▸ Data a soukromí bez udání důvodu. Odvolání prvního zastaví nové události, odvolání druhého nová propojení; dříve odeslané údaje se však automaticky nesmažou a předplatné App Store se nezruší.
 
 Místní tréninkové údaje můžete smazat v Nastavení ▸ Data a soukromí ▸ *Smazat místní tréninková data* nebo odstraněním aplikace. Předplatné spravujete a rušíte samostatně ve svém účtu Apple.
 
-Ohledně údajů již odeslaných službě PostHog napište na **dylan.schmid538@gmail.com**. Ranked nespojuje náhodný analytický identifikátor s účtem. Přibližné datum nebo model zařízení nemusí stačit ke spolehlivému nalezení profilu. Vysvětlíme, co lze identifikovat, a vyřídíme ověřitelné žádosti o přístup, opravu či výmaz. Neposílejte přihlašovací údaje k účtu Apple.
+Ohledně údajů již odeslaných službě PostHog napište na **dylan.schmid538@gmail.com**. Ranked nemá uživatelské účty v aplikaci, ale hašovaná reference popsaná v §3.1 může propojit události používání s výsledky předplatného. Přibližné datum nebo model zařízení nemusí stačit ke spolehlivému nalezení profilu. Vysvětlíme, co lze identifikovat, a vyřídíme ověřitelné žádosti o přístup, opravu či výmaz. Neposílejte přihlašovací údaje k účtu Apple.
 
 Můžete požádat o omezení zpracování a podat stížnost dozorovému úřadu ve své zemi; ve Švýcarsku je jím federální komisař pro ochranu údajů a informace (FDPIC).
 

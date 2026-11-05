@@ -7,7 +7,7 @@ permalink: /privacy/
 
 # Privacy Policy · Calisthenics Skills – Ranked
 
-**Last updated: 2026-11-01**
+**Last updated: 2026-11-05**
 
 This policy describes what Ranked collects, where it goes, and what you can do about it.
 
@@ -23,7 +23,7 @@ your phone. They are not sent to us, and they are not sent to the analytics serv
 
 Four kinds of data can leave your device:
 
-1. **Usage statistics**, only if you turn on sharing in Settings.
+1. **Usage statistics**, only if you choose to share them during setup or later in Settings.
    Sharing is off unless you choose it, and you can withdraw your choice at any time.
 2. **Purchase data**, so the App Store subscription can be verified. Apple handles the payment;
    we never see your payment details.
@@ -82,16 +82,23 @@ The PostHog software inside the app also attaches standard technical information
 such as your device model, iOS version, app version, language and time zone. Like any internet service, PostHog receives the IP
 address of the request; it may derive an approximate location (country or city) from it.
 
-**What is not in there:** no name, no contact details from the feedback form, no account
-identifier (there is none), no age, sex, height or bodyweight, and no individual workout entries.
+**What is not in there:** no name, no contact details from the feedback form, no Apple Account
+identifier, no age, sex, height or bodyweight, and no individual workout entries.
 
-**How you are identified:** After you choose to share usage data, PostHog generates a random identifier and
-stores it on your device. All events are grouped under that identifier. The app never tells
-PostHog who you are. Contact details from feedback are not passed to PostHog.
+**How events are grouped:** After you choose to share usage data, PostHog generates a persistent
+random identifier on your device and groups events under it. If you also agree to link usage
+with your trial and subscription, Ranked sends PostHog a stable, hashed reference derived from
+RevenueCat's random installation identifier. This lets us relate product use to subscription
+outcomes without sending a name, email address, Apple Account, purchase receipt or workout notes.
+The reference is pseudonymous, not anonymous: events associated with it can still concern the
+same person. Contact details from feedback are not passed to PostHog.
 
-**Your choice:** Analytics is off by default. You can turn on usage sharing in
-Settings ▸ Data & privacy ▸ *Share usage data* at any time. Switching it off stops new events and closes the analytics connection. The choice is stored
-on your device and survives app updates; withdrawal does not automatically erase events already sent.
+**Your choice:** Analytics is off by default. During setup, and once for existing athletes who
+have not yet chosen, you can accept or decline sharing app activity and linking it to subscription
+outcomes. You can later change usage sharing and the subscription link independently in
+Settings ▸ Data & privacy. Turning off usage sharing stops new events and closes the analytics
+connection; turning off only the subscription link stops new linked events. The choices are stored
+on your device and survive app updates. Withdrawal does not automatically erase events already sent.
 
 The app may also report the subscription phase, current access, renewal status and whether a cancellation or billing issue was detected. These observations are not proof of a charge and are only sent while analytics is enabled.
 
@@ -124,7 +131,8 @@ Exercise pages show a local preview image. Only when you tap **Watch video** doe
 
 ## 4. What Ranked does not do
 
-- **No accounts.** You never sign in. There is no profile of you on any server.
+- **No app accounts.** You never sign in. If you opt in, PostHog holds a pseudonymous
+  usage profile; Ranked does not hold an account with your name or contact details.
 - **No Apple Health.** Ranked neither reads from nor writes to the Health app.
 - **No tracking across apps or websites**, no advertising identifier, no advertising inside the
   app, no data sold or given to data brokers.
@@ -175,11 +183,14 @@ Everything on your device stays there until you delete the app.
 You can, at any time:
 
 - **Withdraw analytics consent** in Settings ▸ Data & privacy. This stops new analytics events immediately
-  without requiring a reason. It does not cancel your subscription or erase events already sent.
+  without requiring a reason. You can instead turn off only the usage-to-subscription link; that
+  stops new linked events while usage sharing remains on. Neither action cancels your subscription
+  or automatically erases events already sent.
 - **Delete local training data** in Settings ▸ Data & privacy ▸ *Delete local training data*, or delete the
   app. This removes the app's local records; it does not cancel your App Store subscription.
-- **Ask us about data already sent to PostHog.** Because Ranked has no account linked to its
-  random analytics identifier, an approximate date or device model alone may not let us identify
+- **Ask us about data already sent to PostHog.** Ranked has no in-app user account, but the
+  optional stable purchase reference can connect events to the same subscription. An approximate
+  date or device model alone may not let us identify
   your profile reliably. Contact us and we will explain what we can identify and process any
   verifiable access, correction or deletion request. Do not email your Apple Account credentials.
 - **Request a copy** of the data a service holds under your identifier, ask us to **correct** it,

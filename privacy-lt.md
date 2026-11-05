@@ -8,7 +8,7 @@ permalink: /privacy/lt/
 
 # Privatumo politika · Calisthenics Skills – Ranked
 
-**Paskutinį kartą atnaujinta: 2026-11-01**
+**Paskutinį kartą atnaujinta: 2026-11-05**
 
 Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti.
 
@@ -61,11 +61,15 @@ Jūsų vardas, profilio nuotrauka ir nuotrauka prieš pradedant lieka šiame įr
 
 ### 3.1 Naudojimo statistika (PostHog)
 
-Analitika pagal numatytuosius nustatymus išjungta. Tik aiškiai sutikus Nustatymuose, Ranked siunčia ES veikiantiems PostHog įvykius apie sąranką, pradinį įvertinimą, rango ir pakopos pokyčius (nurodant įgūdį ir pakopą), pirkimo ekraną, pirkimus ir atidarytus ekranus. Tiesioginės treniruotės įvykiai apima pradžią, pabaigą ar nutraukimą, praėjusias sekundes, užregistruotų serijų ir skirtingų įgūdžių skaičių bei ar tai buvo pirmoji baigta treniruotė. Juose nėra atskirų pratimų, pakartojimų, svorių ar pastabų. Amžius, lytis, ūgis ir kūno svoris nesiunčiami. PostHog taip pat gauna įprastus techninius įrenginio, iOS, programėlės ir kalbos duomenis bei IP adresą, iš kurio galima nustatyti apytikrę vietą. Atsitiktinis analitikos identifikatorius sukuriamas po sutikimo. Jį galite atšaukti Nustatymuose ▸ Duomenys ir privatumas; nauji įvykiai nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami.
+Analitika pagal numatytuosius nustatymus išjungta. Tik aiškiai sutikus sąrankos metu arba vėliau Nustatymuose, Ranked siunčia ES veikiantiems PostHog įvykius apie sąranką, pradinį įvertinimą, rango ir pakopos pokyčius (nurodant įgūdį ir pakopą), pirkimo ekraną, pirkimus ir atidarytus ekranus. Tiesioginės treniruotės įvykiai apima pradžią, pabaigą ar nutraukimą, praėjusias sekundes, užregistruotų serijų ir skirtingų įgūdžių skaičių bei ar tai buvo pirmoji baigta treniruotė. Juose nėra atskirų pratimų, pakartojimų, svorių ar pastabų. Amžius, lytis, ūgis ir kūno svoris nesiunčiami. PostHog taip pat gauna įprastus techninius įrenginio, iOS, programėlės ir kalbos duomenis bei IP adresą, iš kurio galima nustatyti apytikrę vietą. Atsitiktinis analitikos identifikatorius sukuriamas po sutikimo. Jį galite atšaukti Nustatymuose ▸ Duomenys ir privatumas; nauji įvykiai nebesiunčiami, bet jau išsiųsti duomenys automatiškai neištrinami.
 
 Programėlė taip pat gali pranešti prenumeratos etapą, dabartinę prieigą, atnaujinimo būseną ir tai, ar aptiktas atšaukimas arba atsiskaitymo problema. Šie stebėjimai nėra lėšų nurašymo įrodymas ir siunčiami tik įjungus analizę.
 
 Gavus jūsų sutikimą, naudojimo įvykiai taip pat užfiksuoja, kada pasirenkate treniruočių planą ir kada atidarote treniruotės sesiją. Plano pasirinkimas apima tik treniruočių dienų per savaitę ir pratimų skaičių; sesijos atidarymas apima tik tai, ar ji tęsiama, įėjimo šaltinį ir paskirtų pratimų skaičių. Visas planų turinys, tvarkaraščiai, atskiri pratimai ir treniruočių pastabos lieka jūsų įrenginyje.
+
+Jums savanoriškai sutikus, „PostHog“ sukuria nuolatinį atsitiktinį naudojimo įvykių identifikatorių. Jei taip pat sutinkate susieti naudojimą su prenumerata, „Ranked“ siunčia „PostHog“ pastovią maišos reikšmę, gautą iš atsitiktinio „RevenueCat“ diegimo identifikatoriaus, kad programėlės naudojimą būtų galima susieti su bandomojo laikotarpio ir prenumeratos rezultatu. Tai pseudoniminiai, o ne anoniminiai duomenys. „Ranked“ nesiunčia „PostHog“ vardų, el. pašto adresų, „Apple ID“, pirkimo kvitų ar treniruočių pastabų. Sutikimą dėl naudojimo analitikos ir dėl susiejimo su prenumerata galite atšaukti atskirai Nustatymuose ▸ Duomenys ir privatumas. Atšaukus sutikimą nauji susiejimai sustabdomi, tačiau ankstesni duomenys automatiškai neištrinami.
+
+> Pasirinktinai: bendrinkite programėlės naudojimą, įvertintus įgūdžius, rangą ir treniruočių veiklą su „PostHog“, kad galėtume tobulinti „Ranked“. Šiuos duomenis taip pat susiejame su bandomuoju laikotarpiu ir prenumerata naudodami atsitiktinę pirkimo nuorodą. Vardai ir treniruočių užrašai neperduodami. Pasirinkimą bet kada galite pakeisti nustatymuose.
 
 ### 3.2 Pirkiniai („Apple“ ir „RevenueCat“)
 
@@ -76,8 +80,7 @@ Kad patikrintų, ar Jūsų prenumerata galioja, programėlė naudoja **„Revenu
 Jūsų prenumeratos „App Store“ pirkimo įrašą — koks produktas nupirktas, kada jis prasidėjo ir kada
 baigiasi — kartu su įprasta technine informacija, pavyzdžiui, Jūsų „iOS“ versija ir programėlės
 versija. Jūsų diegimą jis atpažįsta pagal atsitiktinį identifikatorių, kurį pats sukuria ir įrašo
-Jūsų įrenginyje. „RevenueCat“ neduodame nei Jūsų vardo, nei el. pašto adreso, nei jokios kitos
-tapatybės, o kadangi „Ranked“ neturi paskyrų, jos ir nėra ką duoti.
+Jūsų įrenginyje. „RevenueCat“ neperduodame Jūsų vardo, el. pašto adreso ar kitų tiesiogiai tapatybę atskleidžiančių duomenų. „Ranked“ neturi programėlės paskyrų, tačiau atsitiktinis diegimo identifikatorius susietas su prenumerata.
 
 Kai bakstelite **Atkurti pirkinius**, programėlė paklausia „Apple“ apie pirkinius, atliktus
 įrenginyje prisijungusia „Apple“ paskyra, ir rezultatą tuo pačiu būdu perduoda „RevenueCat“.
@@ -146,7 +149,7 @@ Sutikimą analitikai galite bet kada be priežasties atšaukti Nustatymuose ▸ 
 
 Vietinius treniruočių duomenis galite ištrinti Nustatymuose ▸ Duomenys ir privatumas ▸ *Ištrinti vietinius treniruočių duomenis* arba pašalinę programėlę. Prenumerata atskirai valdoma ir atšaukiama Apple paskyroje.
 
-Dėl PostHog jau išsiųstų duomenų rašykite **dylan.schmid538@gmail.com**. Ranked nesieja atsitiktinio analitikos identifikatoriaus su paskyra. Apytikrė data ar įrenginio modelis gali nepakakti patikimam profilio radimui. Paaiškinsime, ką galime nustatyti, ir nagrinėsime patikrinamus prašymus susipažinti su duomenimis, juos taisyti ar ištrinti. Nesiųskite Apple paskyros prisijungimo duomenų.
+Dėl PostHog jau išsiųstų duomenų rašykite **dylan.schmid538@gmail.com**. „Ranked“ neturi programėlės paskyrų, tačiau Jums sutikus analitikos identifikatorius gali būti pseudonimiškai susietas su bandomojo laikotarpio ir prenumeratos rezultatu. Apytikrė data ar įrenginio modelis gali nepakakti patikimam profilio radimui. Paaiškinsime, ką galime nustatyti, ir nagrinėsime patikrinamus prašymus susipažinti su duomenimis, juos taisyti ar ištrinti. Nesiųskite Apple paskyros prisijungimo duomenų.
 
 Galite prašyti apriboti tvarkymą ir skųstis savo šalies priežiūros institucijai; Šveicarijoje tai federalinis duomenų apsaugos ir informacijos komisaras (FDPIC).
 

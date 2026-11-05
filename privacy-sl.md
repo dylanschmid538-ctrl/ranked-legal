@@ -8,7 +8,7 @@ permalink: /privacy/sl/
 
 # Politika zasebnosti · Calisthenics Skills – Ranked
 
-**Zadnja posodobitev: 2026-11-01**
+**Zadnja posodobitev: 2026-11-05**
 
 Ta politika opisuje, kaj Ranked zbira, kam to gre in kaj lahko glede tega storite.
 
@@ -59,11 +59,15 @@ Vaše ime, profilna fotografija in začetna fotografija ostanejo v tej napravi.
 
 ### 3.1 Statistika uporabe (PostHog)
 
-Analitika je privzeto izklopljena. Le če v nastavitvah izrecno privolite, Ranked pošilja storitvi PostHog v EU dogodke o uvajanju, začetni oceni, spremembah ranga in stopnje (s spretnostjo in stopnjo), plačilnem zaslonu, nakupih in odprtih zaslonih. Dogodki vadbe v živo vsebujejo začetek, zaključek ali prekinitev, pretečene sekunde, število zabeleženih serij, število različnih spretnosti in podatek o prvi zaključeni vadbi. Ne vsebujejo posameznih vaj, ponovitev, uteži ali zapiskov. Starost, spol, višina in telesna teža se ne pošiljajo. PostHog prejme tudi običajne tehnične podatke o napravi, iOS, aplikaciji in jeziku ter naslov IP, iz katerega je mogoče sklepati o približni lokaciji. Naključni analitični identifikator nastane po privolitvi. Privolitev lahko umaknete v Nastavitvah ▸ Podatki in zasebnost; novi dogodki prenehajo, že poslani podatki pa se ne izbrišejo samodejno.
+Analitika je privzeto izklopljena. Le če med uvajanjem ali pozneje v nastavitvah izrecno privolite, Ranked pošilja storitvi PostHog v EU dogodke o uvajanju, začetni oceni, spremembah ranga in stopnje (s spretnostjo in stopnjo), plačilnem zaslonu, nakupih in odprtih zaslonih. Dogodki vadbe v živo vsebujejo začetek, zaključek ali prekinitev, pretečene sekunde, število zabeleženih serij, število različnih spretnosti in podatek o prvi zaključeni vadbi. Ne vsebujejo posameznih vaj, ponovitev, uteži ali zapiskov. Starost, spol, višina in telesna teža se ne pošiljajo. PostHog prejme tudi običajne tehnične podatke o napravi, iOS, aplikaciji in jeziku ter naslov IP, iz katerega je mogoče sklepati o približni lokaciji. Naključni analitični identifikator nastane po privolitvi. Privolitev lahko umaknete v Nastavitvah ▸ Podatki in zasebnost; novi dogodki prenehajo, že poslani podatki pa se ne izbrišejo samodejno.
 
 Aplikacija lahko sporoča tudi fazo naročnine, trenutni dostop, stanje obnove in ali je bila zaznana odpoved ali težava z obračunavanjem. Ta opažanja niso dokaz bremenitve in se pošiljajo samo, ko je analitika vklopljena.
 
 Z vašim soglasjem dogodki uporabe beležijo tudi, kdaj izberete načrt vadbe in kdaj odprete vadbeno sejo. Izbira načrta vključuje le število vadbenih dni na teden in vaj; odprtje seje vključuje le, ali se nadaljuje, vir vstopa in število predpisanih vaj. Celotna vsebina načrtov, urniki, posamezne vaje in zapiski vadbe ostanejo v vaši napravi.
+
+> Neobvezno: delite uporabo aplikacije, ocenjene spretnosti, rang in vadbeno dejavnost s storitvijo PostHog, da izboljšamo Ranked. Te podatke povežemo tudi z vašim preizkusnim obdobjem in naročnino prek naključne reference nakupa. Imena in zapiski o vadbi se ne pošiljajo. Izbiro lahko kadar koli spremenite v nastavitvah.
+
+Po vaši prostovoljni privolitvi v analitiko PostHog ustvari trajen naključni identifikator za združevanje dogodkov uporabe. Če privolite tudi v povezavo uporabe z naročnino, Ranked storitvi PostHog pošlje stabilno zgoščeno vrednost, izpeljano iz naključnega identifikatorja namestitve, ki ga ustvari RevenueCat. Tako lahko uporabo aplikacije povežemo z izidom preizkusnega obdobja ali naročnine. Podatki so psevdonimni, ne anonimni: dogodki se lahko še vedno nanašajo na isto osebo. Imen, e-poštnih naslovov, Apple ID-jev, potrdil o nakupu ali zapiskov o vadbi ne pošiljamo. Privolitev v analizo uporabe in privolitev v povezavo z naročnino lahko ločeno prekličete v Nastavitvah ▸ Podatki in zasebnost. Preklic ustavi nove povezave, prejšnjih podatkov pa ne izbriše samodejno.
 
 ### 3.2 Nakupi (Apple in RevenueCat)
 
@@ -92,7 +96,7 @@ Na straneh vaj se najprej prikaže predogledna slika, shranjena v napravi. Vdela
 
 ## 4. Česa Ranked ne počne
 
-- **Nobenih računov.** Nikoli se ne prijavljate. Na nobenem strežniku ni vašega profila.
+- **Brez računa v aplikaciji.** V Ranked se ne prijavljate. Po vaši privolitvi lahko PostHog dogodke uporabe združuje pod psevdonimnim identifikatorjem (§3.1).
 - **Nobenega Apple Zdravja.** Ranked iz aplikacije Zdravje ne bere in vanjo ne piše.
 - **Nobenega sledenja po aplikacijah ali spletnih straneh**, nobenega oglaševalskega
   identifikatorja, nobenega oglaševanja v aplikaciji, nobenih podatkov, prodanih ali izročenih

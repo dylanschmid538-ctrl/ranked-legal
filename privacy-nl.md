@@ -7,7 +7,7 @@ permalink: /privacy/nl/
 
 # Privacyverklaring · Calisthenics Skills – Ranked
 
-**Laatst bijgewerkt: 2026-11-01**
+**Laatst bijgewerkt: 2026-11-05**
 
 Deze verklaring beschrijft welke gegevens Ranked verzamelt, waar ze naartoe gaan en wat u eraan kunt doen.
 
@@ -51,17 +51,21 @@ Je naam, profielfoto en voorfoto blijven op dit apparaat.
 
 ### 3.1 Gebruiksstatistieken (PostHog)
 
-Analyse staat standaard uit. Alleen als u in Instellingen uitdrukkelijk toestemming geeft, stuurt Ranked naar PostHog in de EU gebeurtenissen over inrichting, eerste beoordeling, rang- en fasewijzigingen (met vaardigheid en fase), betaalscherm, aankopen en geopende schermen. Gebeurtenissen van live trainingen bevatten begin, voltooiing of afbreken, verstreken seconden, aantal vastgelegde sets, aantal verschillende vaardigheden en of dit de eerste voltooide training was. Ze bevatten geen afzonderlijke oefeningen, herhalingen, gewichten of notities. Leeftijd, geslacht, lengte en lichaamsgewicht worden niet verzonden. PostHog ontvangt ook gebruikelijke technische gegevens over apparaat, iOS, app en taal en het IP-adres, waaruit een globale locatie kan worden afgeleid. Na uw toestemming wordt een willekeurige analyse-ID gemaakt. U kunt de toestemming in Instellingen ▸ Gegevens en privacy intrekken; nieuwe verzending stopt, eerder verzonden gegevens worden niet automatisch gewist.
+Analyse staat standaard uit. Alleen als u tijdens de eerste inrichting of later in Instellingen uitdrukkelijk toestemming geeft, stuurt Ranked naar PostHog in de EU gebeurtenissen over inrichting, eerste beoordeling, rang- en fasewijzigingen (met vaardigheid en fase), betaalscherm, aankopen en geopende schermen. Gebeurtenissen van live trainingen bevatten begin, voltooiing of afbreken, verstreken seconden, aantal vastgelegde sets, aantal verschillende vaardigheden en of dit de eerste voltooide training was. Ze bevatten geen afzonderlijke oefeningen, herhalingen, gewichten of notities. Leeftijd, geslacht, lengte en lichaamsgewicht worden niet verzonden. PostHog ontvangt ook gebruikelijke technische gegevens over apparaat, iOS, app en taal en het IP-adres, waaruit een globale locatie kan worden afgeleid. Na uw toestemming wordt een willekeurige analyse-ID gemaakt. U kunt de toestemming in Instellingen ▸ Gegevens en privacy intrekken; nieuwe verzending stopt, eerder verzonden gegevens worden niet automatisch gewist.
 
 De app kan ook de abonnementsfase, huidige toegang, verlengingsstatus en de detectie van een opzegging of factureringsprobleem melden. Deze waarnemingen zijn geen bewijs van een afschrijving en worden alleen verzonden zolang analyse is ingeschakeld.
 
 Met uw toestemming registreren gebruiksgebeurtenissen ook wanneer u een trainingsplan selecteert en een trainingssessie opent. De selectie van een plan omvat alleen het aantal trainingsdagen per week en oefeningen; het openen van een sessie omvat alleen of deze wordt hervat, de bron van binnenkomst en het aantal voorgeschreven oefeningen. De volledige inhoud van plannen, schema’s, afzonderlijke oefeningen en trainingsnotities blijven op uw apparaat.
 
+Na uw vrijwillige toestemming maakt PostHog een blijvende, willekeurige code aan voor gebruiksgebeurtenissen. Als u ook toestemming geeft om gebruik en abonnement te koppelen, stuurt Ranked een stabiele hashwaarde, afgeleid van de willekeurige installatiecode van RevenueCat, naar PostHog. Zo kunnen appgebruik en de uitkomst van de proefperiode en het abonnement worden gekoppeld. Deze gegevens zijn pseudoniem, niet anoniem. Ranked stuurt geen namen, e-mailadressen, Apple ID, aankoopbewijzen of trainingsnotities naar PostHog. U kunt uw toestemming voor gebruiksanalyse en voor de koppeling met het abonnement afzonderlijk intrekken via Instellingen ▸ Gegevens en privacy. Intrekking stopt nieuwe koppelingen, maar wist eerdere gegevens niet automatisch.
+
+> Optioneel: Deel appgebruik, beoordeelde vaardigheden, rang, trainingsactiviteit met PostHog om Ranked te verbeteren. We koppelen dit gebruik ook aan je proefperiode en abonnement via een willekeurige aankoopreferentie. Geen namen of trainingsnotities. Je kunt dit altijd wijzigen in Instellingen.
+
 ### 3.2 Aankopen (Apple en RevenueCat)
 
 Abonnementen worden door **Apple** verkocht en gefactureerd via de App Store. Wij zien nooit uw betaalgegevens, Apple Account of naam.
 
-Om te controleren of uw abonnement actief is, gebruikt de app **RevenueCat**. RevenueCat ontvangt het App Store-aankoopbewijs voor uw abonnement — het gekochte product, wanneer het begon en wanneer het afloopt — samen met standaard technische informatie zoals uw iOS-versie en appversie. Het herkent uw installatie via een willekeurige code die het zelf aanmaakt en op uw apparaat opslaat. Wij verstrekken RevenueCat niet uw naam, e-mailadres of andere identiteit; Ranked heeft geen accounts en dus geen accountidentiteit om te verstrekken.
+Om te controleren of uw abonnement actief is, gebruikt de app **RevenueCat**. RevenueCat ontvangt het App Store-aankoopbewijs voor uw abonnement — het gekochte product, wanneer het begon en wanneer het afloopt — samen met standaard technische informatie zoals uw iOS-versie en appversie. Het herkent uw installatie via een willekeurige code die het zelf aanmaakt en op uw apparaat opslaat. Wij verstrekken RevenueCat niet uw naam, e-mailadres of andere direct identificerende gegevens. Ranked heeft geen appaccounts; de willekeurige installatiecode is gekoppeld aan het abonnement.
 
 Als u op **Aankopen herstellen** tikt, vraagt de app Apple om de aankopen die zijn gedaan met het Apple Account dat op het apparaat is aangemeld en geeft het resultaat op dezelfde manier door aan RevenueCat.
 
@@ -118,7 +122,7 @@ U kunt uw toestemming voor analyse op elk moment zonder reden intrekken in Inste
 
 U kunt lokale trainingsgegevens wissen via Instellingen ▸ Gegevens en privacy ▸ *Lokale trainingsgegevens verwijderen* of door de app te verwijderen. Het abonnement beheert en beëindigt u apart via uw Apple Account.
 
-Schrijf voor gegevens die al naar PostHog zijn gestuurd naar **dylan.schmid538@gmail.com**. Ranked koppelt de willekeurige analyse-ID niet aan een account. Een geschatte datum of apparaatmodel is mogelijk onvoldoende om uw profiel betrouwbaar te vinden. Wij leggen uit wat identificeerbaar is en behandelen verifieerbare verzoeken om inzage, correctie of verwijdering. Stuur geen inloggegevens van uw Apple Account.
+Schrijf voor gegevens die al naar PostHog zijn gestuurd naar **dylan.schmid538@gmail.com**. Ranked heeft geen appaccount, maar met uw toestemming kan de analyse-ID pseudoniem worden gekoppeld aan de uitkomst van de proefperiode en het abonnement. Een geschatte datum of apparaatmodel is mogelijk onvoldoende om uw profiel betrouwbaar te vinden. Wij leggen uit wat identificeerbaar is en behandelen verifieerbare verzoeken om inzage, correctie of verwijdering. Stuur geen inloggegevens van uw Apple Account.
 
 U kunt beperking van de verwerking vragen en een klacht indienen bij de toezichthouder in uw land; in Zwitserland is dat de federale commissaris voor gegevensbescherming en transparantie (FDPIC).
 

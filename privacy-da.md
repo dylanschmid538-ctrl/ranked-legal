@@ -7,7 +7,7 @@ permalink: /privacy/da/
 
 # Privatlivspolitik · Calisthenics Skills – Ranked
 
-**Senest opdateret: 2026-11-01**
+**Senest opdateret: 2026-11-05**
 
 Denne politik beskriver, hvilke oplysninger Ranked indsamler, hvor de sendes hen, og hvad du kan gøre ved det.
 
@@ -51,11 +51,15 @@ Navn, profilbillede og førfoto bliver på denne enhed.
 
 ### 3.1 Brugsstatistik (PostHog)
 
-Analyse er som standard slået fra. Først når du udtrykkeligt giver samtykke i Indstillinger, sender Ranked til PostHog i EU hændelser om opsætning, første vurdering, ændringer i rang og trin (med færdighed og trin), købsskærm, køb og åbnede skærme. Hændelser fra live træning angiver start, afslutning eller afbrydelse, forløbne sekunder, antal registrerede sæt, antal forskellige færdigheder og om det var den første afsluttede træning. De indeholder ikke enkelte øvelser, gentagelser, vægte eller noter. Alder, køn, højde og kropsvægt sendes ikke. PostHog modtager også almindelige tekniske oplysninger om enhed, iOS, app og sprog samt IP-adressen, hvorfra en omtrentlig placering kan udledes. Et tilfældigt analyse-id oprettes efter dit samtykke. Du kan trække det tilbage under Indstillinger ▸ Data og anonymitet; nye hændelser stopper, mens allerede sendte data ikke slettes automatisk.
+Analyse er som standard slået fra. Først når du udtrykkeligt giver samtykke under opsætningen eller senere i Indstillinger, sender Ranked til PostHog i EU hændelser om opsætning, første vurdering, ændringer i rang og trin (med færdighed og trin), købsskærm, køb og åbnede skærme. Hændelser fra live træning angiver start, afslutning eller afbrydelse, forløbne sekunder, antal registrerede sæt, antal forskellige færdigheder og om det var den første afsluttede træning. De indeholder ikke enkelte øvelser, gentagelser, vægte eller noter. Alder, køn, højde og kropsvægt sendes ikke. PostHog modtager også almindelige tekniske oplysninger om enhed, iOS, app og sprog samt IP-adressen, hvorfra en omtrentlig placering kan udledes. Et tilfældigt analyse-id oprettes efter dit samtykke. Du kan trække det tilbage under Indstillinger ▸ Data og anonymitet; nye hændelser stopper, mens allerede sendte data ikke slettes automatisk.
 
 Appen kan også rapportere abonnementsfasen, den aktuelle adgang, fornyelsesstatus og om en opsigelse eller et faktureringsproblem blev registreret. Disse observationer er ikke bevis for en opkrævning og sendes kun, mens analyse er aktiveret.
 
 Med dit samtykke registrerer brugshændelser også, når du vælger en træningsplan, og når du åbner en træningssession. Valg af plan omfatter kun antallet af træningsdage om ugen og øvelser; åbning af en session omfatter kun, om den genoptages, indgangskilden og antallet af foreskrevne øvelser. Planernes fulde indhold, tidsplaner, individuelle øvelser og træningsnoter forbliver på din enhed.
+
+Når du frivilligt har givet samtykke til deling af brugsdata, opretter PostHog en vedvarende, tilfældig identifikator på din enhed til at samle brugshændelser. Hvis du også samtykker til at knytte brugen til din prøveperiode og dit abonnement, sender Ranked en stabil, hashet værdi afledt af RevenueCats tilfældige installations-id til PostHog. Dermed kan appbrug forbindes med udfaldet af prøveperioden eller abonnementet. Oplysningerne er pseudonyme, ikke anonyme: hændelserne kan stadig vedrøre den samme person. Navne, e-mailadresser, Apple-konti, købskvitteringer og træningsnoter sendes ikke til PostHog. Du kan senere trække samtykket til brugsanalyse og til abonnementskoblingen tilbage hver for sig i Indstillinger ▸ Data og anonymitet. Det første stopper nye hændelser, det andet stopper nye koblinger. Tidligere sendte data slettes ikke automatisk.
+
+> Valgfrit: Del brug af appen, vurderede færdigheder, rang, træningsaktivitet med PostHog for at forbedre Ranked. Vi knytter også denne brug til din prøveperiode og dit abonnement via en tilfældig købsreference. Ingen navne eller træningsnoter. Du kan ændre dette når som helst i Indstillinger.
 
 ### 3.2 Køb (Apple og RevenueCat)
 
@@ -78,7 +82,7 @@ Hvis du sender feedback eller en supportanmodning, sender Ranked beskeden, dens 
 
 ## 4. Hvad Ranked ikke gør
 
-- **Ingen konti.** Du logger aldrig ind. Ingen server har en profil om dig.
+- **Ingen appkonti.** Du logger ikke ind i Ranked. Med dit samtykke kan PostHog dog samle pseudonyme brugshændelser som beskrevet i §3.1.
 - **Intet Apple Health.** Ranked hverken læser fra eller skriver til appen Sundhed.
 - **Ingen sporing på tværs af apps eller websteder**, ingen reklameidentifikator, ingen reklamer i appen og ingen data, der sælges eller gives til datamæglere.
 - **Ingen pushserver.** Påmindelser planlægges lokalt på din telefon; intet om dem forlader enheden. Du bliver spurgt, før den første planlægges, og du kan når som helst slå dem fra i iOS-indstillingerne.
@@ -115,11 +119,11 @@ Alt på din enhed bliver der, indtil du sletter appen.
 
 ## 8. Dine rettigheder
 
-Du kan til enhver tid trække dit samtykke til analyse tilbage i Indstillinger ▸ Data og anonymitet uden begrundelse. Det stopper straks nye hændelser, men sletter ikke automatisk allerede sendte data og opsiger ikke dit App Store-abonnement.
+Du kan til enhver tid og uden begrundelse trække samtykket til brugsanalyse og til abonnementskoblingen tilbage hver for sig i Indstillinger ▸ Data og anonymitet. Det første stopper straks nye hændelser, det andet nye koblinger; tidligere sendte data slettes dog ikke automatisk, og dit App Store-abonnement opsiges ikke.
 
 Du kan slette lokale træningsdata under Indstillinger ▸ Data og anonymitet ▸ *Slet lokale træningsdata* eller ved at slette appen. Abonnementet administreres og opsiges særskilt i din Apple-konto.
 
-For data, der allerede er sendt til PostHog, kan du skrive til **dylan.schmid538@gmail.com**. Ranked knytter ikke det tilfældige analyse-id til en konto. En omtrentlig dato eller enhedsmodel er muligvis ikke nok til sikkert at finde din profil. Vi forklarer, hvad vi kan identificere, og behandler verificerbare anmodninger om indsigt, rettelse eller sletning. Send ikke oplysningerne til din Apple-konto.
+For data, der allerede er sendt til PostHog, kan du skrive til **dylan.schmid538@gmail.com**. Ranked har ingen brugerkonti i appen, men den hashede reference beskrevet i §3.1 kan knytte brugshændelser til abonnementsresultater. En omtrentlig dato eller enhedsmodel er muligvis ikke nok til sikkert at finde din profil. Vi forklarer, hvad vi kan identificere, og behandler verificerbare anmodninger om indsigt, rettelse eller sletning. Send ikke oplysningerne til din Apple-konto.
 
 Du kan anmode om begrænsning af behandlingen og klage til tilsynsmyndigheden i dit land; i Schweiz er det den føderale databeskyttelses- og informationskommissær (FDPIC).
 

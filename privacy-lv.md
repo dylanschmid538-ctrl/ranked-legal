@@ -8,7 +8,7 @@ permalink: /privacy/lv/
 
 # Privātuma politika · Calisthenics Skills – Ranked
 
-**Pēdējoreiz atjaunināts: 2026-11-01**
+**Pēdējoreiz atjaunināts: 2026-11-05**
 
 Šī politika apraksta, ko Ranked vāc, kurp tas nonāk un ko Jūs varat ar to darīt.
 
@@ -59,11 +59,15 @@ Jūsu vārds, profila fotoattēls un sākuma fotoattēls paliek šajā ierīcē.
 
 ### 3.1 Lietojuma statistika (PostHog)
 
-Analītika pēc noklusējuma ir izslēgta. Tikai tad, ja Iestatījumos skaidri piekrītat, Ranked nosūta ES izvietotajam PostHog notikumus par iestatīšanu, sākotnējo novērtējumu, ranga un posma izmaiņām (ar prasmi un posmu), pirkuma ekrānu, pirkumiem un atvērtajiem ekrāniem. Tiešsaistes treniņa notikumi ietver sākumu, pabeigšanu vai pārtraukšanu, pagājušās sekundes, reģistrēto sēriju un dažādu prasmju skaitu, kā arī to, vai šis bija pirmais pabeigtais treniņš. Tie nesatur atsevišķus vingrinājumus, atkārtojumus, svarus vai piezīmes. Vecums, dzimums, augums un ķermeņa svars netiek nosūtīti. PostHog saņem arī parastos tehniskos datus par ierīci, iOS, lietotni un valodu un IP adresi, no kuras var secināt aptuvenu atrašanās vietu. Nejaušs analītikas identifikators tiek izveidots pēc piekrišanas. To varat atsaukt Iestatījumos ▸ Dati un privātums; jauni notikumi vairs netiek sūtīti, bet iepriekš nosūtītie dati automātiski netiek dzēsti.
+Analītika pēc noklusējuma ir izslēgta. Tikai tad, ja iestatīšanas laikā vai vēlāk Iestatījumos skaidri piekrītat, Ranked nosūta ES izvietotajam PostHog notikumus par iestatīšanu, sākotnējo novērtējumu, ranga un posma izmaiņām (ar prasmi un posmu), pirkuma ekrānu, pirkumiem un atvērtajiem ekrāniem. Tiešsaistes treniņa notikumi ietver sākumu, pabeigšanu vai pārtraukšanu, pagājušās sekundes, reģistrēto sēriju un dažādu prasmju skaitu, kā arī to, vai šis bija pirmais pabeigtais treniņš. Tie nesatur atsevišķus vingrinājumus, atkārtojumus, svarus vai piezīmes. Vecums, dzimums, augums un ķermeņa svars netiek nosūtīti. PostHog saņem arī parastos tehniskos datus par ierīci, iOS, lietotni un valodu un IP adresi, no kuras var secināt aptuvenu atrašanās vietu. Nejaušs analītikas identifikators tiek izveidots pēc piekrišanas. To varat atsaukt Iestatījumos ▸ Dati un privātums; jauni notikumi vairs netiek sūtīti, bet iepriekš nosūtītie dati automātiski netiek dzēsti.
 
 Lietotne var arī ziņot abonementa posmu, pašreizējo piekļuvi, atjaunošanas statusu un to, vai konstatēta atcelšana vai norēķinu problēma. Šie novērojumi nav pierādījums naudas ieturēšanai un tiek nosūtīti tikai tad, kad analīze ir ieslēgta.
 
 Ar jūsu piekrišanu lietošanas notikumi arī reģistrē, kad izvēlaties treniņu plānu un kad atverat treniņa sesiju. Plāna izvēle ietver tikai treniņu dienu skaitu nedēļā un vingrinājumu skaitu; sesijas atvēršana ietver tikai to, vai tā tiek atsākta, ieejas avotu un paredzēto vingrinājumu skaitu. Pilns plānu saturs, grafiki, atsevišķi vingrinājumi un treniņu piezīmes paliek jūsu ierīcē.
+
+Pēc Jūsu brīvprātīgas piekrišanas PostHog izveido pastāvīgu nejaušu identifikatoru lietojuma notikumiem. Ja piekrītat arī lietojuma sasaistīšanai ar abonementu, Ranked nosūta PostHog stabilu jaukšanas vērtību, kas iegūta no nejaušā RevenueCat instalācijas identifikatora, lai lietotnes lietojumu varētu sasaistīt ar izmēģinājuma perioda un abonementa rezultātu. Tie ir pseidonimizēti, nevis anonīmi dati. Ranked nesūta PostHog vārdus, e-pasta adreses, Apple ID, pirkuma kvītis vai treniņu piezīmes. Piekrišanu lietojuma analītikai un sasaistīšanai ar abonementu varat atsaukt atsevišķi Iestatījumos ▸ Dati un privātums. Atsaukšana aptur jaunas sasaistes, bet automātiski neizdzēš agrākos datus.
+
+> Pēc izvēles: kopīgojiet lietotnes lietojumu, novērtētās prasmes, rangu un treniņu aktivitāti ar PostHog, lai uzlabotu Ranked. Šos datus arī sasaistām ar izmēģinājuma periodu un abonementu, izmantojot nejaušu pirkuma atsauci. Vārdi un treniņu piezīmes netiek sūtītas. Izvēli jebkurā laikā var mainīt iestatījumos.
 
 ### 3.2 Pirkumi (Apple un RevenueCat)
 
@@ -73,9 +77,7 @@ kontu un Jūsu vārdu mēs nekad neredzam.
 Lai pārbaudītu, vai Jūsu abonements ir aktīvs, lietotne izmanto **RevenueCat**. RevenueCat saņem Jūsu
 abonementa App Store pirkuma ierakstu — kāds produkts nopirkts, kad tas sākās un kad beidzas — kopā
 ar standarta tehnisko informāciju, piemēram, Jūsu iOS versiju un lietotnes versiju. Jūsu instalāciju
-tas atpazīst pēc nejauša identifikatora, ko pats izveido un saglabā Jūsu ierīcē. RevenueCat mēs
-nedodam ne Jūsu vārdu, ne e-pasta adresi, ne kādu citu identitāti, un, tā kā Ranked nav kontu, nav
-arī, ko dot.
+tas atpazīst pēc nejauša identifikatora, ko pats izveido un saglabā Jūsu ierīcē. RevenueCat mēs nenododam Jūsu vārdu, e-pasta adresi vai citus tiešus identitātes datus. Ranked nav lietotnes kontu, tomēr nejaušais instalācijas identifikators ir saistīts ar abonementu.
 
 Kad pieskaraties **Atjaunot pirkumus**, lietotne pajautā Apple par pirkumiem, kas veikti ar ierīcē
 pieteikto Apple kontu, un rezultātu tādā pašā veidā nodod RevenueCat.
@@ -145,7 +147,7 @@ Piekrišanu analītikai varat jebkurā laikā bez pamatojuma atsaukt Iestatījum
 
 Vietējos treniņu datus varat dzēst Iestatījumos ▸ Dati un privātums ▸ *Dzēst vietējos treniņu datus* vai dzēšot lietotni. Abonementu pārvaldāt un atceļat atsevišķi savā Apple kontā.
 
-Par datiem, kas jau nosūtīti PostHog, rakstiet uz **dylan.schmid538@gmail.com**. Ranked nesaista nejaušo analītikas identifikatoru ar kontu. Aptuvens datums vai ierīces modelis var nebūt pietiekams, lai droši atrastu profilu. Paskaidrosim, ko varam identificēt, un izskatīsim pārbaudāmus piekļuves, labošanas vai dzēšanas pieprasījumus. Nesūtiet Apple konta pieslēgšanās datus.
+Par datiem, kas jau nosūtīti PostHog, rakstiet uz **dylan.schmid538@gmail.com**. Ranked nav lietotnes kontu, tomēr ar Jūsu piekrišanu analītikas identifikatoru var pseidonīmi sasaistīt ar izmēģinājuma perioda un abonementa rezultātu. Aptuvens datums vai ierīces modelis var nebūt pietiekams, lai droši atrastu profilu. Paskaidrosim, ko varam identificēt, un izskatīsim pārbaudāmus piekļuves, labošanas vai dzēšanas pieprasījumus. Nesūtiet Apple konta pieslēgšanās datus.
 
 Varat lūgt ierobežot apstrādi un iesniegt sūdzību savas valsts uzraudzības iestādei; Šveicē tas ir federālais datu aizsardzības un informācijas komisārs (FDPIC).
 
