@@ -1,0 +1,206 @@
+[
+  {
+    "file": "privacy-ar.md",
+    "locale": "ar",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-ca.md",
+    "locale": "ca",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-cs.md",
+    "locale": "cs",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-da.md",
+    "locale": "da",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-de.md",
+    "locale": "de",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-el.md",
+    "locale": "el",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-es.md",
+    "locale": "es",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-fi.md",
+    "locale": "fi",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-fr.md",
+    "locale": "fr",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-he.md",
+    "locale": "he",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-hr.md",
+    "locale": "hr",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-hu.md",
+    "locale": "hu",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-id.md",
+    "locale": "id",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-it.md",
+    "locale": "it",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-ja.md",
+    "locale": "ja",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-ko.md",
+    "locale": "ko",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-lt.md",
+    "locale": "lt",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-lv.md",
+    "locale": "lv",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-ms.md",
+    "locale": "ms",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-nl.md",
+    "locale": "nl",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-no.md",
+    "locale": "no",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-pl.md",
+    "locale": "pl",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-pt.md",
+    "locale": "pt",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-ro.md",
+    "locale": "ro",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-ru.md",
+    "locale": "ru",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-sk.md",
+    "locale": "sk",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-sl.md",
+    "locale": "sl",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-sv.md",
+    "locale": "sv",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-th.md",
+    "locale": "th",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-tr.md",
+    "locale": "tr",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-vi.md",
+    "locale": "vi",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-zh-Hans.md",
+    "locale": "zh-Hans",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy-zh-Hant.md",
+    "locale": "zh-Hant",
+    "delta_only": true,
+    "date": "2026-11-09"
+  },
+  {
+    "file": "privacy.md",
+    "locale": "en",
+    "delta_only": true,
+    "date": "2026-11-09"
+  }
+]

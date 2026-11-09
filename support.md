@@ -40,15 +40,19 @@ is still missing, contact us with the message shown by the app.
 
 ### How do I cancel?
 
-Cancelling is done in your Apple account, not in the app: **Settings → your name →
-Subscriptions → Ranked → Cancel**. Your access runs to the end of the period you paid
-for. We cannot cancel it for you, and Apple does not let us.
+Open **Ranked Settings → Subscription → Manage Subscription** for subscription help through
+RevenueCat Customer Center. The separate **Manage Subscription** link with the Apple logo at the bottom of the support screen
+opens Apple subscription management directly, including if the support screen cannot load. You can also use
+**iPhone Settings → your name → Subscriptions → Ranked → Cancel**. Apple handles cancellation;
+opening management or selecting a survey answer does not cancel your subscription. Your access
+continues until the end of the paid period.
 
 ### Refunds
 
-Apple handles all refunds. Go to **reportaproblem.apple.com**, sign in, and pick the
-purchase. Write to us as well if something in the app is the reason — we would rather
-fix it.
+Apple decides whether to approve refunds. Customer Center can offer a refund-request path;
+completing a request does not mean it has been approved. You can also go to
+**reportaproblem.apple.com**, sign in, and choose the purchase. Contact us if something in
+the app caused the problem.
 
 ### Delete my training data
 

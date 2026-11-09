@@ -7,7 +7,7 @@ permalink: /privacy/hu/
 
 # Adatvédelmi tájékoztató · Calisthenics Skills – Ranked
 
-**Utolsó frissítés: 2026-11-05**
+**Utolsó frissítés: 2026-11-09**
 
 Ez a tájékoztató ismerteti, milyen adatokat gyűjt a Ranked, hová kerülnek, és milyen lehetőségei vannak velük kapcsolatban.
 
@@ -68,6 +68,8 @@ Az előfizetéseket az **Apple** értékesíti és számlázza az App Store-on k
 Az aktív előfizetés ellenőrzésére az alkalmazás a **RevenueCat** szolgáltatást használja. A RevenueCat megkapja az előfizetés App Store-beli vásárlási rekordját — a megvásárolt terméket, a kezdés és a lejárat időpontját —, valamint szokásos műszaki adatokat, például az iOS és az alkalmazás verzióját. A telepítést saját maga által létrehozott, az eszközön tárolt véletlenszerű azonosítóval ismeri fel. Nem adjuk át a RevenueCatnek az Ön nevét, e-mail-címét vagy más közvetlen személyazonossági adatát. A Rankednek nincs alkalmazásbeli fiókja; a véletlenszerű telepítési azonosító az előfizetéshez kapcsolódik.
 
 Ha a **Vásárlások visszaállítása** lehetőségre koppint, az alkalmazás lekéri az Apple-től az eszközön bejelentkezett Apple-fiókkal végzett vásárlásokat, és az eredményt ugyanígy továbbítja a RevenueCatnek.
+
+Az előfizetésekkel kapcsolatos segítségnyújtás a RevenueCat Customer Center szolgáltatáson keresztül történik. Amikor megnyitja, a RevenueCat az Ön által választott támogatási műveleteket és az esetleges, önkéntesen kiválasztott kérdőívválaszait a vásárlási hivatkozásával együtt kezeli a kérése feldolgozása érdekében. Ez elkülönül a §3.3-ban leírt visszajelzési űrlaptól; az azon megadott üzenetek és kapcsolattartási adatok nem kerülnek elküldésre a RevenueCatnek. A használati analitikához és az előfizetéssel való összekapcsoláshoz adott önkéntes hozzájárulásával a Ranked a támogatási műveletek rögzített kategóriáit küldi el a PostHognak, szabad szöveg és kapcsolattartási adatok nélkül. Ebben a verzióban a kérdőívválaszok nem kerülnek elküldésre a PostHognak. Az előfizetéskezelés megnyitása nem erősíti meg a lemondást, és egy visszatérítési kérelem befejezése nem erősíti meg a visszatérítés jóváhagyását.
 
 ### 3.3 Visszajelzések és támogatási üzenetek (Cloudflare és CloudKit)
 

@@ -8,7 +8,7 @@ permalink: /privacy/de/
 
 # Datenschutzerklärung · Calisthenics Skills – Ranked
 
-**Zuletzt aktualisiert: 2026-11-05**
+**Zuletzt aktualisiert: 2026-11-09**
 
 Diese Erklärung beschreibt, was Ranked erhebt, wohin es geht und was Sie dagegen tun können.
 
@@ -88,6 +88,8 @@ E-Mail-Adresse noch eine andere Identität, und da Ranked keine Konten hat, gibt
 Wenn Sie **Käufe wiederherstellen** antippen, fragt die App bei Apple die Käufe ab, die mit dem auf
 dem Gerät angemeldeten Apple-Account getätigt wurden, und gibt das Ergebnis auf demselben Weg an
 RevenueCat weiter.
+
+Hilfe zu Abonnements wird über RevenueCat Customer Center bereitgestellt. Wenn Sie es öffnen, verarbeitet RevenueCat die von Ihnen gewählten Supportaktionen und eine etwaige freiwillige Auswahl in einer Umfrage zusammen mit Ihrer Kaufreferenz, um Ihre Anfrage zu bearbeiten. Dies ist vom Feedbackformular in §3.3 getrennt; die Nachrichten und Kontaktdaten aus diesem Formular werden nicht an RevenueCat gesendet. Mit Ihrer freiwilligen Einwilligung in die Nutzungsanalyse und die Abo-Verknüpfung sendet Ranked festgelegte Kategorien von Supportaktionen an PostHog, ohne Freitext oder Kontaktdaten. Umfrageantworten werden in dieser Version nicht an PostHog gesendet. Das Öffnen der Abonnementverwaltung bestätigt keine Kündigung, und der Abschluss eines Erstattungsantrags bestätigt keine Genehmigung einer Erstattung.
 
 ### 3.3 Nachrichten für Feedback und Support (Cloudflare und CloudKit)
 

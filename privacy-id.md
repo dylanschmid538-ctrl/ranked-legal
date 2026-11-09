@@ -7,7 +7,7 @@ permalink: /privacy/id/
 
 # Kebijakan Privasi · Calisthenics Skills – Ranked
 
-**Terakhir diperbarui: 2026-11-05**
+**Terakhir diperbarui: 2026-11-09**
 
 Kebijakan ini menjelaskan data apa yang dikumpulkan Ranked, ke mana data tersebut dikirim, dan apa yang dapat Anda lakukan.
 
@@ -68,6 +68,8 @@ Langganan dijual dan ditagihkan oleh **Apple** melalui App Store. Kami tidak per
 Untuk memeriksa apakah langganan aktif, aplikasi menggunakan **RevenueCat**. RevenueCat menerima catatan pembelian App Store untuk langganan Anda — produk yang dibeli, kapan dimulai dan berakhir — bersama informasi teknis standar seperti versi iOS dan aplikasi. RevenueCat mengenali pemasangan aplikasi melalui pengenal acak yang dibuatnya sendiri dan disimpan di perangkat Anda. Kami tidak memberikan nama, alamat email, atau identitas langsung lainnya kepada RevenueCat. Ranked tidak memiliki akun aplikasi; pengenal pemasangan acak tersebut terkait dengan langganan.
 
 Saat Anda mengetuk **Pulihkan Pembelian**, aplikasi meminta Apple memberikan pembelian yang dilakukan dengan Akun Apple yang masuk pada perangkat lalu menyampaikan hasilnya kepada RevenueCat dengan cara yang sama.
+
+Bantuan terkait langganan disediakan melalui RevenueCat Customer Center. Saat Anda membukanya, RevenueCat memproses tindakan dukungan yang Anda pilih dan setiap pilihan opsional dalam survei, beserta referensi pembelian Anda, untuk menangani permintaan Anda. Hal ini terpisah dari formulir masukan pada §3.3; pesan dan informasi kontak dari formulir tersebut tidak dikirim ke RevenueCat. Dengan persetujuan sukarela Anda untuk analitik penggunaan dan pengaitan langganan, Ranked mengirim kategori tindakan dukungan yang telah ditetapkan ke PostHog, tanpa teks bebas atau informasi kontak. Jawaban survei tidak dikirim ke PostHog dalam versi ini. Membuka pengelolaan langganan tidak mengonfirmasi pembatalan, dan menyelesaikan permintaan pengembalian dana tidak mengonfirmasi bahwa pengembalian dana telah disetujui.
 
 ### 3.3 Pesan masukan dan dukungan (Cloudflare dan CloudKit)
 

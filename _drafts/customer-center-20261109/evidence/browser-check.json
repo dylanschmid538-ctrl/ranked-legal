@@ -1,0 +1,492 @@
+{
+  "sheets": [
+    {
+      "renderer": "RDoc + Chrome; NOT Jekyll",
+      "font": 16,
+      "cards": [
+        {
+          "locale": "ar",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 490,
+          "paragraphs": 1,
+          "dir": "rtl",
+          "visible": true
+        },
+        {
+          "locale": "ca",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 782,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "cs",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 710,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "da",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 734,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        }
+      ],
+      "sheet": 1,
+      "exit_code": 0
+    },
+    {
+      "renderer": "RDoc + Chrome; NOT Jekyll",
+      "font": 16,
+      "cards": [
+        {
+          "locale": "de",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 782,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "el",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 806,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "es",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 758,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "fi",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 682,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        }
+      ],
+      "sheet": 2,
+      "exit_code": 0
+    },
+    {
+      "renderer": "RDoc + Chrome; NOT Jekyll",
+      "font": 16,
+      "cards": [
+        {
+          "locale": "fr",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 754,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "he",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 538,
+          "paragraphs": 1,
+          "dir": "rtl",
+          "visible": true
+        },
+        {
+          "locale": "hr",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 686,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "hu",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 854,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        }
+      ],
+      "sheet": 3,
+      "exit_code": 0
+    },
+    {
+      "renderer": "RDoc + Chrome; NOT Jekyll",
+      "font": 16,
+      "cards": [
+        {
+          "locale": "id",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 758,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "it",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 734,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "ja",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 658,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "ko",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 514,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        }
+      ],
+      "sheet": 4,
+      "exit_code": 0
+    },
+    {
+      "renderer": "RDoc + Chrome; NOT Jekyll",
+      "font": 16,
+      "cards": [
+        {
+          "locale": "lt",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 710,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "lv",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 686,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "ms",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 758,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "nl",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 758,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        }
+      ],
+      "sheet": 5,
+      "exit_code": 0
+    },
+    {
+      "renderer": "RDoc + Chrome; NOT Jekyll",
+      "font": 16,
+      "cards": [
+        {
+          "locale": "no",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 710,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "pl",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 758,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "pt",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 730,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "ro",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 734,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        }
+      ],
+      "sheet": 6,
+      "exit_code": 0
+    },
+    {
+      "renderer": "RDoc + Chrome; NOT Jekyll",
+      "font": 16,
+      "cards": [
+        {
+          "locale": "ru",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 830,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "sk",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 734,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "sl",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 710,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "sv",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 686,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        }
+      ],
+      "sheet": 7,
+      "exit_code": 0
+    },
+    {
+      "renderer": "RDoc + Chrome; NOT Jekyll",
+      "font": 16,
+      "cards": [
+        {
+          "locale": "th",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 686,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "tr",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 634,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "vi",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 682,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "zh-Hans",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 490,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        }
+      ],
+      "sheet": 8,
+      "exit_code": 0
+    },
+    {
+      "renderer": "RDoc + Chrome; NOT Jekyll",
+      "font": 16,
+      "cards": [
+        {
+          "locale": "zh-Hant",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 490,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "en",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 610,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "support",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 815,
+          "paragraphs": 2,
+          "dir": "ltr",
+          "visible": true
+        }
+      ],
+      "sheet": 9,
+      "exit_code": 0
+    },
+    {
+      "renderer": "RDoc + Chrome; NOT Jekyll",
+      "font": 24,
+      "cards": [
+        {
+          "locale": "ar",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 997,
+          "paragraphs": 1,
+          "dir": "rtl",
+          "visible": true
+        },
+        {
+          "locale": "de",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 1687,
+          "paragraphs": 1,
+          "dir": "ltr",
+          "visible": true
+        },
+        {
+          "locale": "he",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 319,
+          "height": 1105,
+          "paragraphs": 1,
+          "dir": "rtl",
+          "visible": true
+        },
+        {
+          "locale": "support",
+          "outerWidth": 320,
+          "width": 319,
+          "scrollWidth": 325,
+          "height": 1631,
+          "paragraphs": 2,
+          "dir": "ltr",
+          "visible": true
+        }
+      ],
+      "sheet": 10,
+      "exit_code": 0
+    }
+  ],
+  "findings": [
+    {
+      "sheet": 10,
+      "locale": "support",
+      "font": 24,
+      "issue": "horizontal overflow or invisible text",
+      "metrics": {
+        "locale": "support",
+        "outerWidth": 320,
+        "width": 319,
+        "scrollWidth": 325,
+        "height": 1631,
+        "paragraphs": 2,
+        "dir": "ltr",
+        "visible": true
+      }
+    }
+  ]
+}

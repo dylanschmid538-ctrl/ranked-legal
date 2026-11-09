@@ -7,7 +7,7 @@ permalink: /privacy/ms/
 
 # Dasar Privasi · Calisthenics Skills – Ranked
 
-**Kemas kini terakhir: 2026-11-05**
+**Kemas kini terakhir: 2026-11-09**
 
 Dasar ini menerangkan data yang dikumpul oleh Ranked, ke mana data itu pergi, dan tindakan yang boleh anda ambil.
 
@@ -68,6 +68,8 @@ Langganan dijual dan dibilkan oleh **Apple** melalui App Store. Kami tidak perna
 Untuk mengesahkan sama ada langganan anda aktif, aplikasi menggunakan **RevenueCat**. RevenueCat menerima rekod pembelian langganan daripada App Store — produk yang dibeli, masa ia bermula dan tamat — bersama maklumat teknikal lazim seperti versi iOS dan versi aplikasi. Ia mengenal pasti pemasangan anda melalui pengecam rawak yang dijananya sendiri dan disimpan pada peranti anda. Kami tidak memberikan nama, alamat e-mel atau maklumat pengenalan langsung yang lain kepada RevenueCat. Ranked tidak mempunyai akaun aplikasi; pengecam pemasangan rawak itu dikaitkan dengan langganan.
 
 Apabila anda mengetik **Pulihkan Pembelian**, aplikasi meminta daripada Apple pembelian yang dibuat menggunakan Akaun Apple yang dilog masuk pada peranti, lalu menghantar hasilnya kepada RevenueCat dengan cara yang sama.
+
+Bantuan langganan disediakan melalui RevenueCat Customer Center. Apabila anda membukanya, RevenueCat memproses tindakan sokongan yang anda pilih dan sebarang pilihan tinjauan yang dibuat secara sukarela bersama rujukan pembelian anda untuk mengendalikan permintaan anda. Ini berasingan daripada borang maklum balas dalam §3.3; mesej dan maklumat hubungan daripada borang itu tidak dihantar kepada RevenueCat. Dengan persetujuan sukarela anda untuk analitik penggunaan dan pengaitan langganan, Ranked menghantar kategori tetap tindakan sokongan kepada PostHog, tanpa teks bebas atau maklumat hubungan. Jawapan tinjauan tidak dihantar kepada PostHog dalam versi ini. Membuka pengurusan langganan tidak mengesahkan pembatalan, dan melengkapkan permintaan bayaran balik tidak mengesahkan kelulusan bayaran balik.
 
 ### 3.3 Mesej maklum balas dan sokongan (Cloudflare dan CloudKit)
 

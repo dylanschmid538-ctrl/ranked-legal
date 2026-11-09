@@ -8,7 +8,7 @@ permalink: /privacy/sk/
 
 # Zásady ochrany osobných údajov · Calisthenics Skills – Ranked
 
-**Posledná aktualizácia: 2026-11-05**
+**Posledná aktualizácia: 2026-11-09**
 
 Tieto zásady opisujú, čo Ranked zbiera, kam to ide a čo s tým môžete urobiť.
 
@@ -84,6 +84,8 @@ Ranked nemá účty, ani niet čo dať.
 
 Keď klepnete na **Obnoviť nákupy**, aplikácia sa Apple opýta na nákupy uskutočnené účtom Apple
 prihláseným v zariadení a výsledok odovzdá RevenueCatu rovnakým spôsobom.
+
+Podpora týkajúca sa predplatného sa poskytuje prostredníctvom RevenueCat Customer Center. Keď ho otvoríte, RevenueCat spracúva vami zvolené úkony podpory a prípadné nepovinné voľby v dotazníku spolu s vašou referenciou nákupu, aby vybavil vašu žiadosť. Táto služba je oddelená od formulára spätnej väzby v §3.3; správy ani kontaktné údaje z tohto formulára sa službe RevenueCat neodosielajú. S vaším dobrovoľným súhlasom s analýzou používania a s prepojením s predplatným Ranked odosiela službe PostHog pevne stanovené kategórie úkonov podpory bez voľného textu či kontaktných údajov. Odpovede z dotazníkov sa v tejto verzii službe PostHog neodosielajú. Otvorenie správy predplatného nepotvrdzuje jeho zrušenie a dokončenie žiadosti o vrátenie peňazí nepotvrdzuje schválenie vrátenia peňazí.
 
 ### 3.3 Správy so spätnou väzbou a žiadosti o podporu (Cloudflare a CloudKit)
 

@@ -1,0 +1,177 @@
+[
+  {
+    "locale": "ar",
+    "dir": "rtl",
+    "markdown": "تُقدَّم المساعدة بشأن الاشتراكات عبر RevenueCat Customer Center. عند فتحه، تعالج RevenueCat إجراءات الدعم التي تختارها وأي خيار تحدده طوعاً في استبيان، مع مرجع الشراء الخاص بك، لمعالجة طلبك. وهذه الخدمة منفصلة عن نموذج الملاحظات في §3.3؛ ولا تُرسل رسائل ذلك النموذج وبيانات الاتصال الواردة فيه إلى RevenueCat. بموافقتك الاختيارية على تحليل الاستخدام وربطه بالاشتراك، يرسل Ranked إلى PostHog فئات ثابتة من إجراءات الدعم، دون نص حر أو بيانات اتصال. لا تُرسل إجابات الاستبيانات إلى PostHog في هذا الإصدار. لا يؤكد فتح إدارة الاشتراك إلغاء الاشتراك، كما لا يؤكد إكمال طلب استرداد الأموال الموافقة على استرداد الأموال.\n\n### 3.3 رسائل الملاحظات والدعم (Cloudflare وCloudKit)"
+  },
+  {
+    "locale": "ca",
+    "dir": "ltr",
+    "markdown": "L'assistència per a les subscripcions s'ofereix a través de RevenueCat Customer Center. Quan l'obriu, RevenueCat tracta les accions d'assistència que trieu i qualsevol opció que seleccioneu voluntàriament en una enquesta, juntament amb la vostra referència de compra, per atendre la vostra sol·licitud. Aquest servei és independent del formulari d'opinió del §3.3; els missatges i les dades de contacte d'aquell formulari no s'envien a RevenueCat. Amb el vostre consentiment opcional per a l'anàlisi d'ús i per a la vinculació amb la subscripció, Ranked envia a PostHog categories fixes d'accions d'assistència, sense text lliure ni dades de contacte. Les respostes a les enquestes no s'envien a PostHog en aquesta versió. L'obertura de la gestió de la subscripció no confirma la cancel·lació, i la finalització d'una sol·licitud de reemborsament no confirma l'aprovació d'un reemborsament.\n\n### 3.3 Missatges d’opinió i assistència (Cloudflare i CloudKit)"
+  },
+  {
+    "locale": "cs",
+    "dir": "ltr",
+    "markdown": "Podpora týkající se předplatného je poskytována prostřednictvím RevenueCat Customer Center. Když jej otevřete, RevenueCat zpracovává úkony podpory, které zvolíte, a případné nepovinné volby v dotazníku společně s vaší referencí nákupu, aby vyřídil váš požadavek. Tato služba je oddělená od formuláře zpětné vazby v §3.3; zprávy ani kontaktní údaje z tohoto formuláře se službě RevenueCat neodesílají. S vaším dobrovolným souhlasem s analýzou používání a s propojením s předplatným odesílá Ranked službě PostHog pevně stanovené kategorie úkonů podpory bez volného textu či kontaktních údajů. Odpovědi z dotazníků se v této verzi službě PostHog neodesílají. Otevření správy předplatného nepotvrzuje jeho zrušení a dokončení žádosti o vrácení peněz nepotvrzuje schválení vrácení peněz.\n\n### 3.3 Zprávy se zpětnou vazbou a žádosti o podporu (Cloudflare a CloudKit)"
+  },
+  {
+    "locale": "da",
+    "dir": "ltr",
+    "markdown": "Hjælp til abonnementer ydes gennem RevenueCat Customer Center. Når du åbner det, behandler RevenueCat de supporthandlinger, du vælger, og eventuelle frivillige valg i en spørgeundersøgelse sammen med din købsreference for at håndtere din anmodning. Dette er adskilt fra feedbackformularen i §3.3; beskeder og kontaktoplysninger fra den formular sendes ikke til RevenueCat. Med dit frivillige samtykke til brugsanalyse og abonnementskobling sender Ranked faste kategorier af supporthandlinger til PostHog uden fritekst eller kontaktoplysninger. Svar på spørgeundersøgelser sendes ikke til PostHog i denne version. Åbning af abonnementsadministrationen bekræfter ikke en opsigelse, og fuldførelse af en anmodning om refusion bekræfter ikke, at en refusion er godkendt.\n\n### 3.3 Feedback- og supportbeskeder (Cloudflare og CloudKit)"
+  },
+  {
+    "locale": "de",
+    "dir": "ltr",
+    "markdown": "Hilfe zu Abonnements wird über RevenueCat Customer Center bereitgestellt. Wenn Sie es öffnen, verarbeitet RevenueCat die von Ihnen gewählten Supportaktionen und eine etwaige freiwillige Auswahl in einer Umfrage zusammen mit Ihrer Kaufreferenz, um Ihre Anfrage zu bearbeiten. Dies ist vom Feedbackformular in §3.3 getrennt; die Nachrichten und Kontaktdaten aus diesem Formular werden nicht an RevenueCat gesendet. Mit Ihrer freiwilligen Einwilligung in die Nutzungsanalyse und die Abo-Verknüpfung sendet Ranked festgelegte Kategorien von Supportaktionen an PostHog, ohne Freitext oder Kontaktdaten. Umfrageantworten werden in dieser Version nicht an PostHog gesendet. Das Öffnen der Abonnementverwaltung bestätigt keine Kündigung, und der Abschluss eines Erstattungsantrags bestätigt keine Genehmigung einer Erstattung.\n\n### 3.3 Nachrichten für Feedback und Support (Cloudflare und CloudKit)"
+  },
+  {
+    "locale": "el",
+    "dir": "ltr",
+    "markdown": "Η υποστήριξη για συνδρομές παρέχεται μέσω του RevenueCat Customer Center. Όταν το ανοίγετε, το RevenueCat επεξεργάζεται τις ενέργειες υποστήριξης που επιλέγετε και οποιαδήποτε προαιρετική επιλογή σας σε έρευνα, μαζί με την αναφορά αγοράς σας, για να διεκπεραιώσει το αίτημά σας. Αυτό είναι ξεχωριστό από τη φόρμα σχολίων της §3.3· τα μηνύματα και τα στοιχεία επικοινωνίας αυτής της φόρμας δεν αποστέλλονται στο RevenueCat. Με την οικειοθελή συγκατάθεσή σας για ανάλυση χρήσης και για σύνδεση με τη συνδρομή, το Ranked στέλνει στο PostHog σταθερές κατηγορίες ενεργειών υποστήριξης, χωρίς ελεύθερο κείμενο ή στοιχεία επικοινωνίας. Οι απαντήσεις σε έρευνες δεν αποστέλλονται στο PostHog σε αυτή την έκδοση. Το άνοιγμα της διαχείρισης συνδρομών δεν επιβεβαιώνει την ακύρωση και η ολοκλήρωση ενός αιτήματος επιστροφής χρημάτων δεν επιβεβαιώνει την έγκριση επιστροφής χρημάτων.\n\n### 3.3 Μηνύματα σχολίων και υποστήριξης (Cloudflare και CloudKit)"
+  },
+  {
+    "locale": "es",
+    "dir": "ltr",
+    "markdown": "La asistencia relacionada con las suscripciones se presta a través de RevenueCat Customer Center. Cuando lo abre, RevenueCat trata las acciones de asistencia que elija y cualquier opción que seleccione voluntariamente en una encuesta, junto con su referencia de compra, para atender su solicitud. Esto es independiente del formulario de opiniones del §3.3; los mensajes y datos de contacto de ese formulario no se envían a RevenueCat. Con su consentimiento voluntario para el análisis de uso y para el vínculo con la suscripción, Ranked envía a PostHog categorías fijas de acciones de asistencia, sin texto libre ni datos de contacto. Las respuestas a las encuestas no se envían a PostHog en esta versión. Abrir la gestión de suscripciones no confirma la cancelación, y completar una solicitud de reembolso no confirma la aprobación de un reembolso.\n\n### 3.3 Mensajes de opinión o asistencia (Cloudflare y CloudKit)"
+  },
+  {
+    "locale": "fi",
+    "dir": "ltr",
+    "markdown": "Tilauksiin liittyvää apua tarjotaan RevenueCat Customer Center -palvelun kautta. Kun avaat sen, RevenueCat käsittelee valitsemasi tukitoimet ja mahdolliset vapaaehtoiset kyselyvalintasi yhdessä ostoviitteesi kanssa pyyntösi käsittelemiseksi. Tämä palvelu on erillinen kohdassa §3.3 kuvatusta palautelomakkeesta; kyseisen lomakkeen viestejä ja yhteystietoja ei lähetetä RevenueCatille. Vapaaehtoisella suostumuksellasi käyttöanalytiikkaan ja tilaukseen yhdistämiseen Ranked lähettää PostHogille ennalta määriteltyjä tukitoimien luokkia ilman vapaata tekstiä tai yhteystietoja. Kyselyvastauksia ei lähetetä PostHogille tässä versiossa. Tilauksen hallinnan avaaminen ei vahvista tilauksen peruuttamista, eikä hyvityspyynnön loppuun saattaminen vahvista hyvityksen hyväksymistä.\n\n### 3.3 Palaute- ja tukiviestit (Cloudflare ja CloudKit)"
+  },
+  {
+    "locale": "fr",
+    "dir": "ltr",
+    "markdown": "L’aide relative aux abonnements est fournie par l’intermédiaire de RevenueCat Customer Center. Lorsque vous l’ouvrez, RevenueCat traite les actions d’assistance que vous choisissez et toute option sélectionnée à titre facultatif dans une enquête, ainsi que votre référence d’achat, pour répondre à votre demande. Ce service est distinct du formulaire d’avis décrit au §3.3 ; les messages et les coordonnées de ce formulaire ne sont pas transmis à RevenueCat. Avec votre consentement facultatif à l’analyse d’utilisation et au lien avec l’abonnement, Ranked transmet à PostHog des catégories fixes d’actions d’assistance, sans texte libre ni coordonnées. Les réponses aux enquêtes ne sont pas transmises à PostHog dans cette version. L’ouverture de la gestion des abonnements ne confirme pas la résiliation, et le fait de compléter une demande de remboursement ne confirme pas l’approbation d’un remboursement.\n\n### 3.3 Messages et demandes d’aide (Cloudflare et CloudKit)"
+  },
+  {
+    "locale": "he",
+    "dir": "rtl",
+    "markdown": "תמיכה בנושאי מינויים ניתנת באמצעות RevenueCat Customer Center. בעת פתיחתו, RevenueCat מעבדת את פעולות התמיכה שבחרת ואת הבחירות האופציונליות שלך בסקר, יחד עם אסמכתת הרכישה שלך, כדי לטפל בבקשתך. שירות זה נפרד מטופס המשוב בסעיף §3.3; ההודעות ופרטי הקשר מהטופס אינם נשלחים ל-RevenueCat. בהסכמתך מרצון לניתוח השימוש ולקישור למינוי, Ranked שולחת ל-PostHog קטגוריות קבועות של פעולות תמיכה, ללא טקסט חופשי או פרטי קשר. תשובות לסקרים אינן נשלחות ל-PostHog בגרסה זו. פתיחת ניהול המינויים אינה מהווה אישור לביטול, והשלמת בקשה להחזר כספי אינה מהווה אישור לכך שההחזר אושר.\n\n### 3.3 הודעות משוב ותמיכה (Cloudflare ו-CloudKit)"
+  },
+  {
+    "locale": "hr",
+    "dir": "ltr",
+    "markdown": "Podrška za pretplate pruža se putem usluge RevenueCat Customer Center. Kada je otvorite, RevenueCat obrađuje radnje podrške koje odaberete i eventualne neobavezne odabire u anketi, zajedno s vašom referencom kupnje, radi obrade vašeg zahtjeva. To je odvojeno od obrasca za povratne informacije iz §3.3; poruke i podaci za kontakt iz tog obrasca ne šalju se usluzi RevenueCat. Uz vaš dobrovoljni pristanak na analizu upotrebe i na povezivanje s pretplatom, Ranked šalje usluzi PostHog fiksne kategorije radnji podrške, bez slobodnog teksta ili podataka za kontakt. Odgovori na ankete u ovoj se verziji ne šalju usluzi PostHog. Otvaranje upravljanja pretplatama ne potvrđuje otkazivanje, a dovršetak zahtjeva za povrat novca ne potvrđuje odobrenje povrata novca.\n\n### 3.3 Poruke s povratnim informacijama i upiti podršci (Cloudflare i CloudKit)"
+  },
+  {
+    "locale": "hu",
+    "dir": "ltr",
+    "markdown": "Az előfizetésekkel kapcsolatos segítségnyújtás a RevenueCat Customer Center szolgáltatáson keresztül történik. Amikor megnyitja, a RevenueCat az Ön által választott támogatási műveleteket és az esetleges, önkéntesen kiválasztott kérdőívválaszait a vásárlási hivatkozásával együtt kezeli a kérése feldolgozása érdekében. Ez elkülönül a §3.3-ban leírt visszajelzési űrlaptól; az azon megadott üzenetek és kapcsolattartási adatok nem kerülnek elküldésre a RevenueCatnek. A használati analitikához és az előfizetéssel való összekapcsoláshoz adott önkéntes hozzájárulásával a Ranked a támogatási műveletek rögzített kategóriáit küldi el a PostHognak, szabad szöveg és kapcsolattartási adatok nélkül. Ebben a verzióban a kérdőívválaszok nem kerülnek elküldésre a PostHognak. Az előfizetéskezelés megnyitása nem erősíti meg a lemondást, és egy visszatérítési kérelem befejezése nem erősíti meg a visszatérítés jóváhagyását.\n\n### 3.3 Visszajelzések és támogatási üzenetek (Cloudflare és CloudKit)"
+  },
+  {
+    "locale": "id",
+    "dir": "ltr",
+    "markdown": "Bantuan terkait langganan disediakan melalui RevenueCat Customer Center. Saat Anda membukanya, RevenueCat memproses tindakan dukungan yang Anda pilih dan setiap pilihan opsional dalam survei, beserta referensi pembelian Anda, untuk menangani permintaan Anda. Hal ini terpisah dari formulir masukan pada §3.3; pesan dan informasi kontak dari formulir tersebut tidak dikirim ke RevenueCat. Dengan persetujuan sukarela Anda untuk analitik penggunaan dan pengaitan langganan, Ranked mengirim kategori tindakan dukungan yang telah ditetapkan ke PostHog, tanpa teks bebas atau informasi kontak. Jawaban survei tidak dikirim ke PostHog dalam versi ini. Membuka pengelolaan langganan tidak mengonfirmasi pembatalan, dan menyelesaikan permintaan pengembalian dana tidak mengonfirmasi bahwa pengembalian dana telah disetujui.\n\n### 3.3 Pesan masukan dan dukungan (Cloudflare dan CloudKit)"
+  },
+  {
+    "locale": "it",
+    "dir": "ltr",
+    "markdown": "L'assistenza per gli abbonamenti viene fornita tramite RevenueCat Customer Center. Quando lo apri, RevenueCat tratta le azioni di assistenza che scegli e qualsiasi opzione che selezioni facoltativamente in un sondaggio, insieme al tuo riferimento di acquisto, per gestire la tua richiesta. Questo servizio è separato dal modulo di feedback di §3.3; i messaggi e i recapiti di quel modulo non vengono inviati a RevenueCat. Con il tuo consenso facoltativo all'analisi dell'utilizzo e al collegamento con l'abbonamento, Ranked invia a PostHog categorie fisse di azioni di assistenza, senza testo libero o recapiti. In questa versione le risposte ai sondaggi non vengono inviate a PostHog. Aprire la gestione dell'abbonamento non conferma la disdetta, e completare una richiesta di rimborso non conferma l'approvazione di un rimborso.\n\n### 3.3 Messaggi di feedback e assistenza (Cloudflare e CloudKit)"
+  },
+  {
+    "locale": "ja",
+    "dir": "ltr",
+    "markdown": "サブスクリプションに関するサポートは、RevenueCat Customer Center を通じて提供されます。これを開くと、RevenueCat は、お客様の依頼に対応するため、お客様が選択したサポート操作と任意で選択したアンケートの回答を、購入参照とともに処理します。これは §3.3 のフィードバックフォームとは別のものであり、そのフォームのメッセージと連絡先情報は RevenueCat に送信されません。利用解析とサブスクリプションとの関連付けへの任意の同意に基づき、Ranked は、サポート操作の固定のカテゴリーを PostHog に送信します。自由記述や連絡先情報は含まれません。このバージョンでは、アンケートの回答は PostHog に送信されません。サブスクリプション管理を開くことは解約の確定を意味せず、返金申請を完了することは返金の承認を意味しません。\n\n### 3.3 フィードバックやサポートのメッセージ (CloudflareとCloudKit)"
+  },
+  {
+    "locale": "ko",
+    "dir": "ltr",
+    "markdown": "구독 관련 지원은 RevenueCat Customer Center를 통해 제공됩니다. 이를 열면 RevenueCat은 요청을 처리하기 위해 사용자가 선택한 지원 작업과 설문에서 선택적으로 고른 항목을 구매 참조와 함께 처리합니다. 이는 §3.3의 의견 양식과 별개이며, 해당 양식의 메시지와 연락처 정보는 RevenueCat에 전송되지 않습니다. 사용 분석 및 구독 연결에 선택적으로 동의한 경우 Ranked는 자유 입력 텍스트나 연락처 정보 없이 정해진 지원 작업 범주를 PostHog에 전송합니다. 이 버전에서는 설문 응답을 PostHog에 전송하지 않습니다. 구독 관리를 열었다고 해서 취소가 확인되는 것은 아니며, 환불 요청을 완료했다고 해서 환불 승인이 확인되는 것은 아닙니다.\n\n### 3.3 의견 및 지원 메시지 (Cloudflare 및 CloudKit)"
+  },
+  {
+    "locale": "lt",
+    "dir": "ltr",
+    "markdown": "Pagalba dėl prenumeratų teikiama per „RevenueCat Customer Center“. Kai jį atidarote, „RevenueCat“ tvarko Jūsų pasirinktus pagalbos veiksmus ir bet kokį savanorišką pasirinkimą apklausoje kartu su Jūsų pirkimo nuoroda, kad galėtų išnagrinėti Jūsų prašymą. Tai yra atskira nuo §3.3 aprašytos atsiliepimų formos; tos formos pranešimai ir kontaktiniai duomenys nesiunčiami „RevenueCat“. Gavusi Jūsų savanorišką sutikimą dėl naudojimo analitikos ir susiejimo su prenumerata, „Ranked“ siunčia „PostHog“ fiksuotas pagalbos veiksmų kategorijas be laisvo teksto ar kontaktinių duomenų. Šioje versijoje apklausų atsakymai nesiunčiami „PostHog“. Prenumeratos valdymo atidarymas nepatvirtina jos atšaukimo, o prašymo grąžinti pinigus užbaigimas nepatvirtina, kad pinigų grąžinimui pritarta.\n\n### 3.3 Atsiliepimų ir pagalbos pranešimai (Cloudflare ir CloudKit)"
+  },
+  {
+    "locale": "lv",
+    "dir": "ltr",
+    "markdown": "Atbalsts saistībā ar abonementiem tiek sniegts, izmantojot RevenueCat Customer Center. Kad to atverat, RevenueCat apstrādā Jūsu izvēlētās atbalsta darbības un jebkuru neobligātu izvēli aptaujā kopā ar Jūsu pirkuma atsauci, lai izskatītu Jūsu pieprasījumu. Tas ir nodalīts no atsauksmju veidlapas §3.3; šīs veidlapas ziņojumi un kontaktinformācija netiek sūtīti RevenueCat. Ar Jūsu brīvprātīgu piekrišanu lietojuma analītikai un sasaistīšanai ar abonementu Ranked sūta PostHog fiksētas atbalsta darbību kategorijas bez brīvā teksta vai kontaktinformācijas. Aptauju atbildes šajā versijā netiek sūtītas PostHog. Abonementu pārvaldības atvēršana neapliecina atcelšanu, un atmaksas pieprasījuma pabeigšana neapliecina, ka atmaksa ir apstiprināta.\n\n### 3.3 Atsauksmju un atbalsta ziņojumi (Cloudflare un CloudKit)"
+  },
+  {
+    "locale": "ms",
+    "dir": "ltr",
+    "markdown": "Bantuan langganan disediakan melalui RevenueCat Customer Center. Apabila anda membukanya, RevenueCat memproses tindakan sokongan yang anda pilih dan sebarang pilihan tinjauan yang dibuat secara sukarela bersama rujukan pembelian anda untuk mengendalikan permintaan anda. Ini berasingan daripada borang maklum balas dalam §3.3; mesej dan maklumat hubungan daripada borang itu tidak dihantar kepada RevenueCat. Dengan persetujuan sukarela anda untuk analitik penggunaan dan pengaitan langganan, Ranked menghantar kategori tetap tindakan sokongan kepada PostHog, tanpa teks bebas atau maklumat hubungan. Jawapan tinjauan tidak dihantar kepada PostHog dalam versi ini. Membuka pengurusan langganan tidak mengesahkan pembatalan, dan melengkapkan permintaan bayaran balik tidak mengesahkan kelulusan bayaran balik.\n\n### 3.3 Mesej maklum balas dan sokongan (Cloudflare dan CloudKit)"
+  },
+  {
+    "locale": "nl",
+    "dir": "ltr",
+    "markdown": "Hulp bij abonnementen wordt geboden via RevenueCat Customer Center. Wanneer u dit opent, verwerkt RevenueCat de supportacties die u kiest en eventuele vrijwillig gemaakte keuzes in een enquête, samen met uw aankoopreferentie, om uw verzoek af te handelen. Dit staat los van het feedbackformulier in §3.3; de berichten en contactgegevens uit dat formulier worden niet naar RevenueCat verzonden. Met uw vrijwillige toestemming voor gebruiksanalyse en voor de koppeling met het abonnement stuurt Ranked vaste categorieën van supportacties naar PostHog, zonder vrije tekst of contactgegevens. Antwoorden op enquêtes worden in deze versie niet naar PostHog verzonden. Het openen van abonnementsbeheer bevestigt geen opzegging, en het afronden van een terugbetalingsverzoek bevestigt niet dat een terugbetaling is goedgekeurd.\n\n### 3.3 Feedback- en supportberichten (Cloudflare en CloudKit)"
+  },
+  {
+    "locale": "no",
+    "dir": "ltr",
+    "markdown": "Hjelp med abonnementer gis gjennom RevenueCat Customer Center. Når du åpner det, behandler RevenueCat støttehandlingene du velger og eventuelle svaralternativer du velger frivillig i en spørreundersøkelse, sammen med kjøpsreferansen din, for å håndtere henvendelsen din. Dette er atskilt fra tilbakemeldingsskjemaet i §3.3; meldinger og kontaktopplysninger fra det skjemaet sendes ikke til RevenueCat. Med ditt frivillige samtykke til bruksanalyse og abonnementskobling sender Ranked faste kategorier av støttehandlinger til PostHog, uten fritekst eller kontaktopplysninger. Svar på spørreundersøkelser sendes ikke til PostHog i denne versjonen. Å åpne abonnementsadministrasjonen bekrefter ikke oppsigelse, og å fullføre en refusjonsforespørsel bekrefter ikke at en refusjon er godkjent.\n\n### 3.3 Tilbakemeldinger og støttehenvendelser (Cloudflare og CloudKit)"
+  },
+  {
+    "locale": "pl",
+    "dir": "ltr",
+    "markdown": "Pomoc dotycząca subskrypcji jest świadczona za pośrednictwem RevenueCat Customer Center. Gdy otwierasz tę usługę, RevenueCat przetwarza wybrane przez Ciebie działania związane z pomocą oraz ewentualne dobrowolne wybory odpowiedzi w ankiecie wraz z Twoim identyfikatorem zakupu, aby obsłużyć Twoją prośbę. Jest to oddzielone od formularza opinii w §3.3; wiadomości i dane kontaktowe z tego formularza nie są wysyłane do RevenueCat. Za Twoją dobrowolną zgodą na analitykę użycia i powiązanie z subskrypcją Ranked wysyła do PostHog stałe kategorie działań związanych z pomocą, bez swobodnego tekstu ani danych kontaktowych. W tej wersji odpowiedzi na ankiety nie są wysyłane do PostHog. Otwarcie zarządzania subskrypcją nie potwierdza anulowania, a ukończenie procesu wnioskowania o zwrot środków nie potwierdza zatwierdzenia zwrotu.\n\n### 3.3 Wiadomości z opinią lub prośbą o pomoc (Cloudflare i CloudKit)"
+  },
+  {
+    "locale": "pt",
+    "dir": "ltr",
+    "markdown": "O apoio relativo a assinaturas é prestado através do RevenueCat Customer Center. Quando o abre, a RevenueCat trata as ações de apoio que escolher e qualquer opção que selecione facultativamente num inquérito, juntamente com a sua referência de compra, para tratar o seu pedido. Este serviço é separado do formulário de opinião em §3.3; as mensagens e os dados de contacto desse formulário não são enviados à RevenueCat. Com o seu consentimento facultativo para a análise da utilização e para a associação à assinatura, o Ranked envia ao PostHog categorias fixas de ações de apoio, sem texto livre nem dados de contacto. As respostas aos inquéritos não são enviadas ao PostHog nesta versão. Abrir a gestão da assinatura não confirma o cancelamento, e concluir um pedido de reembolso não confirma a aprovação de um reembolso.\n\n### 3.3 Mensagens de opinião ou apoio (Cloudflare e CloudKit)"
+  },
+  {
+    "locale": "ro",
+    "dir": "ltr",
+    "markdown": "Asistența pentru abonamente este oferită prin RevenueCat Customer Center. Când îl deschideți, RevenueCat prelucrează acțiunile de asistență pe care le alegeți și orice selecție opțională din sondaj, împreună cu referința dvs. de achiziție, pentru a vă soluționa cererea. Acest serviciu este separat de formularul de feedback din §3.3; mesajele și datele de contact din acel formular nu sunt trimise către RevenueCat. Cu consimțământul dvs. voluntar pentru analiza utilizării și pentru asocierea cu abonamentul, Ranked trimite către PostHog categorii fixe de acțiuni de asistență, fără text liber sau date de contact. Răspunsurile la sondaje nu sunt trimise către PostHog în această versiune. Deschiderea gestionării abonamentului nu confirmă anularea, iar finalizarea unei cereri de rambursare nu confirmă aprobarea unei rambursări.\n\n### 3.3 Mesaje de feedback și asistență (Cloudflare și CloudKit)"
+  },
+  {
+    "locale": "ru",
+    "dir": "ltr",
+    "markdown": "Помощь по вопросам подписки предоставляется через RevenueCat Customer Center. Когда вы открываете его, RevenueCat обрабатывает выбранные вами действия для получения поддержки и любые добровольно выбранные ответы на опрос вместе с вашим идентификатором покупки, чтобы обработать ваш запрос. Это отдельно от формы обратной связи в §3.3; сообщения и контактные данные из этой формы не отправляются в RevenueCat. При наличии вашего добровольного согласия на аналитику использования и связь с подпиской Ranked отправляет в PostHog фиксированные категории действий для получения поддержки без свободного текста или контактных данных. В этой версии ответы на опросы не отправляются в PostHog. Открытие управления подпиской не подтверждает её отмену, а завершение запроса на возврат средств не подтверждает одобрение возврата.\n\n### 3.3 Сообщения с отзывами и запросами поддержки (Cloudflare и CloudKit)"
+  },
+  {
+    "locale": "sk",
+    "dir": "ltr",
+    "markdown": "Podpora týkajúca sa predplatného sa poskytuje prostredníctvom RevenueCat Customer Center. Keď ho otvoríte, RevenueCat spracúva vami zvolené úkony podpory a prípadné nepovinné voľby v dotazníku spolu s vašou referenciou nákupu, aby vybavil vašu žiadosť. Táto služba je oddelená od formulára spätnej väzby v §3.3; správy ani kontaktné údaje z tohto formulára sa službe RevenueCat neodosielajú. S vaším dobrovoľným súhlasom s analýzou používania a s prepojením s predplatným Ranked odosiela službe PostHog pevne stanovené kategórie úkonov podpory bez voľného textu či kontaktných údajov. Odpovede z dotazníkov sa v tejto verzii službe PostHog neodosielajú. Otvorenie správy predplatného nepotvrdzuje jeho zrušenie a dokončenie žiadosti o vrátenie peňazí nepotvrdzuje schválenie vrátenia peňazí.\n\n### 3.3 Správy so spätnou väzbou a žiadosti o podporu (Cloudflare a CloudKit)"
+  },
+  {
+    "locale": "sl",
+    "dir": "ltr",
+    "markdown": "Pomoč pri naročninah se zagotavlja prek storitve RevenueCat Customer Center. Ko jo odprete, RevenueCat obdeluje dejanja podpore, ki jih izberete, in morebitne prostovoljne izbire v anketi skupaj z vašo referenco nakupa, da obravnava vašo zahtevo. To je ločeno od obrazca za povratne informacije v §3.3; sporočila in kontaktni podatki iz tega obrazca se ne pošiljajo družbi RevenueCat. Z vašo prostovoljno privolitvijo v analizo uporabe in povezavo z naročnino Ranked pošilja storitvi PostHog vnaprej določene kategorije dejanj podpore brez prostega besedila ali kontaktnih podatkov. V tej različici se odgovori na ankete ne pošiljajo storitvi PostHog. Odprtje upravljanja naročnine ne potrjuje odpovedi naročnine, dokončanje zahteve za vračilo denarja pa ne potrjuje odobritve vračila denarja.\n\n### 3.3 Sporočila s povratnimi informacijami in prošnjami za podporo (Cloudflare in CloudKit)"
+  },
+  {
+    "locale": "sv",
+    "dir": "ltr",
+    "markdown": "Hjälp med abonnemang ges genom RevenueCat Customer Center. När du öppnar det behandlar RevenueCat de supportåtgärder du väljer och eventuella frivilliga val i en enkät tillsammans med din köpreferens för att hantera din förfrågan. Detta är separat från feedbackformuläret i §3.3; meddelanden och kontaktuppgifter från det formuläret skickas inte till RevenueCat. Med ditt frivilliga samtycke till användningsanalys och till kopplingen till prenumerationen skickar Ranked fasta kategorier av supportåtgärder till PostHog, utan fritext eller kontaktuppgifter. Enkätsvar skickas inte till PostHog i den här versionen. Att öppna abonnemangshanteringen bekräftar inte en uppsägning, och att slutföra en begäran om återbetalning bekräftar inte att en återbetalning har godkänts.\n\n### 3.3 Feedback- och supportmeddelanden (Cloudflare och CloudKit)"
+  },
+  {
+    "locale": "th",
+    "dir": "ltr",
+    "markdown": "ความช่วยเหลือเกี่ยวกับการสมัครสมาชิกให้บริการผ่าน RevenueCat Customer Center เมื่อคุณเปิดบริการนี้ RevenueCat จะประมวลผลการดำเนินการด้านการช่วยเหลือที่คุณเลือกและตัวเลือกใด ๆ ที่คุณเลือกตอบในแบบสำรวจโดยสมัครใจ ร่วมกับข้อมูลอ้างอิงการซื้อของคุณ เพื่อดำเนินการตามคำขอของคุณ บริการนี้แยกจากแบบฟอร์มแสดงความคิดเห็นใน §3.3 โดยข้อความและข้อมูลติดต่อจากแบบฟอร์มนั้นจะไม่ถูกส่งไปยัง RevenueCat เมื่อคุณให้ความยินยอมโดยสมัครใจในการวิเคราะห์การใช้งานและการเชื่อมโยงกับการสมัครสมาชิก Ranked จะส่งหมวดหมู่ที่กำหนดไว้ตายตัวของการดำเนินการด้านการช่วยเหลือไปยัง PostHog โดยไม่มีข้อความอิสระหรือข้อมูลติดต่อ คำตอบในแบบสำรวจจะไม่ถูกส่งไปยัง PostHog ในเวอร์ชันนี้ การเปิดการจัดการการสมัครสมาชิกไม่ได้ยืนยันการยกเลิก และการดำเนินคำขอคืนเงินจนเสร็จสิ้นไม่ได้ยืนยันการอนุมัติคืนเงิน\n\n### 3.3 ข้อความแสดงความคิดเห็นและขอความช่วยเหลือ (Cloudflare และ CloudKit)"
+  },
+  {
+    "locale": "tr",
+    "dir": "ltr",
+    "markdown": "Abonelik desteği RevenueCat Customer Center aracılığıyla sağlanır. Bunu açtığınızda RevenueCat, talebinizi ele almak için seçtiğiniz destek işlemlerini ve yaptığınız isteğe bağlı anket seçimlerini satın alma referansınızla birlikte işler. Bu, §3.3'teki görüş formundan ayrıdır; o formdaki mesajlar ve iletişim bilgileri RevenueCat'e gönderilmez. Kullanım analizi ve abonelikle ilişkilendirme için isteğe bağlı olarak verdiğiniz onayla Ranked, serbest metin veya iletişim bilgileri olmadan sabit destek işlemi kategorilerini PostHog'a gönderir. Bu sürümde anket yanıtları PostHog'a gönderilmez. Abonelik yönetimini açmak iptali doğrulamaz ve bir geri ödeme talebini tamamlamak, geri ödemenin onaylandığını doğrulamaz.\n\n### 3.3 Görüş ve destek mesajları (Cloudflare ve CloudKit)"
+  },
+  {
+    "locale": "vi",
+    "dir": "ltr",
+    "markdown": "Hỗ trợ về gói đăng ký được cung cấp thông qua RevenueCat Customer Center. Khi bạn mở dịch vụ này, RevenueCat xử lý những thao tác hỗ trợ bạn chọn và bất kỳ lựa chọn tự nguyện nào trong khảo sát cùng với mã tham chiếu mua hàng của bạn để giải quyết yêu cầu của bạn. Dịch vụ này tách biệt với biểu mẫu góp ý trong §3.3; tin nhắn và thông tin liên hệ từ biểu mẫu đó không được gửi đến RevenueCat. Khi bạn tự nguyện đồng ý với việc phân tích sử dụng và liên kết với gói đăng ký, Ranked gửi đến PostHog các danh mục thao tác hỗ trợ được quy định sẵn, không kèm văn bản tự do hay thông tin liên hệ. Câu trả lời khảo sát không được gửi đến PostHog trong phiên bản này. Việc mở mục quản lý gói đăng ký không xác nhận việc hủy, và việc hoàn tất yêu cầu hoàn tiền không xác nhận việc hoàn tiền được phê duyệt.\n\n### 3.3 Tin nhắn góp ý và hỗ trợ (Cloudflare và CloudKit)"
+  },
+  {
+    "locale": "zh-Hans",
+    "dir": "ltr",
+    "markdown": "订阅支持通过 RevenueCat Customer Center 提供。当您打开该服务时，RevenueCat 会将您选择的支持操作和您在问卷中自愿作出的任何选择与您的购买参考标识一并处理，以处理您的请求。这与 §3.3 中的反馈表单分开；该表单中的消息和联系方式不会发送给 RevenueCat。在您自愿同意使用分析和订阅关联的情况下，Ranked 会向 PostHog 发送支持操作的固定类别，不包含自由文本或联系方式。本版本不会将问卷答案发送给 PostHog。打开订阅管理并不构成取消确认，完成退款请求也不构成退款获批的确认。\n\n### 3.3 反馈和支持消息 (Cloudflare 与 CloudKit)"
+  },
+  {
+    "locale": "zh-Hant",
+    "dir": "ltr",
+    "markdown": "訂閱協助透過 RevenueCat Customer Center 提供。當您開啟此服務時，RevenueCat 會將您選擇的支援操作及任何自願選擇的問卷選項，連同您的購買參考識別碼一併處理，以處理您的請求。此服務獨立於 §3.3 的意見回饋表格；該表格的訊息和聯絡資料不會傳送給 RevenueCat。在您自願同意使用分析及訂閱連結的情況下，Ranked 會向 PostHog 傳送支援操作的固定類別，不含自由文字或聯絡資料。此版本不會將問卷答案傳送給 PostHog。開啟訂閱管理不代表已確認取消，完成退款申請亦不代表已確認退款獲批。\n\n### 3.3 意見回饋及支援訊息 (Cloudflare 與 CloudKit)"
+  },
+  {
+    "locale": "en",
+    "dir": "ltr",
+    "markdown": "Subscription help is provided through RevenueCat Customer Center. When you open it, RevenueCat processes the support actions you choose and any optional survey selection together with your purchase reference to handle your request. This is separate from the feedback form in §3.3; that form’s messages and contact details are not sent to RevenueCat. With your optional usage and subscription-link consent, Ranked sends PostHog fixed categories of support actions, without free text or contact details. Survey answers are not sent to PostHog in this version. Opening subscription management does not confirm cancellation, and completing a refund request does not confirm approval of a refund.\n\n### 3.3 Feedback and support (Cloudflare and CloudKit)"
+  },
+  {
+    "locale": "support",
+    "dir": "ltr",
+    "markdown": "### How do I cancel?\n\nOpen **Ranked Settings → Subscription → Manage Subscription** for subscription help through\nRevenueCat Customer Center. The separate **Manage Subscription** link with the Apple logo at the bottom of the support screen\nopens Apple subscription management directly, including if the support screen cannot load. You can also use\n**iPhone Settings → your name → Subscriptions → Ranked → Cancel**. Apple handles cancellation;\nopening management or selecting a survey answer does not cancel your subscription. Your access\ncontinues until the end of the paid period.\n\n### Refunds\n\nApple decides whether to approve refunds. Customer Center can offer a refund-request path;\ncompleting a request does not mean it has been approved. You can also go to\n**reportaproblem.apple.com**, sign in, and choose the purchase. Contact us if something in\nthe app caused the problem.\n\n"
+  }
+]

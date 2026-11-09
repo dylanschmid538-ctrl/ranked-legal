@@ -1,0 +1,6 @@
+{
+  "mutation": "expected cardinality 35 instead of 34, in-memory test only",
+  "expected_exit": 1,
+  "observed_exit": 1,
+  "output": "{\"privacy_pages\": 34, \"translation_deltas\": 33, \"source_deltas\": 1, \"selector_destinations\": 33, \"regional_entries_from_2026_10_15_evidence\": 37, \"rtl_pages\": 2, \"support_pages\": 1}\nERRORS: 1\nexpected 34 privacy pages\n"
+}
