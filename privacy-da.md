@@ -7,7 +7,7 @@ permalink: /privacy/da/
 
 # Privatlivspolitik · Calisthenics Skills – Ranked
 
-**Senest opdateret: 2026-11-05**
+**Senest opdateret: 2026-11-09**
 
 Denne politik beskriver, hvilke oplysninger Ranked indsamler, hvor de sendes hen, og hvad du kan gøre ved det.
 
@@ -68,6 +68,8 @@ Abonnementer sælges og faktureres af **Apple** via App Store. Vi ser aldrig din
 For at kontrollere, om dit abonnement er aktivt, bruger appen **RevenueCat**. RevenueCat modtager købsposten fra App Store for dit abonnement — det købte produkt, starttidspunktet og udløbstidspunktet — sammen med standardtekniske oplysninger som iOS-version og appversion. Din installation identificeres med en tilfældig identifikator, som RevenueCat selv danner og gemmer på din enhed. Vi giver ikke RevenueCat dit navn, din e-mailadresse eller nogen anden identitet; fordi Ranked ikke har konti, findes der ingen sådan identitet at give.
 
 Når du trykker på **Gendan køb**, beder appen Apple om de køb, der er foretaget med den Apple-konto, som er logget ind på enheden, og sender resultatet videre til RevenueCat på samme måde.
+
+Hjælp til abonnementer ydes gennem RevenueCat Customer Center. Når du åbner det, behandler RevenueCat de supporthandlinger, du vælger, og eventuelle frivillige valg i en spørgeundersøgelse sammen med din købsreference for at håndtere din anmodning. Dette er adskilt fra feedbackformularen i §3.3; beskeder og kontaktoplysninger fra den formular sendes ikke til RevenueCat. Med dit frivillige samtykke til brugsanalyse og abonnementskobling sender Ranked faste kategorier af supporthandlinger til PostHog uden fritekst eller kontaktoplysninger. Svar på spørgeundersøgelser sendes ikke til PostHog i denne version. Åbning af abonnementsadministrationen bekræfter ikke en opsigelse, og fuldførelse af en anmodning om refusion bekræfter ikke, at en refusion er godkendt.
 
 ### 3.3 Feedback- og supportbeskeder (Cloudflare og CloudKit)
 

@@ -7,7 +7,7 @@ permalink: /privacy/it/
 
 # Informativa sulla privacy · Calisthenics Skills – Ranked
 
-**Ultimo aggiornamento: 2026-11-05**
+**Ultimo aggiornamento: 2026-11-09**
 
 Questa informativa descrive quali dati Ranked raccoglie, dove vanno e quali scelte puoi fare.
 
@@ -68,6 +68,8 @@ Gli abbonamenti sono venduti e fatturati da **Apple** tramite l'App Store. Non v
 Per verificare se l'abbonamento è attivo, l'app usa **RevenueCat**. RevenueCat riceve la registrazione dell'acquisto dell'App Store relativa all'abbonamento — prodotto acquistato, data di inizio e di scadenza — insieme a informazioni tecniche standard, come la versione di iOS e dell'app. Riconosce l'installazione tramite un identificativo casuale che genera e memorizza sul dispositivo. Non forniamo a RevenueCat nome, indirizzo email o altri dati identificativi diretti. Ranked non ha account nell’app; l’identificativo casuale dell’installazione è associato all’abbonamento.
 
 Quando tocchi **Ripristina acquisti**, l'app chiede ad Apple gli acquisti effettuati con l'Apple Account connesso al dispositivo e ne trasmette l'esito a RevenueCat allo stesso modo.
+
+L'assistenza per gli abbonamenti viene fornita tramite RevenueCat Customer Center. Quando lo apri, RevenueCat tratta le azioni di assistenza che scegli e qualsiasi opzione che selezioni facoltativamente in un sondaggio, insieme al tuo riferimento di acquisto, per gestire la tua richiesta. Questo servizio è separato dal modulo di feedback di §3.3; i messaggi e i recapiti di quel modulo non vengono inviati a RevenueCat. Con il tuo consenso facoltativo all'analisi dell'utilizzo e al collegamento con l'abbonamento, Ranked invia a PostHog categorie fisse di azioni di assistenza, senza testo libero o recapiti. In questa versione le risposte ai sondaggi non vengono inviate a PostHog. Aprire la gestione dell'abbonamento non conferma la disdetta, e completare una richiesta di rimborso non conferma l'approvazione di un rimborso.
 
 ### 3.3 Messaggi di feedback e assistenza (Cloudflare e CloudKit)
 

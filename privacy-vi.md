@@ -7,7 +7,7 @@ permalink: /privacy/vi/
 
 # Chính sách quyền riêng tư · Calisthenics Skills – Ranked
 
-**Cập nhật lần cuối: 2026-11-05**
+**Cập nhật lần cuối: 2026-11-09**
 
 Chính sách này mô tả Ranked thu thập dữ liệu gì, dữ liệu được gửi đến đâu và bạn có thể làm gì.
 
@@ -68,6 +68,8 @@ Gói đăng ký được **Apple** bán và tính phí qua App Store. Chúng tô
 Ứng dụng dùng **RevenueCat** để kiểm tra gói đăng ký có đang hoạt động hay không. RevenueCat nhận hồ sơ mua gói đăng ký từ App Store — sản phẩm đã mua, thời điểm bắt đầu và hết hạn — cùng thông tin kỹ thuật tiêu chuẩn như phiên bản iOS và ứng dụng. RevenueCat nhận diện lượt cài đặt bằng mã ngẫu nhiên do chính họ tạo và lưu trên thiết bị. Chúng tôi không cung cấp cho RevenueCat tên, email hay thông tin nhận dạng khác; vì Ranked không có tài khoản, không có danh tính nào như vậy để cung cấp.
 
 Khi bạn nhấn **Khôi phục giao dịch mua**, ứng dụng hỏi Apple về các giao dịch được thực hiện bằng Tài khoản Apple đang đăng nhập trên thiết bị và chuyển kết quả cho RevenueCat theo cùng cách.
+
+Hỗ trợ về gói đăng ký được cung cấp thông qua RevenueCat Customer Center. Khi bạn mở dịch vụ này, RevenueCat xử lý những thao tác hỗ trợ bạn chọn và bất kỳ lựa chọn tự nguyện nào trong khảo sát cùng với mã tham chiếu mua hàng của bạn để giải quyết yêu cầu của bạn. Dịch vụ này tách biệt với biểu mẫu góp ý trong §3.3; tin nhắn và thông tin liên hệ từ biểu mẫu đó không được gửi đến RevenueCat. Khi bạn tự nguyện đồng ý với việc phân tích sử dụng và liên kết với gói đăng ký, Ranked gửi đến PostHog các danh mục thao tác hỗ trợ được quy định sẵn, không kèm văn bản tự do hay thông tin liên hệ. Câu trả lời khảo sát không được gửi đến PostHog trong phiên bản này. Việc mở mục quản lý gói đăng ký không xác nhận việc hủy, và việc hoàn tất yêu cầu hoàn tiền không xác nhận việc hoàn tiền được phê duyệt.
 
 ### 3.3 Tin nhắn góp ý và hỗ trợ (Cloudflare và CloudKit)
 

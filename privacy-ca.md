@@ -7,7 +7,7 @@ permalink: /privacy/ca/
 
 # Política de privacitat · Calisthenics Skills – Ranked
 
-**Última actualització: 2026-11-05**
+**Última actualització: 2026-11-09**
 
 Aquesta política explica quines dades recull Ranked, on van i què podeu fer al respecte.
 
@@ -68,6 +68,8 @@ Després del vostre consentiment voluntari per compartir l’ús, PostHog crea a
 Per comprovar si la subscripció està activa, l'aplicació fa servir **RevenueCat**. RevenueCat rep el registre de compra de l'App Store —el producte comprat, quan va començar i quan venç— juntament amb informació tècnica habitual com la versió d'iOS i de l'aplicació. Identifica la instal·lació amb un identificador aleatori que genera ella mateixa i desa al dispositiu. No facilitem a RevenueCat el vostre nom, correu electrònic ni cap altra identitat; com que Ranked no té comptes, no hi ha cap identitat d'aquest tipus per facilitar.
 
 Quan toqueu **Restaura les compres**, l'aplicació demana a Apple les compres fetes amb el Compte d'Apple amb què s'ha iniciat sessió al dispositiu i passa el resultat a RevenueCat de la mateixa manera.
+
+L'assistència per a les subscripcions s'ofereix a través de RevenueCat Customer Center. Quan l'obriu, RevenueCat tracta les accions d'assistència que trieu i qualsevol opció que seleccioneu voluntàriament en una enquesta, juntament amb la vostra referència de compra, per atendre la vostra sol·licitud. Aquest servei és independent del formulari d'opinió del §3.3; els missatges i les dades de contacte d'aquell formulari no s'envien a RevenueCat. Amb el vostre consentiment opcional per a l'anàlisi d'ús i per a la vinculació amb la subscripció, Ranked envia a PostHog categories fixes d'accions d'assistència, sense text lliure ni dades de contacte. Les respostes a les enquestes no s'envien a PostHog en aquesta versió. L'obertura de la gestió de la subscripció no confirma la cancel·lació, i la finalització d'una sol·licitud de reemborsament no confirma l'aprovació d'un reemborsament.
 
 ### 3.3 Missatges d’opinió i assistència (Cloudflare i CloudKit)
 

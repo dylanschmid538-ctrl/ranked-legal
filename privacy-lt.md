@@ -8,7 +8,7 @@ permalink: /privacy/lt/
 
 # Privatumo politika · Calisthenics Skills – Ranked
 
-**Paskutinį kartą atnaujinta: 2026-11-05**
+**Paskutinį kartą atnaujinta: 2026-11-09**
 
 Ši politika aprašo, ką „Ranked“ renka, kur tai keliauja ir ką Jūs galite dėl to padaryti.
 
@@ -84,6 +84,8 @@ Jūsų įrenginyje. „RevenueCat“ neperduodame Jūsų vardo, el. pašto adres
 
 Kai bakstelite **Atkurti pirkinius**, programėlė paklausia „Apple“ apie pirkinius, atliktus
 įrenginyje prisijungusia „Apple“ paskyra, ir rezultatą tuo pačiu būdu perduoda „RevenueCat“.
+
+Pagalba dėl prenumeratų teikiama per „RevenueCat Customer Center“. Kai jį atidarote, „RevenueCat“ tvarko Jūsų pasirinktus pagalbos veiksmus ir bet kokį savanorišką pasirinkimą apklausoje kartu su Jūsų pirkimo nuoroda, kad galėtų išnagrinėti Jūsų prašymą. Tai yra atskira nuo §3.3 aprašytos atsiliepimų formos; tos formos pranešimai ir kontaktiniai duomenys nesiunčiami „RevenueCat“. Gavusi Jūsų savanorišką sutikimą dėl naudojimo analitikos ir susiejimo su prenumerata, „Ranked“ siunčia „PostHog“ fiksuotas pagalbos veiksmų kategorijas be laisvo teksto ar kontaktinių duomenų. Šioje versijoje apklausų atsakymai nesiunčiami „PostHog“. Prenumeratos valdymo atidarymas nepatvirtina jos atšaukimo, o prašymo grąžinti pinigus užbaigimas nepatvirtina, kad pinigų grąžinimui pritarta.
 
 ### 3.3 Atsiliepimų ir pagalbos pranešimai (Cloudflare ir CloudKit)
 

@@ -8,7 +8,7 @@ permalink: /privacy/fr/
 
 # Politique de confidentialité · Calisthenics Skills – Ranked
 
-**Dernière mise à jour : 2026-11-05**
+**Dernière mise à jour : 2026-11-09**
 
 La présente politique décrit ce que Ranked collecte, où cela va et ce que vous pouvez y faire.
 
@@ -87,6 +87,8 @@ donner.
 Lorsque vous appuyez sur **Restaurer les achats**, l'application demande à Apple les achats
 effectués avec le compte Apple connecté sur l'appareil et transmet le résultat à RevenueCat de la
 même manière.
+
+L’aide relative aux abonnements est fournie par l’intermédiaire de RevenueCat Customer Center. Lorsque vous l’ouvrez, RevenueCat traite les actions d’assistance que vous choisissez et toute option sélectionnée à titre facultatif dans une enquête, ainsi que votre référence d’achat, pour répondre à votre demande. Ce service est distinct du formulaire d’avis décrit au §3.3 ; les messages et les coordonnées de ce formulaire ne sont pas transmis à RevenueCat. Avec votre consentement facultatif à l’analyse d’utilisation et au lien avec l’abonnement, Ranked transmet à PostHog des catégories fixes d’actions d’assistance, sans texte libre ni coordonnées. Les réponses aux enquêtes ne sont pas transmises à PostHog dans cette version. L’ouverture de la gestion des abonnements ne confirme pas la résiliation, et le fait de compléter une demande de remboursement ne confirme pas l’approbation d’un remboursement.
 
 ### 3.3 Messages et demandes d’aide (Cloudflare et CloudKit)
 

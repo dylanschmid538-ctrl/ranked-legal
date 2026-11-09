@@ -7,7 +7,7 @@ permalink: /privacy/nl/
 
 # Privacyverklaring · Calisthenics Skills – Ranked
 
-**Laatst bijgewerkt: 2026-11-05**
+**Laatst bijgewerkt: 2026-11-09**
 
 Deze verklaring beschrijft welke gegevens Ranked verzamelt, waar ze naartoe gaan en wat u eraan kunt doen.
 
@@ -68,6 +68,8 @@ Abonnementen worden door **Apple** verkocht en gefactureerd via de App Store. Wi
 Om te controleren of uw abonnement actief is, gebruikt de app **RevenueCat**. RevenueCat ontvangt het App Store-aankoopbewijs voor uw abonnement — het gekochte product, wanneer het begon en wanneer het afloopt — samen met standaard technische informatie zoals uw iOS-versie en appversie. Het herkent uw installatie via een willekeurige code die het zelf aanmaakt en op uw apparaat opslaat. Wij verstrekken RevenueCat niet uw naam, e-mailadres of andere direct identificerende gegevens. Ranked heeft geen appaccounts; de willekeurige installatiecode is gekoppeld aan het abonnement.
 
 Als u op **Aankopen herstellen** tikt, vraagt de app Apple om de aankopen die zijn gedaan met het Apple Account dat op het apparaat is aangemeld en geeft het resultaat op dezelfde manier door aan RevenueCat.
+
+Hulp bij abonnementen wordt geboden via RevenueCat Customer Center. Wanneer u dit opent, verwerkt RevenueCat de supportacties die u kiest en eventuele vrijwillig gemaakte keuzes in een enquête, samen met uw aankoopreferentie, om uw verzoek af te handelen. Dit staat los van het feedbackformulier in §3.3; de berichten en contactgegevens uit dat formulier worden niet naar RevenueCat verzonden. Met uw vrijwillige toestemming voor gebruiksanalyse en voor de koppeling met het abonnement stuurt Ranked vaste categorieën van supportacties naar PostHog, zonder vrije tekst of contactgegevens. Antwoorden op enquêtes worden in deze versie niet naar PostHog verzonden. Het openen van abonnementsbeheer bevestigt geen opzegging, en het afronden van een terugbetalingsverzoek bevestigt niet dat een terugbetaling is goedgekeurd.
 
 ### 3.3 Feedback- en supportberichten (Cloudflare en CloudKit)
 

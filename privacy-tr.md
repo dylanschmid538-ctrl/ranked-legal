@@ -7,7 +7,7 @@ permalink: /privacy/tr/
 
 # Gizlilik Politikası · Calisthenics Skills – Ranked
 
-**Son güncelleme: 2026-11-05**
+**Son güncelleme: 2026-11-09**
 
 Bu politika, Ranked'in hangi verileri topladığını, bunların nereye gittiğini ve bu konuda neler yapabileceğinizi açıklar.
 
@@ -68,6 +68,8 @@ Abonelikler App Store üzerinden **Apple** tarafından satılır ve ücretlendir
 Aboneliğinizin etkin olup olmadığını kontrol etmek için uygulama **RevenueCat** kullanır. RevenueCat, satın alınan ürün ile aboneliğin başlangıç ve bitiş tarihini içeren App Store satın alma kaydını ve iOS ile uygulama sürümü gibi standart teknik bilgileri alır. Yüklemenizi, kendisinin oluşturup cihazınızda sakladığı rastgele bir tanımlayıcıyla tanır. RevenueCat'e adınızı, e-posta adresinizi veya başka bir kimlik bilgisi vermeyiz; Ranked'de hesap olmadığından verilecek böyle bir kimlik de yoktur.
 
 **Satın Almaları Geri Yükle** seçeneğine dokunduğunuzda uygulama, cihazda oturum açılmış Apple Hesabı ile yapılan satın almaları Apple'dan ister ve sonucu aynı şekilde RevenueCat'e iletir.
+
+Abonelik desteği RevenueCat Customer Center aracılığıyla sağlanır. Bunu açtığınızda RevenueCat, talebinizi ele almak için seçtiğiniz destek işlemlerini ve yaptığınız isteğe bağlı anket seçimlerini satın alma referansınızla birlikte işler. Bu, §3.3'teki görüş formundan ayrıdır; o formdaki mesajlar ve iletişim bilgileri RevenueCat'e gönderilmez. Kullanım analizi ve abonelikle ilişkilendirme için isteğe bağlı olarak verdiğiniz onayla Ranked, serbest metin veya iletişim bilgileri olmadan sabit destek işlemi kategorilerini PostHog'a gönderir. Bu sürümde anket yanıtları PostHog'a gönderilmez. Abonelik yönetimini açmak iptali doğrulamaz ve bir geri ödeme talebini tamamlamak, geri ödemenin onaylandığını doğrulamaz.
 
 ### 3.3 Görüş ve destek mesajları (Cloudflare ve CloudKit)
 

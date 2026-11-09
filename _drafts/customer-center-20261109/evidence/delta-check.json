@@ -1,0 +1,513 @@
+{
+  "baseline_commit": "cf351655899bf53b64d256f4e4e6952a8050a327",
+  "checks": {
+    "privacy_pages": 34,
+    "translation_deltas": 33,
+    "source_deltas": 1,
+    "selector_destinations": 33,
+    "regional_entries_from_2026_10_15_evidence": 37,
+    "rtl_pages": 2,
+    "support_pages": 1
+  },
+  "pages": [
+    {
+      "file": "privacy-ar.md",
+      "locale": "ar",
+      "route": "/privacy/ar/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 613,
+      "frontmatter_preserved": true,
+      "sha256": "18b178bbe21ed258feea063db860584fa3af720e4050edbc3af05713adccad8a"
+    },
+    {
+      "file": "privacy-ca.md",
+      "locale": "ca",
+      "route": "/privacy/ca/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 890,
+      "frontmatter_preserved": true,
+      "sha256": "13468bfa2cd7401417deef0e1c91b123c57e23a196b08e7a6e872cab811e3e99"
+    },
+    {
+      "file": "privacy-cs.md",
+      "locale": "cs",
+      "route": "/privacy/cs/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 782,
+      "frontmatter_preserved": true,
+      "sha256": "b8079a3e62e3b2374ab6620ade92c8adefcc4c80ee9249d1f22801e755995742"
+    },
+    {
+      "file": "privacy-da.md",
+      "locale": "da",
+      "route": "/privacy/da/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 766,
+      "frontmatter_preserved": true,
+      "sha256": "bb4e0a6d7203e1babfe9077c2373af1cfe5c8a28cb780033412767f7c1263621"
+    },
+    {
+      "file": "privacy-de.md",
+      "locale": "de",
+      "route": "/privacy/de/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 818,
+      "frontmatter_preserved": true,
+      "sha256": "49503aa9959600bd08f3f8e0cb9f595170dcc3af26009874a0ece0788676e5d8"
+    },
+    {
+      "file": "privacy-el.md",
+      "locale": "el",
+      "route": "/privacy/el/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 871,
+      "frontmatter_preserved": true,
+      "sha256": "3e9bd35e93ef1bc7bb168852c2aa966fb759734efc6c014e8aa5169de3938b49"
+    },
+    {
+      "file": "privacy-es.md",
+      "locale": "es",
+      "route": "/privacy/es/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 849,
+      "frontmatter_preserved": true,
+      "sha256": "1eab5f17ab2235288dda4490b5cdeab0ae06ee7a9d9c6b1d936806f730c7b7d0"
+    },
+    {
+      "file": "privacy-fi.md",
+      "locale": "fi",
+      "route": "/privacy/fi/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 774,
+      "frontmatter_preserved": true,
+      "sha256": "3778a80bd1607f0ca8801f4f27e982c5a1f7fd2075a1a24fe23fc34bf2e273e8"
+    },
+    {
+      "file": "privacy-fr.md",
+      "locale": "fr",
+      "route": "/privacy/fr/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 909,
+      "frontmatter_preserved": true,
+      "sha256": "8ad7a022555a50cfb69a4cd5ed82fb88c2774ac562cd72a1a0bc87d17c74152c"
+    },
+    {
+      "file": "privacy-he.md",
+      "locale": "he",
+      "route": "/privacy/he/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 559,
+      "frontmatter_preserved": true,
+      "sha256": "944d15ae1604f53cea155c1da09abe79afccf10343c1d6908aac99b77dc7ba4b"
+    },
+    {
+      "file": "privacy-hr.md",
+      "locale": "hr",
+      "route": "/privacy/hr/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 760,
+      "frontmatter_preserved": true,
+      "sha256": "8f93f89ccf7e6369ac8ee8563e8b1c5de312d52fe9cf84bde6e15ed6fd97c4fc"
+    },
+    {
+      "file": "privacy-hu.md",
+      "locale": "hu",
+      "route": "/privacy/hu/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 916,
+      "frontmatter_preserved": true,
+      "sha256": "6d0a8f8eb2ff8648961d43d3ef574eec688b21c014b9c43672f8f58de36b91b1"
+    },
+    {
+      "file": "privacy-id.md",
+      "locale": "id",
+      "route": "/privacy/id/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 815,
+      "frontmatter_preserved": true,
+      "sha256": "63c63e6e1367cdd4d361e10b4d4f35dc7b742f264de12fd824e178cc779ffc86"
+    },
+    {
+      "file": "privacy-it.md",
+      "locale": "it",
+      "route": "/privacy/it/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 830,
+      "frontmatter_preserved": true,
+      "sha256": "4a734662a159bf171e515040bcf0f70ceb8075bbe35c42a1d4358cc78831c70a"
+    },
+    {
+      "file": "privacy-ja.md",
+      "locale": "ja",
+      "route": "/privacy/ja/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 389,
+      "frontmatter_preserved": true,
+      "sha256": "501a0585a4276d975a6a90d25d8e8cdcf68c67cd38b3a3e4d40e56af27305c11"
+    },
+    {
+      "file": "privacy-ko.md",
+      "locale": "ko",
+      "route": "/privacy/ko/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 384,
+      "frontmatter_preserved": true,
+      "sha256": "14d390755fce021a98b2a212865b0b0d2d95944eda48a2c27fcb68ed5daf6e32"
+    },
+    {
+      "file": "privacy-lt.md",
+      "locale": "lt",
+      "route": "/privacy/lt/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 778,
+      "frontmatter_preserved": true,
+      "sha256": "de6f37ff2185b63d711544f266fcf961b8f23c7c83aa4835e1b7ae41e8380f49"
+    },
+    {
+      "file": "privacy-lv.md",
+      "locale": "lv",
+      "route": "/privacy/lv/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 742,
+      "frontmatter_preserved": true,
+      "sha256": "e95959fa709a761948c0c3172ca36aa922d3cfefcc6c2c8b885895f3e87b1abd"
+    },
+    {
+      "file": "privacy-ms.md",
+      "locale": "ms",
+      "route": "/privacy/ms/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 808,
+      "frontmatter_preserved": true,
+      "sha256": "cf2366eccb8dc3077336c799fc6ed57f0666858182f807a9d4456a5aa5499600"
+    },
+    {
+      "file": "privacy-nl.md",
+      "locale": "nl",
+      "route": "/privacy/nl/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 820,
+      "frontmatter_preserved": true,
+      "sha256": "3389b6ff6f82ce8ebea8ad80c427f9eca712fdac3c49390050c8c99fe934f277"
+    },
+    {
+      "file": "privacy-no.md",
+      "locale": "no",
+      "route": "/privacy/no/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 788,
+      "frontmatter_preserved": true,
+      "sha256": "f6571eb4f5f35793d7dfc48e98584814b3f6f91e89a7bd0eef700894f18da64a"
+    },
+    {
+      "file": "privacy-pl.md",
+      "locale": "pl",
+      "route": "/privacy/pl/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 830,
+      "frontmatter_preserved": true,
+      "sha256": "2c3a7425197ffe7b7c9bf54f02b546b1b03dc63dbe39dcadc65a6129c3fa09fd"
+    },
+    {
+      "file": "privacy-pt.md",
+      "locale": "pt",
+      "route": "/privacy/pt/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 823,
+      "frontmatter_preserved": true,
+      "sha256": "b248e89d417216568d1906a1b4f40e04ab69aa095a4764557d8abba135830c34"
+    },
+    {
+      "file": "privacy-ro.md",
+      "locale": "ro",
+      "route": "/privacy/ro/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 832,
+      "frontmatter_preserved": true,
+      "sha256": "6a4144335a05144b6834f08fe4f7d60b4309356e6b7fb93e3107d97c0fb5377f"
+    },
+    {
+      "file": "privacy-ru.md",
+      "locale": "ru",
+      "route": "/privacy/ru/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 818,
+      "frontmatter_preserved": true,
+      "sha256": "0970d1b606d35776ec7e89497d8d3c0e0ecf567693e1dd75823231709ffa1fc9"
+    },
+    {
+      "file": "privacy-sk.md",
+      "locale": "sk",
+      "route": "/privacy/sk/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 791,
+      "frontmatter_preserved": true,
+      "sha256": "e3505c2f6b3408d0bec37b43434959a572453944fc3538e40f4f663a446499f1"
+    },
+    {
+      "file": "privacy-sl.md",
+      "locale": "sl",
+      "route": "/privacy/sl/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 793,
+      "frontmatter_preserved": true,
+      "sha256": "c1cd6ed6c6931371528f313995ea550336353557c84a82d7bf47664895cac1f8"
+    },
+    {
+      "file": "privacy-sv.md",
+      "locale": "sv",
+      "route": "/privacy/sv/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 772,
+      "frontmatter_preserved": true,
+      "sha256": "5bcce87906416c91b6b597d3a58c7562a83a14dfa92957f09a89b6826cd6cdf9"
+    },
+    {
+      "file": "privacy-th.md",
+      "locale": "th",
+      "route": "/privacy/th/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 761,
+      "frontmatter_preserved": true,
+      "sha256": "75c8672d15257169a8374d2d6ff3c88010dcf4c8d53faa4a90cc24df7178f9c5"
+    },
+    {
+      "file": "privacy-tr.md",
+      "locale": "tr",
+      "route": "/privacy/tr/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 716,
+      "frontmatter_preserved": true,
+      "sha256": "ac7aa0fb114c3abf355af3cd0595addb69d17c25d4e60c872cbddfc18c311e62"
+    },
+    {
+      "file": "privacy-vi.md",
+      "locale": "vi",
+      "route": "/privacy/vi/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 799,
+      "frontmatter_preserved": true,
+      "sha256": "2aad67e754ff74fb87ab597440c7cb52fef867bc914e743379d3cbaea79f1950"
+    },
+    {
+      "file": "privacy-zh-Hans.md",
+      "locale": "zh-Hans",
+      "route": "/privacy/zh-Hans/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 268,
+      "frontmatter_preserved": true,
+      "sha256": "c33f49e01ffd8e7c78183edc75160443de723a0af33f1fe8eb437079169f373d"
+    },
+    {
+      "file": "privacy-zh-Hant.md",
+      "locale": "zh-Hant",
+      "route": "/privacy/zh-Hant/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 269,
+      "frontmatter_preserved": true,
+      "sha256": "2bca387f7bd5ae82bb2ebeb60e99df61dddcec71982521655f08a5f971895051"
+    },
+    {
+      "file": "privacy.md",
+      "locale": "en",
+      "route": "/privacy/",
+      "baseline_reconstructed": true,
+      "paragraph_characters": 691,
+      "frontmatter_preserved": true,
+      "sha256": "6be80d502fe78dbea4866b5006fcdd3a9386fc232c31ffbb78c6f11a18ce352b"
+    }
+  ],
+  "regional_mapping": [
+    {
+      "store": "sk",
+      "app": "sk",
+      "route": "/privacy/sk/"
+    },
+    {
+      "store": "es-MX",
+      "app": "es-MX",
+      "route": "/privacy/es/"
+    },
+    {
+      "store": "pl",
+      "app": "pl",
+      "route": "/privacy/pl/"
+    },
+    {
+      "store": "th",
+      "app": "th",
+      "route": "/privacy/th/"
+    },
+    {
+      "store": "it",
+      "app": "it",
+      "route": "/privacy/it/"
+    },
+    {
+      "store": "vi",
+      "app": "vi",
+      "route": "/privacy/vi/"
+    },
+    {
+      "store": "en-CA",
+      "app": "en",
+      "route": "/privacy/"
+    },
+    {
+      "store": "ca",
+      "app": "ca",
+      "route": "/privacy/ca/"
+    },
+    {
+      "store": "id",
+      "app": "id",
+      "route": "/privacy/id/"
+    },
+    {
+      "store": "zh-Hans",
+      "app": "zh-Hans",
+      "route": "/privacy/zh-Hans/"
+    },
+    {
+      "store": "da",
+      "app": "da",
+      "route": "/privacy/da/"
+    },
+    {
+      "store": "pt-BR",
+      "app": "pt-BR",
+      "route": "/privacy/pt/"
+    },
+    {
+      "store": "en-GB",
+      "app": "en",
+      "route": "/privacy/"
+    },
+    {
+      "store": "nl-NL",
+      "app": "nl",
+      "route": "/privacy/nl/"
+    },
+    {
+      "store": "fr-FR",
+      "app": "fr",
+      "route": "/privacy/fr/"
+    },
+    {
+      "store": "fi",
+      "app": "fi",
+      "route": "/privacy/fi/"
+    },
+    {
+      "store": "tr",
+      "app": "tr",
+      "route": "/privacy/tr/"
+    },
+    {
+      "store": "ro",
+      "app": "ro",
+      "route": "/privacy/ro/"
+    },
+    {
+      "store": "en-US",
+      "app": "en",
+      "route": "/privacy/"
+    },
+    {
+      "store": "ja",
+      "app": "ja",
+      "route": "/privacy/ja/"
+    },
+    {
+      "store": "el",
+      "app": "el",
+      "route": "/privacy/el/"
+    },
+    {
+      "store": "hr",
+      "app": "hr",
+      "route": "/privacy/hr/"
+    },
+    {
+      "store": "ar-SA",
+      "app": "ar",
+      "route": "/privacy/ar/"
+    },
+    {
+      "store": "sv",
+      "app": "sv",
+      "route": "/privacy/sv/"
+    },
+    {
+      "store": "zh-Hant",
+      "app": "zh-Hant",
+      "route": "/privacy/zh-Hant/"
+    },
+    {
+      "store": "de-DE",
+      "app": "de",
+      "route": "/privacy/de/"
+    },
+    {
+      "store": "no",
+      "app": "nb",
+      "route": "/privacy/no/"
+    },
+    {
+      "store": "pt-PT",
+      "app": "pt-PT",
+      "route": "/privacy/pt/"
+    },
+    {
+      "store": "cs",
+      "app": "cs",
+      "route": "/privacy/cs/"
+    },
+    {
+      "store": "es-ES",
+      "app": "es",
+      "route": "/privacy/es/"
+    },
+    {
+      "store": "he",
+      "app": "he",
+      "route": "/privacy/he/"
+    },
+    {
+      "store": "fr-CA",
+      "app": "fr-CA",
+      "route": "/privacy/fr/"
+    },
+    {
+      "store": "en-AU",
+      "app": "en",
+      "route": "/privacy/"
+    },
+    {
+      "store": "ru",
+      "app": "ru",
+      "route": "/privacy/ru/"
+    },
+    {
+      "store": "ko",
+      "app": "ko",
+      "route": "/privacy/ko/"
+    },
+    {
+      "store": "hu",
+      "app": "hu",
+      "route": "/privacy/hu/"
+    },
+    {
+      "store": "ms",
+      "app": "ms",
+      "route": "/privacy/ms/"
+    }
+  ],
+  "errors": [],
+  "not_verified": [
+    "Real Jekyll/GitHub Pages rendering: Jekyll/kramdown/theme unavailable locally.",
+    "Current ASC inventory not re-fetched; regional coverage grounded in dated 2026-10-15 evidence.",
+    "Translation legal/linguistic accuracy and app/provider runtime behavior outside this text/layout delta test."
+  ]
+}

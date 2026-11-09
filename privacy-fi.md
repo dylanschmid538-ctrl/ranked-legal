@@ -7,7 +7,7 @@ permalink: /privacy/fi/
 
 # Tietosuojaseloste · Calisthenics Skills – Ranked
 
-**Päivitetty viimeksi: 2026-11-05**
+**Päivitetty viimeksi: 2026-11-09**
 
 Tässä selosteessa kerrotaan, mitä tietoja Ranked kerää, minne ne siirtyvät ja mitä voit tehdä asialle.
 
@@ -68,6 +68,8 @@ Kun olet vapaaehtoisesti suostunut käyttötietojen jakamiseen, PostHog luo lait
 Sovellus käyttää **RevenueCatia** tarkistaakseen tilauksesi voimassaolon. RevenueCat saa tilauksesi App Store -ostotiedon — ostetun tuotteen sekä tilauksen alku- ja päättymisajan — ja tavanomaisia teknisiä tietoja, kuten iOS- ja sovellusversion. Se tunnistaa sovelluksen asennuksen itse luomallaan satunnaisella tunnisteella, joka tallennetaan laitteellesi. Emme anna RevenueCatille nimeäsi, sähköpostiosoitettasi tai muuta henkilöllisyyttä; koska Rankedissa ei ole tilejä, sellaista ei ole annettavaksi.
 
 Kun napautat **Palauta ostot**, sovellus pyytää Applelta laitteelle kirjautuneella Apple-tilillä tehdyt ostot ja välittää tuloksen RevenueCatille samalla tavalla.
+
+Tilauksiin liittyvää apua tarjotaan RevenueCat Customer Center -palvelun kautta. Kun avaat sen, RevenueCat käsittelee valitsemasi tukitoimet ja mahdolliset vapaaehtoiset kyselyvalintasi yhdessä ostoviitteesi kanssa pyyntösi käsittelemiseksi. Tämä palvelu on erillinen kohdassa §3.3 kuvatusta palautelomakkeesta; kyseisen lomakkeen viestejä ja yhteystietoja ei lähetetä RevenueCatille. Vapaaehtoisella suostumuksellasi käyttöanalytiikkaan ja tilaukseen yhdistämiseen Ranked lähettää PostHogille ennalta määriteltyjä tukitoimien luokkia ilman vapaata tekstiä tai yhteystietoja. Kyselyvastauksia ei lähetetä PostHogille tässä versiossa. Tilauksen hallinnan avaaminen ei vahvista tilauksen peruuttamista, eikä hyvityspyynnön loppuun saattaminen vahvista hyvityksen hyväksymistä.
 
 ### 3.3 Palaute- ja tukiviestit (Cloudflare ja CloudKit)
 

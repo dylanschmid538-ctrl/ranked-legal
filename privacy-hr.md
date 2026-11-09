@@ -7,7 +7,7 @@ permalink: /privacy/hr/
 
 # Pravila o privatnosti · Calisthenics Skills – Ranked
 
-**Posljednje ažuriranje: 2026-11-05**
+**Posljednje ažuriranje: 2026-11-09**
 
 Ova pravila opisuju koje podatke Ranked prikuplja, kamo odlaze i što možete učiniti u vezi s njima.
 
@@ -68,6 +68,8 @@ Pretplate prodaje i naplaćuje **Apple** putem App Storea. Nikad ne vidimo vaše
 Za provjeru aktivne pretplate aplikacija koristi **RevenueCat**. RevenueCat prima zapis kupnje iz App Storea — kupljeni proizvod, početak i istek pretplate — zajedno sa standardnim tehničkim podacima kao što su verzije iOS-a i aplikacije. Instalaciju prepoznaje po nasumičnoj oznaci koju sam stvara i pohranjuje na uređaju. Ne dajemo RevenueCatu vaše ime, e-poštu ni drugi identitet; Ranked nema račune, pa takvog identiteta nema.
 
 Kad dodirnete **Vrati kupnje**, aplikacija traži od Applea kupnje povezane s Apple računom prijavljenim na uređaju i rezultat prosljeđuje RevenueCatu na isti način.
+
+Podrška za pretplate pruža se putem usluge RevenueCat Customer Center. Kada je otvorite, RevenueCat obrađuje radnje podrške koje odaberete i eventualne neobavezne odabire u anketi, zajedno s vašom referencom kupnje, radi obrade vašeg zahtjeva. To je odvojeno od obrasca za povratne informacije iz §3.3; poruke i podaci za kontakt iz tog obrasca ne šalju se usluzi RevenueCat. Uz vaš dobrovoljni pristanak na analizu upotrebe i na povezivanje s pretplatom, Ranked šalje usluzi PostHog fiksne kategorije radnji podrške, bez slobodnog teksta ili podataka za kontakt. Odgovori na ankete u ovoj se verziji ne šalju usluzi PostHog. Otvaranje upravljanja pretplatama ne potvrđuje otkazivanje, a dovršetak zahtjeva za povrat novca ne potvrđuje odobrenje povrata novca.
 
 ### 3.3 Poruke s povratnim informacijama i upiti podršci (Cloudflare i CloudKit)
 

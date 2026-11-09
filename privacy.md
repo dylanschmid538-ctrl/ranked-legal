@@ -7,7 +7,7 @@ permalink: /privacy/
 
 # Privacy Policy · Calisthenics Skills – Ranked
 
-**Last updated: 2026-11-05**
+**Last updated: 2026-11-09**
 
 This policy describes what Ranked collects, where it goes, and what you can do about it.
 
@@ -118,6 +118,8 @@ because Ranked has no accounts, there is none to give.
 
 When you tap **Restore Purchases**, the app asks Apple for the purchases made with the Apple
 Account signed in on the device and passes the result to RevenueCat in the same way.
+
+Subscription help is provided through RevenueCat Customer Center. When you open it, RevenueCat processes the support actions you choose and any optional survey selection together with your purchase reference to handle your request. This is separate from the feedback form in §3.3; that form’s messages and contact details are not sent to RevenueCat. With your optional usage and subscription-link consent, Ranked sends PostHog fixed categories of support actions, without free text or contact details. Survey answers are not sent to PostHog in this version. Opening subscription management does not confirm cancellation, and completing a refund request does not confirm approval of a refund.
 
 ### 3.3 Feedback and support (Cloudflare and CloudKit)
 

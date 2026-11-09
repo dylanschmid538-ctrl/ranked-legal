@@ -7,7 +7,7 @@ permalink: /privacy/ro/
 
 # Politica de confidențialitate · Calisthenics Skills – Ranked
 
-**Ultima actualizare: 2026-11-05**
+**Ultima actualizare: 2026-11-09**
 
 Această politică descrie ce date colectează Ranked, unde ajung și ce puteți face în privința lor.
 
@@ -68,6 +68,8 @@ Abonamentele sunt vândute și facturate de **Apple** prin App Store. Nu vedem n
 Pentru a verifica dacă abonamentul este activ, aplicația folosește **RevenueCat**. RevenueCat primește înregistrarea cumpărării din App Store — produsul cumpărat, data începerii și data expirării — împreună cu informații tehnice standard, precum versiunea iOS și a aplicației. Identifică instalarea printr-un identificator aleatoriu generat de RevenueCat și stocat pe dispozitiv. Nu îi transmitem numele, adresa de e-mail sau altă identitate; Ranked nu are conturi, deci nu există o asemenea identitate de transmis.
 
 Când apăsați **Restaurare cumpărături**, aplicația cere de la Apple cumpărăturile făcute cu contul Apple conectat pe dispozitiv și transmite rezultatul către RevenueCat în același mod.
+
+Asistența pentru abonamente este oferită prin RevenueCat Customer Center. Când îl deschideți, RevenueCat prelucrează acțiunile de asistență pe care le alegeți și orice selecție opțională din sondaj, împreună cu referința dvs. de achiziție, pentru a vă soluționa cererea. Acest serviciu este separat de formularul de feedback din §3.3; mesajele și datele de contact din acel formular nu sunt trimise către RevenueCat. Cu consimțământul dvs. voluntar pentru analiza utilizării și pentru asocierea cu abonamentul, Ranked trimite către PostHog categorii fixe de acțiuni de asistență, fără text liber sau date de contact. Răspunsurile la sondaje nu sunt trimise către PostHog în această versiune. Deschiderea gestionării abonamentului nu confirmă anularea, iar finalizarea unei cereri de rambursare nu confirmă aprobarea unei rambursări.
 
 ### 3.3 Mesaje de feedback și asistență (Cloudflare și CloudKit)
 
